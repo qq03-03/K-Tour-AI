@@ -1,0 +1,66 @@
+{
+  "schema_version": "0.1",
+  "description": "더미 텍스트 검색의 Recall@K와 MRR 측정을 위한 질문-정답 구간",
+  "queries": [
+    {
+      "query_id": "Q001",
+      "query": "가을 단풍이 보이는 조용한 한옥 촬영지",
+      "relevant_segment_ids": ["SEG_001", "SEG_020"],
+      "rationale": "두 구간 모두 가을, 단풍, 고요한 분위기, 한옥 조건을 충족한다."
+    },
+    {
+      "query_id": "Q002",
+      "query": "여름 낮 푸른 바다에서 수영하는 활기찬 해변",
+      "relevant_segment_ids": ["SEG_008"],
+      "rationale": "해운대 구간이 여름 낮, 바다, 수영, 활기찬 해변 조건을 모두 충족한다."
+    },
+    {
+      "query_id": "Q003",
+      "query": "눈 내린 고요한 겨울 궁궐",
+      "relevant_segment_ids": ["SEG_005"],
+      "rationale": "경복궁 설경 구간이 겨울, 눈, 고요함, 궁궐 조건에 해당한다."
+    },
+    {
+      "query_id": "Q004",
+      "query": "봄 벚꽃이 핀 낭만적인 서울 궁궐 산책",
+      "relevant_segment_ids": ["SEG_006"],
+      "rationale": "봄 경복궁 벚꽃 산책 구간이 모든 조건을 직접 포함한다."
+    },
+    {
+      "query_id": "Q005",
+      "query": "여름 대나무 숲길을 조용히 걷고 싶어",
+      "relevant_segment_ids": ["SEG_015"],
+      "rationale": "담양 대나무숲 구간이 여름, 고요한 숲길 산책 조건에 해당한다."
+    },
+    {
+      "query_id": "Q006",
+      "query": "가을 노을을 보며 걷는 조용한 부산 바닷가",
+      "relevant_segment_ids": ["SEG_009"],
+      "rationale": "다대포 구간이 가을, 부산, 바다, 노을, 조용한 산책 조건을 충족한다."
+    },
+    {
+      "query_id": "Q007",
+      "query": "겨울 눈밭에서 스키를 타는 역동적인 산",
+      "relevant_segment_ids": ["SEG_014"],
+      "rationale": "평창 구간이 겨울 설산의 스키 활동을 담고 있다."
+    },
+    {
+      "query_id": "Q008",
+      "query": "화려한 밤의 도시 야경을 산책하는 장면",
+      "relevant_segment_ids": ["SEG_019"],
+      "rationale": "송도 구간이 밤, 도시 야경, 산책 조건을 직접 포함한다."
+    },
+    {
+      "query_id": "Q009",
+      "query": "초록빛 언덕을 걷는 평화로운 여름 풍경",
+      "relevant_segment_ids": ["SEG_017"],
+      "rationale": "보성 녹차밭 구간이 초록 언덕, 여름, 평화로운 산책 조건에 가장 잘 맞는다."
+    },
+    {
+      "query_id": "Q010",
+      "query": "적막한 기와집 주변에 붉은 잎이 보이는 곳",
+      "relevant_segment_ids": ["SEG_001", "SEG_020"],
+      "rationale": "기와집은 한옥, 붉은 잎은 단풍, 적막함은 고요함을 바꿔 표현한 어려운 질문이다."
+    }
+  ]
+}
