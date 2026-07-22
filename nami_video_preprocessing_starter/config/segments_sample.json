@@ -1,0 +1,32 @@
+[
+  {
+    "segment_id": "SEG_NAMI_01_01",
+    "video_id": "VID_NAMI_01",
+    "source_filename": "VID_NAMI_01.mp4",
+    "start_sec": 0.0,
+    "end_sec": 7.5,
+    "spot_name": "여름 숲속 정자와 여름꽃 이쁜 수국",
+    "description": "울창한 초록 숲 아래 나무 정자에서 관광객이 휴식하는 장면과 분홍색과 흰색 수국이 가까이 보이는 남이섬 여름 정원 풍경",
+    "representative_frame_sec": 3.7
+  },
+  {
+    "segment_id": "SEG_NAMI_01_02",
+    "video_id": "VID_NAMI_01",
+    "source_filename": "VID_NAMI_01.mp4",
+    "start_sec": 7.5,
+    "end_sec": 15.0,
+    "spot_name": "숲속 피크닉과 이쁜 디저트& 귀여운 토끼",
+    "description": "여름 풍경과 숲속 피크닉에서 디저트를 즐기는 장면과 귀여운 토끼까지",
+    "representative_frame_sec": 3.4
+  },
+  {
+    "segment_id": "SEG_NAMI_01_03",
+    "video_id": "VID_NAMI_01",
+    "source_filename": "VID_NAMI_01.mp4",
+    "start_sec": 15.0,
+    "end_sec": 22.5,
+    "spot_name": "남이섬에서 즐길수 있는 야외수영장",
+    "description": "여름철 남이섬에서 즐길 수 있는 야외 수영장과 수영장에서 물놀이를 즐기는 장면",
+    "representative_frame_sec": 18.7
+  }
+]
