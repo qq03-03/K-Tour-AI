@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import math
 from collections.abc import Mapping, Sequence
 from numbers import Real
 from typing import Any
@@ -72,6 +73,95 @@ def reciprocal_rank_fusion(
         {"rank": final_rank, **candidate}
         for final_rank, candidate in enumerate(ordered, start=1)
     ]
+
+
+def normalized_score_fusion(
+    results_by_source: Mapping[str, Sequence[Mapping[str, Any]]],
+    *,
+    weights: Mapping[str, float] | None = None,
+    top_k: int | None = None,
+) -> list[dict[str, Any]]:
+    """검색 방식별 점수를 0~1로 정규화한 뒤 가중합한다.
+
+    실제 임베딩 점수 분포를 받은 뒤 RRF와 비교하기 위한 기준 구현이다.
+    각 항목에는 ``segment_id``와 유한한 숫자 ``score``가 필요하다.
+    """
+
+    rankings = {
+        source: [str(item.get("segment_id", "")) for item in items]
+        for source, items in results_by_source.items()
+    }
+    _validate_inputs(rankings, weights, 60.0, top_k)
+    source_weights = {
+        source: float(weights.get(source, 1.0)) if weights else 1.0
+        for source in results_by_source
+    }
+
+    candidates: dict[str, dict[str, Any]] = {}
+    for source, items in results_by_source.items():
+        raw_scores: list[float] = []
+        seen_segment_ids: set[str] = set()
+        for item in items:
+            segment_id = item.get("segment_id")
+            if not isinstance(segment_id, str) or not segment_id.strip():
+                raise ValueError(
+                    f"{source} 검색 결과의 segment_id는 빈 문자열이 아니어야 합니다."
+                )
+            if segment_id in seen_segment_ids:
+                raise ValueError(
+                    f"{source} 검색 결과에 segment_id가 중복되었습니다: {segment_id}"
+                )
+            seen_segment_ids.add(segment_id)
+            score = item.get("score")
+            if isinstance(score, bool) or not isinstance(score, Real):
+                raise TypeError(f"{source} 검색 점수는 숫자여야 합니다.")
+            numeric_score = float(score)
+            if not math.isfinite(numeric_score):
+                raise ValueError(f"{source} 검색 점수는 유한한 숫자여야 합니다.")
+            raw_scores.append(numeric_score)
+
+        normalized_scores = _min_max_normalize(raw_scores)
+        for item, raw_score, normalized_score in zip(
+            items, raw_scores, normalized_scores
+        ):
+            segment_id = str(item["segment_id"])
+            contribution = source_weights[source] * normalized_score
+            candidate = candidates.setdefault(
+                segment_id,
+                {
+                    "segment_id": segment_id,
+                    "combined_score": 0.0,
+                    "source_scores": {},
+                    "normalized_scores": {},
+                    "contributions": {},
+                },
+            )
+            candidate["combined_score"] += contribution
+            candidate["source_scores"][source] = raw_score
+            candidate["normalized_scores"][source] = normalized_score
+            candidate["contributions"][source] = contribution
+
+    ordered = sorted(
+        candidates.values(),
+        key=lambda item: (-item["combined_score"], item["segment_id"]),
+    )
+    if top_k is not None:
+        ordered = ordered[:top_k]
+    return [
+        {"rank": rank, **candidate}
+        for rank, candidate in enumerate(ordered, start=1)
+    ]
+
+
+def _min_max_normalize(scores: Sequence[float]) -> list[float]:
+    if not scores:
+        return []
+    minimum = min(scores)
+    maximum = max(scores)
+    if maximum == minimum:
+        return [1.0 for _ in scores]
+    scale = maximum - minimum
+    return [(score - minimum) / scale for score in scores]
 
 
 def _validate_inputs(

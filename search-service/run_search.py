@@ -3,26 +3,18 @@
 from __future__ import annotations
 
 import argparse
-import json
 import sys
 from pathlib import Path
-from typing import Any
 
+from src.data_loader import SegmentDataError, load_segments
 from src.dummy_embedder import DummyTextEmbedder
-from src.search import search_segments
+from src.query_parser import RuleBasedQueryParser
+from src.search_pipeline import run_search_pipeline
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 # 실행 위치가 달라도 프로젝트 내부의 기본 데이터 파일을 찾도록 절대 경로를 만든다.
 DEFAULT_DATA_PATH = PROJECT_ROOT / "data" / "dummy_segments.json"
-
-
-def load_segments(path: Path) -> list[dict[str, Any]]:
-    """UTF-8 JSON 파일에서 더미 영상 구간 목록을 불러온다."""
-
-    with path.open("r", encoding="utf-8") as file:
-        payload = json.load(file)
-    return payload["segments"]
 
 
 def parse_args() -> argparse.Namespace:
@@ -39,20 +31,28 @@ def main() -> None:
 
     args = parse_args()
     # 현재는 더미 구현체를 사용하지만 TextEmbedder 규약을 지키는 모델로 교체할 수 있다.
-    embedder = DummyTextEmbedder()
-    segments = load_segments(args.data)
-
     try:
-        results = search_segments(args.query, segments, embedder, top_k=args.top_k)
-    except (TypeError, ValueError) as error:
+        segments = load_segments(args.data)
+        embedder = DummyTextEmbedder()
+        output = run_search_pipeline(
+            args.query,
+            segments,
+            parser=RuleBasedQueryParser(),
+            embedder=embedder,
+            top_k=args.top_k,
+        )
+    except (OSError, SegmentDataError, TypeError, ValueError) as error:
         raise SystemExit(f"검색 오류: {error}") from error
 
     concepts = ", ".join(embedder.matched_concepts(args.query))
     print(f"질의: {args.query}")
     print(f"인식한 더미 개념: {concepts}")
+    print(f"적용 필터: {output['filters'] or '없음'}")
+    if output["fallback_used"]:
+        print(f"재검색: {output['fallback_reason']}")
     print()
 
-    for result in results:
+    for result in output["results"]:
         print(
             f"{result['rank']}. {result['segment_id']} | "
             f"{result['location_name']} | "

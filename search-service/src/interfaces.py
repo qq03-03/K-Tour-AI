@@ -2,9 +2,13 @@
 
 from __future__ import annotations
 
-from typing import Protocol, runtime_checkable
+from collections.abc import Mapping
+from typing import TYPE_CHECKING, Protocol, runtime_checkable
 
 import numpy as np
+
+if TYPE_CHECKING:
+    from .query_parser import ParsedQuery
 
 
 @runtime_checkable
@@ -29,5 +33,32 @@ class ExplainableTextEmbedder(TextEmbedder, Protocol):
 
     def matched_concepts(self, text: str) -> list[str]:
         """텍스트에서 인식한 더미 개념 이름을 반환한다."""
+
+        ...
+
+
+@runtime_checkable
+class QueryParser(Protocol):
+    """자연어 질문을 검색 문장과 구조화 조건으로 나누는 공통 규약."""
+
+    # 규칙 기반·로컬 LLM·API LLM 구현체가 같은 결과 형식을 사용한다.
+    def parse(self, query: str) -> "ParsedQuery":
+        """사용자 질문을 분석해 검색용 구조로 반환한다."""
+
+        ...
+
+
+@runtime_checkable
+class StructuredLLMClient(Protocol):
+    """로컬 또는 API LLM에 구조화된 JSON 생성을 요청하는 공통 규약."""
+
+    def generate_json(
+        self,
+        *,
+        system_prompt: str,
+        user_prompt: str,
+        response_schema: Mapping[str, object],
+    ) -> Mapping[str, object]:
+        """지정된 JSON 스키마에 맞는 객체를 반환한다."""
 
         ...

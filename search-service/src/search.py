@@ -73,6 +73,15 @@ def search_segments(
                 "location_name": segment["location_name"],
                 "start_sec": segment["start_sec"],
                 "end_sec": segment["end_sec"],
+                "place_id": segment.get("place_id"),
+                "place_name": segment.get("place_name", segment["location_name"]),
+                "region": segment.get("region"),
+                "keyframe_path": segment.get("keyframe_path"),
+                "description": segment.get("description", segment.get("metadata_text")),
+                "mood": list(segment.get("mood", [])),
+                "scene_elements": list(
+                    segment.get("scene_elements", segment.get("landscape", []))
+                ),
                 "score": cosine_similarity(query_vector, segment_vector),
             }
         )

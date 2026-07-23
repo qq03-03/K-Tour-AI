@@ -49,9 +49,11 @@ def test_actual_eval_set_identifies_expected_failure_queries() -> None:
     report = analyze_failures(queries, segments, DummyTextEmbedder(), k=5)
     cases = {case["query_id"]: case for case in report["cases"]}
 
-    assert report["summary"]["failure_queries"] == 2
-    assert set(cases) == {"Q009", "Q010"}
+    assert report["summary"]["failure_queries"] == 3
+    assert set(cases) == {"Q009", "Q010", "Q011"}
     assert "wrong_top_rank" in cases["Q009"]["failure_types"]
     assert "feature_collision" in cases["Q009"]["failure_types"]
     assert "vocabulary_gap" in cases["Q010"]["failure_types"]
     assert "missed_at_k" in cases["Q010"]["failure_types"]
+    assert "missed_at_k" in cases["Q011"]["failure_types"]
+    assert "generic_concept_overweight" in cases["Q011"]["failure_types"]

@@ -17,6 +17,7 @@ FAILURE_EXPLANATIONS = {
     "missed_at_k": "정답 구간이 평가 상위 K개 안에 포함되지 않았다.",
     "wrong_top_rank": "정답이 상위 K개에는 있지만 1위가 아니다.",
     "feature_collision": "오답과 정답이 질의에 대해 같은 더미 개념을 공유해 구분되지 않았다.",
+    "generic_concept_overweight": "흔한 계절·감성 개념이 핵심 장소 유형보다 순위에 크게 반영되었다.",
 }
 
 
@@ -125,6 +126,14 @@ def analyze_failures(
             k=k,
             feature_collision=collision,
         )
+        annotated_label = item.get("failure_type")
+        if (
+            labels
+            and isinstance(annotated_label, str)
+            and annotated_label in FAILURE_EXPLANATIONS
+            and annotated_label not in labels
+        ):
+            labels.append(annotated_label)
         # 정상 검색 질문은 보고서에서 제외하고 실패 질문만 보존한다.
         if not labels:
             continue

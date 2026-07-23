@@ -61,6 +61,13 @@
       "query": "적막한 기와집 주변에 붉은 잎이 보이는 곳",
       "relevant_segment_ids": ["SEG_001", "SEG_020"],
       "rationale": "기와집은 한옥, 붉은 잎은 단풍, 적막함은 고요함을 바꿔 표현한 어려운 질문이다."
+    },
+    {
+      "query_id": "Q011",
+      "query": "가을 단풍이 있는 조용한 궁궐",
+      "relevant_segment_ids": ["SEG_004"],
+      "rationale": "핵심 장소 유형인 궁궐을 우선해야 하지만 흔한 가을·고요·단풍 개념이 산이나 한옥을 과대평가할 수 있는 실패 사례다.",
+      "failure_type": "generic_concept_overweight"
     }
   ]
 }

@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import pytest
 
-from src.fusion import reciprocal_rank_fusion
+from src.fusion import normalized_score_fusion, reciprocal_rank_fusion
 
 
 def test_rrf_combines_text_and_image_rankings() -> None:
@@ -110,4 +110,39 @@ def test_all_zero_weights_raise_error() -> None:
         reciprocal_rank_fusion(
             {"text": ["SEG_A"], "image": ["SEG_B"]},
             weights={"text": 0.0, "image": 0.0},
+        )
+
+
+def test_score_fusion_can_preserve_a_strong_image_match() -> None:
+    results = normalized_score_fusion(
+        {
+            "text": [{"segment_id": "WRONG", "score": 0.51}],
+            "image": [
+                {"segment_id": "CORRECT", "score": 0.99},
+                {"segment_id": "WRONG", "score": 0.20},
+            ],
+        },
+        weights={"text": 0.3, "image": 0.7},
+    )
+
+    assert results[0]["segment_id"] == "CORRECT"
+    assert results[0]["source_scores"]["image"] == pytest.approx(0.99)
+
+
+def test_score_fusion_rejects_non_finite_scores() -> None:
+    with pytest.raises(ValueError, match="유한한"):
+        normalized_score_fusion(
+            {"text": [{"segment_id": "SEG_A", "score": float("nan")}]}
+        )
+
+
+def test_score_fusion_rejects_duplicate_segment_ids() -> None:
+    with pytest.raises(ValueError, match="중복"):
+        normalized_score_fusion(
+            {
+                "text": [
+                    {"segment_id": "SEG_A", "score": 0.9},
+                    {"segment_id": "SEG_A", "score": 0.8},
+                ]
+            }
         )
