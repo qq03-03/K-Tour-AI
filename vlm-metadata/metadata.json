@@ -1,0 +1,359 @@
+[
+    {
+        "place_name": "unknown",
+        "season": "summer",
+        "time_of_day": "unknown",
+        "mood": [
+            "refreshing",
+            "serene",
+            "vibrant",
+            "lively",
+            "energetic"
+        ],
+        "scene_elements": [
+            "trees",
+            "pathway",
+            "sky",
+            "people",
+            "greenery",
+            "summer",
+            "scenery",
+            "nature",
+            "wood",
+            "forest"
+        ],
+        "activity": [
+            "pointing",
+            "walking",
+            "exploring",
+            "admiring",
+            "enjoying"
+        ],
+        "description": "Two people are enjoying the summer scenery in a forested area with tall trees and a pathway.",
+        "segment_id": "SEG_NAMI_01_01",
+        "video_id": "VID_NAMI_01",
+        "spot_name": "숲속 정자와 메타세쿼이아길",
+        "start_time": 0.0,
+        "end_time": 4.63,
+        "keyframe_path": "output/frames/SEG_NAMI_01_01.jpg"
+    },
+    {
+        "place_name": "unknown",
+        "season": "summer",
+        "time_of_day": "unknown",
+        "mood": [
+            "calm",
+            "serene",
+            "refreshing",
+            "natural",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "flowers",
+            "leaves",
+            "greenery",
+            "bushes",
+            "summer",
+            "nature",
+            "beauty",
+            "flora",
+            "plant",
+            "garden"
+        ],
+        "activity": [
+            "looking",
+            "admiring",
+            "exploring",
+            "enjoying",
+            "photographing"
+        ],
+        "description": "A beautiful summer scene with white flowers and lush green leaves.",
+        "segment_id": "SEG_NAMI_01_02",
+        "video_id": "VID_NAMI_01",
+        "spot_name": "수국 정원과 숲속 피크닉",
+        "start_time": 4.63,
+        "end_time": 9.97,
+        "keyframe_path": "output/frames/SEG_NAMI_01_02.jpg"
+    },
+    {
+        "place_name": "unknown",
+        "season": "summer",
+        "time_of_day": "day",
+        "mood": [
+            "cute",
+            "adorable",
+            "happy",
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "rabbit",
+            "tree",
+            "grass",
+            "leaves",
+            "background",
+            "outdoor",
+            "nature",
+            "animal",
+            "plant",
+            "greenery"
+        ],
+        "activity": [
+            "eating",
+            "posing",
+            "looking",
+            "posing",
+            "eating"
+        ],
+        "description": "a cute rabbit is eating leaves in a natural outdoor setting.",
+        "segment_id": "SEG_NAMI_01_03",
+        "video_id": "VID_NAMI_01",
+        "spot_name": "디저트와 토끼 체험",
+        "start_time": 9.97,
+        "end_time": 15.33,
+        "keyframe_path": "output/frames/SEG_NAMI_01_03.jpg"
+    },
+    {
+        "place_name": "unknown",
+        "season": "summer",
+        "time_of_day": "unknown",
+        "mood": [
+            "funny",
+            "happy",
+            "colorful",
+            "festive",
+            "lighthearted"
+        ],
+        "scene_elements": [
+            "balloons",
+            "trees",
+            "walkway",
+            "ducks",
+            "decorations",
+            "sky",
+            "greenery",
+            "people",
+            "summer atmosphere",
+            "fun"
+        ],
+        "activity": [
+            "walking",
+            "admiring scenery",
+            "taking photos",
+            "enjoying the atmosphere",
+            "participating in events"
+        ],
+        "description": "The image shows a festive summer scene with balloons and decorations hanging from trees, creating a colorful and lively atmosphere.",
+        "segment_id": "SEG_NAMI_01_04",
+        "video_id": "VID_NAMI_01",
+        "spot_name": "야외 수영장과 등불 산책길",
+        "start_time": 15.33,
+        "end_time": 22.5,
+        "keyframe_path": "output/frames/SEG_NAMI_01_04.jpg"
+    },
+    {
+        "place_name": "nami_island",
+        "season": "summer",
+        "time_of_day": "day",
+        "mood": [
+            "relaxing",
+            "peaceful",
+            "natural"
+        ],
+        "scene_elements": [
+            "trees",
+            "bench",
+            "white_tarp",
+            "grass",
+            "park",
+            "shade",
+            "nature",
+            "seating_area",
+            "greenery",
+            "wooden_table"
+        ],
+        "activity": [
+            "sitting",
+            "walking",
+            "relaxing",
+            "exploring",
+            "photography"
+        ],
+        "description": "A serene park with lush green trees and a wooden bench under a white tarp, perfect for relaxation and nature appreciation.",
+        "segment_id": "SEG_NAMI_02_01",
+        "video_id": "VID_NAMI_02",
+        "spot_name": "숲속 벤치와 연못 정자",
+        "start_time": 0.0,
+        "end_time": 8.13,
+        "keyframe_path": "output/frames/SEG_NAMI_02_01.jpg"
+    },
+    {
+        "place_name": "nami_island",
+        "season": "summer",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "serene",
+            "natural",
+            "peaceful",
+            "relaxing"
+        ],
+        "scene_elements": [
+            "lotus_pond",
+            "traditional_gazebo",
+            "rock_formations",
+            "green_trees",
+            "ducks",
+            "grass",
+            "water",
+            "sky",
+            "clouds",
+            "bushes"
+        ],
+        "activity": [
+            "standing",
+            "walking",
+            "bird_watching",
+            "photography",
+            "relaxing"
+        ],
+        "description": "The image depicts a serene and natural setting at Nami Island, with a traditional gazebo surrounded by lush greenery, rocks, and a pond with ducks. The atmosphere is calm and peaceful, perfect for relaxation and photography.",
+        "segment_id": "SEG_NAMI_02_02",
+        "video_id": "VID_NAMI_02",
+        "spot_name": "연꽃 정원과 오리",
+        "start_time": 8.13,
+        "end_time": 17.33,
+        "keyframe_path": "output/frames/SEG_NAMI_02_02.jpg"
+    },
+    {
+        "place_name": "nami_island",
+        "season": "summer",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "natural",
+            "refreshing",
+            "relaxing"
+        ],
+        "scene_elements": [
+            "trees",
+            "flowers",
+            "greenery",
+            "hydration",
+            "nature",
+            "woodland",
+            "bushes",
+            "leaves",
+            "sky",
+            "water"
+        ],
+        "activity": [
+            "exploring",
+            "admiring",
+            "photographing",
+            "resting",
+            "meditating"
+        ],
+        "description": "The image depicts a serene and natural setting with lush greenery, blooming flowers, and tall trees, suggesting a peaceful and refreshing atmosphere at Nami Island during the summer.",
+        "segment_id": "SEG_NAMI_02_03",
+        "video_id": "VID_NAMI_02",
+        "spot_name": "전통 건축물과 수국길",
+        "start_time": 17.33,
+        "end_time": 26.13,
+        "keyframe_path": "output/frames/SEG_NAMI_02_03.jpg"
+    },
+    {
+        "place_name": "unknown",
+        "season": "summer",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "relaxed"
+        ],
+        "scene_elements": [
+            "trees",
+            "grass",
+            "ducks",
+            "park"
+        ],
+        "activity": [
+            "walking",
+            "resting"
+        ],
+        "description": "Three ducks are standing on the grass in a park with trees and greenery surrounding them.",
+        "segment_id": "SEG_NAMI_03_01",
+        "video_id": "VID_NAMI_03",
+        "spot_name": "숲속 잔디밭의 오리 무리",
+        "start_time": 0.0,
+        "end_time": 15.27,
+        "keyframe_path": "output/frames/SEG_NAMI_03_01.jpg"
+    },
+    {
+        "place_name": "unknown",
+        "season": "summer",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "serene",
+            "peaceful",
+            "relaxing",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "lotus_blossoms",
+            "duck",
+            "pond",
+            "greenery",
+            "topiary",
+            "trees",
+            "water",
+            "leaves",
+            "bushes",
+            "fence"
+        ],
+        "activity": [
+            "swimming",
+            "resting",
+            "bathing",
+            "gazing",
+            "feeling"
+        ],
+        "description": "A serene pond with lotus blossoms and ducks swimming among the greenery.",
+        "segment_id": "SEG_NAMI_03_02",
+        "video_id": "VID_NAMI_03",
+        "spot_name": "연꽃 정원과 연못의 오리",
+        "start_time": 15.27,
+        "end_time": 28.83,
+        "keyframe_path": "output/frames/SEG_NAMI_03_02.jpg"
+    },
+    {
+        "place_name": "Nami Island",
+        "season": "summer",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "grass",
+            "trees",
+            "ducks",
+            "rural scenery",
+            "wooden fence",
+            "greenery",
+            "natural light"
+        ],
+        "activity": [
+            "walking",
+            "bird watching"
+        ],
+        "description": "A serene scene of ducks in a grassy field with lush green trees and a wooden fence in the background.",
+        "segment_id": "SEG_NAMI_03_03",
+        "video_id": "VID_NAMI_03",
+        "spot_name": "숲속 잔디밭으로 돌아온 오리",
+        "start_time": 28.83,
+        "end_time": 34.6,
+        "keyframe_path": "output/frames/SEG_NAMI_03_03.jpg"
+    }
+]
