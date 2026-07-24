@@ -1,8 +1,8 @@
 [
     {
-        "place_name": "unknown",
+        "place_name": "nami_island",
         "season": "summer",
-        "time_of_day": "unknown",
+        "time_of_day": "day",
         "mood": [
             "refreshing",
             "serene",
@@ -38,9 +38,9 @@
         "keyframe_path": "output/frames/SEG_NAMI_01_01.jpg"
     },
     {
-        "place_name": "unknown",
+        "place_name": "nami_island",
         "season": "summer",
-        "time_of_day": "unknown",
+        "time_of_day": "day",
         "mood": [
             "calm",
             "serene",
@@ -55,7 +55,6 @@
             "bushes",
             "summer",
             "nature",
-            "beauty",
             "flora",
             "plant",
             "garden"
@@ -76,7 +75,7 @@
         "keyframe_path": "output/frames/SEG_NAMI_01_02.jpg"
     },
     {
-        "place_name": "unknown",
+        "place_name": "nami_island",
         "season": "summer",
         "time_of_day": "day",
         "mood": [
@@ -91,7 +90,6 @@
             "tree",
             "grass",
             "leaves",
-            "background",
             "outdoor",
             "nature",
             "animal",
@@ -101,9 +99,7 @@
         "activity": [
             "eating",
             "posing",
-            "looking",
-            "posing",
-            "eating"
+            "looking"
         ],
         "description": "a cute rabbit is eating leaves in a natural outdoor setting.",
         "segment_id": "SEG_NAMI_01_03",
@@ -114,9 +110,9 @@
         "keyframe_path": "output/frames/SEG_NAMI_01_03.jpg"
     },
     {
-        "place_name": "unknown",
+        "place_name": "nami_island",
         "season": "summer",
-        "time_of_day": "unknown",
+        "time_of_day": "day",
         "mood": [
             "funny",
             "happy",
@@ -133,8 +129,7 @@
             "sky",
             "greenery",
             "people",
-            "summer atmosphere",
-            "fun"
+            "summer atmosphere"
         ],
         "activity": [
             "walking",
@@ -240,7 +235,7 @@
             "trees",
             "flowers",
             "greenery",
-            "hydration",
+            "hydrangea",
             "nature",
             "woodland",
             "bushes",
@@ -264,7 +259,7 @@
         "keyframe_path": "output/frames/SEG_NAMI_02_03.jpg"
     },
     {
-        "place_name": "unknown",
+        "place_name": "nami_island",
         "season": "summer",
         "time_of_day": "day",
         "mood": [
@@ -290,7 +285,7 @@
         "keyframe_path": "output/frames/SEG_NAMI_03_01.jpg"
     },
     {
-        "place_name": "unknown",
+        "place_name": "nami_island",
         "season": "summer",
         "time_of_day": "day",
         "mood": [
@@ -316,8 +311,7 @@
             "swimming",
             "resting",
             "bathing",
-            "gazing",
-            "feeling"
+            "gazing"
         ],
         "description": "A serene pond with lotus blossoms and ducks swimming among the greenery.",
         "segment_id": "SEG_NAMI_03_02",
@@ -328,7 +322,7 @@
         "keyframe_path": "output/frames/SEG_NAMI_03_02.jpg"
     },
     {
-        "place_name": "Nami Island",
+        "place_name": "nami_island",
         "season": "summer",
         "time_of_day": "day",
         "mood": [
