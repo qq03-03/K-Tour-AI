@@ -1,0 +1,10 @@
+psycopg[binary]
+pandas
+numpy
+python-dotenv
+sentence-transformers
+torch
+pgvector
+torchvision
+transformers
+Pillow
