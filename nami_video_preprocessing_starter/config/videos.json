@@ -1,17 +1,74 @@
 [
   {
-    "video_id": "VID_NAMI_01",
-    "filename": "VID_NAMI_01.mp4",
-    "original_filename": "260625 핀터맛 여름휴가지 최종_BGM최종.mp4"
-  },
-  {
-    "video_id": "VID_NAMI_02",
-    "filename": "VID_NAMI_02.mp4",
-    "original_filename": "260706 Today is your Nami Island.mp4"
-  },
-  {
-    "video_id": "VID_NAMI_03",
-    "filename": "VID_NAMI_03.mp4",
-    "original_filename": "260713_출근하는 오리들 남이섬.mp4"
+    "drama_title": "해당 없음",
+    "place_candidates": [
+      "남이섬",
+      "메타세쿼이아길",
+      "숲속 전통 정자",
+      "수국정원",
+      "워터가든 야외수영장",
+      "등불 산책길",
+      "연꽃정원"
+    ],
+    "region": "강원특별자치도",
+    "city": "춘천시",
+    "season": ["여름"],
+    "mood": [
+      "청량함",
+      "싱그러움",
+      "평화로움",
+      "낭만적임",
+      "힐링",
+      "자연 친화적임"
+    ],
+    "theme": [
+      "남이섬 여행",
+      "여름 휴양",
+      "숲길 산책",
+      "꽃 정원",
+      "자연 생태",
+      "가족 여행",
+      "관광지 랜드마크"
+    ],
+    "scene_elements": [
+      "메타세쿼이아길",
+      "전통 정자",
+      "수국",
+      "연꽃",
+      "야외 수영장",
+      "등불",
+      "숲속 벤치",
+      "오리",
+      "잔디밭",
+      "연못"
+    ],
+    "sources": [
+      {
+        "video_id": "VID_NAMI_01",
+        "filename": "VID_NAMI_01.mp4",
+        "channel_name": "namiisland_naminara",
+        "channel_handle": "@namiisland_naminara",
+        "source_type": "Instagram Reels",
+        "original_filename": "260625 핀터맛 여름휴가지 최종_BGM최종.mp4"
+      },
+      {
+        "video_id": "VID_NAMI_02",
+        "filename": "VID_NAMI_02.mp4",
+        "channel_name": "namiisland_naminara",
+        "channel_handle": "@namiisland_naminara",
+        "source_type": "Instagram Reels",
+        "original_filename": "260706 Today is your Nami Island.mp4"
+      },
+      {
+        "video_id": "VID_NAMI_03",
+        "filename": "VID_NAMI_03.mp4",
+        "channel_name": "namiisland_naminara",
+        "channel_handle": "@namiisland_naminara",
+        "source_type": "Instagram Reels",
+        "original_filename": "260713_출근하는 오리들 남이섬.mp4"
+      }
+    ]
   }
 ]
+
+
