@@ -99,3 +99,27 @@ def test_invalid_filter_from_llm_is_rejected_by_common_validation() -> None:
     assert parsed.filters == {}
     assert parsed.fallback_used is True
     assert "지원하지 않는 필터" in (parsed.fallback_reason or "")
+
+
+def test_activity_and_scene_filters_become_soft_hints() -> None:
+    client = FakeStructuredClient(
+        {
+            "search_text": "a rabbit eating leaves",
+            "filters": {
+                "activity": ["eating"],
+                "scene_elements": ["rabbit"],
+            },
+            "soft_hints": {},
+        }
+    )
+
+    parsed = parse_query_safely(
+        "a rabbit eating leaves",
+        LLMQueryParser(client),
+    )
+
+    assert parsed.filters == {}
+    assert parsed.soft_hints == {
+        "activity": ["eating"],
+        "scene_elements": ["rabbit"],
+    }

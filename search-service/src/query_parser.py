@@ -55,6 +55,12 @@ _VALUE_ALIASES: Mapping[str, Mapping[str, tuple[str, ...]]] = {
         "활기찬": ("활기찬", "활기", "역동적인", "역동", "lively", "vibrant", "にぎやか", "热闹"),
         "신비로운": ("신비로운", "신비", "mysterious", "神秘的", "神秘"),
         "화려한": ("화려한", "화려", "glamorous", "華やか", "华丽"),
+        "귀여운": (
+            "귀여운", "귀엽다", "cute", "adorable", "かわいい", "可愛い", "可爱",
+        ),
+        "행복한": (
+            "행복한", "행복", "happy", "joyful", "幸せ", "楽しい", "幸福", "快乐",
+        ),
     },
     "region": {
         "서울": ("서울", "seoul", "ソウル", "首尔", "首爾"),
@@ -296,6 +302,16 @@ def _postprocess_parsed_query(parsed: ParsedQuery) -> ParsedQuery:
         soft_hints["mood"] = evidenced_moods
     else:
         soft_hints.pop("mood", None)
+
+    # 활동·장면 태그는 VLM 출력 언어와 표기 방식이 아직 고정되지 않았다.
+    # 명시적으로 추출됐더라도 후보를 제거하지 않고 의미 검색 보조값으로만 보존한다.
+    for field_name in ("activity", "scene_elements"):
+        hard_values = filters.pop(field_name, [])
+        combined = _deduplicate(
+            [*soft_hints.get(field_name, []), *hard_values]
+        )
+        if combined:
+            soft_hints[field_name] = combined
 
     return replace(parsed, filters=filters, soft_hints=soft_hints)
 
