@@ -1,0 +1,970 @@
+[
+  {
+    "video_id_prefix": "V001",
+    "drama_title": "선재 업고 튀어",
+    "place_candidates": [
+      "수원대학교 벚꽃길",
+      "수원 행궁동",
+      "화성행궁 일대",
+      "여의도 한강"
+    ],
+    "region": "경기도",
+    "city": "수원시",
+    "season": ["봄"],
+    "mood": ["설렘", "풋풋함", "그리움", "밝음", "로맨틱함", "청춘 감성"],
+    "theme": ["청춘", "첫사랑", "운명", "봄꽃 여행", "드라마 촬영지"],
+    "scene_elements": [
+      "벚꽃",
+      "대학교",
+      "교정",
+      "궁궐",
+      "한옥 골목",
+      "봄 햇살"
+    ],
+    "metadata_source": "manual",
+    "sources": [
+      {
+        "place_id": "P001",
+        "segment_id": "V001_P001_S001",
+        "video_id": "Lovely Runner_01",
+        "youtube_id": "nypQChEVN0c",
+        "channel_name": "미역",
+        "channel_handle": "@myuckvideo",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/nypQChEVN0c"
+      },
+      {
+        "segment_id": "V001_P002_S001",
+        "place_id": "P002",
+        "video_id": "Lovely Runner_02",
+        "youtube_id": "-0MpUmWNN_k",
+        "channel_name": "tvN DRAMA",
+        "channel_handle": "@tvNDRAMA_official",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=-0MpUmWNN_k"
+      },
+      {
+        "segment_id": "V001_P003_S001",
+        "place_id": "P003",
+        "video_id": "Lovely Runner_03",
+        "youtube_id": "rbNbOuhhVT0",
+        "channel_name": "수원대학교",
+        "channel_handle": "@usw",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=rbNbOuhhVT0"
+      }
+    ]
+  },
+  {
+    "video_id_prefix": "V002",
+    "drama_title": "폭싹 속았수다",
+    "place_candidates": ["고창 학원농장 유채꽃밭", "고창 청보리밭"],
+    "region": "전북특별자치도",
+    "city": "고창군",
+    "season": ["봄"],
+    "mood": ["따뜻함", "애틋함", "그리움", "생활감", "소박함", "잔잔함"],
+    "theme": ["가족애", "세월", "희생", "성장", "봄꽃 여행", "농촌 풍경"],
+    "scene_elements": [
+      "유채꽃밭",
+      "청보리밭",
+      "농장길",
+      "노란 꽃",
+      "초록 들판"
+    ],
+    "metadata_source": "manual",
+    "sources": [
+      {
+        "place_id": "P004",
+        "segment_id": "V002_P004_S001",
+        "video_id": "WLGYT_01",
+        "youtube_id": "Q6qUEvQfjRs",
+        "channel_name": "Flora_c",
+        "channel_handle": "@마인드_컨트롤-b9v",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/Q6qUEvQfjRs"
+      },
+      {
+        "place_id": "P004",
+        "segment_id": "V002_P004_S002",
+        "video_id": "WLGYT_02",
+        "youtube_id": "rFJT5hNx2AQ",
+        "channel_name": "Netflix Korea 넷플릭스 코리아",
+        "channel_handle": "@NetflixKorea",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=rFJT5hNx2AQ"
+      },
+      {
+        "place_id": "P004",
+        "segment_id": "V002_P004_S003",
+        "video_id": "WLGYT_03",
+        "youtube_id": "zY81V4VOA44",
+        "channel_name": "또가 travel",
+        "channel_handle": "@ttoga_travel",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/zY81V4VOA44"
+      }
+    ]
+  },
+  {
+    "video_id_prefix": "V003",
+    "drama_title": "그 해 우리는",
+    "place_candidates": [
+      "수원 행궁동",
+      "수원 화성행궁 일대",
+      "행리단길 드라마 촬영지",
+      "온빛자연휴양림",
+      "메타세쿼이아 숲길"
+    ],
+    "region": ["경기도", "충청남도"],
+    "city": ["수원시", "논산시"],
+    "season": ["봄", "가을"],
+    "mood": [
+      "설렘",
+      "풋풋함",
+      "아련함",
+      "청춘 감성",
+      "로맨틱함",
+      "그리움",
+      "고요함",
+      "따뜻함"
+    ],
+    "theme": [
+      "첫사랑",
+      "청춘 로맨스",
+      "드라마 촬영지 여행",
+      "수원 여행",
+      "봄 산책",
+      "가을 숲 여행",
+      "감성 여행"
+    ],
+    "scene_elements": [
+      "한옥 골목",
+      "주택가",
+      "성곽길",
+      "카페 거리",
+      "봄 풍경",
+      "메타세쿼이아",
+      "숲길",
+      "갈색 낙엽",
+      "오두막",
+      "햇살"
+    ],
+    "metadata_source": "manual",
+    "sources": [
+      {
+        "place_id": "P005",
+        "segment_id": "V003_P005_S001",
+        "video_id": "OBS_01",
+        "youtube_id": "nK3ge3jQrXc",
+        "channel_name": "곽군테레비 郭君テレビ",
+        "channel_handle": "@kwakkoontv",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=nK3ge3jQrXc"
+      },
+      {
+        "place_id": "P001",
+        "segment_id": "V003_P001_S001",
+        "video_id": "OBS_02",
+        "youtube_id": "tJqIDVFhsNU",
+        "channel_name": "SUWON·수원",
+        "channel_handle": "@suwonloves",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=tJqIDVFhsNU"
+      },
+      {
+        "place_id": "P006",
+        "segment_id": "V003_P006_S001",
+        "video_id": "OBS_03",
+        "youtube_id": "7xQmeawhiX8",
+        "channel_name": "트래블드리머 Travel Dreamer",
+        "channel_handle": "@TravelYouandMe",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/7xQmeawhiX8"
+      },
+      {
+        "place_id": "P006",
+        "segment_id": "V003_P006_S002",
+        "video_id": "OBS_04",
+        "youtube_id": "cbINxfGIbKU",
+        "channel_name": "킴보여행",
+        "channel_handle": "@kimvo97",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/cbINxfGIbKU"
+      }
+    ]
+  },
+  {
+    "video_id_prefix": "V004",
+    "drama_title": "스물다섯 스물하나",
+    "place_candidates": [
+      "전주 한벽굴",
+      "전주한옥마을",
+      "나희도 집 촬영지",
+      "오목대 일대",
+      "한벽터널",
+      "한벽굴",
+      "오목대",
+      "오목대 정자 및 주변 계단길"
+    ],
+    "region": "전북특별자치도",
+    "city": "전주시",
+    "season": ["여름"],
+    "mood": [
+      "청량함",
+      "레트로",
+      "풋풋함",
+      "설렘",
+      "청춘 감성",
+      "싱그러운",
+      "아날로그",
+      "따뜻한"
+    ],
+    "theme": ["청춘", "첫사랑", "레트로 여행", "드라마 촬영지", "전주 여행"],
+    "scene_elements": ["터널", "한옥 골목", "주택가", "계단길", "초록 나무"],
+    "metadata_source": "manual",
+    "sources": [
+      {
+        "place_id": "P007",
+        "segment_id": "V004_P007_S001",
+        "video_id": "TFTO_01",
+        "youtube_id": "lod4cPrl-yc",
+        "channel_name": "다슬기 추가요",
+        "channel_handle": "@daseulkipls",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=lod4cPrl-yc"
+      },
+      {
+        "place_id": "P007",
+        "segment_id": "V004_P007_S002",
+        "video_id": "TFTO_04",
+        "youtube_id": "ljRH65gLa3A",
+        "channel_name": "촬영지 여행가 Movie Traveler",
+        "channel_handle": "@movie.traveler",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/ljRH65gLa3A?feature=share"
+      },
+      {
+        "place_id": "P007",
+        "segment_id": "V004_P007_S003",
+        "video_id": "TFTO_05",
+        "youtube_id": "i02e-ZO7z60",
+        "channel_name": "촬영지 여행가 Movie Traveler",
+        "channel_handle": "@movie.traveler",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/i02e-ZO7z60?feature=share"
+      },
+      {
+        "place_id": "P007",
+        "segment_id": "V004_P007_S004",
+        "video_id": "TFTO_06",
+        "youtube_id": "wfM3QKQS6Vk",
+        "channel_name": "투어리스트 (The Tourist)",
+        "channel_handle": "@touristmusic",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/wfM3QKQS6Vk?feature=share"
+      },
+      {
+        "place_id": "P008",
+        "segment_id": "V004_P008_S001",
+        "video_id": "TFTO_02",
+        "youtube_id": "flZSgw7pP4U",
+        "channel_name": "서은월드 Seoeun World",
+        "channel_handle": "@seoeunworld",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=flZSgw7pP4U"
+      },
+      {
+        "place_id": "P009",
+        "segment_id": "V004_P009_S001",
+        "video_id": "TFTO_07",
+        "youtube_id": "6EiESTfjT_0",
+        "channel_name": "Visit Jeonju",
+        "channel_handle": "@visitjeonju4196",
+        "source_type": "youtube",
+        "source_url": "https://youtu.be/6EiESTfjT_0"
+      }
+    ]
+  },
+  {
+    "video_id_prefix": "V005",
+    "drama_title": "갯마을 차차차",
+    "place_candidates": [
+      "청하공진시장",
+      "사방기념공원",
+      "윤치과 촬영지",
+      "포항 바닷가"
+    ],
+    "region": "경상북도",
+    "city": "포항시",
+    "season": ["여름", "가을"],
+    "mood": ["힐링", "따뜻함", "낭만", "밝음", "바닷마을 감성", "로맨틱함"],
+    "theme": [
+      "로컬시장",
+      "바다 여행",
+      "드라마 촬영지",
+      "여름 여행",
+      "마을 산책",
+      "가을 여행",
+      "시장 여행",
+      "바다 산책"
+    ],
+    "scene_elements": [
+      "밤바다",
+      "언덕 위 배",
+      "전통시장",
+      "바다",
+      "언덕",
+      "전망대",
+      "어촌마을",
+      "해안도로"
+    ],
+    "metadata_source": "manual",
+    "sources": [
+      {
+        "place_id": "P010",
+        "segment_id": "V005_P010_S001",
+        "video_id": "HCCC_01",
+        "youtube_id": "UjxY3jz0znE",
+        "channel_name": "역사여행 사적돌 KoreaHistoryTravel",
+        "channel_handle": "@사적돌",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=UjxY3jz0znE"
+      },
+      {
+        "place_id": "P010",
+        "segment_id": "V005_P010_S002",
+        "video_id": "HCCC_02",
+        "youtube_id": "ch9bdaofYxM",
+        "channel_name": "kt HCN 경북방송",
+        "channel_handle": "@ktHCN",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=ch9bdaofYxM"
+      },
+      {
+        "place_id": "P010",
+        "segment_id": "V005_P010_S003",
+        "video_id": "HCCC_03",
+        "youtube_id": "wi11R_vDBmE",
+        "channel_name": "[빵이네]캠핑&여행TV",
+        "channel_handle": "@빵이네tv",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/wi11R_vDBmE"
+      },
+      {
+        "place_id": "P010",
+        "segment_id": "V005_P010_S004",
+        "video_id": "HCCC_04",
+        "youtube_id": "98wxo6Caad4",
+        "channel_name": "샾잉 #ing",
+        "channel_handle": "@sharp_ing",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=98wxo6Caad4"
+      },
+      {
+        "place_id": "P010",
+        "segment_id": "V005_P010_S005",
+        "video_id": "HCCC_05",
+        "youtube_id": "x6_CW9Jr8t0",
+        "channel_name": "쏭데이 ssongday",
+        "channel_handle": "@ssongday",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=x6_CW9Jr8t0"
+      }
+    ]
+  },
+  {
+    "video_id_prefix": "V006",
+    "drama_title": "우리들의 블루스",
+    "place_candidates": [
+      "제주 푸릉마을 촬영지",
+      "제주 오일장",
+      "제주 청굴물",
+      "제주 가파도",
+      "제주 금능포구",
+      "월령리"
+    ],
+    "region": "제주특별자치도",
+    "city": ["제주시", "서귀포시"],
+    "season": ["여름"],
+    "mood": ["따뜻함", "생활감", "잔잔함", "애틋함", "힐링", "청량함"],
+    "theme": [
+      "제주 마을",
+      "오일장",
+      "해안 여행",
+      "가족애",
+      "드라마 촬영지",
+      "섬 여행",
+      "여름 바다"
+    ],
+    "scene_elements": [
+      "오일장",
+      "해안도로",
+      "바닷가",
+      "돌담",
+      "마을 골목",
+      "가파도",
+      "금능포구",
+      "해안 산책로"
+    ],
+    "metadata_source": "manual",
+    "sources": [
+      {
+        "place_id": "P011",
+        "segment_id": "V006_P011_S001",
+        "video_id": "OURBLUES_01",
+        "youtube_id": "1r7a5mLNGRQ",
+        "channel_name": "제주길잡이",
+        "channel_handle": "@제주길잡이",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=1r7a5mLNGRQ"
+      },
+      {
+        "place_id": "P011",
+        "segment_id": "V006_P011_S002",
+        "video_id": "OURBLUES_03",
+        "youtube_id": "Oeme18IdNzw",
+        "channel_name": "여기저기 돌아다니느라 바빠요",
+        "channel_handle": "@여기저기돌아다니느라",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/Oeme18IdNzw"
+      },
+      {
+        "place_id": "P011",
+        "segment_id": "V006_P011_S003",
+        "video_id": "OURBLUES_04",
+        "youtube_id": "e6FvfWF4uVg",
+        "channel_name": "[빵이네]캠핑&여행TV",
+        "channel_handle": "@빵이네tv",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=e6FvfWF4uVg"
+      },
+      {
+        "place_id": "P011",
+        "segment_id": "V006_P011_S004",
+        "video_id": "OURBLUES_05",
+        "youtube_id": "Lb3DGOdPafU",
+        "channel_name": "제뚜의알쓸리뷰",
+        "channel_handle": "@tuburkis",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/Lb3DGOdPafU"
+      },
+      {
+        "place_id": "P011",
+        "segment_id": "V006_P011_S005",
+        "video_id": "OURBLUES_07",
+        "youtube_id": "fr03aYy-ZfI",
+        "channel_name": "풀떼기 먹는 용띠녀",
+        "channel_handle": "@minggloria1688",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=fr03aYy-ZfI"
+      },
+      {
+        "place_id": "P011",
+        "segment_id": "V006_P011_S006",
+        "video_id": "OURBLUES_06",
+        "youtube_id": "R26JXXbaEc8",
+        "channel_name": "zoommastory",
+        "channel_handle": "@zoommastory",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/R26JXXbaEc8"
+      }
+    ]
+  },
+  {
+    "video_id_prefix": "V007",
+    "drama_title": "사랑의 불시착",
+    "place_candidates": ["충주 비내섬", "비내섬 갈대숲", "남한강변"],
+    "region": "충청북도",
+    "city": "충주시",
+    "season": ["겨울"],
+    "mood": ["애틋함", "로맨스", "이별", "운명적", "쓸쓸함", "겨울 감성"],
+    "theme": [
+      "K-드라마 촬영지",
+      "겨울 여행",
+      "설경",
+      "갈대숲 산책",
+      "포토스팟"
+    ],
+    "scene_elements": [
+      "눈 덮인 들판",
+      "갈대숲",
+      "강변",
+      "버드나무",
+      "모닥불 촬영지"
+    ],
+    "metadata_source": "manual",
+    "sources": [
+      {
+        "place_id": "P012",
+        "segment_id": "V007_P012_S001",
+        "video_id": "CLOY_01",
+        "youtube_id": "VNXXMn8pgiE",
+        "channel_name": "송하",
+        "channel_handle": "@송하와제라늄",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/VNXXMn8pgiE"
+      },
+      {
+        "place_id": "P012",
+        "segment_id": "V007_P012_S002",
+        "video_id": "CLOY_02",
+        "youtube_id": "yb4qs4kRVG4",
+        "channel_name": "초이나무 Choi NAMU",
+        "channel_handle": "@choinamu",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=yb4qs4kRVG4"
+      }
+    ]
+  },
+  {
+    "video_id_prefix": "V008",
+    "drama_title": "도깨비",
+    "place_candidates": ["강릉 주문진 방파제", "오대산 월정사 전나무숲길"],
+    "region": ["강원특별자치도", "전북특별자치도"],
+    "city": ["강릉시·평창군", "고창군"],
+    "season": ["겨울", "가을"],
+    "mood": [
+      "판타지",
+      "운명적",
+      "쓸쓸함",
+      "로맨스",
+      "신비로움",
+      "고요함",
+      "낭만적임",
+      "평화로움",
+      "따뜻함",
+      "서정적임",
+      "힐링"
+    ],
+    "theme": [
+      "주문진 여행",
+      "겨울바다",
+      "월정사",
+      "전나무숲길",
+      "K-드라마 촬영지",
+      "메밀꽃 여행",
+      "가을 여행",
+      "드라마 촬영지",
+      "농촌 풍경",
+      "꽃밭 산책"
+    ],
+    "scene_elements": [
+      "방파제",
+      "겨울바다",
+      "파도",
+      "전나무숲길",
+      "사찰",
+      "눈길",
+      "메밀꽃밭",
+      "넓은 들판",
+      "농장길",
+      "가을 하늘",
+      "꽃길"
+    ],
+    "metadata_source": "manual",
+    "sources": [
+      {
+        "place_id": "P013",
+        "segment_id": "V008_P013_S001",
+        "video_id": "GOBLIN_01",
+        "youtube_id": "mCeMgl6rR-U",
+        "channel_name": "tvN DRAMA",
+        "channel_handle": "@tvNDRAMA_official",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=mCeMgl6rR-U"
+      },
+      {
+        "place_id": "P013",
+        "segment_id": "V008_P013_S002",
+        "video_id": "GOBLIN_02",
+        "youtube_id": "vzS5MqlN-wU",
+        "channel_name": "후니아빠",
+        "channel_handle": "@후니아빠-r9t",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/vzS5MqlN-wU"
+      },
+      {
+        "place_id": "P014",
+        "segment_id": "V008_P014_S001",
+        "video_id": "GOBLIN_03",
+        "youtube_id": "2jiJ9CCzclg",
+        "channel_name": "MoviGo[무비고: 촬영지를 가다]",
+        "channel_handle": "@movigo2657",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=2jiJ9CCzclg"
+      },
+      {
+        "place_id": "P014",
+        "segment_id": "V008_P014_S001",
+        "video_id": "GOBLIN_04",
+        "youtube_id": "89CfEae8uRI",
+        "channel_name": "우잡 트래블TV",
+        "channel_handle": "@woojob-TravelTV",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=89CfEae8uRI"
+      },
+      {
+        "place_id": "P004",
+        "segment_id": "V008_P004_S001",
+        "video_id": "GOBLIN_07",
+        "channel_name": "ddung_ddi_camper",
+        "channel_handle": "@ddung_ddi_camper",
+        "source_type": "instagram_reels",
+        "source_url": "https://www.instagram.com/p/Cx4qWrTPJXn/"
+      }
+    ]
+  },
+  {
+    "video_id_prefix": "V009",
+    "drama_title": "호텔델루나",
+    "place_candidates": [
+      "망상해수욕장",
+      "동해 망상해변",
+      "파라다이스시티",
+      "인천 파라다이스시티"
+    ],
+    "region": ["강원특별자치도", "인천광역시"],
+    "city": ["동해시", "중구"],
+    "season": ["여름"],
+    "mood": ["고즈넉한", "쓸쓸한", "힐링되는", "화려한", "럭셔리한"],
+    "theme": [
+      "바다 여행",
+      "드라마 촬영지",
+      "감성 여행",
+      "여름 휴양",
+      "호캉스",
+      "럭셔리 여행",
+      "도심 휴양"
+    ],
+    "scene_elements": [
+      "해변",
+      "파도",
+      "모래사장",
+      "야외 수영장",
+      "호텔 내부",
+      "현대적 건축물"
+    ],
+    "sources": [
+      {
+        "place_id": "P015",
+        "segment_id": "V009_P015_S001",
+        "video_id": "hotel_deluna_mangsang_02",
+        "youtube_id": "7ir6-MekfHU",
+        "channel_name": "강원도 여행은 여기서",
+        "channel_handle": "@Travel_maker_",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/7ir6-MekfHU?feature=share"
+      },
+      {
+        "place_id": "P015",
+        "segment_id": "V009_P015_S001",
+        "video_id": "hotel_deluna_mangsang_01",
+        "youtube_id": "Uiu32MwpDjU",
+        "channel_name": "듀듀듀듀",
+        "channel_handle": "@Records-playing",
+        "source_type": "youtube",
+        "source_url": "https://youtu.be/Uiu32MwpDjU"
+      },
+      {
+        "place_id": "P022",
+        "segment_id": "V009_P022_S001",
+        "video_id": "hotel_deluna_paradise_01",
+        "youtube_id": "ju15D1xTvVU",
+        "channel_name": "PARADISE",
+        "channel_handle": "@PARADISE_story",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/ju15D1xTvVU?feature=share"
+      }
+    ]
+  },
+  {
+    "video_id_prefix": "V011",
+    "drama_title": "킹덤",
+    "place_candidates": ["경복궁 교태전", "경복궁", "창덕궁 후원", "비원"],
+    "region": "서울특별시",
+    "city": "종로구",
+    "season": ["여름"],
+    "mood": [
+      "장엄한",
+      "긴장감 있는",
+      "웅장한",
+      "고전적인",
+      "고요한",
+      "신비로운"
+    ],
+    "theme": [
+      "궁궐 여행",
+      "사극 촬영지",
+      "한국 전통문화",
+      "궁궐 후원",
+      "역사 여행"
+    ],
+    "scene_elements": [
+      "교태전",
+      "궁궐 전경",
+      "전통 건축",
+      "후원 연못",
+      "전통 정자",
+      "숲길"
+    ],
+    "sources": [
+      {
+        "place_id": "P016",
+        "segment_id": "V011_P016_S001",
+        "video_id": "kingdom_gyeongbok_01",
+        "youtube_id": "yZeNfaIK7Nw",
+        "channel_name": "서울시 · Seoul",
+        "channel_handle": "@seoullive",
+        "source_type": "youtube",
+        "source_url": "https://youtu.be/yZeNfaIK7Nw"
+      },
+      {
+        "place_id": "P016",
+        "segment_id": "V011_P016_S002",
+        "video_id": "kingdom_gyeongbok_02",
+        "youtube_id": "Nba1McqxPEo",
+        "channel_name": "여행작가 봄비",
+        "channel_handle": "@iamhappyy",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/Nba1McqxPEo?feature=share"
+      },
+      {
+        "place_id": "P017",
+        "segment_id": "V011_P017_S001",
+        "video_id": "kingdom_changdeok_01",
+        "youtube_id": "i2ZuU6szFWE",
+        "channel_name": "서울시 · Seoul",
+        "channel_handle": "@seoullive",
+        "source_type": "youtube",
+        "source_url": "https://youtu.be/i2ZuU6szFWE"
+      },
+      {
+        "place_id": "P017",
+        "segment_id": "V011_P017_S002",
+        "video_id": "kingdom_changdeok_02",
+        "youtube_id": "c4OOEsGS7Cc",
+        "channel_name": "서울역사편찬원",
+        "channel_handle": "@historyseoul",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/c4OOEsGS7Cc?feature=share"
+      }
+    ]
+  },
+  {
+    "video_id_prefix": "V012",
+    "drama_title": "날씨가 좋으면 찾아가겠어요",
+    "place_candidates": ["영월 주천강", "주천강 둘레길", "영월 시골마을"],
+    "region": "강원특별자치도",
+    "city": "영월군",
+    "season": ["겨울"],
+    "mood": ["고요함", "따뜻함", "쓸쓸함", "힐링", "서정적임", "겨울 감성"],
+    "theme": [
+      "겨울 산책",
+      "시골 여행",
+      "강변 여행",
+      "드라마 촬영지",
+      "감성 여행"
+    ],
+    "scene_elements": [
+      "주천강",
+      "강변 산책로",
+      "눈",
+      "시골마을",
+      "겨울나무",
+      "다리"
+    ],
+    "metadata_source": "manual",
+    "sources": [
+      {
+        "place_id": "P018",
+        "segment_id": "V012_P018_S001",
+        "video_id": "WTWIF_01",
+        "youtube_id": "m1hv20znDdU",
+        "channel_name": "이루다",
+        "channel_handle": "@iruda2.2-x6l",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/m1hv20znDdU"
+      },
+      {
+        "place_id": "P018",
+        "segment_id": "V012_P018_S002",
+        "video_id": "WTWIF_02",
+        "youtube_id": "bU-dyF_Gsk8",
+        "channel_name": "영월송할머니",
+        "channel_handle": "@영월송할머니",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/bU-dyF_Gsk8"
+      },
+      {
+        "place_id": "P018",
+        "segment_id": "V012_P018_S002",
+        "video_id": "WTWIF_03",
+        "youtube_id": "7oeOss6ffuw",
+        "channel_name": "맛쫑tour",
+        "channel_handle": "@맛쫑투어",
+        "source_type": "youtube",
+        "source_url": [
+          "https://www.youtube.com/watch?v=7oeOss6ffuw",
+          "1:39까지만 참고"
+        ]
+      }
+    ]
+  },
+  {
+    "video_id_prefix": "V013",
+    "drama_title": "무인도의 디바",
+    "place_candidates": [
+      "함창역",
+      "성주 촬영지",
+      "서천 장항 스카이워크",
+      "장항 송림산림욕장"
+    ],
+    "region": "경상북도·충청남도",
+    "city": "상주시·성주군·서천군",
+    "season": ["여름"],
+    "mood": ["청량함", "희망적임", "따뜻함", "모험적임", "힐링"],
+    "theme": [
+      "여름 여행",
+      "기차역 여행",
+      "섬과 바다",
+      "드라마 촬영지",
+      "해안 산책"
+    ],
+    "scene_elements": [
+      "간이역",
+      "철길",
+      "바다",
+      "스카이워크",
+      "송림",
+      "맥문동"
+    ],
+    "metadata_source": "manual",
+    "sources": [
+      {
+        "place_id": "P019",
+        "segment_id": "V013_P019_S001",
+        "video_id": "DIVA_01",
+        "youtube_id": "dI3Z5u9N0ew",
+        "channel_name": "윤디",
+        "channel_handle": "@yundi1001",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/dI3Z5u9N0ew"
+      },
+      {
+        "place_id": "P019",
+        "segment_id": "V013_P019_S002",
+        "video_id": "DIVA_02",
+        "youtube_id": "n6_TzBPBYUU",
+        "channel_name": "이대한 마술사 TV",
+        "channel_handle": "@이대한마술사TV",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/n6_TzBPBYUU"
+      },
+      {
+        "place_id": "P020",
+        "segment_id": "V013_P020_S001",
+        "video_id": "DIVA_03",
+        "youtube_id": "oetlLeT3dmo",
+        "channel_name": "모두의 노래 Music Video",
+        "channel_handle": "@ModuFilmNote",
+        "source_type": "shorts",
+        "source_url": "https://www.youtube.com/shorts/oetlLeT3dmo"
+      },
+      {
+        "drama_title": "도시남녀의 사랑법",
+        "place_candidates": ["청계천", "을지로", "가나아트센터"],
+        "region": "서울특별시",
+        "city": "종로구·중구",
+        "season": ["겨울"],
+        "mood": ["도시적임", "로맨틱함", "차분함", "세련됨", "겨울 감성"],
+        "theme": [
+          "서울 도심 여행",
+          "청계천 산책",
+          "현대미술",
+          "드라마 촬영지",
+          "겨울 데이트"
+        ],
+        "scene_elements": [
+          "청계천",
+          "도심 산책로",
+          "야경",
+          "현대 건축",
+          "미술관",
+          "눈"
+        ],
+        "metadata_source": "manual",
+        "sources": [
+          {
+            "video_id": "LITC_01",
+            "youtube_id": "DGRMHeI8Wt8",
+            "channel_name": "라파의 여행일기",
+            "channel_handle": "@rapatrip",
+            "source_type": "youtube",
+            "source_url": "https://www.youtube.com/watch?v=DGRMHeI8Wt8"
+          },
+          {
+            "video_id": "LITC_02",
+            "youtube_id": "27tsiYwdNAI",
+            "channel_name": "Seoul Walk 4K",
+            "channel_handle": "@swstyle3",
+            "source_type": "youtube",
+            "source_url": "https://www.youtube.com/watch?v=27tsiYwdNAI"
+          },
+          {
+            "video_id": "LITC_03",
+            "youtube_id": "U2j6ambaCtI",
+            "channel_name": "Kiaf SEOUL",
+            "channel_handle": "@KiafSEOUL",
+            "source_type": "youtube",
+            "source_url": "https://www.youtube.com/watch?v=U2j6ambaCtI"
+          },
+          {
+            "video_id": "LITC_04",
+            "youtube_id": "zozi1EH6ALI",
+            "channel_name": "Jella Her젤라허",
+            "channel_handle": "@jellaher9333",
+            "source_type": "youtube",
+            "source_url": "https://www.youtube.com/watch?v=zozi1EH6ALI"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "video_id_prefix": "V014",
+    "drama_title": "도시남녀의 사랑법",
+    "place_candidates": ["청계천", "을지로", "가나아트센터"],
+    "region": "서울특별시",
+    "city": "종로구·중구",
+    "season": ["겨울"],
+    "mood": ["도시적임", "로맨틱함", "차분함", "세련됨", "겨울 감성"],
+    "theme": [
+      "서울 도심 여행",
+      "청계천 산책",
+      "현대미술",
+      "드라마 촬영지",
+      "겨울 데이트"
+    ],
+    "scene_elements": [
+      "청계천",
+      "도심 산책로",
+      "야경",
+      "현대 건축",
+      "미술관",
+      "눈"
+    ],
+    "metadata_source": "manual",
+    "sources": [
+      {
+        "place_id": "P021",
+        "segment_id": "V014_P021_S001",
+        "video_id": "LITC_01",
+        "youtube_id": "DGRMHeI8Wt8",
+        "channel_name": "라파의 여행일기",
+        "channel_handle": "@rapatrip",
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=DGRMHeI8Wt8"
+      }
+    ]
+  }
+]
