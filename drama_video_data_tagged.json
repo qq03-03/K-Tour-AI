@@ -1,0 +1,1803 @@
+[
+    {
+        "video_id_prefix": "V001",
+        "drama_title": "선재 업고 튀어",
+        "places": [
+            {
+                "place_id": "P001",
+                "place_name": "수원 화성",
+                "region": "gyeonggi",
+                "youtube_id": "nypQChEVN0c",
+                "source_url": "https://www.youtube.com/watch?v=nypQChEVN0c",
+                "segments": [
+                    {
+                        "segment_id": "V001_P001_S001",
+                        "start_time": 0.0,
+                        "end_time": 19.0,
+                        "keyframe_path": "keyframes/V001_P001_S001.jpg",
+                        "season": "봄",
+                        "time_of_day": "새벽, 오전, 오후",
+                        "mood": [
+                            "활기찬",
+                            "유쾌한"
+                        ],
+                        "scene_elements": [
+                            "가족의 정",
+                            "친구间的友情",
+                            "웃음 가득한 장면들"
+                        ],
+                        "k_culture_elements": [
+                            "한식 맛집",
+                            "수원시내 풍경",
+                            "화성 성곽"
+                        ],
+                        "activity": [
+                            "산책하기 좋은 곳",
+                            "사진 촬영하기 좋음",
+                            "역사적 분위기 체험"
+                        ],
+                        "description": "수원 화성 동문 행궁동 벚꽃"
+                    }
+                ]
+            },
+            {
+                "place_id": "P002",
+                "place_name": "여의도 한강",
+                "region": "seoul",
+                "youtube_id": "-0MpUmWNN_k",
+                "source_url": "https://www.youtube.com/watch?v=-0MpUmWNN_k",
+                "segments": [
+                    {
+                        "segment_id": "V001_P002_S001",
+                        "start_time": 0.0,
+                        "end_time": 124.0,
+                        "keyframe_path": "keyframes/V001_P002_S001.jpg",
+                        "season": "봄",
+                        "time_of_day": "저녁, 밤",
+                        "mood": [
+                            "활기찬",
+                            "열정적인"
+                        ],
+                        "scene_elements": [
+                            "여의도 한강 풍경",
+                            "빛나는 도시 경치",
+                            "쾌적한 산책로"
+                        ],
+                        "k_culture_elements": [
+                            "드라마 촬영지 방문",
+                            "서울 관광 명소 탐방"
+                        ],
+                        "activity": [
+                            "산책하기",
+                            "사진 찍기",
+                            "휴식하기"
+                        ],
+                        "description": "여의도 한강 벚꽃"
+                    }
+                ]
+            },
+            {
+                "place_id": "P003",
+                "place_name": "수원대학교",
+                "region": "gyeonggi",
+                "youtube_id": "rbNbOuhhVT0",
+                "source_url": "https://www.youtube.com/watch?v=rbNbOuhhVT0",
+                "segments": [
+                    {
+                        "segment_id": "V001_P003_S001",
+                        "start_time": 0.0,
+                        "end_time": 147.0,
+                        "keyframe_path": "keyframes/V001_P003_S001.jpg",
+                        "season": "봄",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "활기찬",
+                            "열정적인"
+                        ],
+                        "scene_elements": [
+                            "청춘의 빛",
+                            "대학 캠퍼스의 아름다움"
+                        ],
+                        "k_culture_elements": [
+                            "한류 열풍",
+                            "드라마 인기"
+                        ],
+                        "activity": [
+                            "학사 life",
+                            "친구들과의 추억"
+                        ],
+                        "description": "수원대학교 캠퍼스 봄 풍경"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "video_id_prefix": "V002",
+        "drama_title": "폭싹 속았수다",
+        "places": [
+            {
+                "place_id": "P004",
+                "place_name": "고창 학원농장",
+                "region": "jeolla",
+                "youtube_id": "Q6qUEvQfjRs",
+                "source_url": "https://www.youtube.com/watch?v=Q6qUEvQfjRs",
+                "segments": [
+                    {
+                        "segment_id": "V002_P004_S001",
+                        "start_time": 0.0,
+                        "end_time": 10.0,
+                        "keyframe_path": "keyframes/V002_P004_S001.jpg",
+                        "season": "봄",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "활기찬",
+                            "유쾌한"
+                        ],
+                        "scene_elements": [
+                            ":green_leaf:",
+                            ":white_flower:",
+                            ":mmoneybag:"
+                        ],
+                        "k_culture_elements": [
+                            "드라마",
+                            "촬영지",
+                            "관광"
+                        ],
+                        "activity": [
+                            "놀이",
+                            "추억 만들기",
+                            "사진 찍기"
+                        ],
+                        "description": "고창 학원농장 유채꽃"
+                    }
+                ]
+            },
+            {
+                "place_id": "P004",
+                "place_name": "고창 학원농장",
+                "region": "jeolla",
+                "youtube_id": "rFJT5hNx2AQ",
+                "source_url": "https://www.youtube.com/watch?v=rFJT5hNx2AQ",
+                "segments": [
+                    {
+                        "segment_id": "V002_P004_S002",
+                        "start_time": 10.0,
+                        "end_time": 15.0,
+                        "keyframe_path": "keyframes/V002_P004_S002.jpg",
+                        "season": "봄",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "활기차",
+                            "유쾌한"
+                        ],
+                        "scene_elements": [
+                            ":green_leaf:",
+                            ":white_flower:"
+                        ],
+                        "k_culture_elements": [
+                            "드라마",
+                            "촬영지"
+                        ],
+                        "activity": [
+                            "여가",
+                            "추억"
+                        ],
+                        "description": "드라마속 고창 학원농장 유채꽃"
+                    }
+                ]
+            },
+            {
+                "place_id": "P004",
+                "place_name": "고창 학원농장",
+                "region": "jeolla",
+                "youtube_id": "zY81V4VOA44",
+                "source_url": "https://www.youtube.com/watch?v=zY81V4VOA44",
+                "segments": [
+                    {
+                        "segment_id": "V002_P004_S003",
+                        "start_time": 0.0,
+                        "end_time": 23.0,
+                        "keyframe_path": "keyframes/V002_P004_S003.jpg",
+                        "season": "봄",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "활기찬",
+                            "유쾌한"
+                        ],
+                        "scene_elements": [
+                            ":green_book: 드라마 장면",
+                            ":white_flower: 꽃밭",
+                            ":basket_with_rice: 농장에서의 식사",
+                            ":sunny_with_face: 햇빛下的阳光照耀着整个农场"
+                        ],
+                        "k_culture_elements": [
+                            "한복",
+                            "전통 음식",
+                            "농촌 풍경"
+                        ],
+                        "activity": [
+                            "여가 활동",
+                            "드라이브 추천 장소",
+                            "사진 촬영 장소"
+                        ],
+                        "description": "고창 청보리밭"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "video_id_prefix": "V001",
+        "drama_title": "선재 업고 튀어",
+        "places": [
+            {
+                "place_id": "P001",
+                "place_name": "수원 화성",
+                "region": "gyeonggi",
+                "youtube_id": "nypQChEVN0c",
+                "source_url": "https://www.youtube.com/watch?v=nypQChEVN0c",
+                "segments": [
+                    {
+                        "segment_id": "V001_P001_S001",
+                        "start_time": 0.0,
+                        "end_time": 19.0,
+                        "keyframe_path": "keyframes/V001_P001_S001.jpg",
+                        "season": "봄",
+                        "time_of_day": "새벽, 오전, 오후",
+                        "mood": [
+                            "활기찬",
+                            "유쾌한"
+                        ],
+                        "scene_elements": [
+                            "가족의 정",
+                            "친구间的友情",
+                            "웃음 가득한 장면들"
+                        ],
+                        "k_culture_elements": [
+                            "한식 맛집",
+                            "수원시내 풍경",
+                            "화성 성곽"
+                        ],
+                        "activity": [
+                            "산책하기 좋은 곳",
+                            "사진 촬영하기 좋음",
+                            "역사적 분위기 체험"
+                        ],
+                        "description": "수원 화성 동문 행궁동 벚꽃"
+                    }
+                ]
+            },
+            {
+                "place_id": "P002",
+                "place_name": "여의도 한강",
+                "region": "seoul",
+                "youtube_id": "-0MpUmWNN_k",
+                "source_url": "https://www.youtube.com/watch?v=-0MpUmWNN_k",
+                "segments": [
+                    {
+                        "segment_id": "V001_P002_S001",
+                        "start_time": 0.0,
+                        "end_time": 124.0,
+                        "keyframe_path": "keyframes/V001_P002_S001.jpg",
+                        "season": "봄",
+                        "time_of_day": "저녁, 밤",
+                        "mood": [
+                            "활기찬",
+                            "열정적인"
+                        ],
+                        "scene_elements": [
+                            "여의도 한강 풍경",
+                            "빛나는 도시 경치",
+                            "쾌적한 산책로"
+                        ],
+                        "k_culture_elements": [
+                            "드라마 촬영지 방문",
+                            "서울 관광 명소 탐방"
+                        ],
+                        "activity": [
+                            "산책하기",
+                            "사진 찍기",
+                            "휴식하기"
+                        ],
+                        "description": "여의도 한강 벚꽃"
+                    }
+                ]
+            },
+            {
+                "place_id": "P003",
+                "place_name": "수원대학교",
+                "region": "gyeonggi",
+                "youtube_id": "rbNbOuhhVT0",
+                "source_url": "https://www.youtube.com/watch?v=rbNbOuhhVT0",
+                "segments": [
+                    {
+                        "segment_id": "V001_P003_S001",
+                        "start_time": 0.0,
+                        "end_time": 147.0,
+                        "keyframe_path": "keyframes/V001_P003_S001.jpg",
+                        "season": "봄",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "활기찬",
+                            "열정적인"
+                        ],
+                        "scene_elements": [
+                            "청춘의 빛",
+                            "대학 캠퍼스의 아름다움"
+                        ],
+                        "k_culture_elements": [
+                            "한류 열풍",
+                            "드라마 인기"
+                        ],
+                        "activity": [
+                            "학사 life",
+                            "친구들과의 추억"
+                        ],
+                        "description": "수원대학교 캠퍼스 봄 풍경"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "video_id_prefix": "V002",
+        "drama_title": "폭싹 속았수다",
+        "places": [
+            {
+                "place_id": "P004",
+                "place_name": "고창 학원농장",
+                "region": "jeolla",
+                "youtube_id": "Q6qUEvQfjRs",
+                "source_url": "https://www.youtube.com/watch?v=Q6qUEvQfjRs",
+                "segments": [
+                    {
+                        "segment_id": "V002_P004_S001",
+                        "start_time": 0.0,
+                        "end_time": 10.0,
+                        "keyframe_path": "keyframes/V002_P004_S001.jpg",
+                        "season": "봄",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "활기찬",
+                            "유쾌한"
+                        ],
+                        "scene_elements": [
+                            ":green_leaf:",
+                            ":white_flower:",
+                            ":mmoneybag:"
+                        ],
+                        "k_culture_elements": [
+                            "드라마",
+                            "촬영지",
+                            "관광"
+                        ],
+                        "activity": [
+                            "놀이",
+                            "추억 만들기",
+                            "사진 찍기"
+                        ],
+                        "description": "고창 학원농장 유채꽃"
+                    }
+                ]
+            },
+            {
+                "place_id": "P004",
+                "place_name": "고창 학원농장",
+                "region": "jeolla",
+                "youtube_id": "rFJT5hNx2AQ",
+                "source_url": "https://www.youtube.com/watch?v=rFJT5hNx2AQ",
+                "segments": [
+                    {
+                        "segment_id": "V002_P004_S002",
+                        "start_time": 10.0,
+                        "end_time": 15.0,
+                        "keyframe_path": "keyframes/V002_P004_S002.jpg",
+                        "season": "봄",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "활기차",
+                            "유쾌한"
+                        ],
+                        "scene_elements": [
+                            ":green_leaf:",
+                            ":white_flower:"
+                        ],
+                        "k_culture_elements": [
+                            "드라마",
+                            "촬영지"
+                        ],
+                        "activity": [
+                            "여가",
+                            "추억"
+                        ],
+                        "description": "드라마속 고창 학원농장 유채꽃"
+                    }
+                ]
+            },
+            {
+                "place_id": "P004",
+                "place_name": "고창 학원농장",
+                "region": "jeolla",
+                "youtube_id": "zY81V4VOA44",
+                "source_url": "https://www.youtube.com/watch?v=zY81V4VOA44",
+                "segments": [
+                    {
+                        "segment_id": "V002_P004_S003",
+                        "start_time": 0.0,
+                        "end_time": 23.0,
+                        "keyframe_path": "keyframes/V002_P004_S003.jpg",
+                        "season": "봄",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "활기찬",
+                            "유쾌한"
+                        ],
+                        "scene_elements": [
+                            ":green_book: 드라마 장면",
+                            ":white_flower: 꽃밭",
+                            ":basket_with_rice: 농장에서의 식사",
+                            ":sunny_with_face: 햇빛下的阳光照耀着整个农场"
+                        ],
+                        "k_culture_elements": [
+                            "한복",
+                            "전통 음식",
+                            "농촌 풍경"
+                        ],
+                        "activity": [
+                            "여가 활동",
+                            "드라이브 추천 장소",
+                            "사진 촬영 장소"
+                        ],
+                        "description": "고창 청보리밭"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "video_id_prefix": "V003",
+        "drama_title": "그 해 우리는",
+        "places": [
+            {
+                "place_id": "P005",
+                "place_name": "전주 한옥마을",
+                "region": "jeolla",
+                "youtube_id": "nK3ge3jQrXc",
+                "source_url": "https://www.youtube.com/watch?v=nK3ge3jQrXc",
+                "segments": [
+                    {
+                        "segment_id": "V003_P005_S001",
+                        "start_time": 262.0,
+                        "end_time": 290.0,
+                        "keyframe_path": "keyframes/V003_P005_S001.jpg",
+                        "season": "가을",
+                        "time_of_day": "오후, 저녁, 밤",
+                        "mood": [
+                            "감성",
+                            "낭만"
+                        ],
+                        "scene_elements": [
+                            "한옥",
+                            "마을",
+                            "가을"
+                        ],
+                        "k_culture_elements": [
+                            "전통",
+                            "문화"
+                        ],
+                        "activity": [
+                            "산책",
+                            "추억",
+                            "여행"
+                        ],
+                        "description": "연수가 걸었던 거리"
+                    }
+                ]
+            },
+            {
+                "place_id": "P001",
+                "place_name": "수원 화성",
+                "region": "gyeonggi",
+                "youtube_id": "tJqIDVFhsNU",
+                "source_url": "https://www.youtube.com/watch?v=tJqIDVFhsNU",
+                "segments": [
+                    {
+                        "segment_id": "V003_P001_S001",
+                        "start_time": 0.0,
+                        "end_time": 204.0,
+                        "keyframe_path": "keyframes/V003_P001_S001.jpg",
+                        "season": "여름, 가을, 겨울",
+                        "time_of_day": "오전, 오후, 저녁, 밤",
+                        "mood": [
+                            "감동",
+                            "연애"
+                        ],
+                        "scene_elements": [
+                            "가을 풍경",
+                            "화성공원"
+                        ],
+                        "k_culture_elements": [
+                            "한복",
+                            "명절"
+                        ],
+                        "activity": [
+                            "산책",
+                            "문화체험"
+                        ],
+                        "description": "수원 촬영지"
+                    }
+                ]
+            },
+            {
+                "place_id": "P006",
+                "place_name": "논산 은빛자연휴양림",
+                "region": "chungcheong",
+                "youtube_id": "7xQmeawhiX8",
+                "source_url": "https://www.youtube.com/watch?v=7xQmeawhiX8",
+                "segments": [
+                    {
+                        "segment_id": "V003_P006_S001",
+                        "start_time": 0.0,
+                        "end_time": 12.0,
+                        "keyframe_path": "keyframes/V003_P006_S001.jpg",
+                        "season": "여름, 가을",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감성적",
+                            "멜로디컬"
+                        ],
+                        "scene_elements": [
+                            "가을 풍경",
+                            "자연 휴양림",
+                            "그린 스페이스"
+                        ],
+                        "k_culture_elements": [
+                            "한국 드라마",
+                            "K-드라마"
+                        ],
+                        "activity": [
+                            "산책",
+                            "야외 활동",
+                            "휴식"
+                        ],
+                        "description": "한국의 스위스"
+                    }
+                ]
+            },
+            {
+                "place_id": "P006",
+                "place_name": "논산 은빛자연휴양림",
+                "region": "chungcheong",
+                "youtube_id": "cbINxfGIbKU",
+                "source_url": "https://www.youtube.com/watch?v=cbINxfGIbKU",
+                "segments": [
+                    {
+                        "segment_id": "V003_P006_S002",
+                        "start_time": 0.0,
+                        "end_time": 16.0,
+                        "keyframe_path": "keyframes/V003_P006_S002.jpg",
+                        "season": "가을",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감성",
+                            "낭만"
+                        ],
+                        "scene_elements": [
+                            "빛나는 가을날씨",
+                            "청록색 잎사귀",
+                            "따뜻한 햇살"
+                        ],
+                        "k_culture_elements": [
+                            "한복 착용",
+                            "명절 분위기"
+                        ],
+                        "activity": [
+                            "산책",
+                            "야외 캠핑",
+                            "가족 모임"
+                        ],
+                        "description": "주황빛 메타세콰이어"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "video_id_prefix": "V004",
+        "drama_title": "스물다섯 스물하나",
+        "places": [
+            {
+                "place_id": "P007",
+                "place_name": "한벽굴",
+                "region": "jeolla",
+                "youtube_id": "lod4cPrl-yc",
+                "source_url": "https://www.youtube.com/watch?v=lod4cPrl-yc",
+                "segments": [
+                    {
+                        "segment_id": "V004_P007_S001",
+                        "start_time": 195.0,
+                        "end_time": 230.0,
+                        "keyframe_path": "keyframes/V004_P007_S001.jpg",
+                        "season": "여름",
+                        "time_of_day": "저녁, 밤",
+                        "mood": [
+                            "감성",
+                            "연애"
+                        ],
+                        "scene_elements": [
+                            "빛나는 별",
+                            "밤하늘",
+                            "별이 빛나는 밤"
+                        ],
+                        "k_culture_elements": [
+                            "한벽굴",
+                            "유적지",
+                            "사랑의 헌정 장소"
+                        ],
+                        "activity": [
+                            "星空下的誓言",
+                            " NIGHT WALK",
+                            "별 아래 약속"
+                        ],
+                        "description": "청춘터널"
+                    }
+                ]
+            },
+            {
+                "place_id": "P008",
+                "place_name": "명진 책 대여점",
+                "region": "jeolla",
+                "youtube_id": "flZSgw7pP4U",
+                "source_url": "https://www.youtube.com/watch?v=flZSgw7pP4U",
+                "segments": [
+                    {
+                        "segment_id": "V004_P008_S001",
+                        "start_time": 382.0,
+                        "end_time": 410.0,
+                        "keyframe_path": "keyframes/V004_P008_S001.jpg",
+                        "season": "여름",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감성",
+                            "낭만"
+                        ],
+                        "scene_elements": [
+                            "책",
+                            "대여점",
+                            "도서관"
+                        ],
+                        "k_culture_elements": [
+                            "드라마",
+                            "K-드라마"
+                        ],
+                        "activity": [
+                            "독서",
+                            "추억"
+                        ],
+                        "description": "드라마 내 책방"
+                    }
+                ]
+            },
+            {
+                "place_id": "P007",
+                "place_name": "한벽굴",
+                "region": "jeolla",
+                "youtube_id": "ljRH65gLa3A",
+                "source_url": "https://www.youtube.com/watch?v=ljRH65gLa3A",
+                "segments": [
+                    {
+                        "segment_id": "V004_P007_S002",
+                        "start_time": 0.0,
+                        "end_time": 34.0,
+                        "keyframe_path": "keyframes/V004_P007_S002.jpg",
+                        "season": "여름",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감성",
+                            "연애"
+                        ],
+                        "scene_elements": [
+                            "별빛",
+                            "밤길",
+                            "산책"
+                        ],
+                        "k_culture_elements": [
+                            "한복",
+                            "명절"
+                        ],
+                        "activity": [
+                            "문화여행",
+                            "힐링"
+                        ],
+                        "description": "청춘터널"
+                    }
+                ]
+            },
+            {
+                "place_id": "P009",
+                "place_name": "전주 오목대",
+                "region": "jeolla",
+                "youtube_id": "6EiESTfjT_0",
+                "source_url": "https://youtu.be/6EiESTfjT_0",
+                "segments": [
+                    {
+                        "segment_id": "V004_P009_S001",
+                        "start_time": 0.0,
+                        "end_time": 107.0,
+                        "keyframe_path": "keyframes/V004_P009_S001.jpg",
+                        "season": "봄, 여름, 가을, 겨울",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감성",
+                            "낭만"
+                        ],
+                        "scene_elements": [
+                            "꽃밭",
+                            "산책길",
+                            "정취"
+                        ],
+                        "k_culture_elements": [
+                            "한옥",
+                            "전통찻집",
+                            "민속마을"
+                        ],
+                        "activity": [
+                            "문화체험",
+                            "명소 방문",
+                            "사진 촬영"
+                        ],
+                        "description": "한옥마을 전경이 한눈에 들어오는 정자"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "video_id_prefix": "V005",
+        "drama_title": "갯마을 차차차",
+        "places": [
+            {
+                "place_id": "P010",
+                "place_name": "포항",
+                "region": "gyeongsang",
+                "youtube_id": "UjxY3jz0znE",
+                "source_url": "https://www.youtube.com/watch?v=UjxY3jz0znE",
+                "segments": [
+                    {
+                        "segment_id": "V005_P010_S001",
+                        "start_time": 305.0,
+                        "end_time": 430.0,
+                        "keyframe_path": "keyframes/V005_P010_S001.jpg",
+                        "season": "여름",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "따뜻한",
+                            "😄",
+                            "감성적인"
+                        ],
+                        "scene_elements": [
+                            "해안가",
+                            "😊",
+                            "바다",
+                            "👋",
+                            "노을",
+                            "🌅",
+                            "등대",
+                            "👀"
+                        ],
+                        "k_culture_elements": [
+                            "마을생활",
+                            "👩‍🌾",
+                            "어부",
+                            "🐟",
+                            "잡지",
+                            "✍️",
+                            "풍경화",
+                            "🖼️"
+                        ],
+                        "activity": [
+                            "산책",
+                            "🚶‍♀️",
+                            "낚시",
+                            "🎣",
+                            "해변清洁",
+                            "🏖️"
+                        ],
+                        "description": "영일만항 홍두식 배 있는 사방기념공원"
+                    }
+                ]
+            },
+            {
+                "place_id": "P010",
+                "place_name": "포항",
+                "region": "gyeongsang",
+                "youtube_id": "ch9bdaofYxM",
+                "source_url": "https://www.youtube.com/watch?v=ch9bdaofYxM",
+                "segments": [
+                    {
+                        "segment_id": "V005_P010_S002",
+                        "start_time": 0.0,
+                        "end_time": 179.0,
+                        "keyframe_path": "keyframes/V005_P010_S002.jpg",
+                        "season": "여름",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "😄",
+                            "😊"
+                        ],
+                        "scene_elements": [
+                            "바다",
+                            "해안가",
+                            "등대",
+                            "노을",
+                            "물결"
+                        ],
+                        "k_culture_elements": [
+                            "한옥",
+                            "잡화상점",
+                            "구수한 마을풍경",
+                            "고즈넉한 삶의 흔적"
+                        ],
+                        "activity": [
+                            "낚시",
+                            "해변산책",
+                            "등대체험",
+                            "노을 감상"
+                        ],
+                        "description": "드라마 속 구룡포 석병리 어촌마을 풍경"
+                    }
+                ]
+            },
+            {
+                "place_id": "P010",
+                "place_name": "포항",
+                "region": "gyeongsang",
+                "youtube_id": "wi11R_vDBmE",
+                "source_url": "https://www.youtube.com/watch?v=wi11R_vDBmE",
+                "segments": [
+                    {
+                        "segment_id": "V005_P010_S003",
+                        "start_time": 0.0,
+                        "end_time": 29.0,
+                        "keyframe_path": "keyframes/V005_P010_S003.jpg",
+                        "season": "여름",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감성적",
+                            "애틋함"
+                        ],
+                        "scene_elements": [
+                            "바다",
+                            "마을",
+                            "해안선"
+                        ],
+                        "k_culture_elements": [
+                            "한옥",
+                            "포항 고유 문화"
+                        ],
+                        "activity": [
+                            "해변 산책",
+                            "해물 요리 즐기기",
+                            "해수욕"
+                        ],
+                        "description": "청하 공진시장"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "video_id_prefix": "V006",
+        "drama_title": "우리들의 블루스",
+        "places": [
+            {
+                "place_id": "P011",
+                "place_name": "제주도",
+                "region": "jeju",
+                "youtube_id": "1r7a5mLNGRQ",
+                "source_url": "https://www.youtube.com/watch?v=1r7a5mLNGRQ",
+                "segments": [
+                    {
+                        "segment_id": "V006_P011_S001",
+                        "start_time": 0.0,
+                        "end_time": 81.0,
+                        "keyframe_path": "keyframes/V006_P011_S001.jpg",
+                        "season": "여름",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "슬픔",
+                            "감정"
+                        ],
+                        "scene_elements": [
+                            "바다",
+                            "산",
+                            "문화재"
+                        ],
+                        "k_culture_elements": [
+                            "드라마",
+                            "우리들의 블루스"
+                        ],
+                        "activity": [
+                            "등산",
+                            "해변 산책"
+                        ],
+                        "description": "70% 분량 촬영지 모음"
+                    }
+                ]
+            },
+            {
+                "place_id": "P011",
+                "place_name": "제주도",
+                "region": "jeju",
+                "youtube_id": "Oeme18IdNzw",
+                "source_url": "https://www.youtube.com/watch?v=Oeme18IdNzw",
+                "segments": [
+                    {
+                        "segment_id": "V006_P011_S002",
+                        "start_time": 0.0,
+                        "end_time": 11.0,
+                        "keyframe_path": "keyframes/V006_P011_S002.jpg",
+                        "season": "여름",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감성적",
+                            "슬픔"
+                        ],
+                        "scene_elements": [
+                            "바다",
+                            "산세",
+                            ":white_small_square:"
+                        ],
+                        "k_culture_elements": [
+                            "한복",
+                            "jejumyeon",
+                            "jejutrap"
+                        ],
+                        "activity": [
+                            "해변 산책",
+                            "등산",
+                            "전통 음식 체험"
+                        ],
+                        "description": "청굴물"
+                    }
+                ]
+            },
+            {
+                "place_id": "P011",
+                "place_name": "제주도",
+                "region": "jeju",
+                "youtube_id": "e6FvfWF4uVg",
+                "source_url": "https://www.youtube.com/watch?v=e6FvfWF4uVg",
+                "segments": [
+                    {
+                        "segment_id": "V006_P011_S003",
+                        "start_time": 118.0,
+                        "end_time": 298.0,
+                        "keyframe_path": "keyframes/V006_P011_S003.jpg",
+                        "season": "봄, 여름",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감성적",
+                            "슬픔",
+                            "연애"
+                        ],
+                        "scene_elements": [
+                            "바다",
+                            "산세",
+                            "가을풍경"
+                        ],
+                        "k_culture_elements": [
+                            "한복",
+                            "jejumyeon",
+                            "jejutrap"
+                        ],
+                        "activity": [
+                            "해변 산책",
+                            "등산",
+                            "사진 촬영"
+                        ],
+                        "description": "태봉왓"
+                    }
+                ]
+            },
+            {
+                "place_id": "P011",
+                "place_name": "제주도",
+                "region": "jeju",
+                "youtube_id": "Lb3DGOdPafU",
+                "source_url": "https://www.youtube.com/watch?v=Lb3DGOdPafU",
+                "segments": [
+                    {
+                        "segment_id": "V006_P011_S004",
+                        "start_time": 0.0,
+                        "end_time": 15.0,
+                        "keyframe_path": "keyframes/V006_P011_S004.jpg",
+                        "season": "봄, 여름",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감성적",
+                            "슬픔"
+                        ],
+                        "scene_elements": [
+                            "바다",
+                            "산세",
+                            ":white_flower:",
+                            "청정한 공기"
+                        ],
+                        "k_culture_elements": [
+                            "드라마 우리들의 블루스"
+                        ],
+                        "activity": [
+                            "산책",
+                            "해변 산책",
+                            "등산"
+                        ],
+                        "description": "금능리"
+                    }
+                ]
+            },
+            {
+                "place_id": "P011",
+                "place_name": "제주도",
+                "region": "jeju",
+                "youtube_id": "fr03aYy-ZfI",
+                "source_url": "https://www.youtube.com/watch?v=fr03aYy-ZfI",
+                "segments": [
+                    {
+                        "segment_id": "V006_P011_S005",
+                        "start_time": 0.0,
+                        "end_time": 406.0,
+                        "keyframe_path": "keyframes/V006_P011_S005.jpg",
+                        "season": "",
+                        "time_of_day": "",
+                        "mood": [
+                            "슬픔",
+                            "감성"
+                        ],
+                        "scene_elements": [
+                            "바다",
+                            "산세",
+                            ":white_flower:",
+                            "청정한 공기"
+                        ],
+                        "k_culture_elements": [
+                            "드라마",
+                            "우리들의 블루스"
+                        ],
+                        "activity": [
+                            "명상",
+                            "산책",
+                            "해변 산책"
+                        ],
+                        "description": "금능포구 주변"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "video_id_prefix": "V007",
+        "drama_title": "사랑의 불시착",
+        "places": [
+            {
+                "place_id": "P012",
+                "place_name": "비내섬",
+                "region": "chungcheong",
+                "youtube_id": "VNXXMn8pgiE",
+                "source_url": "https://www.youtube.com/watch?v=VNXXMn8pgiE",
+                "segments": [
+                    {
+                        "segment_id": "V007_P012_S001",
+                        "start_time": 0.0,
+                        "end_time": 60.0,
+                        "keyframe_path": "keyframes/V007_P012_S001.jpg",
+                        "season": "봄",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감동적",
+                            "멜로디컬"
+                        ],
+                        "scene_elements": [
+                            "해변",
+                            "야경",
+                            "가을 단풍"
+                        ],
+                        "k_culture_elements": [
+                            "한복",
+                            "명물 음식",
+                            "전통 공연"
+                        ],
+                        "activity": [
+                            "산책",
+                            "바다 감상",
+                            "星空观赏"
+                        ],
+                        "description": "갈대숲"
+                    }
+                ]
+            },
+            {
+                "place_id": "P012",
+                "place_name": "비내섬",
+                "region": "chungcheong",
+                "youtube_id": "yb4qs4kRVG4",
+                "source_url": "https://www.youtube.com/watch?v=yb4qs4kRVG4",
+                "segments": [
+                    {
+                        "segment_id": "V007_P012_S002",
+                        "start_time": 0.0,
+                        "end_time": 0.0,
+                        "keyframe_path": "keyframes/V007_P012_S002.jpg",
+                        "season": "겨울",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감동",
+                            "연애"
+                        ],
+                        "scene_elements": [
+                            "해변",
+                            "별이 빛나는 밤",
+                            "밤하늘"
+                        ],
+                        "k_culture_elements": [
+                            "드라마",
+                            "비내섬",
+                            "사랑의 불시착"
+                        ],
+                        "activity": [
+                            "관광",
+                            "星空下的浪漫",
+                            "星空下的约会"
+                        ],
+                        "description": "설경"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "video_id_prefix": "V008",
+        "drama_title": "도깨비",
+        "places": [
+            {
+                "place_id": "P013",
+                "place_name": "강릉 주문진",
+                "region": "gangwon",
+                "youtube_id": "mCeMgl6rR-U",
+                "source_url": "https://www.youtube.com/watch?v=mCeMgl6rR-U",
+                "segments": [
+                    {
+                        "segment_id": "V008_P013_S001",
+                        "start_time": 198.0,
+                        "end_time": 207.0,
+                        "keyframe_path": "keyframes/V008_P013_S001.jpg",
+                        "season": "가을, 겨울",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "신비롭기",
+                            "감동적"
+                        ],
+                        "scene_elements": [
+                            "바다",
+                            "별이 빛나는 밤",
+                            "해안절벽"
+                        ],
+                        "k_culture_elements": [
+                            "한복",
+                            "전통 음식"
+                        ],
+                        "activity": [
+                            "등대 사진 찍기",
+                            "해변 산책",
+                            "星空下的浪漫"
+                        ],
+                        "description": "영진해변 처음으로 메밀꽃을 주고받는 장면"
+                    }
+                ]
+            },
+            {
+                "place_id": "P013",
+                "place_name": "강릉 주문진",
+                "region": "gangwon",
+                "youtube_id": "vzS5MqlN-wU",
+                "source_url": "https://www.youtube.com/watch?v=vzS5MqlN-wU",
+                "segments": [
+                    {
+                        "segment_id": "V008_P013_S002",
+                        "start_time": 0.0,
+                        "end_time": 18.0,
+                        "keyframe_path": "keyframes/V008_P013_S002.jpg",
+                        "season": "가을, 겨울",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "환상적",
+                            "비경"
+                        ],
+                        "scene_elements": [
+                            "바다",
+                            "해안선",
+                            "등대",
+                            "돌산들"
+                        ],
+                        "k_culture_elements": [
+                            "한국 드라마",
+                            "현대와 전설의 만남"
+                        ],
+                        "activity": [
+                            "해변 산책",
+                            "등대 사진 촬영",
+                            "물고기 잡기"
+                        ],
+                        "description": "영진해변 방파제"
+                    }
+                ]
+            },
+            {
+                "place_id": "P014",
+                "place_name": "평창 월정사",
+                "region": "gangwon",
+                "youtube_id": "2jiJ9CCzclg",
+                "source_url": "https://www.youtube.com/watch?v=2jiJ9CCzclg",
+                "segments": [
+                    {
+                        "segment_id": "V008_P014_S001",
+                        "start_time": 0.0,
+                        "end_time": 28.0,
+                        "keyframe_path": "keyframes/V008_P014_S001.jpg",
+                        "season": "겨울",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "환상적",
+                            "비경"
+                        ],
+                        "scene_elements": [
+                            "산중",
+                            "수목",
+                            "명당"
+                        ],
+                        "k_culture_elements": [
+                            "불교",
+                            "사찰"
+                        ],
+                        "activity": [
+                            "명소방문",
+                            "산책",
+                            "사진찍기"
+                        ],
+                        "description": "오대산 월정사 전나무 숲길"
+                    }
+                ]
+            },
+            {
+                "place_id": "P014",
+                "place_name": "평창 월정사",
+                "region": "gangwon",
+                "youtube_id": "89CfEae8uRI",
+                "source_url": "https://www.youtube.com/watch?v=89CfEae8uRI",
+                "segments": [
+                    {
+                        "segment_id": "V008_P014_S002",
+                        "start_time": 0.0,
+                        "end_time": 139.0,
+                        "keyframe_path": "keyframes/V008_P014_S002.jpg",
+                        "season": "겨울",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "비경",
+                            "위대한"
+                        ],
+                        "scene_elements": [
+                            "산중",
+                            "숲",
+                            "수목"
+                        ],
+                        "k_culture_elements": [
+                            "불교",
+                            "사찰"
+                        ],
+                        "activity": [
+                            "명상",
+                            "기도"
+                        ],
+                        "description": "오대산 월정사 전나무 숲길"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "video_id_prefix": "V009",
+        "drama_title": "호텔 델루나",
+        "places": [
+            {
+                "place_id": "P015",
+                "place_name": "동해 망상",
+                "region": "gangwon",
+                "youtube_id": "7ir6-MekfHU",
+                "source_url": "https://www.youtube.com/watch?v=7ir6-MekfHU",
+                "segments": [
+                    {
+                        "segment_id": "V009_P015_S001",
+                        "start_time": 0.0,
+                        "end_time": 44.0,
+                        "keyframe_path": "keyframes/V009_P015_S001.jpg",
+                        "season": "봄, 여름",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "환상",
+                            "비경"
+                        ],
+                        "scene_elements": [
+                            "빛나는 별",
+                            "바다의 파도 소리",
+                            "밤하늘"
+                        ],
+                        "k_culture_elements": [
+                            "드라마 호텔 델루나 촬영지",
+                            "망상 해변",
+                            "동해안 풍경"
+                        ],
+                        "activity": [
+                            "星空下的浪漫",
+                            "海邊漫步",
+                            "夜景欣赏"
+                        ],
+                        "description": "동해 망상"
+                    }
+                ]
+            },
+            {
+                "place_id": "P022",
+                "place_name": "파라다이스시티",
+                "region": "incheon",
+                "youtube_id": "ju15D1xTvVU",
+                "source_url": "https://www.youtube.com/watch?v=ju15D1xTvVU",
+                "segments": [
+                    {
+                        "segment_id": "V009_P022_S001",
+                        "start_time": 0.0,
+                        "end_time": 53.0,
+                        "keyframe_path": "keyframes/V009_P022_S001.jpg",
+                        "season": "봄, 여름, 가을, 겨울",
+                        "time_of_day": "오전, 오후, 저녁",
+                        "mood": [
+                            "이색",
+                            "신비로움"
+                        ],
+                        "scene_elements": [
+                            "빛나는 건물",
+                            "현대적인 빌딩"
+                        ],
+                        "k_culture_elements": [
+                            "드라마 호텔 델루나 촬영지",
+                            "파라다이스시티"
+                        ],
+                        "activity": [
+                            "관광",
+                            "사진 촬영"
+                        ],
+                        "description": "호텔 델루나 속 파라다이스시티"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "video_id_prefix": "V011",
+        "drama_title": "킹덤",
+        "places": [
+            {
+                "place_id": "P016",
+                "place_name": "경복궁",
+                "region": "seoul",
+                "youtube_id": "yZeNfaIK7Nw",
+                "source_url": "https://youtu.be/yZeNfaIK7Nw",
+                "segments": [
+                    {
+                        "segment_id": "V011_P016_S001",
+                        "start_time": 0.0,
+                        "end_time": 137.0,
+                        "keyframe_path": "keyframes/V011_P016_S001.jpg",
+                        "season": "봄, 여름, 가을, 겨울",
+                        "time_of_day": "오전, 오후, 저녁, 밤",
+                        "mood": [
+                            "역사적",
+                            "감동적"
+                        ],
+                        "scene_elements": [
+                            "궁궐의 아름다움",
+                            "전설적인 전투 장면",
+                            "시대를 대표하는 건축물"
+                        ],
+                        "k_culture_elements": [
+                            "한복 착용",
+                            "고유한 문화 풍경",
+                            "역사적 배경"
+                        ],
+                        "activity": [
+                            "궁궐 관광",
+                            "역사 탐방",
+                            "드라마 촬영지 방문"
+                        ],
+                        "description": "경복궁"
+                    }
+                ]
+            },
+            {
+                "place_id": "P016",
+                "place_name": "경복궁",
+                "region": "seoul",
+                "youtube_id": "Nba1McqxPEo",
+                "source_url": "https://www.youtube.com/watch?v=Nba1McqxPEo",
+                "segments": [
+                    {
+                        "segment_id": "V011_P016_S002",
+                        "start_time": 0.0,
+                        "end_time": 34.0,
+                        "keyframe_path": "keyframes/V011_P016_S002.jpg",
+                        "season": "봄, 여름, 가을, 겨울",
+                        "time_of_day": "오전, 오후, 저녁, 밤",
+                        "mood": [
+                            "역사적",
+                            "감동적"
+                        ],
+                        "scene_elements": [
+                            "궁궐의 아름다움",
+                            "전설적인 전투 장면",
+                            "시대를 대표하는 건축물"
+                        ],
+                        "k_culture_elements": [
+                            "한복 착용",
+                            "고유한 문화 풍경"
+                        ],
+                        "activity": [
+                            "궁궐 관광",
+                            "역사 탐방",
+                            "드라마 촬영지 방문"
+                        ],
+                        "description": "경복궁"
+                    }
+                ]
+            },
+            {
+                "place_id": "P017",
+                "place_name": "창덕궁",
+                "region": "seoul",
+                "youtube_id": "i2ZuU6szFWE",
+                "source_url": "https://youtu.be/i2ZuU6szFWE",
+                "segments": [
+                    {
+                        "segment_id": "V011_P017_S001",
+                        "start_time": 0.0,
+                        "end_time": 85.0,
+                        "keyframe_path": "keyframes/V011_P017_S001.jpg",
+                        "season": "봄, 여름, 가을, 겨울",
+                        "time_of_day": "오전, 오후, 저녁, 밤",
+                        "mood": [
+                            "역사적",
+                            "감동적"
+                        ],
+                        "scene_elements": [
+                            "궁궐의 아름다움",
+                            "전설적인 전투",
+                            "시대를 초월한 우정"
+                        ],
+                        "k_culture_elements": [
+                            "드라마 킹덤",
+                            "창덕궁 촬영지"
+                        ],
+                        "activity": [
+                            "궁궐 관광",
+                            "역사 탐방",
+                            "드라마 촬영지 방문"
+                        ],
+                        "description": "창덕궁"
+                    }
+                ]
+            },
+            {
+                "place_id": "P017",
+                "place_name": "창덕궁",
+                "region": "seoul",
+                "youtube_id": "c4OOEsGS7Cc",
+                "source_url": "https://www.youtube.com/watch?v=c4OOEsGS7Cc",
+                "segments": [
+                    {
+                        "segment_id": "V011_P017_S002",
+                        "start_time": 0.0,
+                        "end_time": 28.0,
+                        "keyframe_path": "keyframes/V011_P017_S002.jpg",
+                        "season": "봄, 여름, 가을, 겨울",
+                        "time_of_day": "오전, 오후, 저녁, 밤",
+                        "mood": [
+                            "역사적",
+                            "감성적"
+                        ],
+                        "scene_elements": [
+                            "궁궐의 아름다움",
+                            "한국 역사의 숨결"
+                        ],
+                        "k_culture_elements": [
+                            "드라마 킹덤",
+                            "세종대왕의 위용"
+                        ],
+                        "activity": [
+                            "명소 방문",
+                            "역사 탐방"
+                        ],
+                        "description": "창덕궁"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "video_id_prefix": "V012",
+        "drama_title": "날씨가 좋으면 찾아가겠어요",
+        "places": [
+            {
+                "place_id": "P018",
+                "place_name": "영월 주천강",
+                "region": "seoul",
+                "youtube_id": "m1hv20znDdU",
+                "source_url": "https://www.youtube.com/watch?v=m1hv20znDdU",
+                "segments": [
+                    {
+                        "segment_id": "V012_P018_S001",
+                        "start_time": 0.0,
+                        "end_time": 15.0,
+                        "keyframe_path": "keyframes/V012_P018_S001.jpg",
+                        "season": "겨울",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감성적",
+                            "낭만적"
+                        ],
+                        "scene_elements": [
+                            "꽃밭",
+                            "정원",
+                            "하늘색 천막"
+                        ],
+                        "k_culture_elements": [
+                            "드라마 촬영지",
+                            "한국 드라마"
+                        ],
+                        "activity": [
+                            "산책",
+                            "야외 식사",
+                            "자연 관찰"
+                        ],
+                        "description": "영월 주천강"
+                    }
+                ]
+            },
+            {
+                "place_id": "P018",
+                "place_name": "영월 주천강",
+                "region": "seoul",
+                "youtube_id": "bU-dyF_Gsk8",
+                "source_url": "https://www.youtube.com/watch?v=bU-dyF_Gsk8",
+                "segments": [
+                    {
+                        "segment_id": "V012_P018_S002",
+                        "start_time": 0.0,
+                        "end_time": 17.0,
+                        "keyframe_path": "keyframes/V012_P018_S002.jpg",
+                        "season": "겨울",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감성",
+                            "낭만"
+                        ],
+                        "scene_elements": [
+                            "가을 잎사귀",
+                            "맑은 하늘",
+                            "주천강 풍경"
+                        ],
+                        "k_culture_elements": [
+                            "한복 착용",
+                            "명절 분위기"
+                        ],
+                        "activity": [
+                            "산책",
+                            "야외 촬영 장면"
+                        ],
+                        "description": "영월 주천강"
+                    }
+                ]
+            },
+            {
+                "place_id": "P018",
+                "place_name": "영월 주천강",
+                "region": "seoul",
+                "youtube_id": "7oeOss6ffuw",
+                "source_url": "https://www.youtube.com/watch?v=7oeOss6ffuw",
+                "segments": [
+                    {
+                        "segment_id": "V012_P018_S003",
+                        "start_time": 0.0,
+                        "end_time": 98.0,
+                        "keyframe_path": "keyframes/V012_P018_S003.jpg",
+                        "season": "겨울",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감성",
+                            "낭만"
+                        ],
+                        "scene_elements": [
+                            "꽃밭",
+                            "하늘색 천막",
+                            "청정한 강가"
+                        ],
+                        "k_culture_elements": [
+                            "드라마 촬영지",
+                            "K-드라마"
+                        ],
+                        "activity": [
+                            "산책",
+                            "야외 수다",
+                            "자연 관찰"
+                        ],
+                        "description": "영월 주천강"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "video_id_prefix": "V013",
+        "drama_title": "무인도의 디바",
+        "places": [
+            {
+                "place_id": "P019",
+                "place_name": "상주 함창역",
+                "region": "gyeongsang",
+                "youtube_id": "dI3Z5u9N0ew",
+                "source_url": "https://www.youtube.com/watch?v=dI3Z5u9N0ew",
+                "segments": [
+                    {
+                        "segment_id": "V013_P019_S001",
+                        "start_time": 0.0,
+                        "end_time": 31.0,
+                        "keyframe_path": "keyframes/V013_P019_S001.jpg",
+                        "season": "봄, 여름",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감성적",
+                            "멜로디컬"
+                        ],
+                        "scene_elements": [
+                            "바다",
+                            "섬",
+                            "야경"
+                        ],
+                        "k_culture_elements": [
+                            "드라마",
+                            "무인도의 디바"
+                        ],
+                        "activity": [
+                            "연애",
+                            "모험",
+                            "사랑"
+                        ],
+                        "description": "함창역"
+                    }
+                ]
+            },
+            {
+                "place_id": "P019",
+                "place_name": "상주 경천섬 공원",
+                "region": "gyeongsang",
+                "youtube_id": "n6_TzBPBYUU",
+                "source_url": "https://www.youtube.com/watch?v=n6_TzBPBYUU",
+                "segments": [
+                    {
+                        "segment_id": "V013_P019_S002",
+                        "start_time": 0.0,
+                        "end_time": 17.0,
+                        "keyframe_path": "keyframes/V013_P019_S002.jpg",
+                        "season": "봄, 여름",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감성적",
+                            "멜로디컬"
+                        ],
+                        "scene_elements": [
+                            "해변",
+                            "섬",
+                            "야경"
+                        ],
+                        "k_culture_elements": [
+                            "드라마 무인도의 디바",
+                            "상주 경천섬 공원"
+                        ],
+                        "activity": [
+                            "물놀이",
+                            "星空下的浪漫",
+                            "星空下的漫步"
+                        ],
+                        "description": "경천섬 공원"
+                    }
+                ]
+            },
+            {
+                "place_id": "P020",
+                "place_name": "서천",
+                "region": "chungcheong",
+                "youtube_id": "oetlLeT3dmo",
+                "source_url": "https://www.youtube.com/watch?v=oetlLeT3dmo",
+                "segments": [
+                    {
+                        "segment_id": "V013_P020_S001",
+                        "start_time": 30.0,
+                        "end_time": 30.0,
+                        "keyframe_path": "keyframes/V013_P020_S001.jpg",
+                        "season": "봄, 여름",
+                        "time_of_day": "오전, 오후",
+                        "mood": [
+                            "감성적",
+                            "멜로디컬"
+                        ],
+                        "scene_elements": [
+                            "바다",
+                            "섬",
+                            "해변"
+                        ],
+                        "k_culture_elements": [
+                            "드라마",
+                            "무인도의 디바"
+                        ],
+                        "activity": [
+                            "연애",
+                            "사랑"
+                        ],
+                        "description": "장항스카이워크"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "video_id_prefix": "V014",
+        "drama_title": "도시남녀의 사랑법",
+        "places": [
+            {
+                "place_id": "P021",
+                "place_name": "청계천",
+                "region": "seoul",
+                "youtube_id": "DGRMHeI8Wt8",
+                "source_url": "https://www.youtube.com/watch?v=DGRMHeI8Wt8",
+                "segments": [
+                    {
+                        "segment_id": "V014_P021_S001",
+                        "start_time": 275.0,
+                        "end_time": 346.0,
+                        "keyframe_path": "keyframes/V014_P021_S001.jpg",
+                        "season": "봄, 여름, 가을, 겨울",
+                        "time_of_day": "저녁, 밤",
+                        "mood": [
+                            "감성적",
+                            "멜로디컬"
+                        ],
+                        "scene_elements": [
+                            "빛나는 강물",
+                            "그린존",
+                            "청명한 하늘"
+                        ],
+                        "k_culture_elements": [
+                            "한류",
+                            "드라마 촬영지 방문"
+                        ],
+                        "activity": [
+                            "산책",
+                            "사진 촬영",
+                            "커플 데이트"
+                        ],
+                        "description": "청계천 야경"
+                    }
+                ]
+            }
+        ]
+    }
+]
