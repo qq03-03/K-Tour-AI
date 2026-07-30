@@ -1,0 +1,128 @@
+{
+  "summary": {
+    "query_count": 1,
+    "fallback_rate": 0.0,
+    "latency_ms": {
+      "average_total": 3773.448,
+      "p95_total": 3773.448,
+      "average_parser": 3642.874,
+      "p95_parser": 3642.874
+    },
+    "methods": {
+      "normalized": {
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0
+      },
+      "rrf": {
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0
+      }
+    }
+  },
+  "by_language": {
+    "ko": {
+      "query_count": 1,
+      "fallback_rate": 0.0,
+      "latency_ms": {
+        "average_total": 3773.448,
+        "p95_total": 3773.448,
+        "average_parser": 3642.874,
+        "p95_parser": 3642.874
+      },
+      "methods": {
+        "normalized": {
+          "hit_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "rrf": {
+          "hit_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    }
+  },
+  "runtime": {
+    "embedding_model": "openai/clip-vit-base-patch32",
+    "device": "cpu",
+    "model_load_count": 1,
+    "model_load_latency_ms": 702.959
+  },
+  "cases": [
+    {
+      "query_id": "ISO_KO_RABBIT",
+      "language": "ko",
+      "query": "여름 숲에서 흰 토끼에게 먹이를 주는 체험 장면",
+      "relevant_segment_ids": [
+        "SEG_NAMI_01_03"
+      ],
+      "search_text": "A summer forest experience scene of feeding a white rabbit",
+      "filters": {
+        "season": [
+          "여름"
+        ]
+      },
+      "soft_hints": {
+        "activity": [
+          "먹이 주기"
+        ],
+        "scene_elements": [
+          "숲",
+          "흰 토끼"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 3642.874,
+        "metadata_and_filter": 0.033,
+        "query_embedding": 65.323,
+        "vector_search": 64.732,
+        "fusion": 0.45,
+        "total": 3773.448
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_03",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_02_01",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_03_03"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_03",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_02_01",
+            "SEG_NAMI_03_03"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    }
+  ],
+  "scope": {
+    "external_payload": "query text only",
+    "local_only": [
+      "relevant_segment_ids",
+      "segment metadata",
+      "embeddings",
+      "database rows",
+      "retrieval results"
+    ]
+  },
+  "model": "gpt-5.6-luna",
+  "case_file": "D:\\K-Tour-AI\\openai-api-test\\synthetic_search_cases.json"
+}

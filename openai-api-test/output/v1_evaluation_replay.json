@@ -1,0 +1,831 @@
+{
+  "summary": {
+    "query_count": 12,
+    "fallback_rate": 0.0,
+    "latency_ms": {
+      "average_total": 262.87666666666667,
+      "p95_total": 310.155,
+      "average_parser": 0.06991666666666667,
+      "p95_parser": 0.208
+    },
+    "methods": {
+      "normalized": {
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.9933100657623489
+      },
+      "rrf": {
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 0.986620131524698
+      }
+    }
+  },
+  "by_language": {
+    "en": {
+      "query_count": 3,
+      "fallback_rate": 0.0,
+      "latency_ms": {
+        "average_total": 284.23499999999996,
+        "p95_total": 309.26,
+        "average_parser": 0.058666666666666666,
+        "p95_parser": 0.072
+      },
+      "methods": {
+        "normalized": {
+          "hit_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "rrf": {
+          "hit_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 0.9732402630493958
+        }
+      }
+    },
+    "ja": {
+      "query_count": 3,
+      "fallback_rate": 0.0,
+      "latency_ms": {
+        "average_total": 247.31466666666665,
+        "p95_total": 271.687,
+        "average_parser": 0.055,
+        "p95_parser": 0.069
+      },
+      "methods": {
+        "normalized": {
+          "hit_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "rrf": {
+          "hit_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    "ko": {
+      "query_count": 3,
+      "fallback_rate": 0.0,
+      "latency_ms": {
+        "average_total": 274.39366666666666,
+        "p95_total": 310.155,
+        "average_parser": 0.106,
+        "p95_parser": 0.208
+      },
+      "methods": {
+        "normalized": {
+          "hit_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 0.9732402630493958
+        },
+        "rrf": {
+          "hit_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 0.9732402630493958
+        }
+      }
+    },
+    "zh": {
+      "query_count": 3,
+      "fallback_rate": 0.0,
+      "latency_ms": {
+        "average_total": 245.56333333333336,
+        "p95_total": 276.663,
+        "average_parser": 0.06,
+        "p95_parser": 0.071
+      },
+      "methods": {
+        "normalized": {
+          "hit_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "rrf": {
+          "hit_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    }
+  },
+  "runtime": {
+    "embedding_model": "openai/clip-vit-base-patch32",
+    "device": "cpu",
+    "model_load_count": 1,
+    "model_load_latency_ms": 526.15
+  },
+  "cases": [
+    {
+      "query_id": "MM_KO_HYDRANGEA",
+      "language": "ko",
+      "query": "남이섬의 평화로운 여름 수국 숲길",
+      "relevant_segment_ids": [
+        "SEG_NAMI_01_02",
+        "SEG_NAMI_02_03"
+      ],
+      "search_text": "A peaceful summer hydrangea forest path on Nami Island",
+      "filters": {
+        "season": [
+          "여름"
+        ]
+      },
+      "soft_hints": {
+        "mood": [
+          "평화로운"
+        ],
+        "scene_elements": [
+          "수국",
+          "숲길"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 0.208,
+        "metadata_and_filter": 0.065,
+        "query_embedding": 72.0,
+        "vector_search": 80.628,
+        "fusion": 157.235,
+        "total": 310.155
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_01_02",
+            "SEG_NAMI_02_01",
+            "SEG_NAMI_02_02"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 0.9197207891481876
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_01_02",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_02_01"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 0.9197207891481876
+        }
+      }
+    },
+    {
+      "query_id": "MM_EN_HYDRANGEA",
+      "language": "en",
+      "query": "A peaceful summer hydrangea path on Nami Island",
+      "relevant_segment_ids": [
+        "SEG_NAMI_01_02",
+        "SEG_NAMI_02_03"
+      ],
+      "search_text": "A peaceful summer hydrangea path on Nami Island",
+      "filters": {
+        "season": [
+          "여름"
+        ]
+      },
+      "soft_hints": {
+        "mood": [
+          "평화로운"
+        ],
+        "scene_elements": [
+          "수국",
+          "산책로"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 0.072,
+        "metadata_and_filter": 0.03,
+        "query_embedding": 26.516,
+        "vector_search": 86.473,
+        "fusion": 196.151,
+        "total": 309.26
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_01_02",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_02_01"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 0.9197207891481876
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_01_02",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_02_01"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    {
+      "query_id": "MM_JA_HYDRANGEA",
+      "language": "ja",
+      "query": "南怡島の穏やかな夏のアジサイの小道",
+      "relevant_segment_ids": [
+        "SEG_NAMI_01_02",
+        "SEG_NAMI_02_03"
+      ],
+      "search_text": "A serene summer hydrangea path on Namiseom Island",
+      "filters": {
+        "season": [
+          "여름"
+        ]
+      },
+      "soft_hints": {
+        "scene_elements": [
+          "수국",
+          "산책로"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 0.052,
+        "metadata_and_filter": 0.027,
+        "query_embedding": 24.248,
+        "vector_search": 78.812,
+        "fusion": 126.571,
+        "total": 229.722
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_01_02",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_02_01"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_01_02",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_02_01"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    {
+      "query_id": "MM_ZH_HYDRANGEA",
+      "language": "zh",
+      "query": "南怡岛宁静的夏季绣球花小路",
+      "relevant_segment_ids": [
+        "SEG_NAMI_01_02",
+        "SEG_NAMI_02_03"
+      ],
+      "search_text": "a tranquil summer hydrangea path on Nami Island",
+      "filters": {
+        "season": [
+          "여름"
+        ]
+      },
+      "soft_hints": {
+        "mood": [
+          "고요한"
+        ],
+        "scene_elements": [
+          "수국",
+          "산책로"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 0.071,
+        "metadata_and_filter": 0.036,
+        "query_embedding": 33.413,
+        "vector_search": 77.564,
+        "fusion": 165.566,
+        "total": 276.663
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_01_02",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_02_01",
+            "SEG_NAMI_02_02"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_01_02",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_02_01"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    {
+      "query_id": "MM_KO_RABBIT",
+      "language": "ko",
+      "query": "남이섬에서 나뭇잎을 먹는 귀여운 토끼",
+      "relevant_segment_ids": [
+        "SEG_NAMI_01_03"
+      ],
+      "search_text": "cute rabbit eating leaves on Nami Island",
+      "filters": {},
+      "soft_hints": {
+        "mood": [
+          "귀여운"
+        ],
+        "activity": [
+          "나뭇잎을 먹는"
+        ],
+        "scene_elements": [
+          "토끼",
+          "나뭇잎"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 0.068,
+        "metadata_and_filter": 0.008,
+        "query_embedding": 24.684,
+        "vector_search": 67.986,
+        "fusion": 191.763,
+        "total": 284.523
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_03",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_02_02"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_03",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_02_02"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    {
+      "query_id": "MM_EN_RABBIT",
+      "language": "en",
+      "query": "A cute rabbit eating leaves on Nami Island",
+      "relevant_segment_ids": [
+        "SEG_NAMI_01_03"
+      ],
+      "search_text": "A cute rabbit eating leaves on Nami Island",
+      "filters": {},
+      "soft_hints": {
+        "mood": [
+          "귀여운"
+        ],
+        "activity": [
+          "나뭇잎 먹기"
+        ],
+        "scene_elements": [
+          "토끼"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 0.065,
+        "metadata_and_filter": 0.008,
+        "query_embedding": 22.204,
+        "vector_search": 86.68,
+        "fusion": 175.436,
+        "total": 284.407
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_03",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_02_02"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_03",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_02_02"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    {
+      "query_id": "MM_JA_RABBIT",
+      "language": "ja",
+      "query": "南怡島で葉を食べるかわいいウサギ",
+      "relevant_segment_ids": [
+        "SEG_NAMI_01_03"
+      ],
+      "search_text": "A cute rabbit eating leaves on Nami Island",
+      "filters": {},
+      "soft_hints": {
+        "mood": [
+          "귀여운"
+        ],
+        "activity": [
+          "잎을 먹는"
+        ],
+        "scene_elements": [
+          "토끼"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 0.069,
+        "metadata_and_filter": 0.008,
+        "query_embedding": 21.599,
+        "vector_search": 63.312,
+        "fusion": 186.687,
+        "total": 271.687
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_03",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_02_02"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_03",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_02_02"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    {
+      "query_id": "MM_ZH_RABBIT",
+      "language": "zh",
+      "query": "南怡岛上吃树叶的可爱兔子",
+      "relevant_segment_ids": [
+        "SEG_NAMI_01_03"
+      ],
+      "search_text": "cute rabbits eating leaves on Nami Island",
+      "filters": {},
+      "soft_hints": {
+        "mood": [
+          "귀여운"
+        ],
+        "activity": [
+          "나뭇잎 먹기"
+        ],
+        "scene_elements": [
+          "토끼"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 0.066,
+        "metadata_and_filter": 0.008,
+        "query_embedding": 17.773,
+        "vector_search": 58.22,
+        "fusion": 157.05,
+        "total": 233.128
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_03",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_02"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_03",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_02"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    {
+      "query_id": "MM_KO_LOTUS_DUCK",
+      "language": "ko",
+      "query": "남이섬 연꽃 연못에서 헤엄치는 오리",
+      "relevant_segment_ids": [
+        "SEG_NAMI_03_02"
+      ],
+      "search_text": "Ducks swimming in a lotus pond on Nami Island",
+      "filters": {},
+      "soft_hints": {
+        "activity": [
+          "헤엄치기"
+        ],
+        "scene_elements": [
+          "연꽃 연못",
+          "오리"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 0.042,
+        "metadata_and_filter": 0.007,
+        "query_embedding": 19.876,
+        "vector_search": 65.826,
+        "fusion": 142.739,
+        "total": 228.503
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_03"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_03"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    {
+      "query_id": "MM_EN_LOTUS_DUCK",
+      "language": "en",
+      "query": "Ducks swimming in a lotus pond on Nami Island",
+      "relevant_segment_ids": [
+        "SEG_NAMI_03_02"
+      ],
+      "search_text": "Ducks swimming in a lotus pond on Nami Island",
+      "filters": {},
+      "soft_hints": {
+        "activity": [
+          "swimming"
+        ],
+        "scene_elements": [
+          "ducks",
+          "lotus pond"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 0.039,
+        "metadata_and_filter": 0.007,
+        "query_embedding": 22.445,
+        "vector_search": 75.066,
+        "fusion": 161.467,
+        "total": 259.038
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_03"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_03"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    {
+      "query_id": "MM_JA_LOTUS_DUCK",
+      "language": "ja",
+      "query": "南怡島の蓮池で泳ぐアヒル",
+      "relevant_segment_ids": [
+        "SEG_NAMI_03_02"
+      ],
+      "search_text": "Ducks swimming in the lotus pond on Nami Island",
+      "filters": {},
+      "soft_hints": {
+        "activity": [
+          "수영"
+        ],
+        "scene_elements": [
+          "연못",
+          "연꽃",
+          "오리"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 0.044,
+        "metadata_and_filter": 0.008,
+        "query_embedding": 26.636,
+        "vector_search": 68.107,
+        "fusion": 145.727,
+        "total": 240.535
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_03"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_03"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    {
+      "query_id": "MM_ZH_LOTUS_DUCK",
+      "language": "zh",
+      "query": "南怡岛荷花池里游泳的鸭子",
+      "relevant_segment_ids": [
+        "SEG_NAMI_03_02"
+      ],
+      "search_text": "ducks swimming in a lotus pond on Nami Island",
+      "filters": {},
+      "soft_hints": {
+        "activity": [
+          "수영"
+        ],
+        "scene_elements": [
+          "오리",
+          "연꽃 연못"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 0.043,
+        "metadata_and_filter": 0.008,
+        "query_embedding": 24.835,
+        "vector_search": 62.592,
+        "fusion": 139.407,
+        "total": 226.899
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_03"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_03"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    }
+  ],
+  "replay": {
+    "openai_api_called": false,
+    "baseline": "D:\\K-Tour-AI\\search-service\\output\\multimodal_evaluation.json",
+    "reused_fields": [
+      "search_text",
+      "filters",
+      "soft_hints"
+    ],
+    "metadata_rerank_enabled": false
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "summary": {
+    "segment_count": 10,
+    "database_segment_count": 10,
+    "minimum_coverage": 0.5,
+    "low_coverage_count": 9,
+    "field_average_coverage": {
+      "scene_elements": 0.441667,
+      "activity": 0.4,
+      "mood": null
+    }
+  },
+  "segments": [
+    {
+      "segment_id": "SEG_NAMI_01_01",
+      "status": "low_coverage",
+      "overall_coverage": 0.5,
+      "fields": {
+        "scene_elements": {
+          "coverage": 0.0,
+          "expected": [
+            "path",
+            "pavilion"
+          ],
+          "actual": [
+            "forest",
+            "greenery",
+            "nature",
+            "pathway",
+            "people",
+            "scenery",
+            "sky",
+            "summer",
+            "tree",
+            "wood"
+          ],
+          "matched": [],
+          "missing": [
+            "path",
+            "pavilion"
+          ]
+        },
+        "activity": {
+          "coverage": 1.0,
+          "expected": [
+            "walking"
+          ],
+          "actual": [
+            "admiring",
+            "enjoying",
+            "exploring",
+            "pointing",
+            "walking"
+          ],
+          "matched": [
+            "walking"
+          ],
+          "missing": []
+        }
+      }
+    },
+    {
+      "segment_id": "SEG_NAMI_01_02",
+      "status": "low_coverage",
+      "overall_coverage": 0.0,
+      "fields": {
+        "scene_elements": {
+          "coverage": 0.0,
+          "expected": [
+            "forest",
+            "hydrangea",
+            "pavilion"
+          ],
+          "actual": [
+            "bushes",
+            "flora",
+            "flower",
+            "garden",
+            "greenery",
+            "leaves",
+            "nature",
+            "plant",
+            "summer"
+          ],
+          "matched": [],
+          "missing": [
+            "forest",
+            "hydrangea",
+            "pavilion"
+          ]
+        },
+        "activity": {
+          "coverage": 0.0,
+          "expected": [
+            "picnic"
+          ],
+          "actual": [
+            "admiring",
+            "enjoying",
+            "exploring",
+            "looking",
+            "photographing"
+          ],
+          "matched": [],
+          "missing": [
+            "picnic"
+          ]
+        }
+      }
+    },
+    {
+      "segment_id": "SEG_NAMI_01_03",
+      "status": "low_coverage",
+      "overall_coverage": 0.166667,
+      "fields": {
+        "scene_elements": {
+          "coverage": 0.333333,
+          "expected": [
+            "dessert",
+            "forest",
+            "rabbit"
+          ],
+          "actual": [
+            "animal",
+            "greenery",
+            "lawn",
+            "leaves",
+            "nature",
+            "outdoor",
+            "plant",
+            "rabbit",
+            "tree"
+          ],
+          "matched": [
+            "rabbit"
+          ],
+          "missing": [
+            "dessert",
+            "forest"
+          ]
+        },
+        "activity": {
+          "coverage": 0.0,
+          "expected": [
+            "feeding"
+          ],
+          "actual": [
+            "eating",
+            "looking",
+            "posing"
+          ],
+          "matched": [],
+          "missing": [
+            "feeding"
+          ]
+        }
+      }
+    },
+    {
+      "segment_id": "SEG_NAMI_01_04",
+      "status": "low_coverage",
+      "overall_coverage": 0.5,
+      "fields": {
+        "scene_elements": {
+          "coverage": 0.0,
+          "expected": [
+            "lantern",
+            "path",
+            "pool",
+            "walking"
+          ],
+          "actual": [
+            "balloons",
+            "decorations",
+            "duck",
+            "greenery",
+            "people",
+            "sky",
+            "summer atmosphere",
+            "tree",
+            "walkway"
+          ],
+          "matched": [],
+          "missing": [
+            "lantern",
+            "path",
+            "pool",
+            "walking"
+          ]
+        },
+        "activity": {
+          "coverage": 1.0,
+          "expected": [
+            "walking"
+          ],
+          "actual": [
+            "admiring scenery",
+            "enjoying the atmosphere",
+            "participating in events",
+            "taking photos",
+            "walking"
+          ],
+          "matched": [
+            "walking"
+          ],
+          "missing": []
+        }
+      }
+    },
+    {
+      "segment_id": "SEG_NAMI_02_01",
+      "status": "low_coverage",
+      "overall_coverage": 0.666667,
+      "fields": {
+        "scene_elements": {
+          "coverage": 0.333333,
+          "expected": [
+            "bench",
+            "pavilion",
+            "pond"
+          ],
+          "actual": [
+            "bench",
+            "greenery",
+            "lawn",
+            "nature",
+            "park",
+            "seating area",
+            "shade",
+            "tree",
+            "white tarp",
+            "wooden table"
+          ],
+          "matched": [
+            "bench"
+          ],
+          "missing": [
+            "pavilion",
+            "pond"
+          ]
+        },
+        "activity": {
+          "coverage": 1.0,
+          "expected": [
+            "rest"
+          ],
+          "actual": [
+            "exploring",
+            "photography",
+            "rest",
+            "sitting",
+            "walking"
+          ],
+          "matched": [
+            "rest"
+          ],
+          "missing": []
+        }
+      }
+    },
+    {
+      "segment_id": "SEG_NAMI_02_02",
+      "status": "aligned",
+      "overall_coverage": 0.75,
+      "fields": {
+        "scene_elements": {
+          "coverage": 0.5,
+          "expected": [
+            "duck",
+            "flower",
+            "lotus",
+            "정원"
+          ],
+          "actual": [
+            "bushes",
+            "clouds",
+            "duck",
+            "lawn",
+            "lotus",
+            "pond",
+            "rock formations",
+            "sky",
+            "traditional gazebo",
+            "tree",
+            "water"
+          ],
+          "matched": [
+            "duck",
+            "lotus"
+          ],
+          "missing": [
+            "flower",
+            "정원"
+          ]
+        },
+        "activity": {
+          "coverage": 1.0,
+          "expected": [
+            "walking"
+          ],
+          "actual": [
+            "bird watching",
+            "photography",
+            "rest",
+            "standing",
+            "walking"
+          ],
+          "matched": [
+            "walking"
+          ],
+          "missing": []
+        }
+      }
+    },
+    {
+      "segment_id": "SEG_NAMI_02_03",
+      "status": "low_coverage",
+      "overall_coverage": 0.25,
+      "fields": {
+        "scene_elements": {
+          "coverage": 0.5,
+          "expected": [
+            "flower",
+            "hydrangea",
+            "path",
+            "traditional_building"
+          ],
+          "actual": [
+            "bushes",
+            "flower",
+            "forest",
+            "greenery",
+            "hydrangea",
+            "leaves",
+            "nature",
+            "sky",
+            "tree",
+            "water"
+          ],
+          "matched": [
+            "flower",
+            "hydrangea"
+          ],
+          "missing": [
+            "path",
+            "traditional_building"
+          ]
+        },
+        "activity": {
+          "coverage": 0.0,
+          "expected": [
+            "walking"
+          ],
+          "actual": [
+            "admiring",
+            "exploring",
+            "meditating",
+            "photographing",
+            "resting"
+          ],
+          "matched": [],
+          "missing": [
+            "walking"
+          ]
+        }
+      }
+    },
+    {
+      "segment_id": "SEG_NAMI_03_01",
+      "status": "low_coverage",
+      "overall_coverage": 0.5,
+      "fields": {
+        "scene_elements": {
+          "coverage": 1.0,
+          "expected": [
+            "duck",
+            "lawn",
+            "tree"
+          ],
+          "actual": [
+            "duck",
+            "lawn",
+            "park",
+            "tree"
+          ],
+          "matched": [
+            "duck",
+            "lawn",
+            "tree"
+          ],
+          "missing": []
+        },
+        "activity": {
+          "coverage": 0.0,
+          "expected": [
+            "animal_watching"
+          ],
+          "actual": [
+            "resting",
+            "walking"
+          ],
+          "matched": [],
+          "missing": [
+            "animal_watching"
+          ]
+        }
+      }
+    },
+    {
+      "segment_id": "SEG_NAMI_03_02",
+      "status": "low_coverage",
+      "overall_coverage": 0.375,
+      "fields": {
+        "scene_elements": {
+          "coverage": 0.75,
+          "expected": [
+            "duck",
+            "flower",
+            "lotus",
+            "pond"
+          ],
+          "actual": [
+            "bushes",
+            "duck",
+            "fence",
+            "greenery",
+            "leaves",
+            "lotus",
+            "pond",
+            "topiary",
+            "tree",
+            "water"
+          ],
+          "matched": [
+            "duck",
+            "lotus",
+            "pond"
+          ],
+          "missing": [
+            "flower"
+          ]
+        },
+        "activity": {
+          "coverage": 0.0,
+          "expected": [
+            "animal_watching"
+          ],
+          "actual": [
+            "bathing",
+            "gazing",
+            "resting",
+            "swimming"
+          ],
+          "matched": [],
+          "missing": [
+            "animal_watching"
+          ]
+        }
+      }
+    },
+    {
+      "segment_id": "SEG_NAMI_03_03",
+      "status": "low_coverage",
+      "overall_coverage": 0.5,
+      "fields": {
+        "scene_elements": {
+          "coverage": 1.0,
+          "expected": [
+            "duck",
+            "lawn",
+            "tree"
+          ],
+          "actual": [
+            "duck",
+            "greenery",
+            "lawn",
+            "natural light",
+            "rural scenery",
+            "tree",
+            "wooden fence"
+          ],
+          "matched": [
+            "duck",
+            "lawn",
+            "tree"
+          ],
+          "missing": []
+        },
+        "activity": {
+          "coverage": 0.0,
+          "expected": [
+            "animal_watching"
+          ],
+          "actual": [
+            "bird watching",
+            "walking"
+          ],
+          "matched": [],
+          "missing": [
+            "animal_watching"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "scope": {
+    "project_data_sent": false,
+    "input_source": "constants_in_this_script_only"
+  },
+  "model": "gpt-5.6-luna",
+  "stage": "all",
+  "tests": {
+    "ping": {
+      "status": "passed",
+      "sent_text": "Reply with exactly: OK",
+      "answer": "OK",
+      "latency_ms": 2692.333
+    },
+    "structured": {
+      "status": "passed",
+      "sent_text": "Fictional test only: A traveler wants a calm spring morning walk through a flower garden in Example City.",
+      "parsed": {
+        "search_text": "calm spring morning walk through a flower garden in Example City",
+        "region": [
+          "Example City"
+        ],
+        "season": [
+          "spring"
+        ],
+        "time_of_day": [
+          "morning"
+        ],
+        "mood": [
+          "calm"
+        ],
+        "activity": [
+          "walking"
+        ],
+        "scene_elements": [
+          "flower garden"
+        ]
+      },
+      "latency_ms": 1410.825
+    }
+  }
+}

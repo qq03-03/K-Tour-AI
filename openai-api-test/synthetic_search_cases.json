@@ -1,0 +1,78 @@
+{
+  "name": "isolated_synthetic_multilingual_search_eval",
+  "description": "일반 관광 장면 표현으로 새로 작성한 격리 검색 평가 질문",
+  "queries": [
+    {
+      "query_id": "ISO_KO_RABBIT",
+      "language": "ko",
+      "query": "여름 숲에서 흰 토끼에게 먹이를 주는 체험 장면",
+      "relevant_segment_ids": ["SEG_NAMI_01_03"]
+    },
+    {
+      "query_id": "ISO_KO_HYDRANGEA_PICNIC",
+      "language": "ko",
+      "query": "분홍색 수국과 정자가 보이는 숲속 피크닉",
+      "relevant_segment_ids": ["SEG_NAMI_01_02"]
+    },
+    {
+      "query_id": "ISO_KO_LOTUS_SWIM",
+      "language": "ko",
+      "query": "연꽃이 핀 연못에서 오리들이 헤엄치는 평화로운 풍경",
+      "relevant_segment_ids": ["SEG_NAMI_03_02"]
+    },
+    {
+      "query_id": "ISO_EN_POOL_LANTERN",
+      "language": "en",
+      "query": "A summer retreat with an outdoor pool and a lantern-lined walking path",
+      "relevant_segment_ids": ["SEG_NAMI_01_04"]
+    },
+    {
+      "query_id": "ISO_EN_BENCH_POND",
+      "language": "en",
+      "query": "A quiet orange bench beside a pond and a traditional pavilion",
+      "relevant_segment_ids": ["SEG_NAMI_02_01"]
+    },
+    {
+      "query_id": "ISO_EN_DUCK_LAWN",
+      "language": "en",
+      "query": "A flock of ducks strolling across a broad lawn under tall trees",
+      "relevant_segment_ids": ["SEG_NAMI_03_01", "SEG_NAMI_03_03"]
+    },
+    {
+      "query_id": "ISO_JA_TREE_PATH",
+      "language": "ja",
+      "query": "背の高い木々が並ぶ夏の道を二人で歩く静かな風景",
+      "relevant_segment_ids": ["SEG_NAMI_01_01"]
+    },
+    {
+      "query_id": "ISO_JA_PURPLE_FLOWERS",
+      "language": "ja",
+      "query": "伝統的な建物の近くに紫陽花が咲く夏の花道",
+      "relevant_segment_ids": ["SEG_NAMI_02_03"]
+    },
+    {
+      "query_id": "ISO_JA_LOTUS_DUCKS",
+      "language": "ja",
+      "query": "蓮の庭をアヒルが歩くのどかな昼の場面",
+      "relevant_segment_ids": ["SEG_NAMI_02_02", "SEG_NAMI_03_02"]
+    },
+    {
+      "query_id": "ISO_ZH_DESSERT_RABBIT",
+      "language": "zh",
+      "query": "夏日甜点之后在树林里给白兔喂食的体验",
+      "relevant_segment_ids": ["SEG_NAMI_01_03"]
+    },
+    {
+      "query_id": "ISO_ZH_FOREST_PICNIC",
+      "language": "zh",
+      "query": "粉色绣球花和传统亭子旁的森林野餐",
+      "relevant_segment_ids": ["SEG_NAMI_01_02"]
+    },
+    {
+      "query_id": "ISO_ZH_LOTUS_POND",
+      "language": "zh",
+      "query": "鸭子在开满荷花的池塘里游泳",
+      "relevant_segment_ids": ["SEG_NAMI_03_02"]
+    }
+  ]
+}

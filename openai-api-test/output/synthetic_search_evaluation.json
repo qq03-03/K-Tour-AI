@@ -1,0 +1,844 @@
+{
+  "summary": {
+    "query_count": 12,
+    "fallback_rate": 0.0,
+    "latency_ms": {
+      "average_total": 2242.00375,
+      "p95_total": 3496.041,
+      "average_parser": 2093.8539166666665,
+      "p95_parser": 3374.696
+    },
+    "methods": {
+      "normalized": {
+        "hit_at_k": 0.8333333333333334,
+        "mrr": 0.7041666666666666,
+        "ndcg_at_k": 0.7245620567204987
+      },
+      "rrf": {
+        "hit_at_k": 0.8333333333333334,
+        "mrr": 0.7111111111111111,
+        "ndcg_at_k": 0.7303390102143825
+      }
+    }
+  },
+  "by_language": {
+    "en": {
+      "query_count": 3,
+      "fallback_rate": 0.0,
+      "latency_ms": {
+        "average_total": 1932.1833333333334,
+        "p95_total": 2338.63,
+        "average_parser": 1785.941,
+        "p95_parser": 2202.447
+      },
+      "methods": {
+        "normalized": {
+          "hit_at_k": 0.6666666666666666,
+          "mrr": 0.6666666666666666,
+          "ndcg_at_k": 0.6666666666666666
+        },
+        "rrf": {
+          "hit_at_k": 0.6666666666666666,
+          "mrr": 0.6666666666666666,
+          "ndcg_at_k": 0.6666666666666666
+        }
+      }
+    },
+    "ja": {
+      "query_count": 3,
+      "fallback_rate": 0.0,
+      "latency_ms": {
+        "average_total": 2398.475,
+        "p95_total": 2565.133,
+        "average_parser": 2237.5136666666663,
+        "p95_parser": 2416.028
+      },
+      "methods": {
+        "normalized": {
+          "hit_at_k": 1.0,
+          "mrr": 0.75,
+          "ndcg_at_k": 0.7692972911371475
+        },
+        "rrf": {
+          "hit_at_k": 1.0,
+          "mrr": 0.7777777777777778,
+          "ndcg_at_k": 0.7924051051126831
+        }
+      }
+    },
+    "ko": {
+      "query_count": 3,
+      "fallback_rate": 0.0,
+      "latency_ms": {
+        "average_total": 2310.011,
+        "p95_total": 3496.041,
+        "average_parser": 2172.1150000000002,
+        "p95_parser": 3374.696
+      },
+      "methods": {
+        "normalized": {
+          "hit_at_k": 0.6666666666666666,
+          "mrr": 0.6666666666666666,
+          "ndcg_at_k": 0.6666666666666666
+        },
+        "rrf": {
+          "hit_at_k": 0.6666666666666666,
+          "mrr": 0.6666666666666666,
+          "ndcg_at_k": 0.6666666666666666
+        }
+      }
+    },
+    "zh": {
+      "query_count": 3,
+      "fallback_rate": 0.0,
+      "latency_ms": {
+        "average_total": 2327.3456666666666,
+        "p95_total": 2682.078,
+        "average_parser": 2179.846,
+        "p95_parser": 2533.782
+      },
+      "methods": {
+        "normalized": {
+          "hit_at_k": 1.0,
+          "mrr": 0.7333333333333334,
+          "ndcg_at_k": 0.7956176024115139
+        },
+        "rrf": {
+          "hit_at_k": 1.0,
+          "mrr": 0.7333333333333334,
+          "ndcg_at_k": 0.7956176024115139
+        }
+      }
+    }
+  },
+  "runtime": {
+    "embedding_model": "openai/clip-vit-base-patch32",
+    "device": "cpu",
+    "model_load_count": 1,
+    "model_load_latency_ms": 653.73
+  },
+  "cases": [
+    {
+      "query_id": "ISO_KO_RABBIT",
+      "language": "ko",
+      "query": "여름 숲에서 흰 토끼에게 먹이를 주는 체험 장면",
+      "relevant_segment_ids": [
+        "SEG_NAMI_01_03"
+      ],
+      "search_text": "An experience scene of feeding a white rabbit in a summer forest",
+      "filters": {
+        "season": [
+          "여름"
+        ]
+      },
+      "soft_hints": {
+        "activity": [
+          "먹이 주기"
+        ],
+        "scene_elements": [
+          "숲",
+          "흰 토끼"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 3374.696,
+        "metadata_and_filter": 0.036,
+        "query_embedding": 50.262,
+        "vector_search": 70.555,
+        "fusion": 0.448,
+        "total": 3496.041
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_03",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_03_02"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_03",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_01"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    {
+      "query_id": "ISO_KO_HYDRANGEA_PICNIC",
+      "language": "ko",
+      "query": "분홍색 수국과 정자가 보이는 숲속 피크닉",
+      "relevant_segment_ids": [
+        "SEG_NAMI_01_02"
+      ],
+      "search_text": "A forest picnic with pink hydrangeas and a pavilion",
+      "filters": {},
+      "soft_hints": {
+        "mood": [
+          "분홍색"
+        ],
+        "activity": [
+          "피크닉"
+        ],
+        "scene_elements": [
+          "수국",
+          "정자",
+          "숲"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 1689.534,
+        "metadata_and_filter": 0.038,
+        "query_embedding": 73.093,
+        "vector_search": 64.673,
+        "fusion": 0.536,
+        "total": 1827.917
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_02_01",
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_01_01"
+          ],
+          "hit_at_k": 0.0,
+          "reciprocal_rank": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_02_01",
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_02_02"
+          ],
+          "hit_at_k": 0.0,
+          "reciprocal_rank": 0.0,
+          "ndcg_at_k": 0.0
+        }
+      }
+    },
+    {
+      "query_id": "ISO_KO_LOTUS_SWIM",
+      "language": "ko",
+      "query": "연꽃이 핀 연못에서 오리들이 헤엄치는 평화로운 풍경",
+      "relevant_segment_ids": [
+        "SEG_NAMI_03_02"
+      ],
+      "search_text": "A peaceful scene of ducks swimming in a pond filled with blooming lotus flowers",
+      "filters": {},
+      "soft_hints": {
+        "mood": [
+          "평화로운"
+        ],
+        "activity": [
+          "오리 헤엄치기"
+        ],
+        "scene_elements": [
+          "연꽃",
+          "연못",
+          "오리"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 1452.115,
+        "metadata_and_filter": 0.018,
+        "query_embedding": 68.923,
+        "vector_search": 84.61,
+        "fusion": 0.377,
+        "total": 1606.075
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_01_01"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_02_03"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    {
+      "query_id": "ISO_EN_POOL_LANTERN",
+      "language": "en",
+      "query": "A summer retreat with an outdoor pool and a lantern-lined walking path",
+      "relevant_segment_ids": [
+        "SEG_NAMI_01_04"
+      ],
+      "search_text": "A summer retreat with an outdoor pool and a lantern-lined walking path",
+      "filters": {
+        "season": [
+          "여름"
+        ]
+      },
+      "soft_hints": {
+        "activity": [
+          "walking"
+        ],
+        "scene_elements": [
+          "outdoor pool",
+          "lantern-lined path"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 2202.447,
+        "metadata_and_filter": 0.122,
+        "query_embedding": 72.517,
+        "vector_search": 63.028,
+        "fusion": 0.478,
+        "total": 2338.63
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_02_01",
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_03_01"
+          ],
+          "hit_at_k": 0.0,
+          "reciprocal_rank": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_02_01",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_03_02"
+          ],
+          "hit_at_k": 0.0,
+          "reciprocal_rank": 0.0,
+          "ndcg_at_k": 0.0
+        }
+      }
+    },
+    {
+      "query_id": "ISO_EN_BENCH_POND",
+      "language": "en",
+      "query": "A quiet orange bench beside a pond and a traditional pavilion",
+      "relevant_segment_ids": [
+        "SEG_NAMI_02_01"
+      ],
+      "search_text": "A quiet orange bench beside a pond and a traditional pavilion",
+      "filters": {},
+      "soft_hints": {
+        "mood": [
+          "고요한"
+        ],
+        "scene_elements": [
+          "주황색 벤치",
+          "연못",
+          "전통 정자"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 1494.994,
+        "metadata_and_filter": 0.029,
+        "query_embedding": 70.764,
+        "vector_search": 74.148,
+        "fusion": 0.43,
+        "total": 1640.403
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_02_01",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_03_03"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_02_01",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_03_02"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    {
+      "query_id": "ISO_EN_DUCK_LAWN",
+      "language": "en",
+      "query": "A flock of ducks strolling across a broad lawn under tall trees",
+      "relevant_segment_ids": [
+        "SEG_NAMI_03_01",
+        "SEG_NAMI_03_03"
+      ],
+      "search_text": "A flock of ducks strolling across a broad lawn under tall trees",
+      "filters": {},
+      "soft_hints": {
+        "activity": [
+          "오리 산책"
+        ],
+        "scene_elements": [
+          "넓은 잔디밭",
+          "키 큰 나무",
+          "오리 떼"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 1660.382,
+        "metadata_and_filter": 0.012,
+        "query_embedding": 87.684,
+        "vector_search": 68.995,
+        "fusion": 0.426,
+        "total": 1817.517
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_01_04"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_01_04"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    {
+      "query_id": "ISO_JA_TREE_PATH",
+      "language": "ja",
+      "query": "背の高い木々が並ぶ夏の道を二人で歩く静かな風景",
+      "relevant_segment_ids": [
+        "SEG_NAMI_01_01"
+      ],
+      "search_text": "two people walking along a quiet summer road lined with tall trees",
+      "filters": {
+        "season": [
+          "여름"
+        ]
+      },
+      "soft_hints": {
+        "mood": [
+          "고요한"
+        ],
+        "activity": [
+          "걷기"
+        ],
+        "scene_elements": [
+          "키 큰 나무",
+          "길"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 2027.473,
+        "metadata_and_filter": 0.115,
+        "query_embedding": 82.919,
+        "vector_search": 71.385,
+        "fusion": 0.387,
+        "total": 2182.308
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_01_04",
+            "SEG_NAMI_02_01"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_01_04",
+            "SEG_NAMI_02_01"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    {
+      "query_id": "ISO_JA_PURPLE_FLOWERS",
+      "language": "ja",
+      "query": "伝統的な建物の近くに紫陽花が咲く夏の花道",
+      "relevant_segment_ids": [
+        "SEG_NAMI_02_03"
+      ],
+      "search_text": "A summer flower-lined path with blooming hydrangeas near traditional buildings",
+      "filters": {
+        "season": [
+          "여름"
+        ]
+      },
+      "soft_hints": {
+        "scene_elements": [
+          "전통 건물",
+          "수국",
+          "꽃길"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 2416.028,
+        "metadata_and_filter": 0.113,
+        "query_embedding": 70.772,
+        "vector_search": 77.752,
+        "fusion": 0.435,
+        "total": 2565.133
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_02",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_03_02"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "ndcg_at_k": 0.5
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_02",
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_01_04"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 0.25,
+          "ndcg_at_k": 0.43067655807339306
+        }
+      }
+    },
+    {
+      "query_id": "ISO_JA_LOTUS_DUCKS",
+      "language": "ja",
+      "query": "蓮の庭をアヒルが歩くのどかな昼の場面",
+      "relevant_segment_ids": [
+        "SEG_NAMI_02_02",
+        "SEG_NAMI_03_02"
+      ],
+      "search_text": "A serene daytime scene of ducks walking through a lotus garden",
+      "filters": {
+        "time_of_day": [
+          "낮"
+        ]
+      },
+      "soft_hints": {
+        "activity": [
+          "걷기"
+        ],
+        "scene_elements": [
+          "연꽃 정원",
+          "오리"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 2269.04,
+        "metadata_and_filter": 0.117,
+        "query_embedding": 102.202,
+        "vector_search": 76.166,
+        "fusion": 0.423,
+        "total": 2447.984
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_02_03"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 0.8772153153380493
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_01_01"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 0.8772153153380493
+        }
+      }
+    },
+    {
+      "query_id": "ISO_ZH_DESSERT_RABBIT",
+      "language": "zh",
+      "query": "夏日甜点之后在树林里给白兔喂食的体验",
+      "relevant_segment_ids": [
+        "SEG_NAMI_01_03"
+      ],
+      "search_text": "An experience feeding a white rabbit in the woods after enjoying summer desserts",
+      "filters": {
+        "season": [
+          "여름"
+        ]
+      },
+      "soft_hints": {
+        "activity": [
+          "토끼에게 먹이 주기"
+        ],
+        "scene_elements": [
+          "숲",
+          "흰 토끼",
+          "여름 디저트"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 1745.37,
+        "metadata_and_filter": 0.027,
+        "query_embedding": 119.9,
+        "vector_search": 70.914,
+        "fusion": 0.453,
+        "total": 1936.692
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_03",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_01"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_01_03",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_01_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_01"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    },
+    {
+      "query_id": "ISO_ZH_FOREST_PICNIC",
+      "language": "zh",
+      "query": "粉色绣球花和传统亭子旁的森林野餐",
+      "relevant_segment_ids": [
+        "SEG_NAMI_01_02"
+      ],
+      "search_text": "A forest picnic beside pink hydrangeas and a traditional pavilion.",
+      "filters": {},
+      "soft_hints": {
+        "activity": [
+          "picnic"
+        ],
+        "scene_elements": [
+          "pink hydrangeas",
+          "forest",
+          "traditional pavilion"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 2260.386,
+        "metadata_and_filter": 0.017,
+        "query_embedding": 35.771,
+        "vector_search": 66.518,
+        "fusion": 0.542,
+        "total": 2363.267
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_02_01",
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_01_02"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 0.2,
+          "ndcg_at_k": 0.38685280723454163
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_02_01",
+            "SEG_NAMI_02_03",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_01_02"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 0.2,
+          "ndcg_at_k": 0.38685280723454163
+        }
+      }
+    },
+    {
+      "query_id": "ISO_ZH_LOTUS_POND",
+      "language": "zh",
+      "query": "鸭子在开满荷花的池塘里游泳",
+      "relevant_segment_ids": [
+        "SEG_NAMI_03_02"
+      ],
+      "search_text": "ducks swimming in a pond full of blooming lotus flowers",
+      "filters": {},
+      "soft_hints": {
+        "activity": [
+          "오리 수영"
+        ],
+        "scene_elements": [
+          "연꽃이 만개한 연못"
+        ]
+      },
+      "fallback_used": false,
+      "fallback_reason": null,
+      "candidate_count": 10,
+      "latency_ms": {
+        "parser": 2533.782,
+        "metadata_and_filter": 0.029,
+        "query_embedding": 81.86,
+        "vector_search": 65.957,
+        "fusion": 0.414,
+        "total": 2682.078
+      },
+      "methods": {
+        "rrf": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_01_03"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        "normalized": {
+          "retrieved_segment_ids": [
+            "SEG_NAMI_03_02",
+            "SEG_NAMI_03_01",
+            "SEG_NAMI_03_03",
+            "SEG_NAMI_02_02",
+            "SEG_NAMI_02_03"
+          ],
+          "hit_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      }
+    }
+  ],
+  "scope": {
+    "external_payload": "query text only",
+    "local_only": [
+      "relevant_segment_ids",
+      "segment metadata",
+      "embeddings",
+      "database rows",
+      "retrieval results"
+    ]
+  },
+  "model": "gpt-5.6-luna",
+  "case_file": "D:\\K-Tour-AI\\openai-api-test\\synthetic_search_cases.json"
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.3-test",
+  "description": "영상 전처리 담당자가 전달한 최신 남이섬 10개 구간의 검색 연동 테스트 데이터",
+  "metadata_status": "VLM 메타데이터 수령 전 임시 값이며 실제 검색 성능 평가용이 아님",
+  "segments": [
+    {
+      "segment_id": "SEG_NAMI_01_01", "video_id": "VID_NAMI_01", "place_id": "PLC_NAMI_001",
+      "place_name": "남이섬", "region": "강원", "start_time": 0.0, "end_time": 4.63,
+      "representative_frame_time": 3.4, "keyframe_path": null, "season": "여름", "time_of_day": "낮",
+      "mood": [], "scene_elements": ["정자", "메타세쿼이아길"], "activity": ["산책"],
+      "spot_name": "숲속 정자와 메타세쿼이아길",
+      "description": "숲속 전통 정자에서 쉬는 모습과 두 사람이 메타세쿼이아길을 걷는 남이섬 여름 풍경"
+    },
+    {
+      "segment_id": "SEG_NAMI_01_02", "video_id": "VID_NAMI_01", "place_id": "PLC_NAMI_001",
+      "place_name": "남이섬", "region": "강원", "start_time": 4.63, "end_time": 9.97,
+      "representative_frame_time": 6.2, "keyframe_path": null, "season": "여름", "time_of_day": "낮",
+      "mood": [], "scene_elements": ["수국", "정자", "숲"], "activity": ["피크닉"],
+      "spot_name": "수국 정원과 숲속 피크닉",
+      "description": "분홍색과 흰색 수국, 전통 정자, 숲속에서 즐기는 피자 피크닉이 이어지는 장면"
+    },
+    {
+      "segment_id": "SEG_NAMI_01_03", "video_id": "VID_NAMI_01", "place_id": "PLC_NAMI_001",
+      "place_name": "남이섬", "region": "강원", "start_time": 9.97, "end_time": 15.33,
+      "representative_frame_time": 13.8, "keyframe_path": null, "season": "여름", "time_of_day": "낮",
+      "mood": [], "scene_elements": ["디저트", "토끼", "숲"], "activity": ["먹이주기"],
+      "spot_name": "디저트와 토끼 체험",
+      "description": "여름 디저트와 음료를 즐기고 숲속에서 흰 토끼에게 먹이를 주는 체험 장면"
+    },
+    {
+      "segment_id": "SEG_NAMI_01_04", "video_id": "VID_NAMI_01", "place_id": "PLC_NAMI_001",
+      "place_name": "남이섬", "region": "강원", "start_time": 15.33, "end_time": 22.5,
+      "representative_frame_time": 21.5, "keyframe_path": null, "season": "여름", "time_of_day": "낮",
+      "mood": [], "scene_elements": ["수영장", "등불", "산책길"], "activity": ["산책"],
+      "spot_name": "야외 수영장과 등불 산책길",
+      "description": "푸른 야외 수영장과 하얀 등불이 걸린 나무 산책길로 이어지는 남이섬 여름 휴양 장면"
+    },
+    {
+      "segment_id": "SEG_NAMI_02_01", "video_id": "VID_NAMI_02", "place_id": "PLC_NAMI_001",
+      "place_name": "남이섬", "region": "강원", "start_time": 0.0, "end_time": 8.13,
+      "representative_frame_time": 2.3, "keyframe_path": null, "season": "여름", "time_of_day": "낮",
+      "mood": [], "scene_elements": ["벤치", "연못", "정자"], "activity": ["휴식"],
+      "spot_name": "숲속 벤치와 연못 정자",
+      "description": "울창한 숲속의 주황색 벤치와 연못 주변의 전통 정자 및 바위 조경이 이어지는 남이섬 여름 풍경"
+    },
+    {
+      "segment_id": "SEG_NAMI_02_02", "video_id": "VID_NAMI_02", "place_id": "PLC_NAMI_001",
+      "place_name": "남이섬", "region": "강원", "start_time": 8.13, "end_time": 17.33,
+      "representative_frame_time": 15.7, "keyframe_path": null, "season": "여름", "time_of_day": "낮",
+      "mood": [], "scene_elements": ["연꽃", "정원", "오리"], "activity": ["산책"],
+      "spot_name": "연꽃 정원과 오리",
+      "description": "넓은 연꽃 군락과 붉은 꽃이 핀 정원을 지나 연꽃 정원 앞을 걷는 오리들이 보이는 장면"
+    },
+    {
+      "segment_id": "SEG_NAMI_02_03", "video_id": "VID_NAMI_02", "place_id": "PLC_NAMI_001",
+      "place_name": "남이섬", "region": "강원", "start_time": 17.33, "end_time": 26.13,
+      "representative_frame_time": 22.7, "keyframe_path": null, "season": "여름", "time_of_day": "낮",
+      "mood": [], "scene_elements": ["전통 건축물", "수국", "꽃길"], "activity": ["산책"],
+      "spot_name": "전통 건축물과 수국길",
+      "description": "연꽃 너머 전통 건축물에서 보랏빛 수국과 곧게 뻗은 나무가 어우러진 여름 꽃길로 이어지는 장면"
+    },
+    {
+      "segment_id": "SEG_NAMI_03_01", "video_id": "VID_NAMI_03", "place_id": "PLC_NAMI_001",
+      "place_name": "남이섬", "region": "강원", "start_time": 0.0, "end_time": 15.27,
+      "representative_frame_time": 7.8, "keyframe_path": null, "season": "여름", "time_of_day": "낮",
+      "mood": [], "scene_elements": ["잔디밭", "오리", "나무"], "activity": ["동물 관찰"],
+      "spot_name": "숲속 잔디밭의 오리 무리",
+      "description": "울창한 나무와 벤치가 있는 남이섬 잔디밭을 오리들이 무리지어 걸어가는 장면"
+    },
+    {
+      "segment_id": "SEG_NAMI_03_02", "video_id": "VID_NAMI_03", "place_id": "PLC_NAMI_001",
+      "place_name": "남이섬", "region": "강원", "start_time": 15.27, "end_time": 28.83,
+      "representative_frame_time": 22.3, "keyframe_path": null, "season": "여름", "time_of_day": "낮",
+      "mood": [], "scene_elements": ["연꽃", "연못", "오리"], "activity": ["동물 관찰"],
+      "spot_name": "연꽃 정원과 연못의 오리",
+      "description": "오리들이 연꽃 정원 주변을 걷고 연못에서 헤엄치는 모습과 다양한 연꽃이 이어지는 장면"
+    },
+    {
+      "segment_id": "SEG_NAMI_03_03", "video_id": "VID_NAMI_03", "place_id": "PLC_NAMI_001",
+      "place_name": "남이섬", "region": "강원", "start_time": 28.83, "end_time": 34.6,
+      "representative_frame_time": 31.5, "keyframe_path": null, "season": "여름", "time_of_day": "낮",
+      "mood": [], "scene_elements": ["잔디밭", "오리", "나무"], "activity": ["동물 관찰"],
+      "spot_name": "숲속 잔디밭으로 돌아온 오리",
+      "description": "키 큰 나무가 둘러싼 넓은 잔디밭을 오리들이 한가롭게 이동하는 영상의 마무리 장면"
+    }
+  ]
+}
