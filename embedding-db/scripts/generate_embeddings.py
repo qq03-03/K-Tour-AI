@@ -223,6 +223,26 @@ def build_embedding_records(
         "keyframe_embeddings": keyframe_embeddings,
     }
 
+def extract_clip_features(
+    features,
+    projection,
+) -> torch.Tensor:
+    """transformers 버전에 따라 달라지는 CLIP 반환형을 Tensor로 통일한다."""
+    if not hasattr(features, "pooler_output"):
+        return features
+
+    pooled = features.pooler_output
+
+    if pooled.shape[-1] == 512:
+        return pooled
+
+    if projection is None:
+        raise ValueError(
+            "Projection layer is required for non-512-dimensional features."
+        )
+
+    return projection(pooled)
+
 def normalize(features: torch.Tensor) -> torch.Tensor:
     """코사인 유사도 검색을 위해 벡터를 L2 정규화한다."""
     denominator = features.norm(dim=-1, keepdim=True).clamp(min=1e-12)
@@ -253,6 +273,11 @@ def encode_text_embedding(
             attention_mask=inputs.get("attention_mask"),
         )
 
+        features = extract_clip_features(
+            features,
+            getattr(model, "text_projection", None),
+        )
+
     features = normalize(features)
 
     embedding = features[0].cpu().tolist()
@@ -264,7 +289,6 @@ def encode_text_embedding(
         )
 
     return embedding
-
 
 def encode_image_embedding(
     image_path: Path,
@@ -294,6 +318,11 @@ def encode_image_embedding(
     with torch.no_grad():
         features = model.get_image_features(
             pixel_values=inputs["pixel_values"],
+        )
+
+        features = extract_clip_features(
+            features,
+            getattr(model, "visual_projection", None),
         )
 
     features = normalize(features)

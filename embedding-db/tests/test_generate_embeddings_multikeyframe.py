@@ -1,4 +1,5 @@
-﻿import importlib.util
+﻿import torch
+import importlib.util
 from pathlib import Path
 
 import pytest
@@ -448,3 +449,44 @@ def test_main_connects_multi_keyframe_generation_pipeline():
     assert "encode_text_embedding" in source
     assert "encode_image_embedding" in source
 
+def test_extract_clip_features_handles_pooler_output_512():
+    assert hasattr(
+        generate_embeddings,
+        "extract_clip_features",
+    ), "extract_clip_features 함수가 아직 없습니다."
+
+    class FakeFeatures:
+        def __init__(self):
+            self.pooler_output = torch.ones((1, 512))
+
+    features = FakeFeatures()
+
+    result = generate_embeddings.extract_clip_features(
+        features,
+        projection=None,
+    )
+
+    assert isinstance(result, torch.Tensor)
+    assert result.shape == (1, 512)
+
+
+def test_extract_clip_features_applies_projection_when_needed():
+    assert hasattr(
+        generate_embeddings,
+        "extract_clip_features",
+    ), "extract_clip_features 함수가 아직 없습니다."
+
+    class FakeFeatures:
+        def __init__(self):
+            self.pooler_output = torch.ones((1, 768))
+
+    class FakeProjection:
+        def __call__(self, tensor):
+            return tensor[:, :512]
+
+    result = generate_embeddings.extract_clip_features(
+        FakeFeatures(),
+        projection=FakeProjection(),
+    )
+
+    assert result.shape == (1, 512)
