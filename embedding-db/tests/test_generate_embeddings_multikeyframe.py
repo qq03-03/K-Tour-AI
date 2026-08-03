@@ -389,3 +389,50 @@ def test_write_embedding_outputs_creates_separate_files(tmp_path):
 
     assert len(segment_data) == 1
     assert len(keyframe_data) == 2
+
+def test_run_embedding_generation_builds_and_writes_outputs(tmp_path):
+    assert hasattr(
+        generate_embeddings,
+        "run_embedding_generation",
+    ), "run_embedding_generation 함수가 아직 없습니다."
+
+    metadata = [
+        {
+            "segment_id": "SEG001",
+            "video_id": "VIDEO01",
+            "place_name": "해변",
+            "region": "강원특별자치도",
+            "drama_title": "드라마A",
+            "start_time": 0.0,
+            "end_time": 10.0,
+            "keyframe_path": "keyframes/A/A_01.jpg",
+            "description": "해변 장면",
+            "mood": ["peaceful"],
+            "scene_elements": ["sea"],
+            "activity": ["walking"],
+        }
+    ]
+
+    result = generate_embeddings.run_embedding_generation(
+        metadata=metadata,
+        repo_root=tmp_path,
+        output_dir=tmp_path / "output",
+        encode_text_fn=lambda text: [0.1] * 512,
+        encode_image_fn=lambda path: [0.2] * 512,
+    )
+
+    assert len(result["records"]["segment_embeddings"]) == 1
+    assert len(result["records"]["keyframe_embeddings"]) == 1
+
+    assert (
+        result["paths"]["segment_embeddings"]
+        == tmp_path / "output" / "segment_embeddings.json"
+    )
+
+    assert (
+        result["paths"]["keyframe_embeddings"]
+        == tmp_path / "output" / "keyframe_embeddings.json"
+    )
+
+    assert result["paths"]["segment_embeddings"].is_file()
+    assert result["paths"]["keyframe_embeddings"].is_file()

@@ -355,6 +355,31 @@ def write_embedding_outputs(
         "keyframe_embeddings": keyframe_path,
     }
 
+def run_embedding_generation(
+    metadata: list[dict],
+    repo_root: Path,
+    output_dir: Path,
+    encode_text_fn,
+    encode_image_fn,
+) -> dict:
+    """임베딩 레코드를 생성하고 JSON 파일로 저장한다."""
+    records = build_embedding_records(
+        metadata=metadata,
+        repo_root=repo_root,
+        encode_text_fn=encode_text_fn,
+        encode_image_fn=encode_image_fn,
+    )
+
+    paths = write_embedding_outputs(
+        records,
+        output_dir,
+    )
+
+    return {
+        "records": records,
+        "paths": paths,
+    }
+
 def main() -> None:
     embedding_root = Path(__file__).resolve().parent.parent
     metadata_path = embedding_root / "metadata" / "metadata.json"
