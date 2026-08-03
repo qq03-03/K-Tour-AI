@@ -13,3 +13,5 @@ Thumbs.db
 # Embedding input/output data
 embedding-db/output/frames/
 embedding-db/output/embeddings/
+
+.worktrees/
