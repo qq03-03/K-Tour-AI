@@ -1,0 +1,25 @@
+{
+  "manual_season_source_segment_count": 21,
+  "affected_video_count": 21,
+  "season_counts": {
+    "봄": 8,
+    "여름": 8,
+    "가을": 4,
+    "겨울": 1
+  },
+  "expected_recovered_clip_count": 20,
+  "expected_quality_blocked_count": 12,
+  "folder_aliases_supported": {
+    "source_video": [
+      "original_videos",
+      "raw_videos"
+    ],
+    "processed_video": [
+      "preprocessed_video",
+      "clips"
+    ]
+  },
+  "preserve_existing_outputs": true,
+  "full_scene_detection_required": false,
+  "full_download_required": false
+}
