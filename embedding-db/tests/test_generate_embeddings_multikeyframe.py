@@ -312,3 +312,17 @@ def test_build_embedding_records_keeps_512_dimension_vectors(tmp_path):
     assert len(
         result["keyframe_embeddings"][0]["image_embedding"]
     ) == 512
+
+
+def test_encode_text_embedding_returns_512_dimension_vector():
+    assert hasattr(
+        generate_embeddings,
+        "encode_text_embedding",
+    ), "encode_text_embedding 함수가 아직 없습니다."
+
+
+def test_encode_image_embedding_returns_512_dimension_vector():
+    assert hasattr(
+        generate_embeddings,
+        "encode_image_embedding",
+    ), "encode_image_embedding 함수가 아직 없습니다."

@@ -228,6 +228,85 @@ def normalize(features: torch.Tensor) -> torch.Tensor:
     denominator = features.norm(dim=-1, keepdim=True).clamp(min=1e-12)
     return features / denominator
 
+def encode_text_embedding(
+    text: str,
+    model,
+    processor,
+    device,
+) -> list[float]:
+    """텍스트를 CLIP 512차원 정규화 벡터로 변환한다."""
+    inputs = processor(
+        text=[text],
+        return_tensors="pt",
+        padding=True,
+        truncation=True,
+    )
+
+    inputs = {
+        key: value.to(device)
+        for key, value in inputs.items()
+    }
+
+    with torch.no_grad():
+        features = model.get_text_features(
+            input_ids=inputs["input_ids"],
+            attention_mask=inputs.get("attention_mask"),
+        )
+
+    features = normalize(features)
+
+    embedding = features[0].cpu().tolist()
+
+    if len(embedding) != 512:
+        raise ValueError(
+            "텍스트 임베딩 차원 오류: "
+            f"{len(embedding)}"
+        )
+
+    return embedding
+
+
+def encode_image_embedding(
+    image_path: Path,
+    model,
+    processor,
+    device,
+) -> list[float]:
+    """이미지를 CLIP 512차원 정규화 벡터로 변환한다."""
+    if not image_path.is_file():
+        raise FileNotFoundError(
+            f"이미지 파일이 없습니다: {image_path}"
+        )
+
+    with Image.open(image_path) as source_image:
+        image = source_image.convert("RGB")
+
+        inputs = processor(
+            images=image,
+            return_tensors="pt",
+        )
+
+    inputs = {
+        key: value.to(device)
+        for key, value in inputs.items()
+    }
+
+    with torch.no_grad():
+        features = model.get_image_features(
+            pixel_values=inputs["pixel_values"],
+        )
+
+    features = normalize(features)
+
+    embedding = features[0].cpu().tolist()
+
+    if len(embedding) != 512:
+        raise ValueError(
+            "이미지 임베딩 차원 오류: "
+            f"{len(embedding)}"
+        )
+
+    return embedding
 
 def main() -> None:
     embedding_root = Path(__file__).resolve().parent.parent
