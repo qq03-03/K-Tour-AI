@@ -436,3 +436,15 @@ def test_run_embedding_generation_builds_and_writes_outputs(tmp_path):
 
     assert result["paths"]["segment_embeddings"].is_file()
     assert result["paths"]["keyframe_embeddings"].is_file()
+
+def test_main_connects_multi_keyframe_generation_pipeline():
+    import inspect
+
+    source = inspect.getsource(
+        generate_embeddings.main
+    )
+
+    assert "run_embedding_generation(" in source
+    assert "encode_text_embedding" in source
+    assert "encode_image_embedding" in source
+

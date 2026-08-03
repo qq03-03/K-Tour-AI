@@ -382,123 +382,119 @@ def run_embedding_generation(
 
 def main() -> None:
     embedding_root = Path(__file__).resolve().parent.parent
-    metadata_path = embedding_root / "metadata" / "metadata.json"
-    output_dir = embedding_root / "output" / "embeddings"
-    output_path = output_dir / "segment_embeddings.json"
+    repo_root = embedding_root.parent
 
-    output_dir.mkdir(parents=True, exist_ok=True)
+    metadata_path = (
+        embedding_root
+        / "metadata"
+        / "metadata.json"
+    )
 
-    with metadata_path.open("r", encoding="utf-8-sig") as file:
+    output_dir = (
+        embedding_root
+        / "output"
+        / "embeddings"
+    )
+
+    with metadata_path.open(
+        "r",
+        encoding="utf-8-sig",
+    ) as file:
         metadata = json.load(file)
 
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device(
+        "cuda"
+        if torch.cuda.is_available()
+        else "cpu"
+    )
 
     print(f"사용 장치: {device}")
     print("CLIP 모델 로딩 중...")
 
-    model = CLIPModel.from_pretrained(MODEL_NAME).to(device)
-    processor = CLIPProcessor.from_pretrained(MODEL_NAME)
+    model = CLIPModel.from_pretrained(
+        MODEL_NAME
+    ).to(device)
+
+    processor = CLIPProcessor.from_pretrained(
+        MODEL_NAME
+    )
+
     model.eval()
 
     print("CLIP 모델 로딩 완료")
-    print(f"처리할 데이터: {len(metadata)}건")
+    print(
+        f"metadata: {len(metadata)}건"
+    )
+
+    grouped = group_metadata_by_segment(
+        metadata
+    )
+
+    print(
+        f"segment: {len(grouped)}건"
+    )
+
+    print(
+        f"keyframe: {len(metadata)}건"
+    )
+
     print("-" * 60)
 
-    results = []
-
-    for index, item in enumerate(metadata, start=1):
-        segment_id = item["segment_id"]
-        image_path = embedding_root / item["keyframe_path"]
-
-        if not image_path.exists():
-            raise FileNotFoundError(
-                f"{segment_id} 이미지 파일이 없습니다: {image_path}"
-            )
-
-        search_text = build_search_text(item)
-
-        if not search_text:
-            raise ValueError(f"{segment_id} 검색용 텍스트가 비어 있습니다.")
-
-        with Image.open(image_path) as source_image:
-            image = source_image.convert("RGB")
-
-            text_inputs = processor(
-                text=[search_text],
-                return_tensors="pt",
-                padding=True,
-                truncation=True,
-            )
-
-            image_inputs = processor(
-                images=image,
-                return_tensors="pt",
-            )
-
-        text_inputs = {
-            key: value.to(device)
-            for key, value in text_inputs.items()
-        }
-
-        image_inputs = {
-            key: value.to(device)
-            for key, value in image_inputs.items()
-        }
-
-        with torch.no_grad():
-            outputs = model(
-                input_ids=text_inputs["input_ids"],
-                attention_mask=text_inputs.get("attention_mask"),
-                pixel_values=image_inputs["pixel_values"],
-                return_dict=True,
-             )
-
-            text_features = outputs.text_embeds
-            image_features = outputs.image_embeds
-
-        text_features = normalize(text_features)
-        image_features = normalize(image_features)
-
-        text_embedding = text_features[0].cpu().tolist()
-        image_embedding = image_features[0].cpu().tolist()
-
-        if len(text_embedding) != 512:
-            raise ValueError(
-                f"{segment_id} 텍스트 임베딩 차원 오류: "
-                f"{len(text_embedding)}"
-            )
-
-        if len(image_embedding) != 512:
-            raise ValueError(
-                f"{segment_id} 이미지 임베딩 차원 오류: "
-                f"{len(image_embedding)}"
-            )
-
-        results.append(
-            {
-                "segment_id": segment_id,
-                "video_id": item["video_id"],
-                "place_name": item.get("place_name"),
-                "spot_name": item.get("spot_name"),
-                "start_time": item.get("start_time"),
-                "end_time": item.get("end_time"),
-                "keyframe_path": item["keyframe_path"],
-                "description": item.get("description"),
-                "search_text": search_text,
-                "embedding_model": MODEL_NAME,
-                "text_embedding": text_embedding,
-                "image_embedding": image_embedding,
-            }
+    def encode_text_fn(text: str) -> list[float]:
+        return encode_text_embedding(
+            text=text,
+            model=model,
+            processor=processor,
+            device=device,
         )
 
-        print(f"[{index}/{len(metadata)}] 완료: {segment_id}")
+    def encode_image_fn(
+        image_path: Path,
+    ) -> list[float]:
+        return encode_image_embedding(
+            image_path=image_path,
+            model=model,
+            processor=processor,
+            device=device,
+        )
 
-    with output_path.open("w", encoding="utf-8") as file:
-        json.dump(results, file, ensure_ascii=False, indent=2)
+    result = run_embedding_generation(
+        metadata=metadata,
+        repo_root=repo_root,
+        output_dir=output_dir,
+        encode_text_fn=encode_text_fn,
+        encode_image_fn=encode_image_fn,
+    )
+
+    segment_records = (
+        result["records"]["segment_embeddings"]
+    )
+
+    keyframe_records = (
+        result["records"]["keyframe_embeddings"]
+    )
 
     print("-" * 60)
-    print(f"임베딩 생성 완료: {len(results)}건")
-    print(f"저장 위치: {output_path}")
+
+    print(
+        "segment text embedding 생성 완료: "
+        f"{len(segment_records)}건"
+    )
+
+    print(
+        "keyframe image embedding 생성 완료: "
+        f"{len(keyframe_records)}건"
+    )
+
+    print(
+        "segment 저장 위치: "
+        f"{result['paths']['segment_embeddings']}"
+    )
+
+    print(
+        "keyframe 저장 위치: "
+        f"{result['paths']['keyframe_embeddings']}"
+    )
 
 
 if __name__ == "__main__":
