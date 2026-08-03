@@ -127,6 +127,20 @@ def group_metadata_by_segment(
 
     return grouped
 
+def build_segment_search_text(
+    items: list[dict],
+) -> str:
+    """같은 segment의 모든 keyframe metadata를 하나의 검색 텍스트로 합친다."""
+    texts = []
+
+    for item in items:
+        text = build_search_text(item)
+
+        if text:
+            texts.append(text)
+
+    return ". ".join(unique_strings(texts))
+
 def normalize(features: torch.Tensor) -> torch.Tensor:
     """코사인 유사도 검색을 위해 벡터를 L2 정규화한다."""
     denominator = features.norm(dim=-1, keepdim=True).clamp(min=1e-12)
