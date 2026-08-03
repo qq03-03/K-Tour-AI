@@ -51,6 +51,8 @@ def build_search_text(item: dict) -> str:
 
     spot_name = valid_text(item.get("spot_name"))
     place_name = valid_text(item.get("place_name"))
+    region = valid_text(item.get("region"))
+    drama_title = valid_text(item.get("drama_title"))
     season = valid_text(item.get("season"))
     time_of_day = valid_text(item.get("time_of_day"))
     description = valid_text(item.get("description"))
@@ -64,6 +66,12 @@ def build_search_text(item: dict) -> str:
 
     if place_name:
         parts.append(place_name)
+
+    if region:
+        parts.append(region)
+
+    if drama_title:
+        parts.append(drama_title)
 
     if season or time_of_day:
         parts.append(" ".join(value for value in [season, time_of_day] if value))
@@ -82,6 +90,42 @@ def build_search_text(item: dict) -> str:
 
     return ". ".join(parts)
 
+def build_keyframe_id(item: dict) -> str:
+    """segment_id와 keyframe 파일명으로 고유 keyframe_id를 만든다."""
+    segment_id = item["segment_id"]
+    keyframe_stem = Path(item["keyframe_path"]).stem
+
+    return f"{segment_id}__{keyframe_stem}"
+
+
+def resolve_keyframe_path(
+    repo_root: Path,
+    keyframe_path: str,
+) -> Path:
+    """실데이터 keyframe의 실제 파일 경로를 반환한다."""
+    return (
+        repo_root
+        / "K-contents_preprocessed"
+        / "preprocessed_output"
+        / keyframe_path
+    )
+
+
+def group_metadata_by_segment(
+    metadata: list[dict],
+) -> dict[str, list[dict]]:
+    """metadata를 segment_id별로 묶되 모든 keyframe을 보존한다."""
+    grouped = {}
+
+    for item in metadata:
+        segment_id = item["segment_id"]
+
+        grouped.setdefault(
+            segment_id,
+            [],
+        ).append(item)
+
+    return grouped
 
 def normalize(features: torch.Tensor) -> torch.Tensor:
     """코사인 유사도 검색을 위해 벡터를 L2 정규화한다."""
