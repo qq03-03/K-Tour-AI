@@ -171,7 +171,7 @@
         "start_time": 0.0,
         "end_time": 107.0,
         "keyframe_path": "keyframes/TFTO_07/TFTO_07_SCENE_01.jpg",
-        "season": "봄, 여름, 가을, 겨울",
+        "season": "spring, summer, autumn, winter",
         "time_of_day": "day",
         "mood": [
             "peaceful",
@@ -232,7 +232,7 @@
         "start_time": 0.0,
         "end_time": 107.0,
         "keyframe_path": "keyframes/TFTO_07/TFTO_07_SCENE_03.jpg",
-        "season": "봄, 여름, 가을, 겨울",
+        "season": "spring, summer, autumn, winter",
         "time_of_day": "day",
         "mood": [
             "vibrant",
@@ -434,7 +434,7 @@
         "start_time": 0.0,
         "end_time": 179.0,
         "keyframe_path": "keyframes/HCCC_02/HCCC_02_SCENE_03.jpg",
-        "season": "여름",
+        "season": "summer",
         "time_of_day": "day",
         "mood": [
             "vibrant",
@@ -647,7 +647,7 @@
         "start_time": 198.0,
         "end_time": 207.0,
         "keyframe_path": "keyframes/GOBLIN_01/GOBLIN_01_SCENE_01.jpg",
-        "season": "가을, 겨울",
+        "season": "autumn, winter",
         "time_of_day": "day",
         "mood": [
             "peaceful",
@@ -685,7 +685,7 @@
         "start_time": 0.0,
         "end_time": 18.0,
         "keyframe_path": "keyframes/GOBLIN_02/GOBLIN_02_SCENE_01.jpg",
-        "season": "가을, 겨울",
+        "season": "autumn, winter",
         "time_of_day": "day",
         "mood": [
             "calm",
@@ -908,7 +908,7 @@
         "start_time": 0.0,
         "end_time": 53.0,
         "keyframe_path": "keyframes/hotel_deluna_paradise_01/hotel_deluna_paradise_01_SCENE_01.jpg",
-        "season": "봄, 여름, 가을, 겨울",
+        "season": "spring, summer, autumn, winter",
         "time_of_day": "day",
         "mood": [
             "awe",
@@ -941,7 +941,7 @@
         "start_time": 0.0,
         "end_time": 53.0,
         "keyframe_path": "keyframes/hotel_deluna_paradise_01/hotel_deluna_paradise_01_SCENE_02.jpg",
-        "season": "봄, 여름, 가을, 겨울",
+        "season": "spring, summer, autumn, winter",
         "time_of_day": "night",
         "mood": [
             "fun",
@@ -972,7 +972,7 @@
         "start_time": 0.0,
         "end_time": 126.0,
         "keyframe_path": "keyframes/kingdom_gyeongbok_01/kingdom_gyeongbok_01_SCENE_01.jpg",
-        "season": "봄, 여름, 가을, 겨울",
+        "season": "spring, summer, autumn, winter",
         "time_of_day": "day",
         "mood": [
             "peaceful",
@@ -1080,7 +1080,7 @@
         "start_time": 0.0,
         "end_time": 85.0,
         "keyframe_path": "keyframes/kingdom_changdeok_01/kingdom_changdeok_01_SCENE_01.jpg",
-        "season": "봄, 여름, 가을, 겨울",
+        "season": "spring, summer, autumn, winter",
         "time_of_day": "day",
         "mood": [
             "peaceful",
@@ -1150,7 +1150,7 @@
         "start_time": 0.0,
         "end_time": 85.0,
         "keyframe_path": "keyframes/kingdom_changdeok_01/kingdom_changdeok_01_SCENE_03.jpg",
-        "season": "봄, 여름, 가을, 겨울",
+        "season": "spring, summer, autumn, winter",
         "time_of_day": "day",
         "mood": [
             "peaceful",
@@ -1186,7 +1186,7 @@
         "start_time": 0.0,
         "end_time": 28.0,
         "keyframe_path": "keyframes/kingdom_changdeok_02/kingdom_changdeok_02_SCENE_01.jpg",
-        "season": "봄, 여름, 가을, 겨울",
+        "season": "spring, summer, autumn, winter",
         "time_of_day": "day",
         "mood": [
             "traditional",
@@ -1329,7 +1329,7 @@
         "start_time": 275.0,
         "end_time": 346.0,
         "keyframe_path": "keyframes/LITC_01/LITC_01_SCENE_01.jpg",
-        "season": "봄, 여름, 가을, 겨울",
+        "season": "spring, summer, autumn, winter",
         "time_of_day": "night",
         "mood": [
             "vibrant",
@@ -1367,7 +1367,7 @@
         "start_time": 275.0,
         "end_time": 346.0,
         "keyframe_path": "keyframes/LITC_01/LITC_01_SCENE_02.jpg",
-        "season": "봄, 여름, 가을, 겨울",
+        "season": "spring, summer, autumn, winter",
         "time_of_day": "night",
         "mood": [
             "vibrant",
