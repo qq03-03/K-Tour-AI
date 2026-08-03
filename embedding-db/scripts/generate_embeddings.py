@@ -308,6 +308,53 @@ def encode_image_embedding(
 
     return embedding
 
+def write_embedding_outputs(
+    records: dict[str, list[dict]],
+    output_dir: Path,
+) -> dict[str, Path]:
+    """segment/keyframe 임베딩을 각각 별도 JSON 파일로 저장한다."""
+    output_dir.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    segment_path = (
+        output_dir
+        / "segment_embeddings.json"
+    )
+
+    keyframe_path = (
+        output_dir
+        / "keyframe_embeddings.json"
+    )
+
+    with segment_path.open(
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            records["segment_embeddings"],
+            file,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+    with keyframe_path.open(
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            records["keyframe_embeddings"],
+            file,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+    return {
+        "segment_embeddings": segment_path,
+        "keyframe_embeddings": keyframe_path,
+    }
+
 def main() -> None:
     embedding_root = Path(__file__).resolve().parent.parent
     metadata_path = embedding_root / "metadata" / "metadata.json"

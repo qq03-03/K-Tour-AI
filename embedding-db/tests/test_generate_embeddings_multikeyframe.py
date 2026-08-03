@@ -326,3 +326,66 @@ def test_encode_image_embedding_returns_512_dimension_vector():
         generate_embeddings,
         "encode_image_embedding",
     ), "encode_image_embedding 함수가 아직 없습니다."
+
+
+def test_write_embedding_outputs_creates_separate_files(tmp_path):
+    assert hasattr(
+        generate_embeddings,
+        "write_embedding_outputs",
+    ), "write_embedding_outputs 함수가 아직 없습니다."
+
+    records = {
+        "segment_embeddings": [
+            {
+                "segment_id": "SEG001",
+                "text_embedding": [0.1] * 512,
+            }
+        ],
+        "keyframe_embeddings": [
+            {
+                "keyframe_id": "SEG001__A_01",
+                "segment_id": "SEG001",
+                "image_embedding": [0.2] * 512,
+            },
+            {
+                "keyframe_id": "SEG001__A_02",
+                "segment_id": "SEG001",
+                "image_embedding": [0.3] * 512,
+            },
+        ],
+    }
+
+    paths = generate_embeddings.write_embedding_outputs(
+        records,
+        tmp_path,
+    )
+
+    segment_path = (
+        tmp_path / "segment_embeddings.json"
+    )
+    keyframe_path = (
+        tmp_path / "keyframe_embeddings.json"
+    )
+
+    assert segment_path.is_file()
+    assert keyframe_path.is_file()
+
+    assert paths["segment_embeddings"] == segment_path
+    assert paths["keyframe_embeddings"] == keyframe_path
+
+    import json
+
+    with segment_path.open(
+        "r",
+        encoding="utf-8",
+    ) as file:
+        segment_data = json.load(file)
+
+    with keyframe_path.open(
+        "r",
+        encoding="utf-8",
+    ) as file:
+        keyframe_data = json.load(file)
+
+    assert len(segment_data) == 1
+    assert len(keyframe_data) == 2
