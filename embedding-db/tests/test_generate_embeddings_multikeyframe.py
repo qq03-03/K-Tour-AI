@@ -179,3 +179,136 @@ def test_realdata_groups_into_24_segments_and_42_keyframes():
     assert len(grouped) == 24
     assert len(keyframe_ids) == 42
     assert len(set(keyframe_ids)) == 42
+
+def test_build_embedding_records_separates_segments_and_keyframes(tmp_path):
+    assert hasattr(
+        generate_embeddings,
+        "build_embedding_records",
+    ), "build_embedding_records 함수가 아직 없습니다."
+
+    metadata = [
+        {
+            "segment_id": "SEG001",
+            "video_id": "VIDEO01",
+            "place_name": "해변",
+            "region": "강원특별자치도",
+            "drama_title": "드라마A",
+            "start_time": 0.0,
+            "end_time": 10.0,
+            "keyframe_path": "keyframes/A/A_01.jpg",
+            "description": "첫 번째 장면",
+            "mood": ["peaceful"],
+            "scene_elements": ["sea"],
+            "activity": ["walking"],
+        },
+        {
+            "segment_id": "SEG001",
+            "video_id": "VIDEO01",
+            "place_name": "해변",
+            "region": "강원특별자치도",
+            "drama_title": "드라마A",
+            "start_time": 0.0,
+            "end_time": 10.0,
+            "keyframe_path": "keyframes/A/A_02.jpg",
+            "description": "두 번째 장면",
+            "mood": ["romantic"],
+            "scene_elements": ["waves"],
+            "activity": ["standing"],
+        },
+        {
+            "segment_id": "SEG002",
+            "video_id": "VIDEO02",
+            "place_name": "궁궐",
+            "region": "서울특별시",
+            "drama_title": "드라마B",
+            "start_time": 20.0,
+            "end_time": 30.0,
+            "keyframe_path": "keyframes/B/B_01.jpg",
+            "description": "궁궐 장면",
+            "mood": ["historic"],
+            "scene_elements": ["palace"],
+            "activity": ["walking"],
+        },
+    ]
+
+    def fake_text_encoder(text):
+        assert isinstance(text, str)
+        return [0.1] * 512
+
+    def fake_image_encoder(image_path):
+        assert isinstance(image_path, Path)
+        return [0.2] * 512
+
+    result = generate_embeddings.build_embedding_records(
+        metadata=metadata,
+        repo_root=tmp_path,
+        encode_text_fn=fake_text_encoder,
+        encode_image_fn=fake_image_encoder,
+    )
+
+    assert set(result) == {
+        "segment_embeddings",
+        "keyframe_embeddings",
+    }
+
+    assert len(result["segment_embeddings"]) == 2
+    assert len(result["keyframe_embeddings"]) == 3
+
+    segment_ids = [
+        item["segment_id"]
+        for item in result["segment_embeddings"]
+    ]
+
+    assert segment_ids.count("SEG001") == 1
+    assert segment_ids.count("SEG002") == 1
+
+    keyframe_ids = [
+        item["keyframe_id"]
+        for item in result["keyframe_embeddings"]
+    ]
+
+    assert len(set(keyframe_ids)) == 3
+
+    assert (
+        result["keyframe_embeddings"][0]["segment_id"]
+        == "SEG001"
+    )
+
+
+def test_build_embedding_records_keeps_512_dimension_vectors(tmp_path):
+    assert hasattr(
+        generate_embeddings,
+        "build_embedding_records",
+    ), "build_embedding_records 함수가 아직 없습니다."
+
+    metadata = [
+        {
+            "segment_id": "SEG001",
+            "video_id": "VIDEO01",
+            "place_name": "해변",
+            "region": "강원특별자치도",
+            "drama_title": "드라마A",
+            "start_time": 0.0,
+            "end_time": 10.0,
+            "keyframe_path": "keyframes/A/A_01.jpg",
+            "description": "해변",
+            "mood": [],
+            "scene_elements": [],
+            "activity": [],
+        }
+    ]
+
+    result = generate_embeddings.build_embedding_records(
+        metadata=metadata,
+        repo_root=tmp_path,
+        encode_text_fn=lambda text: [0.1] * 512,
+        encode_image_fn=lambda path: [0.2] * 512,
+    )
+
+    assert len(
+        result["segment_embeddings"][0]["text_embedding"]
+    ) == 512
+
+    assert len(
+        result["keyframe_embeddings"][0]["image_embedding"]
+    ) == 512

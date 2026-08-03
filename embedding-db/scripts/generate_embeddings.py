@@ -141,6 +141,88 @@ def build_segment_search_text(
 
     return ". ".join(unique_strings(texts))
 
+def build_embedding_records(
+    metadata: list[dict],
+    repo_root: Path,
+    encode_text_fn,
+    encode_image_fn,
+) -> dict[str, list[dict]]:
+    """segment 텍스트 임베딩과 keyframe 이미지 임베딩을 분리해 생성한다."""
+    grouped = group_metadata_by_segment(metadata)
+
+    segment_embeddings = []
+    keyframe_embeddings = []
+
+    for segment_id, items in grouped.items():
+        first_item = items[0]
+
+        search_text = build_segment_search_text(items)
+
+        if not search_text:
+            raise ValueError(
+                f"{segment_id} 검색용 텍스트가 비어 있습니다."
+            )
+
+        text_embedding = encode_text_fn(search_text)
+
+        if len(text_embedding) != 512:
+            raise ValueError(
+                f"{segment_id} 텍스트 임베딩 차원 오류: "
+                f"{len(text_embedding)}"
+            )
+
+        segment_embeddings.append(
+            {
+                "segment_id": segment_id,
+                "video_id": first_item["video_id"],
+                "place_name": first_item.get("place_name"),
+                "spot_name": first_item.get("spot_name"),
+                "region": first_item.get("region"),
+                "drama_title": first_item.get("drama_title"),
+                "start_time": first_item.get("start_time"),
+                "end_time": first_item.get("end_time"),
+                "search_text": search_text,
+                "embedding_model": MODEL_NAME,
+                "text_embedding": text_embedding,
+            }
+        )
+
+        for item in items:
+            keyframe_id = build_keyframe_id(item)
+
+            image_path = resolve_keyframe_path(
+                repo_root,
+                item["keyframe_path"],
+            )
+
+            image_embedding = encode_image_fn(image_path)
+
+            if len(image_embedding) != 512:
+                raise ValueError(
+                    f"{keyframe_id} 이미지 임베딩 차원 오류: "
+                    f"{len(image_embedding)}"
+                )
+
+            keyframe_embeddings.append(
+                {
+                    "keyframe_id": keyframe_id,
+                    "segment_id": segment_id,
+                    "keyframe_path": item["keyframe_path"],
+                    "place_name": item.get("place_name"),
+                    "region": item.get("region"),
+                    "drama_title": item.get("drama_title"),
+                    "description": item.get("description"),
+                    "metadata": item,
+                    "embedding_model": MODEL_NAME,
+                    "image_embedding": image_embedding,
+                }
+            )
+
+    return {
+        "segment_embeddings": segment_embeddings,
+        "keyframe_embeddings": keyframe_embeddings,
+    }
+
 def normalize(features: torch.Tensor) -> torch.Tensor:
     """코사인 유사도 검색을 위해 벡터를 L2 정규화한다."""
     denominator = features.norm(dim=-1, keepdim=True).clamp(min=1e-12)
