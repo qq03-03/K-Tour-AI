@@ -490,3 +490,21 @@ def test_extract_clip_features_applies_projection_when_needed():
     )
 
     assert result.shape == (1, 512)
+
+def test_build_search_text_uses_time_of_day():
+    item = {
+        "place_name": "cherry blossom park",
+        "region": "경기도",
+        "drama_title": "선재 업고 튀어",
+        "season": "봄",
+        "time_of_day": "day",
+        "description": "벚꽃이 핀 공원",
+        "mood": ["peaceful"],
+        "scene_elements": ["cherry blossom tree"],
+        "activity": ["walking"],
+    }
+
+    result = generate_embeddings.build_search_text(item)
+
+    assert "봄" in result
+    assert "day" in result
