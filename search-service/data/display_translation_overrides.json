@@ -1,0 +1,55 @@
+{
+    "schema_version":  1,
+    "description":  "API 번역 후 사람 검수에서 확정한 표시 문구 보정",
+    "records":  [
+                    {
+                        "segment_id":  "GOBLIN_01_SCENE_01",
+                        "keyframe_id":  "GOBLIN_01_SCENE_01__GOBLIN_01_SCENE_01",
+                        "reason":  "원문 \u0027돌 보따리\u0027의 직역을 화면에 자연스러운 \u0027해변의 바위\u0027 표현으로 교정",
+                        "translations":  {
+                                             "ko":  {
+                                                        "description":  "사람들이 해변의 바위 위에 서서 바다를 바라보며 조용히 대화를 나누는 장면입니다."
+                                                    },
+                                             "en":  {
+                                                        "description":  "People stand on rocks by the beach, looking at the sea and talking quietly."
+                                                    },
+                                             "ja":  {
+                                                        "description":  "人々が海辺の岩の上に立ち、海を眺めながら静かに会話している場面です。"
+                                                    },
+                                             "zh":  {
+                                                        "description":  "人们站在海边的岩石上，望着大海安静地交谈。"
+                                                    }
+                                         }
+                    },
+                    {
+                        "segment_id":  "WLGYT_03_SCENE_01",
+                        "keyframe_id":  "WLGYT_03_SCENE_01__WLGYT_03_SCENE_01",
+                        "reason":  "한국어 설명에 혼입된 힌디어 단어를 자연스러운 한국어 표현으로 교정",
+                        "translations":  {
+                                             "ko":  {
+                                                        "description":  "구불구불한 길과 노란 꽃밭 일부가 보이는 생기 넘치는 초록 들판의 항공 풍경으로, 평화로운 시골 풍경을 연상시킵니다."
+                                                    }
+                                         }
+                    },
+                    {
+                        "segment_id":  "HCCC_02_SCENE_02",
+                        "keyframe_id":  "HCCC_02_SCENE_02__HCCC_02_SCENE_02",
+                        "reason":  "일본어 설명에 혼입된 한국어 문장을 자연스러운 일본어로 교정",
+                        "translations":  {
+                                             "ja":  {
+                                                        "description":  "赤い灯台と海に浮かぶ船が見える海岸地域を上空から捉えた景色で、穏やかで落ち着いた雰囲気が広がっています。"
+                                                    }
+                                         }
+                    },
+                    {
+                        "segment_id":  "hotel_deluna_mangsang_02_SCENE_01",
+                        "keyframe_id":  "hotel_deluna_mangsang_02_SCENE_01__hotel_deluna_mangsang_02_SCENE_01",
+                        "reason":  "일본어 설명에 혼입된 영어 형용사를 자연스러운 일본어로 교정",
+                        "translations":  {
+                                             "ja":  {
+                                                        "description":  "晴れた日のビーチの木製デッキに「MANGSANG」とつづるカラフルな文字があり、穏やかで活気のある雰囲気を感じさせます。"
+                                                    }
+                                         }
+                    }
+                ]
+}

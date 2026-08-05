@@ -102,17 +102,25 @@ class MultimodalSearchPipeline:
 
         metadata_started = perf_counter()
         segments = self._load_segments()
+        title_scoped_segments = _filter_by_drama_titles(
+            segments,
+            parsed.matched_drama_titles,
+        )
         filter_arguments = to_filter_arguments(parsed.filters)
-        candidates = filter_segments(segments, **filter_arguments)
+        candidates = filter_segments(title_scoped_segments, **filter_arguments)
         if parsed.filters and not candidates:
             parsed = replace(
                 parsed,
                 filters={},
                 fallback_used=True,
-                fallback_reason="필터 결과가 없어 필터 없이 다시 검색했습니다.",
+                fallback_reason=(
+                    "구조화 필터 결과가 없어 작품 범위만 유지해 다시 검색했습니다."
+                    if parsed.matched_drama_titles
+                    else "필터 결과가 없어 필터 없이 다시 검색했습니다."
+                ),
             )
             filter_arguments = {}
-            candidates = list(segments)
+            candidates = list(title_scoped_segments)
         metadata_latency_ms = _elapsed_ms(metadata_started)
 
         candidate_ids = [str(segment["segment_id"]) for segment in candidates]
@@ -292,6 +300,27 @@ class MultimodalSearchPipeline:
 
 def _elapsed_ms(started: float) -> float:
     return (perf_counter() - started) * 1000.0
+
+
+def _filter_by_drama_titles(
+    segments: Sequence[Mapping[str, Any]],
+    matched_titles: Sequence[str],
+) -> list[dict[str, Any]]:
+    """질문에 등록 작품명이 명시되면 재검색에서도 작품 범위를 유지한다."""
+
+    if not matched_titles:
+        return [dict(segment) for segment in segments]
+    normalized_titles = {
+        title.strip().casefold()
+        for title in matched_titles
+        if isinstance(title, str) and title.strip()
+    }
+    return [
+        dict(segment)
+        for segment in segments
+        if isinstance(segment.get("drama_title"), str)
+        and str(segment["drama_title"]).strip().casefold() in normalized_titles
+    ]
 
 
 def collapse_source_results(

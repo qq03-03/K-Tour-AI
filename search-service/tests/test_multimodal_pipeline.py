@@ -161,3 +161,61 @@ def test_unregistered_title_stops_before_embedding_and_db_search() -> None:
     assert output["results_by_method"] == {"rrf": [], "normalized": []}
     assert runtime.encode_calls == 0
     assert repository.sources == []
+
+
+def test_registered_title_limits_candidates_and_survives_filter_fallback() -> None:
+    class WinterTitleParser:
+        def parse(self, query: str) -> ParsedQuery:
+            return ParsedQuery(
+                original_query=query,
+                search_text="winter lighthouse filming location",
+                filters={"season": ["겨울"]},
+                soft_hints={"scene_elements": ["등대"]},
+            )
+
+    class TitleRepository:
+        def __init__(self) -> None:
+            self.candidate_ids: list[list[str]] = []
+
+        def list_segments(self):
+            return [
+                {
+                    "segment_id": "HCCC_A",
+                    "drama_title": "갯마을 차차차",
+                    "region": "경북",
+                    "season": "여름",
+                    "time_of_day": "낮",
+                    "mood": [],
+                    "activity": [],
+                    "scene_elements": ["등대"],
+                },
+                {
+                    "segment_id": "OTHER_A",
+                    "drama_title": "우리들의 블루스",
+                    "region": "제주",
+                    "season": "여름",
+                    "time_of_day": "낮",
+                    "mood": [],
+                    "activity": [],
+                    "scene_elements": ["등대"],
+                },
+            ]
+
+        def search(self, vector, source, *, candidate_ids, top_k):
+            self.candidate_ids.append(list(candidate_ids))
+            return [{"segment_id": "HCCC_A", "score": 0.9}]
+
+    runtime = FakeRuntime()
+    repository = TitleRepository()
+    pipeline = MultimodalSearchPipeline(runtime=runtime, repository=repository)
+
+    output = pipeline.search(
+        "겨울 갯마을 차차차 촬영지의 등대",
+        parser=WinterTitleParser(),
+        methods=("rrf",),
+    )
+
+    assert output["matched_drama_titles"] == ["갯마을 차차차"]
+    assert output["candidate_count"] == 1
+    assert output["fallback_used"] is True
+    assert repository.candidate_ids == [["HCCC_A"], ["HCCC_A"]]

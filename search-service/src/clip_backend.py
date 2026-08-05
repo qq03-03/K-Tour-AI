@@ -166,11 +166,6 @@ class DatabaseConfig:
 class PgVectorRepository:
     """구간 메타데이터와 두 임베딩 검색을 같은 DB에서 조회한다."""
 
-    _COLUMNS: dict[SearchSource, str] = {
-        "text": "text_embedding",
-        "image": "image_embedding",
-    }
-
     def __init__(self, config: DatabaseConfig) -> None:
         self._config = config
 
@@ -179,9 +174,33 @@ class PgVectorRepository:
             SELECT
                 vs.segment_id, vs.video_id, vs.start_time, vs.end_time,
                 vs.keyframe_path, vs.summary, vs.region, vs.spot_name,
-                vs.tags, vs.mood_tags, vs.season_tags, vs.metadata
+                vs.tags, vs.mood_tags, vs.season_tags, vs.metadata,
+                vs.place_id, vs.drama_title,
+                representative.keyframe_id,
+                representative.keyframe_path,
+                representative.description,
+                representative.time_of_day,
+                representative.mood,
+                representative.activity,
+                representative.scene_elements,
+                representative.metadata
             FROM video_segments AS vs
             JOIN segment_embeddings AS se ON se.segment_id = vs.segment_id
+            LEFT JOIN LATERAL (
+                SELECT
+                    sk.keyframe_id,
+                    sk.keyframe_path,
+                    sk.description,
+                    sk.time_of_day,
+                    sk.mood,
+                    sk.activity,
+                    sk.scene_elements,
+                    sk.metadata
+                FROM segment_keyframes AS sk
+                WHERE sk.segment_id = vs.segment_id
+                ORDER BY sk.keyframe_id
+                LIMIT 1
+            ) AS representative ON TRUE
             ORDER BY vs.segment_id
         """
         with psycopg.connect(self._config.connection_string) as connection:
@@ -198,7 +217,7 @@ class PgVectorRepository:
         candidate_ids: Sequence[str],
         top_k: int,
     ) -> list[dict[str, Any]]:
-        if source not in self._COLUMNS:
+        if source not in {"text", "image"}:
             raise ValueError(f"지원하지 않는 검색 방식입니다: {source}")
         if top_k < 1:
             raise ValueError("top_k는 1 이상이어야 합니다.")
@@ -206,38 +225,114 @@ class PgVectorRepository:
             return []
 
         vector = _normalize_vector(query_vector)
-        column = sql.Identifier(self._COLUMNS[source])
+        order_column = sql.Identifier(
+            "text_distance" if source == "text" else "image_distance"
+        )
         query = sql.SQL(
             """
             SELECT
                 vs.segment_id,
-                1 - (se.{column} <=> %s) AS similarity
-            FROM segment_embeddings AS se
-            JOIN video_segments AS vs ON vs.segment_id = se.segment_id
-            WHERE se.{column} IS NOT NULL
+                best_keyframe.keyframe_id,
+                best_keyframe.keyframe_path,
+                vs.place_id,
+                vs.region,
+                vs.spot_name,
+                vs.drama_title,
+                best_keyframe.description,
+                best_keyframe.time_of_day,
+                best_keyframe.mood,
+                best_keyframe.activity,
+                best_keyframe.scene_elements,
+                vs.video_id,
+                vs.start_time,
+                vs.end_time,
+                se.text_embedding <=> %s AS text_distance,
+                best_keyframe.image_distance,
+                vs.summary
+            FROM video_segments AS vs
+            JOIN segment_embeddings AS se
+                ON se.segment_id = vs.segment_id
+            JOIN LATERAL (
+                SELECT
+                    sk.keyframe_id,
+                    sk.keyframe_path,
+                    sk.description,
+                    sk.time_of_day,
+                    sk.mood,
+                    sk.activity,
+                    sk.scene_elements,
+                    ke.image_embedding <=> %s AS image_distance
+                FROM segment_keyframes AS sk
+                JOIN keyframe_embeddings AS ke
+                    ON ke.keyframe_id = sk.keyframe_id
+                WHERE sk.segment_id = vs.segment_id
+                  AND ke.image_embedding IS NOT NULL
+                ORDER BY image_distance, sk.keyframe_id
+                LIMIT 1
+            ) AS best_keyframe ON TRUE
+            WHERE se.text_embedding IS NOT NULL
               AND vs.segment_id = ANY(%s)
-            ORDER BY se.{column} <=> %s, vs.segment_id
+            ORDER BY {order_column}, vs.segment_id
             LIMIT %s
             """
-        ).format(column=column)
+        ).format(order_column=order_column)
 
         with psycopg.connect(self._config.connection_string) as connection:
             register_vector(connection)
             with connection.cursor() as cursor:
                 cursor.execute(
                     query,
-                    (vector, list(candidate_ids), vector, int(top_k)),
+                    (vector, vector, list(candidate_ids), int(top_k)),
                 )
                 rows = cursor.fetchall()
-        return [
-            {"segment_id": str(segment_id), "score": float(similarity)}
-            for segment_id, similarity in rows
-        ]
+        return [self._search_result_from_row(row, source) for row in rows]
+
+    @staticmethod
+    def _search_result_from_row(
+        row: Sequence[Any],
+        source: SearchSource,
+    ) -> dict[str, Any]:
+        text_score = 1.0 - float(row[15])
+        image_score = 1.0 - float(row[16])
+        source_score = text_score if source == "text" else image_score
+        return {
+            "segment_id": str(row[0]),
+            "keyframe_id": str(row[1]),
+            "keyframe_path": str(row[2]),
+            "place_id": row[3],
+            "region": row[4],
+            "place_name": row[5],
+            "spot_name": row[5],
+            "drama_title": row[6],
+            "description": row[7],
+            "time_of_day": _canonical_scalar(row[8], _TIME_CANONICAL),
+            "mood": list(row[9] or []),
+            "activity": list(row[10] or []),
+            "scene_elements": list(row[11] or []),
+            "landscape": list(row[11] or []),
+            "video_id": row[12],
+            "start_time": float(row[13]),
+            "end_time": float(row[14]),
+            "start_sec": float(row[13]),
+            "end_sec": float(row[14]),
+            "text_score": text_score,
+            "image_score": image_score,
+            "score": source_score,
+            "summary": row[17],
+        }
 
     @staticmethod
     def _segment_from_row(row: Sequence[Any]) -> dict[str, Any]:
-        metadata = row[11] if isinstance(row[11], dict) else {}
-        place_name = metadata.get("place_name")
+        raw_metadata = row[11]
+        if isinstance(raw_metadata, list) and raw_metadata:
+            segment_metadata = raw_metadata[0] if isinstance(raw_metadata[0], dict) else {}
+        else:
+            segment_metadata = raw_metadata if isinstance(raw_metadata, dict) else {}
+        keyframe_metadata = (
+            row[21] if len(row) > 21 and isinstance(row[21], dict) else {}
+        )
+        metadata = {**segment_metadata, **keyframe_metadata}
+        place_name = metadata.get("place_name") or row[7]
         stored_region = row[6]
         if stored_region and str(stored_region).casefold() == str(place_name).casefold():
             stored_region = None
@@ -248,7 +343,12 @@ class PgVectorRepository:
             or "unknown"
         )
         tags = list(row[8] or [])
-        moods = list(metadata.get("mood") or row[9] or [])
+        moods = list(
+            (row[18] if len(row) > 18 else None)
+            or metadata.get("mood")
+            or row[9]
+            or []
+        )
         season_tags = list(row[10] or [])
         season = metadata.get("season")
         if not season and season_tags:
@@ -260,23 +360,37 @@ class PgVectorRepository:
             "end_time": float(row[3]),
             "start_sec": float(row[2]),
             "end_sec": float(row[3]),
-            "keyframe_path": row[4],
-            "description": metadata.get("description") or row[5],
+            "keyframe_id": row[14] if len(row) > 14 else metadata.get("keyframe_id"),
+            "keyframe_path": (row[15] if len(row) > 15 else None) or row[4],
+            "description": (row[16] if len(row) > 16 else None) or metadata.get("description") or row[5],
             "region": region,
             "place_name": place_name,
-            "place_id": metadata.get("place_id"),
+            "place_id": (row[12] if len(row) > 12 else None) or metadata.get("place_id"),
+            "drama_title": (row[13] if len(row) > 13 else None) or metadata.get("drama_title"),
             "city": metadata.get("city"),
             "address": metadata.get("address"),
             "spot_name": metadata.get("spot_name") or row[7],
             "season": _canonical_scalar(season, _SEASON_CANONICAL),
             "time_of_day": _canonical_scalar(
-                metadata.get("time_of_day"),
+                (row[17] if len(row) > 17 else None) or metadata.get("time_of_day"),
                 _TIME_CANONICAL,
             ),
             "mood": moods,
-            "activity": list(metadata.get("activity") or []),
-            "landscape": list(metadata.get("scene_elements") or tags),
-            "scene_elements": list(metadata.get("scene_elements") or tags),
+            "activity": list(
+                (row[19] if len(row) > 19 else None)
+                or metadata.get("activity")
+                or []
+            ),
+            "landscape": list(
+                (row[20] if len(row) > 20 else None)
+                or metadata.get("scene_elements")
+                or tags
+            ),
+            "scene_elements": list(
+                (row[20] if len(row) > 20 else None)
+                or metadata.get("scene_elements")
+                or tags
+            ),
             "category": list(metadata.get("category") or []),
             "metadata": metadata,
         }

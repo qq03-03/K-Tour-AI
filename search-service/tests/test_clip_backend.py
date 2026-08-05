@@ -80,3 +80,42 @@ def test_database_metadata_normalizes_filter_values() -> None:
     assert segment["address"] == "강원특별자치도 춘천시 남산면 남이섬길 1"
     assert segment["season"] == "여름"
     assert segment["time_of_day"] == "해질녘"
+
+
+def test_database_metadata_reads_new_multikeyframe_columns() -> None:
+    row = (
+        "SEG_A", "VID_A", 0.0, 5.0, "legacy.jpg", "summary",
+        "서울특별시", "창경궁", ["palace"], ["serene"], ["가을"],
+        [{"segment_id": "SEG_A", "place_name": "창경궁", "season": "가을"}],
+        "P030", "킹덤", "KF_A", "keyframes/KF_A.jpg",
+        "A serene autumn palace.", "day", ["serene"], ["walking"],
+        ["palace", "trees"], {"description": "A serene autumn palace."},
+    )
+
+    segment = clip_backend.PgVectorRepository._segment_from_row(row)
+
+    assert segment["place_id"] == "P030"
+    assert segment["drama_title"] == "킹덤"
+    assert segment["keyframe_id"] == "KF_A"
+    assert segment["keyframe_path"] == "keyframes/KF_A.jpg"
+    assert segment["time_of_day"] == "낮"
+    assert segment["activity"] == ["walking"]
+    assert segment["scene_elements"] == ["palace", "trees"]
+
+
+def test_search_result_uses_representative_keyframe_scores_and_metadata() -> None:
+    row = (
+        "SEG_A", "KF_B", "keyframes/KF_B.jpg", "P030", "서울특별시",
+        "창경궁", "킹덤", "대표 프레임 설명", "day", ["serene"],
+        ["walking"], ["palace"], "VID_A", 10.0, 20.0, 0.2, 0.1,
+        "segment summary",
+    )
+
+    result = clip_backend.PgVectorRepository._search_result_from_row(row, "image")
+
+    assert result["segment_id"] == "SEG_A"
+    assert result["keyframe_id"] == "KF_B"
+    assert result["description"] == "대표 프레임 설명"
+    assert result["text_score"] == pytest.approx(0.8)
+    assert result["image_score"] == pytest.approx(0.9)
+    assert result["score"] == pytest.approx(0.9)

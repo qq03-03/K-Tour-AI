@@ -1,0 +1,630 @@
+[
+    {
+        "video_id":  "DIVA_02",
+        "youtube_id":  "n6_TzBPBYUU",
+        "source_url":  "https://www.youtube.com/watch?v=n6_TzBPBYUU",
+        "source_type":  "쇼츠",
+        "drama_title":  "무인도의 디바",
+        "place_ids":  [
+                          "P029"
+                      ],
+        "segment_count":  1,
+        "segments":  [
+                         {
+                             "segment_id":  "DIVA_02_SCENE_01",
+                             "place_id":  "P029",
+                             "start_time":  0.15,
+                             "end_time":  10.15,
+                             "keyframe_path":  "keyframes/DIVA_02/DIVA_02_SCENE_01.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "GOBLIN_01",
+        "youtube_id":  "mCeMgl6rR-U",
+        "source_url":  "https://www.youtube.com/watch?v=mCeMgl6rR-U",
+        "source_type":  "유튜브 영상",
+        "drama_title":  "도깨비",
+        "place_ids":  [
+                          "P013"
+                      ],
+        "segment_count":  1,
+        "segments":  [
+                         {
+                             "segment_id":  "GOBLIN_01_SCENE_01",
+                             "place_id":  "P013",
+                             "start_time":  202.95,
+                             "end_time":  206.85,
+                             "keyframe_path":  "keyframes/GOBLIN_01/GOBLIN_01_SCENE_01.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "GOBLIN_02",
+        "youtube_id":  "vzS5MqlN-wU",
+        "source_url":  "https://www.youtube.com/watch?v=vzS5MqlN-wU",
+        "source_type":  "쇼츠",
+        "drama_title":  "도깨비",
+        "place_ids":  [
+                          "P013"
+                      ],
+        "segment_count":  1,
+        "segments":  [
+                         {
+                             "segment_id":  "GOBLIN_02_SCENE_01",
+                             "place_id":  "P013",
+                             "start_time":  13.7,
+                             "end_time":  17.85,
+                             "keyframe_path":  "keyframes/GOBLIN_02/GOBLIN_02_SCENE_01.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "GOBLIN_03",
+        "youtube_id":  "2jiJ9CCzclg",
+        "source_url":  "https://www.youtube.com/watch?v=2jiJ9CCzclg",
+        "source_type":  "유튜브 영상",
+        "drama_title":  "도깨비",
+        "place_ids":  [
+                          "P014"
+                      ],
+        "segment_count":  3,
+        "segments":  [
+                         {
+                             "segment_id":  "GOBLIN_03_SCENE_01",
+                             "place_id":  "P014",
+                             "start_time":  0.15,
+                             "end_time":  10.15,
+                             "keyframe_path":  "keyframes/GOBLIN_03/GOBLIN_03_SCENE_01.jpg"
+                         },
+                         {
+                             "segment_id":  "GOBLIN_03_SCENE_02",
+                             "place_id":  "P014",
+                             "start_time":  12.25,
+                             "end_time":  22.25,
+                             "keyframe_path":  "keyframes/GOBLIN_03/GOBLIN_03_SCENE_02.jpg"
+                         },
+                         {
+                             "segment_id":  "GOBLIN_03_SCENE_03",
+                             "place_id":  "P014",
+                             "start_time":  23.2,
+                             "end_time":  27.85,
+                             "keyframe_path":  "keyframes/GOBLIN_03/GOBLIN_03_SCENE_03.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "GOBLIN_04",
+        "youtube_id":  "89CfEae8uRI",
+        "source_url":  "https://www.youtube.com/watch?v=89CfEae8uRI",
+        "source_type":  "유튜브 영상",
+        "drama_title":  "도깨비",
+        "place_ids":  [
+                          "P014"
+                      ],
+        "segment_count":  1,
+        "segments":  [
+                         {
+                             "segment_id":  "GOBLIN_04_SCENE_01",
+                             "place_id":  "P014",
+                             "start_time":  84.7,
+                             "end_time":  92.05,
+                             "keyframe_path":  "keyframes/GOBLIN_04/GOBLIN_04_SCENE_01.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "HCCC_01",
+        "youtube_id":  "UjxY3jz0znE",
+        "source_url":  "https://www.youtube.com/watch?v=UjxY3jz0znE",
+        "source_type":  "유튜브 영상",
+        "drama_title":  "갯마을 차차차",
+        "place_ids":  [
+                          "P010"
+                      ],
+        "segment_count":  3,
+        "segments":  [
+                         {
+                             "segment_id":  "HCCC_01_SCENE_01",
+                             "place_id":  "P010",
+                             "start_time":  305.15,
+                             "end_time":  311.55,
+                             "keyframe_path":  "keyframes/HCCC_01/HCCC_01_SCENE_01.jpg"
+                         },
+                         {
+                             "segment_id":  "HCCC_01_SCENE_02",
+                             "place_id":  "P010",
+                             "start_time":  379.7,
+                             "end_time":  386.8,
+                             "keyframe_path":  "keyframes/HCCC_01/HCCC_01_SCENE_02.jpg"
+                         },
+                         {
+                             "segment_id":  "HCCC_01_SCENE_03",
+                             "place_id":  "P010",
+                             "start_time":  398.2,
+                             "end_time":  408.2,
+                             "keyframe_path":  "keyframes/HCCC_01/HCCC_01_SCENE_03.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "HCCC_02",
+        "youtube_id":  "ch9bdaofYxM",
+        "source_url":  "https://www.youtube.com/watch?v=ch9bdaofYxM",
+        "source_type":  "유튜브 영상",
+        "drama_title":  "갯마을 차차차",
+        "place_ids":  [
+                          "P023"
+                      ],
+        "segment_count":  3,
+        "segments":  [
+                         {
+                             "segment_id":  "HCCC_02_SCENE_01",
+                             "place_id":  "P023",
+                             "start_time":  0.15,
+                             "end_time":  10.15,
+                             "keyframe_path":  "keyframes/HCCC_02/HCCC_02_SCENE_01.jpg"
+                         },
+                         {
+                             "segment_id":  "HCCC_02_SCENE_02",
+                             "place_id":  "P023",
+                             "start_time":  33.35,
+                             "end_time":  43.35,
+                             "keyframe_path":  "keyframes/HCCC_02/HCCC_02_SCENE_02.jpg"
+                         },
+                         {
+                             "segment_id":  "HCCC_02_SCENE_03",
+                             "place_id":  "P023",
+                             "start_time":  77.875,
+                             "end_time":  87.875,
+                             "keyframe_path":  "keyframes/HCCC_02/HCCC_02_SCENE_03.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "hotel_deluna_mangsang_02",
+        "youtube_id":  "7ir6-MekfHU",
+        "source_url":  "https://www.youtube.com/watch?v=7ir6-MekfHU",
+        "source_type":  "쇼츠",
+        "drama_title":  "호텔 델루나",
+        "place_ids":  [
+                          "P015"
+                      ],
+        "segment_count":  2,
+        "segments":  [
+                         {
+                             "segment_id":  "hotel_deluna_mangsang_02_SCENE_01",
+                             "place_id":  "P015",
+                             "start_time":  9.45,
+                             "end_time":  16.3,
+                             "keyframe_path":  "keyframes/hotel_deluna_mangsang_02/hotel_deluna_mangsang_02_SCENE_01.jpg"
+                         },
+                         {
+                             "segment_id":  "hotel_deluna_mangsang_02_SCENE_02",
+                             "place_id":  "P015",
+                             "start_time":  31.45,
+                             "end_time":  37.3,
+                             "keyframe_path":  "keyframes/hotel_deluna_mangsang_02/hotel_deluna_mangsang_02_SCENE_02.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "hotel_deluna_paradise_01",
+        "youtube_id":  "ju15D1xTvVU",
+        "source_url":  "https://www.youtube.com/watch?v=ju15D1xTvVU",
+        "source_type":  "쇼츠",
+        "drama_title":  "호텔 델루나",
+        "place_ids":  [
+                          "P022"
+                      ],
+        "segment_count":  2,
+        "segments":  [
+                         {
+                             "segment_id":  "hotel_deluna_paradise_01_SCENE_01",
+                             "place_id":  "P022",
+                             "start_time":  11.2,
+                             "end_time":  19.8,
+                             "keyframe_path":  "keyframes/hotel_deluna_paradise_01/hotel_deluna_paradise_01_SCENE_01.jpg"
+                         },
+                         {
+                             "segment_id":  "hotel_deluna_paradise_01_SCENE_02",
+                             "place_id":  "P022",
+                             "start_time":  38.2,
+                             "end_time":  41.8,
+                             "keyframe_path":  "keyframes/hotel_deluna_paradise_01/hotel_deluna_paradise_01_SCENE_02.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "kingdom_changdeok_01",
+        "youtube_id":  "i2ZuU6szFWE",
+        "source_url":  "https://youtu.be/i2ZuU6szFWE",
+        "source_type":  "유튜브 영상",
+        "drama_title":  "킹덤",
+        "place_ids":  [
+                          "P017",
+                          "P030"
+                      ],
+        "segment_count":  3,
+        "segments":  [
+                         {
+                             "segment_id":  "kingdom_changdeok_01_SCENE_01",
+                             "place_id":  "P017",
+                             "start_time":  11.2,
+                             "end_time":  21.2,
+                             "keyframe_path":  "keyframes/kingdom_changdeok_01/kingdom_changdeok_01_SCENE_01.jpg"
+                         },
+                         {
+                             "segment_id":  "kingdom_changdeok_01_SCENE_02",
+                             "place_id":  "P017",
+                             "start_time":  29.55,
+                             "end_time":  39.55,
+                             "keyframe_path":  "keyframes/kingdom_changdeok_01/kingdom_changdeok_01_SCENE_02.jpg"
+                         },
+                         {
+                             "segment_id":  "kingdom_changdeok_01_SCENE_03",
+                             "place_id":  "P030",
+                             "start_time":  40.45,
+                             "end_time":  45.05,
+                             "keyframe_path":  "keyframes/kingdom_changdeok_01/kingdom_changdeok_01_SCENE_03.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "kingdom_changdeok_02",
+        "youtube_id":  "c4OOEsGS7Cc",
+        "source_url":  "https://www.youtube.com/watch?v=c4OOEsGS7Cc",
+        "source_type":  "쇼츠",
+        "drama_title":  "킹덤",
+        "place_ids":  [
+                          "P017"
+                      ],
+        "segment_count":  2,
+        "segments":  [
+                         {
+                             "segment_id":  "kingdom_changdeok_02_SCENE_01",
+                             "place_id":  "P017",
+                             "start_time":  11.2,
+                             "end_time":  14.8,
+                             "keyframe_path":  "keyframes/kingdom_changdeok_02/kingdom_changdeok_02_SCENE_01.jpg"
+                         },
+                         {
+                             "segment_id":  "kingdom_changdeok_02_SCENE_02",
+                             "place_id":  "P017",
+                             "start_time":  22.2,
+                             "end_time":  27.85,
+                             "keyframe_path":  "keyframes/kingdom_changdeok_02/kingdom_changdeok_02_SCENE_02.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "kingdom_gyeongbok_01",
+        "youtube_id":  "yZeNfaIK7Nw",
+        "source_url":  "https://youtu.be/yZeNfaIK7Nw",
+        "source_type":  "유튜브 영상",
+        "drama_title":  "킹덤",
+        "place_ids":  [
+                          "P016"
+                      ],
+        "segment_count":  3,
+        "segments":  [
+                         {
+                             "segment_id":  "kingdom_gyeongbok_01_SCENE_01",
+                             "place_id":  "P016",
+                             "start_time":  1.177,
+                             "end_time":  11.177,
+                             "keyframe_path":  "keyframes/kingdom_gyeongbok_01/kingdom_gyeongbok_01_SCENE_01.jpg"
+                         },
+                         {
+                             "segment_id":  "kingdom_gyeongbok_01_SCENE_02",
+                             "place_id":  "P016",
+                             "start_time":  35.7,
+                             "end_time":  45.7,
+                             "keyframe_path":  "keyframes/kingdom_gyeongbok_01/kingdom_gyeongbok_01_SCENE_02.jpg"
+                         },
+                         {
+                             "segment_id":  "kingdom_gyeongbok_01_SCENE_03",
+                             "place_id":  "P016",
+                             "start_time":  123.05,
+                             "end_time":  133.05,
+                             "keyframe_path":  "keyframes/kingdom_gyeongbok_01/kingdom_gyeongbok_01_SCENE_03.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "LITC_01",
+        "youtube_id":  "DGRMHeI8Wt8",
+        "source_url":  "https://www.youtube.com/watch?v=DGRMHeI8Wt8",
+        "source_type":  "유튜브 영상",
+        "drama_title":  "도시남녀의 사랑법",
+        "place_ids":  [
+                          "P021"
+                      ],
+        "segment_count":  2,
+        "segments":  [
+                         {
+                             "segment_id":  "LITC_01_SCENE_01",
+                             "place_id":  "P021",
+                             "start_time":  275.15,
+                             "end_time":  285.15,
+                             "keyframe_path":  "keyframes/LITC_01/LITC_01_SCENE_01.jpg"
+                         },
+                         {
+                             "segment_id":  "LITC_01_SCENE_02",
+                             "place_id":  "P021",
+                             "start_time":  320.95,
+                             "end_time":  329.05,
+                             "keyframe_path":  "keyframes/LITC_01/LITC_01_SCENE_02.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "OBS_01",
+        "youtube_id":  "nK3ge3jQrXc",
+        "source_url":  "https://www.youtube.com/watch?v=nK3ge3jQrXc",
+        "source_type":  "유튜브 영상",
+        "drama_title":  "그 해 우리는",
+        "place_ids":  [
+                          "P005"
+                      ],
+        "segment_count":  1,
+        "segments":  [
+                         {
+                             "segment_id":  "OBS_01_SCENE_01",
+                             "place_id":  "P005",
+                             "start_time":  278.7,
+                             "end_time":  282.8,
+                             "keyframe_path":  "keyframes/OBS_01/OBS_01_SCENE_01.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "OBS_02",
+        "youtube_id":  "tJqIDVFhsNU",
+        "source_url":  "https://www.youtube.com/watch?v=tJqIDVFhsNU",
+        "source_type":  "유튜브 영상",
+        "drama_title":  "그 해 우리는",
+        "place_ids":  [
+                          "P001"
+                      ],
+        "segment_count":  3,
+        "segments":  [
+                         {
+                             "segment_id":  "OBS_02_SCENE_01",
+                             "place_id":  "P001",
+                             "start_time":  66.7,
+                             "end_time":  75.3,
+                             "keyframe_path":  "keyframes/OBS_02/OBS_02_SCENE_01.jpg"
+                         },
+                         {
+                             "segment_id":  "OBS_02_SCENE_02",
+                             "place_id":  "P001",
+                             "start_time":  98.45,
+                             "end_time":  102.55,
+                             "keyframe_path":  "keyframes/OBS_02/OBS_02_SCENE_02.jpg"
+                         },
+                         {
+                             "segment_id":  "OBS_02_SCENE_03",
+                             "place_id":  "P001",
+                             "start_time":  190.7,
+                             "end_time":  195.8,
+                             "keyframe_path":  "keyframes/OBS_02/OBS_02_SCENE_03.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "OURBLUES_04",
+        "youtube_id":  "e6FvfWF4uVg",
+        "source_url":  "https://www.youtube.com/watch?v=e6FvfWF4uVg",
+        "source_type":  "유튜브 영상",
+        "drama_title":  "우리들의 블루스",
+        "place_ids":  [
+                          "P026"
+                      ],
+        "segment_count":  1,
+        "segments":  [
+                         {
+                             "segment_id":  "OURBLUES_04_SCENE_01",
+                             "place_id":  "P026",
+                             "start_time":  166.95,
+                             "end_time":  172.05,
+                             "keyframe_path":  "keyframes/OURBLUES_04/OURBLUES_04_SCENE_01.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "OURBLUES_05",
+        "youtube_id":  "Lb3DGOdPafU",
+        "source_url":  "https://www.youtube.com/watch?v=Lb3DGOdPafU",
+        "source_type":  "쇼츠",
+        "drama_title":  "우리들의 블루스",
+        "place_ids":  [
+                          "P027"
+                      ],
+        "segment_count":  1,
+        "segments":  [
+                         {
+                             "segment_id":  "OURBLUES_05_SCENE_01",
+                             "place_id":  "P027",
+                             "start_time":  1.325,
+                             "end_time":  11.325,
+                             "keyframe_path":  "keyframes/OURBLUES_05/OURBLUES_05_SCENE_01.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "OURBLUES_07",
+        "youtube_id":  "fr03aYy-ZfI",
+        "source_url":  "https://www.youtube.com/watch?v=fr03aYy-ZfI",
+        "source_type":  "유튜브 영상",
+        "drama_title":  "우리들의 블루스",
+        "place_ids":  [
+                          "P028"
+                      ],
+        "segment_count":  3,
+        "segments":  [
+                         {
+                             "segment_id":  "OURBLUES_07_SCENE_01",
+                             "place_id":  "P028",
+                             "start_time":  0.15,
+                             "end_time":  10.15,
+                             "keyframe_path":  "keyframes/OURBLUES_07/OURBLUES_07_SCENE_01.jpg"
+                         },
+                         {
+                             "segment_id":  "OURBLUES_07_SCENE_02",
+                             "place_id":  "P028",
+                             "start_time":  45.3,
+                             "end_time":  55.3,
+                             "keyframe_path":  "keyframes/OURBLUES_07/OURBLUES_07_SCENE_02.jpg"
+                         },
+                         {
+                             "segment_id":  "OURBLUES_07_SCENE_03",
+                             "place_id":  "P028",
+                             "start_time":  210.263,
+                             "end_time":  220.263,
+                             "keyframe_path":  "keyframes/OURBLUES_07/OURBLUES_07_SCENE_03.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "TFTO_07",
+        "youtube_id":  "6EiESTfjT_0",
+        "source_url":  "https://youtu.be/6EiESTfjT_0",
+        "source_type":  "유튜브 영상",
+        "drama_title":  "스물다섯 스물하나",
+        "place_ids":  [
+                          "P009"
+                      ],
+        "segment_count":  3,
+        "segments":  [
+                         {
+                             "segment_id":  "TFTO_07_SCENE_01",
+                             "place_id":  "P009",
+                             "start_time":  30.95,
+                             "end_time":  35.05,
+                             "keyframe_path":  "keyframes/TFTO_07/TFTO_07_SCENE_01.jpg"
+                         },
+                         {
+                             "segment_id":  "TFTO_07_SCENE_02",
+                             "place_id":  "P009",
+                             "start_time":  42.45,
+                             "end_time":  49.8,
+                             "keyframe_path":  "keyframes/TFTO_07/TFTO_07_SCENE_02.jpg"
+                         },
+                         {
+                             "segment_id":  "TFTO_07_SCENE_03",
+                             "place_id":  "P009",
+                             "start_time":  83.45,
+                             "end_time":  88.3,
+                             "keyframe_path":  "keyframes/TFTO_07/TFTO_07_SCENE_03.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "WLGYT_01",
+        "youtube_id":  "Q6qUEvQfjRs",
+        "source_url":  "https://www.youtube.com/watch?v=Q6qUEvQfjRs",
+        "source_type":  "쇼츠",
+        "drama_title":  "폭싹 속았수다",
+        "place_ids":  [
+                          "P004"
+                      ],
+        "segment_count":  1,
+        "segments":  [
+                         {
+                             "segment_id":  "WLGYT_01_SCENE_01",
+                             "place_id":  "P004",
+                             "start_time":  0.15,
+                             "end_time":  9.85,
+                             "keyframe_path":  "keyframes/WLGYT_01/WLGYT_01_SCENE_01.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "WLGYT_02",
+        "youtube_id":  "rFJT5hNx2AQ",
+        "source_url":  "https://www.youtube.com/watch?v=rFJT5hNx2AQ",
+        "source_type":  "유튜브 영상",
+        "drama_title":  "폭싹 속았수다",
+        "place_ids":  [
+                          "P004"
+                      ],
+        "segment_count":  1,
+        "segments":  [
+                         {
+                             "segment_id":  "WLGYT_02_SCENE_01",
+                             "place_id":  "P004",
+                             "start_time":  10.15,
+                             "end_time":  14.85,
+                             "keyframe_path":  "keyframes/WLGYT_02/WLGYT_02_SCENE_01.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "WLGYT_03",
+        "youtube_id":  "zY81V4VOA44",
+        "source_url":  "https://www.youtube.com/watch?v=zY81V4VOA44",
+        "source_type":  "쇼츠",
+        "drama_title":  "폭싹 속았수다",
+        "place_ids":  [
+                          "P004"
+                      ],
+        "segment_count":  2,
+        "segments":  [
+                         {
+                             "segment_id":  "WLGYT_03_SCENE_01",
+                             "place_id":  "P004",
+                             "start_time":  0.15,
+                             "end_time":  3.8,
+                             "keyframe_path":  "keyframes/WLGYT_03/WLGYT_03_SCENE_01.jpg"
+                         },
+                         {
+                             "segment_id":  "WLGYT_03_SCENE_02",
+                             "place_id":  "P004",
+                             "start_time":  14.45,
+                             "end_time":  22.85,
+                             "keyframe_path":  "keyframes/WLGYT_03/WLGYT_03_SCENE_02.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "WTWIF_02",
+        "youtube_id":  "bU-dyF_Gsk8",
+        "source_url":  "https://www.youtube.com/watch?v=bU-dyF_Gsk8",
+        "source_type":  "쇼츠",
+        "drama_title":  "날씨가 좋으면 찾아가겠어요",
+        "place_ids":  [
+                          "P018"
+                      ],
+        "segment_count":  1,
+        "segments":  [
+                         {
+                             "segment_id":  "WTWIF_02_SCENE_01",
+                             "place_id":  "P018",
+                             "start_time":  2.383,
+                             "end_time":  12.383,
+                             "keyframe_path":  "keyframes/WTWIF_02/WTWIF_02_SCENE_01.jpg"
+                         }
+                     ]
+    },
+    {
+        "video_id":  "WTWIF_03",
+        "youtube_id":  "7oeOss6ffuw",
+        "source_url":  "https://www.youtube.com/watch?v=7oeOss6ffuw",
+        "source_type":  "유튜브 영상",
+        "drama_title":  "날씨가 좋으면 찾아가겠어요",
+        "place_ids":  [
+                          "P018"
+                      ],
+        "segment_count":  1,
+        "segments":  [
+                         {
+                             "segment_id":  "WTWIF_03_SCENE_01",
+                             "place_id":  "P018",
+                             "start_time":  5.95,
+                             "end_time":  9.55,
+                             "keyframe_path":  "keyframes/WTWIF_03/WTWIF_03_SCENE_01.jpg"
+                         }
+                     ]
+    }
+]
