@@ -451,3 +451,40 @@ def test_delete_stale_records_removes_missing_keyframes_and_segments():
     assert segment_params == (
         ["SEG_001", "SEG_002"],
     )
+
+
+def test_delete_stale_records_rejects_empty_records_without_query():
+    executed = []
+
+    class FakeCursor:
+        def execute(self, query, params):
+            executed.append((query, params))
+
+    with pytest.raises(
+        ValueError,
+        match="빈 metadata/embedding 입력",
+    ):
+        insert_embeddings.delete_stale_records(
+            FakeCursor(),
+            {"segments": [], "keyframes": []},
+        )
+
+    assert executed == []
+
+
+def test_validate_non_empty_records_rejects_missing_keyframes():
+    with pytest.raises(
+        ValueError,
+        match="segments=1, keyframes=0",
+    ):
+        insert_embeddings.validate_non_empty_records(
+            {
+                "segments": [{"segment_id": "SEG_001"}],
+                "keyframes": [],
+            }
+        )
+
+
+def test_full_sync_requires_explicit_command_line_option():
+    assert insert_embeddings.parse_args([]).full_sync is False
+    assert insert_embeddings.parse_args(["--full-sync"]).full_sync is True

@@ -1,6 +1,7 @@
 ﻿import json
 import os
 import sys
+import argparse
 from pathlib import Path
 
 import numpy as np
@@ -593,6 +594,8 @@ def delete_stale_records(
 ) -> None:
     """현재 records에 없는 오래된 segment/keyframe 행을 삭제한다."""
 
+    validate_non_empty_records(records)
+
     current_segment_ids = [
         item["segment_id"]
         for item in records["segments"]
@@ -623,7 +626,39 @@ def delete_stale_records(
         (current_segment_ids,),
     )
 
+
+def validate_non_empty_records(
+    records: dict[str, list[dict]],
+) -> None:
+    """빈 전체 동기화 입력으로 기존 DB가 삭제되는 사고를 막는다."""
+
+    segment_count = len(records.get("segments", []))
+    keyframe_count = len(records.get("keyframes", []))
+
+    if segment_count == 0 or keyframe_count == 0:
+        raise ValueError(
+            "빈 metadata/embedding 입력은 적재할 수 없습니다: "
+            f"segments={segment_count}, keyframes={keyframe_count}"
+        )
+
+
+def parse_args(argv=None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="metadata와 embedding을 PostgreSQL에 적재합니다."
+    )
+    parser.add_argument(
+        "--full-sync",
+        action="store_true",
+        help=(
+            "현재 입력을 전체 기준 데이터로 간주하고, 입력에 없는 기존 "
+            "segment/keyframe을 삭제합니다. 생략하면 안전한 upsert만 수행합니다."
+        ),
+    )
+    return parser.parse_args(argv)
+
 def main() -> None:
+    args = parse_args()
+
     embedding_root = (
         Path(__file__)
         .resolve()
@@ -696,6 +731,8 @@ def main() -> None:
             keyframe_embedding_list,
     )
 
+    validate_non_empty_records(records)
+
     print("-" * 60)
 
     print(
@@ -721,10 +758,19 @@ def main() -> None:
     ) as connection:
 
         with connection.cursor() as cursor:
-            delete_stale_records(
-                cursor,
-                records,
-            )
+            if args.full_sync:
+                print(
+                    "[주의] --full-sync: 입력에 없는 기존 "
+                    "segment/keyframe을 삭제합니다."
+                )
+                delete_stale_records(
+                    cursor,
+                    records,
+                )
+            else:
+                print(
+                    "안전 모드: stale 삭제를 건너뛰고 upsert만 수행합니다."
+                )
 
             insert_prepared_records(
                 cursor,
