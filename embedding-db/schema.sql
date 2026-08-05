@@ -68,7 +68,9 @@ CREATE TABLE IF NOT EXISTS video_segments (
     mood_tags TEXT[],
     season_tags TEXT[],
 
+    place_id TEXT,
     region TEXT,
+    drama_title TEXT,
     spot_name TEXT,
 
     keyframe_path TEXT,
@@ -77,7 +79,12 @@ CREATE TABLE IF NOT EXISTS video_segments (
 
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+-- 기존 DB 호환용 컬럼 마이그레이션
+ALTER TABLE video_segments
+ADD COLUMN IF NOT EXISTS place_id TEXT;
 
+ALTER TABLE video_segments
+ADD COLUMN IF NOT EXISTS drama_title TEXT;
 -- =========================================================
 -- 5. 임베딩 테이블
 -- 텍스트 임베딩과 이미지 임베딩 저장
@@ -97,7 +104,65 @@ CREATE TABLE IF NOT EXISTS segment_embeddings (
 );
 
 -- =========================================================
--- 6. 일반 검색용 인덱스
+-- 6. Segment Keyframes
+-- 하나의 segment에 여러 keyframe을 저장
+-- =========================================================
+CREATE TABLE IF NOT EXISTS segment_keyframes (
+    keyframe_id TEXT PRIMARY KEY,
+
+    segment_id TEXT NOT NULL REFERENCES video_segments(segment_id)
+        ON DELETE CASCADE,
+
+    keyframe_path TEXT NOT NULL,
+
+    description TEXT,
+    time_of_day TEXT,
+    mood TEXT[],
+    activity TEXT[],
+    scene_elements TEXT[],
+
+    metadata JSONB,
+
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- 기존 DB 호환용 keyframe 구조화 metadata 컬럼 마이그레이션
+ALTER TABLE segment_keyframes
+ADD COLUMN IF NOT EXISTS description TEXT;
+
+ALTER TABLE segment_keyframes
+ADD COLUMN IF NOT EXISTS time_of_day TEXT;
+
+ALTER TABLE segment_keyframes
+ADD COLUMN IF NOT EXISTS mood TEXT[];
+
+ALTER TABLE segment_keyframes
+ADD COLUMN IF NOT EXISTS activity TEXT[];
+
+ALTER TABLE segment_keyframes
+ADD COLUMN IF NOT EXISTS scene_elements TEXT[];
+
+CREATE INDEX IF NOT EXISTS idx_segment_keyframes_segment_id
+ON segment_keyframes(segment_id);
+
+CREATE UNIQUE INDEX IF NOT EXISTS idx_segment_keyframes_path
+ON segment_keyframes(keyframe_path);
+
+-- =========================================================
+-- 7. Keyframe Embeddings
+-- keyframe별 image embedding 저장
+-- =========================================================
+CREATE TABLE IF NOT EXISTS keyframe_embeddings (
+    keyframe_id TEXT PRIMARY KEY REFERENCES segment_keyframes(keyframe_id)
+        ON DELETE CASCADE,
+
+    image_embedding vector(512),
+
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- =========================================================
+-- 8. 일반 검색용 인덱스
 -- 지역, 태그, 감성, 계절 필터 검색을 빠르게 하기 위함
 -- =========================================================
 CREATE INDEX IF NOT EXISTS idx_video_segments_video_id
@@ -116,7 +181,7 @@ CREATE INDEX IF NOT EXISTS idx_video_segments_season_tags
 ON video_segments USING GIN(season_tags);
 
 -- =========================================================
--- 7. 벡터 검색용 인덱스
+-- 9. 벡터 검색용 인덱스
 -- cosine distance 기반 유사도 검색
 -- =========================================================
 CREATE INDEX IF NOT EXISTS idx_segment_text_embedding
@@ -125,4 +190,8 @@ USING hnsw (text_embedding vector_cosine_ops);
 
 CREATE INDEX IF NOT EXISTS idx_segment_image_embedding
 ON segment_embeddings
+USING hnsw (image_embedding vector_cosine_ops);
+
+CREATE INDEX IF NOT EXISTS idx_keyframe_image_embedding
+ON keyframe_embeddings
 USING hnsw (image_embedding vector_cosine_ops);
