@@ -1,11 +1,15 @@
 ﻿import json
-from collections import Counter
 from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
-METADATA_PATH = REPO_ROOT / "metadata_vlm_final.json"
+METADATA_PATH = (
+    REPO_ROOT
+    / "embedding-db"
+    / "metadata"
+    / "metadata.json"
+)
 
 KEYFRAME_BASE = (
     REPO_ROOT
@@ -19,10 +23,10 @@ def load_metadata():
         return json.load(f)
 
 
-def test_realdata_metadata_contains_42_records():
+def test_realdata_metadata_contains_45_records():
     metadata = load_metadata()
 
-    assert len(metadata) == 42
+    assert len(metadata) == 45
 
 
 def test_all_metadata_keyframe_paths_are_unique():
@@ -30,8 +34,8 @@ def test_all_metadata_keyframe_paths_are_unique():
 
     paths = [item["keyframe_path"] for item in metadata]
 
-    assert len(paths) == 42
-    assert len(set(paths)) == 42
+    assert len(paths) == 45
+    assert len(set(paths)) == 45
 
 
 def test_all_metadata_keyframe_files_exist():
@@ -48,22 +52,16 @@ def test_all_metadata_keyframe_files_exist():
     assert missing == []
 
 
-def test_duplicate_segment_ids_exist_and_are_allowed():
+def test_all_segment_ids_are_unique():
     metadata = load_metadata()
 
-    counts = Counter(
+    segment_ids = [
         item["segment_id"]
         for item in metadata
-    )
+    ]
 
-    duplicates = {
-        segment_id: count
-        for segment_id, count in counts.items()
-        if count > 1
-    }
-
-    assert duplicates
-    assert len(metadata) > len(counts)
+    assert len(segment_ids) == 45
+    assert len(set(segment_ids)) == 45
 
 
 def test_region_and_drama_title_exist():
@@ -107,3 +105,62 @@ def test_vlm_list_fields_are_lists():
                 f"{item['keyframe_path']} "
                 f"{field} is not a list"
             )
+
+def test_obs_02_scene_02_uses_correct_haenggung_dong_spelling():
+    metadata = load_metadata()
+
+    item = next(
+        item
+        for item in metadata
+        if item["segment_id"] == "OBS_02_SCENE_02"
+    )
+
+    assert "Haenggung-dong" in item["description"]
+    assert "Hwangeong-dong" not in item["description"]
+
+
+def test_hotel_deluna_mangsang_02_uses_correct_mangsang_spelling():
+    metadata = load_metadata()
+
+    item = next(
+        item
+        for item in metadata
+        if item["segment_id"]
+        == "hotel_deluna_mangsang_02_SCENE_01"
+    )
+
+    assert "MANGSANG" in item["description"]
+    assert "MANGYONGDAE" not in item["description"]
+
+
+def test_kingdom_scene_03_is_separate_changgyeonggung_place():
+    import re
+
+    metadata = load_metadata()
+
+    item = next(
+        item
+        for item in metadata
+        if item["segment_id"]
+        == "kingdom_changdeok_01_SCENE_03"
+    )
+
+    assert item["place_id"] == "P030"
+    assert item["place_name"] == "창경궁"
+    assert "Changgyeonggung" in item["description"]
+    assert re.search(
+    r"\bChanggyeonggu\b",
+    item["description"],
+    ) is None
+
+    p017_items = [
+        row
+        for row in metadata
+        if row.get("place_id") == "P017"
+    ]
+
+    assert p017_items
+    assert all(
+        row["place_name"] == "창덕궁"
+        for row in p017_items
+    )

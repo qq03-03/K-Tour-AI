@@ -149,15 +149,17 @@ def test_build_segment_search_text_combines_all_keyframes():
     assert "파도가 보이는 바닷가" in text
 
 
-def test_realdata_groups_into_24_segments_and_42_keyframes():
+def test_realdata_groups_into_45_segments_and_45_keyframes():
     import json
 
     repo_root = Path(__file__).resolve().parents[2]
 
     metadata_path = (
-        repo_root
-        / "metadata_vlm_final.json"
-    )
+    repo_root
+    / "embedding-db"
+    / "metadata"
+    / "metadata.json"
+)
 
     with metadata_path.open(
         "r",
@@ -176,10 +178,10 @@ def test_realdata_groups_into_24_segments_and_42_keyframes():
         for item in metadata
     ]
 
-    assert len(metadata) == 42
-    assert len(grouped) == 24
-    assert len(keyframe_ids) == 42
-    assert len(set(keyframe_ids)) == 42
+    assert len(metadata) == 45
+    assert len(grouped) == 45
+    assert len(keyframe_ids) == 45
+    assert len(set(keyframe_ids)) == 45
 
 def test_build_embedding_records_separates_segments_and_keyframes(tmp_path):
     assert hasattr(
