@@ -161,6 +161,10 @@ VLM 메타데이터와 영상 전처리 결과의 ID·시간·대표 프레임 �
 python run_vlm_validation.py --metadata path/to/vlm_metadata.json --preprocessing path/to/preprocessing_results.json
 ```
 
+검수기는 구형 `{"segments": [...]}` 구조와 영상별 `segments`를 가진 최신 배열
+구조를 모두 지원합니다. 장면 ID·원본 ID·시작/종료 시간·키프레임 경로·파일
+존재 여부·중복·누락 및 쉼표로 합쳐진 다중 계절 값을 한 번에 확인합니다.
+
 ## 주요 데이터
 
 - `data/dummy_segments.json`: 검색 로직 확인용 더미 구간

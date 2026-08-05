@@ -40,6 +40,42 @@ def test_openai_client_uses_responses_structured_output() -> None:
     }
     assert responses.arguments["model"] == "test-model"
     assert responses.arguments["text_format"] is QueryParserResponse
+    assert responses.arguments["reasoning"] == {"effort": "none"}
+    assert responses.arguments["text"] == {"verbosity": "low"}
+    assert responses.arguments["prompt_cache_key"] == "k-tour-query-parser-v1"
+
+
+def test_openai_client_accepts_explicit_latency_options() -> None:
+    responses = FakeResponses()
+    sdk = SimpleNamespace(responses=responses)
+    client = OpenAIStructuredClient(
+        model="test-model",
+        reasoning_effort="low",
+        verbosity="medium",
+        prompt_cache_key="custom-query-parser",
+        client=sdk,
+    )
+
+    client.generate_json(
+        system_prompt="system",
+        user_prompt="query",
+        response_schema={"type": "object"},
+    )
+
+    assert responses.arguments["reasoning"] == {"effort": "low"}
+    assert responses.arguments["text"] == {"verbosity": "medium"}
+    assert responses.arguments["prompt_cache_key"] == "custom-query-parser"
+
+
+def test_openai_client_rejects_invalid_reasoning_effort() -> None:
+    sdk = SimpleNamespace(responses=FakeResponses())
+
+    try:
+        OpenAIStructuredClient(reasoning_effort="fastest", client=sdk)
+    except ValueError as error:
+        assert "reasoning_effort" in str(error)
+    else:
+        raise AssertionError("지원하지 않는 reasoning effort를 거부해야 합니다.")
 
 
 def test_openai_client_rejects_missing_parsed_output() -> None:

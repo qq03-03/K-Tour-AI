@@ -9,6 +9,80 @@ from typing import Any, Literal
 MatchMode = Literal["all", "any"]
 
 
+_SEASON_CANONICAL = {
+    "spring": "봄",
+    "summer": "여름",
+    "autumn": "가을",
+    "fall": "가을",
+    "winter": "겨울",
+}
+_TIME_OF_DAY_CANONICAL = {
+    "dawn": "새벽",
+    "morning": "아침",
+    "day": "낮",
+    "daytime": "낮",
+    "evening": "해질녘",
+    "sunset": "해질녘",
+    "dusk": "해질녘",
+    "night": "밤",
+}
+_REGION_CANONICAL = {
+    "서울": "서울",
+    "서울시": "서울",
+    "서울특별시": "서울",
+    "인천": "인천",
+    "인천시": "인천",
+    "인천광역시": "인천",
+    "경기": "경기",
+    "경기도": "경기",
+    "강원": "강원",
+    "강원도": "강원",
+    "강원특별자치도": "강원",
+    "전북": "전북",
+    "전라북도": "전북",
+    "전북특별자치도": "전북",
+    "경북": "경북",
+    "경상북도": "경북",
+    "제주": "제주",
+    "제주도": "제주",
+    "제주특별자치도": "제주",
+}
+# places 테이블이 검색 결과에 city를 제공하기 전까지 사용하는 MVP 보정표다.
+# segment 또는 metadata에 city/address가 있으면 그 구조화 값을 함께 사용한다.
+_PLACE_CITY_FALLBACKS = {
+    "P001": "수원시",
+    "P002": "영등포구",
+    "P003": "화성시",
+    "P004": "고창군",
+    "P005": "전주시",
+    "P006": "논산시",
+    "P007": "전주시",
+    "P008": "전주시",
+    "P009": "전주시",
+    "P010": "포항시",
+    "P011": "서귀포시",
+    "P012": "충주시",
+    "P013": "강릉시",
+    "P014": "평창군",
+    "P015": "동해시",
+    "P016": "종로구",
+    "P017": "종로구",
+    "P018": "영월군",
+    "P019": "상주시",
+    "P020": "서천군",
+    "P021": "중구",
+    "P022": "중구",
+    "P023": "포항시",
+    "P024": "포항시",
+    "P025": "제주시",
+    "P026": "서귀포시",
+    "P027": "제주시",
+    "P028": "제주시",
+    "P029": "상주시",
+    "P030": "종로구",
+}
+
+
 def filter_segments(
     segments: Sequence[Mapping[str, Any]],
     *,
@@ -37,8 +111,16 @@ def filter_segments(
     _validate_match_mode(category_match, "category_match")
 
     normalized_regions = _normalize_filter_values(regions, "regions")
-    normalized_seasons = _normalize_filter_values(seasons, "seasons")
-    normalized_times = _normalize_filter_values(times_of_day, "times_of_day")
+    normalized_seasons = _normalize_filter_values(
+        seasons,
+        "seasons",
+        aliases=_SEASON_CANONICAL,
+    )
+    normalized_times = _normalize_filter_values(
+        times_of_day,
+        "times_of_day",
+        aliases=_TIME_OF_DAY_CANONICAL,
+    )
     normalized_moods = _normalize_filter_values(moods, "moods")
     normalized_activities = _normalize_filter_values(activities, "activities")
     normalized_landscapes = _normalize_filter_values(landscapes, "landscapes")
@@ -59,18 +141,27 @@ def filter_segments(
 
     filtered: list[Mapping[str, Any]] = []
     for segment in segments:
-        if normalized_regions:
-            region = _normalize_scalar_field(segment, "region")
-            if region not in normalized_regions:
-                continue
+        if normalized_regions and not _matches_region_filter(
+            segment,
+            normalized_regions,
+        ):
+            continue
 
         if normalized_seasons:
-            season = _normalize_scalar_field(segment, "season")
+            season = _normalize_scalar_field(
+                segment,
+                "season",
+                aliases=_SEASON_CANONICAL,
+            )
             if season not in normalized_seasons:
                 continue
 
         if normalized_times:
-            time_of_day = _normalize_scalar_field(segment, "time_of_day")
+            time_of_day = _normalize_scalar_field(
+                segment,
+                "time_of_day",
+                aliases=_TIME_OF_DAY_CANONICAL,
+            )
             if time_of_day not in normalized_times:
                 continue
 
@@ -112,6 +203,8 @@ def _matches_list_filter(
 def _normalize_filter_values(
     values: str | Sequence[str] | None,
     field_name: str,
+    *,
+    aliases: Mapping[str, str] | None = None,
 ) -> set[str]:
     if values is None:
         return set()
@@ -130,18 +223,89 @@ def _normalize_filter_values(
         cleaned = value.strip().casefold()
         if not cleaned:
             raise ValueError(f"{field_name}에는 빈 문자열을 사용할 수 없습니다.")
-        normalized.add(cleaned)
+        normalized.add(aliases.get(cleaned, cleaned) if aliases else cleaned)
     return normalized
 
 
-def _normalize_scalar_field(segment: Mapping[str, Any], field_name: str) -> str:
+def _normalize_scalar_field(
+    segment: Mapping[str, Any],
+    field_name: str,
+    *,
+    aliases: Mapping[str, str] | None = None,
+) -> str:
     value = segment.get(field_name)
     if not isinstance(value, str) or not value.strip():
         segment_id = segment.get("segment_id", "(알 수 없음)")
         raise TypeError(
             f"{segment_id} 구간의 {field_name}은 빈 문자열이 아닌 문자열이어야 합니다."
         )
-    return value.strip().casefold()
+    cleaned = value.strip().casefold()
+    return aliases.get(cleaned, cleaned) if aliases else cleaned
+
+
+def _matches_region_filter(
+    segment: Mapping[str, Any],
+    requested_regions: set[str],
+) -> bool:
+    stored_region = _normalize_scalar_field(segment, "region")
+    canonical_region = _REGION_CANONICAL.get(stored_region, stored_region)
+    location_values = _segment_location_values(segment)
+
+    for requested in requested_regions:
+        canonical_requested = _REGION_CANONICAL.get(requested)
+        if canonical_requested is not None:
+            if canonical_region == canonical_requested:
+                return True
+            continue
+
+        if _location_token(requested) in location_values:
+            return True
+
+    return False
+
+
+def _segment_location_values(segment: Mapping[str, Any]) -> set[str]:
+    values: set[str] = set()
+    has_structured_city_or_address = False
+    for field_name in ("region", "city", "place_name", "spot_name", "address"):
+        value = segment.get(field_name)
+        _add_location_value(values, value)
+        if field_name in {"city", "address"} and isinstance(value, str) and value.strip():
+            has_structured_city_or_address = True
+
+    metadata = segment.get("metadata")
+    if isinstance(metadata, Mapping):
+        for field_name in ("region", "city", "place_name", "spot_name", "address"):
+            value = metadata.get(field_name)
+            _add_location_value(values, value)
+            if (
+                field_name in {"city", "address"}
+                and isinstance(value, str)
+                and value.strip()
+            ):
+                has_structured_city_or_address = True
+
+    place_id = segment.get("place_id")
+    if not isinstance(place_id, str) and isinstance(metadata, Mapping):
+        place_id = metadata.get("place_id")
+    if isinstance(place_id, str) and not has_structured_city_or_address:
+        _add_location_value(values, _PLACE_CITY_FALLBACKS.get(place_id.strip()))
+    return values
+
+
+def _add_location_value(values: set[str], value: object) -> None:
+    if not isinstance(value, str) or not value.strip():
+        return
+    normalized = _location_token(value)
+    values.add(normalized)
+    for token in normalized.replace(",", " ").split():
+        values.add(token)
+        if len(token) > 1 and token.endswith(("시", "군", "구")):
+            values.add(token[:-1])
+
+
+def _location_token(value: str) -> str:
+    return " ".join(value.strip().casefold().split())
 
 
 def _normalize_list_field(

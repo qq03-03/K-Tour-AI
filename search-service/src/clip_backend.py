@@ -40,6 +40,7 @@ _TIME_CANONICAL = {
     "morning": "아침",
     "day": "낮",
     "daytime": "낮",
+    "evening": "해질녘",
     "sunset": "해질녘",
     "dusk": "해질녘",
     "night": "밤",
@@ -263,6 +264,9 @@ class PgVectorRepository:
             "description": metadata.get("description") or row[5],
             "region": region,
             "place_name": place_name,
+            "place_id": metadata.get("place_id"),
+            "city": metadata.get("city"),
+            "address": metadata.get("address"),
             "spot_name": metadata.get("spot_name") or row[7],
             "season": _canonical_scalar(season, _SEASON_CANONICAL),
             "time_of_day": _canonical_scalar(

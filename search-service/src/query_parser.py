@@ -5,7 +5,13 @@ from __future__ import annotations
 from collections.abc import Mapping, Sequence
 from dataclasses import dataclass, field, replace
 
+from .drama_title_matcher import (
+    DramaTitleMatch,
+    analyze_drama_titles,
+    mask_protected_titles,
+)
 from .interfaces import QueryParser
+from .location_matcher import analyze_locations
 
 
 ALLOWED_FILTER_FIELDS = frozenset(
@@ -38,7 +44,7 @@ _VALUE_ALIASES: Mapping[str, Mapping[str, tuple[str, ...]]] = {
     "time_of_day": {
         "새벽": ("새벽", "dawn", "before sunrise", "明け方", "黎明"),
         "아침": ("아침", "morning", "朝", "早晨", "上午"),
-        "낮": ("낮", "daytime", "昼", "白天"),
+        "낮": ("낮", "daytime", "during the day", "昼", "白天"),
         "해질녘": ("해질녘", "sunset", "dusk", "夕暮れ", "日落", "黄昏"),
         "밤": ("밤", "night", "夜", "夜晚"),
     },
@@ -77,8 +83,47 @@ _VALUE_ALIASES: Mapping[str, Mapping[str, tuple[str, ...]]] = {
     },
 }
 
-_KNOWN_TITLE_ALIASES = ("겨울연가", "winter sonata", "冬のソナタ", "冬季恋歌")
 _KNOWN_PLACE_ALIASES = frozenset({"남이섬", "nami island", "南怡島", "南怡岛"})
+_GENERIC_SEARCH_INTENT_HINTS = frozenset(
+    value.casefold()
+    for value in (
+        "촬영",
+        "촬영지",
+        "촬영 장소",
+        "촬영 장면",
+        "filming",
+        "filming location",
+        "filming locations",
+        "shooting location",
+        "shooting locations",
+        "ロケ地",
+        "撮影",
+        "撮影地",
+        "拍摄",
+        "拍攝",
+        "拍摄地",
+        "拍攝地",
+        "取景地",
+    )
+)
+
+
+def extract_explicit_scalar_filters(query: str) -> dict[str, list[str]]:
+    """작품 제목을 제외한 명시적 계절·시간 표현을 로컬에서 추출한다."""
+
+    original_query = _validate_query_text(query)
+    title_match = analyze_drama_titles(original_query)
+    masked_query = mask_protected_titles(original_query, title_match).casefold()
+    extracted: dict[str, list[str]] = {}
+    for field_name in ("season", "time_of_day"):
+        matched = [
+            canonical
+            for canonical in _VALUE_ALIASES[field_name]
+            if _query_has_alias(masked_query, field_name, canonical)
+        ]
+        if matched:
+            extracted[field_name] = matched
+    return extracted
 
 
 @dataclass
@@ -91,6 +136,9 @@ class ParsedQuery:
     soft_hints: dict[str, list[str]] = field(default_factory=dict)
     fallback_used: bool = False
     fallback_reason: str | None = None
+    title_match_status: str = "none"
+    matched_drama_titles: list[str] = field(default_factory=list)
+    possible_title: str | None = None
 
 
 class RuleBasedQueryParser:
@@ -121,14 +169,10 @@ class RuleBasedQueryParser:
         "신비로운": ("신비",),
         "화려한": ("화려",),
     }
-    # 제목 안의 단어를 계절 조건으로 오해하지 않도록 분석용 문자열에서 제외한다.
-    _KNOWN_TITLES = ("겨울연가",)
-
     def parse(self, query: str) -> ParsedQuery:
         original_query = _validate_query_text(query)
-        filter_text = original_query.casefold()
-        for title in self._KNOWN_TITLES:
-            filter_text = filter_text.replace(title.casefold(), " ")
+        title_match = analyze_drama_titles(original_query)
+        filter_text = mask_protected_titles(original_query, title_match).casefold()
 
         filters: dict[str, list[str]] = {}
         for field_name, keywords in self._SCALAR_KEYWORDS.items():
@@ -153,6 +197,9 @@ class RuleBasedQueryParser:
             search_text=original_query,
             filters=filters,
             soft_hints=soft_hints,
+            title_match_status=title_match.status,
+            matched_drama_titles=list(title_match.matched_titles),
+            possible_title=title_match.possible_title,
         )
 
 
@@ -160,16 +207,20 @@ def parse_query_safely(query: str, parser: QueryParser) -> ParsedQuery:
     """분석기 오류나 잘못된 출력이 발생하면 필터 없는 검색으로 복구한다."""
 
     original_query = _validate_query_text(query)
+    title_match = analyze_drama_titles(original_query)
     try:
         parsed = parser.parse(original_query)
         validated = _validate_parsed_query(parsed, original_query=original_query)
-        return _postprocess_parsed_query(validated)
+        return _postprocess_parsed_query(validated, title_match)
     except Exception as error:
         return ParsedQuery(
             original_query=original_query,
             search_text=original_query,
             fallback_used=True,
             fallback_reason=f"{type(error).__name__}: {error}",
+            title_match_status=title_match.status,
+            matched_drama_titles=list(title_match.matched_titles),
+            possible_title=title_match.possible_title,
         )
 
 
@@ -225,6 +276,9 @@ def _validate_parsed_query(
         soft_hints=soft_hints,
         fallback_used=bool(parsed.fallback_used),
         fallback_reason=parsed.fallback_reason,
+        title_match_status=parsed.title_match_status,
+        matched_drama_titles=list(parsed.matched_drama_titles),
+        possible_title=parsed.possible_title,
     )
 
 
@@ -257,12 +311,15 @@ def _validate_filter_mapping(
     return normalized
 
 
-def _postprocess_parsed_query(parsed: ParsedQuery) -> ParsedQuery:
+def _postprocess_parsed_query(
+    parsed: ParsedQuery,
+    title_match: DramaTitleMatch,
+) -> ParsedQuery:
     """LLM 출력의 명백한 오분류를 제거하고 감성 표현을 표준화한다."""
 
-    masked_query = parsed.original_query.casefold()
-    for title in _KNOWN_TITLE_ALIASES:
-        masked_query = masked_query.replace(title.casefold(), " ")
+    masked_original_query = mask_protected_titles(parsed.original_query, title_match)
+    masked_query = masked_original_query.casefold()
+    location_match = analyze_locations(masked_original_query)
 
     filters = _normalize_mapping_values(parsed.filters)
     soft_hints = _normalize_mapping_values(parsed.soft_hints)
@@ -279,7 +336,14 @@ def _postprocess_parsed_query(parsed: ParsedQuery) -> ParsedQuery:
             else:
                 filters.pop(field_name)
 
-    if "region" in filters:
+    if location_match.region_filters and "region" in filters:
+        # 지역·도시 다국어 별칭은 로컬 카탈로그 결과를 권위값으로 사용한다.
+        # 관광지명 전체를 region으로 반환하는 LLM 과잉 추출도 이 단계에서 제거된다.
+        filters["region"] = list(location_match.region_filters)
+    elif location_match.places and "region" in filters:
+        # 관광지만 명시했을 때 그 관광지가 속한 지역을 임의로 추론하지 않는다.
+        filters.pop("region", None)
+    elif "region" in filters:
         regions = [
             value
             for value in filters["region"]
@@ -307,13 +371,26 @@ def _postprocess_parsed_query(parsed: ParsedQuery) -> ParsedQuery:
     # 명시적으로 추출됐더라도 후보를 제거하지 않고 의미 검색 보조값으로만 보존한다.
     for field_name in ("activity", "scene_elements"):
         hard_values = filters.pop(field_name, [])
-        combined = _deduplicate(
-            [*soft_hints.get(field_name, []), *hard_values]
-        )
+        combined = [
+            value
+            for value in _deduplicate(
+                [*soft_hints.get(field_name, []), *hard_values]
+            )
+            if value.casefold() not in _GENERIC_SEARCH_INTENT_HINTS
+        ]
         if combined:
             soft_hints[field_name] = combined
+        else:
+            soft_hints.pop(field_name, None)
 
-    return replace(parsed, filters=filters, soft_hints=soft_hints)
+    return replace(
+        parsed,
+        filters=filters,
+        soft_hints=soft_hints,
+        title_match_status=title_match.status,
+        matched_drama_titles=list(title_match.matched_titles),
+        possible_title=title_match.possible_title,
+    )
 
 
 def _normalize_mapping_values(

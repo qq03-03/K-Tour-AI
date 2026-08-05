@@ -375,5 +375,18 @@
         "coordinate_source_url":  "http://place.map.kakao.com/21997970",
         "status":  "확정",
         "notes":  ""
+    },
+    {
+        "place_id":  "P030",
+        "place_name":  "창경궁",
+        "region":  "서울특별시",
+        "city":  "종로구",
+        "address":  "서울특별시 종로구 창경궁로 185",
+        "latitude":  37.5776782272,
+        "longitude":  126.9938554166,
+        "coordinate_source":  "한국관광공사 LOD",
+        "coordinate_source_url":  "https://data.visitkorea.or.kr/linkedview/126511",
+        "status":  "확정",
+        "notes":  "한국관광공사 공식 관광 데이터 기준"
     }
 ]

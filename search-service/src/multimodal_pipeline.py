@@ -2,8 +2,10 @@
 
 from __future__ import annotations
 
+import math
 from collections.abc import Mapping, Sequence
 from dataclasses import replace
+from numbers import Real
 from time import perf_counter
 from typing import Any, Literal
 
@@ -65,6 +67,39 @@ class MultimodalSearchPipeline:
         parsed = parse_query_safely(query, parser)
         parser_latency_ms = _elapsed_ms(parser_started)
 
+        if parsed.title_match_status == "not_found":
+            return {
+                "original_query": parsed.original_query,
+                "search_text": parsed.search_text,
+                "query_status": "not_found",
+                "message": "프로젝트에 등록되지 않은 작품입니다.",
+                "matched_drama_titles": [],
+                "possible_title": parsed.possible_title,
+                "filters": parsed.filters,
+                "soft_hints": parsed.soft_hints,
+                "filter_arguments": to_filter_arguments(parsed.filters),
+                "fallback_used": parsed.fallback_used,
+                "fallback_reason": parsed.fallback_reason,
+                "candidate_count": 0,
+                "source_results": {"text": [], "image": []},
+                "results_by_method": {method: [] for method in methods},
+                "runtime": {
+                    "embedding_model": self.runtime.model_name,
+                    "device": self.runtime.device,
+                    "model_load_count": self.runtime.load_count,
+                    "model_load_latency_ms": round(self.runtime.load_latency_ms, 3),
+                    "metadata_rerank_enabled": self.metadata_rerank_enabled,
+                },
+                "latency_ms": {
+                    "parser": round(parser_latency_ms, 3),
+                    "metadata_and_filter": 0.0,
+                    "query_embedding": 0.0,
+                    "vector_search": 0.0,
+                    "fusion": 0.0,
+                    "total": round(_elapsed_ms(total_started), 3),
+                },
+            }
+
         metadata_started = perf_counter()
         segments = self._load_segments()
         filter_arguments = to_filter_arguments(parsed.filters)
@@ -88,17 +123,23 @@ class MultimodalSearchPipeline:
         encoder_latency_ms = _elapsed_ms(encoder_started)
 
         vector_started = perf_counter()
-        text_results = self.repository.search(
-            query_vector,
-            "text",
-            candidate_ids=candidate_ids,
-            top_k=depth,
+        text_results = collapse_source_results(
+            self.repository.search(
+                query_vector,
+                "text",
+                candidate_ids=candidate_ids,
+                top_k=depth,
+            ),
+            source="text",
         )
-        image_results = self.repository.search(
-            query_vector,
-            "image",
-            candidate_ids=candidate_ids,
-            top_k=depth,
+        image_results = collapse_source_results(
+            self.repository.search(
+                query_vector,
+                "image",
+                candidate_ids=candidate_ids,
+                top_k=depth,
+            ),
+            source="image",
         )
         vector_search_latency_ms = _elapsed_ms(vector_started)
 
@@ -128,6 +169,8 @@ class MultimodalSearchPipeline:
             method: self._enrich(
                 results,
                 segment_by_id=segment_by_id,
+                text_results=text_results,
+                image_results=image_results,
             )
             for method, results in reranked.items()
         }
@@ -136,6 +179,9 @@ class MultimodalSearchPipeline:
         return {
             "original_query": parsed.original_query,
             "search_text": parsed.search_text,
+            "query_status": parsed.title_match_status,
+            "matched_drama_titles": parsed.matched_drama_titles,
+            "possible_title": parsed.possible_title,
             "filters": parsed.filters,
             "soft_hints": parsed.soft_hints,
             "filter_arguments": filter_arguments,
@@ -208,15 +254,37 @@ class MultimodalSearchPipeline:
         fused_results: Sequence[Mapping[str, Any]],
         *,
         segment_by_id: Mapping[str, Mapping[str, Any]],
+        text_results: Sequence[Mapping[str, Any]],
+        image_results: Sequence[Mapping[str, Any]],
     ) -> list[dict[str, Any]]:
+        text_by_id = {str(item["segment_id"]): item for item in text_results}
+        image_by_id = {str(item["segment_id"]): item for item in image_results}
         enriched: list[dict[str, Any]] = []
         for fused in fused_results:
             segment_id = str(fused["segment_id"])
             segment = dict(segment_by_id[segment_id])
+            representative = dict(
+                image_by_id.get(segment_id)
+                or text_by_id.get(segment_id)
+                or {}
+            )
+            text_score = _optional_score(
+                text_by_id.get(segment_id),
+                "text_score",
+                fallback="score",
+            )
+            image_score = _optional_score(
+                image_by_id.get(segment_id),
+                "image_score",
+                fallback="score",
+            )
             enriched.append(
                 {
                     **segment,
+                    **representative,
                     **dict(fused),
+                    "text_score": text_score,
+                    "image_score": image_score,
                 }
             )
         return enriched
@@ -224,3 +292,90 @@ class MultimodalSearchPipeline:
 
 def _elapsed_ms(started: float) -> float:
     return (perf_counter() - started) * 1000.0
+
+
+def collapse_source_results(
+    results: Sequence[Mapping[str, Any]],
+    *,
+    source: Literal["text", "image"],
+) -> list[dict[str, Any]]:
+    """keyframe 행을 segment 단위로 묶고 대표 keyframe과 검색 점수를 보존한다."""
+
+    grouped: dict[str, list[Mapping[str, Any]]] = {}
+    for index, item in enumerate(results):
+        if not isinstance(item, Mapping):
+            raise TypeError(f"{source} 검색 결과 {index}는 객체여야 합니다.")
+        segment_id = item.get("segment_id")
+        if not isinstance(segment_id, str) or not segment_id.strip():
+            raise ValueError(f"{source} 검색 결과의 segment_id가 올바르지 않습니다.")
+        grouped.setdefault(segment_id.strip(), []).append(item)
+
+    collapsed: list[dict[str, Any]] = []
+    for segment_id, rows in grouped.items():
+        source_scores = [_source_score(row, source) for row in rows]
+        image_scores = [
+            _optional_score(row, "image_score", fallback=None)
+            for row in rows
+        ]
+        representative_index = max(
+            range(len(rows)),
+            key=lambda index: (
+                image_scores[index]
+                if image_scores[index] is not None
+                else source_scores[index] if source == "image" else -math.inf,
+                -index,
+            ),
+        )
+        representative = dict(rows[representative_index])
+        representative["segment_id"] = segment_id
+        representative["score"] = max(source_scores)
+
+        text_scores = [
+            value
+            for row in rows
+            if (value := _optional_score(row, "text_score", fallback=None))
+            is not None
+        ]
+        valid_image_scores = [value for value in image_scores if value is not None]
+        if text_scores:
+            representative["text_score"] = max(text_scores)
+        elif source == "text":
+            representative["text_score"] = max(source_scores)
+        if valid_image_scores:
+            representative["image_score"] = max(valid_image_scores)
+        elif source == "image":
+            representative["image_score"] = max(source_scores)
+        collapsed.append(representative)
+
+    return sorted(
+        collapsed,
+        key=lambda item: (-float(item["score"]), str(item["segment_id"])),
+    )
+
+
+def _source_score(item: Mapping[str, Any], source: str) -> float:
+    value = _optional_score(item, "score", fallback=f"{source}_score")
+    if value is None:
+        raise ValueError(f"{source} 검색 결과에 score 또는 {source}_score가 필요합니다.")
+    return value
+
+
+def _optional_score(
+    item: Mapping[str, Any] | None,
+    field_name: str,
+    *,
+    fallback: str | None,
+) -> float | None:
+    if item is None:
+        return None
+    value = item.get(field_name)
+    if value is None and fallback is not None:
+        value = item.get(fallback)
+    if value is None:
+        return None
+    if isinstance(value, bool) or not isinstance(value, Real):
+        raise TypeError(f"{field_name}는 숫자여야 합니다.")
+    score = float(value)
+    if not math.isfinite(score):
+        raise ValueError(f"{field_name}는 유한한 숫자여야 합니다.")
+    return score

@@ -1,0 +1,135 @@
+{
+  "catalog_version": "2026-08-04",
+  "titles": [
+    {
+      "canonical_title": "갯마을 차차차",
+      "aliases": {
+        "ko": ["갯마을 차차차"],
+        "en": ["Hometown Cha-Cha-Cha", "Hometown Cha Cha Cha"],
+        "ja": ["海街チャチャチャ"],
+        "zh": ["海岸村恰恰恰"]
+      },
+      "source_urls": ["https://www.netflix.com/title/81473182"]
+    },
+    {
+      "canonical_title": "그 해 우리는",
+      "aliases": {
+        "ko": ["그 해 우리는", "그해 우리는"],
+        "en": ["Our Beloved Summer"],
+        "ja": ["その年、私たちは", "その年私たちは"],
+        "zh": ["那年，我們的夏天", "那年，我们的夏天", "那年我們的夏天", "那年我们的夏天"]
+      },
+      "source_urls": ["https://www.netflix.com/title/81486372"]
+    },
+    {
+      "canonical_title": "날씨가 좋으면 찾아가겠어요",
+      "aliases": {
+        "ko": ["날씨가 좋으면 찾아가겠어요"],
+        "en": ["When the Weather Is Fine", "I'll Go to You When the Weather Is Nice", "I’ll Go to You When the Weather Is Nice"],
+        "ja": ["天気がよければ会いにゆきます"],
+        "zh": ["天氣好的話，我會去找你", "天气好的话，我会去找你", "天氣好的話我會去找你", "天气好的话我会去找你"]
+      },
+      "source_urls": ["https://www.viki.com/tv/36913c"]
+    },
+    {
+      "canonical_title": "도깨비",
+      "aliases": {
+        "ko": ["도깨비"],
+        "en": ["Guardian: The Lonely and Great God", "Guardian The Lonely and Great God", "Goblin"],
+        "ja": ["トッケビ", "トッケビ〜君がくれた愛しい日々〜"],
+        "zh": ["孤單又燦爛的神－鬼怪", "孤单又灿烂的神：鬼怪", "鬼怪"]
+      },
+      "source_urls": ["https://www.viki.com/tv/31706c-guardian-the-lonely-and-great-god"]
+    },
+    {
+      "canonical_title": "도시남녀의 사랑법",
+      "aliases": {
+        "ko": ["도시남녀의 사랑법"],
+        "en": ["Lovestruck in the City"],
+        "ja": ["都会の男女の恋愛法"],
+        "zh": ["都市男女的愛情法", "都市男女的爱情法"]
+      },
+      "source_urls": ["https://www.netflix.com/title/81340910"]
+    },
+    {
+      "canonical_title": "무인도의 디바",
+      "aliases": {
+        "ko": ["무인도의 디바"],
+        "en": ["Castaway Diva"],
+        "ja": ["無人島のディーバ"],
+        "zh": ["無人島的 Diva", "無人島的Diva", "无人岛的 Diva", "无人岛的Diva"]
+      },
+      "source_urls": ["https://www.netflix.com/title/81701128"]
+    },
+    {
+      "canonical_title": "사랑의 불시착",
+      "aliases": {
+        "ko": ["사랑의 불시착"],
+        "en": ["Crash Landing on You"],
+        "ja": ["愛の不時着"],
+        "zh": ["愛的迫降", "爱的迫降"]
+      },
+      "source_urls": ["https://www.netflix.com/title/81159258"]
+    },
+    {
+      "canonical_title": "선재 업고 튀어",
+      "aliases": {
+        "ko": ["선재 업고 튀어", "선업튀"],
+        "en": ["Lovely Runner"],
+        "ja": ["ソンジェ背負って走れ"],
+        "zh": ["背著善宰跑", "背着善宰跑"]
+      },
+      "source_urls": ["https://www.viki.com/tv/40466c-lovely-runner"]
+    },
+    {
+      "canonical_title": "스물다섯 스물하나",
+      "aliases": {
+        "ko": ["스물다섯 스물하나", "스물다섯 스물하나"],
+        "en": ["Twenty Five Twenty One", "Twenty-Five Twenty-One"],
+        "ja": ["二十五、二十一"],
+        "zh": ["二十五，二十一", "二十五, 二十一"]
+      },
+      "source_urls": ["https://www.netflix.com/title/81517168"]
+    },
+    {
+      "canonical_title": "우리들의 블루스",
+      "aliases": {
+        "ko": ["우리들의 블루스"],
+        "en": ["Our Blues"],
+        "ja": ["私たちのブルース"],
+        "zh": ["我們的藍調時光", "我们的蓝调时光"]
+      },
+      "source_urls": ["https://www.netflix.com/title/81568842"]
+    },
+    {
+      "canonical_title": "킹덤",
+      "aliases": {
+        "ko": ["킹덤"],
+        "en": ["Kingdom"],
+        "ja": ["キングダム"],
+        "zh": ["屍戰朝鮮", "尸战朝鲜", "李屍朝鮮", "李尸朝鲜"]
+      },
+      "source_urls": ["https://www.netflix.com/title/80180171"]
+    },
+    {
+      "canonical_title": "폭싹 속았수다",
+      "aliases": {
+        "ko": ["폭싹 속았수다"],
+        "en": ["When Life Gives You Tangerines"],
+        "ja": ["おつかれさま"],
+        "zh": ["苦盡柑來遇見你", "苦尽柑来遇见你"]
+      },
+      "source_urls": ["https://www.netflix.com/title/81681535"]
+    },
+    {
+      "canonical_title": "호텔 델루나",
+      "aliases": {
+        "ko": ["호텔 델루나", "호텔델루나"],
+        "en": ["Hotel Del Luna", "Hotel del Luna"],
+        "ja": ["ホテルデルーナ", "ホテルデルーナ〜月明かりの恋人〜"],
+        "zh": ["德魯納酒店", "德鲁纳酒店"]
+      },
+      "source_urls": ["https://www.netflix.com/title/81205849"]
+    }
+  ]
+}

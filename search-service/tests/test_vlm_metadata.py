@@ -4,7 +4,9 @@ import pytest
 
 from src.vlm_metadata import (
     VLMMetadataError,
+    build_alignment_report,
     load_expected_segment_ids,
+    load_preprocessing_segments,
     load_vlm_metadata,
     validate_vlm_metadata,
 )
@@ -97,6 +99,137 @@ def test_load_expected_segment_ids(tmp_path) -> None:
     )
 
     assert load_expected_segment_ids(path) == ["SEG_001", "SEG_002"]
+
+
+def test_load_nested_preprocessing_segments(tmp_path) -> None:
+    path = tmp_path / "preprocessing.json"
+    path.write_text(
+        json.dumps(
+            [
+                {
+                    "video_id": "TFTO_07",
+                    "segments": [
+                        {
+                            "segment_id": "TFTO_07_SCENE_01",
+                            "source_segment_id": "V004_P009_S001",
+                            "start_time": 30.95,
+                            "end_time": 35.05,
+                            "keyframe_path": (
+                                "keyframes/TFTO_07/TFTO_07_SCENE_01.jpg"
+                            ),
+                        }
+                    ],
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    result = load_preprocessing_segments(path)
+
+    assert [item["segment_id"] for item in result] == ["TFTO_07_SCENE_01"]
+    assert result[0]["start_time"] == 30.95
+
+
+def test_alignment_report_finds_parent_id_and_time_reuse(tmp_path) -> None:
+    preprocessing_path = tmp_path / "preprocessed_segments.json"
+    keyframe = tmp_path / "keyframes" / "TFTO_07" / "TFTO_07_SCENE_01.jpg"
+    keyframe.parent.mkdir(parents=True)
+    keyframe.write_bytes(b"test-image")
+    preprocessing_path.write_text(
+        json.dumps(
+            [
+                {
+                    "video_id": "TFTO_07",
+                    "segments": [
+                        {
+                            "segment_id": "TFTO_07_SCENE_01",
+                            "source_segment_id": "V004_P009_S001",
+                            "start_time": 30.95,
+                            "end_time": 35.05,
+                            "keyframe_path": (
+                                "keyframes/TFTO_07/TFTO_07_SCENE_01.jpg"
+                            ),
+                        }
+                    ],
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+    metadata_path = tmp_path / "metadata.json"
+    metadata_path.write_text(
+        json.dumps(
+            [
+                {
+                    **make_segment("V004_P009_S001"),
+                    "source_segment_id": "V004_P009_S001",
+                    "start_time": 0.0,
+                    "end_time": 107.0,
+                    "keyframe_path": (
+                        "keyframes/TFTO_07/TFTO_07_SCENE_01.jpg"
+                    ),
+                }
+            ],
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
+
+    report = build_alignment_report(metadata_path, preprocessing_path)
+
+    assert report["is_valid"] is False
+    assert report["linked_segment_count"] == 1
+    assert any("segment_id 불일치" in issue for issue in report["issues"])
+    assert any("start_time 불일치" in issue for issue in report["issues"])
+    assert any("end_time 불일치" in issue for issue in report["issues"])
+
+
+def test_alignment_report_accepts_matching_scene(tmp_path) -> None:
+    preprocessing_path = tmp_path / "preprocessed_segments.json"
+    keyframe = tmp_path / "keyframes" / "SCENE_01.jpg"
+    keyframe.parent.mkdir(parents=True)
+    keyframe.write_bytes(b"test-image")
+    preprocessing_path.write_text(
+        json.dumps(
+            [
+                {
+                    "video_id": "VIDEO_01",
+                    "segments": [
+                        {
+                            "segment_id": "SCENE_01",
+                            "source_segment_id": "SOURCE_01",
+                            "start_time": 10.0,
+                            "end_time": 15.0,
+                            "keyframe_path": "keyframes/SCENE_01.jpg",
+                        }
+                    ],
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+    metadata_path = tmp_path / "metadata.json"
+    metadata_path.write_text(
+        json.dumps(
+            [
+                {
+                    **make_segment("SCENE_01"),
+                    "source_segment_id": "SOURCE_01",
+                    "start_time": 10.0,
+                    "end_time": 15.0,
+                    "keyframe_path": "keyframes/SCENE_01.jpg",
+                }
+            ],
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
+
+    report = build_alignment_report(metadata_path, preprocessing_path)
+
+    assert report["is_valid"] is True
+    assert report["issues"] == []
 
 
 def test_load_vlm_metadata_checks_preprocessing_ids(tmp_path) -> None:

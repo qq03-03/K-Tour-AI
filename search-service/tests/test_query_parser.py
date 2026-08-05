@@ -8,6 +8,7 @@ from src.interfaces import QueryParser
 from src.query_parser import (
     ParsedQuery,
     RuleBasedQueryParser,
+    extract_explicit_scalar_filters,
     parse_query_safely,
     to_filter_arguments,
     without_filters,
@@ -43,6 +44,8 @@ def test_title_word_is_not_mistaken_for_season_filter() -> None:
 
     assert "season" not in parsed.filters
     assert parsed.search_text == "겨울연가 남이섬 촬영지"
+    assert parsed.title_match_status == "not_found"
+    assert parsed.possible_title == "겨울연가"
 
 
 def test_explicit_season_outside_title_is_kept() -> None:
@@ -51,6 +54,37 @@ def test_explicit_season_outside_title_is_kept() -> None:
     parsed = parser.parse("겨울에 겨울연가 남이섬 촬영지를 보여줘")
 
     assert parsed.filters == {"season": ["겨울"]}
+
+
+def test_only_project_title_is_protected_from_filter_extraction() -> None:
+    parsed = RuleBasedQueryParser().parse("그 해 우리는 여름 서울 촬영지")
+
+    assert parsed.title_match_status == "matched"
+    assert parsed.matched_drama_titles == ["그 해 우리는"]
+    assert parsed.filters == {"region": ["서울"], "season": ["여름"]}
+
+
+def test_general_seoul_spring_query_keeps_region_and_season() -> None:
+    parsed = parse_query_safely(
+        "서울의 봄 낮 경복궁 입구",
+        RuleBasedQueryParser(),
+    )
+
+    assert parsed.title_match_status == "none"
+    assert parsed.filters == {
+        "region": ["서울"],
+        "season": ["봄"],
+        "time_of_day": ["낮"],
+    }
+
+
+def test_chinese_season_and_morning_survive_known_place_filming_intent() -> None:
+    filters = extract_explicit_scalar_filters("秋天早晨水原大学的拍摄地")
+
+    assert filters == {
+        "season": ["가을"],
+        "time_of_day": ["아침"],
+    }
 
 
 def test_mood_is_a_soft_hint_instead_of_hard_filter() -> None:

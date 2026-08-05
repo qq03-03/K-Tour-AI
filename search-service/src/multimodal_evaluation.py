@@ -10,12 +10,12 @@ from statistics import fmean
 from typing import Any
 
 from .interfaces import QueryParser
-from .metrics import hit_at_k, ndcg_at_k, reciprocal_rank
+from .metrics import hit_at_k, ndcg_at_k, recall_at_k, reciprocal_rank
 from .multimodal_pipeline import MultimodalSearchPipeline
 
 
 def load_multimodal_cases(path: str | Path) -> list[dict[str, Any]]:
-    payload = json.loads(Path(path).read_text(encoding="utf-8"))
+    payload = json.loads(Path(path).read_text(encoding="utf-8-sig"))
     if not isinstance(payload, Mapping):
         raise ValueError("평가 JSON 최상위 값은 객체여야 합니다.")
     raw_cases = payload.get("queries")
@@ -74,7 +74,9 @@ def evaluate_multimodal_search(
             retrieved_ids = [str(result["segment_id"]) for result in results]
             methods[method] = {
                 "retrieved_segment_ids": retrieved_ids,
+                "retrieved_results": [dict(result) for result in results],
                 "hit_at_k": hit_at_k(relevant_ids, retrieved_ids, top_k),
+                "recall_at_k": recall_at_k(relevant_ids, retrieved_ids, top_k),
                 "reciprocal_rank": reciprocal_rank(relevant_ids, retrieved_ids),
                 "ndcg_at_k": ndcg_at_k(relevant_ids, retrieved_ids, top_k),
             }
@@ -85,12 +87,20 @@ def evaluate_multimodal_search(
                 "language": item["language"],
                 "query": item["query"],
                 "relevant_segment_ids": relevant_ids,
+                "expected_filters": dict(item.get("expected_filters", {})),
+                "expected_soft_hints": dict(item.get("expected_soft_hints", {})),
+                "case_type": item.get("case_type", "unspecified"),
+                "source_anchors": dict(item.get("source_anchors", {})),
                 "search_text": output["search_text"],
                 "filters": output["filters"],
                 "soft_hints": output["soft_hints"],
                 "fallback_used": output["fallback_used"],
                 "fallback_reason": output["fallback_reason"],
                 "candidate_count": output["candidate_count"],
+                "source_results": {
+                    source: [dict(result) for result in results]
+                    for source, results in output.get("source_results", {}).items()
+                },
                 "latency_ms": output["latency_ms"],
                 "methods": methods,
             }
@@ -104,6 +114,12 @@ def evaluate_multimodal_search(
                 [item for item in details if item["language"] == language]
             )
             for language in languages
+        },
+        "by_case_type": {
+            case_type: _summarize(
+                [item for item in details if item["case_type"] == case_type]
+            )
+            for case_type in sorted({str(item["case_type"]) for item in details})
         },
         "runtime": {
             "embedding_model": pipeline.runtime.model_name,
@@ -125,6 +141,12 @@ def _summarize(details: Sequence[Mapping[str, Any]]) -> dict[str, Any]:
     )
     latencies = [float(item["latency_ms"]["total"]) for item in details]
     parser_latencies = [float(item["latency_ms"]["parser"]) for item in details]
+    embedding_latencies = [
+        float(item["latency_ms"].get("query_embedding", 0.0)) for item in details
+    ]
+    vector_latencies = [
+        float(item["latency_ms"].get("vector_search", 0.0)) for item in details
+    ]
     return {
         "query_count": len(details),
         "fallback_rate": fmean(
@@ -135,11 +157,19 @@ def _summarize(details: Sequence[Mapping[str, Any]]) -> dict[str, Any]:
             "p95_total": _percentile(latencies, 0.95),
             "average_parser": fmean(parser_latencies),
             "p95_parser": _percentile(parser_latencies, 0.95),
+            "average_query_embedding": fmean(embedding_latencies),
+            "p95_query_embedding": _percentile(embedding_latencies, 0.95),
+            "average_vector_search": fmean(vector_latencies),
+            "p95_vector_search": _percentile(vector_latencies, 0.95),
         },
         "methods": {
             method: {
                 "hit_at_k": fmean(
                     float(item["methods"][method]["hit_at_k"])
+                    for item in details
+                ),
+                "recall_at_k": fmean(
+                    float(item["methods"][method]["recall_at_k"])
                     for item in details
                 ),
                 "mrr": fmean(

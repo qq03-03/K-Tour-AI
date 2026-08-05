@@ -40,6 +40,88 @@ def test_region_filter(
     assert segment_ids(results) == ["SEG_003", "SEG_005", "SEG_006", "SEG_007"]
 
 
+def test_province_filter_accepts_short_and_official_names() -> None:
+    sample = [
+        {"segment_id": "SEOUL", "region": "서울특별시"},
+        {"segment_id": "GANGWON", "region": "강원특별자치도"},
+    ]
+
+    assert segment_ids(filter_segments(sample, regions="서울")) == ["SEOUL"]
+    assert segment_ids(filter_segments(sample, regions="강원도")) == ["GANGWON"]
+
+
+def test_city_filter_does_not_expand_to_the_entire_province() -> None:
+    sample = [
+        {
+            "segment_id": "GANGNEUNG",
+            "region": "강원특별자치도",
+            "city": "강릉시",
+        },
+        {
+            "segment_id": "PYEONGCHANG",
+            "region": "강원특별자치도",
+            "city": "평창군",
+        },
+    ]
+
+    assert segment_ids(filter_segments(sample, regions="강릉")) == ["GANGNEUNG"]
+
+
+def test_city_filter_can_use_place_name_or_metadata_address() -> None:
+    sample = [
+        {
+            "segment_id": "JUMUNJIN",
+            "region": "강원특별자치도",
+            "place_name": "강릉 주문진",
+        },
+        {
+            "segment_id": "OMOKDAE",
+            "region": "전북특별자치도",
+            "place_name": "오목대",
+            "metadata": {
+                "address": "전북특별자치도 전주시 완산구 기린대로 55"
+            },
+        },
+    ]
+
+    assert segment_ids(filter_segments(sample, regions="강릉")) == ["JUMUNJIN"]
+    assert segment_ids(filter_segments(sample, regions="전주")) == ["OMOKDAE"]
+
+
+def test_city_filter_uses_place_id_fallback_before_places_table_is_connected() -> None:
+    sample = [
+        {
+            "segment_id": "OMOKDAE",
+            "place_id": "P009",
+            "region": "전북특별자치도",
+            "place_name": "오목대",
+        },
+        {
+            "segment_id": "GOCHANG",
+            "place_id": "P004",
+            "region": "전북특별자치도",
+            "place_name": "고창 학원농장",
+        },
+    ]
+
+    assert segment_ids(filter_segments(sample, regions="전주")) == ["OMOKDAE"]
+
+
+def test_structured_city_takes_precedence_over_place_id_fallback() -> None:
+    sample = [
+        {
+            "segment_id": "UPDATED_CITY",
+            "place_id": "P009",
+            "region": "전북특별자치도",
+            "city": "고창군",
+            "place_name": "오목대",
+        }
+    ]
+
+    assert filter_segments(sample, regions="전주") == []
+    assert segment_ids(filter_segments(sample, regions="고창")) == ["UPDATED_CITY"]
+
+
 def test_multiple_regions_use_or_condition(
     segments: list[dict[str, object]],
 ) -> None:
@@ -88,6 +170,19 @@ def test_multiple_times_of_day_use_or_condition(
         "SEG_011",
         "SEG_018",
         "SEG_019",
+    ]
+
+
+def test_english_evening_and_sunset_match_korean_twilight_filter() -> None:
+    sample = [
+        {"segment_id": "EVENING", "time_of_day": "evening"},
+        {"segment_id": "SUNSET", "time_of_day": "sunset"},
+        {"segment_id": "NIGHT", "time_of_day": "night"},
+    ]
+
+    assert segment_ids(filter_segments(sample, times_of_day="해질녘")) == [
+        "EVENING",
+        "SUNSET",
     ]
 
 

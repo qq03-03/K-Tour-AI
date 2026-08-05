@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 from collections.abc import Mapping
 
 from src.interfaces import QueryParser, StructuredLLMClient
@@ -45,13 +46,30 @@ def test_llm_parser_uses_common_client_and_schema() -> None:
     assert parsed.search_text == "남이섬 숲길"
     assert parsed.filters == {"season": ["여름"]}
     assert parsed.soft_hints == {"mood": ["평화로운"]}
-    assert client.last_user_prompt == parsed.original_query
+    user_payload = json.loads(client.last_user_prompt or "{}")
+    assert user_payload["query"] == parsed.original_query
+    assert user_payload["title_match_status"] == "none"
+    assert user_payload["registered_titles"] == []
+    assert user_payload["explicit_region_filters"] == []
+    assert user_payload["matched_places"] == []
     assert client.last_schema == QUERY_PARSER_RESPONSE_SCHEMA
-    assert "겨울연가" in (client.last_system_prompt or "")
-    assert "Winter Sonata" in (client.last_system_prompt or "")
-    assert "冬のソナタ" in (client.last_system_prompt or "")
-    assert "冬季恋歌" in (client.last_system_prompt or "")
+    assert "registered_titles" in (client.last_system_prompt or "")
+    assert "not_found" in (client.last_system_prompt or "")
     assert "soft_hints.mood" in (client.last_system_prompt or "")
+
+
+def test_llm_receives_only_catalog_matched_title_as_authority() -> None:
+    client = FakeStructuredClient(
+        {"search_text": "Our Beloved Summer location", "filters": {}, "soft_hints": {}}
+    )
+
+    parsed = parse_query_safely("Our Beloved Summer 촬영지", LLMQueryParser(client))
+    payload = json.loads(client.last_user_prompt or "{}")
+
+    assert parsed.title_match_status == "matched"
+    assert parsed.matched_drama_titles == ["그 해 우리는"]
+    assert payload["registered_titles"] == ["그 해 우리는"]
+    assert payload["protected_title_texts"] == ["Our Beloved Summer"]
 
 
 def test_fake_client_and_llm_parser_satisfy_protocols() -> None:
@@ -123,3 +141,99 @@ def test_activity_and_scene_filters_become_soft_hints() -> None:
         "activity": ["eating"],
         "scene_elements": ["rabbit"],
     }
+
+
+def test_local_location_catalog_corrects_place_name_as_region() -> None:
+    client = FakeStructuredClient(
+        {
+            "search_text": "Jeonju Hanok Village in spring",
+            "filters": {
+                "region": ["Jeonju Hanok Village"],
+                "season": ["spring"],
+            },
+            "soft_hints": {},
+        }
+    )
+
+    parsed = parse_query_safely(
+        "Show me Jeonju Hanok Village in spring",
+        LLMQueryParser(client),
+    )
+    payload = json.loads(client.last_user_prompt or "{}")
+
+    assert parsed.filters == {"region": ["전주"], "season": ["봄"]}
+    assert payload["explicit_region_filters"] == ["전주"]
+    assert payload["matched_places"][0]["place_id"] == "P005"
+
+
+def test_local_location_catalog_adds_missing_multilingual_region() -> None:
+    client = FakeStructuredClient(
+        {
+            "search_text": "winter Woljeongsa in Pyeongchang",
+            "filters": {"season": ["winter"]},
+            "soft_hints": {},
+        }
+    )
+
+    parsed = parse_query_safely(
+        "冬の平昌にある月精寺の撮影地",
+        LLMQueryParser(client),
+    )
+
+    assert parsed.filters == {"region": ["평창"], "season": ["겨울"]}
+
+
+def test_known_place_without_explicit_region_removes_llm_region_guess() -> None:
+    client = FakeStructuredClient(
+        {
+            "search_text": "Woljeongsa filming location",
+            "filters": {"region": ["월정사"]},
+            "soft_hints": {},
+        }
+    )
+
+    parsed = parse_query_safely("월정사 촬영 장면", LLMQueryParser(client))
+
+    assert parsed.filters == {}
+
+
+def test_local_scalar_alias_adds_missing_english_daytime() -> None:
+    client = FakeStructuredClient(
+        {
+            "search_text": "Jeonju Hanok Village in spring during the day",
+            "filters": {"season": ["spring"]},
+            "soft_hints": {},
+        }
+    )
+
+    parsed = parse_query_safely(
+        "Show me Jeonju Hanok Village in spring during the day",
+        LLMQueryParser(client),
+    )
+
+    assert parsed.filters == {
+        "region": ["전주"],
+        "season": ["봄"],
+        "time_of_day": ["낮"],
+    }
+
+
+def test_generic_filming_words_are_not_scene_or_activity_hints() -> None:
+    client = FakeStructuredClient(
+        {
+            "search_text": "winter Woljeongsa in Pyeongchang",
+            "filters": {"season": ["winter"]},
+            "soft_hints": {
+                "activity": ["filming locations"],
+                "scene_elements": ["촬영 장면"],
+            },
+        }
+    )
+
+    parsed = parse_query_safely(
+        "A winter filming location at Woljeongsa in Pyeongchang",
+        LLMQueryParser(client),
+    )
+
+    assert parsed.filters == {"region": ["평창"], "season": ["겨울"]}
+    assert parsed.soft_hints == {}

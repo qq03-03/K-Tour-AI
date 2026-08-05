@@ -64,13 +64,19 @@ def test_database_metadata_normalizes_filter_values() -> None:
         ["summer"],
         {
             "place_name": "nami_island",
+            "place_id": "P001",
+            "city": "춘천시",
+            "address": "강원특별자치도 춘천시 남산면 남이섬길 1",
             "season": "summer",
-            "time_of_day": "day",
+            "time_of_day": "evening",
         },
     )
 
     segment = clip_backend.PgVectorRepository._segment_from_row(row)
 
     assert segment["region"] == "강원"
+    assert segment["place_id"] == "P001"
+    assert segment["city"] == "춘천시"
+    assert segment["address"] == "강원특별자치도 춘천시 남산면 남이섬길 1"
     assert segment["season"] == "여름"
-    assert segment["time_of_day"] == "낮"
+    assert segment["time_of_day"] == "해질녘"
