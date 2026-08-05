@@ -293,14 +293,18 @@ def test_search_database_builds_text_search_query(monkeypatch):
         def fetchall(self):
             return [
                 (
-                    "SEG_001",
-                    "메타세쿼이아길",
-                    "VID_001",
-                    0.0,
-                    5.0,
-                    0.1,
-                    "frame.jpg",
-                    "조용한 숲길",
+                    "SEG_001",          # segment_id
+                    "KF_001",           # keyframe_id
+                    "frame.jpg",        # keyframe_path
+                    "P001",             # place_id
+                    "서울특별시",       # region
+                    "테스트 장소",      # spot_name
+                    "VID_001",          # video_id
+                    0.0,                # start_time
+                    5.0,                # end_time
+                    0.1,                # text_distance
+                    0.2,                # image_distance
+                    "조용한 장소",      # summary
                 )
             ]
 
@@ -338,10 +342,26 @@ def test_search_database_builds_text_search_query(monkeypatch):
         5,
     )
 
-    assert "text_embedding" in captured["query"]
+    query = captured["query"]
+
+    assert "segment_embeddings" in query
+    assert "keyframe_embeddings" in query
+    assert "segment_keyframes" in query
+    assert "text_embedding" in query
+    assert "ORDER BY text_distance" in query
+
     assert len(result) == 1
-    assert result[0]["segment_id"] == "SEG_001"
-    assert result[0]["similarity"] == pytest.approx(0.9)
+
+    item = result[0]
+
+    assert item["segment_id"] == "SEG_001"
+    assert item["keyframe_id"] == "KF_001"
+    assert item["keyframe_path"] == "frame.jpg"
+    assert item["place_id"] == "P001"
+    assert item["region"] == "서울특별시"
+    assert item["text_score"] == pytest.approx(0.9)
+    assert item["image_score"] == pytest.approx(0.8)
+    assert item["similarity"] == pytest.approx(0.9)
 
 
 def test_search_database_builds_image_search_query(monkeypatch):
@@ -358,9 +378,25 @@ def test_search_database_builds_image_search_query(monkeypatch):
 
         def execute(self, query, params):
             captured["query"] = str(query)
+            captured["params"] = params
 
         def fetchall(self):
-            return []
+            return [
+                (
+                    "SEG_001",
+                    "KF_001",
+                    "frame.jpg",
+                    "P001",
+                    "서울특별시",
+                    "테스트 장소",
+                    "VID_001",
+                    0.0,
+                    5.0,
+                    0.3,
+                    0.05,
+                    "조용한 장소",
+                )
+            ]
 
     class FakeConnection:
         def __enter__(self):
@@ -396,9 +432,22 @@ def test_search_database_builds_image_search_query(monkeypatch):
         3,
     )
 
-    assert "image_embedding" in captured["query"]
-    assert result == []
+    query = captured["query"]
 
+    assert "keyframe_embeddings" in query
+    assert "segment_keyframes" in query
+    assert "image_embedding" in query
+    assert "ORDER BY image_distance" in query
+
+    assert len(result) == 1
+
+    item = result[0]
+
+    assert item["segment_id"] == "SEG_001"
+    assert item["keyframe_id"] == "KF_001"
+    assert item["text_score"] == pytest.approx(0.7)
+    assert item["image_score"] == pytest.approx(0.95)
+    assert item["similarity"] == pytest.approx(0.95)
 
 def test_search_database_rejects_invalid_mode():
     module = load_search_module()
@@ -416,13 +465,18 @@ def test_print_results_displays_search_information(capsys):
     results = [
         {
             "segment_id": "SEG_NAMI_01_01",
-            "spot_name": "메타세쿼이아길",
+            "keyframe_id": "KF_NAMI_01_01",
+            "keyframe_path": "frame_001.jpg",
+            "place_id": "P001",
+            "region": "서울특별시",
+            "spot_name": "테스트 장소",
             "video_id": "VID_NAMI_01",
             "start_time": 0.0,
             "end_time": 5.0,
+            "text_score": 0.87654,
+            "image_score": 0.76543,
             "similarity": 0.87654,
-            "keyframe_path": "frame_001.jpg",
-            "summary": "가을 숲길을 걷는 장면",
+            "summary": "테스트 검색 결과",
         }
     ]
 
@@ -431,11 +485,15 @@ def test_print_results_displays_search_information(capsys):
     output = capsys.readouterr().out
 
     assert "SEG_NAMI_01_01" in output
-    assert "메타세쿼이아길" in output
+    assert "KF_NAMI_01_01" in output
+    assert "P001" in output
+    assert "서울특별시" in output
+    assert "테스트 장소" in output
     assert "VID_NAMI_01" in output
     assert "0.8765" in output
+    assert "0.7654" in output
     assert "frame_001.jpg" in output
-    assert "가을 숲길을 걷는 장면" in output
+    assert "테스트 검색 결과" in output
 
 
 def test_print_results_handles_empty_results(capsys):
@@ -635,3 +693,36 @@ def test_extract_clip_features_uses_512_pooler_output_without_projection():
 
     assert result is FakeOutput.pooler_output
     assert projection_called is False
+
+def test_search_database_uses_keyframe_embedding_table_for_image_search():
+    import inspect
+
+    module = load_search_module()
+
+    source = inspect.getsource(
+        module.search_database
+    )
+
+    assert "keyframe_embeddings" in source
+    assert "segment_keyframes" in source
+
+
+def test_search_database_returns_structured_topk_fields():
+    import inspect
+
+    module = load_search_module()
+
+    source = inspect.getsource(
+        module.search_database
+    )
+
+    for field in [
+        "segment_id",
+        "keyframe_id",
+        "keyframe_path",
+        "place_id",
+        "region",
+        "text_score",
+        "image_score",
+    ]:
+        assert field in source

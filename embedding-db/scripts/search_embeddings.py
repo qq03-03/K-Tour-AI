@@ -220,34 +220,47 @@ def search_database(
     search_mode: str,
     top_k: int,
 ) -> list[dict]:
-    if search_mode == "text":
-        embedding_column = "text_embedding"
-    elif search_mode == "image":
-        embedding_column = "image_embedding"
-    else:
+    if search_mode not in {"text", "image"}:
         raise ValueError(
-            f"\uc9c0\uc6d0\ud558\uc9c0 \uc54a\ub294 \uac80\uc0c9 \ubaa8\ub4dc\uc785\ub2c8\ub2e4: {search_mode}"
+            f"지원하지 않는 검색 모드입니다: {search_mode}"
         )
 
     vector = validate_query_vector(query_vector)
     limit = validate_top_k(top_k)
     connection_string = build_connection_string()
 
+    order_column = (
+        "text_distance"
+        if search_mode == "text"
+        else "image_distance"
+    )
+
     query = f"""
         SELECT
             vs.segment_id,
+            sk.keyframe_id,
+            sk.keyframe_path,
+            vs.place_id,
+            vs.region,
             vs.spot_name,
             vs.video_id,
             vs.start_time,
             vs.end_time,
-            se.{embedding_column} <=> %s AS cosine_distance,
-            vs.keyframe_path,
+            se.text_embedding <=> %s
+                AS text_distance,
+            ke.image_embedding <=> %s
+                AS image_distance,
             vs.summary
-        FROM segment_embeddings AS se
-        JOIN video_segments AS vs
-            ON vs.segment_id = se.segment_id
-        WHERE se.{embedding_column} IS NOT NULL
-        ORDER BY se.{embedding_column} <=> %s
+        FROM video_segments AS vs
+        JOIN segment_embeddings AS se
+            ON se.segment_id = vs.segment_id
+        JOIN segment_keyframes AS sk
+            ON sk.segment_id = vs.segment_id
+        JOIN keyframe_embeddings AS ke
+            ON ke.keyframe_id = sk.keyframe_id
+        WHERE se.text_embedding IS NOT NULL
+          AND ke.image_embedding IS NOT NULL
+        ORDER BY {order_column}
         LIMIT %s
     """
 
@@ -257,36 +270,54 @@ def search_database(
         with connection.cursor() as cursor:
             cursor.execute(
                 query,
-                (vector, vector, limit),
+                (
+                    vector,
+                    vector,
+                    limit,
+                ),
             )
             rows = cursor.fetchall()
 
     results = []
 
     for row in rows:
+        text_score = distance_to_similarity(
+            float(row[9])
+        )
+
+        image_score = distance_to_similarity(
+            float(row[10])
+        )
+
+        similarity = (
+            text_score
+            if search_mode == "text"
+            else image_score
+        )
+
         results.append(
             {
                 "segment_id": row[0],
-                "spot_name": row[1],
-                "video_id": row[2],
-                "start_time": row[3],
-                "end_time": row[4],
-                "similarity": distance_to_similarity(
-                    float(row[5])
-                ),
-                "keyframe_path": row[6],
-                "summary": row[7],
+                "keyframe_id": row[1],
+                "keyframe_path": row[2],
+                "place_id": row[3],
+                "region": row[4],
+                "spot_name": row[5],
+                "video_id": row[6],
+                "start_time": row[7],
+                "end_time": row[8],
+                "text_score": text_score,
+                "image_score": image_score,
+                "similarity": similarity,
+                "summary": row[11],
             }
         )
 
     return results
 
-
 def print_results(results: list[dict]) -> None:
     if not results:
-        print(
-            "\uac80\uc0c9 \uacb0\uacfc\uac00 \uc5c6\uc2b5\ub2c8\ub2e4."
-        )
+        print("검색 결과가 없습니다.")
         return
 
     print()
@@ -294,26 +325,75 @@ def print_results(results: list[dict]) -> None:
     print(f"Search results: {len(results)}")
     print("=" * 70)
 
-    for rank, result in enumerate(results, start=1):
-        similarity = float(result["similarity"])
+    for index, item in enumerate(
+        results,
+        start=1,
+    ):
+        print(f"[{index}]")
 
-        print(f"[{rank}]")
-        print(f"segment_id   : {result['segment_id']}")
-        print(f"spot_name    : {result['spot_name'] or '-'}")
-        print(f"video_id     : {result['video_id']}")
         print(
-            f"time          : "
-            f"{result['start_time']:.2f}s ~ "
-            f"{result['end_time']:.2f}s"
+            f"segment_id    : "
+            f"{item['segment_id']}"
         )
-        print(f"similarity    : {similarity:.4f}")
+
         print(
-            f"keyframe_path: "
-            f"{result['keyframe_path'] or '-'}"
+            f"keyframe_id   : "
+            f"{item.get('keyframe_id')}"
         )
-        print(f"summary       : {result['summary'] or '-'}")
+
+        print(
+            f"place_id      : "
+            f"{item.get('place_id')}"
+        )
+
+        print(
+            f"region        : "
+            f"{item.get('region')}"
+        )
+
+        print(
+            f"spot_name     : "
+            f"{item.get('spot_name')}"
+        )
+
+        print(
+            f"video_id      : "
+            f"{item.get('video_id')}"
+        )
+
+        print(
+            "time           : "
+            f"{item.get('start_time', 0.0):.2f}s "
+            "~ "
+            f"{item.get('end_time', 0.0):.2f}s"
+        )
+
+        print(
+            f"text_score     : "
+            f"{item.get('text_score', 0.0):.4f}"
+        )
+
+        print(
+            f"image_score    : "
+            f"{item.get('image_score', 0.0):.4f}"
+        )
+
+        print(
+            f"similarity     : "
+            f"{item.get('similarity', 0.0):.4f}"
+        )
+
+        print(
+            f"keyframe_path : "
+            f"{item.get('keyframe_path')}"
+        )
+
+        print(
+            f"summary        : "
+            f"{item.get('summary')}"
+        )
+
         print("-" * 70)
-
 
 def load_clip_model():
     device = "cuda" if torch.cuda.is_available() else "cpu"
