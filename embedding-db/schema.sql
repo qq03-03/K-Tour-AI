@@ -68,6 +68,7 @@ CREATE TABLE IF NOT EXISTS video_segments (
     mood_tags TEXT[],
     season_tags TEXT[],
 
+    place_id TEXT,
     region TEXT,
     drama_title TEXT,
     spot_name TEXT,
@@ -78,7 +79,12 @@ CREATE TABLE IF NOT EXISTS video_segments (
 
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+-- 기존 DB 호환용 컬럼 마이그레이션
+ALTER TABLE video_segments
+ADD COLUMN IF NOT EXISTS place_id TEXT;
 
+ALTER TABLE video_segments
+ADD COLUMN IF NOT EXISTS drama_title TEXT;
 -- =========================================================
 -- 5. 임베딩 테이블
 -- 텍스트 임베딩과 이미지 임베딩 저장

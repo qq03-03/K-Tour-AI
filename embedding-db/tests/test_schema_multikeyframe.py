@@ -70,3 +70,37 @@ def test_segment_embeddings_keeps_text_embedding():
     schema = load_schema()
 
     assert "text_embedding vector(512)" in schema
+
+def test_video_segments_has_place_id():
+    schema = SCHEMA_PATH.read_text(
+        encoding="utf-8",
+    )
+
+    assert "place_id TEXT" in schema
+
+
+def test_schema_migrates_existing_video_segments_place_id():
+    schema = SCHEMA_PATH.read_text(
+        encoding="utf-8",
+    )
+
+    assert (
+        "ALTER TABLE video_segments"
+        in schema
+    )
+
+    assert (
+        "ADD COLUMN IF NOT EXISTS place_id TEXT"
+        in schema
+    )
+
+
+def test_schema_migrates_existing_video_segments_drama_title():
+    schema = SCHEMA_PATH.read_text(
+        encoding="utf-8",
+    )
+
+    assert (
+        "ADD COLUMN IF NOT EXISTS drama_title TEXT"
+        in schema
+    )
