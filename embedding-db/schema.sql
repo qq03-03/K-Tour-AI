@@ -115,10 +115,32 @@ CREATE TABLE IF NOT EXISTS segment_keyframes (
 
     keyframe_path TEXT NOT NULL,
 
+    description TEXT,
+    time_of_day TEXT,
+    mood TEXT[],
+    activity TEXT[],
+    scene_elements TEXT[],
+
     metadata JSONB,
 
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+-- 기존 DB 호환용 keyframe 구조화 metadata 컬럼 마이그레이션
+ALTER TABLE segment_keyframes
+ADD COLUMN IF NOT EXISTS description TEXT;
+
+ALTER TABLE segment_keyframes
+ADD COLUMN IF NOT EXISTS time_of_day TEXT;
+
+ALTER TABLE segment_keyframes
+ADD COLUMN IF NOT EXISTS mood TEXT[];
+
+ALTER TABLE segment_keyframes
+ADD COLUMN IF NOT EXISTS activity TEXT[];
+
+ALTER TABLE segment_keyframes
+ADD COLUMN IF NOT EXISTS scene_elements TEXT[];
 
 CREATE INDEX IF NOT EXISTS idx_segment_keyframes_segment_id
 ON segment_keyframes(segment_id);

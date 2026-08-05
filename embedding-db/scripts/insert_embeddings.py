@@ -258,16 +258,34 @@ def prepare_records(
         )
 
         keyframes.append(
-            {
-                "keyframe_id": embedding[
-                    "keyframe_id"
-                ],
-                "segment_id": segment_id,
-                "keyframe_path": keyframe_path,
-                "image_embedding": image_embedding,
-                "metadata": metadata,
-            }
-        )
+    {
+        "keyframe_id": embedding[
+            "keyframe_id"
+        ],
+        "segment_id": segment_id,
+        "keyframe_path": keyframe_path,
+        "description": metadata.get(
+            "description"
+        ),
+        "time_of_day": metadata.get(
+            "time_of_day"
+        ),
+        "mood": metadata.get(
+            "mood",
+            [],
+        ),
+        "activity": metadata.get(
+            "activity",
+            [],
+        ),
+        "scene_elements": metadata.get(
+            "scene_elements",
+            [],
+        ),
+        "image_embedding": image_embedding,
+        "metadata": metadata,
+    }
+)
 
     return {
         "segments": segments,
@@ -463,35 +481,62 @@ def insert_prepared_records(
 
     for keyframe in records["keyframes"]:
         cursor.execute(
-            """
-            INSERT INTO segment_keyframes (
-                keyframe_id,
-                segment_id,
-                keyframe_path,
-                metadata
+    """
+    INSERT INTO segment_keyframes (
+        keyframe_id,
+        segment_id,
+        keyframe_path,
+        description,
+        time_of_day,
+        mood,
+        activity,
+        scene_elements,
+        metadata
+    )
+    VALUES (
+        %s, %s, %s,
+        %s, %s, %s,
+        %s, %s, %s
+    )
+    ON CONFLICT (keyframe_id)
+    DO UPDATE SET
+        segment_id =
+            EXCLUDED.segment_id,
+        keyframe_path =
+            EXCLUDED.keyframe_path,
+        description =
+            EXCLUDED.description,
+        time_of_day =
+            EXCLUDED.time_of_day,
+        mood =
+            EXCLUDED.mood,
+        activity =
+            EXCLUDED.activity,
+        scene_elements =
+            EXCLUDED.scene_elements,
+        metadata =
+            EXCLUDED.metadata
+    """,
+    (
+        keyframe["keyframe_id"],
+        keyframe["segment_id"],
+        keyframe["keyframe_path"],
+        keyframe.get("description"),
+        keyframe.get("time_of_day"),
+        keyframe.get("mood", []),
+        keyframe.get("activity", []),
+        keyframe.get(
+            "scene_elements",
+            [],
+        ),
+        Jsonb(
+            keyframe.get(
+                "metadata",
+                {},
             )
-            VALUES (%s, %s, %s, %s)
-            ON CONFLICT (keyframe_id)
-            DO UPDATE SET
-                segment_id =
-                    EXCLUDED.segment_id,
-                keyframe_path =
-                    EXCLUDED.keyframe_path,
-                metadata =
-                    EXCLUDED.metadata
-            """,
-            (
-                keyframe["keyframe_id"],
-                keyframe["segment_id"],
-                keyframe["keyframe_path"],
-                Jsonb(
-                    keyframe.get(
-                        "metadata",
-                        {},
-                    )
-                ),
-            ),
-        )
+        ),
+    ),
+)
 
         cursor.execute(
             """
@@ -542,6 +587,41 @@ def build_connection_string() -> str:
         f"dbname={os.environ['POSTGRES_DB']}"
     )
 
+def delete_stale_records(
+    cursor,
+    records: dict[str, list[dict]],
+) -> None:
+    """현재 records에 없는 오래된 segment/keyframe 행을 삭제한다."""
+
+    current_segment_ids = [
+        item["segment_id"]
+        for item in records["segments"]
+    ]
+
+    current_keyframe_ids = [
+        item["keyframe_id"]
+        for item in records["keyframes"]
+    ]
+
+    cursor.execute(
+        """
+        DELETE FROM segment_keyframes
+        WHERE NOT (
+            keyframe_id = ANY(%s)
+        )
+        """,
+        (current_keyframe_ids,),
+    )
+
+    cursor.execute(
+        """
+        DELETE FROM video_segments
+        WHERE NOT (
+            segment_id = ANY(%s)
+        )
+        """,
+        (current_segment_ids,),
+    )
 
 def main() -> None:
     embedding_root = (
@@ -641,6 +721,11 @@ def main() -> None:
     ) as connection:
 
         with connection.cursor() as cursor:
+            delete_stale_records(
+                cursor,
+                records,
+            )
+
             insert_prepared_records(
                 cursor,
                 records,

@@ -37,6 +37,7 @@ def test_prepare_records_preserves_multiple_keyframes_per_segment():
             "keyframe_path": "keyframes/A/A_01.jpg",
             "description": "첫 장면",
             "season": "winter",
+            "time_of_day": "day",
             "mood": ["peaceful"],
             "scene_elements": ["sea"],
             "activity": ["walking"],
@@ -52,6 +53,7 @@ def test_prepare_records_preserves_multiple_keyframes_per_segment():
             "keyframe_path": "keyframes/A/A_02.jpg",
             "description": "두 번째 장면",
             "season": "winter",
+            "time_of_day": "evening",
             "mood": ["romantic"],
             "scene_elements": ["waves"],
             "activity": ["standing"],
@@ -111,6 +113,14 @@ def test_prepare_records_preserves_multiple_keyframes_per_segment():
         records["keyframes"][1]["segment_id"]
         == "SEG001"
     )
+
+    keyframe = records["keyframes"][0]
+
+    assert keyframe["description"] == metadata[0]["description"]
+    assert keyframe["time_of_day"] == metadata[0]["time_of_day"]
+    assert keyframe["mood"] == metadata[0]["mood"]
+    assert keyframe["activity"] == metadata[0]["activity"]
+    assert keyframe["scene_elements"] == metadata[0]["scene_elements"]
 
 
 def test_prepare_records_rejects_missing_keyframe_embedding():
@@ -336,4 +346,108 @@ def test_validate_vector_returns_plain_python_list():
     assert all(
         isinstance(value, float)
         for value in result
+    )
+
+def test_insert_prepared_records_writes_keyframe_structured_metadata():
+
+    records = {
+        "segments": [
+            {
+                "segment_id": "SEG_001",
+                "video_id": "VID_001",
+                "place_id": "P001",
+                "spot_name": "테스트 장소",
+                "region": "서울특별시",
+                "drama_title": "테스트 드라마",
+                "start_time": 0.0,
+                "end_time": 5.0,
+                "search_text": "테스트",
+                "text_embedding": [0.0] * 512,
+                "metadata": {},
+            }
+        ],
+        "keyframes": [
+            {
+                "keyframe_id": "KF_001",
+                "segment_id": "SEG_001",
+                "keyframe_path": "frame.jpg",
+                "description": "테스트 설명",
+                "time_of_day": "day",
+                "mood": ["peaceful"],
+                "activity": ["walking"],
+                "scene_elements": ["palace"],
+                "image_embedding": [0.0] * 512,
+                "metadata": {},
+            }
+        ],
+    }
+
+    class RecordingCursor:
+        def __init__(self):
+            self.queries = []
+
+        def execute(self, query, params=None):
+            self.queries.append(str(query))
+
+    cursor = RecordingCursor()
+
+    insert_embeddings.insert_prepared_records(
+    cursor,
+    records,
+)
+
+    sql = "\n".join(cursor.queries)
+
+    assert "segment_keyframes" in sql
+    assert "description" in sql
+    assert "time_of_day" in sql
+    assert "mood" in sql
+    assert "activity" in sql
+    assert "scene_elements" in sql
+
+def test_delete_stale_records_removes_missing_keyframes_and_segments():
+    executed = []
+
+    class FakeCursor:
+        def execute(self, query, params):
+            executed.append(
+                (
+                    " ".join(str(query).split()),
+                    params,
+                )
+            )
+
+    records = {
+        "segments": [
+            {"segment_id": "SEG_001"},
+            {"segment_id": "SEG_002"},
+        ],
+        "keyframes": [
+            {"keyframe_id": "KF_001"},
+            {"keyframe_id": "KF_002"},
+        ],
+    }
+
+    cursor = FakeCursor()
+
+    insert_embeddings.delete_stale_records(
+        cursor,
+        records,
+    )
+
+    assert len(executed) == 2
+
+    keyframe_query, keyframe_params = executed[0]
+    segment_query, segment_params = executed[1]
+
+    assert "DELETE FROM segment_keyframes" in keyframe_query
+    assert "keyframe_id = ANY(%s)" in keyframe_query
+    assert keyframe_params == (
+        ["KF_001", "KF_002"],
+    )
+
+    assert "DELETE FROM video_segments" in segment_query
+    assert "segment_id = ANY(%s)" in segment_query
+    assert segment_params == (
+        ["SEG_001", "SEG_002"],
     )

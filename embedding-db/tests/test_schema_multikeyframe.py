@@ -104,3 +104,40 @@ def test_schema_migrates_existing_video_segments_drama_title():
         "ADD COLUMN IF NOT EXISTS drama_title TEXT"
         in schema
     )
+
+def test_segment_keyframes_has_structured_metadata_columns():
+    schema = load_schema()
+
+    segment_keyframes_block = schema.split(
+        "create table if not exists segment_keyframes",
+        1,
+    )[1].split(
+        ");",
+        1,
+    )[0]
+
+    assert "description text" in segment_keyframes_block
+    assert "time_of_day text" in segment_keyframes_block
+    assert "mood text[]" in segment_keyframes_block
+    assert "activity text[]" in segment_keyframes_block
+    assert "scene_elements text[]" in segment_keyframes_block
+
+def test_schema_migrates_existing_segment_keyframe_structured_fields():
+    schema = load_schema()
+
+    assert "alter table segment_keyframes" in schema
+
+    for column in [
+        "description",
+        "time_of_day",
+        "mood",
+        "activity",
+        "scene_elements",
+    ]:
+        assert f"add column if not exists {column}" in schema
+
+
+def test_segment_keyframes_keeps_metadata_jsonb():
+    schema = load_schema()
+
+    assert "metadata jsonb" in schema

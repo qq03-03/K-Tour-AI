@@ -293,18 +293,24 @@ def test_search_database_builds_text_search_query(monkeypatch):
         def fetchall(self):
             return [
                 (
-                    "SEG_001",          # segment_id
-                    "KF_001",           # keyframe_id
-                    "frame.jpg",        # keyframe_path
-                    "P001",             # place_id
-                    "서울특별시",       # region
-                    "테스트 장소",      # spot_name
-                    "VID_001",          # video_id
-                    0.0,                # start_time
-                    5.0,                # end_time
-                    0.1,                # text_distance
-                    0.2,                # image_distance
-                    "조용한 장소",      # summary
+                    "SEG_001",             # 0 segment_id
+                    "KF_001",              # 1 keyframe_id
+                    "frame.jpg",           # 2 keyframe_path
+                    "P001",                # 3 place_id
+                    "서울특별시",          # 4 region
+                    "테스트 장소",         # 5 spot_name
+                    "테스트 드라마",       # 6 drama_title
+                    "테스트 설명",         # 7 description
+                    "day",                 # 8 time_of_day
+                    ["peaceful"],          # 9 mood
+                    ["walking"],           # 10 activity
+                    ["palace"],            # 11 scene_elements
+                    "VID_001",             # 12 video_id
+                    0.0,                   # 13 start_time
+                    5.0,                   # 14 end_time
+                    0.1,                   # 15 text_distance
+                    0.2,                   # 16 image_distance
+                    "조용한 장소",         # 17 summary
                 )
             ]
 
@@ -362,6 +368,12 @@ def test_search_database_builds_text_search_query(monkeypatch):
     assert item["text_score"] == pytest.approx(0.9)
     assert item["image_score"] == pytest.approx(0.8)
     assert item["similarity"] == pytest.approx(0.9)
+    assert item["drama_title"] == "테스트 드라마"
+    assert item["description"] == "테스트 설명"
+    assert item["time_of_day"] == "day"
+    assert item["mood"] == ["peaceful"]
+    assert item["activity"] == ["walking"]
+    assert item["scene_elements"] == ["palace"]
 
 
 def test_search_database_builds_image_search_query(monkeypatch):
@@ -383,20 +395,26 @@ def test_search_database_builds_image_search_query(monkeypatch):
         def fetchall(self):
             return [
                 (
-                    "SEG_001",
-                    "KF_001",
-                    "frame.jpg",
-                    "P001",
-                    "서울특별시",
-                    "테스트 장소",
-                    "VID_001",
-                    0.0,
-                    5.0,
-                    0.3,
-                    0.05,
-                    "조용한 장소",
-                )
-            ]
+            "SEG_001",             # 0 segment_id
+            "KF_001",              # 1 keyframe_id
+            "frame.jpg",           # 2 keyframe_path
+            "P001",                # 3 place_id
+            "서울특별시",          # 4 region
+            "테스트 장소",         # 5 spot_name
+            "테스트 드라마",       # 6 drama_title
+            "테스트 설명",         # 7 description
+            "day",                 # 8 time_of_day
+            ["peaceful"],          # 9 mood
+            ["walking"],           # 10 activity
+            ["palace"],            # 11 scene_elements
+            "VID_001",             # 12 video_id
+            0.0,                   # 13 start_time
+            5.0,                   # 14 end_time
+            0.3,                   # 15 text_distance
+            0.05,                  # 16 image_distance
+            "조용한 장소",         # 17 summary
+        )
+    ]
 
     class FakeConnection:
         def __enter__(self):
@@ -448,6 +466,13 @@ def test_search_database_builds_image_search_query(monkeypatch):
     assert item["text_score"] == pytest.approx(0.7)
     assert item["image_score"] == pytest.approx(0.95)
     assert item["similarity"] == pytest.approx(0.95)
+    assert item["drama_title"] == "테스트 드라마"
+    assert item["description"] == "테스트 설명"
+    assert item["time_of_day"] == "day"
+    assert item["mood"] == ["peaceful"]
+    assert item["activity"] == ["walking"]
+    assert item["scene_elements"] == ["palace"]
+
 
 def test_search_database_rejects_invalid_mode():
     module = load_search_module()
@@ -477,6 +502,12 @@ def test_print_results_displays_search_information(capsys):
             "image_score": 0.76543,
             "similarity": 0.87654,
             "summary": "테스트 검색 결과",
+            "drama_title": "테스트 드라마",
+            "description": "테스트 설명",
+	    "time_of_day": "day",
+	    "mood": ["peaceful"],
+	    "activity": ["walking"],
+	    "scene_elements": ["palace"],
         }
     ]
 
@@ -494,6 +525,12 @@ def test_print_results_displays_search_information(capsys):
     assert "0.7654" in output
     assert "frame_001.jpg" in output
     assert "테스트 검색 결과" in output
+    assert "테스트 드라마" in output
+    assert "테스트 설명" in output
+    assert "day" in output
+    assert "peaceful" in output
+    assert "walking" in output
+    assert "palace" in output
 
 
 def test_print_results_handles_empty_results(capsys):
@@ -724,5 +761,71 @@ def test_search_database_returns_structured_topk_fields():
         "region",
         "text_score",
         "image_score",
+    ]:
+        assert field in source
+
+def test_search_database_selects_one_best_keyframe_per_segment():
+    import inspect
+
+    module = load_search_module()
+
+    source = inspect.getsource(
+        module.search_database
+    )
+
+    assert "JOIN LATERAL" in source
+    assert "image_distance" in source
+    assert "LIMIT 1" in source
+
+
+def test_search_database_returns_extended_keyframe_metadata_fields():
+    import inspect
+
+    module = load_search_module()
+
+    source = inspect.getsource(
+        module.search_database
+    )
+
+    for field in [
+        "drama_title",
+        "description",
+        "time_of_day",
+        "mood",
+        "activity",
+        "scene_elements",
+    ]:
+        assert field in source
+
+def test_search_database_selects_one_best_keyframe_per_segment():
+    import inspect
+
+    module = load_search_module()
+
+    source = inspect.getsource(
+        module.search_database
+    )
+
+    assert "JOIN LATERAL" in source
+    assert "image_distance" in source
+    assert "LIMIT 1" in source
+
+
+def test_search_database_returns_extended_keyframe_metadata_fields():
+    import inspect
+
+    module = load_search_module()
+
+    source = inspect.getsource(
+        module.search_database
+    )
+
+    for field in [
+        "drama_title",
+        "description",
+        "time_of_day",
+        "mood",
+        "activity",
+        "scene_elements",
     ]:
         assert field in source

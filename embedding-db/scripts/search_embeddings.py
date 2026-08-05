@@ -238,28 +238,64 @@ def search_database(
     query = f"""
         SELECT
             vs.segment_id,
-            sk.keyframe_id,
-            sk.keyframe_path,
+            best_keyframe.keyframe_id,
+            best_keyframe.keyframe_path,
             vs.place_id,
             vs.region,
             vs.spot_name,
+            vs.drama_title,
+
+            best_keyframe.description,
+            best_keyframe.time_of_day,
+            best_keyframe.mood,
+            best_keyframe.activity,
+            best_keyframe.scene_elements,
+
             vs.video_id,
             vs.start_time,
             vs.end_time,
+
             se.text_embedding <=> %s
                 AS text_distance,
-            ke.image_embedding <=> %s
-                AS image_distance,
+
+            best_keyframe.image_distance,
+
             vs.summary
+
         FROM video_segments AS vs
+
         JOIN segment_embeddings AS se
             ON se.segment_id = vs.segment_id
-        JOIN segment_keyframes AS sk
-            ON sk.segment_id = vs.segment_id
-        JOIN keyframe_embeddings AS ke
-            ON ke.keyframe_id = sk.keyframe_id
+
+        JOIN LATERAL (
+            SELECT
+                sk.keyframe_id,
+                sk.keyframe_path,
+                sk.description,
+                sk.time_of_day,
+                sk.mood,
+                sk.activity,
+                sk.scene_elements,
+
+                ke.image_embedding <=> %s
+                    AS image_distance
+
+            FROM segment_keyframes AS sk
+
+            JOIN keyframe_embeddings AS ke
+                ON ke.keyframe_id = sk.keyframe_id
+
+            WHERE sk.segment_id = vs.segment_id
+              AND ke.image_embedding IS NOT NULL
+
+            ORDER BY image_distance
+            LIMIT 1
+
+        ) AS best_keyframe
+            ON TRUE
+
         WHERE se.text_embedding IS NOT NULL
-          AND ke.image_embedding IS NOT NULL
+
         ORDER BY {order_column}
         LIMIT %s
     """
@@ -276,17 +312,18 @@ def search_database(
                     limit,
                 ),
             )
+
             rows = cursor.fetchall()
 
     results = []
 
     for row in rows:
         text_score = distance_to_similarity(
-            float(row[9])
+            float(row[15])
         )
 
         image_score = distance_to_similarity(
-            float(row[10])
+            float(row[16])
         )
 
         similarity = (
@@ -300,16 +337,27 @@ def search_database(
                 "segment_id": row[0],
                 "keyframe_id": row[1],
                 "keyframe_path": row[2],
+
                 "place_id": row[3],
                 "region": row[4],
                 "spot_name": row[5],
-                "video_id": row[6],
-                "start_time": row[7],
-                "end_time": row[8],
+                "drama_title": row[6],
+
+                "description": row[7],
+                "time_of_day": row[8],
+                "mood": row[9],
+                "activity": row[10],
+                "scene_elements": row[11],
+
+                "video_id": row[12],
+                "start_time": row[13],
+                "end_time": row[14],
+
                 "text_score": text_score,
                 "image_score": image_score,
                 "similarity": similarity,
-                "summary": row[11],
+
+                "summary": row[17],
             }
         )
 
@@ -355,6 +403,13 @@ def print_results(results: list[dict]) -> None:
             f"spot_name     : "
             f"{item.get('spot_name')}"
         )
+
+        print(f"drama_title   : {item.get('drama_title')}")
+        print(f"description   : {item.get('description')}")
+        print(f"time_of_day   : {item.get('time_of_day')}")
+        print(f"mood          : {item.get('mood')}")
+        print(f"activity      : {item.get('activity')}")
+        print(f"scene_elements: {item.get('scene_elements')}")
 
         print(
             f"video_id      : "
