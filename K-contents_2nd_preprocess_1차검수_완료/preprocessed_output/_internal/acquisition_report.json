@@ -20,5 +20,39 @@
     "review_night_override_urls": 19,
     "city_blank_count_after_review": 0,
     "duplicate_video_id_count_after_review": 0
+  },
+  "first_review_revision": {
+    "region_city_korean_unified": true,
+    "theme_categories_separated": [
+      "꽃",
+      "단풍",
+      "전통",
+      "들판",
+      "등산",
+      "숲",
+      "드라이브",
+      "바다",
+      "야경"
+    ],
+    "theme_changed_segment_count": 591,
+    "restored_fields": [
+      "time_of_day",
+      "activity",
+      "k_culture_elements"
+    ],
+    "place_name_fixes": {
+      "P006": "온빛자연휴양림",
+      "P015": "망상해변",
+      "P023": "포항 구룡포 석병리",
+      "P027": "금능리 대표 관광지"
+    },
+    "P028_review_status": "needs_review",
+    "duplicate_keyframe_pair": [
+      "V065_P086_S001_SCENE_014",
+      "V065_P086_S001_SCENE_015"
+    ],
+    "duplicate_keyframe_confirmed": true,
+    "short_segment_structure_invalid_count": 0,
+    "video_id_restored_to_media_folder_format": true
   }
 }
