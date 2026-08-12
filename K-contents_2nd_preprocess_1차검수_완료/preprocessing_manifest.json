@@ -146,35 +146,16 @@
       "drama_title": "도시남녀의 사랑법",
       "place_id": "P021",
       "place_name": "청계천",
-      "place_candidates": [
-        "청계천"
-      ],
+      "place_candidates": ["청계천"],
       "region": "서울",
       "city": "서울특별시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "탁트인",
-        "운치있는"
-      ],
-      "scene_elements": [
-        "청계천"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["탁트인", "운치있는"],
+      "scene_elements": ["청계천"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장면은 청계천에서 일어난 드라마촬영을 보여주는 사진입니다. 탁트인 분위기와 K드라마성지, 드라마촬영지를 포함하고 있습니다. 이 장면은 저녁에 일어난 것으로 추정됩니다.",
       "input_keyframe_path": "keyframes/V014_P021_S001.jpg",
       "candidate_ranges": [
@@ -201,35 +182,16 @@
       "drama_title": "무인도의 디바",
       "place_id": "P019",
       "place_name": "상주 함창역",
-      "place_candidates": [
-        "상주 함창역"
-      ],
+      "place_candidates": ["상주 함창역"],
       "region": "경상북도",
       "city": "상주시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "상주 함창역"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["상주 함창역"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 한국의 함창역에 위치하며, 드라마촬영을 진행하고 있습니다. 밝은 날씨와 아름다운 자연 풍경으로 인해 가을 시즌에서 이미지가 취해져 있습니다. 이 장소는 산책과 명소탐방을 통해 관광객들이 즐길 수 있으며, 많은 자연 풍경과 드라마 감성을 느끼는 데이터를 제공합니다.",
       "input_keyframe_path": "keyframes/V013_P019_S001.jpg",
       "candidate_ranges": [
@@ -256,38 +218,16 @@
       "drama_title": "무인도의 디바",
       "place_id": "P029",
       "place_name": "상주 경천섬 공원",
-      "place_candidates": [
-        "상주 경천섬 공원"
-      ],
+      "place_candidates": ["상주 경천섬 공원"],
       "region": "경상북도",
       "city": "상주시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "강",
-        "숲",
-        "해변",
-        "하늘"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["강", "숲", "해변", "하늘"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 상주 경천섬 공원에서 무인도의 디바를 촬영한 장소입니다. 여름 시즌에서 오후 3시까지 방문하실 수 있습니다. 이곳은 산책과 명소탐방을 즐길 수 있는 장소입니다.",
       "input_keyframe_path": "keyframes/V013_P029_S001.jpg",
       "candidate_ranges": [
@@ -314,36 +254,16 @@
       "drama_title": "무인도의 디바",
       "place_id": "P020",
       "place_name": "서천",
-      "place_candidates": [
-        "서천"
-      ],
+      "place_candidates": ["서천"],
       "region": "충청남도",
       "city": "서천군",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "풍경"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "전통문화"
-      ],
-      "activity": [
-        "산책",
-        "야경감상"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["풍경"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "전통문화"],
+      "activity": ["산책", "야경감상"],
       "description": "서천 : '' 이미지는 봄 시즌에 오후에 찍혔으며, 산책과 야경감상을 통해 전통문화를 체험할 수 있는 장소입니다. 이 장소는 청량한 분위기와 탁트인 분위기로 묘어져 있습니다.",
       "input_keyframe_path": "keyframes/V013_P020_S001.jpg",
       "candidate_ranges": [
@@ -370,39 +290,16 @@
       "drama_title": "날씨가 좋으면 찾아가겠어요",
       "place_id": "P018",
       "place_name": "영월 주천강",
-      "place_candidates": [
-        "영월 주천강"
-      ],
+      "place_candidates": ["영월 주천강"],
       "region": "강원도",
       "city": "영월군",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "강",
-        "나무",
-        "땅",
-        "하늘"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "전통문화"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["강", "나무", "땅", "하늘"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "전통문화"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 영월 주천강에서 드라마촬영을 위해 찾아가는 사람들을 기다리고 있습니다. 가을 시즌에서 낮 햇살로 촬영되었으며, 이 장소는 청량한 분위기와 탁트인 분위기를 가지고 있습니다. 이 장소에서는 산책과 명소탐방을 할 수 있으며, 가을 시즌에서 낮 햇살로 촬영되었기 때문에 이 장소는 드라마촬영지와 전통문화를 가진 장소입니다.",
       "input_keyframe_path": "keyframes/V012_P018_S001.jpg",
       "candidate_ranges": [
@@ -429,39 +326,16 @@
       "drama_title": "날씨가 좋으면 찾아가겠어요",
       "place_id": "P018",
       "place_name": "영월 주천강",
-      "place_candidates": [
-        "영월 주천강"
-      ],
+      "place_candidates": ["영월 주천강"],
       "region": "강원도",
       "city": "영월군",
-      "season": [
-        "겨울"
-      ],
-      "expected_seasons": [
-        "겨울"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "강",
-        "바다",
-        "해변",
-        "건물",
-        "자연 풍경"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["겨울"],
+      "expected_seasons": ["겨울"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["강", "바다", "해변", "건물", "자연 풍경"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 영월 주선 강에 위치한 드라마촬영지입니다. 겨울 시즌에서 낮 시간에 방문하면 청량한 분위기와 탁트인 분위기를 경험할 수 있습니다.",
       "input_keyframe_path": "keyframes/V012_P018_S002.jpg",
       "candidate_ranges": [
@@ -488,37 +362,16 @@
       "drama_title": "날씨가 좋으면 찾아가겠어요",
       "place_id": "P018",
       "place_name": "영월 주천강",
-      "place_candidates": [
-        "영월 주천강"
-      ],
+      "place_candidates": ["영월 주천강"],
       "region": "강원도",
       "city": "영월군",
-      "season": [
-        "겨울"
-      ],
-      "expected_seasons": [
-        "겨울"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "강",
-        "길",
-        "나무"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["겨울"],
+      "expected_seasons": ["겨울"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["강", "길", "나무"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "영월 주천강에서 드라마촬영을 위한 산책과 명소탐방을 볼 수 있는 겨울 날씨가 좋은 장소입니다. 이 깊은 강에서 자연의 아름다움을 감상하며, 드라마촬영지와 같은 풍경을 볼 수 있습니다.",
       "input_keyframe_path": "keyframes/V012_P018_S003.jpg",
       "candidate_ranges": [
@@ -545,40 +398,16 @@
       "drama_title": "킹덤",
       "place_id": "P016",
       "place_name": "경복궁",
-      "place_candidates": [
-        "경복궁"
-      ],
+      "place_candidates": ["경복궁"],
       "region": "서울",
       "city": "서울특별시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "경복궁",
-        "대중원",
-        "사람들",
-        "건물",
-        "자연 환경"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "한복체험"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["경복궁", "대중원", "사람들", "건물", "자연 환경"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "한복체험"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 서울의 경복궁에 위치하며, 봄 시즌에서 오후 시간에 탐방을 진행하고 있습니다. 여기에는 드라마촬영지와 한복체험이 있으며, 사람들은 산책과 명소탐방을 통해 경복궁을 탐색하고 있습니다. 이 장소는 청량한 분위기와 탁트인 분위기를 가지며, 봄 시즌에서 오후 시간에 탐방을 진행하고 있습니다.",
       "input_keyframe_path": "keyframes/V011_P016_S001.jpg",
       "candidate_ranges": [
@@ -605,38 +434,16 @@
       "drama_title": "킹덤",
       "place_id": "P016",
       "place_name": "경복궁",
-      "place_candidates": [
-        "경복궁"
-      ],
+      "place_candidates": ["경복궁"],
       "region": "서울",
       "city": "서울특별시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "강",
-        "공원",
-        "건물",
-        "자연 풍경"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["강", "공원", "건물", "자연 풍경"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이미지는 한국의 서울에 위치한 경복궁을 보여줍니다. 이 장소는 대한민국의 유럽적인 아름다운 건물과 풍경으로 유명합니다. 여름에 산책하거나 명소를 탐방할 수 있는 이곳은 한국의 문화와 역사를 담은 공간입니다.",
       "input_keyframe_path": "keyframes/V011_P016_S002.jpg",
       "candidate_ranges": [
@@ -663,40 +470,16 @@
       "drama_title": "폭싹 속았수다",
       "place_id": "P004",
       "place_name": "고창 학원농장",
-      "place_candidates": [
-        "고창 학원농장"
-      ],
+      "place_candidates": ["고창 학원농장"],
       "region": "전북특별자치도",
       "city": "고창군",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "푸르른"
-      ],
-      "scene_elements": [
-        "풍경",
-        "농장",
-        "길",
-        "자연",
-        "하늘",
-        "사람"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "야경감상"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "푸르른"],
+      "scene_elements": ["풍경", "농장", "길", "자연", "하늘", "사람"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "야경감상"],
       "description": "이 이미지는 고창 학원농장에서 촬영된 풍경입니다. 그곳에는 자연적인 풍경과 농장의 일대로 있는 길이 포함됩니다. 이 장소는 K드라마성지와 드라마촬영지를 제공하며, 산책과 야경감상을 통해 탐방할 수 있습니다.",
       "input_keyframe_path": "keyframes/V002_P004_S001.jpg",
       "candidate_ranges": [
@@ -723,33 +506,16 @@
       "drama_title": "폭싹 속았수다",
       "place_id": "P004",
       "place_name": "고창 학원농장",
-      "place_candidates": [
-        "고창 학원농장"
-      ],
+      "place_candidates": ["고창 학원농장"],
       "region": "전북특별자치도",
       "city": "고창군",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "아름다운"
-      ],
-      "scene_elements": [
-        "고창 학원농장"
-      ],
-      "k_culture_elements": [
-        "K드라마성지"
-      ],
-      "activity": [
-        "산책",
-        "사진촬영"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["아름다운"],
+      "scene_elements": ["고창 학원농장"],
+      "k_culture_elements": ["K드라마성지"],
+      "activity": ["산책", "사진촬영"],
       "description": "고창 학원농장 관련 드라마 촬영 장면입니다.",
       "input_keyframe_path": "keyframes/V002_P004_S002.jpg",
       "candidate_ranges": [
@@ -776,35 +542,16 @@
       "drama_title": "폭싹 속았수다",
       "place_id": "P004",
       "place_name": "고창 학원농장",
-      "place_candidates": [
-        "고창 학원농장"
-      ],
+      "place_candidates": ["고창 학원농장"],
       "region": "전북특별자치도",
       "city": "고창군",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "고창 학원농장"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["고창 학원농장"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "고창 학원농장 (제olla)에서 폭싹 속았수다. 드라마 촬영지와 함께 산책을 하며, 명소탐방을 위해 이미지를 찍습니다.",
       "input_keyframe_path": "keyframes/V002_P004_S003.jpg",
       "candidate_ranges": [
@@ -831,35 +578,16 @@
       "drama_title": "리틀 포레스트",
       "place_id": "P030",
       "place_name": "혜원의 집",
-      "place_candidates": [
-        "혜원의 집"
-      ],
+      "place_candidates": ["혜원의 집"],
       "region": "대구광역시",
       "city": "군위군",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "혜원의 집"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["혜원의 집"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장면은 한국의 드라마촬영지인 '리틀 포레스트'를 기반으로 하는 귀중한 관광지입니다. 여름에서 낮시간에 찍은 이미지에서 풍경과 분위기가 매우 아름다운 것으로 보입니다. 자막은 ''을 나타내고 있습니다.",
       "input_keyframe_path": "keyframes/V015_P030_S001.jpg",
       "candidate_ranges": [
@@ -886,38 +614,16 @@
       "drama_title": "리틀 포레스트",
       "place_id": "P030",
       "place_name": "혜원의 집",
-      "place_candidates": [
-        "혜원의 집"
-      ],
+      "place_candidates": ["혜원의 집"],
       "region": "대구광역시",
       "city": "군위군",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "창",
-        "집",
-        "골목"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "전통문화"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["창", "집", "골목"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "전통문화"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 혜원의 집에서 촬영된 드라마성지입니다. 밝은 날씨와 청량한 분위기로, 산책을 하고 명소탐방을 할 수 있습니다. 이곳에서는 전통문화를 경험할 수 있으며, 가을 시즌에서도 자연적인 분위기를 느낄 수 있습니다.",
       "input_keyframe_path": "keyframes/V015_P030_S002.jpg",
       "candidate_ranges": [
@@ -944,36 +650,16 @@
       "drama_title": "리틀 포레스트",
       "place_id": "P087",
       "place_name": "화본역",
-      "place_candidates": [
-        "화본역"
-      ],
+      "place_candidates": ["화본역"],
       "region": "대구광역시",
       "city": "군위군",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "화본역"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "한복체험"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["화본역"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "한복체험"],
+      "activity": ["산책", "명소탐방"],
       "description": "여름 시즌에서 저녁까지 오후 시간대로 활기찬 분위기를 가집니다. 이 장소는 드라마 촬영을 위한 장소이며, 한복체험과 드라마촬영지의 역할을 합니다. 여기서는 산책과 명소탐방을 볼 수 있습니다.",
       "input_keyframe_path": "keyframes/V015_P087_S001.jpg",
       "candidate_ranges": [
@@ -1000,34 +686,16 @@
       "drama_title": "사랑의 불시착",
       "place_id": "P012",
       "place_name": "비내섬",
-      "place_candidates": [
-        "비내섬"
-      ],
+      "place_candidates": ["비내섬"],
       "region": "충청북도",
       "city": "충주시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운"
-      ],
-      "scene_elements": [
-        "비내섬"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운"],
+      "scene_elements": ["비내섬"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "비내섬에서 드라마를 촬영하는 사람은 산책을 취하며, 풍경과 분위기가 매우 평화로운 분위기입니다.",
       "input_keyframe_path": "keyframes/V007_P012_S001.jpg",
       "candidate_ranges": [
@@ -1054,39 +722,16 @@
       "drama_title": "사랑의 불시착",
       "place_id": "P012",
       "place_name": "비내섬",
-      "place_candidates": [
-        "비내섬"
-      ],
+      "place_candidates": ["비내섬"],
       "region": "충청북도",
       "city": "충주시",
-      "season": [
-        "겨울"
-      ],
-      "expected_seasons": [
-        "겨울"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "강",
-        "북은 하늘",
-        "나무",
-        "풍경",
-        "산책지역"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["겨울"],
+      "expected_seasons": ["겨울"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["강", "북은 하늘", "나무", "풍경", "산책지역"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 비내섬(chungcheong)에 위치한 청량한 탁트인 분위기를 가진 드라마촬영지입니다. 겨울 시즌에서 오후 시간에 산책을 하며, 명소탐방을 통해 이 장소의 풍경과 역사를 더욱 알아보실 수 있습니다. 강은 북은 하늘에서 그림자가 나타나며, 나무와 산책지역이 주변에 위치합니다.",
       "input_keyframe_path": "keyframes/V007_P012_S002.jpg",
       "candidate_ranges": [
@@ -1113,39 +758,16 @@
       "drama_title": "사랑의 불시착",
       "place_id": "P031",
       "place_name": "충주 중앙탑공원",
-      "place_candidates": [
-        "충주 중앙탑공원"
-      ],
+      "place_candidates": ["충주 중앙탑공원"],
       "region": "충청북도",
       "city": "충주시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "강",
-        "하늘",
-        "도서리",
-        "풍경",
-        "조명"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "드라이브"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["강", "하늘", "도서리", "풍경", "조명"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "드라이브"],
       "description": "충주 중앙탑공원에서 저녁시간에 드라마촬영을 위한 카페와 함께하는 산책과 드라이브를 가능한 장소입니다. 여름 시즌에 풍경과 조명으로 인해 아름다운 분위기를 느낄 수 있습니다.",
       "input_keyframe_path": "keyframes/V007_P031_S001.jpg",
       "candidate_ranges": [
@@ -1172,35 +794,16 @@
       "drama_title": "사랑의 불시착",
       "place_id": "P031",
       "place_name": "충주 중앙탑공원",
-      "place_candidates": [
-        "충주 중앙탑공원"
-      ],
+      "place_candidates": ["충주 중앙탑공원"],
       "region": "충청북도",
       "city": "충주시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "충주 중앙탑공원"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["충주 중앙탑공원"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 청량한 분위기와 드라마촬영을 제공합니다. 여름에 저녁시간에 방문하면 탁티인 분위기를 경험할 수 있습니다.",
       "input_keyframe_path": "keyframes/V007_P031_S002.jpg",
       "candidate_ranges": [
@@ -1227,37 +830,16 @@
       "drama_title": "선재 업고 튀어",
       "place_id": "P001",
       "place_name": "수원 화성",
-      "place_candidates": [
-        "수원 화성"
-      ],
+      "place_candidates": ["수원 화성"],
       "region": "경기도",
       "city": "수원시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "탁트인",
-        "평화로운"
-      ],
-      "scene_elements": [
-        "나무",
-        "풍경",
-        "일렘"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "자전거타기"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["탁트인", "평화로운"],
+      "scene_elements": ["나무", "풍경", "일렘"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "자전거타기"],
       "description": "이 장소는 가득 찬 봄날에 있는 자연적인 공원입니다. 여기서는 푸르고 청량한 나무들과 그림자를 보이는 강렬한 낮 햇살로 감동을 끌어내는 장소입니다. 여기에서는 드라마촬영지와 K드라마성지를 찾아볼 수 있으며, 자전거를 타고 산책을 하면 더욱 풍경을 감상할 수 있습니다.",
       "input_keyframe_path": "keyframes/V001_P001_S001.jpg",
       "candidate_ranges": [
@@ -1284,35 +866,16 @@
       "drama_title": "선재 업고 튀어",
       "place_id": "P002",
       "place_name": "여의도 한강",
-      "place_candidates": [
-        "여의도 한강"
-      ],
+      "place_candidates": ["여의도 한강"],
       "region": "서울",
       "city": "서울특별시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "여의도 한강"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["여의도 한강"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "선재 업고 튀어는 한국의 드라마 촬영 장소명인 여의도 한강에서 진행되는 이야기를 다룹니다. 주인공은 자신을 위대하게 만들고 싶어하며, 그 동안 자신을 위대하게 만들지 못한 상황에서 겪는 일이 있습니다. 이 장면은 봄 오후에 진행되고 있으며, 주인공과 그의 친구가 함께 산책을 떠나는 장소를 탐방하고 있습니다. 이 장면은 드라마 감성을 전달하며, 주인공의 내심 놓은 것과 그의 친구들이 함께 하는 것을 보여주고 있습니다.",
       "input_keyframe_path": "keyframes/V001_P002_S001.jpg",
       "candidate_ranges": [
@@ -1339,38 +902,16 @@
       "drama_title": "선재 업고 튀어",
       "place_id": "P003",
       "place_name": "수원대학교",
-      "place_candidates": [
-        "수원대학교"
-      ],
+      "place_candidates": ["수원대학교"],
       "region": "경기도",
       "city": "화성시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "풍경",
-        "건물",
-        "나무",
-        "흘뜨리는 꽃"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "드라이브"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["풍경", "건물", "나무", "흘뜨리는 꽃"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "드라이브"],
       "description": "이미지는 수원대학교에서 봄시절에 드라마촬영을 위한 장소를 보여주는 사진입니다. 풍경은 강렬한 낮 햇빛과 그림자로 인해 어두운 배경에서 나무와 흘뜨리는 꽃으로 채워져 있습니다. 이 장소는 드라마촬영을 위한 좋은 장소로 인정되며, 산책과 드라이브를 통해 탐방할 수 있습니다.",
       "input_keyframe_path": "keyframes/V001_P003_S001.jpg",
       "candidate_ranges": [
@@ -1397,35 +938,16 @@
       "drama_title": "선재 업고 튀어",
       "place_id": "P032",
       "place_name": "화홍문",
-      "place_candidates": [
-        "화홍문"
-      ],
+      "place_candidates": ["화홍문"],
       "region": "경기도",
       "city": "수원시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "탁트인",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "화홍문"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["탁트인", "아름다운"],
+      "scene_elements": ["화홍문"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 한국의 꿈도리 대학교에 위치하며, 그 안에서 인기있는 드라마촬영지와 카페가 있습니다. 저녁시간에 여름 날씨에 이 장소를 방문하면, 아름다운 풍경과 함께 드라마촬영을 할 수 있습니다. 또한 카페에서 맛있는 음식을 즐길 수 있으며, 이 장소를 방문하면 탐방과 함께 인기있는 드라마촬영지와 카페를 경험할 수 있습니다.",
       "input_keyframe_path": "keyframes/V001_P032_S001.jpg",
       "candidate_ranges": [
@@ -1452,35 +974,16 @@
       "drama_title": "선재 업고 튀어",
       "place_id": "P063",
       "place_name": "수원천 일대",
-      "place_candidates": [
-        "수원천 일대"
-      ],
+      "place_candidates": ["수원천 일대"],
       "region": "경기도",
       "city": "수원시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "수원천 일대"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["수원천 일대"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "선재 업고 튀어에서 두 사람이 봄 아침 시간에 산책을 하며, K드라마성지와 드라마촬영지를 방문하는 장소입니다. 튀어의 분위기가 청량하고 탁트인 분위기로 묘집니다.",
       "input_keyframe_path": "keyframes/V001_P063_S001.jpg",
       "candidate_ranges": [
@@ -1507,35 +1010,16 @@
       "drama_title": "선재 업고 튀어",
       "place_id": "P063",
       "place_name": "수원천 일대",
-      "place_candidates": [
-        "수원천 일대"
-      ],
+      "place_candidates": ["수원천 일대"],
       "region": "경기도",
       "city": "수원시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "수원천 일대"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["수원천 일대"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "선재 업고 튀어에서 드라마 촬영을 진행하는 장소명. 봄 시즌, 오후 시간대입니다.",
       "input_keyframe_path": "keyframes/V001_P063_S002.jpg",
       "candidate_ranges": [
@@ -1562,36 +1046,16 @@
       "drama_title": "선재 업고 튀어",
       "place_id": "P063",
       "place_name": "수원천 일대",
-      "place_candidates": [
-        "수원천 일대"
-      ],
+      "place_candidates": ["수원천 일대"],
       "region": "경기도",
       "city": "수원시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "푸르른"
-      ],
-      "scene_elements": [
-        "수원천 일대"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "한복체험"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "푸르른"],
+      "scene_elements": ["수원천 일대"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "한복체험"],
+      "activity": ["산책", "명소탐방"],
       "description": "선재 업고 튀어는 한복체험을 통해 서울에서 즐기는 봄 시절을 소개합니다. 이 드라마 촬영지에서 선재와 그의 연인은 함께 한복체험을 떠나며, 그들은 자연과 문화를 경험하는 시간을 보내고 있습니다. 이 장소에서 선재와 그의 연인은 함께 한복체험을 떠나며, 그들은 자연과 문화를 경험하는 시간을 보내고 있습니다.",
       "input_keyframe_path": "keyframes/V001_P063_S003.jpg",
       "candidate_ranges": [
@@ -1618,35 +1082,16 @@
       "drama_title": "선재 업고 튀어",
       "place_id": "P064",
       "place_name": "수원 화홍문",
-      "place_candidates": [
-        "수원 화홍문"
-      ],
+      "place_candidates": ["수원 화홍문"],
       "region": "경기도",
       "city": "수원시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "수원 화홍문"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["수원 화홍문"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 한국의 수원 화홍문에서 촬영된 드라마 쇼핑스로운 장소입니다. 가을 시즌에서 밝은 하늘과 풀들어 있는 그림자가 주목할 만큼 아름다운 장소입니다.",
       "input_keyframe_path": "keyframes/V001_P064_S002.jpg",
       "candidate_ranges": [
@@ -1673,39 +1118,16 @@
       "drama_title": "빈센조",
       "place_id": "P033",
       "place_name": "서울로7017",
-      "place_candidates": [
-        "서울로7017"
-      ],
+      "place_candidates": ["서울로7017"],
       "region": "서울",
       "city": "서울특별시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "시골 도로",
-        "대형 건물",
-        "자동차",
-        "인공 조명"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "한복체험"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["시골 도로", "대형 건물", "자동차", "인공 조명"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "한복체험"],
+      "activity": ["산책", "명소탐방"],
       "description": "서울로7017에서 빈센조를 촬영한 드라마 장면입니다. 밤 시간에 대형 건물과 자동차가 있는 도로에서 풍경을 즐기며, 그 중심에 한복체험이 있는 장소를 찾아보세요. 여름 시즌에서 저녁 시간에서 이 장면을 즐길 수 있습니다.",
       "input_keyframe_path": "keyframes/V016_P033_S001.jpg",
       "candidate_ranges": [
@@ -1732,39 +1154,16 @@
       "drama_title": "빈센조",
       "place_id": "P033",
       "place_name": "서울로7017",
-      "place_candidates": [
-        "서울로7017"
-      ],
+      "place_candidates": ["서울로7017"],
       "region": "서울",
       "city": "서울특별시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "시골 도로",
-        "대형 건물",
-        "자동차",
-        "인공 조명"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "한복체험"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["시골 도로", "대형 건물", "자동차", "인공 조명"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "한복체험"],
+      "activity": ["산책", "명소탐방"],
       "description": "서울로7017에서 빈센조를 촬영한 드라마 장면입니다. 밤 시간에 대형 건물과 자동차가 있는 도로를 탐색하며, 인공 조명으로 빛나는 골목길을 통해 서울의 아름다운 분위기를 경험할 수 있습니다.",
       "input_keyframe_path": "keyframes/V016_P033_S002.jpg",
       "candidate_ranges": [
@@ -1791,38 +1190,21 @@
       "drama_title": "이태원 클라스",
       "place_id": "P034",
       "place_name": "이태원 녹사평 육교",
-      "place_candidates": [
-        "이태원 녹사평 육교"
-      ],
+      "place_candidates": ["이태원 녹사평 육교"],
       "region": "서울",
       "city": "서울특별시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["평화로운", "아름다운"],
       "scene_elements": [
         "이태원 녹사평 육교",
         "대한민국 국수집단 관광소",
         "세종대왕 성",
         "서울시의 대표적인 탐방"
       ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이태원 녹사평 육교에서 저녁 시간에 대한민국 국수집단 관광소와 세종대왕 성을 탐하는 여름 시즌에 산책과 명소탐방을 함께 하는 것이 좋은 경로입니다.",
       "input_keyframe_path": "keyframes/V017_P034_S001.jpg",
       "candidate_ranges": [
@@ -1849,38 +1231,16 @@
       "drama_title": "남남",
       "place_id": "P035",
       "place_name": "여수 소호동동다리",
-      "place_candidates": [
-        "여수 소호동동다리"
-      ],
+      "place_candidates": ["여수 소호동동다리"],
       "region": "전라남도",
       "city": "여수시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "하늘",
-        "도로"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "전통문화"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방",
-        "데이트"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["하늘", "도로"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "전통문화"],
+      "activity": ["산책", "명소탐방", "데이트"],
       "description": "여수 소호동동다리 (제일라)는 한국의 대표적인 드라마촬영지 중 하나입니다. 저녁에 이 장소를 방문하면, 풍경을 감상할 수 있습니다. 여기서는 청량한 분위기와 탁트인 분위기가 함께 존재합니다. 이 장소에서는 산책, 명소탐방, 데이트를 할 수 있습니다. 여러 문화적 요소와 전통적인 요소가 함께 존재하며, 저녁에 이 장소를 방문하면, 풍경을 감상할 수 있습니다.",
       "input_keyframe_path": "keyframes/V018_P035_S001.jpg",
       "candidate_ranges": [
@@ -1907,33 +1267,16 @@
       "drama_title": "남남",
       "place_id": "P035",
       "place_name": "여수 소호동동다리",
-      "place_candidates": [
-        "여수 소호동동다리"
-      ],
+      "place_candidates": ["여수 소호동동다리"],
       "region": "전라남도",
       "city": "여수시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "평화로운"
-      ],
-      "scene_elements": [
-        "여수 소호동동다리"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["평화로운"],
+      "scene_elements": ["여수 소호동동다리"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책"],
       "description": "여수 소호동동다리 (제올라)에서 저녁시간에 드라마촬영을 위해 산책한 평화로운 분위기의 장면입니다.",
       "input_keyframe_path": "keyframes/V018_P035_S002.jpg",
       "candidate_ranges": [
@@ -1960,24 +1303,13 @@
       "drama_title": "지금, 헤어지는 중입니다",
       "place_id": "P036",
       "place_name": "부산 더베이101·마린시티",
-      "place_candidates": [
-        "부산 더베이101·마린시티"
-      ],
+      "place_candidates": ["부산 더베이101·마린시티"],
       "region": "부산광역시",
       "city": "부산광역시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "탁트인",
-        "아름다운"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["탁트인", "아름다운"],
       "scene_elements": [
         "부산 더베이101 마린시티",
         "강의",
@@ -1988,14 +1320,8 @@
         "공원",
         "자전거"
       ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "지금, 헤어지는 중입니다. 부산 더베이101·마린시티 (busan)에서 드라마촬영을 하며, 저녁 시간에 산책과 명소탐방을 함께 하는 것으로 시작합니다. 아름다운 여름의 부산에서 탁트인 분위기와 드라마촬영지를 통해 한국의 문화를 경험할 수 있습니다.",
       "input_keyframe_path": "keyframes/V019_P036_S001.jpg",
       "candidate_ranges": [
@@ -2022,35 +1348,16 @@
       "drama_title": "지금, 헤어지는 중입니다",
       "place_id": "P036",
       "place_name": "부산 더베이101·마린시티",
-      "place_candidates": [
-        "부산 더베이101·마린시티"
-      ],
+      "place_candidates": ["부산 더베이101·마린시티"],
       "region": "부산광역시",
       "city": "부산광역시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "탁트인",
-        "활기찬"
-      ],
-      "scene_elements": [
-        "부산 더베이101 마린시티"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["탁트인", "활기찬"],
+      "scene_elements": ["부산 더베이101 마린시티"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "부산 더베이101·마린시티에서 여름 저녁에 탐방을 위한 드라마촬영지와 K드라마성지를 찾아보세요.",
       "input_keyframe_path": "keyframes/V019_P036_S002.jpg",
       "candidate_ranges": [
@@ -2077,38 +1384,16 @@
       "drama_title": "마이 네임",
       "place_id": "P037",
       "place_name": "부산항대교·영도",
-      "place_candidates": [
-        "부산항대교·영도"
-      ],
+      "place_candidates": ["부산항대교·영도"],
       "region": "부산광역시",
       "city": "부산광역시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "탁트인",
-        "평화로운"
-      ],
-      "scene_elements": [
-        "강",
-        "도서",
-        "빛"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "한복체험"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["탁트인", "평화로운"],
+      "scene_elements": ["강", "도서", "빛"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "한복체험"],
+      "activity": ["산책", "명소탐방"],
       "description": "부산항대교·영도는 한국의 가장 큰 해안가로 유명한 드라마촬영지 중 하나입니다. 여름에서 저녁시간에 탐방하면 강을 따르며 도서를 통과할 수 있습니다. 이 장소는 한복체험을 제공하고 있으며, 드라마촬영지로서도 인기가 높아 여러 드라마들이 촬영되었습니다. 이 장소는 부산의 대표적인 문화와 자연을 풍하고 있으며, 여름에서 저녁시간에 방문하면 어두운 배경과 강을 따르며 도서를 통과할 수 있습니다.",
       "input_keyframe_path": "keyframes/V020_P037_S001.jpg",
       "candidate_ranges": [
@@ -2135,35 +1420,16 @@
       "drama_title": "마이 네임",
       "place_id": "P037",
       "place_name": "부산항대교·영도",
-      "place_candidates": [
-        "부산항대교·영도"
-      ],
+      "place_candidates": ["부산항대교·영도"],
       "region": "부산광역시",
       "city": "부산광역시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "탁트인",
-        "평화로운"
-      ],
-      "scene_elements": [
-        "부산항대교 영도"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["탁트인", "평화로운"],
+      "scene_elements": ["부산항대교 영도"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "부산항대교·영도는 한국의 동남아시아 지역에 위치하고, 그 지역의 유명한 대학으로 알려져 있습니다. 이 장소는 여름 시즌에서 많은 관광객들이 방문하며, 저녁 시간에는 어두운 배경과 인공 조명 위주로 풍경을 보입니다. 이 장소는 대학교와 함께 있는 드라마촬영지를 가진 유명한 대학으로, 여기서 많은 사람들이 산책을 하며, 명소탐방을 위해 방문합니다.",
       "input_keyframe_path": "keyframes/V020_P037_S002.jpg",
       "candidate_ranges": [
@@ -2190,35 +1456,16 @@
       "drama_title": "헤어질 결심",
       "place_id": "P038",
       "place_name": "부산 광안대교",
-      "place_candidates": [
-        "부산 광안대교"
-      ],
+      "place_candidates": ["부산 광안대교"],
       "region": "부산광역시",
       "city": "부산광역시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "탁트인"
-      ],
-      "scene_elements": [
-        "헤어질 결심",
-        "부산 광안대교"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "드라이브"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["탁트인"],
+      "scene_elements": ["헤어질 결심", "부산 광안대교"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "드라이브"],
       "description": "이미지는 부산 광안대교에서 탁트인 분위기를 묘는 드라마촬영을 담고 있습니다. 저녁시간에 일어난 이벤트로, 여름 시즌에서 산책과 드라이브를 선택한 활기찬 분위기가 표현됩니다.",
       "input_keyframe_path": "keyframes/V021_P038_S001.jpg",
       "candidate_ranges": [
@@ -2245,37 +1492,16 @@
       "drama_title": "헤어질 결심",
       "place_id": "P038",
       "place_name": "부산 광안대교",
-      "place_candidates": [
-        "부산 광안대교"
-      ],
+      "place_candidates": ["부산 광안대교"],
       "region": "부산광역시",
       "city": "부산광역시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "탁트인"
-      ],
-      "scene_elements": [
-        "강",
-        "대교",
-        "도서 구조",
-        "야경"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["탁트인"],
+      "scene_elements": ["강", "대교", "도서 구조", "야경"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "부산 광안대교에서 탐방하는 여름 저녁. K드라마성지와 드라마촬영지를 통해 시청자들이 한국의 문화와 역사를 경험할 수 있습니다.",
       "input_keyframe_path": "keyframes/V021_P038_S002.jpg",
       "candidate_ranges": [
@@ -2302,35 +1528,16 @@
       "drama_title": "헤어질 결심",
       "place_id": "P048",
       "place_name": "부남해변",
-      "place_candidates": [
-        "부남해변"
-      ],
+      "place_candidates": ["부남해변"],
       "region": "강원도",
       "city": "삼척시",
-      "season": [
-        "겨울"
-      ],
-      "expected_seasons": [
-        "겨울"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "부남해변"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["겨울"],
+      "expected_seasons": ["겨울"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["부남해변"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "한국의 부남해변에서 두 사람이 산책을 하며, 드라마를 촬영하고 있는 장소입니다. 맑은 햇살과 바다 속에서 자연적인 분위기가 나타나고 있습니다.",
       "input_keyframe_path": "keyframes/V021_P048_S001.jpg",
       "candidate_ranges": [
@@ -2357,37 +1564,16 @@
       "drama_title": "20세기 소녀",
       "place_id": "P039",
       "place_name": "청주 중앙공원·수암골 일대",
-      "place_candidates": [
-        "청주 중앙공원·수암골 일대"
-      ],
+      "place_candidates": ["청주 중앙공원·수암골 일대"],
       "region": "충청도",
       "city": "청주시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "풍경",
-        "도심",
-        "빛"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "드라이브"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["풍경", "도심", "빛"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "드라이브"],
       "description": "청주 중앙공원·수암골 일대에서 20세기 소녀 드라마를 촬영한 장소입니다. 저녁시간에 풍경과 도심의 아름다운 모습을 찍으며, 여름 시즌에서 드라이브를 하면서 감상할 수 있는 장소입니다.",
       "input_keyframe_path": "keyframes/V022_P039_S001.jpg",
       "candidate_ranges": [
@@ -2414,35 +1600,16 @@
       "drama_title": "20세기 소녀",
       "place_id": "P039",
       "place_name": "청주 중앙공원·수암골 일대",
-      "place_candidates": [
-        "청주 중앙공원·수암골 일대"
-      ],
+      "place_candidates": ["청주 중앙공원·수암골 일대"],
       "region": "충청도",
       "city": "청주시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "청주 중앙공원 수암골 일대"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["청주 중앙공원 수암골 일대"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "청주 중앙공원·수암골 일대에서 20세기 소녀를 촬영한 장소입니다. 이 장소는 푸르른 분위기와 드라마 감성을 제공합니다.",
       "input_keyframe_path": "keyframes/V022_P039_S002.jpg",
       "candidate_ranges": [
@@ -2469,35 +1636,16 @@
       "drama_title": "이 연애는 불가항력",
       "place_id": "P040",
       "place_name": "포항 스페이스워크",
-      "place_candidates": [
-        "포항 스페이스워크"
-      ],
+      "place_candidates": ["포항 스페이스워크"],
       "region": "경상북도",
       "city": "포항시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "포항 스페이스워크"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "데이트"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["포항 스페이스워크"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "데이트"],
       "description": "포항 스페이스워크에서 밤시간에 데이트를 떠나는 사람들이 촬영된 장소입니다. 풍경은 청량한 아침 햇살과 탁티인의 분위기로, 드라마촬영지와 K드라마성지를 포함하는 장소에서 이루어진 데이트가 일어나고 있습니다. 이 장소는 여름에 저녁시간에 풍경을 즐길 수 있는 귀하들의 선택지입니다.",
       "input_keyframe_path": "keyframes/V023_P040_S001.jpg",
       "candidate_ranges": [
@@ -2524,35 +1672,16 @@
       "drama_title": "이 연애는 불가항력",
       "place_id": "P040",
       "place_name": "포항 스페이스워크",
-      "place_candidates": [
-        "포항 스페이스워크"
-      ],
+      "place_candidates": ["포항 스페이스워크"],
       "region": "경상북도",
       "city": "포항시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "포항 스페이스워크"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["포항 스페이스워크"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 연애는 불가항력. 포항 스페이스워크 (대구광역시)에서 촬영된 드라마 장소명. 청량한, 탁트인 분위기를 가진 봄 오후에 산책과 명소탐방을 하는 장소명. 이미지에서 드라마 장소명과 함께 포항 스페이스워크 (대구광역시)의 봄 오후에 산책과 명소탐방을 하는 장소명.",
       "input_keyframe_path": "keyframes/V023_P040_S002.jpg",
       "candidate_ranges": [
@@ -2579,35 +1708,16 @@
       "drama_title": "이 연애는 불가항력",
       "place_id": "P040",
       "place_name": "포항 스페이스워크",
-      "place_candidates": [
-        "포항 스페이스워크"
-      ],
+      "place_candidates": ["포항 스페이스워크"],
       "region": "경상북도",
       "city": "포항시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "포항 스페이스워크"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["포항 스페이스워크"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "포항 스페이스워크 (대구광역시)에서 드라마 '이 연애는 불가항력'을 촬영한 장면입니다. 밤에 탑승하고 있는 사람들과 함께 산책을 하며, 이 장소의 분위기가 청량하고 탁티인 분위기로 느껴지는 것으로 보입니다.",
       "input_keyframe_path": "keyframes/V023_P040_S003.jpg",
       "candidate_ranges": [
@@ -2634,35 +1744,16 @@
       "drama_title": "갯마을 차차차",
       "place_id": "P010",
       "place_name": "포항 영일만항",
-      "place_candidates": [
-        "포항 영일만항"
-      ],
+      "place_candidates": ["포항 영일만항"],
       "region": "경상북도",
       "city": "포항시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "포항 영일만항"
-      ],
-      "k_culture_elements": [
-        "드라마촬영지",
-        "한복체험"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["포항 영일만항"],
+      "k_culture_elements": ["드라마촬영지", "한복체험"],
+      "activity": ["산책", "명소탐방"],
       "description": "포항 영일만항에서 청량한 탁트인 분위기로, 드라마촬영지와 한복체험을 선택하여 낮 시간에 산책과 명소탐방을 할 수 있는 여름 시즌에서 이미지를 찍을 수 있습니다.",
       "input_keyframe_path": "keyframes/V005_P010_S001.jpg",
       "candidate_ranges": [
@@ -2689,35 +1780,16 @@
       "drama_title": "갯마을 차차차",
       "place_id": "P023",
       "place_name": "포항 구룡포 석병리",
-      "place_candidates": [
-        "포항 구룡포 석병리"
-      ],
+      "place_candidates": ["포항 구룡포 석병리"],
       "region": "경상북도",
       "city": "포항시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "포항 구룡포 석병리"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["포항 구룡포 석병리"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "포항 구룡포 석병리에서 갯마을 차차차라는 K드라마를 촬영한 장소입니다. 탁트인 분위기와 드라마촬영지의 어떤 요소가 있는지, 그리고 이미지에서 자막과 장소를 설명하는 한글 요약문을 확인해주세요.",
       "input_keyframe_path": "keyframes/V005_P023_S001.jpg",
       "candidate_ranges": [
@@ -2744,27 +1816,14 @@
       "drama_title": "갯마을 차차차",
       "place_id": "P024",
       "place_name": "포항 청하 공진시장",
-      "place_candidates": [
-        "포항 청하 공진시장"
-      ],
+      "place_candidates": ["포항 청하 공진시장"],
       "region": "경상북도",
       "city": "포항시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "포항 청하 공진시장"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["포항 청하 공진시장"],
       "k_culture_elements": [
         "K드라마성지",
         "드라마촬영지",
@@ -2807,24 +1866,13 @@
       "drama_title": "갯마을 차차차",
       "place_id": "P041",
       "place_name": "사방기념공원",
-      "place_candidates": [
-        "사방기념공원"
-      ],
+      "place_candidates": ["사방기념공원"],
       "region": "경상북도",
       "city": "포항시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
       "scene_elements": [
         "강한 해변 풍경",
         "고슬러 진동하는 바다",
@@ -2832,14 +1880,8 @@
         "푸르런 하늘",
         "산뜻한 아침 햇살"
       ],
-      "k_culture_elements": [
-        "드라마촬영지",
-        "K팝성지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "k_culture_elements": ["드라마촬영지", "K팝성지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소에서는 드라마 촬영을 위한 고슬러 진동하는 바다와 푸르런 하늘, 산뜻한 아침 햇살을 경험할 수 있습니다. 또한 K팝성지에서 드라마를 촬영하고 즐길 수 있는 장소입니다.",
       "input_keyframe_path": "keyframes/V005_P041_S001.jpg",
       "candidate_ranges": [
@@ -2866,35 +1908,16 @@
       "drama_title": "갯마을 차차차",
       "place_id": "P023",
       "place_name": "포항 구룡포 석병리",
-      "place_candidates": [
-        "포항 구룡포 석병리"
-      ],
+      "place_candidates": ["포항 구룡포 석병리"],
       "region": "경상북도",
       "city": "포항시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "포항 구룡포 석병리"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["포항 구룡포 석병리"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "갯마을 차차차는 구룡포의 석병리에서 드라마촬영을 하고 있습니다. 여름 오후에 산책을 하며, 명소탐방을 통해 지역의 분위기를 경험할 수 있습니다.",
       "input_keyframe_path": "keyframes/V005_P023_S002.jpg",
       "candidate_ranges": [
@@ -2921,36 +1944,16 @@
       "drama_title": "우리들의 블루스",
       "place_id": "P011",
       "place_name": "제주도 고성오일시장",
-      "place_candidates": [
-        "제주도 고성오일시장"
-      ],
+      "place_candidates": ["제주도 고성오일시장"],
       "region": "제주도",
       "city": "제주시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "바다",
-        "제주도 고성오일시장"
-      ],
-      "k_culture_elements": [
-        "드라마촬영지",
-        "한복체험"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["바다", "제주도 고성오일시장"],
+      "k_culture_elements": ["드라마촬영지", "한복체험"],
+      "activity": ["산책", "명소탐방"],
       "description": "이미지는 제주도 고성오일시장(Jeju)에서 드라마 '우리들의 블루스'를 촬영한 장소입니다. 이 장소는 탁트인 분위기와 청량한 모습으로 묘어진 바다를 보여주고, 한복체험을 제공하며, 드라마촬영지로 유명합니다. 이 장소는 봄에 가장 좋은 시즌으로, 오후 시간에 방문하면 강렬한 낮 햇빛과 그림자를 볼 수 있습니다. 이 장소는 산책과 명소탐방을 통해 더 나은 경험을 제공하며, 한복체험을 통해 더 많은 기회를 갖추고 있습니다.",
       "input_keyframe_path": "keyframes/V006_P011_S001.jpg",
       "candidate_ranges": [
@@ -2977,33 +1980,16 @@
       "drama_title": "우리들의 블루스",
       "place_id": "P025",
       "place_name": "제주도 청굴물",
-      "place_candidates": [
-        "제주도 청굴물"
-      ],
+      "place_candidates": ["제주도 청굴물"],
       "region": "제주도",
       "city": "제주시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운"
-      ],
-      "scene_elements": [
-        "제주도 청굴물"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운"],
+      "scene_elements": ["제주도 청굴물"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책"],
       "description": "제주도 청굴물에서 드라마 촬영을 위한 산책을 취하는 여름 오후. 평화로운 분위기를 느끼는 자연 풍경과 드라마 촬영 장소에서 함께 보내는 시간을 가볍게 보낸다.",
       "input_keyframe_path": "keyframes/V006_P025_S001.jpg",
       "candidate_ranges": [
@@ -3030,35 +2016,16 @@
       "drama_title": "우리들의 블루스",
       "place_id": "P026",
       "place_name": "제주도 태봉왓",
-      "place_candidates": [
-        "제주도 태봉왓"
-      ],
+      "place_candidates": ["제주도 태봉왓"],
       "region": "제주도",
       "city": "제주시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "제주도 태봉왓"
-      ],
-      "k_culture_elements": [
-        "드라마촬영지",
-        "K팝성지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["제주도 태봉왓"],
+      "k_culture_elements": ["드라마촬영지", "K팝성지"],
+      "activity": ["산책", "명소탐방"],
       "description": "제주도 태봉왓에서 드라마 '우리들의 블루스'를 촬영한 장소입니다. 탁트인 분위기와 드라마 촬영지, K팝성지로 이어진 산책과 명소탐방을 볼 수 있습니다.",
       "input_keyframe_path": "keyframes/V006_P026_S001.jpg",
       "candidate_ranges": [
@@ -3085,35 +2052,16 @@
       "drama_title": "우리들의 블루스",
       "place_id": "P027",
       "place_name": "금능리 대표 관광지",
-      "place_candidates": [
-        "금능리 대표 관광지"
-      ],
+      "place_candidates": ["금능리 대표 관광지"],
       "region": "제주도",
       "city": "제주시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "금능리 대표 관광지"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["금능리 대표 관광지"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "제주도의 블루스 촬영지입니다. 탁티닉과 드라마촬영을 위한 장소로, 여름에서 오후에 산책을 하고 명소탐방을 할 수 있습니다.",
       "input_keyframe_path": "keyframes/V006_P027_S001.jpg",
       "candidate_ranges": [
@@ -3140,35 +2088,16 @@
       "drama_title": "우리들의 블루스",
       "place_id": "P028",
       "place_name": "제주도",
-      "place_candidates": [
-        "제주도"
-      ],
+      "place_candidates": ["제주도"],
       "region": "제주도",
       "city": "제주시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "제주도"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["제주도"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "제주도에서 드라마를 촬영한 장소. 청량한 분위기와 탁트인 분위기가 느껴질 수 있는 골목길에 위치한 건물. 이미지에서는 자막을 통해 드라마의 제목과 장소를 알 수 있습니다.",
       "input_keyframe_path": "keyframes/V006_P028_S001.jpg",
       "candidate_ranges": [
@@ -3197,35 +2126,16 @@
       "drama_title": "우리들의 블루스",
       "place_id": "P042",
       "place_name": "쿠키 가파도",
-      "place_candidates": [
-        "쿠키 가파도"
-      ],
+      "place_candidates": ["쿠키 가파도"],
       "region": "제주도",
       "city": "서귀포시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "쿠키 가파도"
-      ],
-      "k_culture_elements": [
-        "드라마촬영지",
-        "한복체험"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["쿠키 가파도"],
+      "k_culture_elements": ["드라마촬영지", "한복체험"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 '우리들의 블루스'라는 드라마촬영지에서 찍혔습니다. 이 장소는 한복체험을 제공하며, 낮 시간에 촬영되었습니다.",
       "input_keyframe_path": "keyframes/V006_P042_S001.jpg",
       "candidate_ranges": [
@@ -3252,39 +2162,16 @@
       "drama_title": "우리들의 블루스",
       "place_id": "P043",
       "place_name": "신촌 앞바다",
-      "place_candidates": [
-        "신촌 앞바다"
-      ],
+      "place_candidates": ["신촌 앞바다"],
       "region": "제주도",
       "city": "제주시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "바다",
-        "바위 덩",
-        "하늘",
-        "바람",
-        "풍경"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["바다", "바위 덩", "하늘", "바람", "풍경"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 섬의 아름다운 바다와 바위 덩을 가진 드라마촬영지입니다. 여름에서 오후에 산책을 하면서 명소탐방을 할 수 있는 장소입니다.",
       "input_keyframe_path": "keyframes/V006_P043_S001.jpg",
       "candidate_ranges": [
@@ -3311,37 +2198,16 @@
       "drama_title": "도깨비",
       "place_id": "P013",
       "place_name": "강릉 주문진",
-      "place_candidates": [
-        "강릉 주문진"
-      ],
+      "place_candidates": ["강릉 주문진"],
       "region": "강원도",
       "city": "강릉시",
-      "season": [
-        "겨울"
-      ],
-      "expected_seasons": [
-        "겨울"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "강릉 주문진",
-        "두명의 사람들",
-        "바다",
-        "풍경"
-      ],
-      "k_culture_elements": [
-        "드라마촬영지",
-        "전통문화"
-      ],
-      "activity": [
-        "산책"
-      ],
+      "season": ["겨울"],
+      "expected_seasons": ["겨울"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["강릉 주문진", "두명의 사람들", "바다", "풍경"],
+      "k_culture_elements": ["드라마촬영지", "전통문화"],
+      "activity": ["산책"],
       "description": "드라마 '도깨비'가 촬영된 강릉 주문진 (gangwon)에서, 두명의 사람들은 바다를 통해 산책을 떠나고 있습니다. 이 장소는 겨울 시즌에서 활기찬 분위기를 자랑스러운 풍경으로 제공합니다.",
       "input_keyframe_path": "keyframes/V008_P013_S001.jpg",
       "candidate_ranges": [
@@ -3368,39 +2234,16 @@
       "drama_title": "도깨비",
       "place_id": "P013",
       "place_name": "강릉 주문진",
-      "place_candidates": [
-        "강릉 주문진"
-      ],
+      "place_candidates": ["강릉 주문진"],
       "region": "강원도",
       "city": "강릉시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "강릉 주문진",
-        "바다",
-        "해변",
-        "하늘",
-        "햇살"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["강릉 주문진", "바다", "해변", "하늘", "햇살"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "강릉 주문진에서는 여름 시절에, 드라마 촬영지와 K드라마성지가 있습니다. 이 장소에서는 산책과 명소탐방을 할 수 있으며, 오후 시간대에 낮 햇살과 해변의 아름다운 풍경을 즐길 수 있습니다.",
       "input_keyframe_path": "keyframes/V008_P013_S002.jpg",
       "candidate_ranges": [
@@ -3427,24 +2270,13 @@
       "drama_title": "도깨비",
       "place_id": "P014",
       "place_name": "평창 월정사",
-      "place_candidates": [
-        "평창 월정사"
-      ],
+      "place_candidates": ["평창 월정사"],
       "region": "강원도",
       "city": "평창군",
-      "season": [
-        "겨울"
-      ],
-      "expected_seasons": [
-        "겨울"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
+      "season": ["겨울"],
+      "expected_seasons": ["겨울"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운", "아름다운"],
       "scene_elements": [
         "사람",
         "빈 공간",
@@ -3457,15 +2289,8 @@
         "차량",
         "장애물"
       ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "한복체험"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "한복체험"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장면은 '도깨비'라는 K드라마의 일부분을 나타내고 있습니다. 촬영 장소명은 '평창 월정사 (gangwon)'입니다. 은 ''입니다. 이미지는 겨울에 촬영된 것으로 보입니다. 오후 시간에 촬영되었고, 평화로운 분위기와 아름다운 장소를 나타내고 있습니다.",
       "input_keyframe_path": "keyframes/V008_P014_S001.jpg",
       "candidate_ranges": [
@@ -3492,35 +2317,16 @@
       "drama_title": "도깨비",
       "place_id": "P014",
       "place_name": "평창 월정사",
-      "place_candidates": [
-        "평창 월정사"
-      ],
+      "place_candidates": ["평창 월정사"],
       "region": "강원도",
       "city": "평창군",
-      "season": [
-        "겨울"
-      ],
-      "expected_seasons": [
-        "겨울"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "평창 월정사"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["겨울"],
+      "expected_seasons": ["겨울"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["평창 월정사"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 평창 월정사에서 촬영된 드라마 스텔링 장면입니다. 겨울 시즌에서 오후 시간에 찍혔습니다. 이 장소는 K드라마성지와 드라마촬영지로 유명합니다. 여기서는 산책과 명소탐방을 할 수 있습니다.",
       "input_keyframe_path": "keyframes/V008_P014_S002.jpg",
       "candidate_ranges": [
@@ -3547,35 +2353,16 @@
       "drama_title": "도깨비",
       "place_id": "P044",
       "place_name": "주문진 방파제",
-      "place_candidates": [
-        "주문진 방파제"
-      ],
+      "place_candidates": ["주문진 방파제"],
       "region": "강원도",
       "city": "강릉시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "푸르른"
-      ],
-      "scene_elements": [
-        "주문진 방파제"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "푸르른"],
+      "scene_elements": ["주문진 방파제"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 드라마촬영지입니다. 봄에서 산책을 하며, 명소탐방을 통해 그 장소의 분위기를 체험할 수 있습니다.",
       "input_keyframe_path": "keyframes/V008_P044_S001.jpg",
       "candidate_ranges": [
@@ -3602,34 +2389,16 @@
       "drama_title": "호텔 델루나",
       "place_id": "P015",
       "place_name": "망상해변",
-      "place_candidates": [
-        "망상해변"
-      ],
+      "place_candidates": ["망상해변"],
       "region": "강원도",
       "city": "동해시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "망상해변"
-      ],
-      "k_culture_elements": [
-        "K드라마성지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["망상해변"],
+      "k_culture_elements": ["K드라마성지"],
+      "activity": ["산책", "명소탐방"],
       "description": "호텔 델루나에서 충분한 해변을 즐기는 여름 시절. K드라마성지를 방문하며, 산책과 명소탐방을 즐기는 청량한 인물이 델루나에서 즐거운 시간을 보내고 있습니다.",
       "input_keyframe_path": "keyframes/V009_P015_S001.jpg",
       "candidate_ranges": [
@@ -3656,28 +2425,14 @@
       "drama_title": "호텔 델루나",
       "place_id": "P022",
       "place_name": "파라다이스시티",
-      "place_candidates": [
-        "파라다이스시티"
-      ],
+      "place_candidates": ["파라다이스시티"],
       "region": "인천광역시",
       "city": "인천광역시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "파라다이스시티",
-        "호텔 델루나"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["파라다이스시티", "호텔 델루나"],
       "k_culture_elements": [
         "K드라마성지",
         "드라마촬영지",
@@ -3719,39 +2474,16 @@
       "drama_title": "호텔 델루나",
       "place_id": "P015",
       "place_name": "망상해변",
-      "place_candidates": [
-        "망상해변"
-      ],
+      "place_candidates": ["망상해변"],
       "region": "강원도",
       "city": "동해시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "해변",
-        "쇼핑",
-        "카페",
-        "자전거",
-        "망상해변"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["해변", "쇼핑", "카페", "자전거", "망상해변"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "호텔 델루나는 드라마에서 여름 시즌에서 아침 햇살로 쇼핑을 하며, 카페를 방문하고 자전거를 타며 망상해변에서 탐방한다.",
       "input_keyframe_path": "keyframes/V009_P015_S002.jpg",
       "candidate_ranges": [
@@ -3778,35 +2510,16 @@
       "drama_title": "건축학개론",
       "place_id": "P045",
       "place_name": "올레길5코스",
-      "place_candidates": [
-        "올레길5코스"
-      ],
+      "place_candidates": ["올레길5코스"],
       "region": "제주도",
       "city": "서귀포시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "올레길5코스"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["올레길5코스"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "올레길5코스 (제주도)에서 건축학개론을 찍은 장소입니다. 이곳은 청량한 분위기와 탁트인 분위기를 가지고 있습니다. 여름 시즌에서 저녁 시간대에 촬영되었으며, 이미지는 드라마촬영지와 K드라마성지의 장소입니다.",
       "input_keyframe_path": "keyframes/V024_P045_S001.jpg",
       "candidate_ranges": [
@@ -3833,34 +2546,16 @@
       "drama_title": "동백꽃 필 무렵",
       "place_id": "P046",
       "place_name": "오천항",
-      "place_candidates": [
-        "오천항"
-      ],
+      "place_candidates": ["오천항"],
       "region": "충청남도",
       "city": "보령시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "오천항"
-      ],
-      "k_culture_elements": [
-        "K드라마성지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["오천항"],
+      "k_culture_elements": ["K드라마성지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 한국의 동백꽃 필 무렵에서 촬영되었습니다. 이 장소는 오천항(chungcheong)으로 알려져 있습니다. 이 장소는 드라마촬영지, 한복체험, 전통문화, 로컬맛집 등의 선택 항목을 가지고 있으며, 여름에서 오후 3시에 촬영되었습니다. 이 장소는 산책과 명소탐방을 통해 자연과 문화를 경험할 수 있습니다.",
       "input_keyframe_path": "keyframes/V025_P046_S001.jpg",
       "candidate_ranges": [
@@ -3887,37 +2582,16 @@
       "drama_title": "동백꽃 필 무렵",
       "place_id": "P047",
       "place_name": "구룡포 일본인가옥거리",
-      "place_candidates": [
-        "구룡포 일본인가옥거리"
-      ],
+      "place_candidates": ["구룡포 일본인가옥거리"],
       "region": "경상북도",
       "city": "포항시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "구룡포 일본인가옥거리"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "전통문화"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방",
-        "카페투어"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["구룡포 일본인가옥거리"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "전통문화"],
+      "activity": ["산책", "명소탐방", "카페투어"],
       "description": "동백꽃 필 무렵에서 구룡포 일본인가옥거리 (대구광역시)에서 드라마촬영을 진행하고 있는 장소입니다. 이 장소는 한국의 역사적 문화와 전통을 담은 골목길과 함께 풍부한 분위기를 제공합니다.",
       "input_keyframe_path": "keyframes/V025_P047_S001.jpg",
       "candidate_ranges": [
@@ -3944,34 +2618,16 @@
       "drama_title": "해운대",
       "place_id": "P049",
       "place_name": "이기대 해안산책로",
-      "place_candidates": [
-        "이기대 해안산책로"
-      ],
+      "place_candidates": ["이기대 해안산책로"],
       "region": "부산광역시",
       "city": "부산광역시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "탁트인"
-      ],
-      "scene_elements": [
-        "이기대 해안산책로"
-      ],
-      "k_culture_elements": [
-        "드라마촬영지",
-        "K팝성지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["탁트인"],
+      "scene_elements": ["이기대 해안산책로"],
+      "k_culture_elements": ["드라마촬영지", "K팝성지"],
+      "activity": ["산책", "명소탐방"],
       "description": "해운대 드라마촬영지에서 탁트인 분위기를 느낀 장소. 여름 오후 산책과 명소탐방을 통해 이미지를 찍은 사람들이 즐길 수 있는 장소입니다.",
       "input_keyframe_path": "keyframes/V026_P049_S001.jpg",
       "candidate_ranges": [
@@ -3998,39 +2654,16 @@
       "drama_title": "가을동화",
       "place_id": "P050",
       "place_name": "화진포 해수욕장",
-      "place_candidates": [
-        "화진포 해수욕장"
-      ],
+      "place_candidates": ["화진포 해수욕장"],
       "region": "강원도",
       "city": "고성군",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "해수욕장",
-        "바다",
-        "쇼핑",
-        "여행지",
-        "자연 풍경"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["해수욕장", "바다", "쇼핑", "여행지", "자연 풍경"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "화진포 해수욕장은 가을에 놓은 이미지입니다. 이곳은 드라마촬영지와 K드라마성지로 유명합니다. 여기서는 산책과 명소탐방을 할 수 있습니다.",
       "input_keyframe_path": "keyframes/V027_P050_S001.jpg",
       "candidate_ranges": [
@@ -4057,33 +2690,16 @@
       "drama_title": "가을동화",
       "place_id": "P051",
       "place_name": "아바이마을",
-      "place_candidates": [
-        "아바이마을"
-      ],
+      "place_candidates": ["아바이마을"],
       "region": "강원도",
       "city": "속초시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운"
-      ],
-      "scene_elements": [
-        "아바이마을"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운"],
+      "scene_elements": ["아바이마을"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책"],
       "description": "이 장소는 가을동화에서 드라마촬영지로 활용되고 있습니다. 산책을 취하며, 그림자와 낮 햇빛으로 인해 평화로운 분위기가 형성됩니다.",
       "input_keyframe_path": "keyframes/V027_P051_S001.jpg",
       "candidate_ranges": [
@@ -4110,35 +2726,16 @@
       "drama_title": "기생충",
       "place_id": "P052",
       "place_name": "자하문터널",
-      "place_candidates": [
-        "자하문터널"
-      ],
+      "place_candidates": ["자하문터널"],
       "region": "서울",
       "city": "서울특별시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "자하문터널"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["자하문터널"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장면은 '기생충' 드라마의 한국 촬영 장소인 자하문터널에서 진행되고 있는 장면입니다. 봄 오후 시간에 촬영된 이미지에서 두 사람은 탐방을 위해 걸어가고 있습니다. 그들의 모습과 분위기는 평화로운, 아름다운 분위기를 보여줍니다.",
       "input_keyframe_path": "keyframes/V028_P052_S001.jpg",
       "candidate_ranges": [
@@ -4165,35 +2762,16 @@
       "drama_title": "남자친구",
       "place_id": "P053",
       "place_name": "사천진 해변",
-      "place_candidates": [
-        "사천진 해변"
-      ],
+      "place_candidates": ["사천진 해변"],
       "region": "강원도",
       "city": "강릉시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "푸르른"
-      ],
-      "scene_elements": [
-        "해변"
-      ],
-      "k_culture_elements": [
-        "드라마촬영지",
-        "K팝성지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "푸르른"],
+      "scene_elements": ["해변"],
+      "k_culture_elements": ["드라마촬영지", "K팝성지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이미지는 한국의 강원도에서 촬영된 드라마 '남자친구'를 기념하는 해변 광장입니다. 여름 오후 시간에 풍부한 해변과 낮 햇살이 강조되어 있습니다.",
       "input_keyframe_path": "keyframes/V029_P053_S001.jpg",
       "candidate_ranges": [
@@ -4220,37 +2798,16 @@
       "drama_title": "악귀",
       "place_id": "P054",
       "place_name": "영인산 자연휴양림",
-      "place_candidates": [
-        "영인산 자연휴양림"
-      ],
+      "place_candidates": ["영인산 자연휴양림"],
       "region": "충청도",
       "city": "아산시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "풍경",
-        "자연",
-        "산책"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "야경감상"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["풍경", "자연", "산책"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "야경감상"],
       "description": "이 장소는 청량한 분위기와 탁트인 분위기를 가진 봄 시즌에서 산책과 드라마촬영을 통해 자연과 문화를 경험할 수 있는 영인산 자연휴양림입니다. 이곳은 풍경에서 놀아보기, 즐거운 시간을 보내고 싶은 분위기를 느끼는 데이트나 여행 계획에 추천됩니다.",
       "input_keyframe_path": "keyframes/V043_P054_S001.jpg",
       "candidate_ranges": [
@@ -4277,40 +2834,16 @@
       "drama_title": "스물다섯 스물하나",
       "place_id": "P007",
       "place_name": "한벽굴",
-      "place_candidates": [
-        "한벽굴"
-      ],
+      "place_candidates": ["한벽굴"],
       "region": "전북특별자치도",
       "city": "전주시",
-      "season": [
-        "겨울"
-      ],
-      "expected_seasons": [
-        "겨울"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "강",
-        "다리",
-        "자동차",
-        "건물",
-        "나무",
-        "하늘"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["겨울"],
+      "expected_seasons": ["겨울"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["강", "다리", "자동차", "건물", "나무", "하늘"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "한벽굴(제olla)에서 스물다섯 스물하나를 촬영한 장소입니다. 오후 3시 정도로 탐방을 진행했습니다. 이 장소는 낮 햇빛과 강의 사이에 위치하고 있으며, 자동차를 타고 산책을 하면서 명소탐방을 진행했습니다. 이 장소는 청량한 분위기와 탁트인 분위기를 가지고 있으며, K드라마성지와 드라마촬영지로도 유명합니다.",
       "input_keyframe_path": "keyframes/V004_P007_S001.jpg",
       "candidate_ranges": [
@@ -4337,35 +2870,16 @@
       "drama_title": "스물다섯 스물하나",
       "place_id": "P008",
       "place_name": "명진 책 대여점",
-      "place_candidates": [
-        "명진 책 대여점"
-      ],
+      "place_candidates": ["명진 책 대여점"],
       "region": "대구광역시",
       "city": "군위군",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "명진 책 대여점 제울라"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "드라이브"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["명진 책 대여점 제울라"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "드라이브"],
       "description": "이미지에는 제주도의 명진 책 대여점이 있습니다. 드라마 촬영 장소로 사용되고 있으며, 여름 시즌에서 오후 시간에 찍혔습니다.",
       "input_keyframe_path": "keyframes/V004_P008_S001.jpg",
       "candidate_ranges": [
@@ -4392,35 +2906,16 @@
       "drama_title": "스물다섯 스물하나",
       "place_id": "P007",
       "place_name": "한벽굴",
-      "place_candidates": [
-        "한벽굴"
-      ],
+      "place_candidates": ["한벽굴"],
       "region": "전북특별자치도",
       "city": "전주시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "한벽굴"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["한벽굴"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "2021년 스물다섯 스물하나의 제작 장소명은 '한벽굴' (제일라)입니다. 이 드라마는 청량한, 탁트인 분위기를 가지고 있습니다. 주요 활동은 산책과 명소탐방으로, 2021년 여름에 제작되었습니다. 이미지는 오후 시간대에 저장된 것으로, 어두운 배경과 인공 조명 위주입니다.",
       "input_keyframe_path": "keyframes/V004_P007_S002.jpg",
       "candidate_ranges": [
@@ -4447,35 +2942,16 @@
       "drama_title": "스물다섯 스물하나",
       "place_id": "P009",
       "place_name": "전주 오목대",
-      "place_candidates": [
-        "전주 오목대"
-      ],
+      "place_candidates": ["전주 오목대"],
       "region": "전북특별자치도",
       "city": "전주시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한"
-      ],
-      "scene_elements": [
-        "아름다운 여인",
-        "풍부한 자연 풍경",
-        "전통적인 건물"
-      ],
-      "k_culture_elements": [
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "데이트"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한"],
+      "scene_elements": ["아름다운 여인", "풍부한 자연 풍경", "전통적인 건물"],
+      "k_culture_elements": ["드라마촬영지"],
+      "activity": ["산책", "데이트"],
       "description": "이 장소는 전주 오목대에서 드라마촬영지와 전통문화공간으로 유명합니다. 여기서는 아름다운 여인과 풍부한 자연 풍경을 즐길 수 있습니다.",
       "input_keyframe_path": "keyframes/V004_P009_S001.jpg",
       "candidate_ranges": [
@@ -4502,37 +2978,16 @@
       "drama_title": "스물다섯 스물하나",
       "place_id": "P007",
       "place_name": "한벽굴",
-      "place_candidates": [
-        "한벽굴"
-      ],
+      "place_candidates": ["한벽굴"],
       "region": "전북특별자치도",
       "city": "전주시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "강",
-        "풍경",
-        "하늘"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "야경감상"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["강", "풍경", "하늘"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "야경감상"],
       "description": "한벽굴에서 드라마촬영을 위해 산책을 취하며, 가을 오후에 강을 따라 탐방하는 경험을 느끼는 청량한 분위기를 느끼는 사람들이 즐길 수 있는 장소입니다. 이 장소에서는 드라마촬영을 위해 풍경과 강을 따라 탐방 할수있습니다.",
       "input_keyframe_path": "keyframes/V004_P007_S003.jpg",
       "candidate_ranges": [
@@ -4559,36 +3014,16 @@
       "drama_title": "이상한 변호사 우영우",
       "place_id": "P055",
       "place_name": "동부마을 팽나무",
-      "place_candidates": [
-        "동부마을 팽나무"
-      ],
+      "place_candidates": ["동부마을 팽나무"],
       "region": "경상남도",
       "city": "창원시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "팽나무",
-        "동부마을 팽나무"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "야경감상"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["팽나무", "동부마을 팽나무"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "야경감상"],
       "description": "이상한 변호사 우영우는 동부마을 팽나무에서 촬영되었습니다. 청량한 탁트인 분위기와 K드라마성지, 드라마촬영지를 포함하고 있으며, 여름 시즌과 오후 시간에서 산책, 야경감상을 할 수 있습니다. 팽나무와 동부마을 팽나무로 이동하여 자연 풍경을 즐길 수 있는 장소입니다.",
       "input_keyframe_path": "keyframes/V030_P055_S001.jpg",
       "candidate_ranges": [
@@ -4615,38 +3050,16 @@
       "drama_title": "조명가게",
       "place_id": "P056",
       "place_name": "강화 전등사",
-      "place_candidates": [
-        "강화 전등사"
-      ],
+      "place_candidates": ["강화 전등사"],
       "region": "인천광역시",
       "city": "인천광역시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "푸르른"
-      ],
-      "scene_elements": [
-        "강화 전등사",
-        "한복체험",
-        "자연 풍경",
-        "여름"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "푸르른"],
+      "scene_elements": ["강화 전등사", "한복체험", "자연 풍경", "여름"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "강화 전등사 (incheon)에서 여름 오후, 드라마촬영지와 K드라마성지를 찾아보는 산책을 하고 있습니다. 이 장소는 한복체험과 자연 풍경을 제공하며, 여름에서 청량한 빛과 푸르른 색상으로 찬 사진을 촬영할 수 있습니다.",
       "input_keyframe_path": "keyframes/V032_P056_S001.jpg",
       "candidate_ranges": [
@@ -4673,36 +3086,16 @@
       "drama_title": "더 글로리",
       "place_id": "P057",
       "place_name": "청라호수공원",
-      "place_candidates": [
-        "청라호수공원"
-      ],
+      "place_candidates": ["청라호수공원"],
       "region": "인천광역시",
       "city": "인천광역시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "청라호수공원"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "전통문화"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["청라호수공원"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "전통문화"],
+      "activity": ["산책", "명소탐방"],
       "description": "더 글로리는 청라호수공원에서 촬영된 드라마. 탁트인 분위기와 전통문화를 담은 장소를 탐색하며, 낮 시간에 산책을 취하는 여름 시즌에서 이미지가 제공됩니다.",
       "input_keyframe_path": "keyframes/V033_P057_S001.jpg",
       "candidate_ranges": [
@@ -4729,35 +3122,16 @@
       "drama_title": "엽기적인 그녀",
       "place_id": "P058",
       "place_name": "부평역",
-      "place_candidates": [
-        "부평역"
-      ],
+      "place_candidates": ["부평역"],
       "region": "인천광역시",
       "city": "인천광역시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "부평역"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["부평역"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "부평역 (incheon)에서 엽기적인 그녀를 촬영한 드라마. 여름 오후에 산책을 하며, 드라마촬영지와 K드라마성지의 분위기가 있는 장소를 탐방합니다.",
       "input_keyframe_path": "keyframes/V034_P058_S001.jpg",
       "candidate_ranges": [
@@ -4784,24 +3158,13 @@
       "drama_title": "킹덤 시즌2",
       "place_id": "P059",
       "place_name": "원대리 자작나무숲",
-      "place_candidates": [
-        "원대리 자작나무숲"
-      ],
+      "place_candidates": ["원대리 자작나무숲"],
       "region": "강원도",
       "city": "인제군",
-      "season": [
-        "겨울"
-      ],
-      "expected_seasons": [
-        "겨울"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
+      "season": ["겨울"],
+      "expected_seasons": ["겨울"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운", "아름다운"],
       "scene_elements": [
         "원대리 자작나무숲",
         "강한 햇빛",
@@ -4810,14 +3173,8 @@
         "풍경",
         "인물"
       ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "드라이브"
-      ],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "드라이브"],
       "description": "이미지는 '킹덤' 시즌2의 장면을 보여주며, 원대리 자작나무숲 (gangwon)에서 드라마촬영이 진행되고 있다. 겨울 시즌에 산책과 드라이브를 하는 분위기의 장면을 보여주며, 강한 햇빛과 골목길투어, 카페투어가 있는 원대리 자작나무숲 (gangwon)에서 이미지를 촬영했다. 인물은 카페에서 일시적으로 머지 있는 것으로 보입니다.",
       "input_keyframe_path": "keyframes/V036_P059_S001.jpg",
       "candidate_ranges": [
@@ -4844,35 +3201,16 @@
       "drama_title": "옥씨부인전",
       "place_id": "P060",
       "place_name": "재인폭포",
-      "place_candidates": [
-        "재인폭포"
-      ],
+      "place_candidates": ["재인폭포"],
       "region": "경기도",
       "city": "연천군",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "재인폭포"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["재인폭포"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "옹씨부인전 드라마 촬영 장소명: 재인폭포 (gyeonggi)",
       "input_keyframe_path": "keyframes/V037_P060_S001.jpg",
       "candidate_ranges": [
@@ -4899,38 +3237,21 @@
       "drama_title": "옥자",
       "place_id": "P061",
       "place_name": "용화산",
-      "place_candidates": [
-        "용화산"
-      ],
+      "place_candidates": ["용화산"],
       "region": "강원도",
       "city": "화천군",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
       "scene_elements": [
         "용화산",
         "청량한 아침 햇살",
         "강렬한 낮 햇빛",
         "그림자"
       ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "용화산에서 드라마촬영을 위해 산책을 하며, 청량한 아침 햇살과 강렬한 낮 햇빛으로 분위기가 변화합니다. 이미지에서는 자막을 통해 장소와 분위기를 설명하고, 그림자가 있는 골목길과 산책을 탐방할 수 있습니다.",
       "input_keyframe_path": "keyframes/V040_P061_S001.jpg",
       "candidate_ranges": [
@@ -4957,35 +3278,16 @@
       "drama_title": "미스터 션샤인",
       "place_id": "P062",
       "place_name": "선샤인스튜디오",
-      "place_candidates": [
-        "선샤인스튜디오"
-      ],
+      "place_candidates": ["선샤인스튜디오"],
       "region": "충청남도",
       "city": "논산시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "탁트인",
-        "평화로운"
-      ],
-      "scene_elements": [
-        "선샤인스튜디오"
-      ],
-      "k_culture_elements": [
-        "드라마촬영지",
-        "한복체험"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["탁트인", "평화로운"],
+      "scene_elements": ["선샤인스튜디오"],
+      "k_culture_elements": ["드라마촬영지", "한복체험"],
+      "activity": ["산책", "명소탐방"],
       "description": "선샤인스튜디오(chungcheong)에서 미스터 션샤인 드라마를 촬영하는 장소입니다. 봄 시즌에 산책을 취하며, 명소탐방을 통해 선샤인스튜디오의 분위기를 경험할 수 있습니다.",
       "input_keyframe_path": "keyframes/V042_P062_S001.jpg",
       "candidate_ranges": [
@@ -5012,38 +3314,16 @@
       "drama_title": "미스터 션샤인",
       "place_id": "P065",
       "place_name": "서산유기방가옥",
-      "place_candidates": [
-        "서산유기방가옥"
-      ],
+      "place_candidates": ["서산유기방가옥"],
       "region": "충청도",
       "city": "서산시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "명소탐방",
-        "자연 풍경",
-        "푸르른 꽃들"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "한복체험"
-      ],
-      "activity": [
-        "산책",
-        "드라이브"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["명소탐방", "자연 풍경", "푸르른 꽃들"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "한복체험"],
+      "activity": ["산책", "드라이브"],
       "description": "이 장소는 서산유기방가옥에 위치하고 있습니다. 오후에 햇살이 강렬한 것으로 알려져 있습니다.",
       "input_keyframe_path": "keyframes/V042_P065_S001.jpg",
       "candidate_ranges": [
@@ -5070,35 +3350,16 @@
       "drama_title": "미스터 션샤인",
       "place_id": "P066",
       "place_name": "안동 만휴정",
-      "place_candidates": [
-        "안동 만휴정"
-      ],
+      "place_candidates": ["안동 만휴정"],
       "region": "경상북도",
       "city": "안동시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "안동 만휴정"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["안동 만휴정"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 한국의 대표적인 드라마촬영지입니다. 가을에서 산책을 하면서 명소탐방을 할 수 있습니다. 밤에 이 장소를 방문하는 것도 좋은 선택입니다.",
       "input_keyframe_path": "keyframes/V042_P066_S001.jpg",
       "candidate_ranges": [
@@ -5125,33 +3386,16 @@
       "drama_title": "미스터 션샤인",
       "place_id": "P066",
       "place_name": "안동 만휴정",
-      "place_candidates": [
-        "안동 만휴정"
-      ],
+      "place_candidates": ["안동 만휴정"],
       "region": "경상북도",
       "city": "안동시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한"
-      ],
-      "scene_elements": [
-        "안동 만휴정"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한"],
+      "scene_elements": ["안동 만휴정"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책"],
       "description": "한국 드라마 '미스터 션샤인'은 안동 만휴정(대구광역시)에서 촬영되었습니다. 가을 오후 시간에, 이미지에서는 한국 드라마 배경과 함께 산책을 하고 있는 여성과 남자가 등장합니다.",
       "input_keyframe_path": "keyframes/V042_P066_S002.jpg",
       "candidate_ranges": [
@@ -5178,34 +3422,16 @@
       "drama_title": "그 해 우리는",
       "place_id": "P005",
       "place_name": "전주 한옥마을",
-      "place_candidates": [
-        "전주 한옥마을"
-      ],
+      "place_candidates": ["전주 한옥마을"],
       "region": "전북특별자치도",
       "city": "전주시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "저녁"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "전주 한옥마을"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["저녁"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["전주 한옥마을"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책"],
       "description": "전주 한옥마을 (제olla)에서 드라마 '그 해 우리는' 촬영되었습니다. 저녁시간에 산책을 하며, 아름다운 풍경과 평화로운 분위기를 느낄 수 있습니다.",
       "input_keyframe_path": "keyframes/V003_P005_S001.jpg",
       "candidate_ranges": [
@@ -5232,37 +3458,16 @@
       "drama_title": "그 해 우리는",
       "place_id": "P001",
       "place_name": "수원 화성",
-      "place_candidates": [
-        "수원 화성"
-      ],
+      "place_candidates": ["수원 화성"],
       "region": "경기도",
       "city": "수원시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "수원 화성"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "전통문화"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방",
-        "카페투어"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["수원 화성"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "전통문화"],
+      "activity": ["산책", "명소탐방", "카페투어"],
       "description": "수원 화성에서 그 해 우리는 드라마촬영을 위한 탐방과 전통문화를 체험할 수 있습니다. 이 장소는 여름에도 낮 햇빛으로 인기가 높아서 많은 사람들이 방문합니다.",
       "input_keyframe_path": "keyframes/V003_P001_S001.jpg",
       "candidate_ranges": [
@@ -5289,37 +3494,16 @@
       "drama_title": "그 해 우리는",
       "place_id": "P006",
       "place_name": "온빛자연휴양림",
-      "place_candidates": [
-        "온빛자연휴양림"
-      ],
+      "place_candidates": ["온빛자연휴양림"],
       "region": "충청남도",
       "city": "논산시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "강",
-        "나무",
-        "자연 풍경"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["강", "나무", "자연 풍경"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 논산 은빛자연휴양림(chungcheong)에서 촬영된 드라마 제목인 '그 해 우리는'을 기반으로 한국의 대표적인 관광지로 알려진 장소입니다. 이 장소는 가을에 방문하면 풍경에서 청량한 아침 햇살과 강을 통해 탁트인 분위기를 느끼고, 드라마 촬영지로서 이미지에서 나무와 자연 풍경을 보여주는 장소입니다.",
       "input_keyframe_path": "keyframes/V003_P006_S001.jpg",
       "candidate_ranges": [
@@ -5346,40 +3530,16 @@
       "drama_title": "그 해 우리는",
       "place_id": "P006",
       "place_name": "온빛자연휴양림",
-      "place_candidates": [
-        "온빛자연휴양림"
-      ],
+      "place_candidates": ["온빛자연휴양림"],
       "region": "충청남도",
       "city": "논산시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "자녀",
-        "나무",
-        "길",
-        "하늘",
-        "사람",
-        "장소명"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["자녀", "나무", "길", "하늘", "사람", "장소명"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 논산 은빛자연휴양림(chungcheong)에서 촬영된 드라마 제목인 '그 해 우리는'을 기반으로 한다. 이 장소는 가을 시즌에 놓여져 있고, 오후 시간에 탐방하는 사람들과 나무들이 함께 존재합니다. 자녀들은 이 장소를 탐색하며, 그들의 즐거운 시간을 보내고 있습니다.",
       "input_keyframe_path": "keyframes/V003_P006_S002.jpg",
       "candidate_ranges": [
@@ -5406,38 +3566,16 @@
       "drama_title": "그 해 우리는",
       "place_id": "P006",
       "place_name": "온빛자연휴양림",
-      "place_candidates": [
-        "온빛자연휴양림"
-      ],
+      "place_candidates": ["온빛자연휴양림"],
       "region": "충청남도",
       "city": "논산시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "탁트인",
-        "평화로운"
-      ],
-      "scene_elements": [
-        "온빛자연휴양림",
-        "푸르른 나무",
-        "하늘",
-        "텍스트"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "카페투어"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["탁트인", "평화로운"],
+      "scene_elements": ["온빛자연휴양림", "푸르른 나무", "하늘", "텍스트"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "카페투어"],
       "description": "이미지는 청량한 가을 오후에, 충청도 자연휴양림에서 카페를 찾아 탐방하고 있다. 드라마 촬영지로 유명한 장소이며, 푸르른 나무와 풍경을 감상할 수 있는 골목길 투어를 제공합니다. 카페에서 즐거운 시간을 보내고 싶은 분위기를 느끼며, 이 장소와 분위기를 함께 경험하는 것이 좋아요.",
       "input_keyframe_path": "keyframes/V003_P006_S003.jpg",
       "candidate_ranges": [
@@ -5464,36 +3602,16 @@
       "drama_title": "사랑비",
       "place_id": "P067",
       "place_name": "계명대",
-      "place_candidates": [
-        "계명대"
-      ],
+      "place_candidates": ["계명대"],
       "region": "대구광역시",
       "city": "대구광역시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "계명대"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "전통문화"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["계명대"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "전통문화"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 K드라마성지와 드라마촬영지로 유명한 대학교입니다. 봄에 놓은 풍경과 낮의 햇빛으로 인해 이 장소는 청량한, 탁트인 분위기를 가집니다. 이곳에서는 산책과 명소탐방을 할 수 있습니다.",
       "input_keyframe_path": "keyframes/V044_P067_S001.jpg",
       "candidate_ranges": [
@@ -5520,35 +3638,16 @@
       "drama_title": "사랑비",
       "place_id": "P067",
       "place_name": "계명대",
-      "place_candidates": [
-        "계명대"
-      ],
+      "place_candidates": ["계명대"],
       "region": "대구광역시",
       "city": "대구광역시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "계명대"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "드라이브"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["계명대"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "드라이브"],
       "description": "이 장소는 대한민국의 대구에 위치하고, 드라마 촬영을 위해 사용되었습니다. 이 장소는 봄에 있으며, 오후에 탐방할 수 있습니다.",
       "input_keyframe_path": "keyframes/V044_P067_S002.jpg",
       "candidate_ranges": [
@@ -5575,34 +3674,16 @@
       "drama_title": "사랑비",
       "place_id": "P068",
       "place_name": "춘천 제이드가든",
-      "place_candidates": [
-        "춘천 제이드가든"
-      ],
+      "place_candidates": ["춘천 제이드가든"],
       "region": "강원도",
       "city": "춘천시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "탁트인",
-        "평화로운"
-      ],
-      "scene_elements": [
-        "춘천 제이드가든"
-      ],
-      "k_culture_elements": [
-        "K드라마성지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["탁트인", "평화로운"],
+      "scene_elements": ["춘천 제이드가든"],
+      "k_culture_elements": ["K드라마성지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 한국의 강원도시에 위치하고 있습니다. 춘천 제이드가든 산책으로 유명합니다. 이곳은 탑트인 분위기를 느끼는 자연풍경을 제공하며, 가을에 방문하면 더욱 아름다운 모습을 볼 수 있습니다. 이곳은 산책과 명소탐방을 통해 자연과 문화를 경험할 수 있는 좋은 여행지입니다.",
       "input_keyframe_path": "keyframes/V044_P068_S001.jpg",
       "candidate_ranges": [
@@ -5629,34 +3710,16 @@
       "drama_title": "겨울연가",
       "place_id": "P069",
       "place_name": "남이섬",
-      "place_candidates": [
-        "남이섬"
-      ],
+      "place_candidates": ["남이섬"],
       "region": "강원도",
       "city": "춘천시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한"
-      ],
-      "scene_elements": [
-        "남이섬"
-      ],
-      "k_culture_elements": [
-        "드라마촬영지",
-        "전통문화"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한"],
+      "scene_elements": ["남이섬"],
+      "k_culture_elements": ["드라마촬영지", "전통문화"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장면은 겨울연가의 남이섬에서 일어난 것으로, 봄에 풍부한 분위기를 나타내고 있습니다. 드라마촬영지와 전통문화를 포함하는 활동을 선택했으며, 오후에 일어난 것으로 알려져 있습니다.",
       "input_keyframe_path": "keyframes/V045_P069_S001.jpg",
       "candidate_ranges": [
@@ -5683,39 +3746,21 @@
       "drama_title": "겨울연가",
       "place_id": "P070",
       "place_name": "남이섬 겹벚나무길",
-      "place_candidates": [
-        "남이섬 겹벚나무길"
-      ],
+      "place_candidates": ["남이섬 겹벚나무길"],
       "region": "강원도",
       "city": "춘천시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "나무",
-        "사람",
-        "자연 풍경"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["나무", "사람", "자연 풍경"],
       "k_culture_elements": [
         "K드라마성지",
         "드라마촬영지",
         "전통시장",
         "카페거리"
       ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "activity": ["산책", "명소탐방"],
       "description": "겨울연가는 한국의 드라마촬영지인 동아리버에서 여기서는 자연과 사람들이 함께하는 시간을 즐길 수 있습니다. 동아리버의 벚나무로 가득 풍경에 몸이 담긴 그림자와 함께하며, 카페를 찾아서 즐거운 시간을 보내는 것도 가능합니다. 또한 동아리버의 전통시장에서 맛있는 음식과 함께하며, 카페를 찾아서 즐거운 시간을 보내는 것도 가능합니다. 이러한 활기찬 분위기와 함께하면 더욱 멋지게 여행할 수 있습니다.",
       "input_keyframe_path": "keyframes/V045_P070_S001.jpg",
       "candidate_ranges": [
@@ -5742,36 +3787,16 @@
       "drama_title": "겨울연가",
       "place_id": "P071",
       "place_name": "남이섬 메타세쿼이아길",
-      "place_candidates": [
-        "남이섬 메타세쿼이아길"
-      ],
+      "place_candidates": ["남이섬 메타세쿼이아길"],
       "region": "강원도",
       "city": "춘천시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "나무",
-        "사람들"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "데이트"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["나무", "사람들"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "데이트"],
       "description": "겨울연가 드라마 촬영지인 남이섬에서 가족이 함께 산책을 하고 있는 장면입니다. 가족들은 탁티인 분위기를 느끼며, 이 장소는 가족들이 함께 산책을 하며, 드라마 촬영지의 아름다운 나무와 자연 풍경을 즐기고 있습니다.",
       "input_keyframe_path": "keyframes/V045_P071_S001.jpg",
       "candidate_ranges": [
@@ -5798,35 +3823,16 @@
       "drama_title": "겨울연가",
       "place_id": "P071",
       "place_name": "남이섬 메타세쿼이아길",
-      "place_candidates": [
-        "남이섬 메타세쿼이아길"
-      ],
+      "place_candidates": ["남이섬 메타세쿼이아길"],
       "region": "강원도",
       "city": "춘천시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "푸르른"
-      ],
-      "scene_elements": [
-        "남이섬 메타세쿼이아길"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "푸르른"],
+      "scene_elements": ["남이섬 메타세쿼이아길"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "남이섬 메타세쿼이아길 (강원)에서 겨울연가 드라마를 촬영한 장소입니다. 푸르른 가을 하늘과 산책으로 놀러는 이미지를 보면, 그 중에 명소탐방을 위해 여기서 한번 방문해보시다.",
       "input_keyframe_path": "keyframes/V045_P071_S002.jpg",
       "candidate_ranges": [
@@ -5853,37 +3859,16 @@
       "drama_title": "옷소매 붉은 끝동",
       "place_id": "P072",
       "place_name": "아침고요수목원 서화연",
-      "place_candidates": [
-        "아침고요수목원 서화연"
-      ],
+      "place_candidates": ["아침고요수목원 서화연"],
       "region": "경기도",
       "city": "가평군",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오전"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "강",
-        "나무",
-        "풍경"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오전"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["강", "나무", "풍경"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "아침 시간에 붉은 끝동을 보는 서화연 공원. 강의 한 편으로 나무와 풍경이 있고, 드라마를 촬영하기 위해 이곳에 오신 것으로 추정됩니다.",
       "input_keyframe_path": "keyframes/V046_P072_S001.jpg",
       "candidate_ranges": [
@@ -5910,35 +3895,16 @@
       "drama_title": "옷소매 붉은 끝동",
       "place_id": "P072",
       "place_name": "아침고요수목원 서화연",
-      "place_candidates": [
-        "아침고요수목원 서화연"
-      ],
+      "place_candidates": ["아침고요수목원 서화연"],
       "region": "경기도",
       "city": "가평군",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "아침고요수목원 서화연"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["아침고요수목원 서화연"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "이미지는 아침고요수목원 서화연에서 드라마촬영을 위한 장소입니다. 봄에 탑트인 분위기로, 산책과 명소탐방을 통해 이 장소를 경험할 수 있습니다.",
       "input_keyframe_path": "keyframes/V046_P072_S002.jpg",
       "candidate_ranges": [
@@ -5965,35 +3931,16 @@
       "drama_title": "옷소매 붉은 끝동",
       "place_id": "P073",
       "place_name": "전주향교",
-      "place_candidates": [
-        "전주향교"
-      ],
+      "place_candidates": ["전주향교"],
       "region": "전북특별자치도",
       "city": "전주시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "전주향교"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["전주향교"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "전주향교에서 가을시절에 산책을 하며, 드라마촬영지를 방문하는 탐방을 추천합니다. 이 장소는 청량한 분위기와 탁트인 분위기로 유명합니다.",
       "input_keyframe_path": "keyframes/V046_P073_S001.jpg",
       "candidate_ranges": [
@@ -6020,36 +3967,16 @@
       "drama_title": "옷소매 붉은 끝동",
       "place_id": "P073",
       "place_name": "전주향교",
-      "place_candidates": [
-        "전주향교"
-      ],
+      "place_candidates": ["전주향교"],
       "region": "전북특별자치도",
       "city": "전주시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "자녀",
-        "풍경",
-        "옷소매 붉은 끝동"
-      ],
-      "k_culture_elements": [
-        "전통시장",
-        "카페거리"
-      ],
-      "activity": [
-        "산책"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["자녀", "풍경", "옷소매 붉은 끝동"],
+      "k_culture_elements": ["전통시장", "카페거리"],
+      "activity": ["산책"],
       "description": "전주향교에서 가을 아침 산책을 하는 이미지. 자녀와 함께 풍경을 즐기며, 카페거리를 통해 전통시장과 같은 문화적 요소를 체험할 수 있는 아름다운 지역입니다.",
       "input_keyframe_path": "keyframes/V046_P073_S002.jpg",
       "candidate_ranges": [
@@ -6076,38 +4003,16 @@
       "drama_title": "가을로",
       "place_id": "P074",
       "place_name": "영월 선돌",
-      "place_candidates": [
-        "영월 선돌"
-      ],
+      "place_candidates": ["영월 선돌"],
       "region": "강원도",
       "city": "영월군",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "강",
-        "북은 하늘",
-        "산",
-        "풍경"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "야경감상"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["강", "북은 하늘", "산", "풍경"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "야경감상"],
       "description": "이 장소는 가을에 위치한 영월 선돌 지역입니다. 드라마촬영지와 K드라마성지로 유명하며, 가을에도 풍경감상을 볼 수 있습니다. 이 장소는 산책과 야경감상을 통해 자연의 아름다움을 경험할 수 있으며, 가을에 위치한 강은 그 때문에 더욱 매력적인 장소입니다. 이 장소는 탁트인 분위기를 느끼게 해주며, 드라마촬영지와 K드라마성지로 유명하여 관광객들에게 매력적인 장소입니다.",
       "input_keyframe_path": "keyframes/V047_P074_S001.jpg",
       "candidate_ranges": [
@@ -6134,35 +4039,16 @@
       "drama_title": "연모",
       "place_id": "P073",
       "place_name": "전주향교",
-      "place_candidates": [
-        "전주향교"
-      ],
+      "place_candidates": ["전주향교"],
       "region": "전북특별자치도",
       "city": "전주시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "탁트인",
-        "평화로운"
-      ],
-      "scene_elements": [
-        "전주향교"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["탁트인", "평화로운"],
+      "scene_elements": ["전주향교"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "전주향교 높은 힘을 담은 한국의 대표적인 도시. 가을에 촬영된 이미지는 낮 햇빛과 그림자로 강렬한 색상으로 풍부하고 아름다운 도시를 보여주며, 대중의 관광지로 유명한 전주향교는 이미지에서도 눈에 들어오는 자연과 문화적인 요소를 담고 있습니다.",
       "input_keyframe_path": "keyframes/V048_P073_S001.jpg",
       "candidate_ranges": [
@@ -6189,36 +4075,16 @@
       "drama_title": "연모",
       "place_id": "P073",
       "place_name": "전주향교",
-      "place_candidates": [
-        "전주향교"
-      ],
+      "place_candidates": ["전주향교"],
       "region": "전북특별자치도",
       "city": "전주시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "탁트인",
-        "평화로운"
-      ],
-      "scene_elements": [
-        "전주향교"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "한복체험"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["탁트인", "평화로운"],
+      "scene_elements": ["전주향교"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "한복체험"],
+      "activity": ["산책", "명소탐방"],
       "description": "전주향교 연모, 드라마촬영지에서 탁트인 분위기로 가을 밤시간에 산책하며, 한복체험을 경험하는 장소를 찾아보세요.",
       "input_keyframe_path": "keyframes/V048_P073_S002.jpg",
       "candidate_ranges": [
@@ -6246,37 +4112,16 @@
       "drama_title": null,
       "place_id": "P016",
       "place_name": "경복궁",
-      "place_candidates": [
-        "경복궁"
-      ],
+      "place_candidates": ["경복궁"],
       "region": "서울",
       "city": "서울특별시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "경복궁"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "한복체험"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방",
-        "카페투어"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["경복궁"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "한복체험"],
+      "activity": ["산책", "명소탐방", "카페투어"],
       "description": "경복궁은 서울에 위치한 대표적인 한국의 역사적 문화 및 정치적 중심지로, 여기에는 다양한 촬영 장소가 있습니다. 이미지에서는 북쪽 산뜻과 아래 경복궁을 보여주고 있으며, 풍경은 청량하고 탁트인 분위기를 가집니다. 이 장소는 드라마촬영지, 한복체험 및 카페투어 등의 활동을 추천합니다. 여름에 방문하면 더욱 아름다운 풍경과 이야기를 들을 수 있습니다.",
       "input_keyframe_path": "keyframes/V051_P016_S001.jpg",
       "candidate_ranges": [
@@ -6303,36 +4148,16 @@
       "drama_title": "그 해 우리는",
       "place_id": "P005",
       "place_name": "전주 한옥마을",
-      "place_candidates": [
-        "전주 한옥마을"
-      ],
+      "place_candidates": ["전주 한옥마을"],
       "region": "전북특별자치도",
       "city": "전주시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "전주 한옥마을"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "한옥체험"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["전주 한옥마을"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "한옥체험"],
+      "activity": ["산책", "명소탐방"],
       "description": "전주 한옥마을에서 드라마 촬영 중, 가을 하루 밤 시간에 산책을 취하며, 한옥체험과 드라마촬영지를 경험하는 분위기입니다.",
       "input_keyframe_path": "keyframes/V052_P005_S001.jpg",
       "candidate_ranges": [
@@ -6359,35 +4184,16 @@
       "drama_title": "미스터 션샤인",
       "place_id": "P075",
       "place_name": "안동 하회마을",
-      "place_candidates": [
-        "안동 하회마을"
-      ],
+      "place_candidates": ["안동 하회마을"],
       "region": "경상북도",
       "city": "안동시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "안동 하회마을"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["안동 하회마을"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "안동 하버마을에서 드라마촬영지와 K드라마성지를 찾아볼 수 있는 장소입니다. 여름에서 오후 시간에 산책과 명소탐방을 할 수 있습니다.",
       "input_keyframe_path": "keyframes/V053_P075_S001.jpg",
       "candidate_ranges": [
@@ -6415,35 +4221,16 @@
       "drama_title": null,
       "place_id": "P076",
       "place_name": "남산골한옥마을",
-      "place_candidates": [
-        "남산골한옥마을"
-      ],
+      "place_candidates": ["남산골한옥마을"],
       "region": "서울",
       "city": "서울특별시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "푸르른"
-      ],
-      "scene_elements": [
-        "남산골한옥마을"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "푸르른"],
+      "scene_elements": ["남산골한옥마을"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "여름에서 저녁시간에 푸르는 분위기를 느낄 수 있습니다.",
       "input_keyframe_path": "keyframes/V054_P076_S001.jpg",
       "candidate_ranges": [
@@ -6471,36 +4258,16 @@
       "drama_title": null,
       "place_id": "P077",
       "place_name": "경주 교촌마을",
-      "place_candidates": [
-        "경주 교촌마을"
-      ],
+      "place_candidates": ["경주 교촌마을"],
       "region": "경상북도",
       "city": "경주시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "경주 교촌마을"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "한복체험"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["경주 교촌마을"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "한복체험"],
+      "activity": ["산책", "명소탐방"],
       "description": "경주 교촌마을 (대구광역시)은 한국의 유명한 드라마 촬영지 중 하나입니다. 여름에서도 낮 햇빛과 그림자로 분위기가 달라집니다. 이곳은 산책, 명소탐방을 통해 경주 교촌마을 (대구광역시)에서 즐길 수 있습니다.",
       "input_keyframe_path": "keyframes/V055_P077_S001.jpg",
       "candidate_ranges": [
@@ -6527,24 +4294,13 @@
       "drama_title": "폭싹 속았수다",
       "place_id": "P004",
       "place_name": "고창 학원농장",
-      "place_candidates": [
-        "고창 학원농장"
-      ],
+      "place_candidates": ["고창 학원농장"],
       "region": "전북특별자치도",
       "city": "고창군",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "푸르른"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "푸르른"],
       "scene_elements": [
         "자원 관리 구역",
         "풍경",
@@ -6554,15 +4310,8 @@
         "자연 풍경",
         "인공 조명"
       ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "전통문화"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "전통문화"],
+      "activity": ["산책", "명소탐방"],
       "description": "고창 학원농장은 봄에 열려있는 교육 기관의 대형 농장입니다. 이 귀하의 여행지에서 산책을 취하며, 명소탐방을 통해 전통문화를 체험할 수 있습니다. ",
       "input_keyframe_path": "keyframes/V056_P004_S001.jpg",
       "candidate_ranges": [
@@ -6590,35 +4339,16 @@
       "drama_title": null,
       "place_id": "P078",
       "place_name": "순천만습지",
-      "place_candidates": [
-        "순천만습지"
-      ],
+      "place_candidates": ["순천만습지"],
       "region": "전라남도",
       "city": "순천시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "평화로운",
-        "아름다운"
-      ],
-      "scene_elements": [
-        "순천만습지"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["평화로운", "아름다운"],
+      "scene_elements": ["순천만습지"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "순천만습지에서 드라마촬영을 위한 풍경을 즐기는 가을 낮 시간에, 그림자가 강렬하고 이미지에는 골목길과 푸르른 하늘이 보이며, 자막은 '순천만습지'라고 적혀있습니다.",
       "input_keyframe_path": "keyframes/V057_P078_S001.jpg",
       "candidate_ranges": [
@@ -6646,35 +4376,16 @@
       "drama_title": null,
       "place_id": "P079",
       "place_name": "보령 청라은행마을",
-      "place_candidates": [
-        "보령 청라은행마을"
-      ],
+      "place_candidates": ["보령 청라은행마을"],
       "region": "충청남도",
       "city": "보령시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "탁트인",
-        "평화로운"
-      ],
-      "scene_elements": [
-        "보령 청라은행마을"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["탁트인", "평화로운"],
+      "scene_elements": ["보령 청라은행마을"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "명소탐방"],
       "description": "보령 청라은행마을에서 탑트인 분위기와 드라마촬영지를 느끼는 가을 오후에 산책하며, 이미지에서 자막으로 보여진 장소의 은 ''입니다.",
       "input_keyframe_path": "keyframes/V058_P079_S001.jpg",
       "candidate_ranges": [
@@ -6702,39 +4413,16 @@
       "drama_title": null,
       "place_id": "P080",
       "place_name": "하늘공원",
-      "place_candidates": [
-        "하늘공원"
-      ],
+      "place_candidates": ["하늘공원"],
       "region": "서울",
       "city": "서울특별시",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "하늘공원",
-        "풍경",
-        "자연 풍경",
-        "하늘",
-        "햇살"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "드라이브"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["하늘공원", "풍경", "자연 풍경", "하늘", "햇살"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "드라이브"],
       "description": "이미지는 하늘공원에서 드라마를 촬영한 장소입니다. 그곳은 청량한 분위기와 탁트인 분위기로 가득 채워져 있습니다. 이 장소는 드라마촬영지, 산책, 드라이브를 할 수 있는 귀하의 선택입니다. 봄에서 오후에 촬영되었으며, 풍경과 자연 풍경을 보여주고 있습니다.",
       "input_keyframe_path": "keyframes/V059_P080_S001.jpg",
       "candidate_ranges": [
@@ -6762,35 +4450,16 @@
       "drama_title": null,
       "place_id": "P081",
       "place_name": "황매산 억새평원",
-      "place_candidates": [
-        "황매산 억새평원"
-      ],
+      "place_candidates": ["황매산 억새평원"],
       "region": "경상남도",
       "city": "합천군",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "황매산 억새평원"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "야경감상"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["황매산 억새평원"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "야경감상"],
       "description": "황매산 억세평원에서 드라마 촬영을 위한 산책과 야경감상을 볼 수 있는 장소입니다. 이 지역은 봄에 풍부한 자연 풍경과 드라마 촬영을 위한 좋은 배경으로 유명합니다.",
       "input_keyframe_path": "keyframes/V060_P081_S001.jpg",
       "candidate_ranges": [
@@ -6818,37 +4487,16 @@
       "drama_title": null,
       "place_id": "P082",
       "place_name": "새만금방조제·고군산군도 드라이브",
-      "place_candidates": [
-        "새만금방조제·고군산군도 드라이브"
-      ],
+      "place_candidates": ["새만금방조제·고군산군도 드라이브"],
       "region": "전북특별자치도",
       "city": "군산시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "강",
-        "배경",
-        "하늘"
-      ],
-      "k_culture_elements": [
-        "드라마촬영지",
-        "한복체험"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["강", "배경", "하늘"],
+      "k_culture_elements": ["드라마촬영지", "한복체험"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 새만금방조제·고군산군도 드라이브에서 촬영되었습니다. 여름 오후에 강과 배경을 보여주는 이미지입니다.",
       "input_keyframe_path": "keyframes/V061_P082_S001.jpg",
       "candidate_ranges": [
@@ -6872,28 +4520,16 @@
       "source_segment_id": "V062_P083_S001",
       "youtube_id": "Q8rcwJ2I5GM",
       "source_url": "https://www.youtube.com/watch?v=Q8rcwJ2I5GM",
-      "content_type": "tourism",
-      "drama_title": null,
+      "drama_title": "호텔 델루나",
       "place_id": "P083",
       "place_name": "북한강길",
-      "place_candidates": [
-        "북한강길"
-      ],
+      "place_candidates": ["북한강길"],
       "region": "경기도",
       "city": "가평군",
-      "season": [
-        "봄"
-      ],
-      "expected_seasons": [
-        "봄"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
+      "season": ["봄"],
+      "expected_seasons": ["봄"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
       "scene_elements": [
         "강",
         "나무",
@@ -6906,15 +4542,8 @@
         "풍경",
         "일렘"
       ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "전통문화"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방"
-      ],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "전통문화"],
+      "activity": ["산책", "명소탐방"],
       "description": "이 장소는 북한강길에서 촬영된 드라마 쇼핑스로 인해 많은 관광객들이 방문합니다. 봄 시즌에서 산책과 명소탐방을 통해 자연과 전통문화를 경험할 수 있습니다. 밝은 하늘과 강의 그림자로 인해 아름다운 풍경이 보여집니다.",
       "input_keyframe_path": "keyframes/V062_P083_S001.jpg",
       "candidate_ranges": [
@@ -6942,37 +4571,16 @@
       "drama_title": null,
       "place_id": "P084",
       "place_name": "과천 교육원로·관문로 은행나무길",
-      "place_candidates": [
-        "과천 교육원로·관문로 은행나무길"
-      ],
+      "place_candidates": ["과천 교육원로·관문로 은행나무길"],
       "region": "경기도",
       "city": "과천시",
-      "season": [
-        "가을"
-      ],
-      "expected_seasons": [
-        "가을"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "과천 교육원로 관문로 은행나무길"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지",
-        "전통문화"
-      ],
-      "activity": [
-        "산책",
-        "명소탐방",
-        "카페투어"
-      ],
+      "season": ["가을"],
+      "expected_seasons": ["가을"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["과천 교육원로 관문로 은행나무길"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지", "전통문화"],
+      "activity": ["산책", "명소탐방", "카페투어"],
       "description": "이 장소는 가을에 오후에 위치하고, 드라마촬영지와 전통문화를 담당한다. 카페투어를 볼 수 있으며, 산책과 명소탐방을 할 수 있는 장소입니다.",
       "input_keyframe_path": "keyframes/V063_P084_S001.jpg",
       "candidate_ranges": [
@@ -6996,8 +4604,7 @@
       "source_segment_id": "V064_P085_S001",
       "youtube_id": "EGqlMO-gT4Y",
       "source_url": "https://www.youtube.com/watch?v=EGqlMO-gT4Y",
-      "content_type": "tourism",
-      "drama_title": null,
+      "drama_title": "우리들의 블루스",
       "place_id": "P085",
       "place_name": "종달리 수국길",
       "place_candidates": [
@@ -7056,37 +4663,16 @@
       "drama_title": null,
       "place_id": "P086",
       "place_name": "신창풍차해안도로",
-      "place_candidates": [
-        "신창풍차해안도로"
-      ],
+      "place_candidates": ["신창풍차해안도로"],
       "region": "제주도",
       "city": "제주시",
-      "season": [
-        "여름"
-      ],
-      "expected_seasons": [
-        "여름"
-      ],
-      "time_of_day": [
-        "오후"
-      ],
-      "mood": [
-        "청량한",
-        "탁트인"
-      ],
-      "scene_elements": [
-        "풍차",
-        "해안도",
-        "자동차"
-      ],
-      "k_culture_elements": [
-        "K드라마성지",
-        "드라마촬영지"
-      ],
-      "activity": [
-        "산책",
-        "야경감상"
-      ],
+      "season": ["여름"],
+      "expected_seasons": ["여름"],
+      "time_of_day": ["오후"],
+      "mood": ["청량한", "탁트인"],
+      "scene_elements": ["풍차", "해안도", "자동차"],
+      "k_culture_elements": ["K드라마성지", "드라마촬영지"],
+      "activity": ["산책", "야경감상"],
       "description": "제주 신창풍차해안도로는 드라마 촬영지와 K드라마성지로 유명한 장소입니다. 여름에서 산책과 야경감상을 즐길 수 있으며, 풍차와 해안도를 통해 자연의 아름다움을 느끼고 있습니다. ",
       "input_keyframe_path": "keyframes/V065_P086_S001.jpg",
       "candidate_ranges": [
