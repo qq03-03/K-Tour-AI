@@ -6243,7 +6243,7 @@
       "youtube_id": "6OyPkPe5Le0",
       "source_url": "https://www.youtube.com/watch?v=6OyPkPe5Le0",
       "content_type": "tourism",
-    "drama_title": null,
+      "drama_title": null,
       "place_id": "P016",
       "place_name": "경복궁",
       "place_candidates": [
@@ -6300,8 +6300,7 @@
       "source_segment_id": "V052_P005_S001",
       "youtube_id": "URa5-lfWhII",
       "source_url": "https://www.youtube.com/watch?v=URa5-lfWhII",
-      "content_type": "tourism",
-    "drama_title": null,
+      "drama_title": "그 해 우리는",
       "place_id": "P005",
       "place_name": "전주 한옥마을",
       "place_candidates": [
@@ -6413,7 +6412,7 @@
       "youtube_id": "EPExT6UDYFs",
       "source_url": "https://www.youtube.com/watch?v=EPExT6UDYFs",
       "content_type": "tourism",
-    "drama_title": null,
+      "drama_title": null,
       "place_id": "P076",
       "place_name": "남산골한옥마을",
       "place_candidates": [
@@ -6469,7 +6468,7 @@
       "youtube_id": "2qkleu8Tl2w",
       "source_url": "https://www.youtube.com/watch?v=2qkleu8Tl2w",
       "content_type": "tourism",
-    "drama_title": null,
+      "drama_title": null,
       "place_id": "P077",
       "place_name": "경주 교촌마을",
       "place_candidates": [
@@ -6588,7 +6587,7 @@
       "youtube_id": "cq9KDwdfhDc",
       "source_url": "https://www.youtube.com/watch?v=cq9KDwdfhDc",
       "content_type": "tourism",
-    "drama_title": null,
+      "drama_title": null,
       "place_id": "P078",
       "place_name": "순천만습지",
       "place_candidates": [
@@ -6644,7 +6643,7 @@
       "youtube_id": "n1zwfG5Zu70",
       "source_url": "https://www.youtube.com/watch?v=n1zwfG5Zu70",
       "content_type": "tourism",
-    "drama_title": null,
+      "drama_title": null,
       "place_id": "P079",
       "place_name": "보령 청라은행마을",
       "place_candidates": [
@@ -6700,7 +6699,7 @@
       "youtube_id": "j2oyUQiqy7g",
       "source_url": "https://www.youtube.com/watch?v=j2oyUQiqy7g",
       "content_type": "tourism",
-    "drama_title": null,
+      "drama_title": null,
       "place_id": "P080",
       "place_name": "하늘공원",
       "place_candidates": [
@@ -6760,7 +6759,7 @@
       "youtube_id": "6YDTLJcvX8g",
       "source_url": "https://www.youtube.com/watch?v=6YDTLJcvX8g",
       "content_type": "tourism",
-    "drama_title": null,
+      "drama_title": null,
       "place_id": "P081",
       "place_name": "황매산 억새평원",
       "place_candidates": [
@@ -6815,7 +6814,8 @@
       "source_segment_id": "V061_P082_S001",
       "youtube_id": "KbLnPZ7DdPQ",
       "source_url": "https://www.youtube.com/watch?v=KbLnPZ7DdPQ",
-      "drama_title": "새만금방조제·고군산군도 드라이브",
+      "content_type": "tourism",
+      "drama_title": null,
       "place_id": "P082",
       "place_name": "새만금방조제·고군산군도 드라이브",
       "place_candidates": [
@@ -6872,7 +6872,8 @@
       "source_segment_id": "V062_P083_S001",
       "youtube_id": "Q8rcwJ2I5GM",
       "source_url": "https://www.youtube.com/watch?v=Q8rcwJ2I5GM",
-      "drama_title": "북한강길",
+      "content_type": "tourism",
+      "drama_title": null,
       "place_id": "P083",
       "place_name": "북한강길",
       "place_candidates": [
@@ -6937,7 +6938,8 @@
       "source_segment_id": "V063_P084_S001",
       "youtube_id": "YKXwHtx-ZeQ",
       "source_url": "https://www.youtube.com/watch?v=YKXwHtx-ZeQ",
-      "drama_title": "과천 교육원로·관문로 은행나무길",
+      "content_type": "tourism",
+      "drama_title": null,
       "place_id": "P084",
       "place_name": "과천 교육원로·관문로 은행나무길",
       "place_candidates": [
@@ -6994,7 +6996,8 @@
       "source_segment_id": "V064_P085_S001",
       "youtube_id": "EGqlMO-gT4Y",
       "source_url": "https://www.youtube.com/watch?v=EGqlMO-gT4Y",
-      "drama_title": "종달리 수국길",
+      "content_type": "tourism",
+      "drama_title": null,
       "place_id": "P085",
       "place_name": "종달리 수국길",
       "place_candidates": [
@@ -7049,7 +7052,8 @@
       "source_segment_id": "V065_P086_S001",
       "youtube_id": "6WP8sOqHwSc",
       "source_url": "https://www.youtube.com/watch?v=6WP8sOqHwSc",
-      "drama_title": "신창풍차해안도로",
+      "content_type": "tourism",
+      "drama_title": null,
       "place_id": "P086",
       "place_name": "신창풍차해안도로",
       "place_candidates": [
