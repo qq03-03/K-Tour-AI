@@ -3669,17 +3669,6 @@
     }
   },
   {
-    "source_segment_id": "V064_P085_S001",
-    "video_id": "V064_EGqlMO-gT4Y",
-    "youtube_id": "EGqlMO-gT4Y",
-    "source_url": "https://www.youtube.com/watch?v=EGqlMO-gT4Y",
-    "processing_status": "failed",
-    "error": "RuntimeError: [youtube] Extracting URL: https://www.youtube.com/watch?v=EGqlMO-gT4Y\n[youtube] EGqlMO-gT4Y: Downloading webpage\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\n[youtube] EGqlMO-gT4Y: Downloading android vr player API JSON\n[info] EGqlMO-gT4Y: Downloading 1 format(s): 303+251\n[download] Destination: G:\\K-contents_2nd_preprocess\\preprocessed_output\\original_videos\\EGqlMO-gT4Y.f303.webm\n\n[download]   0.0% of  413.05MiB at  332.09KiB/s ETA 21:13\n[download]   0.0% of  413.05MiB at  750.01KiB/s ETA 09:23\n[download]   0.0% of  413.05MiB at    1.71MiB/s ETA 04:01\n[download]   0.0% of  413.05MiB at    2.93MiB/s ETA 02:20\n[download]   0.0% of  413.05MiB at    4.32MiB/s ETA 01:35\n[download]   0.0% of  413.05MiB at    6.84MiB/s ETA 01:00\n[download]   0.0% of  413.05MiB at   11.28MiB/s ETA 00:36\n[download]   0.1% of  413.05MiB at   15.56MiB/s ETA 00:26\n[download]   0.1% of  413.05MiB at   20.78MiB/s ETA 00:19\n[download]   0.2% of  413.05MiB at    8.80MiB/s ETA 00:46\n[download]   0.5% of  413.05MiB at   13.54MiB/s ETA 00:30\n[download]   1.0% of  413.05MiB at   19.16MiB/s ETA 00:21\n[download]   1.9% of  413.05MiB at   22.62MiB/s ETA 00:17\n[download]   2.4% of  413.05MiB at   24.23MiB/s ETA 00:16\n[download]   2.4% of  413.05MiB at  Unknown B/s ETA Unknown\n[download]   2.4% of  413.05MiB at  Unknown B/s ETA Unknown\n[download]   2.4% of  413.05MiB at    6.77MiB/s ETA 00:59  \n[download]   2.4% of  413.05MiB at    7.28MiB/s ETA 00:55\n[download]   2.4% of  413.05MiB at    6.06MiB/s ETA 01:06\n[download]   2.4% of  413.05MiB at    8.79MiB/s ETA 00:45\n[download]   2.4% of  413.05MiB at    1.44MiB/s ETA 04:40\n[download]   2.5% of  413.05MiB at    2.73MiB/s ETA 02:27\n[download]   2.5% of  413.05MiB at    5.08MiB/s ETA 01:19\n[download]   2.6% of  413.05MiB at    8.35MiB/s ETA 00:48\n[download]   2.9% of  413.05MiB at   13.59MiB/s ETA 00:29\n[download]   3.4% of  413.05MiB at   19.50MiB/s ETA 00:20\n[download]   4.3% of  413.05MiB at   22.21MiB/s ETA 00:17\n[download]   4.7% of  413.05MiB at   23.50MiB/s ETA 00:16ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
-    "segment_count": 0,
-    "processed_at": "2026-08-11T15:09:54+09:00",
-    "raw_video_path": "original_videos/EGqlMO-gT4Y.mp4"
-  },
-  {
     "source_segment_id": "V065_P086_S001",
     "video_id": "V065_6WP8sOqHwSc",
     "youtube_id": "6WP8sOqHwSc",
@@ -3707,5 +3696,15 @@
       "바다": 1.0,
       "야경": 0.0
     }
+  },
+  {
+    "source_segment_id": "V064_P085_S001",
+    "video_id": "V064_EGqlMO-gT4Y",
+    "youtube_id": "EGqlMO-gT4Y",
+    "source_url": "https://www.youtube.com/watch?v=EGqlMO-gT4Y",
+    "processing_status": "failed",
+    "error": "RuntimeError: [youtube] Extracting URL: https://www.youtube.com/watch?v=EGqlMO-gT4Y\n[youtube] EGqlMO-gT4Y: Downloading webpage\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\n[youtube] EGqlMO-gT4Y: Downloading android vr player API JSON\n[info] EGqlMO-gT4Y: Downloading 1 format(s): 303+251\n[download] Resuming download at byte 30986937\nERROR: unable to download video data: HTTP Error 403: Forbidden\n",
+    "segment_count": 0,
+    "processed_at": "2026-08-12T11:33:44+09:00"
   }
 ]
