@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-08-12T11:33:44+09:00",
+  "target_count": 1,
+  "with_usable_segments": 0,
+  "acquisition_rate": 0.0,
+  "completed_no_usable_segment": 0,
+  "failed": 1,
+  "target_acquisition_rate": 0.95,
+  "note": "정상 재생 가능한 원본 기준 95% 이상 확보를 목표로 하되, 손상/디코딩 실패/사용 불가 화면은 억지로 살리지 않음."
+}

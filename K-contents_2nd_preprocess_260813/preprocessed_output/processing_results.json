@@ -1,0 +1,3693 @@
+[
+  {
+    "source_segment_id": "V014_P021_S001",
+    "video_id": "V014_DGRMHeI8Wt8",
+    "youtube_id": "DGRMHeI8Wt8",
+    "source_url": "https://www.youtube.com/watch?v=DGRMHeI8Wt8",
+    "video_duration": 346.566,
+    "processing_modes": [
+      "medium_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T12:38:28+09:00",
+    "raw_video_path": "original_videos/DGRMHeI8Wt8.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V013_P019_S001",
+    "video_id": "V013_dI3Z5u9N0ew",
+    "youtube_id": "dI3Z5u9N0ew",
+    "source_url": "https://www.youtube.com/watch?v=dI3Z5u9N0ew",
+    "video_duration": 31.366,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 5,
+    "rejected_candidate_count": 0,
+    "theme_category": "단풍",
+    "theme_detail": "단풍",
+    "night_view": false,
+    "processed_at": "2026-08-11T12:38:46+09:00",
+    "raw_video_path": "original_videos/dI3Z5u9N0ew.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 1.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V013_P029_S001",
+    "video_id": "V013_n6_TzBPBYUU",
+    "youtube_id": "n6_TzBPBYUU",
+    "source_url": "https://www.youtube.com/watch?v=n6_TzBPBYUU",
+    "video_duration": 17.4,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T12:38:58+09:00",
+    "raw_video_path": "original_videos/n6_TzBPBYUU.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V013_P020_S001",
+    "video_id": "V013_oetlLeT3dmo",
+    "youtube_id": "oetlLeT3dmo",
+    "source_url": "https://www.youtube.com/watch?v=oetlLeT3dmo",
+    "video_duration": 55.066,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": true,
+    "processed_at": "2026-08-11T12:39:23+09:00",
+    "raw_video_path": "original_videos/oetlLeT3dmo.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V012_P018_S001",
+    "video_id": "V012_m1hv20znDdU",
+    "youtube_id": "m1hv20znDdU",
+    "source_url": "https://www.youtube.com/watch?v=m1hv20znDdU",
+    "video_duration": 14.967,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": false,
+    "processed_at": "2026-08-11T12:39:32+09:00",
+    "raw_video_path": "original_videos/m1hv20znDdU.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V012_P018_S002",
+    "video_id": "V012_bU-dyF_Gsk8",
+    "youtube_id": "bU-dyF_Gsk8",
+    "source_url": "https://www.youtube.com/watch?v=bU-dyF_Gsk8",
+    "video_duration": 17.284,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T12:39:41+09:00",
+    "raw_video_path": "original_videos/bU-dyF_Gsk8.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V012_P018_S003",
+    "video_id": "V012_7oeOss6ffuw",
+    "youtube_id": "7oeOss6ffuw",
+    "source_url": "https://www.youtube.com/watch?v=7oeOss6ffuw",
+    "video_duration": 481.1,
+    "processing_modes": [
+      "medium_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T12:42:50+09:00",
+    "raw_video_path": "original_videos/7oeOss6ffuw.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V011_P016_S001",
+    "video_id": "V011_yZeNfaIK7Nw",
+    "youtube_id": "yZeNfaIK7Nw",
+    "source_url": "https://youtu.be/yZeNfaIK7Nw",
+    "video_duration": 137.603,
+    "processing_modes": [
+      "long_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": false,
+    "processed_at": "2026-08-11T12:43:47+09:00",
+    "raw_video_path": "original_videos/yZeNfaIK7Nw.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V011_P016_S002",
+    "video_id": "V011_Nba1McqxPEo",
+    "youtube_id": "Nba1McqxPEo",
+    "source_url": "https://www.youtube.com/watch?v=Nba1McqxPEo",
+    "video_duration": 34.468,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 24,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": true,
+    "processed_at": "2026-08-11T12:46:42+09:00",
+    "raw_video_path": "original_videos/Nba1McqxPEo.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V011_P017_S001",
+    "video_id": "V011_i2ZuU6szFWE",
+    "youtube_id": "i2ZuU6szFWE",
+    "source_url": "https://youtu.be/i2ZuU6szFWE",
+    "video_duration": 85.552,
+    "processing_modes": [
+      "medium_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": false,
+    "processed_at": "2026-08-11T12:47:45+09:00",
+    "raw_video_path": "original_videos/i2ZuU6szFWE.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V011_P017_S002",
+    "video_id": "V011_c4OOEsGS7Cc",
+    "youtube_id": "c4OOEsGS7Cc",
+    "source_url": "https://www.youtube.com/watch?v=c4OOEsGS7Cc",
+    "video_duration": 28.261,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 9,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": true,
+    "processed_at": "2026-08-11T12:48:09+09:00",
+    "raw_video_path": "original_videos/c4OOEsGS7Cc.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V002_P004_S001",
+    "video_id": "V002_Q6qUEvQfjRs",
+    "youtube_id": "Q6qUEvQfjRs",
+    "source_url": "https://www.youtube.com/watch?v=Q6qUEvQfjRs",
+    "video_duration": 10.733,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "들판",
+    "theme_detail": "들판",
+    "night_view": true,
+    "processed_at": "2026-08-11T12:48:23+09:00",
+    "raw_video_path": "original_videos/Q6qUEvQfjRs.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 1.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V002_P004_S002",
+    "video_id": "V002_rFJT5hNx2AQ",
+    "youtube_id": "rFJT5hNx2AQ",
+    "source_url": "https://www.youtube.com/watch?v=rFJT5hNx2AQ",
+    "video_duration": 146.521,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "들판",
+    "theme_detail": "들판",
+    "night_view": false,
+    "processed_at": "2026-08-11T12:49:51+09:00",
+    "raw_video_path": "original_videos/rFJT5hNx2AQ.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 1.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V002_P004_S003",
+    "video_id": "V002_zY81V4VOA44",
+    "youtube_id": "zY81V4VOA44",
+    "source_url": "https://www.youtube.com/watch?v=zY81V4VOA44",
+    "video_duration": 23.456,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 5,
+    "rejected_candidate_count": 0,
+    "theme_category": "들판",
+    "theme_detail": "들판",
+    "night_view": false,
+    "processed_at": "2026-08-11T12:50:09+09:00",
+    "raw_video_path": "original_videos/zY81V4VOA44.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 1.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V015_P030_S001",
+    "video_id": "V015__MgVRjFcTWE",
+    "youtube_id": "_MgVRjFcTWE",
+    "source_url": "https://www.youtube.com/watch?v=_MgVRjFcTWE",
+    "video_duration": 13.2,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 2,
+    "rejected_candidate_count": 0,
+    "theme_category": "단풍",
+    "theme_detail": "단풍",
+    "night_view": false,
+    "processed_at": "2026-08-11T12:52:01+09:00",
+    "raw_video_path": "original_videos/_MgVRjFcTWE.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 1.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V015_P030_S002",
+    "video_id": "V015_W1rm_FwMh58",
+    "youtube_id": "W1rm_FwMh58",
+    "source_url": "https://www.youtube.com/watch?v=W1rm_FwMh58",
+    "video_duration": 24.358,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": false,
+    "processed_at": "2026-08-11T12:55:02+09:00",
+    "raw_video_path": "original_videos/W1rm_FwMh58.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V015_P087_S001",
+    "video_id": "V015_YIHH8uhM6R8",
+    "youtube_id": "YIHH8uhM6R8",
+    "source_url": "https://www.youtube.com/watch?v=YIHH8uhM6R8",
+    "video_duration": 14.999,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 4,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": false,
+    "processed_at": "2026-08-11T12:55:12+09:00",
+    "raw_video_path": "original_videos/YIHH8uhM6R8.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V007_P012_S001",
+    "video_id": "V007_VNXXMn8pgiE",
+    "youtube_id": "VNXXMn8pgiE",
+    "source_url": "https://www.youtube.com/watch?v=VNXXMn8pgiE",
+    "video_duration": 60.0,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 22,
+    "rejected_candidate_count": 0,
+    "theme_category": "들판",
+    "theme_detail": "들판",
+    "night_view": false,
+    "processed_at": "2026-08-11T12:55:55+09:00",
+    "raw_video_path": "original_videos/VNXXMn8pgiE.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 1.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V007_P012_S002",
+    "video_id": "V007_yb4qs4kRVG4",
+    "youtube_id": "yb4qs4kRVG4",
+    "source_url": "https://www.youtube.com/watch?v=yb4qs4kRVG4",
+    "video_duration": 166.199,
+    "processing_modes": [
+      "long_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T12:57:11+09:00",
+    "raw_video_path": "original_videos/yb4qs4kRVG4.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V007_P031_S001",
+    "video_id": "V007_hIlkwdkXAPE",
+    "youtube_id": "hIlkwdkXAPE",
+    "source_url": "https://www.youtube.com/watch?v=hIlkwdkXAPE",
+    "video_duration": 59.209,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 5,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T12:57:32+09:00",
+    "raw_video_path": "original_videos/hIlkwdkXAPE.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V007_P031_S002",
+    "video_id": "V007_Z7u5SNDq0jw",
+    "youtube_id": "Z7u5SNDq0jw",
+    "source_url": "https://www.youtube.com/watch?v=Z7u5SNDq0jw",
+    "video_duration": 27.5,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 13,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T12:57:51+09:00",
+    "raw_video_path": "original_videos/Z7u5SNDq0jw.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V001_P001_S001",
+    "video_id": "V001_nypQChEVN0c",
+    "youtube_id": "nypQChEVN0c",
+    "source_url": "https://www.youtube.com/watch?v=nypQChEVN0c",
+    "video_duration": 19.227,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 7,
+    "rejected_candidate_count": 0,
+    "theme_category": "꽃",
+    "theme_detail": "꽃",
+    "night_view": false,
+    "processed_at": "2026-08-11T12:58:10+09:00",
+    "raw_video_path": "original_videos/nypQChEVN0c.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 1.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V001_P002_S001",
+    "video_id": "V001_-0MpUmWNN_k",
+    "youtube_id": "-0MpUmWNN_k",
+    "source_url": "https://www.youtube.com/watch?v=-0MpUmWNN_k",
+    "video_duration": 124.658,
+    "processing_modes": [
+      "long_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "꽃",
+    "theme_detail": "꽃",
+    "night_view": true,
+    "processed_at": "2026-08-11T12:58:55+09:00",
+    "raw_video_path": "original_videos/-0MpUmWNN_k.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 1.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V001_P003_S001",
+    "video_id": "V001_rbNbOuhhVT0",
+    "youtube_id": "rbNbOuhhVT0",
+    "source_url": "https://www.youtube.com/watch?v=rbNbOuhhVT0",
+    "video_duration": 147.08,
+    "processing_modes": [
+      "long_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "꽃",
+    "theme_detail": "꽃",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:00:20+09:00",
+    "raw_video_path": "original_videos/rbNbOuhhVT0.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 1.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V001_P032_S001",
+    "video_id": "V001_UMpIdjhxYPQ",
+    "youtube_id": "UMpIdjhxYPQ",
+    "source_url": "https://www.youtube.com/watch?v=UMpIdjhxYPQ",
+    "video_duration": 38.402,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:00:39+09:00",
+    "raw_video_path": "original_videos/UMpIdjhxYPQ.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V001_P063_S001",
+    "video_id": "V001_-vFzATqn5CA",
+    "youtube_id": "-vFzATqn5CA",
+    "source_url": "https://www.youtube.com/watch?v=-vFzATqn5CA",
+    "video_duration": 57.056,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 27,
+    "rejected_candidate_count": 0,
+    "theme_category": "꽃",
+    "theme_detail": "꽃",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:01:18+09:00",
+    "raw_video_path": "original_videos/-vFzATqn5CA.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 1.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V001_P063_S002",
+    "video_id": "V001_dOqvC5nA2wI",
+    "youtube_id": "dOqvC5nA2wI",
+    "source_url": "https://www.youtube.com/watch?v=dOqvC5nA2wI",
+    "video_duration": 10.844,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "꽃",
+    "theme_detail": "꽃",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:01:25+09:00",
+    "raw_video_path": "original_videos/dOqvC5nA2wI.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 1.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V001_P063_S003",
+    "video_id": "V001_iJ-IHQ7tvOQ",
+    "youtube_id": "iJ-IHQ7tvOQ",
+    "source_url": "https://www.youtube.com/watch?v=iJ-IHQ7tvOQ",
+    "video_duration": 53.47,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 4,
+    "rejected_candidate_count": 0,
+    "theme_category": "꽃",
+    "theme_detail": "꽃",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:01:43+09:00",
+    "raw_video_path": "original_videos/iJ-IHQ7tvOQ.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 1.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V001_P064_S002",
+    "video_id": "V001_C04KHPUcpd8",
+    "youtube_id": "C04KHPUcpd8",
+    "source_url": "https://www.youtube.com/watch?v=C04KHPUcpd8",
+    "video_duration": 11.314,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 4,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:01:54+09:00",
+    "raw_video_path": "original_videos/C04KHPUcpd8.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V016_P033_S001",
+    "video_id": "V016_b19nDceyqss",
+    "youtube_id": "b19nDceyqss",
+    "source_url": "https://www.youtube.com/watch?v=b19nDceyqss",
+    "video_duration": 21.576,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:02:26+09:00",
+    "raw_video_path": "original_videos/b19nDceyqss.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V016_P033_S002",
+    "video_id": "V016_Kp2ZsTXh8LQ",
+    "youtube_id": "Kp2ZsTXh8LQ",
+    "source_url": "https://www.youtube.com/watch?v=Kp2ZsTXh8LQ",
+    "video_duration": 58.892,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:02:50+09:00",
+    "raw_video_path": "original_videos/Kp2ZsTXh8LQ.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V017_P034_S001",
+    "video_id": "V017_rjwgCJQbjik",
+    "youtube_id": "rjwgCJQbjik",
+    "source_url": "https://www.youtube.com/watch?v=rjwgCJQbjik",
+    "video_duration": 21.8,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:02:58+09:00",
+    "raw_video_path": "original_videos/rjwgCJQbjik.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V018_P035_S001",
+    "video_id": "V018_MC1PVA9_Ho0",
+    "youtube_id": "MC1PVA9_Ho0",
+    "source_url": "https://www.youtube.com/watch?v=MC1PVA9_Ho0",
+    "video_duration": 15.767,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 7,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:03:13+09:00",
+    "raw_video_path": "original_videos/MC1PVA9_Ho0.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V018_P035_S002",
+    "video_id": "V018_N8zr4el85GE",
+    "youtube_id": "N8zr4el85GE",
+    "source_url": "https://www.youtube.com/watch?v=N8zr4el85GE",
+    "video_duration": 59.992,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 4,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:03:38+09:00",
+    "raw_video_path": "original_videos/N8zr4el85GE.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V019_P036_S001",
+    "video_id": "V019_0FKs6qVKGDE",
+    "youtube_id": "0FKs6qVKGDE",
+    "source_url": "https://www.youtube.com/watch?v=0FKs6qVKGDE",
+    "video_duration": 8.7,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 6,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:04:44+09:00",
+    "raw_video_path": "original_videos/0FKs6qVKGDE.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V019_P036_S002",
+    "video_id": "V019_qto_FhBvaJI",
+    "youtube_id": "qto_FhBvaJI",
+    "source_url": "https://www.youtube.com/watch?v=qto_FhBvaJI",
+    "video_duration": 23.223,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:04:57+09:00",
+    "raw_video_path": "original_videos/qto_FhBvaJI.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V020_P037_S001",
+    "video_id": "V020_w_VwCBHdfH0",
+    "youtube_id": "w_VwCBHdfH0",
+    "source_url": "https://www.youtube.com/watch?v=w_VwCBHdfH0",
+    "video_duration": 5.266,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 6,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:05:07+09:00",
+    "raw_video_path": "original_videos/w_VwCBHdfH0.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V020_P037_S002",
+    "video_id": "V020_A7rRUj2PaAc",
+    "youtube_id": "A7rRUj2PaAc",
+    "source_url": "https://www.youtube.com/watch?v=A7rRUj2PaAc",
+    "video_duration": 18.933,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:05:16+09:00",
+    "raw_video_path": "original_videos/A7rRUj2PaAc.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V021_P038_S002",
+    "video_id": "V021_EzIh2EN_QM0",
+    "youtube_id": "EzIh2EN_QM0",
+    "source_url": "https://www.youtube.com/watch?v=EzIh2EN_QM0",
+    "video_duration": 7.733,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:06:15+09:00",
+    "raw_video_path": "original_videos/EzIh2EN_QM0.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V021_P048_S001",
+    "video_id": "V021_6Fowfd9CIoM",
+    "youtube_id": "6Fowfd9CIoM",
+    "source_url": "https://www.youtube.com/watch?v=6Fowfd9CIoM",
+    "video_duration": 15.415,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 6,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:06:26+09:00",
+    "raw_video_path": "original_videos/6Fowfd9CIoM.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V022_P039_S001",
+    "video_id": "V022_rSGIVEtNrJs",
+    "youtube_id": "rSGIVEtNrJs",
+    "source_url": "https://www.youtube.com/watch?v=rSGIVEtNrJs",
+    "video_duration": 12.199,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:06:33+09:00",
+    "raw_video_path": "original_videos/rSGIVEtNrJs.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V022_P039_S002",
+    "video_id": "V022_SjFU0igyWAk",
+    "youtube_id": "SjFU0igyWAk",
+    "source_url": "https://www.youtube.com/watch?v=SjFU0igyWAk",
+    "video_duration": 8.933,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 2,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:07:24+09:00",
+    "raw_video_path": "original_videos/SjFU0igyWAk.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V023_P040_S001",
+    "video_id": "V023_MDE56HAySSU",
+    "youtube_id": "MDE56HAySSU",
+    "source_url": "https://www.youtube.com/watch?v=MDE56HAySSU",
+    "video_duration": 9.839,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:07:33+09:00",
+    "raw_video_path": "original_videos/MDE56HAySSU.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V023_P040_S002",
+    "video_id": "V023_VP4ZKW5YhrM",
+    "youtube_id": "VP4ZKW5YhrM",
+    "source_url": "https://www.youtube.com/watch?v=VP4ZKW5YhrM",
+    "video_duration": 42.309,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 2,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:07:52+09:00",
+    "raw_video_path": "original_videos/VP4ZKW5YhrM.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V023_P040_S003",
+    "video_id": "V023_GtHPZwo4h9c",
+    "youtube_id": "GtHPZwo4h9c",
+    "source_url": "https://www.youtube.com/watch?v=GtHPZwo4h9c",
+    "video_duration": 7.4,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:07:59+09:00",
+    "raw_video_path": "original_videos/GtHPZwo4h9c.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V005_P010_S001",
+    "video_id": "V005_UjxY3jz0znE",
+    "youtube_id": "UjxY3jz0znE",
+    "source_url": "https://www.youtube.com/watch?v=UjxY3jz0znE",
+    "video_duration": 806.605,
+    "processing_modes": [
+      "long_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:09:17+09:00",
+    "raw_video_path": "original_videos/UjxY3jz0znE.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V005_P023_S001",
+    "video_id": "V005_ch9bdaofYxM",
+    "youtube_id": "ch9bdaofYxM",
+    "source_url": "https://www.youtube.com/watch?v=ch9bdaofYxM",
+    "video_duration": 179.879,
+    "processing_modes": [
+      "long_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:10:42+09:00",
+    "raw_video_path": "original_videos/ch9bdaofYxM.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V005_P024_S001",
+    "video_id": "V005_wi11R_vDBmE",
+    "youtube_id": "wi11R_vDBmE",
+    "source_url": "https://www.youtube.com/watch?v=wi11R_vDBmE",
+    "video_duration": 29.733,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 16,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:11:08+09:00",
+    "raw_video_path": "original_videos/wi11R_vDBmE.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V005_P041_S001",
+    "video_id": "V005_kbQigOKSMuk",
+    "youtube_id": "kbQigOKSMuk",
+    "source_url": "https://www.youtube.com/watch?v=kbQigOKSMuk",
+    "video_duration": 15.0,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:12:35+09:00",
+    "raw_video_path": "original_videos/kbQigOKSMuk.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V005_P023_S002",
+    "video_id": "V005_NjwqtXvGbw0",
+    "youtube_id": "NjwqtXvGbw0",
+    "source_url": "https://www.youtube.com/watch?v=NjwqtXvGbw0",
+    "video_duration": 33.233,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:12:56+09:00",
+    "raw_video_path": "original_videos/NjwqtXvGbw0.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V006_P011_S001",
+    "video_id": "V006_1r7a5mLNGRQ",
+    "youtube_id": "1r7a5mLNGRQ",
+    "source_url": "https://www.youtube.com/watch?v=1r7a5mLNGRQ",
+    "video_duration": 81.014,
+    "processing_modes": [
+      "medium_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:13:38+09:00",
+    "raw_video_path": "original_videos/1r7a5mLNGRQ.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V006_P025_S001",
+    "video_id": "V006_Oeme18IdNzw",
+    "youtube_id": "Oeme18IdNzw",
+    "source_url": "https://www.youtube.com/watch?v=Oeme18IdNzw",
+    "video_duration": 11.966,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:13:52+09:00",
+    "raw_video_path": "original_videos/Oeme18IdNzw.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V006_P026_S001",
+    "video_id": "V006_e6FvfWF4uVg",
+    "youtube_id": "e6FvfWF4uVg",
+    "source_url": "https://www.youtube.com/watch?v=e6FvfWF4uVg",
+    "video_duration": 531.164,
+    "processing_modes": [
+      "long_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:22:28+09:00",
+    "raw_video_path": "original_videos/e6FvfWF4uVg.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V006_P027_S001",
+    "video_id": "V006_Lb3DGOdPafU",
+    "youtube_id": "Lb3DGOdPafU",
+    "source_url": "https://www.youtube.com/watch?v=Lb3DGOdPafU",
+    "video_duration": 15.067,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "드라이브",
+    "theme_detail": "드라이브",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:22:43+09:00",
+    "raw_video_path": "original_videos/Lb3DGOdPafU.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 1.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V006_P042_S001",
+    "video_id": "V006_7vU46xk0VeU",
+    "youtube_id": "7vU46xk0VeU",
+    "source_url": "https://www.youtube.com/watch?v=7vU46xk0VeU",
+    "video_duration": 13.533,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:22:58+09:00",
+    "raw_video_path": "original_videos/7vU46xk0VeU.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V006_P043_S001",
+    "video_id": "V006_3EmLhiFVntw",
+    "youtube_id": "3EmLhiFVntw",
+    "source_url": "https://www.youtube.com/watch?v=3EmLhiFVntw",
+    "video_duration": 21.133,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:23:24+09:00",
+    "raw_video_path": "original_videos/3EmLhiFVntw.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V008_P013_S001",
+    "video_id": "V008_mCeMgl6rR-U",
+    "youtube_id": "mCeMgl6rR-U",
+    "source_url": "https://www.youtube.com/watch?v=mCeMgl6rR-U",
+    "processing_status": "failed",
+    "error": "RuntimeError: [youtube] Extracting URL: https://www.youtube.com/watch?v=mCeMgl6rR-U\n[youtube] mCeMgl6rR-U: Downloading webpage\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\n[youtube] mCeMgl6rR-U: Downloading android vr player API JSON\n[info] mCeMgl6rR-U: Downloading 1 format(s): 399+251\nERROR: unable to download video data: HTTP Error 403: Forbidden\n",
+    "segment_count": 0,
+    "processed_at": "2026-08-11T13:23:26+09:00",
+    "raw_video_path": "original_videos/mCeMgl6rR-U.mp4"
+  },
+  {
+    "source_segment_id": "V008_P013_S002",
+    "video_id": "V008_vzS5MqlN-wU",
+    "youtube_id": "vzS5MqlN-wU",
+    "source_url": "https://www.youtube.com/watch?v=vzS5MqlN-wU",
+    "video_duration": 18.366,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 7,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:23:47+09:00",
+    "raw_video_path": "original_videos/vzS5MqlN-wU.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V008_P014_S001",
+    "video_id": "V008_2jiJ9CCzclg",
+    "youtube_id": "2jiJ9CCzclg",
+    "source_url": "https://www.youtube.com/watch?v=2jiJ9CCzclg",
+    "video_duration": 28.6,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 4,
+    "rejected_candidate_count": 0,
+    "theme_category": "드라이브",
+    "theme_detail": "드라이브",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:24:12+09:00",
+    "raw_video_path": "original_videos/2jiJ9CCzclg.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 1.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V008_P014_S002",
+    "video_id": "V008_89CfEae8uRI",
+    "youtube_id": "89CfEae8uRI",
+    "source_url": "https://www.youtube.com/watch?v=89CfEae8uRI",
+    "video_duration": 139.773,
+    "processing_modes": [
+      "long_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "숲",
+    "theme_detail": "숲",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:25:49+09:00",
+    "raw_video_path": "original_videos/89CfEae8uRI.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 1.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V008_P044_S001",
+    "video_id": "V008_oWyqws_5cbs",
+    "youtube_id": "oWyqws_5cbs",
+    "source_url": "https://www.youtube.com/watch?v=oWyqws_5cbs",
+    "video_duration": 13.666,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 4,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:26:00+09:00",
+    "raw_video_path": "original_videos/oWyqws_5cbs.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V009_P015_S001",
+    "video_id": "V009_7ir6-MekfHU",
+    "youtube_id": "7ir6-MekfHU",
+    "source_url": "https://www.youtube.com/watch?v=7ir6-MekfHU",
+    "video_duration": 44.611,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 14,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:26:25+09:00",
+    "raw_video_path": "original_videos/7ir6-MekfHU.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V009_P022_S001",
+    "video_id": "V009_ju15D1xTvVU",
+    "youtube_id": "ju15D1xTvVU",
+    "source_url": "https://www.youtube.com/watch?v=ju15D1xTvVU",
+    "video_duration": 53.253,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 20,
+    "rejected_candidate_count": 1,
+    "theme_category": "야경",
+    "theme_detail": "야경",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:26:56+09:00",
+    "raw_video_path": "original_videos/ju15D1xTvVU.mp4",
+    "night_verified": true,
+    "night_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 1.0
+    }
+  },
+  {
+    "source_segment_id": "V009_P015_S002",
+    "video_id": "V009_Uiu32MwpDjU",
+    "youtube_id": "Uiu32MwpDjU",
+    "source_url": "https://www.youtube.com/watch?v=Uiu32MwpDjU",
+    "video_duration": 60.667,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 18,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:28:10+09:00",
+    "raw_video_path": "original_videos/Uiu32MwpDjU.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V024_P045_S001",
+    "video_id": "V024_R1rTRNm2DkI",
+    "youtube_id": "R1rTRNm2DkI",
+    "source_url": "https://www.youtube.com/watch?v=R1rTRNm2DkI",
+    "video_duration": 30.433,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:30:57+09:00",
+    "raw_video_path": "original_videos/R1rTRNm2DkI.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V025_P046_S001",
+    "video_id": "V025_FbK7RYLfOik",
+    "youtube_id": "FbK7RYLfOik",
+    "source_url": "https://www.youtube.com/watch?v=FbK7RYLfOik",
+    "video_duration": 60.033,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 8,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:31:23+09:00",
+    "raw_video_path": "original_videos/FbK7RYLfOik.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V025_P047_S001",
+    "video_id": "V025_tiwAynjoXEo",
+    "youtube_id": "tiwAynjoXEo",
+    "source_url": "https://www.youtube.com/watch?v=tiwAynjoXEo",
+    "video_duration": 28.622,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:31:37+09:00",
+    "raw_video_path": "original_videos/tiwAynjoXEo.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V026_P049_S001",
+    "video_id": "V026_upSPnITbUEk",
+    "youtube_id": "upSPnITbUEk",
+    "source_url": "https://www.youtube.com/watch?v=upSPnITbUEk",
+    "video_duration": 17.5,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:31:48+09:00",
+    "raw_video_path": "original_videos/upSPnITbUEk.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V027_P050_S001",
+    "video_id": "V027_XCpPaB9UIVo",
+    "youtube_id": "XCpPaB9UIVo",
+    "source_url": "https://www.youtube.com/watch?v=XCpPaB9UIVo",
+    "video_duration": 22.3,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:32:18+09:00",
+    "raw_video_path": "original_videos/XCpPaB9UIVo.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V027_P051_S001",
+    "video_id": "V027_PmjeJjhmYPU",
+    "youtube_id": "PmjeJjhmYPU",
+    "source_url": "https://www.youtube.com/watch?v=PmjeJjhmYPU",
+    "video_duration": 159.9,
+    "processing_modes": [
+      "long_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:33:27+09:00",
+    "raw_video_path": "original_videos/PmjeJjhmYPU.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V028_P052_S001",
+    "video_id": "V028_fbjFq_we3YY",
+    "youtube_id": "fbjFq_we3YY",
+    "source_url": "https://www.youtube.com/watch?v=fbjFq_we3YY",
+    "video_duration": 55.667,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 9,
+    "rejected_candidate_count": 0,
+    "theme_category": "드라이브",
+    "theme_detail": "드라이브",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:34:05+09:00",
+    "raw_video_path": "original_videos/fbjFq_we3YY.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 1.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V029_P053_S001",
+    "video_id": "V029_U08IEuce6QM",
+    "youtube_id": "U08IEuce6QM",
+    "source_url": "https://www.youtube.com/watch?v=U08IEuce6QM",
+    "video_duration": 14.433,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:34:17+09:00",
+    "raw_video_path": "original_videos/U08IEuce6QM.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V043_P054_S001",
+    "video_id": "V043_UPmSKo82HAI",
+    "youtube_id": "UPmSKo82HAI",
+    "source_url": "https://www.youtube.com/watch?v=UPmSKo82HAI",
+    "video_duration": 20.353,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 6,
+    "rejected_candidate_count": 0,
+    "theme_category": "숲",
+    "theme_detail": "숲",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:34:32+09:00",
+    "raw_video_path": "original_videos/UPmSKo82HAI.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 1.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V004_P007_S001",
+    "video_id": "V004_lod4cPrl-yc",
+    "youtube_id": "lod4cPrl-yc",
+    "source_url": "https://www.youtube.com/watch?v=lod4cPrl-yc",
+    "video_duration": 230.664,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 5,
+    "rejected_candidate_count": 0,
+    "theme_category": "드라이브",
+    "theme_detail": "드라이브",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:35:32+09:00",
+    "raw_video_path": "original_videos/lod4cPrl-yc.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 1.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V004_P008_S001",
+    "video_id": "V004_flZSgw7pP4U",
+    "youtube_id": "flZSgw7pP4U",
+    "source_url": "https://www.youtube.com/watch?v=flZSgw7pP4U",
+    "video_duration": 726.192,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 6,
+    "rejected_candidate_count": 0,
+    "theme_category": "드라이브",
+    "theme_detail": "드라이브",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:36:51+09:00",
+    "raw_video_path": "original_videos/flZSgw7pP4U.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 1.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V004_P007_S002",
+    "video_id": "V004_ljRH65gLa3A",
+    "youtube_id": "ljRH65gLa3A",
+    "source_url": "https://www.youtube.com/watch?v=ljRH65gLa3A",
+    "video_duration": 34.075,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 4,
+    "rejected_candidate_count": 0,
+    "theme_category": "드라이브",
+    "theme_detail": "드라이브",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:37:06+09:00",
+    "raw_video_path": "original_videos/ljRH65gLa3A.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 1.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V004_P009_S001",
+    "video_id": "V004_6EiESTfjT_0",
+    "youtube_id": "6EiESTfjT_0",
+    "source_url": "https://youtu.be/6EiESTfjT_0",
+    "video_duration": 129.062,
+    "processing_modes": [
+      "medium_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:38:01+09:00",
+    "raw_video_path": "original_videos/6EiESTfjT_0.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V004_P007_S003",
+    "video_id": "V004_Gxc73dM1Nro",
+    "youtube_id": "Gxc73dM1Nro",
+    "source_url": "https://www.youtube.com/watch?v=Gxc73dM1Nro",
+    "video_duration": 15.1,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 2,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:38:13+09:00",
+    "raw_video_path": "original_videos/Gxc73dM1Nro.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V030_P055_S001",
+    "video_id": "V030_NKPNXyPV2T4",
+    "youtube_id": "NKPNXyPV2T4",
+    "source_url": "https://www.youtube.com/watch?v=NKPNXyPV2T4",
+    "video_duration": 54.387,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 8,
+    "rejected_candidate_count": 1,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": true,
+    "processed_at": "2026-08-11T13:38:42+09:00",
+    "raw_video_path": "original_videos/NKPNXyPV2T4.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V032_P056_S001",
+    "video_id": "V032_g7jXCiGr0sE",
+    "youtube_id": "g7jXCiGr0sE",
+    "source_url": "https://www.youtube.com/watch?v=g7jXCiGr0sE",
+    "video_duration": 4205.982,
+    "processing_modes": [
+      "long_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:47:25+09:00",
+    "raw_video_path": "original_videos/g7jXCiGr0sE.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V033_P057_S001",
+    "video_id": "V033_i1MTeS2L2G0",
+    "youtube_id": "i1MTeS2L2G0",
+    "source_url": "https://www.youtube.com/watch?v=i1MTeS2L2G0",
+    "video_duration": 93.533,
+    "processing_modes": [
+      "medium_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "꽃",
+    "theme_detail": "꽃",
+    "night_view": false,
+    "processed_at": "2026-08-11T13:48:54+09:00",
+    "raw_video_path": "original_videos/i1MTeS2L2G0.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 1.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V034_P058_S001",
+    "video_id": "V034_PxX26_pJrQY",
+    "youtube_id": "PxX26_pJrQY",
+    "source_url": "https://www.youtube.com/watch?v=PxX26_pJrQY",
+    "video_duration": 1780.295,
+    "processing_modes": [
+      "long_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "드라이브",
+    "theme_detail": "드라이브",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:07:52+09:00",
+    "raw_video_path": "original_videos/PxX26_pJrQY.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 1.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V036_P059_S001",
+    "video_id": "V036_kuk4mdMZtZc",
+    "youtube_id": "kuk4mdMZtZc",
+    "source_url": "https://www.youtube.com/watch?v=kuk4mdMZtZc",
+    "video_duration": 47.013,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 10,
+    "rejected_candidate_count": 0,
+    "theme_category": "숲",
+    "theme_detail": "숲",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:08:50+09:00",
+    "raw_video_path": "original_videos/kuk4mdMZtZc.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 1.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V037_P060_S001",
+    "video_id": "V037_m92D4ZVzQeM",
+    "youtube_id": "m92D4ZVzQeM",
+    "source_url": "https://www.youtube.com/watch?v=m92D4ZVzQeM",
+    "video_duration": 20.0,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 5,
+    "rejected_candidate_count": 0,
+    "theme_category": "숲",
+    "theme_detail": "숲",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:09:10+09:00",
+    "raw_video_path": "original_videos/m92D4ZVzQeM.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 1.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V040_P061_S001",
+    "video_id": "V040_tJ43uFpNJwI",
+    "youtube_id": "tJ43uFpNJwI",
+    "source_url": "https://www.youtube.com/watch?v=tJ43uFpNJwI",
+    "video_duration": 34.2,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "숲",
+    "theme_detail": "숲",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:09:30+09:00",
+    "raw_video_path": "original_videos/tJ43uFpNJwI.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 1.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V042_P062_S001",
+    "video_id": "V042_i-5Aozd4ITM",
+    "youtube_id": "i-5Aozd4ITM",
+    "source_url": "https://www.youtube.com/watch?v=i-5Aozd4ITM",
+    "video_duration": 16.167,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 7,
+    "rejected_candidate_count": 0,
+    "theme_category": "꽃",
+    "theme_detail": "꽃",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:11:37+09:00",
+    "raw_video_path": "original_videos/i-5Aozd4ITM.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 1.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V042_P065_S001",
+    "video_id": "V042_y8UzDeGjDbA",
+    "youtube_id": "y8UzDeGjDbA",
+    "source_url": "https://www.youtube.com/watch?v=y8UzDeGjDbA",
+    "video_duration": 31.5,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "꽃",
+    "theme_detail": "꽃",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:12:04+09:00",
+    "raw_video_path": "original_videos/y8UzDeGjDbA.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 1.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V042_P066_S001",
+    "video_id": "V042_NvBIt1uoGXM",
+    "youtube_id": "NvBIt1uoGXM",
+    "source_url": "https://www.youtube.com/watch?v=NvBIt1uoGXM",
+    "video_duration": 26.767,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 4,
+    "rejected_candidate_count": 0,
+    "theme_category": "단풍",
+    "theme_detail": "단풍",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:13:56+09:00",
+    "raw_video_path": "original_videos/NvBIt1uoGXM.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 1.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V042_P066_S002",
+    "video_id": "V042_k9vNz1ms7lw",
+    "youtube_id": "k9vNz1ms7lw",
+    "source_url": "https://youtu.be/k9vNz1ms7lw",
+    "video_duration": 27.167,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "단풍",
+    "theme_detail": "단풍",
+    "night_view": true,
+    "processed_at": "2026-08-11T14:14:24+09:00",
+    "raw_video_path": "original_videos/k9vNz1ms7lw.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 1.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V003_P001_S001",
+    "video_id": "V003_tJqIDVFhsNU",
+    "youtube_id": "tJqIDVFhsNU",
+    "source_url": "https://www.youtube.com/watch?v=tJqIDVFhsNU",
+    "video_duration": 204.037,
+    "processing_modes": [
+      "long_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:16:41+09:00",
+    "raw_video_path": "original_videos/tJqIDVFhsNU.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V003_P006_S001",
+    "video_id": "V003_7xQmeawhiX8",
+    "youtube_id": "7xQmeawhiX8",
+    "source_url": "https://www.youtube.com/watch?v=7xQmeawhiX8",
+    "video_duration": 12.233,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "단풍",
+    "theme_detail": "단풍",
+    "night_view": true,
+    "processed_at": "2026-08-11T14:16:49+09:00",
+    "raw_video_path": "original_videos/7xQmeawhiX8.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 1.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V003_P006_S002",
+    "video_id": "V003_cbINxfGIbKU",
+    "youtube_id": "cbINxfGIbKU",
+    "source_url": "https://www.youtube.com/watch?v=cbINxfGIbKU",
+    "video_duration": 16.0,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 7,
+    "rejected_candidate_count": 0,
+    "theme_category": "단풍",
+    "theme_detail": "단풍",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:17:06+09:00",
+    "raw_video_path": "original_videos/cbINxfGIbKU.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 1.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V003_P006_S003",
+    "video_id": "V003_s6qXNAExf7o",
+    "youtube_id": "s6qXNAExf7o",
+    "source_url": "https://www.youtube.com/watch?v=s6qXNAExf7o",
+    "video_duration": 16.266,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 8,
+    "rejected_candidate_count": 0,
+    "theme_category": "단풍",
+    "theme_detail": "단풍",
+    "night_view": true,
+    "processed_at": "2026-08-11T14:17:30+09:00",
+    "raw_video_path": "original_videos/s6qXNAExf7o.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 1.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V044_P067_S001",
+    "video_id": "V044_nlhrr-2PZRY",
+    "youtube_id": "nlhrr-2PZRY",
+    "source_url": "https://www.youtube.com/watch?v=nlhrr-2PZRY",
+    "video_duration": 31.16,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 11,
+    "rejected_candidate_count": 0,
+    "theme_category": "꽃",
+    "theme_detail": "꽃",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:20:56+09:00",
+    "raw_video_path": "original_videos/nlhrr-2PZRY.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 1.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V044_P067_S002",
+    "video_id": "V044_9B4fmTx1ido",
+    "youtube_id": "9B4fmTx1ido",
+    "source_url": "https://www.youtube.com/watch?v=9B4fmTx1ido",
+    "video_duration": 57.533,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 5,
+    "rejected_candidate_count": 0,
+    "theme_category": "꽃",
+    "theme_detail": "꽃",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:26:51+09:00",
+    "raw_video_path": "original_videos/9B4fmTx1ido.mp4",
+    "theme_ratios": {
+      "꽃": 1.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V044_P068_S001",
+    "video_id": "V044_LCBgFfm0r7M",
+    "youtube_id": "LCBgFfm0r7M",
+    "source_url": "https://www.youtube.com/watch?v=LCBgFfm0r7M",
+    "video_duration": 59.259,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 2,
+    "rejected_candidate_count": 0,
+    "theme_category": "숲",
+    "theme_detail": "숲",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:27:27+09:00",
+    "raw_video_path": "original_videos/LCBgFfm0r7M.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 1.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V045_P069_S001",
+    "video_id": "V045_5YeMx8-mMwY",
+    "youtube_id": "5YeMx8-mMwY",
+    "source_url": "https://www.youtube.com/watch?v=5YeMx8-mMwY",
+    "video_duration": 41.467,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 4,
+    "rejected_candidate_count": 0,
+    "theme_category": "꽃",
+    "theme_detail": "꽃",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:33:38+09:00",
+    "raw_video_path": "original_videos/5YeMx8-mMwY.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 1.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V045_P070_S001",
+    "video_id": "V045_KzYaRBjORWU",
+    "youtube_id": "KzYaRBjORWU",
+    "source_url": "https://www.youtube.com/watch?v=KzYaRBjORWU",
+    "video_duration": 8.0,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "꽃",
+    "theme_detail": "꽃",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:33:54+09:00",
+    "raw_video_path": "original_videos/KzYaRBjORWU.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 1.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V045_P071_S001",
+    "video_id": "V045_Ad5Uw8oVWkc",
+    "youtube_id": "Ad5Uw8oVWkc",
+    "source_url": "https://www.youtube.com/watch?v=Ad5Uw8oVWkc",
+    "video_duration": 7.7,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 6,
+    "rejected_candidate_count": 0,
+    "theme_category": "단풍",
+    "theme_detail": "단풍",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:34:06+09:00",
+    "raw_video_path": "original_videos/Ad5Uw8oVWkc.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 1.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V045_P071_S002",
+    "video_id": "V045__fmhzDFTIH8",
+    "youtube_id": "_fmhzDFTIH8",
+    "source_url": "https://www.youtube.com/watch?v=_fmhzDFTIH8",
+    "video_duration": 22.367,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 6,
+    "rejected_candidate_count": 0,
+    "theme_category": "단풍",
+    "theme_detail": "단풍",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:35:43+09:00",
+    "raw_video_path": "original_videos/_fmhzDFTIH8.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 1.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V046_P072_S001",
+    "video_id": "V046_ZIstO6o3fjA",
+    "youtube_id": "ZIstO6o3fjA",
+    "source_url": "https://www.youtube.com/watch?v=ZIstO6o3fjA",
+    "video_duration": 45.9,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "꽃",
+    "theme_detail": "꽃",
+    "night_view": true,
+    "processed_at": "2026-08-11T14:39:36+09:00",
+    "raw_video_path": "original_videos/ZIstO6o3fjA.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 1.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V046_P072_S002",
+    "video_id": "V046_2o0mGsKjBcc",
+    "youtube_id": "2o0mGsKjBcc",
+    "source_url": "https://www.youtube.com/watch?v=2o0mGsKjBcc",
+    "video_duration": 9.767,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 4,
+    "rejected_candidate_count": 0,
+    "theme_category": "꽃",
+    "theme_detail": "꽃",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:40:04+09:00",
+    "raw_video_path": "original_videos/2o0mGsKjBcc.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 1.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V046_P073_S001",
+    "video_id": "V046_PvvtSJFBgnA",
+    "youtube_id": "PvvtSJFBgnA",
+    "source_url": "https://www.youtube.com/watch?v=PvvtSJFBgnA",
+    "video_duration": 84.366,
+    "processing_modes": [
+      "medium_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "단풍",
+    "theme_detail": "단풍",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:40:33+09:00",
+    "raw_video_path": "original_videos/PvvtSJFBgnA.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 1.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V046_P073_S002",
+    "video_id": "V046_4ttI0vsN_Bc",
+    "youtube_id": "4ttI0vsN_Bc",
+    "source_url": "https://www.youtube.com/watch?v=4ttI0vsN_Bc",
+    "video_duration": 7.033,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "단풍",
+    "theme_detail": "단풍",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:40:42+09:00",
+    "raw_video_path": "original_videos/4ttI0vsN_Bc.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 1.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V047_P074_S001",
+    "video_id": "V047_gvt9UwFfdH0",
+    "youtube_id": "gvt9UwFfdH0",
+    "source_url": "https://www.youtube.com/watch?v=gvt9UwFfdH0",
+    "video_duration": 38.267,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 8,
+    "rejected_candidate_count": 0,
+    "theme_category": "숲",
+    "theme_detail": "숲",
+    "night_view": true,
+    "processed_at": "2026-08-11T14:43:41+09:00",
+    "raw_video_path": "original_videos/gvt9UwFfdH0.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 1.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V048_P073_S001",
+    "video_id": "V048_Zn6nfri9tzs",
+    "youtube_id": "Zn6nfri9tzs",
+    "source_url": "https://www.youtube.com/watch?v=Zn6nfri9tzs",
+    "video_duration": 84.084,
+    "processing_modes": [
+      "medium_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "단풍",
+    "theme_detail": "단풍",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:44:19+09:00",
+    "raw_video_path": "original_videos/Zn6nfri9tzs.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 1.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V048_P073_S002",
+    "video_id": "V048_lqS0xAtpKVQ",
+    "youtube_id": "lqS0xAtpKVQ",
+    "source_url": "https://www.youtube.com/watch?v=lqS0xAtpKVQ",
+    "video_duration": 46.0,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 18,
+    "rejected_candidate_count": 0,
+    "theme_category": "단풍",
+    "theme_detail": "단풍",
+    "night_view": true,
+    "processed_at": "2026-08-11T14:47:28+09:00",
+    "raw_video_path": "original_videos/lqS0xAtpKVQ.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 1.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V051_P016_S001",
+    "video_id": "V051_6OyPkPe5Le0",
+    "youtube_id": "6OyPkPe5Le0",
+    "source_url": "https://www.youtube.com/watch?v=6OyPkPe5Le0",
+    "video_duration": 9.843,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:48:21+09:00",
+    "raw_video_path": "original_videos/6OyPkPe5Le0.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V052_P005_S001",
+    "video_id": "V052_URa5-lfWhII",
+    "youtube_id": "URa5-lfWhII",
+    "source_url": "https://www.youtube.com/watch?v=URa5-lfWhII",
+    "video_duration": 11.667,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 9,
+    "rejected_candidate_count": 0,
+    "theme_category": "단풍",
+    "theme_detail": "단풍",
+    "night_view": true,
+    "processed_at": "2026-08-11T14:49:35+09:00",
+    "raw_video_path": "original_videos/URa5-lfWhII.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 1.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V053_P075_S001",
+    "video_id": "V053_Dw1hu5ADanI",
+    "youtube_id": "Dw1hu5ADanI",
+    "source_url": "https://www.youtube.com/watch?v=Dw1hu5ADanI",
+    "video_duration": 37.467,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 11,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:53:39+09:00",
+    "raw_video_path": "original_videos/Dw1hu5ADanI.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V054_P076_S001",
+    "video_id": "V054_EPExT6UDYFs",
+    "youtube_id": "EPExT6UDYFs",
+    "source_url": "https://www.youtube.com/watch?v=EPExT6UDYFs",
+    "video_duration": 57.467,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 19,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": true,
+    "processed_at": "2026-08-11T14:56:58+09:00",
+    "raw_video_path": "original_videos/EPExT6UDYFs.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V055_P077_S001",
+    "video_id": "V055_2qkleu8Tl2w",
+    "youtube_id": "2qkleu8Tl2w",
+    "source_url": "https://www.youtube.com/watch?v=2qkleu8Tl2w",
+    "video_duration": 17.067,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 9,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:58:20+09:00",
+    "raw_video_path": "original_videos/2qkleu8Tl2w.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V056_P004_S001",
+    "video_id": "V056_fznVy5NzqVI",
+    "youtube_id": "fznVy5NzqVI",
+    "source_url": "https://www.youtube.com/watch?v=fznVy5NzqVI",
+    "video_duration": 42.3,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 10,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통",
+    "theme_detail": "전통",
+    "night_view": false,
+    "processed_at": "2026-08-11T14:59:06+09:00",
+    "raw_video_path": "original_videos/fznVy5NzqVI.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 1.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V057_P078_S001",
+    "video_id": "V057_cq9KDwdfhDc",
+    "youtube_id": "cq9KDwdfhDc",
+    "source_url": "https://www.youtube.com/watch?v=cq9KDwdfhDc",
+    "video_duration": 19.9,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 10,
+    "rejected_candidate_count": 0,
+    "theme_category": "들판",
+    "theme_detail": "들판",
+    "night_view": false,
+    "processed_at": "2026-08-11T15:01:40+09:00",
+    "raw_video_path": "original_videos/cq9KDwdfhDc.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 1.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V058_P079_S001",
+    "video_id": "V058_n1zwfG5Zu70",
+    "youtube_id": "n1zwfG5Zu70",
+    "source_url": "https://www.youtube.com/watch?v=n1zwfG5Zu70",
+    "video_duration": 18.433,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 2,
+    "rejected_candidate_count": 0,
+    "theme_category": "단풍",
+    "theme_detail": "단풍",
+    "night_view": false,
+    "processed_at": "2026-08-11T15:04:15+09:00",
+    "raw_video_path": "original_videos/n1zwfG5Zu70.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 1.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V059_P080_S001",
+    "video_id": "V059_j2oyUQiqy7g",
+    "youtube_id": "j2oyUQiqy7g",
+    "source_url": "https://www.youtube.com/watch?v=j2oyUQiqy7g",
+    "video_duration": 8.567,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 7,
+    "rejected_candidate_count": 0,
+    "theme_category": "드라이브",
+    "theme_detail": "드라이브",
+    "night_view": false,
+    "processed_at": "2026-08-11T15:04:54+09:00",
+    "raw_video_path": "original_videos/j2oyUQiqy7g.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 1.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V060_P081_S001",
+    "video_id": "V060_6YDTLJcvX8g",
+    "youtube_id": "6YDTLJcvX8g",
+    "source_url": "https://www.youtube.com/watch?v=6YDTLJcvX8g",
+    "video_duration": 8.633,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 4,
+    "rejected_candidate_count": 0,
+    "theme_category": "들판",
+    "theme_detail": "들판",
+    "night_view": true,
+    "processed_at": "2026-08-11T15:05:07+09:00",
+    "raw_video_path": "original_videos/6YDTLJcvX8g.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 1.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V061_P082_S001",
+    "video_id": "V061_KbLnPZ7DdPQ",
+    "youtube_id": "KbLnPZ7DdPQ",
+    "source_url": "https://www.youtube.com/watch?v=KbLnPZ7DdPQ",
+    "video_duration": 88.433,
+    "processing_modes": [
+      "medium_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "드라이브",
+    "theme_detail": "드라이브",
+    "night_view": false,
+    "processed_at": "2026-08-11T15:05:31+09:00",
+    "raw_video_path": "original_videos/KbLnPZ7DdPQ.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 1.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V062_P083_S001",
+    "video_id": "V062_Q8rcwJ2I5GM",
+    "youtube_id": "Q8rcwJ2I5GM",
+    "source_url": "https://www.youtube.com/watch?v=Q8rcwJ2I5GM",
+    "video_duration": 58.158,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 1,
+    "rejected_candidate_count": 0,
+    "theme_category": "드라이브",
+    "theme_detail": "드라이브",
+    "night_view": false,
+    "processed_at": "2026-08-11T15:09:16+09:00",
+    "raw_video_path": "original_videos/Q8rcwJ2I5GM.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 1.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V063_P084_S001",
+    "video_id": "V063_YKXwHtx-ZeQ",
+    "youtube_id": "YKXwHtx-ZeQ",
+    "source_url": "https://www.youtube.com/watch?v=YKXwHtx-ZeQ",
+    "video_duration": 59.633,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 7,
+    "rejected_candidate_count": 0,
+    "theme_category": "드라이브",
+    "theme_detail": "드라이브",
+    "night_view": false,
+    "processed_at": "2026-08-11T15:09:51+09:00",
+    "raw_video_path": "original_videos/YKXwHtx-ZeQ.mp4",
+    "theme_verified": true,
+    "theme_review_source": "검수용 데이터.txt",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 1.0,
+      "바다": 0.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V065_P086_S001",
+    "video_id": "V065_6WP8sOqHwSc",
+    "youtube_id": "6WP8sOqHwSc",
+    "source_url": "https://www.youtube.com/watch?v=6WP8sOqHwSc",
+    "video_duration": 54.012,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 23,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다",
+    "theme_detail": "바다",
+    "night_view": true,
+    "processed_at": "2026-08-11T15:12:47+09:00",
+    "raw_video_path": "original_videos/6WP8sOqHwSc.mp4",
+    "theme_ratios": {
+      "꽃": 0.0,
+      "단풍": 0.0,
+      "전통": 0.0,
+      "들판": 0.0,
+      "등산": 0.0,
+      "숲": 0.0,
+      "드라이브": 0.0,
+      "바다": 1.0,
+      "야경": 0.0
+    }
+  },
+  {
+    "source_segment_id": "V064_P085_S001",
+    "video_id": "V064_EGqlMO-gT4Y",
+    "youtube_id": "EGqlMO-gT4Y",
+    "source_url": "https://www.youtube.com/watch?v=EGqlMO-gT4Y",
+    "processing_status": "failed",
+    "error": "RuntimeError: [youtube] Extracting URL: https://www.youtube.com/watch?v=EGqlMO-gT4Y\n[youtube] EGqlMO-gT4Y: Downloading webpage\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\n[youtube] EGqlMO-gT4Y: Downloading android vr player API JSON\n[info] EGqlMO-gT4Y: Downloading 1 format(s): 303+251\n[download] Resuming download at byte 30986937\nERROR: unable to download video data: HTTP Error 403: Forbidden\n",
+    "segment_count": 0,
+    "processed_at": "2026-08-12T11:33:44+09:00"
+  },
+  {
+    "source_segment_id": "V003_P005_S001",
+    "video_id": "V003_nK3ge3jQrXc",
+    "youtube_id": "nK3ge3jQrXc",
+    "source_url": "https://www.youtube.com/watch?v=nK3ge3jQrXc",
+    "video_duration": 631.133,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 7,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통, 들판",
+    "theme_detail": "전통",
+    "night_view": true,
+    "processed_at": "2026-08-13T10:36:44+09:00",
+    "raw_video_path": "original_videos/nK3ge3jQrXc.mp4"
+  },
+  {
+    "source_segment_id": "V006_P028_S001",
+    "video_id": "V006_fr03aYy-ZfI",
+    "youtube_id": "fr03aYy-ZfI",
+    "source_url": "https://www.youtube.com/watch?v=fr03aYy-ZfI",
+    "video_duration": 405.967,
+    "processing_modes": [
+      "long_highlight"
+    ],
+    "processing_status": "completed",
+    "segment_count": 5,
+    "rejected_candidate_count": 0,
+    "theme_category": "전통, 들판",
+    "theme_detail": "전통",
+    "night_view": false,
+    "processed_at": "2026-08-13T10:38:44+09:00",
+    "raw_video_path": "original_videos/fr03aYy-ZfI.mp4"
+  },
+  {
+    "source_segment_id": "V021_P038_S001",
+    "video_id": "V021_25lLgdRxiGY",
+    "youtube_id": "25lLgdRxiGY",
+    "source_url": "https://www.youtube.com/watch?v=25lLgdRxiGY",
+    "video_duration": 15.433,
+    "processing_modes": [
+      "short_scene_change"
+    ],
+    "processing_status": "completed",
+    "segment_count": 3,
+    "rejected_candidate_count": 0,
+    "theme_category": "바다, 비",
+    "theme_detail": "바다, 비",
+    "night_view": true,
+    "processed_at": "2026-08-13T10:39:44+09:00",
+    "raw_video_path": "original_videos/25lLgdRxiGY.mp4"
+  }
+]
