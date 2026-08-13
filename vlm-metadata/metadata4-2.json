@@ -1,0 +1,3349 @@
+[
+    {
+        "segment_id": "V007_P031_S002_SCENE_001",
+        "source_segment_id": "V007_P031_S002",
+        "video_id": "V007_Z7u5SNDq0jw",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 0.0,
+        "end_time": 3.75,
+        "keyframe_path": "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "peaceful",
+            "calm",
+            "serene"
+        ],
+        "scene_elements": [
+            "bridge",
+            "water",
+            "lights",
+            "trees",
+            "railing",
+            "floating_lights",
+            "reflection",
+            "sky",
+            "lighthouse"
+        ],
+        "activity": [
+            "walking",
+            "strolling"
+        ],
+        "description": "A nighttime view of a brightly lit bridge over a calm waterway, with colorful lights reflecting on the surface and trees lining the shore."
+    },
+    {
+        "segment_id": "V007_P031_S002_SCENE_002",
+        "source_segment_id": "V007_P031_S002",
+        "video_id": "V007_Z7u5SNDq0jw",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 3.75,
+        "end_time": 5.75,
+        "keyframe_path": "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_002.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "river",
+            "bridge",
+            "lights",
+            "trees",
+            "lamps",
+            "reflection",
+            "water",
+            "sky",
+            "night"
+        ],
+        "activity": [
+            "walking",
+            "strolling"
+        ],
+        "description": "A serene night scene of a river with a lit bridge, reflecting the lights and surrounded by trees."
+    },
+    {
+        "segment_id": "V007_P031_S002_SCENE_003",
+        "source_segment_id": "V007_P031_S002",
+        "video_id": "V007_Z7u5SNDq0jw",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 5.75,
+        "end_time": 7.75,
+        "keyframe_path": "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_003.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "river",
+            "bridge",
+            "lights",
+            "trees",
+            "reflection",
+            "water_lilies",
+            "fence",
+            "sky",
+            "mountains",
+            "streetlights"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A serene night scene of a river with illuminated bridge and trees reflecting on the water."
+    },
+    {
+        "segment_id": "V007_P031_S002_SCENE_004",
+        "source_segment_id": "V007_P031_S002",
+        "video_id": "V007_Z7u5SNDq0jw",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 7.75,
+        "end_time": 9.75,
+        "keyframe_path": "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_004.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "bridge",
+            "water",
+            "lights",
+            "fence",
+            "lighthouse",
+            "sky",
+            "hill",
+            "trees",
+            "reflection",
+            "streetlight"
+        ],
+        "activity": [
+            "strolling",
+            "walking"
+        ],
+        "description": "A night scene of a brightly lit bridge over a calm lake, with colorful lights reflecting on the water and a serene atmosphere."
+    },
+    {
+        "segment_id": "V007_P031_S002_SCENE_005",
+        "source_segment_id": "V007_P031_S002",
+        "video_id": "V007_Z7u5SNDq0jw",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 9.75,
+        "end_time": 13.75,
+        "keyframe_path": "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_005.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "serene",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "bridge",
+            "lake",
+            "floodlights",
+            "railing",
+            "streetlight",
+            "reflection",
+            "sky",
+            "trees",
+            "water",
+            "horizon"
+        ],
+        "activity": [
+            "walking",
+            "strolling"
+        ],
+        "description": "A nighttime scene of a brightly lit bridge over a calm lake, with reflections of the lights on the water and a peaceful atmosphere."
+    },
+    {
+        "segment_id": "V007_P031_S002_SCENE_006",
+        "source_segment_id": "V007_P031_S002",
+        "video_id": "V007_Z7u5SNDq0jw",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 13.75,
+        "end_time": 15.75,
+        "keyframe_path": "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_006.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "peaceful",
+            "calm",
+            "serene"
+        ],
+        "scene_elements": [
+            "bridge",
+            "walkway",
+            "lights",
+            "fence",
+            "streetlight",
+            "sign",
+            "cityscape",
+            "water",
+            "sky",
+            "reflection"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A person is walking on a brightly lit bridge at night, with colorful lights reflecting on the pavement."
+    },
+    {
+        "segment_id": "V007_P031_S002_SCENE_007",
+        "source_segment_id": "V007_P031_S002",
+        "video_id": "V007_Z7u5SNDq0jw",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 15.75,
+        "end_time": 16.75,
+        "keyframe_path": "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_007.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "peaceful",
+            "vibrant",
+            "calm"
+        ],
+        "scene_elements": [
+            "bridge",
+            "walkway",
+            "lights",
+            "streetlight",
+            "railing",
+            "water",
+            "sky",
+            "cityscape"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A nighttime scene of a brightly lit pedestrian bridge with colorful lights, creating a peaceful and vibrant atmosphere."
+    },
+    {
+        "segment_id": "V007_P031_S002_SCENE_008",
+        "source_segment_id": "V007_P031_S002",
+        "video_id": "V007_Z7u5SNDq0jw",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 16.75,
+        "end_time": 18.0,
+        "keyframe_path": "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_008.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "vibrant",
+            "serene"
+        ],
+        "scene_elements": [
+            "bridge",
+            "walkway",
+            "lights",
+            "fence",
+            "streetlight",
+            "river",
+            "cityscape",
+            "sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A person is walking on a brightly lit bridge at night, with colorful lights reflecting on the ground and a distant cityscape in the background."
+    },
+    {
+        "segment_id": "V007_P031_S002_SCENE_009",
+        "source_segment_id": "V007_P031_S002",
+        "video_id": "V007_Z7u5SNDq0jw",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 18.0,
+        "end_time": 18.75,
+        "keyframe_path": "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_009.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "bridge",
+            "fence",
+            "streetlight",
+            "lights",
+            "path",
+            "water",
+            "cityscape",
+            "sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A person is walking on a brightly lit bridge at night, with colorful lights reflecting on the ground."
+    },
+    {
+        "segment_id": "V007_P031_S002_SCENE_010",
+        "source_segment_id": "V007_P031_S002",
+        "video_id": "V007_Z7u5SNDq0jw",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 18.75,
+        "end_time": 21.25,
+        "keyframe_path": "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_010.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "wooden walkway",
+            "fence",
+            "trees",
+            "lights",
+            "river",
+            "bridge",
+            "streetlight",
+            "bench"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A quiet night scene on a wooden walkway along a river, illuminated by colorful lights and surrounded by trees."
+    },
+    {
+        "segment_id": "V007_P031_S002_SCENE_011",
+        "source_segment_id": "V007_P031_S002",
+        "video_id": "V007_Z7u5SNDq0jw",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 21.25,
+        "end_time": 23.25,
+        "keyframe_path": "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_011.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "wooden_walkway",
+            "fence",
+            "trees",
+            "lights",
+            "river",
+            "bridge",
+            "street_lamps",
+            "pavilion",
+            "water",
+            "sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A wooden walkway at night along a river, illuminated by colorful lights and surrounded by trees and a distant bridge."
+    },
+    {
+        "segment_id": "V007_P031_S002_SCENE_012",
+        "source_segment_id": "V007_P031_S002",
+        "video_id": "V007_Z7u5SNDq0jw",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 23.25,
+        "end_time": 25.25,
+        "keyframe_path": "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_012.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "lawn",
+            "tree",
+            "light",
+            "sphere",
+            "pine_tree",
+            "building",
+            "path"
+        ],
+        "activity": [],
+        "description": "A brightly lit spherical light sits on a grassy lawn at night, surrounded by trees and a building in the background."
+    },
+    {
+        "segment_id": "V007_P031_S002_SCENE_013",
+        "source_segment_id": "V007_P031_S002",
+        "video_id": "V007_Z7u5SNDq0jw",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 25.25,
+        "end_time": 27.0,
+        "keyframe_path": "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_013.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "grass",
+            "tree",
+            "luminous_sphere",
+            "pine_tree",
+            "box",
+            "lighting",
+            "path"
+        ],
+        "activity": [],
+        "description": "A glowing spherical light illuminates a grassy area at night, surrounded by trees in a tranquil park setting."
+    },
+    {
+        "segment_id": "V001_P001_S001_SCENE_001",
+        "source_segment_id": "V001_P001_S001",
+        "video_id": "V001_nypQChEVN0c",
+        "place_id": "P001",
+        "place_name": "수원 화성",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 0.0,
+        "end_time": 4.75,
+        "keyframe_path": "keyframes/V001_nypQChEVN0c/V001_P001_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "cherry_blossom_tree",
+            "path",
+            "grass",
+            "people",
+            "sky"
+        ],
+        "activity": [
+            "walking",
+            "photographing"
+        ],
+        "description": "A group of people are walking and enjoying the cherry blossom trees in a park on a sunny day."
+    },
+    {
+        "segment_id": "V001_P001_S001_SCENE_002",
+        "source_segment_id": "V001_P001_S001",
+        "video_id": "V001_nypQChEVN0c",
+        "place_id": "P001",
+        "place_name": "수원 화성",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 4.75,
+        "end_time": 7.25,
+        "keyframe_path": "keyframes/V001_nypQChEVN0c/V001_P001_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "sunny",
+            "peaceful",
+            "spring",
+            "cherry_blossom",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "cherry_blossom_tree",
+            "stone_wall",
+            "grass",
+            "sky",
+            "moon",
+            "person",
+            "hanok"
+        ],
+        "activity": [
+            "walking",
+            "strolling"
+        ],
+        "description": "A serene spring scene with cherry blossom trees in full bloom, a stone wall, and a person walking through the park under a clear blue sky with the moon visible."
+    },
+    {
+        "segment_id": "V001_P001_S001_SCENE_003",
+        "source_segment_id": "V001_P001_S001",
+        "video_id": "V001_nypQChEVN0c",
+        "place_id": "P001",
+        "place_name": "수원 화성",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 7.25,
+        "end_time": 9.75,
+        "keyframe_path": "keyframes/V001_nypQChEVN0c/V001_P001_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "blossoming"
+        ],
+        "scene_elements": [
+            "cherry_blossom",
+            "tree",
+            "sky",
+            "branches"
+        ],
+        "activity": [],
+        "description": "A close-up view of cherry blossoms in full bloom, with delicate pink petals and tree branches against a bright sky."
+    },
+    {
+        "segment_id": "V001_P001_S001_SCENE_004",
+        "source_segment_id": "V001_P001_S001",
+        "video_id": "V001_nypQChEVN0c",
+        "place_id": "P001",
+        "place_name": "수원 화성",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 9.75,
+        "end_time": 12.25,
+        "keyframe_path": "keyframes/V001_nypQChEVN0c/V001_P001_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "romantic",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "cherry_blossom",
+            "tree",
+            "stone_wall",
+            "grass",
+            "sky",
+            "person",
+            "woman",
+            "man"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A couple is walking along a stone wall under a blossoming cherry tree, enjoying a peaceful and romantic moment."
+    },
+    {
+        "segment_id": "V001_P001_S001_SCENE_005",
+        "source_segment_id": "V001_P001_S001",
+        "video_id": "V001_nypQChEVN0c",
+        "place_id": "P001",
+        "place_name": "수원 화성",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 12.25,
+        "end_time": 14.75,
+        "keyframe_path": "keyframes/V001_nypQChEVN0c/V001_P001_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "bridge",
+            "stone_arch",
+            "tree",
+            "building",
+            "park",
+            "road",
+            "car",
+            "people",
+            "cityscape"
+        ],
+        "activity": [
+            "walking",
+            "strolling",
+            "standing",
+            "sitting"
+        ],
+        "description": "A scenic view of a traditional Korean city with a historic bridge, people walking along the path, and a mix of modern buildings in the background."
+    },
+    {
+        "segment_id": "V001_P001_S001_SCENE_006",
+        "source_segment_id": "V001_P001_S001",
+        "video_id": "V001_nypQChEVN0c",
+        "place_id": "P001",
+        "place_name": "수원 화성",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 14.75,
+        "end_time": 17.0,
+        "keyframe_path": "keyframes/V001_nypQChEVN0c/V001_P001_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "spring",
+            "beautiful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "cherry_blossoms",
+            "hanok",
+            "bridge",
+            "river",
+            "modern_buildings",
+            "tree",
+            "stone_wall",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A serene spring scene featuring cherry blossoms in the foreground with a traditional hanok and a stone bridge over a river in the background, set against a backdrop of modern buildings."
+    },
+    {
+        "segment_id": "V001_P001_S001_SCENE_007",
+        "source_segment_id": "V001_P001_S001",
+        "video_id": "V001_nypQChEVN0c",
+        "place_id": "P001",
+        "place_name": "수원 화성",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 17.0,
+        "end_time": 19.0,
+        "keyframe_path": "keyframes/V001_nypQChEVN0c/V001_P001_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "spring",
+            "serene",
+            "cute"
+        ],
+        "scene_elements": [
+            "cherry_blossoms",
+            "hanok",
+            "bridge",
+            "river",
+            "building",
+            "modern_building",
+            "tree",
+            "sky"
+        ],
+        "activity": [
+            "standing",
+            "viewing"
+        ],
+        "description": "A serene spring scene featuring cherry blossoms in the foreground, with a traditional hanok and a stone bridge over a river in the background, set against modern buildings."
+    },
+    {
+        "segment_id": "V001_P002_S001_SCENE_001",
+        "source_segment_id": "V001_P002_S001",
+        "video_id": "V001_-0MpUmWNN_k",
+        "place_id": "P002",
+        "place_name": "여의도 한강",
+        "season": "봄",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 0.0,
+        "end_time": 35.0,
+        "keyframe_path": "keyframes/V001_-0MpUmWNN_k/V001_P002_S001_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "romantic",
+            "melancholic",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "cherry_blossoms",
+            "path",
+            "man",
+            "woman",
+            "coat",
+            "sweater",
+            "skirt",
+            "backpack",
+            "tree",
+            "ground"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "looking",
+            "facing"
+        ],
+        "description": "A man and a woman are walking on a path covered with cherry blossom petals at night, with the woman looking up at the man."
+    },
+    {
+        "segment_id": "V001_P002_S001_SCENE_002",
+        "source_segment_id": "V001_P002_S001",
+        "video_id": "V001_-0MpUmWNN_k",
+        "place_id": "P002",
+        "place_name": "여의도 한강",
+        "season": "봄",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 44.5,
+        "end_time": 79.5,
+        "keyframe_path": "keyframes/V001_-0MpUmWNN_k/V001_P002_S001_SCENE_002.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "romantic",
+            "peaceful",
+            "cute"
+        ],
+        "scene_elements": [
+            "cherry blossoms",
+            "tree",
+            "person",
+            "man",
+            "woman",
+            "flower petals"
+        ],
+        "activity": [
+            "hugging",
+            "embracing"
+        ],
+        "description": "A man and a woman are embracing each other under a blossoming cherry tree at night, creating a romantic and peaceful atmosphere."
+    },
+    {
+        "segment_id": "V001_P002_S001_SCENE_003",
+        "source_segment_id": "V001_P002_S001",
+        "video_id": "V001_-0MpUmWNN_k",
+        "place_id": "P002",
+        "place_name": "여의도 한강",
+        "season": "봄",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 89.0,
+        "end_time": 124.0,
+        "keyframe_path": "keyframes/V001_-0MpUmWNN_k/V001_P002_S001_SCENE_003.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "romantic",
+            "peaceful",
+            "happy"
+        ],
+        "scene_elements": [
+            "cherry blossoms",
+            "path",
+            "streetlights",
+            "trees",
+            "people",
+            "man",
+            "woman",
+            "coat",
+            "sweater",
+            "shoes"
+        ],
+        "activity": [
+            "walking",
+            "running"
+        ],
+        "description": "A man and a woman are walking hand in hand on a path lined with cherry blossom trees at night, creating a romantic atmosphere."
+    },
+    {
+        "segment_id": "V001_P003_S001_SCENE_001",
+        "source_segment_id": "V001_P003_S001",
+        "video_id": "V001_rbNbOuhhVT0",
+        "place_id": "P003",
+        "place_name": "수원대학교",
+        "season": "봄",
+        "region": "경기도",
+        "city": "화성시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 12.5,
+        "end_time": 47.5,
+        "keyframe_path": "keyframes/V001_rbNbOuhhVT0/V001_P003_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "blossoming"
+        ],
+        "scene_elements": [
+            "cherry_blossom",
+            "road",
+            "tree",
+            "sky",
+            "grass",
+            "park",
+            "path",
+            "stone_pillar",
+            "pine_tree"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A peaceful pathway lined with cherry blossom trees in full bloom, creating a serene and picturesque scene."
+    },
+    {
+        "segment_id": "V001_P003_S001_SCENE_002",
+        "source_segment_id": "V001_P003_S001",
+        "video_id": "V001_rbNbOuhhVT0",
+        "place_id": "P003",
+        "place_name": "수원대학교",
+        "season": "봄",
+        "region": "경기도",
+        "city": "화성시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 52.5,
+        "end_time": 87.5,
+        "keyframe_path": "keyframes/V001_rbNbOuhhVT0/V001_P003_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "blossoming",
+            "sunny"
+        ],
+        "scene_elements": [
+            "cherry_blossom",
+            "tree_branch",
+            "background_trees"
+        ],
+        "activity": [],
+        "description": "A close-up shot of cherry blossoms in full bloom on a tree branch, with soft sunlight illuminating the delicate flowers."
+    },
+    {
+        "segment_id": "V001_P003_S001_SCENE_003",
+        "source_segment_id": "V001_P003_S001",
+        "video_id": "V001_rbNbOuhhVT0",
+        "place_id": "P003",
+        "place_name": "수원대학교",
+        "season": "봄",
+        "region": "경기도",
+        "city": "화성시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 92.5,
+        "end_time": 127.5,
+        "keyframe_path": "keyframes/V001_rbNbOuhhVT0/V001_P003_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "cherry_blossoms",
+            "tree",
+            "field",
+            "hedge",
+            "mountain",
+            "building"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A serene park scene with cherry blossoms in bloom, a person walking on the field, and a distant mountain backdrop."
+    },
+    {
+        "segment_id": "V001_P032_S001_SCENE_001",
+        "source_segment_id": "V001_P032_S001",
+        "video_id": "V001_UMpIdjhxYPQ",
+        "place_id": "P032",
+        "place_name": "화홍문",
+        "season": "여름",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 0.0,
+        "end_time": 38.0,
+        "keyframe_path": "keyframes/V001_UMpIdjhxYPQ/V001_P032_S001_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene",
+            "historical",
+            "beautiful"
+        ],
+        "scene_elements": [
+            "waterfall",
+            "bridge",
+            "stone arches",
+            "traditional building",
+            "river",
+            "lighting",
+            "wall",
+            "gate",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A nighttime scene of a traditional Korean bridge with illuminated arches over a flowing river, showcasing a peaceful and historic atmosphere."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_001",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 0.0,
+        "end_time": 1.75,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "sad",
+            "contemplative",
+            "melancholic"
+        ],
+        "scene_elements": [
+            "woman",
+            "dark_background",
+            "flowers",
+            "sakura",
+            "pink_flowers",
+            "clothing",
+            "eyes"
+        ],
+        "activity": [
+            "looking_at_camera"
+        ],
+        "description": "A woman with dark hair looks directly at the camera with a sad expression, surrounded by pink sakura flowers in a dark setting."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_002",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 1.75,
+        "end_time": 2.75,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "happy",
+            "smiling",
+            "sweet",
+            "soft",
+            "dreamy"
+        ],
+        "scene_elements": [
+            "woman",
+            "flower",
+            "cherry_blossom",
+            "blurred_background",
+            "light"
+        ],
+        "activity": [
+            "smiling",
+            "looking_at_camera"
+        ],
+        "description": "A woman with a gentle smile is looking at the camera, surrounded by cherry blossoms in a soft, bright setting."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_003",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 2.75,
+        "end_time": 3.75,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "happy",
+            "smiling",
+            "sweet"
+        ],
+        "scene_elements": [
+            "woman",
+            "flowers"
+        ],
+        "activity": [
+            "smiling"
+        ],
+        "description": "A woman is smiling gently in a soft, natural setting with flowers in the background."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_004",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 3.75,
+        "end_time": 4.5,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_004.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "romantic",
+            "happy",
+            "cute"
+        ],
+        "scene_elements": [
+            "cherry blossoms",
+            "youth",
+            "tree",
+            "street light",
+            "girl",
+            "boy",
+            "coats",
+            "sweater",
+            "skirt"
+        ],
+        "activity": [
+            "walking",
+            "looking at each other",
+            "raising hands"
+        ],
+        "description": "A young couple walks under cherry blossom trees at night, with the girl raising her hands in excitement. The scene is romantic and joyful."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_005",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 4.5,
+        "end_time": 5.5,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_005.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "romantic",
+            "cute",
+            "sweet"
+        ],
+        "scene_elements": [
+            "cherry_blossom",
+            "man",
+            "woman",
+            "park",
+            "tree",
+            "light"
+        ],
+        "activity": [
+            "walking",
+            "taking_photo"
+        ],
+        "description": "A man and a woman are walking in a park at night, surrounded by cherry blossom trees. The woman is taking a photo with her phone, and the scene is filled with a romantic and sweet atmosphere."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_006",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 5.5,
+        "end_time": 6.75,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "reflective",
+            "thoughtful"
+        ],
+        "scene_elements": [
+            "man",
+            "jacket",
+            "white_shirt",
+            "backpack",
+            "trees",
+            "lighting"
+        ],
+        "activity": [
+            "standing",
+            "looking"
+        ],
+        "description": "A man in a jacket stands with a thoughtful expression, looking off into the distance. The scene is softly lit, suggesting a calm day."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_007",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 6.75,
+        "end_time": 7.75,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "sad",
+            "emotional",
+            "peaceful",
+            "reflective",
+            "quiet"
+        ],
+        "scene_elements": [
+            "woman",
+            "hand",
+            "snow",
+            "coat",
+            "hair"
+        ],
+        "activity": [
+            "touching hands",
+            "looking down"
+        ],
+        "description": "A woman in a light coat is gently touching her hands in a snowy environment, appearing to be in a moment of deep thought or emotion."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_008",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 7.75,
+        "end_time": 8.75,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "sad",
+            "emotional",
+            "intense"
+        ],
+        "scene_elements": [
+            "woman",
+            "snow",
+            "pink jacket",
+            "black hair",
+            "white background"
+        ],
+        "activity": [
+            "looking down",
+            "crouching"
+        ],
+        "description": "A woman in a pink jacket is crouching down in a snowy scene, looking down with an intense expression."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_009",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 8.75,
+        "end_time": 9.75,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "sweet"
+        ],
+        "scene_elements": [
+            "shoes",
+            "papery_flowers",
+            "road"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A person is walking on a road covered with pink petals, wearing white shoes. The scene has a gentle, serene mood."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_010",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 9.75,
+        "end_time": 15.25,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_010.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "intimate",
+            "emotional"
+        ],
+        "scene_elements": [
+            "hands",
+            "sweater",
+            "watch"
+        ],
+        "activity": [
+            "touching",
+            "holding"
+        ],
+        "description": "A close-up shot of hands gently holding each other, conveying a sense of intimacy and connection."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_011",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 15.25,
+        "end_time": 16.75,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_011.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "emotional",
+            "intense",
+            "protective"
+        ],
+        "scene_elements": [
+            "man",
+            "woman",
+            "coat",
+            "backpack",
+            "clouds"
+        ],
+        "activity": [
+            "carrying",
+            "holding",
+            "looking"
+        ],
+        "description": "A man is carrying a woman in a night scene, with a somber and emotional atmosphere."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_012",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 16.75,
+        "end_time": 18.75,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_012.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "intense",
+            "emotional",
+            "focused",
+            "intense",
+            "romantic"
+        ],
+        "scene_elements": [
+            "man",
+            "clothing",
+            "hand",
+            "face"
+        ],
+        "activity": [
+            "looking",
+            "thinking",
+            "emotion"
+        ],
+        "description": "A man is looking at something with a focused expression, possibly in a moment of deep thought or emotion. The scene is well-lit, suggesting it is daytime."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_013",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 18.75,
+        "end_time": 21.5,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_013.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "emotional",
+            "intense",
+            "romantic"
+        ],
+        "scene_elements": [
+            "man",
+            "face",
+            "clothing",
+            "white_shirt",
+            "dark_clothing"
+        ],
+        "activity": [
+            "looking",
+            "gazing"
+        ],
+        "description": "A man is looking intently at something in the foreground, with a serious expression. The scene appears to be set during the day."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_014",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 21.5,
+        "end_time": 24.0,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_014.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "smiling",
+            "happy",
+            "content",
+            "gentle",
+            "romantic"
+        ],
+        "scene_elements": [
+            "man",
+            "clothing",
+            "face",
+            "eyes",
+            "light"
+        ],
+        "activity": [
+            "looking",
+            "smiling",
+            "gazing"
+        ],
+        "description": "A man is looking at something with a gentle smile, possibly in a romantic or emotional moment. The scene is well-lit, suggesting it's daytime."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_015",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 24.0,
+        "end_time": 25.5,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_015.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "smiling",
+            "happy",
+            "content",
+            "calm",
+            "romantic"
+        ],
+        "scene_elements": [
+            "man",
+            "clothing",
+            "face",
+            "head",
+            "hair",
+            "tving"
+        ],
+        "activity": [
+            "smiling",
+            "looking"
+        ],
+        "description": "A man with a gentle smile, looking at someone in a soft, natural light setting."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_016",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 25.5,
+        "end_time": 27.0,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_016.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "surprised",
+            "emotional",
+            "intense"
+        ],
+        "scene_elements": [
+            "woman",
+            "hand",
+            "face",
+            "dark_hair",
+            "lighting"
+        ],
+        "activity": [
+            "looking",
+            "touching"
+        ],
+        "description": "A woman with dark hair is looking intently at something, her expression showing surprise and emotion. The lighting is soft and focused on her face."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_017",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 27.0,
+        "end_time": 30.0,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_017.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "romantic",
+            "sweet",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "man",
+            "woman",
+            "cherry blossoms",
+            "tree",
+            "clothing",
+            "backpack"
+        ],
+        "activity": [
+            "hugging",
+            "looking at phone"
+        ],
+        "description": "A man and a woman are embracing each other in a romantic scene under cherry blossom trees at evening."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_018",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 30.0,
+        "end_time": 32.75,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_018.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "soft",
+            "gentle"
+        ],
+        "scene_elements": [
+            "hands",
+            "flower",
+            "sweater"
+        ],
+        "activity": [
+            "holding",
+            "giving",
+            "touching"
+        ],
+        "description": "A close-up of hands gently holding a small flower, with soft lighting and a warm sweater visible."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_019",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 32.75,
+        "end_time": 34.0,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_019.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "sad",
+            "confused",
+            "intense"
+        ],
+        "scene_elements": [
+            "woman",
+            "hands",
+            "face",
+            "black hair"
+        ],
+        "activity": [
+            "looking at something",
+            "frowning"
+        ],
+        "description": "A woman with black hair is looking intently at something, her expression showing confusion and sadness. The scene is a close-up of her face, with her hands in the foreground."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_020",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 34.0,
+        "end_time": 35.25,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_020.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "surprised",
+            "shocked",
+            "emotional"
+        ],
+        "scene_elements": [
+            "woman",
+            "dark_hair",
+            "face",
+            "hand"
+        ],
+        "activity": [
+            "looking_at",
+            "frowning"
+        ],
+        "description": "A woman with dark hair looks surprised and emotional in a close-up shot. She appears to be reacting to something she is seeing."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_021",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 35.25,
+        "end_time": 36.75,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_021.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "soft"
+        ],
+        "scene_elements": [
+            "hands",
+            "flower",
+            "sweater"
+        ],
+        "activity": [
+            "holding",
+            "giving"
+        ],
+        "description": "A close-up of two hands holding a small white flower, with a soft, warm light illuminating the scene."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_022",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 36.75,
+        "end_time": 38.75,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_022.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "gentle",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "hands",
+            "flower",
+            "sweater"
+        ],
+        "activity": [
+            "holding",
+            "giving"
+        ],
+        "description": "A close-up of two hands holding a small white flower, with the text '그림체 비슷해서 더 이쁜' and '벚꽃 솔선' on the screen."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_023",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 38.75,
+        "end_time": 41.25,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_023.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "sad",
+            "emotional",
+            "contemplative"
+        ],
+        "scene_elements": [
+            "woman",
+            "hand",
+            "face",
+            "hair",
+            "dark_background"
+        ],
+        "activity": [
+            "looking",
+            "touching"
+        ],
+        "description": "A woman with a sad expression is looking at her hand, possibly in a moment of emotional reflection. The image is in a natural, well-lit setting."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_024",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 41.25,
+        "end_time": 48.0,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_024.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "happy",
+            "smiling"
+        ],
+        "scene_elements": [
+            "woman",
+            "face",
+            "hair",
+            "hand",
+            "watch"
+        ],
+        "activity": [
+            "smiling"
+        ],
+        "description": "A woman is smiling warmly in a bright, natural light setting."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_025",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 48.0,
+        "end_time": 54.5,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_025.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene",
+            "content",
+            "reflective"
+        ],
+        "scene_elements": [
+            "man",
+            "clothing",
+            "close-up",
+            "face"
+        ],
+        "activity": [
+            "looking",
+            "smiling",
+            "closed_eyes"
+        ],
+        "description": "A close-up of a man with a calm and peaceful expression, eyes closed, in a soft, natural light."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_026",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 54.5,
+        "end_time": 55.25,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_026.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "melancholic",
+            "dreamy",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "face",
+            "dark_hair",
+            "light"
+        ],
+        "activity": [
+            "closing_eyes"
+        ],
+        "description": "A person with closed eyes in a dimly lit environment, possibly during a night scene."
+    },
+    {
+        "segment_id": "V001_P063_S001_SCENE_027",
+        "source_segment_id": "V001_P063_S001",
+        "video_id": "V001_-vFzATqn5CA",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 55.25,
+        "end_time": 57.0,
+        "keyframe_path": "keyframes/V001_-vFzATqn5CA/V001_P063_S001_SCENE_027.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "woman",
+            "dark_hair",
+            "lighting",
+            "soft_background"
+        ],
+        "activity": [
+            "closing_eyes",
+            "blurred"
+        ],
+        "description": "A woman with closed eyes, appearing calm and serene in a softly lit scene."
+    },
+    {
+        "segment_id": "V001_P063_S002_SCENE_001",
+        "source_segment_id": "V001_P063_S002",
+        "video_id": "V001_dOqvC5nA2wI",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 0.0,
+        "end_time": 10.0,
+        "keyframe_path": "keyframes/V001_dOqvC5nA2wI/V001_P063_S002_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "romantic",
+            "intimate",
+            "serene"
+        ],
+        "scene_elements": [
+            "man",
+            "woman",
+            "tree",
+            "white_wall",
+            "outdoor"
+        ],
+        "activity": [
+            "hugging",
+            "looking at each other"
+        ],
+        "description": "A man and a woman are seen in an outdoor setting, embracing each other with a romantic and intimate mood."
+    },
+    {
+        "segment_id": "V001_P063_S003_SCENE_001",
+        "source_segment_id": "V001_P063_S003",
+        "video_id": "V001_iJ-IHQ7tvOQ",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 0.0,
+        "end_time": 43.5,
+        "keyframe_path": "keyframes/V001_iJ-IHQ7tvOQ/V001_P063_S003_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "sunny",
+            "cherry_blossom",
+            "spring"
+        ],
+        "scene_elements": [
+            "cherry_blossom_tree",
+            "blossom",
+            "tree_branch",
+            "pink_flower",
+            "green_background",
+            "white_flower"
+        ],
+        "activity": [
+            "standing",
+            "staring",
+            "watching"
+        ],
+        "description": "A person is standing and watching cherry blossoms in full bloom. The scene is peaceful and bright, with the cherry blossoms in full bloom."
+    },
+    {
+        "segment_id": "V001_P063_S003_SCENE_002",
+        "source_segment_id": "V001_P063_S003",
+        "video_id": "V001_iJ-IHQ7tvOQ",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 43.5,
+        "end_time": 46.5,
+        "keyframe_path": "keyframes/V001_iJ-IHQ7tvOQ/V001_P063_S003_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "sunny"
+        ],
+        "scene_elements": [
+            "cherry_blossom",
+            "tree",
+            "path",
+            "grass",
+            "flowers",
+            "woman",
+            "park",
+            "blossom"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A woman is walking on a path in a park with cherry blossoms in bloom."
+    },
+    {
+        "segment_id": "V001_P063_S003_SCENE_003",
+        "source_segment_id": "V001_P063_S003",
+        "video_id": "V001_iJ-IHQ7tvOQ",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 46.5,
+        "end_time": 50.0,
+        "keyframe_path": "keyframes/V001_iJ-IHQ7tvOQ/V001_P063_S003_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "content",
+            "serene",
+            "happy"
+        ],
+        "scene_elements": [
+            "man",
+            "white_shirt",
+            "cherry_blossoms"
+        ],
+        "activity": [
+            "smiling",
+            "looking_up"
+        ],
+        "description": "A man smiles gently while looking up, with a soft, warm light illuminating the scene, suggesting a peaceful and happy moment."
+    },
+    {
+        "segment_id": "V001_P063_S003_SCENE_004",
+        "source_segment_id": "V001_P063_S003",
+        "video_id": "V001_iJ-IHQ7tvOQ",
+        "place_id": "P063",
+        "place_name": "수원천 일대",
+        "season": "봄",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 50.0,
+        "end_time": 53.0,
+        "keyframe_path": "keyframes/V001_iJ-IHQ7tvOQ/V001_P063_S003_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "romantic",
+            "serene",
+            "thoughtful"
+        ],
+        "scene_elements": [
+            "man",
+            "white_shirt",
+            "cherry_blossoms",
+            "soft_light"
+        ],
+        "activity": [
+            "looking",
+            "smiling"
+        ],
+        "description": "A man in a white shirt is looking at someone with a gentle smile, surrounded by cherry blossoms in a soft, natural light."
+    },
+    {
+        "segment_id": "V001_P064_S002_SCENE_001",
+        "source_segment_id": "V001_P064_S002",
+        "video_id": "V001_C04KHPUcpd8",
+        "place_id": "P064",
+        "place_name": "수원 화홍문",
+        "season": "가을",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 0.0,
+        "end_time": 3.5,
+        "keyframe_path": "keyframes/V001_C04KHPUcpd8/V001_P064_S002_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "stone_wall",
+            "fortification",
+            "grass",
+            "wildflowers",
+            "tree",
+            "path",
+            "sky",
+            "clouds",
+            "person"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A person is walking along a path next to a stone wall under a bright blue sky with scattered clouds. The scene is peaceful and natural."
+    },
+    {
+        "segment_id": "V001_P064_S002_SCENE_002",
+        "source_segment_id": "V001_P064_S002",
+        "video_id": "V001_C04KHPUcpd8",
+        "place_id": "P064",
+        "place_name": "수원 화홍문",
+        "season": "가을",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 3.5,
+        "end_time": 6.25,
+        "keyframe_path": "keyframes/V001_C04KHPUcpd8/V001_P064_S002_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "castle",
+            "stone_wall",
+            "path",
+            "grass",
+            "feather grass",
+            "tree",
+            "sky",
+            "clouds",
+            "flag",
+            "person"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A person is walking along a path next to a historic stone wall under a bright blue sky with fluffy clouds. The scene is peaceful and surrounded by tall grass and autumn foliage."
+    },
+    {
+        "segment_id": "V001_P064_S002_SCENE_003",
+        "source_segment_id": "V001_P064_S002",
+        "video_id": "V001_C04KHPUcpd8",
+        "place_id": "P064",
+        "place_name": "수원 화홍문",
+        "season": "가을",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 6.25,
+        "end_time": 8.75,
+        "keyframe_path": "keyframes/V001_C04KHPUcpd8/V001_P064_S002_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "castle",
+            "hill",
+            "grass",
+            "sky",
+            "clouds",
+            "path",
+            "person"
+        ],
+        "activity": [
+            "standing",
+            "raising hand"
+        ],
+        "description": "A person stands on a path in front of a historic castle, with the sky and grass in the background. The scene is bright and sunny, with a peaceful atmosphere."
+    },
+    {
+        "segment_id": "V001_P064_S002_SCENE_004",
+        "source_segment_id": "V001_P064_S002",
+        "video_id": "V001_C04KHPUcpd8",
+        "place_id": "P064",
+        "place_name": "수원 화홍문",
+        "season": "가을",
+        "region": "경기도",
+        "city": "수원시",
+        "drama_title": "선재 업고 튀어",
+        "start_time": 8.75,
+        "end_time": 11.0,
+        "keyframe_path": "keyframes/V001_C04KHPUcpd8/V001_P064_S002_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene",
+            "vibrant",
+            "natural"
+        ],
+        "scene_elements": [
+            "traditional_building",
+            "gates",
+            "grass",
+            "tree",
+            "sky",
+            "mountain",
+            "autumn_leaves",
+            "pine_tree",
+            "wind",
+            "grassland"
+        ],
+        "activity": [
+            "standing",
+            "walking",
+            "sitting"
+        ],
+        "description": "A traditional Korean pavilion is viewed through the branches of trees and grass in a serene autumn landscape."
+    },
+    {
+        "segment_id": "V016_P033_S001_SCENE_001",
+        "source_segment_id": "V016_P033_S001",
+        "video_id": "V016_b19nDceyqss",
+        "place_id": "P033",
+        "place_name": "서울로7017",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "빈센조",
+        "start_time": 0.0,
+        "end_time": 21.0,
+        "keyframe_path": "keyframes/V016_b19nDceyqss/V016_P033_S001_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "busy",
+            "vibrant",
+            "modern"
+        ],
+        "scene_elements": [
+            "cityscape",
+            "high-rise buildings",
+            "traffic",
+            "bus",
+            "streetlights",
+            "crosswalk",
+            "toll booths",
+            "road signs",
+            "electrical poles"
+        ],
+        "activity": [
+            "driving",
+            "walking",
+            "waiting",
+            "riding"
+        ],
+        "description": "A bustling city street at night with numerous vehicles and illuminated buildings."
+    },
+    {
+        "segment_id": "V016_P033_S002_SCENE_001",
+        "source_segment_id": "V016_P033_S002",
+        "video_id": "V016_Kp2ZsTXh8LQ",
+        "place_id": "P033",
+        "place_name": "서울로7017",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "빈센조",
+        "start_time": 0.0,
+        "end_time": 7.0,
+        "keyframe_path": "keyframes/V016_Kp2ZsTXh8LQ/V016_P033_S002_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "serene",
+            "urban"
+        ],
+        "scene_elements": [
+            "tree",
+            "potted_plants",
+            "building",
+            "skyline",
+            "streetlights",
+            "green_light",
+            "white_curtain"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A nighttime view of a city skyline with illuminated buildings and potted plants on a rooftop, creating a calm and urban atmosphere."
+    },
+    {
+        "segment_id": "V016_P033_S002_SCENE_002",
+        "source_segment_id": "V016_P033_S002",
+        "video_id": "V016_Kp2ZsTXh8LQ",
+        "place_id": "P033",
+        "place_name": "서울로7017",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "빈센조",
+        "start_time": 7.0,
+        "end_time": 19.5,
+        "keyframe_path": "keyframes/V016_Kp2ZsTXh8LQ/V016_P033_S002_SCENE_002.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "walkway",
+            "trees",
+            "streetlights",
+            "buildings",
+            "potted plants",
+            "lights"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A group of people are walking along a brightly lit walkway at night, surrounded by illuminated trees and modern buildings."
+    },
+    {
+        "segment_id": "V016_P033_S002_SCENE_003",
+        "source_segment_id": "V016_P033_S002",
+        "video_id": "V016_Kp2ZsTXh8LQ",
+        "place_id": "P033",
+        "place_name": "서울로7017",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "빈센조",
+        "start_time": 19.5,
+        "end_time": 58.0,
+        "keyframe_path": "keyframes/V016_Kp2ZsTXh8LQ/V016_P033_S002_SCENE_003.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "busy",
+            "modern",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "skyscraper",
+            "streetlight",
+            "traffic",
+            "bus",
+            "road",
+            "building",
+            "cityscape",
+            "traffic light",
+            "crosswalk",
+            "vehicle"
+        ],
+        "activity": [
+            "driving",
+            "walking",
+            "riding",
+            "traffic",
+            "traffic light"
+        ],
+        "description": "A bustling city street at night with illuminated buildings and moving vehicles."
+    },
+    {
+        "segment_id": "V017_P034_S001_SCENE_001",
+        "source_segment_id": "V017_P034_S001",
+        "video_id": "V017_rjwgCJQbjik",
+        "place_id": "P034",
+        "place_name": "이태원 녹사평 육교",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "이태원 클라스",
+        "start_time": 0.0,
+        "end_time": 21.0,
+        "keyframe_path": "keyframes/V017_rjwgCJQbjik/V017_P034_S001_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "vibrant",
+            "urban",
+            "modern"
+        ],
+        "scene_elements": [
+            "tower",
+            "hill",
+            "cityscape",
+            "road",
+            "cars",
+            "streetlights",
+            "trees",
+            "buildings",
+            "traffic",
+            "sky"
+        ],
+        "activity": [
+            "driving",
+            "traffic",
+            "city_lighting"
+        ],
+        "description": "A nighttime view of a city with a prominent tower illuminated in blue and white, surrounded by a busy road and illuminated buildings."
+    },
+    {
+        "segment_id": "V018_P035_S001_SCENE_001",
+        "source_segment_id": "V018_P035_S001",
+        "video_id": "V018_MC1PVA9_Ho0",
+        "place_id": "P035",
+        "place_name": "여수 소호동동다리",
+        "season": "여름",
+        "region": "전라남도",
+        "city": "여수시",
+        "drama_title": "남남",
+        "start_time": 0.0,
+        "end_time": 3.0,
+        "keyframe_path": "keyframes/V018_MC1PVA9_Ho0/V018_P035_S001_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "wooden walkway",
+            "railing",
+            "water",
+            "city lights",
+            "buildings",
+            "mountain",
+            "sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A wooden walkway illuminated with green lights at night, leading towards a cityscape with lights and a distant mountain."
+    },
+    {
+        "segment_id": "V018_P035_S001_SCENE_002",
+        "source_segment_id": "V018_P035_S001",
+        "video_id": "V018_MC1PVA9_Ho0",
+        "place_id": "P035",
+        "place_name": "여수 소호동동다리",
+        "season": "여름",
+        "region": "전라남도",
+        "city": "여수시",
+        "drama_title": "남남",
+        "start_time": 3.0,
+        "end_time": 5.75,
+        "keyframe_path": "keyframes/V018_MC1PVA9_Ho0/V018_P035_S001_SCENE_002.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "wooden_walkway",
+            "fence",
+            "water",
+            "cityscape",
+            "lights",
+            "mountain",
+            "buildings"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A wooden walkway at night, illuminated by blue lights, leads along a waterfront with a cityscape and distant mountains in the background."
+    },
+    {
+        "segment_id": "V018_P035_S001_SCENE_003",
+        "source_segment_id": "V018_P035_S001",
+        "video_id": "V018_MC1PVA9_Ho0",
+        "place_id": "P035",
+        "place_name": "여수 소호동동다리",
+        "season": "여름",
+        "region": "전라남도",
+        "city": "여수시",
+        "drama_title": "남남",
+        "start_time": 5.75,
+        "end_time": 6.75,
+        "keyframe_path": "keyframes/V018_MC1PVA9_Ho0/V018_P035_S001_SCENE_003.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "wooden_pavement",
+            "fence",
+            "river",
+            "cityscape",
+            "lights",
+            "buildings",
+            "mountain",
+            "bridge"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A wooden walkway at night, illuminated by blue lights, runs along a river with a cityscape in the background."
+    },
+    {
+        "segment_id": "V018_P035_S001_SCENE_004",
+        "source_segment_id": "V018_P035_S001",
+        "video_id": "V018_MC1PVA9_Ho0",
+        "place_id": "P035",
+        "place_name": "여수 소호동동다리",
+        "season": "여름",
+        "region": "전라남도",
+        "city": "여수시",
+        "drama_title": "남남",
+        "start_time": 6.75,
+        "end_time": 9.75,
+        "keyframe_path": "keyframes/V018_MC1PVA9_Ho0/V018_P035_S001_SCENE_004.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "wooden_walkway",
+            "fence",
+            "water",
+            "cityscape",
+            "skyscrapers",
+            "mountain",
+            "lights"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A wooden walkway illuminated with blue lights at night, leading along a waterfront with a cityscape in the background."
+    },
+    {
+        "segment_id": "V018_P035_S001_SCENE_005",
+        "source_segment_id": "V018_P035_S001",
+        "video_id": "V018_MC1PVA9_Ho0",
+        "place_id": "P035",
+        "place_name": "여수 소호동동다리",
+        "season": "여름",
+        "region": "전라남도",
+        "city": "여수시",
+        "drama_title": "남남",
+        "start_time": 9.75,
+        "end_time": 10.5,
+        "keyframe_path": "keyframes/V018_MC1PVA9_Ho0/V018_P035_S001_SCENE_005.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "peaceful",
+            "calm",
+            "serene"
+        ],
+        "scene_elements": [
+            "wooden_pavilion",
+            "bridge",
+            "water",
+            "cityscape",
+            "lights",
+            "railing",
+            "sky",
+            "mountains"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A wooden bridge at night is illuminated with purple lights, reflecting on the water and creating a peaceful atmosphere. The cityscape in the background is lit up with various lights."
+    },
+    {
+        "segment_id": "V018_P035_S001_SCENE_006",
+        "source_segment_id": "V018_P035_S001",
+        "video_id": "V018_MC1PVA9_Ho0",
+        "place_id": "P035",
+        "place_name": "여수 소호동동다리",
+        "season": "여름",
+        "region": "전라남도",
+        "city": "여수시",
+        "drama_title": "남남",
+        "start_time": 10.5,
+        "end_time": 14.0,
+        "keyframe_path": "keyframes/V018_MC1PVA9_Ho0/V018_P035_S001_SCENE_006.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "walkway",
+            "fence",
+            "river",
+            "cityscape",
+            "buildings",
+            "lighting",
+            "sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A purple-lit walkway along a river at night, with a cityscape in the background."
+    },
+    {
+        "segment_id": "V018_P035_S001_SCENE_007",
+        "source_segment_id": "V018_P035_S001",
+        "video_id": "V018_MC1PVA9_Ho0",
+        "place_id": "P035",
+        "place_name": "여수 소호동동다리",
+        "season": "여름",
+        "region": "전라남도",
+        "city": "여수시",
+        "drama_title": "남남",
+        "start_time": 14.0,
+        "end_time": 15.0,
+        "keyframe_path": "keyframes/V018_MC1PVA9_Ho0/V018_P035_S001_SCENE_007.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "wooden_pavement",
+            "fence",
+            "river",
+            "cityscape",
+            "lights",
+            "buildings",
+            "mountain"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A wooden walkway illuminated with purple lights at night, overlooking a river with a cityscape in the background."
+    },
+    {
+        "segment_id": "V018_P035_S002_SCENE_001",
+        "source_segment_id": "V018_P035_S002",
+        "video_id": "V018_N8zr4el85GE",
+        "place_id": "P035",
+        "place_name": "여수 소호동동다리",
+        "season": "여름",
+        "region": "전라남도",
+        "city": "여수시",
+        "drama_title": "남남",
+        "start_time": 0.0,
+        "end_time": 5.25,
+        "keyframe_path": "keyframes/V018_N8zr4el85GE/V018_P035_S002_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "river",
+            "cityscape",
+            "bridge",
+            "skyscrapers",
+            "mountains",
+            "lighthouse",
+            "lights",
+            "water",
+            "railing",
+            "purple_light"
+        ],
+        "activity": [
+            "viewing",
+            "staring"
+        ],
+        "description": "A nighttime view of a city skyline across a river, with the lights reflecting on the water and a purple-lit railing in the foreground."
+    },
+    {
+        "segment_id": "V018_P035_S002_SCENE_002",
+        "source_segment_id": "V018_P035_S002",
+        "video_id": "V018_N8zr4el85GE",
+        "place_id": "P035",
+        "place_name": "여수 소호동동다리",
+        "season": "여름",
+        "region": "전라남도",
+        "city": "여수시",
+        "drama_title": "남남",
+        "start_time": 5.25,
+        "end_time": 6.5,
+        "keyframe_path": "keyframes/V018_N8zr4el85GE/V018_P035_S002_SCENE_002.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "water",
+            "city",
+            "island",
+            "building",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A nighttime view of a cityscape across a calm body of water, with illuminated buildings and a dark island in the distance."
+    },
+    {
+        "segment_id": "V018_P035_S002_SCENE_003",
+        "source_segment_id": "V018_P035_S002",
+        "video_id": "V018_N8zr4el85GE",
+        "place_id": "P035",
+        "place_name": "여수 소호동동다리",
+        "season": "여름",
+        "region": "전라남도",
+        "city": "여수시",
+        "drama_title": "남남",
+        "start_time": 6.5,
+        "end_time": 7.25,
+        "keyframe_path": "keyframes/V018_N8zr4el85GE/V018_P035_S002_SCENE_003.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "water",
+            "city",
+            "buildings",
+            "sky",
+            "trees",
+            "reflection"
+        ],
+        "activity": [],
+        "description": "A nighttime view of a city skyline reflected in a calm body of water."
+    },
+    {
+        "segment_id": "V018_P035_S002_SCENE_004",
+        "source_segment_id": "V018_P035_S002",
+        "video_id": "V018_N8zr4el85GE",
+        "place_id": "P035",
+        "place_name": "여수 소호동동다리",
+        "season": "여름",
+        "region": "전라남도",
+        "city": "여수시",
+        "drama_title": "남남",
+        "start_time": 7.25,
+        "end_time": 59.992,
+        "keyframe_path": "keyframes/V018_N8zr4el85GE/V018_P035_S002_SCENE_004.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "peaceful",
+            "vibrant",
+            "calm"
+        ],
+        "scene_elements": [
+            "river",
+            "bridge",
+            "lights",
+            "buildings",
+            "trees",
+            "mountain",
+            "walkway",
+            "lamps",
+            "water",
+            "railing"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A nighttime scene of a riverwalk illuminated with vibrant pink lights, with a bridge and city buildings in the background."
+    },
+    {
+        "segment_id": "V019_P036_S001_SCENE_001",
+        "source_segment_id": "V019_P036_S001",
+        "video_id": "V019_0FKs6qVKGDE",
+        "place_id": "P036",
+        "place_name": "부산 더베이101·마린시티",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "지금, 헤어지는 중입니다",
+        "start_time": 0.0,
+        "end_time": 0.75,
+        "keyframe_path": "keyframes/V019_0FKs6qVKGDE/V019_P036_S001_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "vibrant",
+            "modern",
+            "urban"
+        ],
+        "scene_elements": [
+            "building",
+            "purple_lighting",
+            "the bar 101",
+            "outdoor_seating",
+            "pavement",
+            "trees",
+            "streetlight"
+        ],
+        "activity": [
+            "standing",
+            "waiting"
+        ],
+        "description": "A modern building in Busan, Korea, illuminated with purple lights at night, featuring 'The Bar 101' sign."
+    },
+    {
+        "segment_id": "V019_P036_S001_SCENE_002",
+        "source_segment_id": "V019_P036_S001",
+        "video_id": "V019_0FKs6qVKGDE",
+        "place_id": "P036",
+        "place_name": "부산 더베이101·마린시티",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "지금, 헤어지는 중입니다",
+        "start_time": 0.75,
+        "end_time": 1.5,
+        "keyframe_path": "keyframes/V019_0FKs6qVKGDE/V019_P036_S001_SCENE_002.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "vibrant",
+            "modern",
+            "urban",
+            "calm"
+        ],
+        "scene_elements": [
+            "city skyline",
+            "waterfront",
+            "anchor",
+            "sign",
+            "building",
+            "bench",
+            "lighting",
+            "sky",
+            "bouy",
+            "water"
+        ],
+        "activity": [
+            "standing",
+            "photographing"
+        ],
+        "description": "A nighttime view of Busan's The Bay 101 sign with a vibrant city skyline in the background."
+    },
+    {
+        "segment_id": "V019_P036_S001_SCENE_003",
+        "source_segment_id": "V019_P036_S001",
+        "video_id": "V019_0FKs6qVKGDE",
+        "place_id": "P036",
+        "place_name": "부산 더베이101·마린시티",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "지금, 헤어지는 중입니다",
+        "start_time": 1.5,
+        "end_time": 2.5,
+        "keyframe_path": "keyframes/V019_0FKs6qVKGDE/V019_P036_S001_SCENE_003.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "vibrant",
+            "modern",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "cityscape",
+            "skyscrapers",
+            "waterfront",
+            "sign",
+            "anchor",
+            "101",
+            "bollard",
+            "bench"
+        ],
+        "activity": [
+            "standing",
+            "photographing"
+        ],
+        "description": "A nighttime view of Busan's waterfront, featuring a large 'THE BAY 101' sign with a blue anchor, set against a backdrop of illuminated skyscrapers."
+    },
+    {
+        "segment_id": "V019_P036_S001_SCENE_004",
+        "source_segment_id": "V019_P036_S001",
+        "video_id": "V019_0FKs6qVKGDE",
+        "place_id": "P036",
+        "place_name": "부산 더베이101·마린시티",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "지금, 헤어지는 중입니다",
+        "start_time": 2.5,
+        "end_time": 5.0,
+        "keyframe_path": "keyframes/V019_0FKs6qVKGDE/V019_P036_S001_SCENE_004.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "vibrant",
+            "modern",
+            "urban"
+        ],
+        "scene_elements": [
+            "skyscrapers",
+            "water",
+            "lights",
+            "cityscape"
+        ],
+        "activity": [],
+        "description": "A nighttime view of a modern city skyline with illuminated buildings and reflections on the water."
+    },
+    {
+        "segment_id": "V019_P036_S001_SCENE_005",
+        "source_segment_id": "V019_P036_S001",
+        "video_id": "V019_0FKs6qVKGDE",
+        "place_id": "P036",
+        "place_name": "부산 더베이101·마린시티",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "지금, 헤어지는 중입니다",
+        "start_time": 5.0,
+        "end_time": 6.0,
+        "keyframe_path": "keyframes/V019_0FKs6qVKGDE/V019_P036_S001_SCENE_005.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "vibrant",
+            "urban",
+            "modern",
+            "festive"
+        ],
+        "scene_elements": [
+            "cityscape",
+            "high-rise buildings",
+            "luminous lights",
+            "decorative arch",
+            "string lights",
+            "green turf",
+            "bar",
+            "tables",
+            "furniture"
+        ],
+        "activity": [
+            "standing",
+            "waiting",
+            "seating"
+        ],
+        "description": "A nighttime view of Busan's modern cityscape with illuminated high-rise buildings and a festive outdoor bar area."
+    },
+    {
+        "segment_id": "V019_P036_S001_SCENE_006",
+        "source_segment_id": "V019_P036_S001",
+        "video_id": "V019_0FKs6qVKGDE",
+        "place_id": "P036",
+        "place_name": "부산 더베이101·마린시티",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "지금, 헤어지는 중입니다",
+        "start_time": 6.0,
+        "end_time": 8.0,
+        "keyframe_path": "keyframes/V019_0FKs6qVKGDE/V019_P036_S001_SCENE_006.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "vibrant",
+            "modern",
+            "urban"
+        ],
+        "scene_elements": [
+            "skyscrapers",
+            "yacht club",
+            "green turf",
+            "string lights",
+            "flags",
+            "boats"
+        ],
+        "activity": [
+            "standing",
+            "sitting",
+            "waiting"
+        ],
+        "description": "A nighttime view of Busan's skyline with illuminated skyscrapers and a waterfront yacht club. The scene is lively and modern."
+    },
+    {
+        "segment_id": "V019_P036_S002_SCENE_001",
+        "source_segment_id": "V019_P036_S002",
+        "video_id": "V019_qto_FhBvaJI",
+        "place_id": "P036",
+        "place_name": "부산 더베이101·마린시티",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "지금, 헤어지는 중입니다",
+        "start_time": 0.0,
+        "end_time": 23.0,
+        "keyframe_path": "keyframes/V019_qto_FhBvaJI/V019_P036_S002_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "vibrant",
+            "urban",
+            "modern"
+        ],
+        "scene_elements": [
+            "skyscrapers",
+            "water",
+            "dock",
+            "light",
+            "reflections",
+            "building",
+            "cityscape",
+            "night",
+            "luminous"
+        ],
+        "activity": [],
+        "description": "A nighttime cityscape with illuminated skyscrapers and reflections on the water."
+    },
+    {
+        "segment_id": "V020_P037_S001_SCENE_001",
+        "source_segment_id": "V020_P037_S001",
+        "video_id": "V020_w_VwCBHdfH0",
+        "place_id": "P037",
+        "place_name": "부산항대교·영도",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "마이 네임",
+        "start_time": 0.0,
+        "end_time": 0.75,
+        "keyframe_path": "keyframes/V020_w_VwCBHdfH0/V020_P037_S001_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "peaceful",
+            "serene",
+            "beautiful"
+        ],
+        "scene_elements": [
+            "bridge",
+            "river",
+            "lights",
+            "cityscape",
+            "sky",
+            "water",
+            "pier",
+            "tree",
+            "building"
+        ],
+        "activity": [
+            "viewing",
+            "staying"
+        ],
+        "description": "A nighttime view of a cityscape with illuminated bridges and a river, showcasing a peaceful and beautiful urban scene."
+    },
+    {
+        "segment_id": "V020_P037_S001_SCENE_002",
+        "source_segment_id": "V020_P037_S001",
+        "video_id": "V020_w_VwCBHdfH0",
+        "place_id": "P037",
+        "place_name": "부산항대교·영도",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "마이 네임",
+        "start_time": 0.75,
+        "end_time": 1.5,
+        "keyframe_path": "keyframes/V020_w_VwCBHdfH0/V020_P037_S001_SCENE_002.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "beautiful",
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "bridge",
+            "water",
+            "city",
+            "lighting",
+            "sky",
+            "reflection"
+        ],
+        "activity": [],
+        "description": "A colorful bridge at night with vibrant lighting reflecting on the water."
+    },
+    {
+        "segment_id": "V020_P037_S001_SCENE_003",
+        "source_segment_id": "V020_P037_S001",
+        "video_id": "V020_w_VwCBHdfH0",
+        "place_id": "P037",
+        "place_name": "부산항대교·영도",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "마이 네임",
+        "start_time": 1.5,
+        "end_time": 2.5,
+        "keyframe_path": "keyframes/V020_w_VwCBHdfH0/V020_P037_S001_SCENE_003.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "modern",
+            "peaceful",
+            "surreal",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "bridge",
+            "walkway",
+            "arched ceiling",
+            "blue lighting",
+            "people",
+            "dark tunnel",
+            "white structure"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A modern bridge at night with a surreal, tunnel-like design, illuminated by blue lights and featuring people walking through the structure."
+    },
+    {
+        "segment_id": "V020_P037_S001_SCENE_004",
+        "source_segment_id": "V020_P037_S001",
+        "video_id": "V020_w_VwCBHdfH0",
+        "place_id": "P037",
+        "place_name": "부산항대교·영도",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "마이 네임",
+        "start_time": 2.5,
+        "end_time": 3.5,
+        "keyframe_path": "keyframes/V020_w_VwCBHdfH0/V020_P037_S001_SCENE_004.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "modern",
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "bridge",
+            "walkway",
+            "lights",
+            "people",
+            "curved arches",
+            "dark sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A modern bridge at night with illuminated white arches and purple lighting, featuring a few people walking on the path."
+    },
+    {
+        "segment_id": "V020_P037_S001_SCENE_005",
+        "source_segment_id": "V020_P037_S001",
+        "video_id": "V020_w_VwCBHdfH0",
+        "place_id": "P037",
+        "place_name": "부산항대교·영도",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "마이 네임",
+        "start_time": 3.5,
+        "end_time": 4.25,
+        "keyframe_path": "keyframes/V020_w_VwCBHdfH0/V020_P037_S001_SCENE_005.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "bridge",
+            "river",
+            "walkway",
+            "railing",
+            "lights",
+            "sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A nighttime view of a beautifully lit bridge over a river, with a walkway illuminated by colorful lights."
+    },
+    {
+        "segment_id": "V020_P037_S001_SCENE_006",
+        "source_segment_id": "V020_P037_S001",
+        "video_id": "V020_w_VwCBHdfH0",
+        "place_id": "P037",
+        "place_name": "부산항대교·영도",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "마이 네임",
+        "start_time": 4.25,
+        "end_time": 5.0,
+        "keyframe_path": "keyframes/V020_w_VwCBHdfH0/V020_P037_S001_SCENE_006.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "beautiful",
+            "calm",
+            "modern",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "bridge",
+            "water",
+            "cityscape",
+            "lighting",
+            "reflection",
+            "sky"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A modern bridge illuminated at night with a cityscape in the background, reflecting on the water."
+    },
+    {
+        "segment_id": "V020_P037_S002_SCENE_001",
+        "source_segment_id": "V020_P037_S002",
+        "video_id": "V020_A7rRUj2PaAc",
+        "place_id": "P037",
+        "place_name": "부산항대교·영도",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "마이 네임",
+        "start_time": 0.0,
+        "end_time": 18.0,
+        "keyframe_path": "keyframes/V020_A7rRUj2PaAc/V020_P037_S002_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "vibrant",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "bridge",
+            "city",
+            "water",
+            "skyscrapers",
+            "ports",
+            "mountains",
+            "lights",
+            "buildings",
+            "boats",
+            "trees"
+        ],
+        "activity": [],
+        "description": "A night view of a city with a brightly lit bridge spanning a body of water, surrounded by illuminated buildings and a bustling port."
+    },
+    {
+        "segment_id": "V021_P038_S001_SCENE_001",
+        "source_segment_id": "V021_P038_S001",
+        "video_id": "V021_25lLgdRxiGY",
+        "place_id": "P038",
+        "place_name": "부산 광안대교",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "헤어질 결심",
+        "start_time": 0.0,
+        "end_time": 15.0,
+        "keyframe_path": "keyframes/V021_25lLgdRxiGY/V021_P038_S001_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "exciting",
+            "dazzling",
+            "festive"
+        ],
+        "scene_elements": [
+            "drones",
+            "cityscape",
+            "bridge",
+            "water",
+            "beach",
+            "lights",
+            "buildings"
+        ],
+        "activity": [
+            "drones flying",
+            "drones forming shape"
+        ],
+        "description": "A drone formation in the shape of a person is flying over a city at night, with lights reflecting on the water below."
+    },
+    {
+        "segment_id": "V021_P038_S002_SCENE_001",
+        "source_segment_id": "V021_P038_S002",
+        "video_id": "V021_EzIh2EN_QM0",
+        "place_id": "P038",
+        "place_name": "부산 광안대교",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "헤어질 결심",
+        "start_time": 0.0,
+        "end_time": 3.5,
+        "keyframe_path": "keyframes/V021_EzIh2EN_QM0/V021_P038_S002_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "beautiful",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "bridge",
+            "water",
+            "boats",
+            "lights"
+        ],
+        "activity": [
+            "boating"
+        ],
+        "description": "A brightly lit bridge at night with boats on the water, creating a serene and beautiful scene."
+    },
+    {
+        "segment_id": "V021_P038_S002_SCENE_002",
+        "source_segment_id": "V021_P038_S002",
+        "video_id": "V021_EzIh2EN_QM0",
+        "place_id": "P038",
+        "place_name": "부산 광안대교",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "헤어질 결심",
+        "start_time": 3.5,
+        "end_time": 5.75,
+        "keyframe_path": "keyframes/V021_EzIh2EN_QM0/V021_P038_S002_SCENE_002.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "festive",
+            "excited",
+            "celebratory"
+        ],
+        "scene_elements": [
+            "bridge",
+            "fireworks",
+            "water",
+            "boats",
+            "sailboat",
+            "lighting"
+        ],
+        "activity": [
+            "firing",
+            "boating",
+            "watching"
+        ],
+        "description": "A nighttime scene with fireworks exploding over a river, illuminated by a bridge and boats."
+    },
+    {
+        "segment_id": "V021_P038_S002_SCENE_003",
+        "source_segment_id": "V021_P038_S002",
+        "video_id": "V021_EzIh2EN_QM0",
+        "place_id": "P038",
+        "place_name": "부산 광안대교",
+        "season": "여름",
+        "region": "부산광역시",
+        "city": "부산광역시",
+        "drama_title": "헤어질 결심",
+        "start_time": 5.75,
+        "end_time": 7.0,
+        "keyframe_path": "keyframes/V021_EzIh2EN_QM0/V021_P038_S002_SCENE_003.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "festive",
+            "celebratory",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "bridge",
+            "water",
+            "sailboats",
+            "fireworks",
+            "lights"
+        ],
+        "activity": [
+            "firing_fireworks",
+            "sailing"
+        ],
+        "description": "A nighttime scene of a bridge illuminated with lights, with fireworks exploding over the water and sailboats floating nearby."
+    },
+    {
+        "segment_id": "V021_P048_S001_SCENE_001",
+        "source_segment_id": "V021_P048_S001",
+        "video_id": "V021_6Fowfd9CIoM",
+        "place_id": "P048",
+        "place_name": "부남해변",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "삼척시",
+        "drama_title": "헤어질 결심",
+        "start_time": 0.0,
+        "end_time": 1.25,
+        "keyframe_path": "keyframes/V021_6Fowfd9CIoM/V021_P048_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "beach",
+            "rock",
+            "tree",
+            "sea",
+            "sky",
+            "house",
+            "stone wall"
+        ],
+        "activity": [],
+        "description": "A serene coastal scene featuring a rocky island with a tree, a sandy beach, and gentle waves. The sky is clear and the sun is bright, suggesting a peaceful day at the shore."
+    },
+    {
+        "segment_id": "V021_P048_S001_SCENE_002",
+        "source_segment_id": "V021_P048_S001",
+        "video_id": "V021_6Fowfd9CIoM",
+        "place_id": "P048",
+        "place_name": "부남해변",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "삼척시",
+        "drama_title": "헤어질 결심",
+        "start_time": 1.25,
+        "end_time": 2.5,
+        "keyframe_path": "keyframes/V021_6Fowfd9CIoM/V021_P048_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm",
+            "natural",
+            "serene"
+        ],
+        "scene_elements": [
+            "ocean",
+            "rock",
+            "sea",
+            "cliff",
+            "tree",
+            "sky",
+            "sun",
+            "water",
+            "waves",
+            "mountain"
+        ],
+        "activity": [
+            "breaking",
+            "surfing",
+            "waving",
+            "crashing",
+            "rolling"
+        ],
+        "description": "A scenic coastal landscape with waves crashing against rocky cliffs under a clear blue sky."
+    },
+    {
+        "segment_id": "V021_P048_S001_SCENE_003",
+        "source_segment_id": "V021_P048_S001",
+        "video_id": "V021_6Fowfd9CIoM",
+        "place_id": "P048",
+        "place_name": "부남해변",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "삼척시",
+        "drama_title": "헤어질 결심",
+        "start_time": 2.5,
+        "end_time": 6.5,
+        "keyframe_path": "keyframes/V021_6Fowfd9CIoM/V021_P048_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm",
+            "natural",
+            "serene"
+        ],
+        "scene_elements": [
+            "sea",
+            "rock",
+            "ocean",
+            "trees",
+            "sky",
+            "shore"
+        ],
+        "activity": [],
+        "description": "A scenic coastal landscape with rocky cliffs and waves crashing against the shore under a clear blue sky."
+    }
+]
