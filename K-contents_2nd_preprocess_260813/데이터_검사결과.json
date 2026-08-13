@@ -1,0 +1,13 @@
+{
+  "records": 123,
+  "unique_youtube": 123,
+  "duplicate_segment_ids": 0,
+  "duplicate_youtube_ids": 0,
+  "invalid_records": 0,
+  "input_range_mode_counts": {
+    "medium_highlight": 7,
+    "short_scene_change": 102,
+    "long_highlight": 15,
+    "very_long_highlight": 1
+  }
+}
