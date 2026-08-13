@@ -1,0 +1,3342 @@
+[
+    {
+        "segment_id": "V014_P021_S001_SCENE_001",
+        "source_segment_id": "V014_P021_S001",
+        "video_id": "V014_DGRMHeI8Wt8",
+        "place_id": "P021",
+        "place_name": "청계천",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "도시남녀의 사랑법",
+        "start_time": 275.0,
+        "end_time": 295.0,
+        "keyframe_path": "keyframes/V014_DGRMHeI8Wt8/V014_P021_S001_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "river",
+            "cityscape",
+            "buildings",
+            "trees",
+            "fountain",
+            "people",
+            "lights",
+            "sidewalk",
+            "fence",
+            "planters"
+        ],
+        "activity": [
+            "sitting",
+            "walking",
+            "strolling"
+        ],
+        "description": "A nighttime view of a city river with people relaxing on the banks, surrounded by illuminated buildings and trees."
+    },
+    {
+        "segment_id": "V014_P021_S001_SCENE_002",
+        "source_segment_id": "V014_P021_S001",
+        "video_id": "V014_DGRMHeI8Wt8",
+        "place_id": "P021",
+        "place_name": "청계천",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "도시남녀의 사랑법",
+        "start_time": 295.75,
+        "end_time": 315.75,
+        "keyframe_path": "keyframes/V014_DGRMHeI8Wt8/V014_P021_S001_SCENE_002.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "festive",
+            "crowded",
+            "exciting"
+        ],
+        "scene_elements": [
+            "cityscape",
+            "tents",
+            "tree",
+            "building",
+            "crowd",
+            "lighting",
+            "streetlights"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "sitting",
+            "gathered"
+        ],
+        "description": "A nighttime city scene with a large, illuminated tree and a bustling crowd of people at an outdoor festival. The area is surrounded by modern buildings and lit up with festive lights."
+    },
+    {
+        "segment_id": "V014_P021_S001_SCENE_003",
+        "source_segment_id": "V014_P021_S001",
+        "video_id": "V014_DGRMHeI8Wt8",
+        "place_id": "P021",
+        "place_name": "청계천",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "도시남녀의 사랑법",
+        "start_time": 316.75,
+        "end_time": 336.75,
+        "keyframe_path": "keyframes/V014_DGRMHeI8Wt8/V014_P021_S001_SCENE_003.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "modern",
+            "urban",
+            "serene"
+        ],
+        "scene_elements": [
+            "cityscape",
+            "river",
+            "trees",
+            "buildings",
+            "streetlights",
+            "bridges",
+            "walkway",
+            "stone walls",
+            "people"
+        ],
+        "activity": [
+            "walking",
+            "sitting",
+            "strolling"
+        ],
+        "description": "A nighttime cityscape featuring a river with illuminated buildings and trees, showing people enjoying the evening atmosphere."
+    },
+    {
+        "segment_id": "V013_P019_S001_SCENE_001",
+        "source_segment_id": "V013_P019_S001",
+        "video_id": "V013_dI3Z5u9N0ew",
+        "place_id": "P019",
+        "place_name": "상주 함창역",
+        "season": "가을",
+        "region": "경상북도",
+        "city": "상주시",
+        "drama_title": "무인도의 디바",
+        "start_time": 0.0,
+        "end_time": 11.75,
+        "keyframe_path": "keyframes/V013_dI3Z5u9N0ew/V013_P019_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "station",
+            "building",
+            "door",
+            "window",
+            "brick wall",
+            "columns",
+            "sky",
+            "text",
+            "sign"
+        ],
+        "activity": [],
+        "description": "A photo of Hamchang Station, a quiet and peaceful station building on a sunny day."
+    },
+    {
+        "segment_id": "V013_P019_S001_SCENE_002",
+        "source_segment_id": "V013_P019_S001",
+        "video_id": "V013_dI3Z5u9N0ew",
+        "place_id": "P019",
+        "place_name": "상주 함창역",
+        "season": "가을",
+        "region": "경상북도",
+        "city": "상주시",
+        "drama_title": "무인도의 디바",
+        "start_time": 11.75,
+        "end_time": 17.25,
+        "keyframe_path": "keyframes/V013_dI3Z5u9N0ew/V013_P019_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "quiet"
+        ],
+        "scene_elements": [
+            "station",
+            "door",
+            "window",
+            "sign",
+            "tree",
+            "path",
+            "pavement",
+            "building",
+            "glass",
+            "doorframe"
+        ],
+        "activity": [
+            "standing",
+            "waiting"
+        ],
+        "description": "A view of Hamchang Station with a closed door and a sign in Korean. The scene is calm and quiet, with a paved path and trees visible outside."
+    },
+    {
+        "segment_id": "V013_P019_S001_SCENE_003",
+        "source_segment_id": "V013_P019_S001",
+        "video_id": "V013_dI3Z5u9N0ew",
+        "place_id": "P019",
+        "place_name": "상주 함창역",
+        "season": "가을",
+        "region": "경상북도",
+        "city": "상주시",
+        "drama_title": "무인도의 디바",
+        "start_time": 17.25,
+        "end_time": 22.75,
+        "keyframe_path": "keyframes/V013_dI3Z5u9N0ew/V013_P019_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "serene",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "train_station",
+            "sky",
+            "trees",
+            "streetlight",
+            "concrete_path",
+            "shrubbery",
+            "railway_track",
+            "power_lines"
+        ],
+        "activity": [
+            "standing",
+            "walking"
+        ],
+        "description": "A sunny day at Hamchang Station with clear blue skies and a quiet, peaceful atmosphere. A concrete path and railway tracks are visible in the foreground, with trees and shrubs lining the area."
+    },
+    {
+        "segment_id": "V013_P019_S001_SCENE_004",
+        "source_segment_id": "V013_P019_S001",
+        "video_id": "V013_dI3Z5u9N0ew",
+        "place_id": "P019",
+        "place_name": "상주 함창역",
+        "season": "가을",
+        "region": "경상북도",
+        "city": "상주시",
+        "drama_title": "무인도의 디바",
+        "start_time": 22.75,
+        "end_time": 26.5,
+        "keyframe_path": "keyframes/V013_dI3Z5u9N0ew/V013_P019_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "railway_tracks",
+            "gravel",
+            "trees",
+            "platform",
+            "sky",
+            "bushes",
+            "houses"
+        ],
+        "activity": [],
+        "description": "A quiet railway station with a clear blue sky and trees in the background. The scene appears to be on a clear day."
+    },
+    {
+        "segment_id": "V013_P019_S001_SCENE_005",
+        "source_segment_id": "V013_P019_S001",
+        "video_id": "V013_dI3Z5u9N0ew",
+        "place_id": "P019",
+        "place_name": "상주 함창역",
+        "season": "가을",
+        "region": "경상북도",
+        "city": "상주시",
+        "drama_title": "무인도의 디바",
+        "start_time": 26.5,
+        "end_time": 31.0,
+        "keyframe_path": "keyframes/V013_dI3Z5u9N0ew/V013_P019_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "quiet"
+        ],
+        "scene_elements": [
+            "train_station",
+            "platform",
+            "railway_tracks",
+            "signboard",
+            "bench",
+            "trees",
+            "sky",
+            "sunlight",
+            "railway_sign",
+            "camera"
+        ],
+        "activity": [
+            "standing",
+            "waiting"
+        ],
+        "description": "A train station platform in Korea with a sign indicating car numbers 3 and 4. The scene is calm and peaceful under a clear blue sky."
+    },
+    {
+        "segment_id": "V013_P029_S001_SCENE_001",
+        "source_segment_id": "V013_P029_S001",
+        "video_id": "V013_n6_TzBPBYUU",
+        "place_id": "P019",
+        "place_name": "상주 경천섬 공원",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "상주시",
+        "drama_title": "무인도의 디바",
+        "start_time": 0.0,
+        "end_time": 9.75,
+        "keyframe_path": "keyframes/V013_n6_TzBPBYUU/V013_P029_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "lake",
+            "mountain",
+            "trees",
+            "houses",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A serene lake surrounded by a forested mountain, with clear skies and calm waters."
+    },
+    {
+        "segment_id": "V013_P029_S001_SCENE_002",
+        "source_segment_id": "V013_P029_S001",
+        "video_id": "V013_n6_TzBPBYUU",
+        "place_id": "P019",
+        "place_name": "상주 경천섬 공원",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "상주시",
+        "drama_title": "무인도의 디바",
+        "start_time": 9.75,
+        "end_time": 11.25,
+        "keyframe_path": "keyframes/V013_n6_TzBPBYUU/V013_P029_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "sunny",
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "bridge",
+            "wooden_deck",
+            "fence",
+            "shadow",
+            "water"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A person walks along a wooden bridge on a sunny day, casting long shadows on the deck."
+    },
+    {
+        "segment_id": "V013_P029_S001_SCENE_003",
+        "source_segment_id": "V013_P029_S001",
+        "video_id": "V013_n6_TzBPBYUU",
+        "place_id": "P019",
+        "place_name": "상주 경천섬 공원",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "상주시",
+        "drama_title": "무인도의 디바",
+        "start_time": 11.25,
+        "end_time": 17.0,
+        "keyframe_path": "keyframes/V013_n6_TzBPBYUU/V013_P029_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm",
+            "serene"
+        ],
+        "scene_elements": [
+            "lake",
+            "wooden_railing",
+            "tree_line",
+            "sunlight"
+        ],
+        "activity": [],
+        "description": "A serene view of a lake from a wooden railing, with sunlight reflecting on the water and a tree line in the distance."
+    },
+    {
+        "segment_id": "V013_P020_S001_SCENE_001",
+        "source_segment_id": "V013_P020_S001",
+        "video_id": "V013_oetlLeT3dmo",
+        "place_id": "P020",
+        "place_name": "서천",
+        "season": "봄",
+        "region": "충청남도",
+        "city": "서천군",
+        "drama_title": "무인도의 디바",
+        "start_time": 0.0,
+        "end_time": 55.0,
+        "keyframe_path": "keyframes/V013_oetlLeT3dmo/V013_P020_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "flowers",
+            "trees",
+            "stone spheres",
+            "forest"
+        ],
+        "activity": [
+            "strolling"
+        ],
+        "description": "A vibrant purple flower field in a forest, with stone spheres scattered among the plants, captured during the day."
+    },
+    {
+        "segment_id": "V012_P018_S001_SCENE_001",
+        "source_segment_id": "V012_P018_S001",
+        "video_id": "V012_m1hv20znDdU",
+        "place_id": "P018",
+        "place_name": "영월 주천강",
+        "season": "가을",
+        "region": "강원특별자치도",
+        "city": "영월군",
+        "drama_title": "날씨가 좋으면 찾아가겠어요",
+        "start_time": 0.0,
+        "end_time": 14.967,
+        "keyframe_path": "keyframes/V012_m1hv20znDdU/V012_P018_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "quiet"
+        ],
+        "scene_elements": [
+            "tree",
+            "river",
+            "grass",
+            "mountain",
+            "snow"
+        ],
+        "activity": [],
+        "description": "A lone tree stands in a grassy field near a river, with a snow-covered mountain in the background."
+    },
+    {
+        "segment_id": "V012_P018_S002_SCENE_001",
+        "source_segment_id": "V012_P018_S002",
+        "video_id": "V012_bU-dyF_Gsk8",
+        "place_id": "P018",
+        "place_name": "영월 주천강",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "영월군",
+        "drama_title": "날씨가 좋으면 찾아가겠어요",
+        "start_time": 0.0,
+        "end_time": 17.0,
+        "keyframe_path": "keyframes/V012_bU-dyF_Gsk8/V012_P018_S002_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "wintery",
+            "natural",
+            "cozy"
+        ],
+        "scene_elements": [
+            "snow",
+            "wooden structure",
+            "grass",
+            "mountain",
+            "field",
+            "tree",
+            "snow-covered roof",
+            "winter landscape",
+            "snow-covered ground",
+            "dry grass"
+        ],
+        "activity": [],
+        "description": "A snow-covered wooden structure in a winter landscape with a mountain in the background. The scene is quiet and peaceful, with the snow covering the ground and the structure."
+    },
+    {
+        "segment_id": "V012_P018_S003_SCENE_001",
+        "source_segment_id": "V012_P018_S003",
+        "video_id": "V012_7oeOss6ffuw",
+        "place_id": "P018",
+        "place_name": "영월 주천강",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "영월군",
+        "drama_title": "날씨가 좋으면 찾아가겠어요",
+        "start_time": 0.0,
+        "end_time": 20.0,
+        "keyframe_path": "keyframes/V012_7oeOss6ffuw/V012_P018_S003_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "snow",
+            "ceramic_jars",
+            "house",
+            "fence",
+            "mountain",
+            "trees",
+            "building",
+            "path",
+            "sky",
+            "snow-covered_ground"
+        ],
+        "activity": [],
+        "description": "A snowy outdoor scene featuring a large number of traditional ceramic jars, likely used for fermenting, with a house and mountains in the background."
+    },
+    {
+        "segment_id": "V012_P018_S003_SCENE_002",
+        "source_segment_id": "V012_P018_S003",
+        "video_id": "V012_7oeOss6ffuw",
+        "place_id": "P018",
+        "place_name": "영월 주천강",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "영월군",
+        "drama_title": "날씨가 좋으면 찾아가겠어요",
+        "start_time": 38.75,
+        "end_time": 58.75,
+        "keyframe_path": "keyframes/V012_7oeOss6ffuw/V012_P018_S003_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "natural",
+            "cozy",
+            "serene"
+        ],
+        "scene_elements": [
+            "bridge",
+            "river",
+            "ice",
+            "trees",
+            "snow",
+            "logs",
+            "pine_needles",
+            "sky",
+            "bark",
+            "rocks"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A rustic wooden bridge spans a partially frozen river, with snow and bare trees in the background, creating a peaceful and natural scene."
+    },
+    {
+        "segment_id": "V012_P018_S003_SCENE_003",
+        "source_segment_id": "V012_P018_S003",
+        "video_id": "V012_7oeOss6ffuw",
+        "place_id": "P018",
+        "place_name": "영월 주천강",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "영월군",
+        "drama_title": "날씨가 좋으면 찾아가겠어요",
+        "start_time": 61.25,
+        "end_time": 81.25,
+        "keyframe_path": "keyframes/V012_7oeOss6ffuw/V012_P018_S003_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "snow",
+            "trees",
+            "path",
+            "rock",
+            "forest",
+            "sky",
+            "building",
+            "car"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A snowy path lined with tall trees in a park, with a peaceful atmosphere."
+    },
+    {
+        "segment_id": "V011_P016_S001_SCENE_001",
+        "source_segment_id": "V011_P016_S001",
+        "video_id": "V011_yZeNfaIK7Nw",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "봄",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 4.5,
+        "end_time": 39.5,
+        "keyframe_path": "keyframes/V011_yZeNfaIK7Nw/V011_P016_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "traditional",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "palace",
+            "courtyard",
+            "building",
+            "sky",
+            "trees",
+            "people",
+            "path",
+            "dirt",
+            "roof",
+            "gate"
+        ],
+        "activity": [
+            "walking",
+            "standing"
+        ],
+        "description": "An aerial view of a traditional Korean palace courtyard with visitors walking along the path. The scene is bright and sunny, capturing the historical architecture and the calm atmosphere."
+    },
+    {
+        "segment_id": "V011_P016_S001_SCENE_002",
+        "source_segment_id": "V011_P016_S001",
+        "video_id": "V011_yZeNfaIK7Nw",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "봄",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 40.5,
+        "end_time": 75.5,
+        "keyframe_path": "keyframes/V011_yZeNfaIK7Nw/V011_P016_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "historical",
+            "serene"
+        ],
+        "scene_elements": [
+            "ancient_wall",
+            "palace",
+            "square",
+            "cityscape",
+            "modern_buildings",
+            "people",
+            "road",
+            "bridge",
+            "sky",
+            "tree"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "sitting",
+            "strolling",
+            "visiting"
+        ],
+        "description": "An aerial view of a traditional Korean palace square with people walking and visiting, set against a backdrop of modern city buildings."
+    },
+    {
+        "segment_id": "V011_P016_S001_SCENE_003",
+        "source_segment_id": "V011_P016_S001",
+        "video_id": "V011_yZeNfaIK7Nw",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "봄",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 76.5,
+        "end_time": 111.5,
+        "keyframe_path": "keyframes/V011_yZeNfaIK7Nw/V011_P016_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "historical",
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "palace",
+            "traditional_building",
+            "courtyard",
+            "trees",
+            "sky",
+            "building",
+            "path",
+            "park",
+            "wall",
+            "gate"
+        ],
+        "activity": [
+            "walking",
+            "strolling"
+        ],
+        "description": "An aerial view of a traditional Korean palace complex, showcasing its intricate architecture and surrounding park area on a bright day."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_001",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 0.0,
+        "end_time": 1.0,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "traditional"
+        ],
+        "scene_elements": [
+            "gate",
+            "flag",
+            "uniform",
+            "people",
+            "sky",
+            "building"
+        ],
+        "activity": [
+            "walking",
+            "holding"
+        ],
+        "description": "A traditional Korean gate with a ceremonial guard holding a flag, under a clear blue sky."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_002",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 1.0,
+        "end_time": 2.0,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "traditional",
+            "calm"
+        ],
+        "scene_elements": [
+            "room",
+            "window",
+            "chair",
+            "book",
+            "table",
+            "painting",
+            "wooden cabinet",
+            "lattice window",
+            "red chair",
+            "door"
+        ],
+        "activity": [],
+        "description": "A traditional Korean room with wooden furniture and lattice windows, illuminated by natural light."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_003",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 2.0,
+        "end_time": 3.0,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "vibrant",
+            "festive",
+            "busy",
+            "traditional",
+            "joyful"
+        ],
+        "scene_elements": [
+            "bus",
+            "car",
+            "tree",
+            "lantern",
+            "mountain",
+            "hanok",
+            "sign",
+            "flag",
+            "traffic",
+            "road"
+        ],
+        "activity": [
+            "driving",
+            "walking",
+            "waiting",
+            "riding",
+            "stopping"
+        ],
+        "description": "A busy street in a traditional Korean city with colorful lanterns and a mountain in the background. The scene is lively with vehicles and pedestrians, capturing a vibrant day in the city."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_004",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 3.0,
+        "end_time": 3.75,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "vivid",
+            "modern",
+            "futuristic"
+        ],
+        "scene_elements": [
+            "building",
+            "large_screen",
+            "television",
+            "space suit"
+        ],
+        "activity": [],
+        "description": "A large screen displays a futuristic scene with multiple television screens showing colorful, abstract content, located on the exterior of a building."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_005",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 3.75,
+        "end_time": 4.75,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "bright",
+            "modern",
+            "clean",
+            "calm",
+            "sunny"
+        ],
+        "scene_elements": [
+            "building",
+            "sky",
+            "grass",
+            "flag",
+            "staircase",
+            "trees",
+            "sign",
+            "people"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A modern building with a large digital display, showing a vibrant and bright scene under a clear sky. People are walking on the grassy area in front of the building."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_006",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 4.75,
+        "end_time": 6.0,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "sunny",
+            "bright",
+            "modern"
+        ],
+        "scene_elements": [
+            "building",
+            "flag",
+            "stairs",
+            "grass",
+            "tree",
+            "sign",
+            "banners",
+            "people"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A modern building with a large digital display, surrounded by green grass and trees under a bright sunny sky."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_007",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 6.0,
+        "end_time": 8.75,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "woman",
+            "balcony",
+            "hanok",
+            "mountain",
+            "park",
+            "road",
+            "trees",
+            "building",
+            "sky"
+        ],
+        "activity": [
+            "standing",
+            "looking"
+        ],
+        "description": "A woman stands on a balcony, looking out at a traditional Korean landscape with mountains and buildings in the distance."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_008",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 8.75,
+        "end_time": 10.75,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "festive",
+            "traditional",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "palace",
+            "flags",
+            "uniformed_people",
+            "arch",
+            "people",
+            "sky"
+        ],
+        "activity": [
+            "dancing",
+            "standing",
+            "holding"
+        ],
+        "description": "A traditional Korean ceremony is taking place in front of a palace, with uniformed guards and colorful flags. The scene is bright and sunny, with people watching."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_009",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 10.75,
+        "end_time": 12.0,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "traditional",
+            "peaceful",
+            "ceremonial"
+        ],
+        "scene_elements": [
+            "uniforms",
+            "flags",
+            "arches",
+            "steps",
+            "guards",
+            "shield",
+            "swords",
+            "drum",
+            "banners",
+            "building"
+        ],
+        "activity": [
+            "standing",
+            "duty",
+            "drumming",
+            "guarding"
+        ],
+        "description": "A group of traditional Korean guards in colorful uniforms are standing in formation during a ceremonial event, with flags and banners in the background."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_010",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 12.0,
+        "end_time": 13.0,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_010.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "festive",
+            "traditional",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "arch",
+            "gate",
+            "flag",
+            "uniformed_people",
+            "flagpole",
+            "stone pavement",
+            "building",
+            "sky",
+            "people"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "dancing"
+        ],
+        "description": "A traditional Korean ceremony is taking place in front of a historic gate, with people in traditional attire and flags waving. The scene is bright and sunny."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_011",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 13.0,
+        "end_time": 14.0,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_011.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "traditional",
+            "festive",
+            "historical"
+        ],
+        "scene_elements": [
+            "palace",
+            "gate",
+            "flag",
+            "uniform",
+            "people",
+            "demonstration",
+            "street",
+            "building",
+            "sky",
+            "arch"
+        ],
+        "activity": [
+            "walking",
+            "demonstrating",
+            "parading"
+        ],
+        "description": "A traditional Korean palace gate with people in historical uniforms participating in a parade or ceremony."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_012",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 14.0,
+        "end_time": 14.75,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_012.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "majestic",
+            "grand",
+            "serene",
+            "traditional",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "palace",
+            "red pillars",
+            "colorful roof",
+            "red platform",
+            "painting",
+            "lamps",
+            "mountains",
+            "moon"
+        ],
+        "activity": [],
+        "description": "A grand traditional Korean palace interior with intricate roof designs and red pillars, showcasing a majestic and serene atmosphere."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_013",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 14.75,
+        "end_time": 16.5,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_013.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "vibrant",
+            "grand",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "temple",
+            "red pillars",
+            "colorful roof",
+            "golden throne",
+            "mountains",
+            "lamps",
+            "red steps",
+            "white lanterns"
+        ],
+        "activity": [],
+        "description": "A grand traditional Korean temple interior with colorful roofs and a red throne, illuminated by natural light."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_014",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 16.5,
+        "end_time": 18.25,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_014.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "castle",
+            "water",
+            "bridge",
+            "stone wall",
+            "tree",
+            "sky",
+            "clouds"
+        ],
+        "activity": [
+            "standing",
+            "looking"
+        ],
+        "description": "A woman is standing in front of a traditional Korean castle, looking at the scenic view of the water and the architecture under a bright sky."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_015",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 18.25,
+        "end_time": 19.5,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_015.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "palace",
+            "columns",
+            "roof",
+            "green grass",
+            "stone balustrade",
+            "mountain",
+            "trees",
+            "path",
+            "stone pillars",
+            "stone lion statues"
+        ],
+        "activity": [
+            "standing",
+            "walking"
+        ],
+        "description": "A traditional Korean palace building with a long covered walkway, surrounded by green grass and trees under a bright day sky."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_016",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 19.5,
+        "end_time": 23.0,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_016.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "serene",
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "traditional_building",
+            "stone_roof",
+            "columns",
+            "green草坪",
+            "stone_brick_wall",
+            "mountain",
+            "trees",
+            "stone_sculptures",
+            "path",
+            "sky"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A traditional Korean building with a stone path leading to a grassy area, with mountains in the background. The scene is calm and peaceful."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_017",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 23.0,
+        "end_time": 25.25,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_017.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "lake",
+            "bridge",
+            "hanok",
+            "tree",
+            "sky",
+            "woman",
+            "dress",
+            "parks",
+            "park"
+        ],
+        "activity": [
+            "taking a photo",
+            "standing"
+        ],
+        "description": "A woman in a light dress is standing by a lake, taking a photo of a traditional hanok. The scene is peaceful and serene under a bright sky."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_018",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 25.25,
+        "end_time": 26.25,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_018.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "hanok",
+            "tower",
+            "roof",
+            "tree",
+            "sky",
+            "building",
+            "greenery"
+        ],
+        "activity": [],
+        "description": "A traditional Korean temple with a multi-tiered tower, surrounded by greenery under a clear blue sky."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_019",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 26.25,
+        "end_time": 27.75,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_019.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "vibrant",
+            "beautiful",
+            "peaceful",
+            "traditional",
+            "joyful"
+        ],
+        "scene_elements": [
+            "traditional_korean_house",
+            "red_building",
+            "blue_windows",
+            "wooden_balcony",
+            "tall_stilt",
+            "tree",
+            "sky",
+            "green_leaf",
+            "roof",
+            "decorative_carvings"
+        ],
+        "activity": [],
+        "description": "A vibrant traditional Korean building with red walls and blue windows, elevated on stilts, is captured in a bright day scene. The image highlights the architectural beauty and cultural charm of the structure."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_020",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 27.75,
+        "end_time": 28.5,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_020.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "vibrant",
+            "ancient",
+            "peaceful",
+            "beautiful",
+            "rich"
+        ],
+        "scene_elements": [
+            "ceiling",
+            "wooden beams",
+            "decorative tiles",
+            "architectural details",
+            "colorful paintings",
+            "intricate carvings",
+            "traditional architecture",
+            "ceiling panels",
+            "windows",
+            "red pillars"
+        ],
+        "activity": [],
+        "description": "A detailed view of the ornate ceiling and walls of a traditional Korean temple, showcasing intricate carvings and vibrant colors. The scene highlights the rich cultural heritage and architectural beauty of the structure."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_021",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 28.5,
+        "end_time": 29.5,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_021.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "serene",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "bookshelf",
+            "books",
+            "wall",
+            "sign"
+        ],
+        "activity": [],
+        "description": "A bookshelf filled with books, with a sign that reads 'The original book of the world is the book of the world.'"
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_022",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 29.5,
+        "end_time": 30.5,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_022.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "calm",
+            "peaceful",
+            "cozy",
+            "serene",
+            "traditional"
+        ],
+        "scene_elements": [
+            "bookshelf",
+            "lamp",
+            "wooden floor",
+            "paper screen",
+            "books",
+            "wall",
+            "door"
+        ],
+        "activity": [],
+        "description": "A cozy room with a bookshelf and a lamp, creating a calm and traditional atmosphere."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_023",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 30.5,
+        "end_time": 32.0,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_023.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "cozy",
+            "calm",
+            "warm",
+            "quiet",
+            "indoor"
+        ],
+        "scene_elements": [
+            "bookshelf",
+            "lamp",
+            "book",
+            "paper帘",
+            "wooden wall",
+            "floor",
+            "cable"
+        ],
+        "activity": [],
+        "description": "A cozy indoor scene featuring a bookshelf with books and a warmly lit lamp, creating a calm and quiet atmosphere."
+    },
+    {
+        "segment_id": "V011_P016_S002_SCENE_024",
+        "source_segment_id": "V011_P016_S002",
+        "video_id": "V011_Nba1McqxPEo",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 32.0,
+        "end_time": 34.0,
+        "keyframe_path": "keyframes/V011_Nba1McqxPEo/V011_P016_S002_SCENE_024.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene",
+            "vibrant",
+            "natural"
+        ],
+        "scene_elements": [
+            "lake",
+            "traditional_korean_temple",
+            "bridge",
+            "trees",
+            "sky",
+            "buildings",
+            "greenery",
+            "clouds"
+        ],
+        "activity": [
+            "walking",
+            "strolling",
+            "sitting",
+            "admiring",
+            "fishing"
+        ],
+        "description": "A serene view of a traditional Korean temple surrounded by a calm lake, with lush greenery and modern buildings in the background. The scene captures a peaceful and tranquil atmosphere on a bright day."
+    },
+    {
+        "segment_id": "V011_P017_S001_SCENE_001",
+        "source_segment_id": "V011_P017_S001",
+        "video_id": "V011_i2ZuU6szFWE",
+        "place_id": "P017",
+        "place_name": "창덕궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 14.75,
+        "end_time": 34.75,
+        "keyframe_path": "keyframes/V011_i2ZuU6szFWE/V011_P017_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm",
+            "traditional"
+        ],
+        "scene_elements": [
+            "hanok",
+            "palace",
+            "roof",
+            "building",
+            "tree",
+            "path",
+            "city",
+            "park",
+            "sky",
+            "street"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "An aerial view of a traditional Korean palace complex in Seoul, with people walking along the pathways."
+    },
+    {
+        "segment_id": "V011_P017_S001_SCENE_002",
+        "source_segment_id": "V011_P017_S001",
+        "video_id": "V011_i2ZuU6szFWE",
+        "place_id": "P017",
+        "place_name": "창덕궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 35.75,
+        "end_time": 55.75,
+        "keyframe_path": "keyframes/V011_i2ZuU6szFWE/V011_P017_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "serene",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "greenhouse",
+            "trees",
+            "garden",
+            "path",
+            "hedges",
+            "snow",
+            "sky"
+        ],
+        "activity": [
+            "standing",
+            "walking"
+        ],
+        "description": "An aerial view of the Grand Greenhouse in Seoul, surrounded by a snow-covered garden and trees, with a peaceful atmosphere."
+    },
+    {
+        "segment_id": "V011_P017_S001_SCENE_003",
+        "source_segment_id": "V011_P017_S001",
+        "video_id": "V011_i2ZuU6szFWE",
+        "place_id": "P017",
+        "place_name": "창덕궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 56.75,
+        "end_time": 76.75,
+        "keyframe_path": "keyframes/V011_i2ZuU6szFWE/V011_P017_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "historical",
+            "serene"
+        ],
+        "scene_elements": [
+            "palace",
+            "traditional_houses",
+            "trees",
+            "park",
+            "cityscape",
+            "dirt_path",
+            "stone_wall",
+            "building",
+            "sky",
+            "bushes"
+        ],
+        "activity": [
+            "walking",
+            "strolling"
+        ],
+        "description": "An aerial view of a traditional Korean palace complex surrounded by trees and a cityscape, with a calm and historical atmosphere."
+    },
+    {
+        "segment_id": "V011_P017_S002_SCENE_001",
+        "source_segment_id": "V011_P017_S002",
+        "video_id": "V011_c4OOEsGS7Cc",
+        "place_id": "P017",
+        "place_name": "창덕궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 0.0,
+        "end_time": 2.25,
+        "keyframe_path": "keyframes/V011_c4OOEsGS7Cc/V011_P017_S002_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "historical",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "palace",
+            "roof",
+            "stone steps",
+            "pillar",
+            "sky",
+            "birds"
+        ],
+        "activity": [],
+        "description": "A traditional Korean palace building is shown from a viewing angle, with a clear sky and birds on the roof. The scene evokes a sense of peace and historical beauty."
+    },
+    {
+        "segment_id": "V011_P017_S002_SCENE_002",
+        "source_segment_id": "V011_P017_S002",
+        "video_id": "V011_c4OOEsGS7Cc",
+        "place_id": "P017",
+        "place_name": "창덕궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 2.25,
+        "end_time": 5.25,
+        "keyframe_path": "keyframes/V011_c4OOEsGS7Cc/V011_P017_S002_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "traditional"
+        ],
+        "scene_elements": [
+            "gazebo",
+            "korean_architecture",
+            "colorful_ceiling",
+            "green_trees",
+            "red_columns",
+            "wooden_roof",
+            "natural_light"
+        ],
+        "activity": [],
+        "description": "A traditional Korean gazebo with a colorful, intricately painted ceiling, viewed from inside with green trees visible through the open structure."
+    },
+    {
+        "segment_id": "V011_P017_S002_SCENE_003",
+        "source_segment_id": "V011_P017_S002",
+        "video_id": "V011_c4OOEsGS7Cc",
+        "place_id": "P017",
+        "place_name": "창덕궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 5.25,
+        "end_time": 7.25,
+        "keyframe_path": "keyframes/V011_c4OOEsGS7Cc/V011_P017_S002_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "serene",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "monument",
+            "stone",
+            "tree",
+            "text",
+            "plaque",
+            "sign",
+            "inscription",
+            "palace",
+            "chungbuk palace"
+        ],
+        "activity": [],
+        "description": "A monument with inscriptions in Korean and English, featuring a stone structure with text and a logo, located outdoors in a natural setting."
+    },
+    {
+        "segment_id": "V011_P017_S002_SCENE_004",
+        "source_segment_id": "V011_P017_S002",
+        "video_id": "V011_c4OOEsGS7Cc",
+        "place_id": "P017",
+        "place_name": "창덕궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 7.25,
+        "end_time": 8.5,
+        "keyframe_path": "keyframes/V011_c4OOEsGS7Cc/V011_P017_S002_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "traditional"
+        ],
+        "scene_elements": [
+            "woman",
+            "traditional_building",
+            "stone_steps",
+            "sky",
+            "roof",
+            "gate",
+            "blossom",
+            "tree",
+            "pavement"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A woman is walking towards a traditional Korean building, with a peaceful and serene atmosphere."
+    },
+    {
+        "segment_id": "V011_P017_S002_SCENE_005",
+        "source_segment_id": "V011_P017_S002",
+        "video_id": "V011_c4OOEsGS7Cc",
+        "place_id": "P017",
+        "place_name": "창덕궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 8.5,
+        "end_time": 10.5,
+        "keyframe_path": "keyframes/V011_c4OOEsGS7Cc/V011_P017_S002_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "traditional_korean_building",
+            "stone_steps",
+            "sky",
+            "clouds"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A traditional Korean building with a tiled roof, viewed from a stone courtyard. The scene is calm and peaceful."
+    },
+    {
+        "segment_id": "V011_P017_S002_SCENE_006",
+        "source_segment_id": "V011_P017_S002",
+        "video_id": "V011_c4OOEsGS7Cc",
+        "place_id": "P017",
+        "place_name": "창덕궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 10.5,
+        "end_time": 15.0,
+        "keyframe_path": "keyframes/V011_c4OOEsGS7Cc/V011_P017_S002_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "historical",
+            "peaceful",
+            "traditional"
+        ],
+        "scene_elements": [
+            "sign",
+            "architectural_detail",
+            "flower_pattern",
+            "roof"
+        ],
+        "activity": [],
+        "description": "A close-up of a traditional Korean sign with calligraphy, set against the ornate wooden structure of a building. The image highlights the intricate details of the architecture and the cultural significance of the sign."
+    },
+    {
+        "segment_id": "V011_P017_S002_SCENE_007",
+        "source_segment_id": "V011_P017_S002",
+        "video_id": "V011_c4OOEsGS7Cc",
+        "place_id": "P017",
+        "place_name": "창덕궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 15.0,
+        "end_time": 17.5,
+        "keyframe_path": "keyframes/V011_c4OOEsGS7Cc/V011_P017_S002_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "traditional",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "roof",
+            "stone steps",
+            "stone wall",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A traditional Korean hanok with a dark tiled roof and stone steps, under a clear sky."
+    },
+    {
+        "segment_id": "V011_P017_S002_SCENE_008",
+        "source_segment_id": "V011_P017_S002",
+        "video_id": "V011_c4OOEsGS7Cc",
+        "place_id": "P017",
+        "place_name": "창덕궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 17.5,
+        "end_time": 21.5,
+        "keyframe_path": "keyframes/V011_c4OOEsGS7Cc/V011_P017_S002_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "traditional"
+        ],
+        "scene_elements": [
+            "hanok",
+            "roof",
+            "stone steps",
+            "building",
+            "sky",
+            "pavement"
+        ],
+        "activity": [],
+        "description": "A traditional Korean building with a dark tiled roof, possibly a palace or temple, under a clear sky."
+    },
+    {
+        "segment_id": "V011_P017_S002_SCENE_009",
+        "source_segment_id": "V011_P017_S002",
+        "video_id": "V011_c4OOEsGS7Cc",
+        "place_id": "P017",
+        "place_name": "창덕궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 21.5,
+        "end_time": 28.0,
+        "keyframe_path": "keyframes/V011_c4OOEsGS7Cc/V011_P017_S002_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene",
+            "traditional",
+            "natural"
+        ],
+        "scene_elements": [
+            "hanok",
+            "roof",
+            "tree",
+            "bridge",
+            "stone",
+            "path",
+            "bush",
+            "stone wall",
+            "railing",
+            "plant"
+        ],
+        "activity": [
+            "walking",
+            "strolling"
+        ],
+        "description": "A traditional Korean pavilion with a curved roof is surrounded by lush greenery and stone pathways, creating a peaceful and serene atmosphere."
+    },
+    {
+        "segment_id": "V002_P004_S001_SCENE_001",
+        "source_segment_id": "V002_P004_S001",
+        "video_id": "V002_Q6qUEvQfjRs",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 0.0,
+        "end_time": 10.0,
+        "keyframe_path": "keyframes/V002_Q6qUEvQfjRs/V002_P004_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "vibrant",
+            "natural"
+        ],
+        "scene_elements": [
+            "field",
+            "yellow_flowers",
+            "path",
+            "sky",
+            "clouds",
+            "tree",
+            "ground"
+        ],
+        "activity": [
+            "standing",
+            "walking"
+        ],
+        "description": "A vibrant yellow field of flowers under a cloudy sky, with a path winding through the field."
+    },
+    {
+        "segment_id": "V002_P004_S002_SCENE_001",
+        "source_segment_id": "V002_P004_S002",
+        "video_id": "V002_rFJT5hNx2AQ",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 10.0,
+        "end_time": 15.0,
+        "keyframe_path": "keyframes/V002_rFJT5hNx2AQ/V002_P004_S002_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "vast",
+            "lonely",
+            "hopeful"
+        ],
+        "scene_elements": [
+            "flower_field",
+            "mountain",
+            "sky",
+            "person"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A person walks through a vast field of yellow flowers under a clear sky, with distant mountains in the background. The scene conveys a sense of tranquility and solitude."
+    },
+    {
+        "segment_id": "V002_P004_S003_SCENE_001",
+        "source_segment_id": "V002_P004_S003",
+        "video_id": "V002_zY81V4VOA44",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 0.0,
+        "end_time": 4.0,
+        "keyframe_path": "keyframes/V002_zY81V4VOA44/V002_P004_S003_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "vibrant",
+            "serene"
+        ],
+        "scene_elements": [
+            "fields",
+            "path",
+            "house",
+            "tree",
+            "grass",
+            "flower",
+            "road",
+            "person"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "Aerial view of a vibrant green field with winding paths and a small house, showcasing a peaceful countryside scene."
+    },
+    {
+        "segment_id": "V002_P004_S003_SCENE_002",
+        "source_segment_id": "V002_P004_S003",
+        "video_id": "V002_zY81V4VOA44",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 4.0,
+        "end_time": 7.5,
+        "keyframe_path": "keyframes/V002_zY81V4VOA44/V002_P004_S003_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "bridge",
+            "tree",
+            "flower_field",
+            "grass",
+            "sky",
+            "path",
+            "wooden_platform",
+            "bush"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A person is walking on a wooden bridge in a serene countryside, surrounded by a vibrant yellow flower field and lush green grass under a bright sky."
+    },
+    {
+        "segment_id": "V002_P004_S003_SCENE_003",
+        "source_segment_id": "V002_P004_S003",
+        "video_id": "V002_zY81V4VOA44",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 7.5,
+        "end_time": 11.25,
+        "keyframe_path": "keyframes/V002_zY81V4VOA44/V002_P004_S003_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "field",
+            "rural",
+            "green",
+            "yellow",
+            "path",
+            "tree",
+            "house",
+            "hill",
+            "sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A serene rural landscape with green and yellow fields, a winding path, and a small house in the distance."
+    },
+    {
+        "segment_id": "V002_P004_S003_SCENE_004",
+        "source_segment_id": "V002_P004_S003",
+        "video_id": "V002_zY81V4VOA44",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 11.25,
+        "end_time": 13.75,
+        "keyframe_path": "keyframes/V002_zY81V4VOA44/V002_P004_S003_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "green_field",
+            "path",
+            "small_house",
+            "tree",
+            "flower_field",
+            "bush",
+            "dirt_path",
+            "farmer",
+            "sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "Aerial view of a winding path through a vibrant green field, with a small house and a flower field in the background, captured on a bright day."
+    },
+    {
+        "segment_id": "V002_P004_S003_SCENE_005",
+        "source_segment_id": "V002_P004_S003",
+        "video_id": "V002_zY81V4VOA44",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 13.75,
+        "end_time": 23.0,
+        "keyframe_path": "keyframes/V002_zY81V4VOA44/V002_P004_S003_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "vibrant",
+            "peaceful",
+            "natural"
+        ],
+        "scene_elements": [
+            "flower_field",
+            "mountain",
+            "tree",
+            "sky",
+            "road"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A vast yellow flower field under a clear sky, with distant mountains and a road in the background. A person is standing and watching the flowers."
+    },
+    {
+        "segment_id": "V015_P030_S001_SCENE_001",
+        "source_segment_id": "V015_P030_S001",
+        "video_id": "V015__MgVRjFcTWE",
+        "place_id": "P030",
+        "place_name": "혜원의 집",
+        "season": "여름",
+        "region": "대구광역시",
+        "city": "군위군",
+        "drama_title": "리틀 포레스트",
+        "start_time": 0.0,
+        "end_time": 6.0,
+        "keyframe_path": "keyframes/V015_MgVRjFcTWE/V015_P030_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene",
+            "natural",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "path",
+            "tree",
+            "house",
+            "stone_wall",
+            "sky",
+            "clouds",
+            "greenery",
+            "stone_roof",
+            "stone_pillar",
+            "stone_brick"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A peaceful rural path surrounded by lush green trees and traditional stone houses under a bright blue sky."
+    },
+    {
+        "segment_id": "V015_P030_S001_SCENE_002",
+        "source_segment_id": "V015_P030_S001",
+        "video_id": "V015__MgVRjFcTWE",
+        "place_id": "P030",
+        "place_name": "혜원의 집",
+        "season": "여름",
+        "region": "대구광역시",
+        "city": "군위군",
+        "drama_title": "리틀 포레스트",
+        "start_time": 6.0,
+        "end_time": 13.0,
+        "keyframe_path": "keyframes/V015_MgVRjFcTWE/V015_P030_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "natural",
+            "serene",
+            "village"
+        ],
+        "scene_elements": [
+            "house",
+            "blue_tiled_roof",
+            "white_wall",
+            "wooden_building",
+            "cement_ground",
+            "trees",
+            "grass",
+            "fence",
+            "bush",
+            "stone_table"
+        ],
+        "activity": [],
+        "description": "A traditional Korean village house surrounded by lush green trees on a sunny day, with a quiet and peaceful atmosphere."
+    },
+    {
+        "segment_id": "V015_P030_S002_SCENE_001",
+        "source_segment_id": "V015_P030_S002",
+        "video_id": "V015_W1rm_FwMh58",
+        "place_id": "P030",
+        "place_name": "혜원의 집",
+        "season": "가을",
+        "region": "대구광역시",
+        "city": "군위군",
+        "drama_title": "리틀 포레스트",
+        "start_time": 0.0,
+        "end_time": 24.0,
+        "keyframe_path": "keyframes/V015_W1rm_FwMh58/V015_P030_S002_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "cozy",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "kitchen",
+            "sink",
+            "window",
+            "plants",
+            "cabinet",
+            "curtain",
+            "tiles",
+            "jug",
+            "faucet"
+        ],
+        "activity": [],
+        "description": "A cozy kitchen with a window, plants, and a stainless steel sink. The room is well-lit with natural light."
+    },
+    {
+        "segment_id": "V015_P087_S001_SCENE_001",
+        "source_segment_id": "V015_P087_S001",
+        "video_id": "V015_YIHH8uhM6R8",
+        "place_id": "P087",
+        "place_name": "화본역",
+        "season": "여름",
+        "region": "대구광역시",
+        "city": "군위군",
+        "drama_title": "리틀 포레스트",
+        "start_time": 0.0,
+        "end_time": 4.0,
+        "keyframe_path": "keyframes/V015_YIHH8uhM6R8/V015_P087_S001_SCENE_001.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "calm",
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "train_station",
+            "building",
+            "door",
+            "steps",
+            "fence",
+            "window",
+            "sign",
+            "sky",
+            "clouds",
+            "plant"
+        ],
+        "activity": [],
+        "description": "A quiet train station in the evening with a simple building and a calm atmosphere."
+    },
+    {
+        "segment_id": "V015_P087_S001_SCENE_002",
+        "source_segment_id": "V015_P087_S001",
+        "video_id": "V015_YIHH8uhM6R8",
+        "place_id": "P087",
+        "place_name": "화본역",
+        "season": "여름",
+        "region": "대구광역시",
+        "city": "군위군",
+        "drama_title": "리틀 포레스트",
+        "start_time": 4.0,
+        "end_time": 7.5,
+        "keyframe_path": "keyframes/V015_YIHH8uhM6R8/V015_P087_S001_SCENE_002.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "calm",
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "train_station",
+            "building",
+            "door",
+            "steps",
+            "wooden_railing",
+            "window",
+            "sign",
+            "sky",
+            "clouds",
+            "paved_ground"
+        ],
+        "activity": [],
+        "description": "A quiet evening scene of a traditional-style train station building with Korean signage, featuring a calm and peaceful atmosphere."
+    },
+    {
+        "segment_id": "V015_P087_S001_SCENE_003",
+        "source_segment_id": "V015_P087_S001",
+        "video_id": "V015_YIHH8uhM6R8",
+        "place_id": "P087",
+        "place_name": "화본역",
+        "season": "여름",
+        "region": "대구광역시",
+        "city": "군위군",
+        "drama_title": "리틀 포레스트",
+        "start_time": 7.5,
+        "end_time": 10.5,
+        "keyframe_path": "keyframes/V015_YIHH8uhM6R8/V015_P087_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "house",
+            "train tracks",
+            "trees",
+            "flowers",
+            "garden",
+            "sky",
+            "lawn",
+            "stone wall",
+            "porch",
+            "window"
+        ],
+        "activity": [],
+        "description": "A peaceful countryside scene featuring a traditional-style house with train tracks in the foreground, surrounded by lush greenery and flowers under a clear sky."
+    },
+    {
+        "segment_id": "V015_P087_S001_SCENE_004",
+        "source_segment_id": "V015_P087_S001",
+        "video_id": "V015_YIHH8uhM6R8",
+        "place_id": "P087",
+        "place_name": "화본역",
+        "season": "여름",
+        "region": "대구광역시",
+        "city": "군위군",
+        "drama_title": "리틀 포레스트",
+        "start_time": 10.5,
+        "end_time": 14.999,
+        "keyframe_path": "keyframes/V015_YIHH8uhM6R8/V015_P087_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "quiet"
+        ],
+        "scene_elements": [
+            "store",
+            "umbrella",
+            "coca-cola",
+            "vending machine",
+            "table",
+            "door",
+            "window",
+            "sign",
+            "building",
+            "sky"
+        ],
+        "activity": [
+            "standing",
+            "waiting"
+        ],
+        "description": "A small store with a yellow sign in Korean, featuring a red Coca-Cola umbrella and a vending machine on the sidewalk. The scene is calm and peaceful, with a clear sky above."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_001",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 0.0,
+        "end_time": 1.0,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "cinematic",
+            "intense",
+            "focused"
+        ],
+        "scene_elements": [
+            "clapperboard",
+            "text",
+            "movie_title",
+            "scene_number",
+            "take_number",
+            "character",
+            "setting",
+            "lighting",
+            "darkness",
+            "color"
+        ],
+        "activity": [
+            "filming",
+            "production"
+        ],
+        "description": "A close-up of a movie clapperboard with Korean text indicating a scene in progress, capturing the essence of a film set."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_002",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 1.0,
+        "end_time": 2.75,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_002.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "peaceful",
+            "serene",
+            "reflective"
+        ],
+        "scene_elements": [
+            "river",
+            "grass",
+            "campfire",
+            "soldiers",
+            "camouflage",
+            "sky",
+            "trees"
+        ],
+        "activity": [
+            "sitting",
+            "camping",
+            "focusing"
+        ],
+        "description": "A group of soldiers are sitting by a river at sunset, creating a peaceful and reflective scene."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_003",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 2.75,
+        "end_time": 4.5,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_003.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "peaceful",
+            "serene",
+            "warm",
+            "romantic",
+            "reflective"
+        ],
+        "scene_elements": [
+            "fire",
+            "wheat_field",
+            "soldiers",
+            "woman",
+            "sand",
+            "camouflage_uniform",
+            "fireplace",
+            "sky",
+            "candle",
+            "grass"
+        ],
+        "activity": [
+            "sitting",
+            "camping",
+            "relaxing",
+            "campfire",
+            "talking"
+        ],
+        "description": "A group of people, including soldiers and a woman, are sitting around a campfire in a wheat field during the evening. The scene conveys a peaceful and reflective atmosphere."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_004",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 4.5,
+        "end_time": 7.5,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "natural",
+            "calm"
+        ],
+        "scene_elements": [
+            "stones",
+            "dirt",
+            "grass",
+            "river",
+            "water",
+            "rock"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A person is walking along a rocky riverbank, with a calm and natural atmosphere."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_005",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 7.5,
+        "end_time": 8.75,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "sad",
+            "melancholy",
+            "reflective"
+        ],
+        "scene_elements": [
+            "woman",
+            "turtleneck",
+            "pampas grass",
+            "outdoor",
+            "fog"
+        ],
+        "activity": [
+            "looking at something",
+            "sitting"
+        ],
+        "description": "A woman with a sad expression is shown in a softly lit outdoor scene, possibly during the day. The image has a melancholic mood, with the woman looking down and a faint fog in the background."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_006",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 8.75,
+        "end_time": 11.0,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "sad",
+            "reflective",
+            "contemplative"
+        ],
+        "scene_elements": [
+            "woman",
+            "turtleneck",
+            "feathers",
+            "outdoor",
+            "blurred background"
+        ],
+        "activity": [
+            "standing",
+            "looking at camera"
+        ],
+        "description": "A woman in a turtleneck stands in an outdoor setting with a blurred background, looking at the camera with a thoughtful expression."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_007",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 11.0,
+        "end_time": 16.75,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "mild"
+        ],
+        "scene_elements": [
+            "grass",
+            "plant",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A close-up of delicate grasses swaying gently in the wind, with soft lighting creating a calm and serene atmosphere."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_008",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 16.75,
+        "end_time": 19.25,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "grass",
+            "wind",
+            "sky",
+            "distant hills"
+        ],
+        "activity": [],
+        "description": "A close-up of grass swaying in the wind, with a soft, natural background. The text overlay suggests a reflective, emotional scene."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_009",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 19.25,
+        "end_time": 21.75,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "tree",
+            "grass",
+            "forest",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A serene forest scene with a tree in the foreground and a soft, natural light illuminating the landscape."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_010",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 21.75,
+        "end_time": 25.25,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_010.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "calm"
+        ],
+        "scene_elements": [
+            "tree",
+            "grass",
+            "forest",
+            "light",
+            "sky",
+            "path"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A peaceful forest scene with a tree in the foreground and a grassy path leading into the distance. The text on the image suggests a contemplative mood."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_011",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 25.25,
+        "end_time": 28.25,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_011.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "swing",
+            "birch_trees",
+            "grass",
+            "mountain",
+            "overcast"
+        ],
+        "activity": [
+            "swinging"
+        ],
+        "description": "A swing set in a natural, wooded area with birch trees, with text overlay indicating a romantic or nostalgic theme."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_012",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 28.25,
+        "end_time": 29.75,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_012.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "swing",
+            "birch_tree",
+            "grass",
+            "mountain",
+            "overcast"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A serene outdoor scene featuring a swing near a birch tree, with a distant mountain in the background. The atmosphere is calm and peaceful."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_013",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 29.75,
+        "end_time": 32.25,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_013.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "swing",
+            "mountain",
+            "grass",
+            "sky"
+        ],
+        "activity": [
+            "swinging"
+        ],
+        "description": "A swing is gently swaying in a grassy field with a mountain in the background, creating a peaceful and serene atmosphere."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_014",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 32.25,
+        "end_time": 35.5,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_014.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "plant",
+            "grass",
+            "mountain",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A close-up of a plant in a natural landscape with a blurred mountain background, conveying a peaceful and serene atmosphere."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_015",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 35.5,
+        "end_time": 37.5,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_015.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "reed",
+            "mountain",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A serene landscape of reeds swaying in the wind with a distant mountain in the background."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_016",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 37.5,
+        "end_time": 39.75,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_016.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "wistful"
+        ],
+        "scene_elements": [
+            "reeds",
+            "sky",
+            "grass"
+        ],
+        "activity": [
+            "blowing"
+        ],
+        "description": "A serene scene of reeds swaying in the wind, with a soft, overcast sky in the background."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_017",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 39.75,
+        "end_time": 42.25,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_017.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "grass",
+            "mountain",
+            "wind",
+            "tall grass",
+            "forest",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A tranquil scene of tall grass swaying in the wind against a backdrop of a forested mountain range under a clear sky."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_018",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 42.25,
+        "end_time": 45.75,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_018.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "reed",
+            "grass",
+            "mountain",
+            "wind"
+        ],
+        "activity": [],
+        "description": "A serene scene of reeds swaying in the wind, with a mountainous background. The text overlay suggests a theme of love and nature."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_019",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 45.75,
+        "end_time": 51.75,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_019.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "reed",
+            "grass",
+            "tree",
+            "sky"
+        ],
+        "activity": [
+            "standing"
+        ],
+        "description": "A serene scene of reeds swaying gently in the wind, with a soft, natural light illuminating the landscape."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_020",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 51.75,
+        "end_time": 55.5,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_020.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "natural",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "grass",
+            "reeds",
+            "feather grass",
+            "background trees",
+            "natural light"
+        ],
+        "activity": [],
+        "description": "A serene natural scene of tall grass and reeds swaying in the wind, capturing a tranquil and peaceful atmosphere."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_021",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 55.5,
+        "end_time": 57.5,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_021.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "plant",
+            "stream"
+        ],
+        "activity": [],
+        "description": "A close-up of a plant in front of a flowing stream, with the text overlay in Korean."
+    },
+    {
+        "segment_id": "V007_P012_S001_SCENE_022",
+        "source_segment_id": "V007_P012_S001",
+        "video_id": "V007_VNXXMn8pgiE",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "가을",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 57.5,
+        "end_time": 60.0,
+        "keyframe_path": "keyframes/V007_VNXXMn8pgiE/V007_P012_S001_SCENE_022.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "natural",
+            "serene",
+            "fresh"
+        ],
+        "scene_elements": [
+            "stream",
+            "water",
+            "grass",
+            "riverside",
+            "natural",
+            "forest",
+            "wildlife",
+            "trees",
+            "vegetation",
+            "natural light"
+        ],
+        "activity": [
+            "flowing water",
+            "nature",
+            "riverside",
+            "waterfall",
+            "natural landscape"
+        ],
+        "description": "A serene natural scene of a flowing stream with lush green grass and water splashing, capturing the peaceful essence of nature."
+    },
+    {
+        "segment_id": "V007_P012_S002_SCENE_001",
+        "source_segment_id": "V007_P012_S002",
+        "video_id": "V007_yb4qs4kRVG4",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "겨울",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 4.5,
+        "end_time": 39.5,
+        "keyframe_path": "keyframes/V007_yb4qs4kRVG4/V007_P012_S002_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "winter",
+            "serene"
+        ],
+        "scene_elements": [
+            "river",
+            "trees",
+            "snow",
+            "forest",
+            "island",
+            "fence",
+            "power lines",
+            "grass",
+            "sky"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A serene winter scene featuring a snow-covered riverbank with frosty trees, a forested hillside, and a distant fence. The calm atmosphere suggests a quiet, peaceful moment in nature."
+    },
+    {
+        "segment_id": "V007_P012_S002_SCENE_002",
+        "source_segment_id": "V007_P012_S002",
+        "video_id": "V007_yb4qs4kRVG4",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "겨울",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 60.5,
+        "end_time": 95.5,
+        "keyframe_path": "keyframes/V007_yb4qs4kRVG4/V007_P012_S002_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "river",
+            "snow",
+            "trees",
+            "path",
+            "ice",
+            "stones"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "An aerial view of a snowy riverbank with a winding path, surrounded by frost-covered trees and ice formations."
+    },
+    {
+        "segment_id": "V007_P012_S002_SCENE_003",
+        "source_segment_id": "V007_P012_S002",
+        "video_id": "V007_yb4qs4kRVG4",
+        "place_id": "P012",
+        "place_name": "비내섬",
+        "season": "겨울",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 104.5,
+        "end_time": 139.5,
+        "keyframe_path": "keyframes/V007_yb4qs4kRVG4/V007_P012_S002_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "snow",
+            "river",
+            "reeds",
+            "path",
+            "people",
+            "tree"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "Aerial view of a snowy riverbank where people are walking along a path, with reeds and a frozen river in the background."
+    },
+    {
+        "segment_id": "V007_P031_S001_SCENE_001",
+        "source_segment_id": "V007_P031_S001",
+        "video_id": "V007_hIlkwdkXAPE",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 0.0,
+        "end_time": 36.75,
+        "keyframe_path": "keyframes/V007_hIlkwdkXAPE/V007_P031_S001_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "bridge",
+            "tree",
+            "lights",
+            "path",
+            "railings",
+            "ground",
+            "fence",
+            "sign",
+            "park",
+            "building"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A night scene of a lit bridge in a park, with a calm and peaceful atmosphere."
+    },
+    {
+        "segment_id": "V007_P031_S001_SCENE_002",
+        "source_segment_id": "V007_P031_S001",
+        "video_id": "V007_hIlkwdkXAPE",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 36.75,
+        "end_time": 54.5,
+        "keyframe_path": "keyframes/V007_hIlkwdkXAPE/V007_P031_S001_SCENE_002.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "bridge",
+            "water",
+            "lights",
+            "people",
+            "fence",
+            "streetlight",
+            "walkway",
+            "cityscape",
+            "reflection"
+        ],
+        "activity": [
+            "walking",
+            "standing"
+        ],
+        "description": "A nighttime scene on a lit walkway by the water, with people walking and enjoying the view."
+    },
+    {
+        "segment_id": "V007_P031_S001_SCENE_003",
+        "source_segment_id": "V007_P031_S001",
+        "video_id": "V007_hIlkwdkXAPE",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 54.5,
+        "end_time": 55.5,
+        "keyframe_path": "keyframes/V007_hIlkwdkXAPE/V007_P031_S001_SCENE_003.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "bridge",
+            "water",
+            "lights",
+            "people",
+            "fence",
+            "streetlight",
+            "sky"
+        ],
+        "activity": [
+            "walking",
+            "standing"
+        ],
+        "description": "A night scene of a brightly lit bridge with people walking and standing, overlooking a calm body of water."
+    },
+    {
+        "segment_id": "V007_P031_S001_SCENE_004",
+        "source_segment_id": "V007_P031_S001",
+        "video_id": "V007_hIlkwdkXAPE",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 55.5,
+        "end_time": 57.5,
+        "keyframe_path": "keyframes/V007_hIlkwdkXAPE/V007_P031_S001_SCENE_004.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "bridge",
+            "water",
+            "lights",
+            "people",
+            "fence",
+            "lamp posts",
+            "sky"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "fishing"
+        ],
+        "description": "A nighttime scene on a brightly lit bridge with people walking along the path, reflecting the calm and serene atmosphere."
+    },
+    {
+        "segment_id": "V007_P031_S001_SCENE_005",
+        "source_segment_id": "V007_P031_S001",
+        "video_id": "V007_hIlkwdkXAPE",
+        "place_id": "P031",
+        "place_name": "충주 중앙탑공원",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "충주시",
+        "drama_title": "사랑의 불시착",
+        "start_time": 57.5,
+        "end_time": 59.0,
+        "keyframe_path": "keyframes/V007_hIlkwdkXAPE/V007_P031_S001_SCENE_005.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "bridge",
+            "water",
+            "lights",
+            "fence",
+            "people",
+            "lamp posts",
+            "city lights"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "photographing"
+        ],
+        "description": "A night scene on a lit bridge with people walking and enjoying the view of the water and city lights in the distance."
+    }
+]
