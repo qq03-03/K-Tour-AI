@@ -1,0 +1,3455 @@
+[
+    {
+        "segment_id": "V048_P073_S002_SCENE_001",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 0.0,
+        "end_time": 1.0,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene",
+            "cozy",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "road",
+            "tree",
+            "bus",
+            "pedestrian",
+            "traffic cone",
+            "hanok",
+            "leaves",
+            "sky",
+            "person",
+            "pavement"
+        ],
+        "activity": [
+            "walking",
+            "driving",
+            "standing"
+        ],
+        "description": "A serene autumn scene with a road lined by trees with golden leaves, a bus driving by, and pedestrians walking on the sidewalk."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_002",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 1.0,
+        "end_time": 4.25,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "tree",
+            "ginkgo",
+            "road",
+            "bus",
+            "people",
+            "streetlight",
+            "sign",
+            "building",
+            "sky",
+            "leaves"
+        ],
+        "activity": [
+            "walking",
+            "waiting"
+        ],
+        "description": "An autumn scene on a university campus with a green bus and people walking along a tree-lined road."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_003",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 4.25,
+        "end_time": 8.75,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "ginkgo_tree",
+            "wooden_fence",
+            "information_sign",
+            "hanok",
+            "building",
+            "autumn_leaves",
+            "sky"
+        ],
+        "activity": [
+            "standing",
+            "looking"
+        ],
+        "description": "A large ginkgo tree with golden leaves in autumn, surrounded by a wooden fence and traditional buildings."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_004",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 8.75,
+        "end_time": 10.0,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "tree",
+            "building",
+            "dirt_ground",
+            "people",
+            "stone_wall",
+            "autumn_leaves",
+            "stairs",
+            "sky"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "sitting"
+        ],
+        "description": "A peaceful scene at a traditional Korean temple with autumn leaves, people walking and standing in the courtyard, and a large tree in the foreground."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_005",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 10.0,
+        "end_time": 18.75,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "ginkgo_tree",
+            "traditional_building",
+            "sky",
+            "autumn_leaves",
+            "roof"
+        ],
+        "activity": [],
+        "description": "A low-angle shot of a ginkgo tree with golden leaves against a traditional building, capturing a peaceful autumn scene."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_006",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 18.75,
+        "end_time": 22.5,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "autumn",
+            "calm"
+        ],
+        "scene_elements": [
+            "tree",
+            "ginkgo_leaves",
+            "building",
+            "fence",
+            "grass",
+            "person"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A person stands in front of a traditional building with a large ginkgo tree in the foreground, its golden leaves creating a beautiful autumn scene."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_007",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 22.5,
+        "end_time": 24.0,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "tranquil",
+            "serene",
+            "traditional"
+        ],
+        "scene_elements": [
+            "ginkgo_tree",
+            "hanok",
+            "wooden_fence",
+            "fallen_leaves",
+            "people",
+            "sky",
+            "building",
+            "path",
+            "tree_branch",
+            "platform"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "sitting"
+        ],
+        "description": "A serene autumn scene at a traditional Korean temple, with people walking along a path under a canopy of golden ginkgo leaves."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_008",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 24.0,
+        "end_time": 25.0,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "tree",
+            "building",
+            "dirt_path",
+            "autumn_leaves",
+            "hanok",
+            "people",
+            "stone_bench"
+        ],
+        "activity": [
+            "walking",
+            "sitting",
+            "standing"
+        ],
+        "description": "A serene autumn scene at a traditional Korean temple with people walking and sitting under large trees with red leaves."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_009",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 25.0,
+        "end_time": 26.5,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "tree",
+            "building",
+            "dirt_ground",
+            "people",
+            "hanok",
+            "autumn_leaves",
+            "fallen_leaf",
+            "stone_seat"
+        ],
+        "activity": [
+            "walking",
+            "sitting",
+            "standing"
+        ],
+        "description": "A serene autumn scene in a traditional Korean temple courtyard, with people walking and sitting under a large tree with purple leaves."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_010",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 26.5,
+        "end_time": 31.0,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_010.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "trees",
+            "autumn_leaves",
+            "trunk",
+            "sky",
+            "building",
+            "people"
+        ],
+        "activity": [
+            "standing",
+            "walking"
+        ],
+        "description": "A vibrant autumn scene with trees displaying golden and orange leaves, captured during the day with a peaceful atmosphere."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_011",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 31.0,
+        "end_time": 32.75,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_011.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "autumn"
+        ],
+        "scene_elements": [
+            "ginkgo_tree",
+            "fallen_leaves",
+            "stone_stool",
+            "hanok",
+            "wooden_fence",
+            "building",
+            "path",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A large, ancient ginkgo tree with golden leaves in autumn, surrounded by a traditional Korean courtyard."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_012",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 32.75,
+        "end_time": 34.5,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_012.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "tree",
+            "autumn_leaves",
+            "path",
+            "stone_wall",
+            "hanok",
+            "people",
+            "building"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "playing"
+        ],
+        "description": "An autumn scene in a traditional Korean park with people walking and enjoying the colorful leaves."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_013",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 34.5,
+        "end_time": 35.5,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_013.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "tree",
+            "dirt_path",
+            "hanok",
+            "building",
+            "people",
+            "autumn_leaves",
+            "stone_wall"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "flying"
+        ],
+        "description": "A serene autumn scene with people walking on a dirt path surrounded by colorful trees and traditional buildings."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_014",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 35.5,
+        "end_time": 37.0,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_014.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "autumn_leaves",
+            "tree",
+            "sky",
+            "garden",
+            "red_tree",
+            "yellow_tree",
+            "green_hedges"
+        ],
+        "activity": [],
+        "description": "A vibrant autumn scene with red and yellow trees under a clear sky."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_015",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 37.0,
+        "end_time": 39.75,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_015.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "trees",
+            "leaves",
+            "path",
+            "people",
+            "signs",
+            "sidewalk",
+            "fallen_leaves"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A path lined with vibrant red autumn leaves, where people are walking along a sidewalk. The scene is serene and picturesque, capturing the essence of fall."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_016",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 39.75,
+        "end_time": 42.25,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_016.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene",
+            "tranquil",
+            "traditional"
+        ],
+        "scene_elements": [
+            "ginkgo_tree",
+            "hanok",
+            "roof",
+            "wall",
+            "sky",
+            "mountain",
+            "autumn_leaves",
+            "building"
+        ],
+        "activity": [],
+        "description": "A vibrant autumn ginkgo tree stands in front of a traditional hanok, with its golden leaves glowing under the daylight."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_017",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 42.25,
+        "end_time": 44.75,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_017.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "road",
+            "trees",
+            "bus",
+            "people",
+            "crosswalk",
+            "streetlight",
+            "sign",
+            "bus_stop",
+            "building"
+        ],
+        "activity": [
+            "waiting",
+            "walking",
+            "standing"
+        ],
+        "description": "A group of people are waiting at a bus stop on a tree-lined road in autumn. A green bus is approaching in the distance."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_018",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 44.75,
+        "end_time": 46.0,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_018.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene",
+            "vibrant",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "tree",
+            "ginkgo",
+            "building",
+            "roof",
+            "red wall",
+            "sky",
+            "clouds",
+            "hanok"
+        ],
+        "activity": [],
+        "description": "A vibrant autumn ginkgo tree stands in front of a traditional Korean building, with golden leaves glowing against the blue sky."
+    },
+    {
+        "segment_id": "V051_P016_S001_SCENE_001",
+        "source_segment_id": "V051_P016_S001",
+        "video_id": "V051_6OyPkPe5Le0",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 0.0,
+        "end_time": 9.0,
+        "keyframe_path": "keyframes/V051_6OyPkPe5Le0/V051_P016_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "historical",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "palace",
+            "mountain",
+            "sky",
+            "trees",
+            "building",
+            "path",
+            "people",
+            "roof",
+            "ground"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "visiting"
+        ],
+        "description": "An aerial view of a traditional Korean palace complex with mountains in the background, under a clear blue sky. People are walking on the pathways."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_001",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 0.0,
+        "end_time": 0.75,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "happy",
+            "fun",
+            "peaceful",
+            "autumn",
+            "cute"
+        ],
+        "scene_elements": [
+            "hanok",
+            "stone_wall",
+            "tree",
+            "autumn_leaves",
+            "woman",
+            "cartoon_characters"
+        ],
+        "activity": [
+            "walking",
+            "dancing",
+            "running"
+        ],
+        "description": "A woman is walking through a traditional Korean village with autumn leaves, enjoying the scenic beauty. Cartoon characters are added to the image as a playful element."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_002",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 0.75,
+        "end_time": 1.75,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "wooden_building",
+            "gates",
+            "autumn_leaves",
+            "stone_wall",
+            "sky",
+            "tree",
+            "sign",
+            "woman"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A woman walks past a traditional Korean building covered in yellow autumn leaves."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_003",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 1.75,
+        "end_time": 3.5,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "traditional_building",
+            "autumn_leaves",
+            "stone_pillar",
+            "signboard",
+            "woman",
+            "coat",
+            "long_skirt"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A woman walks past a traditional Korean building covered in yellow autumn leaves. The scene exudes a peaceful, serene atmosphere."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_004",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 3.5,
+        "end_time": 4.25,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "energetic",
+            "active",
+            "dynamic"
+        ],
+        "scene_elements": [
+            "brick_wall",
+            "manhole",
+            "stone_pile",
+            "sign",
+            "building",
+            "person",
+            "coat",
+            "boot",
+            "paper",
+            "alley"
+        ],
+        "activity": [
+            "running",
+            "walking"
+        ],
+        "description": "A woman in a grey coat is running down a narrow alleyway, with a wet manhole cover on the ground. The scene is set in front of a brick building with a yellow sign."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_005",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 4.25,
+        "end_time": 5.0,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "wall",
+            "stone",
+            "roof",
+            "tree",
+            "sky",
+            "clouds",
+            "hanok",
+            "money"
+        ],
+        "activity": [
+            "placing"
+        ],
+        "description": "A traditional Korean wall with a money note placed on the roof, under a clear blue sky."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_006",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 5.0,
+        "end_time": 6.0,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "happy",
+            "energetic",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "church",
+            "brick building",
+            "stone steps",
+            "pavement",
+            "woman",
+            "long coat",
+            "black boots"
+        ],
+        "activity": [
+            "running",
+            "dancing"
+        ],
+        "description": "A woman is dancing in front of a historic brick church on a bright day."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_007",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 6.0,
+        "end_time": 7.5,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "serene",
+            "historic",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "church",
+            "brick building",
+            "arches",
+            "roof",
+            "windows",
+            "steps",
+            "pavement",
+            "tower",
+            "door",
+            "circular window"
+        ],
+        "activity": [],
+        "description": "A historic brick church with arched entrances and a circular window, captured during the day."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_008",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 7.5,
+        "end_time": 8.75,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "happy",
+            "peaceful",
+            "vibrant",
+            "dynamic",
+            "sunny"
+        ],
+        "scene_elements": [
+            "building",
+            "roof",
+            "wooden floor",
+            "balcony",
+            "tree",
+            "city",
+            "sky",
+            "person",
+            "dresses",
+            "cityscape"
+        ],
+        "activity": [
+            "running",
+            "walking",
+            "dancing",
+            "moving",
+            "jogging"
+        ],
+        "description": "A woman is running on a wooden platform of a traditional building, with a cityscape in the background. The scene is bright and vibrant, suggesting a sunny day."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_009",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 8.75,
+        "end_time": 11.0,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_009.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "palace",
+            "wooden_building",
+            "columns",
+            "steps",
+            "potted_plants",
+            "sky",
+            "circular庭院",
+            "lighting"
+        ],
+        "activity": [],
+        "description": "A traditional wooden palace at night, illuminated by warm lights, with a serene and peaceful atmosphere."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_001",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 0.0,
+        "end_time": 4.5,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene",
+            "traditional",
+            "natural"
+        ],
+        "scene_elements": [
+            "hanok",
+            "thatched-roof-house",
+            "tree",
+            "mountain",
+            "cement-paved-ground",
+            "stone-wall",
+            "vegetation",
+            "sky",
+            "sunlight",
+            "greenery"
+        ],
+        "activity": [],
+        "description": "A traditional Korean village with thatched-roof houses under a clear blue sky, surrounded by lush greenery and mountains."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_002",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 4.5,
+        "end_time": 10.75,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "traditional",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "thatched-roof",
+            "tree",
+            "grass",
+            "path",
+            "flower",
+            "stone",
+            "stone statue",
+            "sky",
+            "sunlight"
+        ],
+        "activity": [],
+        "description": "A traditional Korean village with thatched-roof houses and lush greenery under a clear blue sky."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_003",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 10.75,
+        "end_time": 12.25,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "vibrant",
+            "traditional",
+            "natural"
+        ],
+        "scene_elements": [
+            "hanok",
+            "thatched-roof",
+            "grass",
+            "dirt",
+            "road",
+            "traffic cone",
+            "sign",
+            "store",
+            "motorcycle",
+            "tree"
+        ],
+        "activity": [
+            "standing",
+            "walking",
+            "staying",
+            "sitting",
+            "selling"
+        ],
+        "description": "A sunny day at a traditional Korean village with hanok houses and a small store. The scene is peaceful and serene."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_004",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 12.25,
+        "end_time": 14.0,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "sunny",
+            "calm",
+            "traditional",
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "woven basket",
+            "paper fans",
+            "signs",
+            "sand",
+            "sunlight"
+        ],
+        "activity": [
+            "selling",
+            "displaying"
+        ],
+        "description": "A basket of paper fans is displayed on the sand, with signs indicating the price. The scene appears to be a market or festival in a sunny, traditional setting."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_005",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 14.0,
+        "end_time": 20.25,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "pine_tree",
+            "path",
+            "wooden_posts",
+            "grass",
+            "river",
+            "rocky_background"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A peaceful forest path with pine trees and a river in the background, with a person walking along the path."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_006",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 20.25,
+        "end_time": 23.0,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "traditional",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "house",
+            "roof",
+            "sign",
+            "window",
+            "stone path",
+            "gravel",
+            "tree"
+        ],
+        "activity": [],
+        "description": "A traditional Korean house with a coffee shop sign, captured in the daytime with a calm and peaceful atmosphere."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_007",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 23.0,
+        "end_time": 25.75,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "relaxing"
+        ],
+        "scene_elements": [
+            "iced_coffee",
+            "latte",
+            "candy",
+            "red_plate",
+            "bamboo_mat",
+            "wooden_door",
+            "porch"
+        ],
+        "activity": [
+            "drinking",
+            "waiting"
+        ],
+        "description": "Two iced drinks and candies are placed on a red plate on a wooden porch, suggesting a relaxing moment during the day."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_008",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 25.75,
+        "end_time": 28.75,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "cozy",
+            "serene",
+            "traditional"
+        ],
+        "scene_elements": [
+            "house",
+            "wooden door",
+            "wooden table",
+            "wooden chairs",
+            "stone wall",
+            "wooden pillars",
+            "fire extinguisher",
+            "clock",
+            "stack of firewood",
+            "roof",
+            "glass window",
+            "outdoor table",
+            "outdoor chairs"
+        ],
+        "activity": [
+            "sitting",
+            "resting",
+            "waiting"
+        ],
+        "description": "A traditional wooden house with a peaceful outdoor seating area, featuring wooden furniture and a stone wall. The scene is bathed in warm sunlight, suggesting a tranquil day."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_009",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 28.75,
+        "end_time": 32.75,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "pine_tree",
+            "hanok",
+            "thatched_roof",
+            "dirt_path",
+            "green_shrub",
+            "sunlight"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A peaceful scene at a traditional Korean village with a large pine tree and a dirt path leading to a hanok. The bright sunlight enhances the tranquil atmosphere."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_010",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 32.75,
+        "end_time": 35.5,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_010.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "natural",
+            "serene",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "tree",
+            "hut",
+            "thatched roof",
+            "grass",
+            "bush",
+            "path",
+            "dirt",
+            "sunlight",
+            "sky",
+            "coconut mat"
+        ],
+        "activity": [
+            "standing",
+            "walking",
+            "sitting"
+        ],
+        "description": "A serene outdoor scene featuring a large pine tree in a traditional Korean garden with a thatched-roof hut in the background, under a clear blue sky."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_011",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 35.5,
+        "end_time": 37.0,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_011.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "vibrant",
+            "natural",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "tree",
+            "grass",
+            "field",
+            "house",
+            "thatched roof",
+            "road",
+            "sky",
+            "sunlight"
+        ],
+        "activity": [],
+        "description": "A serene rural landscape with a lush green field, a traditional house with a thatched roof, and a tree in the foreground, captured during the day."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_001",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 0.0,
+        "end_time": 2.0,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "traditional",
+            "calm"
+        ],
+        "scene_elements": [
+            "hanok",
+            "stone_wall",
+            "mountain",
+            "namsan",
+            "n seoul tower",
+            "tree",
+            "sky",
+            "building"
+        ],
+        "activity": [],
+        "description": "A traditional Korean building with a stone wall, viewed from the foreground with the N Seoul Tower visible on a mountain in the background."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_002",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 2.0,
+        "end_time": 4.0,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "traditional"
+        ],
+        "scene_elements": [
+            "hanok",
+            "archway",
+            "sign",
+            "red_door",
+            "colorful_detailed_traditional_architecture",
+            "building",
+            "wooden_structures",
+            "decorative_elements",
+            "banner"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A traditional Korean hanok building with colorful architectural details, captured during the day. A banner with information is visible above the entrance."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_003",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 4.0,
+        "end_time": 6.25,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "traditional"
+        ],
+        "scene_elements": [
+            "map",
+            "hanok",
+            "information board",
+            "building",
+            "trees",
+            "snow",
+            "roof",
+            "path",
+            "gate",
+            "sign"
+        ],
+        "activity": [
+            "viewing",
+            "reading"
+        ],
+        "description": "A map of Namsangol Hanok Village is displayed, showing the layout of traditional hanok buildings in a snowy setting. A sign in Korean indicates the village's name and information."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_004",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 6.25,
+        "end_time": 8.0,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "traditional",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "stone wall",
+            "gate",
+            "sky",
+            "building",
+            "tree",
+            "solar panel",
+            "sign",
+            "person",
+            "sand"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A traditional Korean hanok with a clear blue sky, featuring a person walking in the courtyard. The scene combines historical architecture with modern buildings in the background."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_005",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 8.0,
+        "end_time": 15.75,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "roof",
+            "sky",
+            "tree",
+            "building",
+            "door",
+            "window",
+            "white wall",
+            "blue sky"
+        ],
+        "activity": [],
+        "description": "A traditional Korean hanok building under a clear blue sky, showcasing its wooden roof and white walls. The scene exudes a peaceful and serene atmosphere."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_006",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 15.75,
+        "end_time": 20.25,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "traditional",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "hanok",
+            "wooden_roof",
+            "wooden_beam",
+            "chandelier",
+            "lattice_window",
+            "person"
+        ],
+        "activity": [
+            "standing"
+        ],
+        "description": "A traditional Korean house with a wooden roof and lattice window, featuring a person standing in the background."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_007",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 20.25,
+        "end_time": 22.75,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm",
+            "traditional",
+            "serene",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "hanok",
+            "stone wall",
+            "tree",
+            "path",
+            "roof",
+            "sky",
+            "sign",
+            "stone steps"
+        ],
+        "activity": [
+            "standing",
+            "walking"
+        ],
+        "description": "A traditional Korean hanok building is shown on a sunny day, with a path leading to its entrance. A sign is visible on the path, indicating a place of interest."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_008",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 22.75,
+        "end_time": 24.75,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "traditional",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "wooden_building",
+            "roof",
+            "greenery",
+            "bush",
+            "tree",
+            "sky",
+            "person"
+        ],
+        "activity": [
+            "standing",
+            "walking"
+        ],
+        "description": "A traditional hanok building is shown with a person walking in the foreground. The scene is bright and sunny, suggesting a calm and peaceful day."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_009",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 24.75,
+        "end_time": 27.0,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "traditional"
+        ],
+        "scene_elements": [
+            "hanok",
+            "roof",
+            "tree",
+            "greenery",
+            "building",
+            "window",
+            "plant",
+            "sky"
+        ],
+        "activity": [
+            "standing",
+            "walking"
+        ],
+        "description": "A traditional Korean hanok building with lush greenery in the foreground, captured during the day."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_010",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 27.0,
+        "end_time": 29.75,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_010.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "traditional",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "table",
+            "fruit",
+            "candle",
+            "wooden_beam",
+            "wooden_floor",
+            "wooden_rail",
+            "door",
+            "ceiling",
+            "window"
+        ],
+        "activity": [],
+        "description": "A traditional Korean room with wooden beams and tables set with fruit and candles, suggesting a peaceful and ceremonial atmosphere."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_011",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 29.75,
+        "end_time": 33.0,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_011.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm",
+            "traditional"
+        ],
+        "scene_elements": [
+            "hanok",
+            "wall",
+            "sign",
+            "sky",
+            "tree",
+            "building",
+            "tents",
+            "shadows"
+        ],
+        "activity": [
+            "standing",
+            "looking"
+        ],
+        "description": "A traditional Korean hanok is shown under a clear blue sky, with a sign indicating the entrance to a historical site. The scene is peaceful and serene."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_012",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 33.0,
+        "end_time": 36.0,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_012.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "roof",
+            "stone wall",
+            "tree",
+            "sky",
+            "building",
+            "porch",
+            "lamp",
+            "stone path",
+            "clearing"
+        ],
+        "activity": [],
+        "description": "A traditional Korean hanok with a clear blue sky and a peaceful courtyard. The scene is calm and serene."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_013",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 36.0,
+        "end_time": 37.75,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_013.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "peaceful",
+            "serene",
+            "traditional"
+        ],
+        "scene_elements": [
+            "tent",
+            "chairs",
+            "hanok",
+            "screen",
+            "lamps",
+            "red lanterns",
+            "wooden pillars",
+            "red cloth"
+        ],
+        "activity": [
+            "seated",
+            "waiting"
+        ],
+        "description": "A traditional Korean event is taking place under a large tent at dusk, with rows of chairs and a decorated screen in the background."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_014",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 37.75,
+        "end_time": 42.5,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_014.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "hanok",
+            "stone_wall",
+            "tree",
+            "sky",
+            "roof",
+            "building",
+            "plant",
+            "stone"
+        ],
+        "activity": [],
+        "description": "A traditional Korean hanok building with a stone wall and greenery under a clear blue sky."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_015",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 42.5,
+        "end_time": 45.5,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_015.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "calm"
+        ],
+        "scene_elements": [
+            "hanok",
+            "roof",
+            "building",
+            "sky",
+            "tree",
+            "cement_ground",
+            "door",
+            "window",
+            "pillar",
+            "white_wall"
+        ],
+        "activity": [
+            "standing",
+            "sitting"
+        ],
+        "description": "A traditional Korean hanok building under a clear blue sky with a person standing in the courtyard."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_016",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 45.5,
+        "end_time": 47.5,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_016.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "traditional"
+        ],
+        "scene_elements": [
+            "hanok",
+            "stone_wall",
+            "gate",
+            "tree",
+            "person",
+            "backpack"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A person is walking through a traditional Korean gate, with the sun shining brightly."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_017",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 47.5,
+        "end_time": 52.5,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_017.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "traditional"
+        ],
+        "scene_elements": [
+            "hanok",
+            "roof",
+            "building",
+            "tree",
+            "sky",
+            "cement",
+            "path",
+            "door",
+            "light"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A traditional Korean hanok building under a clear blue sky with a person walking on the path. The scene is peaceful and serene."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_018",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 52.5,
+        "end_time": 55.0,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_018.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "serene",
+            "peaceful",
+            "traditional"
+        ],
+        "scene_elements": [
+            "hanok",
+            "roof",
+            "stone pillar",
+            "building",
+            "sky",
+            "blue sky"
+        ],
+        "activity": [],
+        "description": "A traditional Korean hanok building under a clear blue sky, showcasing its classic architecture and serene surroundings."
+    },
+    {
+        "segment_id": "V054_P076_S001_SCENE_019",
+        "source_segment_id": "V054_P076_S001",
+        "video_id": "V054_EPExT6UDYFs",
+        "place_id": "P076",
+        "place_name": "남산골한옥마을",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 55.0,
+        "end_time": 57.0,
+        "keyframe_path": "keyframes/V054_EPExT6UDYFs/V054_P076_S001_SCENE_019.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "traditional"
+        ],
+        "scene_elements": [
+            "hanok",
+            "roof",
+            "sky",
+            "wood"
+        ],
+        "activity": [],
+        "description": "A traditional Korean hanok roof is shown against a clear blue sky, highlighting its architectural details."
+    },
+    {
+        "segment_id": "V055_P077_S001_SCENE_001",
+        "source_segment_id": "V055_P077_S001",
+        "video_id": "V055_2qkleu8Tl2w",
+        "place_id": "P077",
+        "place_name": "경주 교촌마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "경주시",
+        "drama_title": null,
+        "start_time": 0.0,
+        "end_time": 1.5,
+        "keyframe_path": "keyframes/V055_2qkleu8Tl2w/V055_P077_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "traditional_building",
+            "rural_area",
+            "green_field",
+            "mountain",
+            "sky",
+            "cloud",
+            "parking_lot",
+            "road",
+            "tree"
+        ],
+        "activity": [
+            "walking",
+            "strolling"
+        ],
+        "description": "An aerial view of a traditional Korean village with hanok houses and a scenic landscape, under a bright, partly cloudy sky."
+    },
+    {
+        "segment_id": "V055_P077_S001_SCENE_002",
+        "source_segment_id": "V055_P077_S001",
+        "video_id": "V055_2qkleu8Tl2w",
+        "place_id": "P077",
+        "place_name": "경주 교촌마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "경주시",
+        "drama_title": null,
+        "start_time": 1.5,
+        "end_time": 3.75,
+        "keyframe_path": "keyframes/V055_2qkleu8Tl2w/V055_P077_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "tranquil",
+            "peaceful",
+            "serene",
+            "traditional",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "hanok",
+            "traditional_building",
+            "rural_landscape",
+            "rice_fields",
+            "mountains",
+            "trees",
+            "sky",
+            "clouds",
+            "pavement",
+            "greenery"
+        ],
+        "activity": [
+            "walking",
+            "strolling",
+            "viewing"
+        ],
+        "description": "An aerial view of a traditional Korean village with hanok houses and rice fields, under a bright, partly cloudy sky."
+    },
+    {
+        "segment_id": "V055_P077_S001_SCENE_003",
+        "source_segment_id": "V055_P077_S001",
+        "video_id": "V055_2qkleu8Tl2w",
+        "place_id": "P077",
+        "place_name": "경주 교촌마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "경주시",
+        "drama_title": null,
+        "start_time": 3.75,
+        "end_time": 5.75,
+        "keyframe_path": "keyframes/V055_2qkleu8Tl2w/V055_P077_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "natural",
+            "serene",
+            "calm"
+        ],
+        "scene_elements": [
+            "path",
+            "stone_wall",
+            "hanok",
+            "trees",
+            "sky",
+            "clouds",
+            "leaves",
+            "plant",
+            "stone_boulder",
+            "lighting"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A peaceful pathway in a traditional Korean garden, with stone walls and lush greenery under a bright blue sky."
+    },
+    {
+        "segment_id": "V055_P077_S001_SCENE_004",
+        "source_segment_id": "V055_P077_S001",
+        "video_id": "V055_2qkleu8Tl2w",
+        "place_id": "P077",
+        "place_name": "경주 교촌마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "경주시",
+        "drama_title": null,
+        "start_time": 5.75,
+        "end_time": 6.75,
+        "keyframe_path": "keyframes/V055_2qkleu8Tl2w/V055_P077_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene",
+            "natural",
+            "traditional"
+        ],
+        "scene_elements": [
+            "path",
+            "stone_wall",
+            "hanok",
+            "trees",
+            "sky",
+            "leaves",
+            "bush",
+            "stone_rocks",
+            "clouds"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A peaceful pathway lined with traditional Korean architecture and lush greenery under a bright sky."
+    },
+    {
+        "segment_id": "V055_P077_S001_SCENE_005",
+        "source_segment_id": "V055_P077_S001",
+        "video_id": "V055_2qkleu8Tl2w",
+        "place_id": "P077",
+        "place_name": "경주 교촌마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "경주시",
+        "drama_title": null,
+        "start_time": 6.75,
+        "end_time": 8.25,
+        "keyframe_path": "keyframes/V055_2qkleu8Tl2w/V055_P077_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "garden",
+            "road",
+            "car",
+            "tree",
+            "building",
+            "parking_lot",
+            "water"
+        ],
+        "activity": [
+            "parking",
+            "driving"
+        ],
+        "description": "An aerial view of a traditional Korean village with hanok houses and greenery, showing a quiet and peaceful atmosphere."
+    },
+    {
+        "segment_id": "V055_P077_S001_SCENE_006",
+        "source_segment_id": "V055_P077_S001",
+        "video_id": "V055_2qkleu8Tl2w",
+        "place_id": "P077",
+        "place_name": "경주 교촌마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "경주시",
+        "drama_title": null,
+        "start_time": 8.25,
+        "end_time": 11.25,
+        "keyframe_path": "keyframes/V055_2qkleu8Tl2w/V055_P077_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "path",
+            "wall",
+            "tree",
+            "sky",
+            "cloud",
+            "hanok",
+            "stone",
+            "manhole",
+            "light"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A quiet path in a traditional Korean garden, surrounded by lush green trees and stone walls under a bright blue sky."
+    },
+    {
+        "segment_id": "V055_P077_S001_SCENE_007",
+        "source_segment_id": "V055_P077_S001",
+        "video_id": "V055_2qkleu8Tl2w",
+        "place_id": "P077",
+        "place_name": "경주 교촌마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "경주시",
+        "drama_title": null,
+        "start_time": 11.25,
+        "end_time": 12.5,
+        "keyframe_path": "keyframes/V055_2qkleu8Tl2w/V055_P077_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "path",
+            "trees",
+            "wall",
+            "sky",
+            "hanok",
+            "manhole",
+            "lawn",
+            "grass",
+            "bush",
+            "light"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A quiet path in a traditional Korean garden, surrounded by lush greenery and a clear sky."
+    },
+    {
+        "segment_id": "V055_P077_S001_SCENE_008",
+        "source_segment_id": "V055_P077_S001",
+        "video_id": "V055_2qkleu8Tl2w",
+        "place_id": "P077",
+        "place_name": "경주 교촌마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "경주시",
+        "drama_title": null,
+        "start_time": 12.5,
+        "end_time": 15.25,
+        "keyframe_path": "keyframes/V055_2qkleu8Tl2w/V055_P077_S001_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "cafe",
+            "signboard",
+            "streetlight",
+            "cloudy sky",
+            "tree",
+            "building",
+            "pavement"
+        ],
+        "activity": [
+            "standing",
+            "waiting"
+        ],
+        "description": "A traditional Korean hanok with a cafe in the foreground, under a cloudy sky."
+    },
+    {
+        "segment_id": "V055_P077_S001_SCENE_009",
+        "source_segment_id": "V055_P077_S001",
+        "video_id": "V055_2qkleu8Tl2w",
+        "place_id": "P077",
+        "place_name": "경주 교촌마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "경주시",
+        "drama_title": null,
+        "start_time": 15.25,
+        "end_time": 17.0,
+        "keyframe_path": "keyframes/V055_2qkleu8Tl2w/V055_P077_S001_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "river",
+            "bridge",
+            "mountains",
+            "rural",
+            "green_fields",
+            "town",
+            "sky",
+            "clouds"
+        ],
+        "activity": [
+            "parking",
+            "walking"
+        ],
+        "description": "An aerial view of a traditional Korean village with a river and bridge, surrounded by green fields and mountains."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_001",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 0.0,
+        "end_time": 4.0,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "vibrant",
+            "natural"
+        ],
+        "scene_elements": [
+            "flower_fields",
+            "paths",
+            "people",
+            "aerial_view"
+        ],
+        "activity": [
+            "walking",
+            "touring"
+        ],
+        "description": "An aerial view of a vibrant field of yellow flowers and green crops, with people walking along winding paths."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_002",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 4.0,
+        "end_time": 8.5,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "vibrant",
+            "serene"
+        ],
+        "scene_elements": [
+            "flower_fields",
+            "paths",
+            "people",
+            "vehicles",
+            "buildings",
+            "trees",
+            "grass",
+            "water",
+            "sky"
+        ],
+        "activity": [
+            "walking",
+            "strolling",
+            "visiting"
+        ],
+        "description": "Aerial view of a vibrant yellow flower field with people walking along winding paths, surrounded by green fields and a road with parked cars."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_003",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 8.5,
+        "end_time": 12.75,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "vibrant",
+            "serene"
+        ],
+        "scene_elements": [
+            "green_field",
+            "path",
+            "people",
+            "bicycles"
+        ],
+        "activity": [
+            "walking",
+            "cycling"
+        ],
+        "description": "An aerial view of a winding path through a vibrant green field, with people walking and cycling along the way."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_004",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 12.75,
+        "end_time": 21.75,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "flower田",
+            "path",
+            "people"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "Aerial view of a vast field of yellow flowers with winding paths, where people are walking through the scenic landscape."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_005",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 21.75,
+        "end_time": 25.0,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "tree",
+            "wooden structure",
+            "path",
+            "flowers",
+            "people",
+            "sky"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "photographing"
+        ],
+        "description": "A wooden structure is surrounded by a tree with bare branches, and people are walking along a path in a field of yellow flowers. The scene is calm and peaceful."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_006",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 25.0,
+        "end_time": 27.5,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "rustic",
+            "peaceful",
+            "natural"
+        ],
+        "scene_elements": [
+            "wooden_shack",
+            "tree",
+            "bench",
+            "path",
+            "grass",
+            "sky",
+            "person"
+        ],
+        "activity": [
+            "standing",
+            "walking"
+        ],
+        "description": "A rustic wooden shack stands in a grassy field under an overcast sky, with a person walking along a path nearby."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_007",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 27.5,
+        "end_time": 31.5,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "vibrant",
+            "peaceful",
+            "natural",
+            "happy",
+            "serene"
+        ],
+        "scene_elements": [
+            "yellow_flower_field",
+            "wooden_shack",
+            "mountain",
+            "green_field",
+            "tree",
+            "people",
+            "sky"
+        ],
+        "activity": [
+            "standing",
+            "watching",
+            "walking",
+            "sitting",
+            "focusing"
+        ],
+        "description": "A vibrant yellow flower field with a wooden shack and people enjoying the scenery under a cloudy sky."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_008",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 31.5,
+        "end_time": 34.0,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "happy",
+            "peaceful",
+            "vibrant",
+            "natural",
+            "serene"
+        ],
+        "scene_elements": [
+            "flower_field",
+            "people",
+            "green_field",
+            "hill",
+            "sky",
+            "clouds",
+            "hat",
+            "sun"
+        ],
+        "activity": [
+            "walking",
+            "staring",
+            "standing",
+            "collecting"
+        ],
+        "description": "A group of people are walking and enjoying a vibrant yellow flower field in a lush green landscape under a partly cloudy sky."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_009",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 34.0,
+        "end_time": 36.5,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "happy",
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "green_field",
+            "flag",
+            "people",
+            "mountain",
+            "tree",
+            "fence",
+            "clouds"
+        ],
+        "activity": [
+            "standing",
+            "walking",
+            "dancing",
+            "watching"
+        ],
+        "description": "A vibrant green field with people gathered, holding flags and enjoying a sunny day outdoors."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_010",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 36.5,
+        "end_time": 42.0,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_010.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "tree",
+            "field",
+            "sky",
+            "mountain",
+            "grass"
+        ],
+        "activity": [],
+        "description": "A solitary tree stands in a vast green field under a cloudy sky, with distant mountains in the background."
+    },
+    {
+        "segment_id": "V057_P078_S001_SCENE_001",
+        "source_segment_id": "V057_P078_S001",
+        "video_id": "V057_cq9KDwdfhDc",
+        "place_id": "P078",
+        "place_name": "순천만습지",
+        "season": "가을",
+        "region": "전라남도",
+        "city": "순천시",
+        "drama_title": null,
+        "start_time": 0.0,
+        "end_time": 3.25,
+        "keyframe_path": "keyframes/V057_cq9KDwdfhDc/V057_P078_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "serene",
+            "peaceful",
+            "natural",
+            "calm",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "deck",
+            "thatched-roof",
+            "wooden-palings",
+            "wetland",
+            "reeds",
+            "sky",
+            "clouds",
+            "wooden-platform",
+            "bridge",
+            "wooden-beam"
+        ],
+        "activity": [
+            "staying",
+            "watching",
+            "viewing",
+            "resting",
+            "looking"
+        ],
+        "description": "A wooden deck with a thatched roof overlooks a vast wetland, with the sky covered in clouds."
+    },
+    {
+        "segment_id": "V057_P078_S001_SCENE_002",
+        "source_segment_id": "V057_P078_S001",
+        "video_id": "V057_cq9KDwdfhDc",
+        "place_id": "P078",
+        "place_name": "순천만습지",
+        "season": "가을",
+        "region": "전라남도",
+        "city": "순천시",
+        "drama_title": null,
+        "start_time": 3.25,
+        "end_time": 4.75,
+        "keyframe_path": "keyframes/V057_cq9KDwdfhDc/V057_P078_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "natural",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "wooden_deck",
+            "thatched_roof",
+            "reeds",
+            "wetland",
+            "sky",
+            "clouds"
+        ],
+        "activity": [],
+        "description": "A wooden deck with a thatched roof overlooks a vast wetland, creating a tranquil and natural atmosphere."
+    },
+    {
+        "segment_id": "V057_P078_S001_SCENE_003",
+        "source_segment_id": "V057_P078_S001",
+        "video_id": "V057_cq9KDwdfhDc",
+        "place_id": "P078",
+        "place_name": "순천만습지",
+        "season": "가을",
+        "region": "전라남도",
+        "city": "순천시",
+        "drama_title": null,
+        "start_time": 4.75,
+        "end_time": 6.5,
+        "keyframe_path": "keyframes/V057_cq9KDwdfhDc/V057_P078_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "wooden_path",
+            "wetland",
+            "grass",
+            "mountains",
+            "cloudy_skies",
+            "forest"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A wooden boardwalk stretches through a lush green wetland, leading towards distant mountains under a cloudy sky."
+    },
+    {
+        "segment_id": "V057_P078_S001_SCENE_004",
+        "source_segment_id": "V057_P078_S001",
+        "video_id": "V057_cq9KDwdfhDc",
+        "place_id": "P078",
+        "place_name": "순천만습지",
+        "season": "가을",
+        "region": "전라남도",
+        "city": "순천시",
+        "drama_title": null,
+        "start_time": 6.5,
+        "end_time": 7.75,
+        "keyframe_path": "keyframes/V057_cq9KDwdfhDc/V057_P078_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "wooden_boardwalk",
+            "trees",
+            "forest",
+            "sky",
+            "railing",
+            "path",
+            "greenery"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A wooden boardwalk winds through a lush forest in Suncheon Bay Wetland, offering a peaceful and scenic walk."
+    },
+    {
+        "segment_id": "V057_P078_S001_SCENE_005",
+        "source_segment_id": "V057_P078_S001",
+        "video_id": "V057_cq9KDwdfhDc",
+        "place_id": "P078",
+        "place_name": "순천만습지",
+        "season": "가을",
+        "region": "전라남도",
+        "city": "순천시",
+        "drama_title": null,
+        "start_time": 7.75,
+        "end_time": 9.5,
+        "keyframe_path": "keyframes/V057_cq9KDwdfhDc/V057_P078_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "calm"
+        ],
+        "scene_elements": [
+            "bridge",
+            "wooden walkway",
+            "suspension cables",
+            "metal railings",
+            "wetland",
+            "water",
+            "trees",
+            "clouds",
+            "mountains",
+            "sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A wooden bridge over a wetland, with a cloudy sky and distant mountains in the background."
+    },
+    {
+        "segment_id": "V057_P078_S001_SCENE_006",
+        "source_segment_id": "V057_P078_S001",
+        "video_id": "V057_cq9KDwdfhDc",
+        "place_id": "P078",
+        "place_name": "순천만습지",
+        "season": "가을",
+        "region": "전라남도",
+        "city": "순천시",
+        "drama_title": null,
+        "start_time": 9.5,
+        "end_time": 11.5,
+        "keyframe_path": "keyframes/V057_cq9KDwdfhDc/V057_P078_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "bridge",
+            "wooden walkway",
+            "suspension cables",
+            "metal railings",
+            "wetland",
+            "water",
+            "trees",
+            "cloudy sky",
+            "mountains",
+            "house"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A wooden bridge over a wetland in Suncheon Bay, with a peaceful and serene atmosphere under a cloudy sky."
+    },
+    {
+        "segment_id": "V057_P078_S001_SCENE_007",
+        "source_segment_id": "V057_P078_S001",
+        "video_id": "V057_cq9KDwdfhDc",
+        "place_id": "P078",
+        "place_name": "순천만습지",
+        "season": "가을",
+        "region": "전라남도",
+        "city": "순천시",
+        "drama_title": null,
+        "start_time": 11.5,
+        "end_time": 13.0,
+        "keyframe_path": "keyframes/V057_cq9KDwdfhDc/V057_P078_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "wetland",
+            "bay",
+            "mountains",
+            "clouds",
+            "dry_land",
+            "houses",
+            "rivers",
+            "vegetation",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A serene view of the Suncheon Bay Wetland, with mountains in the background and a cloudy sky."
+    },
+    {
+        "segment_id": "V057_P078_S001_SCENE_008",
+        "source_segment_id": "V057_P078_S001",
+        "video_id": "V057_cq9KDwdfhDc",
+        "place_id": "P078",
+        "place_name": "순천만습지",
+        "season": "가을",
+        "region": "전라남도",
+        "city": "순천시",
+        "drama_title": null,
+        "start_time": 13.0,
+        "end_time": 15.0,
+        "keyframe_path": "keyframes/V057_cq9KDwdfhDc/V057_P078_S001_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "stream",
+            "reeds",
+            "trees",
+            "clouds",
+            "mountains",
+            "wetland",
+            "sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A calm and serene view of a stream in the Suncheon Bay Wetland, with lush greenery and a reflective water surface under an overcast sky."
+    },
+    {
+        "segment_id": "V057_P078_S001_SCENE_009",
+        "source_segment_id": "V057_P078_S001",
+        "video_id": "V057_cq9KDwdfhDc",
+        "place_id": "P078",
+        "place_name": "순천만습지",
+        "season": "가을",
+        "region": "전라남도",
+        "city": "순천시",
+        "drama_title": null,
+        "start_time": 15.0,
+        "end_time": 17.0,
+        "keyframe_path": "keyframes/V057_cq9KDwdfhDc/V057_P078_S001_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "serene",
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "path",
+            "railing",
+            "trees",
+            "wetland",
+            "clouds",
+            "mountains",
+            "grass",
+            "sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A peaceful walk along a path in the Suncheon Bay Wetland, with a serene sky and natural surroundings."
+    },
+    {
+        "segment_id": "V057_P078_S001_SCENE_010",
+        "source_segment_id": "V057_P078_S001",
+        "video_id": "V057_cq9KDwdfhDc",
+        "place_id": "P078",
+        "place_name": "순천만습지",
+        "season": "가을",
+        "region": "전라남도",
+        "city": "순천시",
+        "drama_title": null,
+        "start_time": 17.0,
+        "end_time": 19.0,
+        "keyframe_path": "keyframes/V057_cq9KDwdfhDc/V057_P078_S001_SCENE_010.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "wetland",
+            "reeds",
+            "river",
+            "mountains",
+            "sky",
+            "grass",
+            "hanok"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A serene evening view of the Suncheon Bay Wetland, with a calm river, reeds, and distant mountains under a cloudy sky."
+    },
+    {
+        "segment_id": "V058_P079_S001_SCENE_001",
+        "source_segment_id": "V058_P079_S001",
+        "video_id": "V058_n1zwfG5Zu70",
+        "place_id": "P079",
+        "place_name": "보령 청라은행마을",
+        "season": "가을",
+        "region": "충청남도",
+        "city": "보령시",
+        "drama_title": null,
+        "start_time": 0.0,
+        "end_time": 4.0,
+        "keyframe_path": "keyframes/V058_n1zwfG5Zu70/V058_P079_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "autumn",
+            "calm"
+        ],
+        "scene_elements": [
+            "path",
+            "autumn_leaves",
+            "trees",
+            "sky",
+            "mountain",
+            "road",
+            "ginkgo_tree",
+            "hill"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A serene autumn scene with a path covered in yellow leaves, leading through a forested area under a clear blue sky."
+    },
+    {
+        "segment_id": "V058_P079_S001_SCENE_002",
+        "source_segment_id": "V058_P079_S001",
+        "video_id": "V058_n1zwfG5Zu70",
+        "place_id": "P079",
+        "place_name": "보령 청라은행마을",
+        "season": "가을",
+        "region": "충청남도",
+        "city": "보령시",
+        "drama_title": null,
+        "start_time": 4.0,
+        "end_time": 18.0,
+        "keyframe_path": "keyframes/V058_n1zwfG5Zu70/V058_P079_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "autumn",
+            "cozy",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "path",
+            "autumn_leaves",
+            "tree",
+            "sky",
+            "bush",
+            "mountain",
+            "road",
+            "person",
+            "camera"
+        ],
+        "activity": [
+            "walking",
+            "photographing"
+        ],
+        "description": "A person is walking along a path covered in golden autumn leaves, capturing the serene beauty of the season."
+    },
+    {
+        "segment_id": "V059_P080_S001_SCENE_001",
+        "source_segment_id": "V059_P080_S001",
+        "video_id": "V059_j2oyUQiqy7g",
+        "place_id": "P080",
+        "place_name": "하늘공원",
+        "season": "봄",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 0.0,
+        "end_time": 1.25,
+        "keyframe_path": "keyframes/V059_j2oyUQiqy7g/V059_P080_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "excited",
+            "happy",
+            "joyful"
+        ],
+        "scene_elements": [
+            "bridge",
+            "colorful decorations",
+            "path",
+            "sky",
+            "trees",
+            "people",
+            "man",
+            "jacket",
+            "pants"
+        ],
+        "activity": [
+            "running",
+            "walking"
+        ],
+        "description": "A man is running through a colorful, decorative bridge in Seoul. The scene is bright and vibrant, with a joyful atmosphere."
+    },
+    {
+        "segment_id": "V059_P080_S001_SCENE_002",
+        "source_segment_id": "V059_P080_S001",
+        "video_id": "V059_j2oyUQiqy7g",
+        "place_id": "P080",
+        "place_name": "하늘공원",
+        "season": "봄",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 1.25,
+        "end_time": 2.5,
+        "keyframe_path": "keyframes/V059_j2oyUQiqy7g/V059_P080_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "happy",
+            "excited",
+            "joyful"
+        ],
+        "scene_elements": [
+            "bridge",
+            "colorful decorations",
+            "path",
+            "person",
+            "sky",
+            "trees",
+            "bushes"
+        ],
+        "activity": [
+            "running",
+            "walking"
+        ],
+        "description": "A person is running through a vibrant, colorful bridge in Seoul, surrounded by decorative elements."
+    },
+    {
+        "segment_id": "V059_P080_S001_SCENE_003",
+        "source_segment_id": "V059_P080_S001",
+        "video_id": "V059_j2oyUQiqy7g",
+        "place_id": "P080",
+        "place_name": "하늘공원",
+        "season": "봄",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 2.5,
+        "end_time": 3.5,
+        "keyframe_path": "keyframes/V059_j2oyUQiqy7g/V059_P080_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "grass",
+            "sky",
+            "person",
+            "hat",
+            "coat",
+            "wind",
+            "plant"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A person walks through a field of tall grass under a clear blue sky, with the wind gently moving the grass."
+    },
+    {
+        "segment_id": "V059_P080_S001_SCENE_004",
+        "source_segment_id": "V059_P080_S001",
+        "video_id": "V059_j2oyUQiqy7g",
+        "place_id": "P080",
+        "place_name": "하늘공원",
+        "season": "봄",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 3.5,
+        "end_time": 4.5,
+        "keyframe_path": "keyframes/V059_j2oyUQiqy7g/V059_P080_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "tall grass",
+            "feathers",
+            "blue sky",
+            "wind"
+        ],
+        "activity": [],
+        "description": "A close-up of tall grass with feathery tops swaying in the wind under a clear blue sky."
+    },
+    {
+        "segment_id": "V059_P080_S001_SCENE_005",
+        "source_segment_id": "V059_P080_S001",
+        "video_id": "V059_j2oyUQiqy7g",
+        "place_id": "P080",
+        "place_name": "하늘공원",
+        "season": "봄",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 4.5,
+        "end_time": 5.5,
+        "keyframe_path": "keyframes/V059_j2oyUQiqy7g/V059_P080_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "windy"
+        ],
+        "scene_elements": [
+            "grass",
+            "pampas_grass",
+            "sky",
+            "clouds"
+        ],
+        "activity": [
+            "blowing"
+        ],
+        "description": "A close-up of pampas grass swaying in the wind under a clear blue sky."
+    },
+    {
+        "segment_id": "V059_P080_S001_SCENE_006",
+        "source_segment_id": "V059_P080_S001",
+        "video_id": "V059_j2oyUQiqy7g",
+        "place_id": "P080",
+        "place_name": "하늘공원",
+        "season": "봄",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 5.5,
+        "end_time": 6.5,
+        "keyframe_path": "keyframes/V059_j2oyUQiqy7g/V059_P080_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "windmill",
+            "reed",
+            "flower",
+            "fence",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A windmill stands tall above a field of reeds and colorful flowers under a clear blue sky."
+    },
+    {
+        "segment_id": "V059_P080_S001_SCENE_007",
+        "source_segment_id": "V059_P080_S001",
+        "video_id": "V059_j2oyUQiqy7g",
+        "place_id": "P080",
+        "place_name": "하늘공원",
+        "season": "봄",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": null,
+        "start_time": 6.5,
+        "end_time": 8.0,
+        "keyframe_path": "keyframes/V059_j2oyUQiqy7g/V059_P080_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "blossom",
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "flowers",
+            "grass",
+            "wildlife",
+            "sunlight"
+        ],
+        "activity": [
+            "flowering"
+        ],
+        "description": "A vibrant field of cosmos flowers in full bloom under bright daylight."
+    },
+    {
+        "segment_id": "V060_P081_S001_SCENE_001",
+        "source_segment_id": "V060_P081_S001",
+        "video_id": "V060_6YDTLJcvX8g",
+        "place_id": "P081",
+        "place_name": "황매산 억새평원",
+        "season": "가을",
+        "region": "경상남도",
+        "city": "합천군",
+        "drama_title": null,
+        "start_time": 0.0,
+        "end_time": 1.0,
+        "keyframe_path": "keyframes/V060_6YDTLJcvX8g/V060_P081_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "serene",
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "grass",
+            "mountain",
+            "sky",
+            "autumn",
+            "wind",
+            "wildflower",
+            "field",
+            "tree"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A serene autumn landscape with golden grass and rolling hills under a clear blue sky."
+    },
+    {
+        "segment_id": "V060_P081_S001_SCENE_002",
+        "source_segment_id": "V060_P081_S001",
+        "video_id": "V060_6YDTLJcvX8g",
+        "place_id": "P081",
+        "place_name": "황매산 억새평원",
+        "season": "가을",
+        "region": "경상남도",
+        "city": "합천군",
+        "drama_title": null,
+        "start_time": 1.0,
+        "end_time": 4.25,
+        "keyframe_path": "keyframes/V060_6YDTLJcvX8g/V060_P081_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "grass",
+            "mountain",
+            "sunny",
+            "autumn",
+            "white_flowers",
+            "sky",
+            "field",
+            "wildlife",
+            "nature",
+            "grassland"
+        ],
+        "activity": [
+            "staying",
+            "sitting",
+            "walking",
+            "staring",
+            "watching"
+        ],
+        "description": "A scenic view of a grassland with white flowers, likely in the autumn, under a bright sky. The scene is peaceful and serene."
+    },
+    {
+        "segment_id": "V060_P081_S001_SCENE_003",
+        "source_segment_id": "V060_P081_S001",
+        "video_id": "V060_6YDTLJcvX8g",
+        "place_id": "P081",
+        "place_name": "황매산 억새평원",
+        "season": "가을",
+        "region": "경상남도",
+        "city": "합천군",
+        "drama_title": null,
+        "start_time": 4.25,
+        "end_time": 5.25,
+        "keyframe_path": "keyframes/V060_6YDTLJcvX8g/V060_P081_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "grass",
+            "pampas grass",
+            "mountains",
+            "sky",
+            "sun",
+            "path",
+            "wind"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A serene landscape of pampas grass in a sunny day, with rolling hills in the background."
+    },
+    {
+        "segment_id": "V060_P081_S001_SCENE_004",
+        "source_segment_id": "V060_P081_S001",
+        "video_id": "V060_6YDTLJcvX8g",
+        "place_id": "P081",
+        "place_name": "황매산 억새평원",
+        "season": "가을",
+        "region": "경상남도",
+        "city": "합천군",
+        "drama_title": null,
+        "start_time": 5.25,
+        "end_time": 8.0,
+        "keyframe_path": "keyframes/V060_6YDTLJcvX8g/V060_P081_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "serene",
+            "peaceful",
+            "golden_hour"
+        ],
+        "scene_elements": [
+            "grass",
+            "mountain",
+            "sun",
+            "sky",
+            "wind",
+            "autumn",
+            "field"
+        ],
+        "activity": [
+            "flying"
+        ],
+        "description": "A serene autumn field with golden grass swaying in the wind under a clear blue sky."
+    }
+]
