@@ -1,0 +1,612 @@
+[
+    {
+        "segment_id": "V008_P014_S001_SCENE_001",
+        "source_segment_id": "V008_P014_S001",
+        "video_id": "V008_2jiJ9CCzclg",
+        "place_id": "P014",
+        "place_name": "평창 월정사",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "평창군",
+        "drama_title": "도깨비",
+        "start_time": 0.0,
+        "end_time": 11.5,
+        "keyframe_path": "keyframes/V008_2jiJ9CCzclg/V008_P014_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "wintery"
+        ],
+        "scene_elements": [
+            "snow",
+            "trees",
+            "bridge",
+            "road",
+            "signs",
+            "people",
+            "snow-covered",
+            "forest",
+            "roadside",
+            "bridge railing"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A snowy road in a forest, with a bridge and people walking on it. The scene is calm and quiet."
+    },
+    {
+        "segment_id": "V008_P014_S001_SCENE_002",
+        "source_segment_id": "V008_P014_S001",
+        "video_id": "V008_2jiJ9CCzclg",
+        "place_id": "P014",
+        "place_name": "평창 월정사",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "평창군",
+        "drama_title": "도깨비",
+        "start_time": 11.5,
+        "end_time": 16.75,
+        "keyframe_path": "keyframes/V008_2jiJ9CCzclg/V008_P014_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "quiet",
+            "snowy"
+        ],
+        "scene_elements": [
+            "bridge",
+            "snow",
+            "pine_tree",
+            "road_sign",
+            "person",
+            "hanok"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A couple is walking on a snow-covered bridge surrounded by snow-laden pine trees. The scene is serene and peaceful."
+    },
+    {
+        "segment_id": "V008_P014_S001_SCENE_003",
+        "source_segment_id": "V008_P014_S001",
+        "video_id": "V008_2jiJ9CCzclg",
+        "place_id": "P014",
+        "place_name": "평창 월정사",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "평창군",
+        "drama_title": "도깨비",
+        "start_time": 16.75,
+        "end_time": 22.5,
+        "keyframe_path": "keyframes/V008_2jiJ9CCzclg/V008_P014_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "serene",
+            "calm",
+            "reflective"
+        ],
+        "scene_elements": [
+            "man",
+            "coat",
+            "scarf",
+            "snow",
+            "trees",
+            "bouquet"
+        ],
+        "activity": [
+            "standing",
+            "looking"
+        ],
+        "description": "A man stands in a snowy landscape, wearing a dark coat and a white scarf, looking off into the distance."
+    },
+    {
+        "segment_id": "V008_P014_S001_SCENE_004",
+        "source_segment_id": "V008_P014_S001",
+        "video_id": "V008_2jiJ9CCzclg",
+        "place_id": "P014",
+        "place_name": "평창 월정사",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "평창군",
+        "drama_title": "도깨비",
+        "start_time": 22.5,
+        "end_time": 28.0,
+        "keyframe_path": "keyframes/V008_2jiJ9CCzclg/V008_P014_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "snowy",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "bridge",
+            "snow",
+            "trees",
+            "road",
+            "sign",
+            "person",
+            "woman",
+            "man"
+        ],
+        "activity": [
+            "walking",
+            "standing"
+        ],
+        "description": "A couple is walking on a snow-covered bridge, surrounded by a serene winter landscape."
+    },
+    {
+        "segment_id": "V011_P016_S001_SCENE_001",
+        "source_segment_id": "V011_P016_S001",
+        "video_id": "V011_yZeNfaIK7Nw",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "봄",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 4.5,
+        "end_time": 39.5,
+        "keyframe_path": "keyframes/V011_yZeNfaIK7Nw/V011_P016_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "traditional",
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "palace",
+            "courtyard",
+            "dirt_ground",
+            "trees",
+            "buildings",
+            "people",
+            "path",
+            "sky"
+        ],
+        "activity": [
+            "walking",
+            "strolling"
+        ],
+        "description": "An aerial view of a traditional Korean palace complex with people walking on the courtyard."
+    },
+    {
+        "segment_id": "V011_P016_S001_SCENE_002",
+        "source_segment_id": "V011_P016_S001",
+        "video_id": "V011_yZeNfaIK7Nw",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "봄",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 40.5,
+        "end_time": 75.5,
+        "keyframe_path": "keyframes/V011_yZeNfaIK7Nw/V011_P016_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "historical",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "palace",
+            "city",
+            "sky",
+            "road",
+            "building",
+            "wall",
+            "gate",
+            "people",
+            "street"
+        ],
+        "activity": [
+            "walking",
+            "strolling",
+            "visiting",
+            "standing",
+            "sitting"
+        ],
+        "description": "An aerial view of a historical palace complex in Seoul, with people walking on the grounds and modern buildings visible in the background."
+    },
+    {
+        "segment_id": "V011_P016_S001_SCENE_003",
+        "source_segment_id": "V011_P016_S001",
+        "video_id": "V011_yZeNfaIK7Nw",
+        "place_id": "P016",
+        "place_name": "경복궁",
+        "season": "봄",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 76.5,
+        "end_time": 111.5,
+        "keyframe_path": "keyframes/V011_yZeNfaIK7Nw/V011_P016_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "traditional",
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "palace",
+            "ancient buildings",
+            "courtyard",
+            "trees",
+            "snow",
+            "sky",
+            "path",
+            "building",
+            "roof",
+            "gate"
+        ],
+        "activity": [
+            "walking",
+            "strolling"
+        ],
+        "description": "An aerial view of a traditional Korean palace complex, showcasing its intricate architecture and surrounding landscape. The scene is peaceful and quiet, with snow on the ground, indicating a winter setting."
+    },
+    {
+        "segment_id": "V015_P030_S001_SCENE_001",
+        "source_segment_id": "V015_P030_S001",
+        "video_id": "V015__MgVRjFcTWE",
+        "place_id": "P030",
+        "place_name": "혜원의 집",
+        "season": "여름",
+        "region": "대구광역시",
+        "city": "군위군",
+        "drama_title": "리틀 포레스트",
+        "start_time": 0.0,
+        "end_time": 6.0,
+        "keyframe_path": "keyframes/V015__MgVRjFcTWE/V015_P030_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "natural",
+            "serene",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "path",
+            "trees",
+            "stone walls",
+            "house",
+            "sky",
+            "clouds",
+            "greenery",
+            "stone wall",
+            "roof",
+            "dirt"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A peaceful rural scene with a dirt path winding through lush green trees and stone walls under a bright blue sky."
+    },
+    {
+        "segment_id": "V015_P030_S001_SCENE_002",
+        "source_segment_id": "V015_P030_S001",
+        "video_id": "V015__MgVRjFcTWE",
+        "place_id": "P030",
+        "place_name": "혜원의 집",
+        "season": "여름",
+        "region": "대구광역시",
+        "city": "군위군",
+        "drama_title": "리틀 포레스트",
+        "start_time": 6.0,
+        "end_time": 13.2,
+        "keyframe_path": "keyframes/V015__MgVRjFcTWE/V015_P030_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "traditional"
+        ],
+        "scene_elements": [
+            "hanok",
+            "roof",
+            "tree",
+            "house",
+            "stone steps",
+            "wooden door",
+            "wooden lattice",
+            "pile of wood",
+            "pavement",
+            "path"
+        ],
+        "activity": [],
+        "description": "A traditional Korean house with a blue-tiled roof is surrounded by lush green trees, creating a peaceful and serene atmosphere."
+    },
+    {
+        "segment_id": "V011_P017_S001_SCENE_001",
+        "source_segment_id": "V011_P017_S001",
+        "video_id": "V011_i2ZuU6szFWE",
+        "place_id": "P017",
+        "place_name": "창덕궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 0.0,
+        "end_time": 20.0,
+        "keyframe_path": "keyframes/V011_i2ZuU6szFWE/V011_P017_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "tranquil",
+            "historical",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "hanok",
+            "traditional_building",
+            "garden",
+            "roof",
+            "tree",
+            "path",
+            "wall",
+            "city",
+            "seoul",
+            "ancient"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "An aerial view of the Gwolnaegaksa (Gwolnaegaksa) complex in Seoul, showcasing traditional Korean architecture with dark tiled roofs and red walls, surrounded by a serene garden and urban landscape."
+    },
+    {
+        "segment_id": "V011_P017_S001_SCENE_002",
+        "source_segment_id": "V011_P017_S001",
+        "video_id": "V011_i2ZuU6szFWE",
+        "place_id": "P017",
+        "place_name": "창덕궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 35.75,
+        "end_time": 55.75,
+        "keyframe_path": "keyframes/V011_i2ZuU6szFWE/V011_P017_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "serene",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "greenhouse",
+            "trees",
+            "gardens",
+            "path",
+            "snow",
+            "shrubbery",
+            "building",
+            "park"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "An aerial view of the Grand Greenhouse in Seoul, surrounded by snow-covered gardens and trees, with a peaceful atmosphere."
+    },
+    {
+        "segment_id": "V011_P017_S001_SCENE_003",
+        "source_segment_id": "V011_P017_S001",
+        "video_id": "V011_i2ZuU6szFWE",
+        "place_id": "P017",
+        "place_name": "창덕궁",
+        "season": "여름",
+        "region": "서울특별시",
+        "city": "서울특별시",
+        "drama_title": "킹덤",
+        "start_time": 56.75,
+        "end_time": 76.75,
+        "keyframe_path": "keyframes/V011_i2ZuU6szFWE/V011_P017_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "historical",
+            "calm"
+        ],
+        "scene_elements": [
+            "palace",
+            "traditional_korean_buildings",
+            "trees",
+            "park",
+            "cityscape",
+            "road",
+            "sky",
+            "building",
+            "forest",
+            "ground"
+        ],
+        "activity": [
+            "standing",
+            "walking"
+        ],
+        "description": "An aerial view of a traditional Korean palace complex surrounded by trees and a cityscape, captured during the day."
+    },
+    {
+        "segment_id": "V032_P056_S001_SCENE_001",
+        "source_segment_id": "V032_P056_S001",
+        "video_id": "V032_g7jXCiGr0sE",
+        "place_id": "P056",
+        "place_name": "강화 전등사",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "강화군",
+        "drama_title": "조명가게",
+        "start_time": 45.0,
+        "end_time": 135.0,
+        "keyframe_path": "keyframes/V032_g7jXCiGr0sE/V032_P056_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene",
+            "calm",
+            "natural"
+        ],
+        "scene_elements": [
+            "flower",
+            "hydrangea",
+            "path",
+            "hanok",
+            "tree",
+            "stone wall",
+            "car",
+            "building",
+            "bench",
+            "flower bed"
+        ],
+        "activity": [
+            "standing",
+            "walking",
+            "parking"
+        ],
+        "description": "A serene garden scene with blooming hydrangeas in the foreground, traditional hanok buildings in the background, and a quiet path leading through the area."
+    },
+    {
+        "segment_id": "V032_P056_S001_SCENE_002",
+        "source_segment_id": "V032_P056_S001",
+        "video_id": "V032_g7jXCiGr0sE",
+        "place_id": "P056",
+        "place_name": "강화 전등사",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "강화군",
+        "drama_title": "조명가게",
+        "start_time": 1505.0,
+        "end_time": 1595.0,
+        "keyframe_path": "keyframes/V032_g7jXCiGr0sE/V032_P056_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "path",
+            "tree",
+            "garden",
+            "mountain",
+            "roof",
+            "plant",
+            "stone",
+            "building",
+            "greenery"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A tranquil view of a traditional Korean hanok surrounded by lush greenery and a stone path leading to the building, with a mountain in the background."
+    },
+    {
+        "segment_id": "V032_P056_S001_SCENE_003",
+        "source_segment_id": "V032_P056_S001",
+        "video_id": "V032_g7jXCiGr0sE",
+        "place_id": "P056",
+        "place_name": "강화 전등사",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "강화군",
+        "drama_title": "조명가게",
+        "start_time": 1765.0,
+        "end_time": 1855.0,
+        "keyframe_path": "keyframes/V032_g7jXCiGr0sE/V032_P056_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "natural",
+            "family",
+            "relaxing"
+        ],
+        "scene_elements": [
+            "path",
+            "tree",
+            "stone_wall",
+            "hanok",
+            "house",
+            "garden",
+            "children",
+            "adults",
+            "dog",
+            "umbrella"
+        ],
+        "activity": [
+            "walking",
+            "families",
+            "visiting",
+            "strolling",
+            "talking"
+        ],
+        "description": "A family is walking along a scenic, tree-lined path in a traditional Korean village, enjoying a peaceful day outdoors."
+    },
+    {
+        "segment_id": "V032_P056_S001_SCENE_004",
+        "source_segment_id": "V032_P056_S001",
+        "video_id": "V032_g7jXCiGr0sE",
+        "place_id": "P056",
+        "place_name": "강화 전등사",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "강화군",
+        "drama_title": "조명가게",
+        "start_time": 1885.0,
+        "end_time": 1975.0,
+        "keyframe_path": "keyframes/V032_g7jXCiGr0sE/V032_P056_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "garden",
+            "trees",
+            "flowers",
+            "stone steps",
+            "building",
+            "greenery",
+            "sky"
+        ],
+        "activity": [
+            "standing",
+            "photographing"
+        ],
+        "description": "Two people are standing in a lush garden, taking a photo of a traditional Korean building surrounded by greenery and blooming flowers."
+    },
+    {
+        "segment_id": "V032_P056_S001_SCENE_005",
+        "source_segment_id": "V032_P056_S001",
+        "video_id": "V032_g7jXCiGr0sE",
+        "place_id": "P056",
+        "place_name": "강화 전등사",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "강화군",
+        "drama_title": "조명가게",
+        "start_time": 3225.0,
+        "end_time": 3315.0,
+        "keyframe_path": "keyframes/V032_g7jXCiGr0sE/V032_P056_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "trees",
+            "path",
+            "bench",
+            "fence",
+            "sign",
+            "rock",
+            "greenery"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A serene park scene with a wooden path, trees, and a bench, suggesting a peaceful walk in a natural setting."
+    }
+]
