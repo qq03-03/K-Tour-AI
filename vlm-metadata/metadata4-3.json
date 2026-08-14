@@ -1,0 +1,3460 @@
+[
+    {
+        "segment_id": "V021_P048_S001_SCENE_004",
+        "source_segment_id": "V021_P048_S001",
+        "video_id": "V021_6Fowfd9CIoM",
+        "place_id": "P048",
+        "place_name": "부남해변",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "삼척시",
+        "drama_title": "헤어질 결심",
+        "start_time": 6.5,
+        "end_time": 8.75,
+        "keyframe_path": "keyframes/V021_6Fowfd9CIoM/V021_P048_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "beach",
+            "ocean",
+            "rock",
+            "sand",
+            "person",
+            "camera"
+        ],
+        "activity": [
+            "photographing",
+            "standing"
+        ],
+        "description": "A couple is standing on a beach, taking a photo of the ocean with a camera. The scene is calm and serene under a clear sky."
+    },
+    {
+        "segment_id": "V021_P048_S001_SCENE_005",
+        "source_segment_id": "V021_P048_S001",
+        "video_id": "V021_6Fowfd9CIoM",
+        "place_id": "P048",
+        "place_name": "부남해변",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "삼척시",
+        "drama_title": "헤어질 결심",
+        "start_time": 8.75,
+        "end_time": 11.0,
+        "keyframe_path": "keyframes/V021_6Fowfd9CIoM/V021_P048_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "happy",
+            "relaxed",
+            "sunny"
+        ],
+        "scene_elements": [
+            "beach",
+            "rock",
+            "trees",
+            "boats",
+            "people",
+            "coastal_area"
+        ],
+        "activity": [
+            "standing",
+            "talking",
+            "looking at each other"
+        ],
+        "description": "A man and a woman are standing on a beach, talking to each other. The scene is bright and sunny with trees and boats in the background."
+    },
+    {
+        "segment_id": "V021_P048_S001_SCENE_006",
+        "source_segment_id": "V021_P048_S001",
+        "video_id": "V021_6Fowfd9CIoM",
+        "place_id": "P048",
+        "place_name": "부남해변",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "삼척시",
+        "drama_title": "헤어질 결심",
+        "start_time": 11.0,
+        "end_time": 15.0,
+        "keyframe_path": "keyframes/V021_6Fowfd9CIoM/V021_P048_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "romantic",
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "woman",
+            "man",
+            "beach",
+            "rock",
+            "tree",
+            "sea",
+            "hat",
+            "backpack"
+        ],
+        "activity": [
+            "standing",
+            "chatting"
+        ],
+        "description": "A woman and a man are standing on a beach, talking to each other. The scene is set on a sunny day with a rocky cliff and trees in the background."
+    },
+    {
+        "segment_id": "V022_P039_S001_SCENE_001",
+        "source_segment_id": "V022_P039_S001",
+        "video_id": "V022_rSGIVEtNrJs",
+        "place_id": "P039",
+        "place_name": "청주 중앙공원·수암골 일대",
+        "season": "여름",
+        "region": "충청북도",
+        "city": "청주시",
+        "drama_title": "20세기 소녀",
+        "start_time": 0.0,
+        "end_time": 12.0,
+        "keyframe_path": "keyframes/V022_rSGIVEtNrJs/V022_P039_S001_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "peaceful",
+            "calm",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "cityscape",
+            "buildings",
+            "streetlights",
+            "sky",
+            "trees",
+            "road",
+            "lighting",
+            "signs",
+            "streetlight"
+        ],
+        "activity": [],
+        "description": "A nighttime cityscape view with illuminated buildings and streets, showcasing a vibrant urban environment."
+    },
+    {
+        "segment_id": "V022_P039_S002_SCENE_001",
+        "source_segment_id": "V022_P039_S002",
+        "video_id": "V022_SjFU0igyWAk",
+        "place_id": "P039",
+        "place_name": "청주 중앙공원·수암골 일대",
+        "season": "봄",
+        "region": "충청북도",
+        "city": "청주시",
+        "drama_title": "20세기 소녀",
+        "start_time": 0.0,
+        "end_time": 1.0,
+        "keyframe_path": "keyframes/V022_SjFU0igyWAk/V022_P039_S002_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "cityscape",
+            "skyscrapers",
+            "buildings",
+            "lights",
+            "outdoor seating",
+            "sky"
+        ],
+        "activity": [
+            "viewing",
+            "traveling"
+        ],
+        "description": "A nighttime cityscape view with illuminated buildings and a bustling urban environment, capturing the essence of a city in transition."
+    },
+    {
+        "segment_id": "V022_P039_S002_SCENE_002",
+        "source_segment_id": "V022_P039_S002",
+        "video_id": "V022_SjFU0igyWAk",
+        "place_id": "P039",
+        "place_name": "청주 중앙공원·수암골 일대",
+        "season": "봄",
+        "region": "충청북도",
+        "city": "청주시",
+        "drama_title": "20세기 소녀",
+        "start_time": 1.0,
+        "end_time": 8.933,
+        "keyframe_path": "keyframes/V022_SjFU0igyWAk/V022_P039_S002_SCENE_002.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "cityscape",
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "skyscrapers",
+            "city lights",
+            "buildings",
+            "pool",
+            "trees",
+            "sky",
+            "streetlights",
+            "distant buildings"
+        ],
+        "activity": [
+            "people",
+            "walking"
+        ],
+        "description": "A nighttime cityscape with illuminated buildings and a pool in the foreground, showcasing a vibrant urban environment."
+    },
+    {
+        "segment_id": "V023_P040_S001_SCENE_001",
+        "source_segment_id": "V023_P040_S001",
+        "video_id": "V023_MDE56HAySSU",
+        "place_id": "P040",
+        "place_name": "포항 스페이스워크",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "이 연애는 불가항력",
+        "start_time": 0.0,
+        "end_time": 9.0,
+        "keyframe_path": "keyframes/V023_MDE56HAySSU/V023_P040_S001_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "metallic staircase",
+            "glass bridge",
+            "railings",
+            "person",
+            "shoes",
+            "backpack"
+        ],
+        "activity": [
+            "walking",
+            "standing"
+        ],
+        "description": "A person is walking on a metal staircase at night, with a glass bridge in the background. The scene is illuminated by artificial lights, creating a peaceful atmosphere."
+    },
+    {
+        "segment_id": "V023_P040_S002_SCENE_001",
+        "source_segment_id": "V023_P040_S002",
+        "video_id": "V023_VP4ZKW5YhrM",
+        "place_id": "P040",
+        "place_name": "포항 스페이스워크",
+        "season": "봄",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "이 연애는 불가항력",
+        "start_time": 0.0,
+        "end_time": 30.0,
+        "keyframe_path": "keyframes/V023_VP4ZKW5YhrM/V023_P040_S002_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "modern",
+            "surreal",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "sculpture",
+            "stairway",
+            "lighting",
+            "sky",
+            "city",
+            "water",
+            "bridge"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A modern, illuminated spiral staircase at night, creating a surreal and peaceful atmosphere."
+    },
+    {
+        "segment_id": "V023_P040_S002_SCENE_002",
+        "source_segment_id": "V023_P040_S002",
+        "video_id": "V023_VP4ZKW5YhrM",
+        "place_id": "P040",
+        "place_name": "포항 스페이스워크",
+        "season": "봄",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "이 연애는 불가항력",
+        "start_time": 30.0,
+        "end_time": 42.309,
+        "keyframe_path": "keyframes/V023_VP4ZKW5YhrM/V023_P040_S002_SCENE_002.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "modern",
+            "sleek",
+            "wonderful"
+        ],
+        "scene_elements": [
+            "skylight",
+            "walkway",
+            "slide",
+            "railway",
+            "metal",
+            "lights",
+            "night",
+            "city",
+            "sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A modern, illuminated walkway with a curved slide at night, showcasing a sleek and futuristic design."
+    },
+    {
+        "segment_id": "V023_P040_S003_SCENE_001",
+        "source_segment_id": "V023_P040_S003",
+        "video_id": "V023_GtHPZwo4h9c",
+        "place_id": "P040",
+        "place_name": "포항 스페이스워크",
+        "season": "봄",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "이 연애는 불가항력",
+        "start_time": 0.0,
+        "end_time": 7.0,
+        "keyframe_path": "keyframes/V023_GtHPZwo4h9c/V023_P040_S003_SCENE_001.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "exciting",
+            "peaceful",
+            "sunny"
+        ],
+        "scene_elements": [
+            "sky",
+            "city",
+            "forest",
+            "walkway",
+            "bridge",
+            "people",
+            "building",
+            "trees",
+            "light",
+            "clouds"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "taking photos"
+        ],
+        "description": "A curved walkway in Pohang, South Korea, at dusk, with people enjoying the scenic view of the city and forest. The walkway is illuminated, creating a beautiful contrast with the evening sky."
+    },
+    {
+        "segment_id": "V005_P010_S001_SCENE_001",
+        "source_segment_id": "V005_P010_S001",
+        "video_id": "V005_UjxY3jz0znE",
+        "place_id": "P010",
+        "place_name": "포항 영일만항",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 305.0,
+        "end_time": 340.0,
+        "keyframe_path": "keyframes/V005_UjxY3jz0znE/V005_P010_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "parking_lot",
+            "building",
+            "trees",
+            "ocean",
+            "sky",
+            "car",
+            "flagpole",
+            "path"
+        ],
+        "activity": [
+            "parking"
+        ],
+        "description": "A parking lot in front of a modern building with a clear blue sky and trees, with cars parked. The text on the image reads 'Hongduksa beach is a parking lot'."
+    },
+    {
+        "segment_id": "V005_P010_S001_SCENE_002",
+        "source_segment_id": "V005_P010_S001",
+        "video_id": "V005_UjxY3jz0znE",
+        "place_id": "P010",
+        "place_name": "포항 영일만항",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 341.5,
+        "end_time": 376.5,
+        "keyframe_path": "keyframes/V005_UjxY3jz0znE/V005_P010_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "path",
+            "railway",
+            "house",
+            "tree",
+            "grass",
+            "sign",
+            "sky",
+            "ocean",
+            "hill",
+            "pine_tree"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A serene pathway leads to a small house on a hill, with trees and the ocean visible in the background under a clear blue sky."
+    },
+    {
+        "segment_id": "V005_P010_S001_SCENE_003",
+        "source_segment_id": "V005_P010_S001",
+        "video_id": "V005_UjxY3jz0znE",
+        "place_id": "P010",
+        "place_name": "포항 영일만항",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 395.0,
+        "end_time": 430.0,
+        "keyframe_path": "keyframes/V005_UjxY3jz0znE/V005_P010_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "path",
+            "pine_trees",
+            "grass",
+            "sunlight",
+            "forest",
+            "woodland"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A peaceful forest path with pine trees lining the way, creating a serene and tranquil atmosphere."
+    },
+    {
+        "segment_id": "V005_P023_S001_SCENE_001",
+        "source_segment_id": "V005_P023_S001",
+        "video_id": "V005_ch9bdaofYxM",
+        "place_id": "P023",
+        "place_name": "포항 구룡포 석병리",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 32.5,
+        "end_time": 67.5,
+        "keyframe_path": "keyframes/V005_ch9bdaofYxM/V005_P023_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "vibrant",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "house",
+            "roof",
+            "tree",
+            "road",
+            "people",
+            "building",
+            "sky",
+            "hill",
+            "street"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "sitting"
+        ],
+        "description": "Aerial view of a colorful village with traditional houses and people walking along the streets."
+    },
+    {
+        "segment_id": "V005_P023_S001_SCENE_002",
+        "source_segment_id": "V005_P023_S001",
+        "video_id": "V005_ch9bdaofYxM",
+        "place_id": "P023",
+        "place_name": "포항 구룡포 석병리",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 68.5,
+        "end_time": 103.5,
+        "keyframe_path": "keyframes/V005_ch9bdaofYxM/V005_P023_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "vibrant",
+            "peaceful",
+            "cozy",
+            "charming",
+            "cultural"
+        ],
+        "scene_elements": [
+            "house",
+            "street",
+            "car",
+            "people",
+            "green roof",
+            "hanok",
+            "tree",
+            "building",
+            "parking lot",
+            "sky"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "driving",
+            "sitting",
+            "standing in line"
+        ],
+        "description": "An aerial view of a colorful village with traditional hanok houses, people walking on the street, and cars parked in the lot."
+    },
+    {
+        "segment_id": "V005_P023_S001_SCENE_003",
+        "source_segment_id": "V005_P023_S001",
+        "video_id": "V005_ch9bdaofYxM",
+        "place_id": "P023",
+        "place_name": "포항 구룡포 석병리",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 144.0,
+        "end_time": 179.0,
+        "keyframe_path": "keyframes/V005_ch9bdaofYxM/V005_P023_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm",
+            "serene"
+        ],
+        "scene_elements": [
+            "port",
+            "coast",
+            "harbor",
+            "beach",
+            "docks",
+            "lighthouse",
+            "buildings",
+            "harbor wall",
+            "sea",
+            "mountain",
+            "terraced fields"
+        ],
+        "activity": [
+            "standing",
+            "walking",
+            "driving",
+            "parking",
+            "waiting"
+        ],
+        "description": "An aerial view of a coastal village with a harbor, featuring a lighthouse and terraced fields, under a clear sky."
+    },
+    {
+        "segment_id": "V005_P024_S001_SCENE_001",
+        "source_segment_id": "V005_P024_S001",
+        "video_id": "V005_wi11R_vDBmE",
+        "place_id": "P024",
+        "place_name": "포항 청하 공진시장",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 0.0,
+        "end_time": 1.5,
+        "keyframe_path": "keyframes/V005_wi11R_vDBmE/V005_P024_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "warm",
+            "cozy",
+            "happy",
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "board",
+            "poster",
+            "fisherman",
+            "bench",
+            "boat",
+            "wall",
+            "wooden beam",
+            "colorful paper",
+            "yellow sticky notes",
+            "green wall",
+            "blue sky"
+        ],
+        "activity": [
+            "reading",
+            "staring",
+            "writing",
+            "sitting"
+        ],
+        "description": "A cozy, colorful room with a bulletin board and a boat drawing on a bench, suggesting a creative or artistic space."
+    },
+    {
+        "segment_id": "V005_P024_S001_SCENE_002",
+        "source_segment_id": "V005_P024_S001",
+        "video_id": "V005_wi11R_vDBmE",
+        "place_id": "P024",
+        "place_name": "포항 청하 공진시장",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 1.5,
+        "end_time": 2.75,
+        "keyframe_path": "keyframes/V005_wi11R_vDBmE/V005_P024_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "car_wash",
+            "car",
+            "building",
+            "sky",
+            "power_lines",
+            "sign",
+            "lighting"
+        ],
+        "activity": [
+            "driving",
+            "waiting"
+        ],
+        "description": "A car wash facility with a sign in Korean, under a bright sky. A car is parked in the foreground, and the scene appears to be a calm day."
+    },
+    {
+        "segment_id": "V005_P024_S001_SCENE_003",
+        "source_segment_id": "V005_P024_S001",
+        "video_id": "V005_wi11R_vDBmE",
+        "place_id": "P024",
+        "place_name": "포항 청하 공진시장",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 2.75,
+        "end_time": 5.0,
+        "keyframe_path": "keyframes/V005_wi11R_vDBmE/V005_P024_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "building",
+            "sign",
+            "porch",
+            "sky",
+            "clouds",
+            "pole",
+            "wire",
+            "furniture",
+            "clothing",
+            "plant"
+        ],
+        "activity": [
+            "standing",
+            "sitting"
+        ],
+        "description": "A small shop with a sign that reads 'Cheonghaeng Jinyang' is shown on a sunny day. A person is standing in front of the shop, which is decorated with various items."
+    },
+    {
+        "segment_id": "V005_P024_S001_SCENE_004",
+        "source_segment_id": "V005_P024_S001",
+        "video_id": "V005_wi11R_vDBmE",
+        "place_id": "P024",
+        "place_name": "포항 청하 공진시장",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 5.0,
+        "end_time": 6.5,
+        "keyframe_path": "keyframes/V005_wi11R_vDBmE/V005_P024_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "vintage",
+            "sunny"
+        ],
+        "scene_elements": [
+            "building",
+            "poster",
+            "bench",
+            "window",
+            "flower",
+            "plant",
+            "door",
+            "light",
+            "wall",
+            "ceiling",
+            "fence"
+        ],
+        "activity": [
+            "standing",
+            "sitting",
+            "watching"
+        ],
+        "description": "A quiet and peaceful scene inside a small building with a vintage feel, featuring posters and plants. The room is well-lit with natural light, creating a calm and serene atmosphere."
+    },
+    {
+        "segment_id": "V005_P024_S001_SCENE_005",
+        "source_segment_id": "V005_P024_S001",
+        "video_id": "V005_wi11R_vDBmE",
+        "place_id": "P024",
+        "place_name": "포항 청하 공진시장",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 6.5,
+        "end_time": 7.75,
+        "keyframe_path": "keyframes/V005_wi11R_vDBmE/V005_P024_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "school",
+            "wall",
+            "poster",
+            "plant",
+            "bench",
+            "door",
+            "light",
+            "window",
+            "ceiling",
+            "building"
+        ],
+        "activity": [
+            "standing",
+            "sitting"
+        ],
+        "description": "A school room with a peaceful atmosphere, featuring posters and plants. The room is lit by natural light and has a calm, quiet mood."
+    },
+    {
+        "segment_id": "V005_P024_S001_SCENE_006",
+        "source_segment_id": "V005_P024_S001",
+        "video_id": "V005_wi11R_vDBmE",
+        "place_id": "P024",
+        "place_name": "포항 청하 공진시장",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 7.75,
+        "end_time": 11.25,
+        "keyframe_path": "keyframes/V005_wi11R_vDBmE/V005_P024_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "car_wash",
+            "building",
+            "sky",
+            "power_lines",
+            "cars",
+            "sign",
+            "roof",
+            "porch",
+            "lights",
+            "shadows"
+        ],
+        "activity": [
+            "waiting",
+            "washing",
+            "driving"
+        ],
+        "description": "A car wash facility with a large canopy and several cars parked in front. The sky is clear and sunny, indicating a bright day."
+    },
+    {
+        "segment_id": "V005_P024_S001_SCENE_007",
+        "source_segment_id": "V005_P024_S001",
+        "video_id": "V005_wi11R_vDBmE",
+        "place_id": "P024",
+        "place_name": "포항 청하 공진시장",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 11.25,
+        "end_time": 12.5,
+        "keyframe_path": "keyframes/V005_wi11R_vDBmE/V005_P024_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "romantic",
+            "happy",
+            "calm"
+        ],
+        "scene_elements": [
+            "bench",
+            "boat",
+            "wall",
+            "poster",
+            "paper",
+            "window",
+            "light"
+        ],
+        "activity": [],
+        "description": "A room with a bench, a boat model, and posters on the wall, possibly a filming set for a romantic drama."
+    },
+    {
+        "segment_id": "V005_P024_S001_SCENE_008",
+        "source_segment_id": "V005_P024_S001",
+        "video_id": "V005_wi11R_vDBmE",
+        "place_id": "P024",
+        "place_name": "포항 청하 공진시장",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 12.5,
+        "end_time": 14.0,
+        "keyframe_path": "keyframes/V005_wi11R_vDBmE/V005_P024_S001_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "statue",
+            "monument",
+            "train_station",
+            "car",
+            "sky",
+            "buildings",
+            "trees",
+            "clouds",
+            "scaffold"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A statue of a squid stands at a train station under a clear blue sky. The scene is calm and peaceful."
+    },
+    {
+        "segment_id": "V005_P024_S001_SCENE_009",
+        "source_segment_id": "V005_P024_S001",
+        "video_id": "V005_wi11R_vDBmE",
+        "place_id": "P024",
+        "place_name": "포항 청하 공진시장",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 14.0,
+        "end_time": 15.5,
+        "keyframe_path": "keyframes/V005_wi11R_vDBmE/V005_P024_S001_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "sculpture",
+            "statue",
+            "monument",
+            "plaque",
+            "train_station",
+            "car",
+            "building",
+            "sky",
+            "clouds",
+            "sunset"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A large squid statue stands at a monument in a town, with a clear blue sky and a train station in the background."
+    },
+    {
+        "segment_id": "V005_P024_S001_SCENE_010",
+        "source_segment_id": "V005_P024_S001",
+        "video_id": "V005_wi11R_vDBmE",
+        "place_id": "P024",
+        "place_name": "포항 청하 공진시장",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 15.5,
+        "end_time": 16.75,
+        "keyframe_path": "keyframes/V005_wi11R_vDBmE/V005_P024_S001_SCENE_010.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "map",
+            "qr code",
+            "building",
+            "statue",
+            "road",
+            "tree",
+            "bridge",
+            "sign"
+        ],
+        "activity": [
+            "viewing",
+            "walking"
+        ],
+        "description": "A map of Cheongha Gongjin Market with a QR code for information, showing the Market and surrounding area."
+    },
+    {
+        "segment_id": "V005_P024_S001_SCENE_011",
+        "source_segment_id": "V005_P024_S001",
+        "video_id": "V005_wi11R_vDBmE",
+        "place_id": "P024",
+        "place_name": "포항 청하 공진시장",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 16.75,
+        "end_time": 18.25,
+        "keyframe_path": "keyframes/V005_wi11R_vDBmE/V005_P024_S001_SCENE_011.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "map",
+            "qr code",
+            "building",
+            "street",
+            "tree",
+            "sign",
+            "house",
+            "street light",
+            "bridge",
+            "park"
+        ],
+        "activity": [
+            "viewing",
+            "walking"
+        ],
+        "description": "A map of Cheongha Gongjin Market is displayed, showing various locations and landmarks. The scene appears to be during the day, with clear visibility of the map and surrounding area."
+    },
+    {
+        "segment_id": "V005_P024_S001_SCENE_012",
+        "source_segment_id": "V005_P024_S001",
+        "video_id": "V005_wi11R_vDBmE",
+        "place_id": "P024",
+        "place_name": "포항 청하 공진시장",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 18.25,
+        "end_time": 22.75,
+        "keyframe_path": "keyframes/V005_wi11R_vDBmE/V005_P024_S001_SCENE_012.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "sunny",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "building",
+            "sign",
+            "porch",
+            "trees",
+            "potted plants",
+            "clothing",
+            "life jackets",
+            "air conditioner",
+            "water bottles"
+        ],
+        "activity": [
+            "standing",
+            "displaying"
+        ],
+        "description": "A small outdoor shop with a sign that reads 'Chung Hwa' is shown on a sunny day. The shop is decorated with life jackets and other items on the porch, suggesting it may be a place for outdoor activities or a tourist spot."
+    },
+    {
+        "segment_id": "V005_P024_S001_SCENE_013",
+        "source_segment_id": "V005_P024_S001",
+        "video_id": "V005_wi11R_vDBmE",
+        "place_id": "P024",
+        "place_name": "포항 청하 공진시장",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 22.75,
+        "end_time": 24.25,
+        "keyframe_path": "keyframes/V005_wi11R_vDBmE/V005_P024_S001_SCENE_013.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "cozy",
+            "vintage"
+        ],
+        "scene_elements": [
+            "building",
+            "window",
+            "door",
+            "sign",
+            "wall",
+            "plant",
+            "vine",
+            "greenery",
+            "outdoor",
+            "cottage"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A quiet, vintage-style cafe with a green wall and a large window, viewed during the day."
+    },
+    {
+        "segment_id": "V005_P024_S001_SCENE_014",
+        "source_segment_id": "V005_P024_S001",
+        "video_id": "V005_wi11R_vDBmE",
+        "place_id": "P024",
+        "place_name": "포항 청하 공진시장",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 24.25,
+        "end_time": 25.0,
+        "keyframe_path": "keyframes/V005_wi11R_vDBmE/V005_P024_S001_SCENE_014.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "quiet"
+        ],
+        "scene_elements": [
+            "restaurant",
+            "sign",
+            "window",
+            "bench",
+            "building",
+            "street",
+            "sidewalk",
+            "window display",
+            "poster",
+            "tree",
+            "roof"
+        ],
+        "activity": [
+            "standing",
+            "waiting"
+        ],
+        "description": "A small restaurant with a sign that reads 'Gongjin Banjeon' is shown on a sunny day, with a bench in front. The scene is calm and quiet, with no people visible."
+    },
+    {
+        "segment_id": "V005_P024_S001_SCENE_015",
+        "source_segment_id": "V005_P024_S001",
+        "video_id": "V005_wi11R_vDBmE",
+        "place_id": "P024",
+        "place_name": "포항 청하 공진시장",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 25.0,
+        "end_time": 27.75,
+        "keyframe_path": "keyframes/V005_wi11R_vDBmE/V005_P024_S001_SCENE_015.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "simple",
+            "sunny",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "building",
+            "sign",
+            "window",
+            "bench",
+            "sidewalk",
+            "door",
+            "poster",
+            "shadows",
+            "sun",
+            "sky"
+        ],
+        "activity": [
+            "standing",
+            "waiting",
+            "resting"
+        ],
+        "description": "A small Korean restaurant with a simple exterior, featuring a sign with the name '용진반전' and a bench outside. The scene is bright and sunny with clear shadows, suggesting it is daytime."
+    },
+    {
+        "segment_id": "V005_P024_S001_SCENE_016",
+        "source_segment_id": "V005_P024_S001",
+        "video_id": "V005_wi11R_vDBmE",
+        "place_id": "P024",
+        "place_name": "포항 청하 공진시장",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 27.75,
+        "end_time": 29.0,
+        "keyframe_path": "keyframes/V005_wi11R_vDBmE/V005_P024_S001_SCENE_016.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "car_wash",
+            "building",
+            "sky",
+            "power_lines",
+            "cars",
+            "signs",
+            "lights"
+        ],
+        "activity": [
+            "waiting",
+            "parking"
+        ],
+        "description": "A car wash facility on a sunny day with cars parked under a covered structure."
+    },
+    {
+        "segment_id": "V005_P041_S001_SCENE_001",
+        "source_segment_id": "V005_P041_S001",
+        "video_id": "V005_kbQigOKSMuk",
+        "place_id": "P041",
+        "place_name": "사방기념공원",
+        "season": "가을",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 0.0,
+        "end_time": 15.0,
+        "keyframe_path": "keyframes/V005_kbQigOKSMuk/V005_P041_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "mountain",
+            "sea",
+            "town",
+            "pine_trees",
+            "clear_sky",
+            "coastline",
+            "village",
+            "horizon",
+            "greenery",
+            "blue_water"
+        ],
+        "activity": [
+            "viewing",
+            "stargazing"
+        ],
+        "description": "A scenic view from a hillside overlooking a coastal town and the sea under a clear blue sky."
+    },
+    {
+        "segment_id": "V005_P023_S002_SCENE_001",
+        "source_segment_id": "V005_P023_S002",
+        "video_id": "V005_NjwqtXvGbw0",
+        "place_id": "P023",
+        "place_name": "포항 구룡포 석병리",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "포항시",
+        "drama_title": "갯마을 차차차",
+        "start_time": 0.0,
+        "end_time": 33.0,
+        "keyframe_path": "keyframes/V005_NjwqtXvGbw0/V005_P023_S002_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "harbor",
+            "water",
+            "dock",
+            "rock breakwaters",
+            "boats",
+            "street light",
+            "sky",
+            "pavement"
+        ],
+        "activity": [
+            "standing",
+            "waiting"
+        ],
+        "description": "A quiet harbor scene with boats docked at a concrete breakwater under a clear sky."
+    },
+    {
+        "segment_id": "V006_P011_S001_SCENE_001",
+        "source_segment_id": "V006_P011_S001",
+        "video_id": "V006_1r7a5mLNGRQ",
+        "place_id": "P011",
+        "place_name": "제주도 고성오일시장",
+        "season": "봄",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": "우리들의 블루스",
+        "start_time": 4.25,
+        "end_time": 24.25,
+        "keyframe_path": "keyframes/V006_1r7a5mLNGRQ/V006_P011_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "truck",
+            "building",
+            "street",
+            "car",
+            "person",
+            "sign",
+            "window",
+            "roof",
+            "tree"
+        ],
+        "activity": [
+            "standing",
+            "walking"
+        ],
+        "description": "A blue truck is parked on a street in front of a building with a sign. A person is standing on the sidewalk, and several cars are parked nearby. The scene is bright and sunny."
+    },
+    {
+        "segment_id": "V006_P011_S001_SCENE_002",
+        "source_segment_id": "V006_P011_S001",
+        "video_id": "V006_1r7a5mLNGRQ",
+        "place_id": "P011",
+        "place_name": "제주도 고성오일시장",
+        "season": "봄",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": "우리들의 블루스",
+        "start_time": 40.25,
+        "end_time": 60.25,
+        "keyframe_path": "keyframes/V006_1r7a5mLNGRQ/V006_P011_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "cozy",
+            "romantic",
+            "serene"
+        ],
+        "scene_elements": [
+            "dining_table",
+            "chairs",
+            "flowers",
+            "wall",
+            "candles",
+            "vase",
+            "window",
+            "floor",
+            "wooden_furniture",
+            "decorative_items"
+        ],
+        "activity": [],
+        "description": "A dining room with a wooden table and chairs, decorated with flowers and candles, creating a cozy and romantic atmosphere."
+    },
+    {
+        "segment_id": "V006_P011_S001_SCENE_003",
+        "source_segment_id": "V006_P011_S001",
+        "video_id": "V006_1r7a5mLNGRQ",
+        "place_id": "P011",
+        "place_name": "제주도 고성오일시장",
+        "season": "봄",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": "우리들의 블루스",
+        "start_time": 61.0,
+        "end_time": 81.0,
+        "keyframe_path": "keyframes/V006_1r7a5mLNGRQ/V006_P011_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "active",
+            "outdoor",
+            "winter",
+            "sport"
+        ],
+        "scene_elements": [
+            "snow",
+            "ski boots",
+            "skier",
+            "skiing",
+            "ski resort",
+            "red rope",
+            "wooden post",
+            "snowboard"
+        ],
+        "activity": [
+            "skiing",
+            "walking",
+            "standing",
+            "moving"
+        ],
+        "description": "A skier is walking on a snowy slope, with a view of the snow-covered ground and a wooden post in the background."
+    },
+    {
+        "segment_id": "V006_P025_S001_SCENE_001",
+        "source_segment_id": "V006_P025_S001",
+        "video_id": "V006_Oeme18IdNzw",
+        "place_id": "P025",
+        "place_name": "제주도 청굴물",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": "우리들의 블루스",
+        "start_time": 0.0,
+        "end_time": 3.5,
+        "keyframe_path": "keyframes/V006_Oeme18IdNzw/V006_P025_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm",
+            "serene"
+        ],
+        "scene_elements": [
+            "sea",
+            "rock",
+            "pier",
+            "water",
+            "beach",
+            "stone",
+            "limestone",
+            "seaweed",
+            "sky",
+            "coastline"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A serene coastal scene featuring a stone pier and rocky shoreline with clear water. The sky is bright and the overall atmosphere is peaceful."
+    },
+    {
+        "segment_id": "V006_P025_S001_SCENE_002",
+        "source_segment_id": "V006_P025_S001",
+        "video_id": "V006_Oeme18IdNzw",
+        "place_id": "P025",
+        "place_name": "제주도 청굴물",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": "우리들의 블루스",
+        "start_time": 3.5,
+        "end_time": 6.0,
+        "keyframe_path": "keyframes/V006_Oeme18IdNzw/V006_P025_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "coastal"
+        ],
+        "scene_elements": [
+            "sea",
+            "rock",
+            "beach",
+            "stone pier",
+            "limestone",
+            "coastal path",
+            "ocean",
+            "sky",
+            "water",
+            "waves"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A coastal scene with a stone pier and rocky shoreline under an overcast sky."
+    },
+    {
+        "segment_id": "V006_P025_S001_SCENE_003",
+        "source_segment_id": "V006_P025_S001",
+        "video_id": "V006_Oeme18IdNzw",
+        "place_id": "P025",
+        "place_name": "제주도 청굴물",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": "우리들의 블루스",
+        "start_time": 6.0,
+        "end_time": 11.0,
+        "keyframe_path": "keyframes/V006_Oeme18IdNzw/V006_P025_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "coastal",
+            "peaceful",
+            "quiet"
+        ],
+        "scene_elements": [
+            "sea",
+            "stone_paved_path",
+            "mossy_stones",
+            "buildings",
+            "rock_wall",
+            "sea_water",
+            "dock"
+        ],
+        "activity": [],
+        "description": "A coastal scene with a stone path leading to a rocky shore, featuring buildings in the background under an overcast sky."
+    },
+    {
+        "segment_id": "V006_P026_S001_SCENE_001",
+        "source_segment_id": "V006_P026_S001",
+        "video_id": "V006_e6FvfWF4uVg",
+        "place_id": "P026",
+        "place_name": "제주도 태봉왓",
+        "season": "봄",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": "우리들의 블루스",
+        "start_time": 118.0,
+        "end_time": 153.0,
+        "keyframe_path": "keyframes/V006_e6FvfWF4uVg/V006_P026_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "bicycle",
+            "sign",
+            "rock",
+            "dirt",
+            "grass",
+            "building",
+            "sky",
+            "cloud"
+        ],
+        "activity": [
+            "standing",
+            "waiting"
+        ],
+        "description": "A bicycle is parked near a sign in a grassy, rocky area under a clear blue sky. The sign indicates a fee for entry and a time limit."
+    },
+    {
+        "segment_id": "V006_P026_S001_SCENE_002",
+        "source_segment_id": "V006_P026_S001",
+        "video_id": "V006_e6FvfWF4uVg",
+        "place_id": "P026",
+        "place_name": "제주도 태봉왓",
+        "season": "봄",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": "우리들의 블루스",
+        "start_time": 186.5,
+        "end_time": 221.5,
+        "keyframe_path": "keyframes/V006_e6FvfWF4uVg/V006_P026_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "natural",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "path",
+            "stone",
+            "dried grass",
+            "tree",
+            "circle arch",
+            "sky",
+            "bush",
+            "clear blue sky",
+            "natural landscape",
+            "tent"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A serene natural landscape featuring a circular arch on a dry path under a clear blue sky."
+    },
+    {
+        "segment_id": "V006_P026_S001_SCENE_003",
+        "source_segment_id": "V006_P026_S001",
+        "video_id": "V006_e6FvfWF4uVg",
+        "place_id": "P026",
+        "place_name": "제주도 태봉왓",
+        "season": "봄",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": "우리들의 블루스",
+        "start_time": 242.5,
+        "end_time": 277.5,
+        "keyframe_path": "keyframes/V006_e6FvfWF4uVg/V006_P026_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "house",
+            "porch",
+            "stairs",
+            "trees",
+            "sky",
+            "rock",
+            "flowers",
+            "gravel",
+            "garden",
+            "barn"
+        ],
+        "activity": [
+            "standing",
+            "waiting"
+        ],
+        "description": "A wooden house with a porch and stairs is shown on a sunny day, surrounded by rocks and flowers."
+    },
+    {
+        "segment_id": "V006_P027_S001_SCENE_001",
+        "source_segment_id": "V006_P027_S001",
+        "video_id": "V006_Lb3DGOdPafU",
+        "place_id": "P027",
+        "place_name": "금능리 대표 관광지",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": "우리들의 블루스",
+        "start_time": 0.0,
+        "end_time": 15.0,
+        "keyframe_path": "keyframes/V006_Lb3DGOdPafU/V006_P027_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "road",
+            "sea",
+            "island",
+            "sky",
+            "rocks",
+            "sign",
+            "tree",
+            "bush",
+            "wave",
+            "lighthouse"
+        ],
+        "activity": [
+            "driving"
+        ],
+        "description": "A scenic road leads to a distant island, with the sea and clear blue sky in the background."
+    },
+    {
+        "segment_id": "V006_P042_S001_SCENE_001",
+        "source_segment_id": "V006_P042_S001",
+        "video_id": "V006_7vU46xk0VeU",
+        "place_id": "P042",
+        "place_name": "쿠키 가파도",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "서귀포시",
+        "drama_title": "우리들의 블루스",
+        "start_time": 0.0,
+        "end_time": 13.0,
+        "keyframe_path": "keyframes/V006_7vU46xk0VeU/V006_P042_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "ocean",
+            "rock wall",
+            "grass",
+            "tree",
+            "sign",
+            "blue pole"
+        ],
+        "activity": [],
+        "description": "A serene coastal scene with a grassy hill, a rock wall, and an ocean view under a clear sky."
+    },
+    {
+        "segment_id": "V006_P043_S001_SCENE_001",
+        "source_segment_id": "V006_P043_S001",
+        "video_id": "V006_3EmLhiFVntw",
+        "place_id": "P043",
+        "place_name": "신촌 앞바다",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": "우리들의 블루스",
+        "start_time": 0.0,
+        "end_time": 21.0,
+        "keyframe_path": "keyframes/V006_3EmLhiFVntw/V006_P043_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "coastal"
+        ],
+        "scene_elements": [
+            "lava rocks",
+            "water",
+            "dock",
+            "clouds",
+            "buildings",
+            "trees",
+            "mountain",
+            "concrete",
+            "grass",
+            "sky"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A coastal scene with black lava rocks, a calm body of water, and a cloudy sky, with buildings and trees in the background."
+    },
+    {
+        "segment_id": "V008_P013_S002_SCENE_001",
+        "source_segment_id": "V008_P013_S002",
+        "video_id": "V008_vzS5MqlN-wU",
+        "place_id": "P013",
+        "place_name": "강릉 주문진",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "강릉시",
+        "drama_title": "도깨비",
+        "start_time": 0.0,
+        "end_time": 2.75,
+        "keyframe_path": "keyframes/V008_vzS5MqlN-wU/V008_P013_S002_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "sea",
+            "jacket",
+            "wave",
+            "dock",
+            "sign",
+            "beach",
+            "people",
+            "stone wall",
+            "sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A couple walks along a rocky pier on a sunny day, with waves crashing against the shore."
+    },
+    {
+        "segment_id": "V008_P013_S002_SCENE_002",
+        "source_segment_id": "V008_P013_S002",
+        "video_id": "V008_vzS5MqlN-wU",
+        "place_id": "P013",
+        "place_name": "강릉 주문진",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "강릉시",
+        "drama_title": "도깨비",
+        "start_time": 2.75,
+        "end_time": 4.75,
+        "keyframe_path": "keyframes/V008_vzS5MqlN-wU/V008_P013_S002_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "powerful"
+        ],
+        "scene_elements": [
+            "ocean",
+            "wave",
+            "rock",
+            "pier",
+            "sky",
+            "blue"
+        ],
+        "activity": [
+            "waving"
+        ],
+        "description": "A powerful wave crashes against a rocky pier under a clear blue sky."
+    },
+    {
+        "segment_id": "V008_P013_S002_SCENE_003",
+        "source_segment_id": "V008_P013_S002",
+        "video_id": "V008_vzS5MqlN-wU",
+        "place_id": "P013",
+        "place_name": "강릉 주문진",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "강릉시",
+        "drama_title": "도깨비",
+        "start_time": 4.75,
+        "end_time": 6.75,
+        "keyframe_path": "keyframes/V008_vzS5MqlN-wU/V008_P013_S002_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "ocean",
+            "wave",
+            "pier",
+            "sky",
+            "person",
+            "clothing",
+            "beach",
+            "stone wall",
+            "concrete path",
+            "cloud"
+        ],
+        "activity": [
+            "standing",
+            "posing",
+            "looking at the ocean"
+        ],
+        "description": "A person stands on a concrete pier by the ocean, looking out at the waves under a clear blue sky."
+    },
+    {
+        "segment_id": "V008_P013_S002_SCENE_004",
+        "source_segment_id": "V008_P013_S002",
+        "video_id": "V008_vzS5MqlN-wU",
+        "place_id": "P013",
+        "place_name": "강릉 주문진",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "강릉시",
+        "drama_title": "도깨비",
+        "start_time": 6.75,
+        "end_time": 8.75,
+        "keyframe_path": "keyframes/V008_vzS5MqlN-wU/V008_P013_S002_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "ocean",
+            "pier",
+            "sky",
+            "waves",
+            "stone wall",
+            "person"
+        ],
+        "activity": [
+            "standing",
+            "posing"
+        ],
+        "description": "A person is posing on a concrete pier by the ocean under a clear blue sky."
+    },
+    {
+        "segment_id": "V008_P013_S002_SCENE_005",
+        "source_segment_id": "V008_P013_S002",
+        "video_id": "V008_vzS5MqlN-wU",
+        "place_id": "P013",
+        "place_name": "강릉 주문진",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "강릉시",
+        "drama_title": "도깨비",
+        "start_time": 8.75,
+        "end_time": 11.0,
+        "keyframe_path": "keyframes/V008_vzS5MqlN-wU/V008_P013_S002_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "ocean",
+            "waves",
+            "sky",
+            "sunlight",
+            "seafoam"
+        ],
+        "activity": [
+            "surfing",
+            "waving",
+            "breaking"
+        ],
+        "description": "A serene ocean scene with waves breaking near the shore under a clear blue sky."
+    },
+    {
+        "segment_id": "V008_P013_S002_SCENE_006",
+        "source_segment_id": "V008_P013_S002",
+        "video_id": "V008_vzS5MqlN-wU",
+        "place_id": "P013",
+        "place_name": "강릉 주문진",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "강릉시",
+        "drama_title": "도깨비",
+        "start_time": 11.0,
+        "end_time": 13.0,
+        "keyframe_path": "keyframes/V008_vzS5MqlN-wU/V008_P013_S002_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "sea",
+            "pier",
+            "rocks",
+            "sky",
+            "water"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A serene view of a concrete pier leading to the sea, with calm waters and a clear sky."
+    },
+    {
+        "segment_id": "V008_P013_S002_SCENE_007",
+        "source_segment_id": "V008_P013_S002",
+        "video_id": "V008_vzS5MqlN-wU",
+        "place_id": "P013",
+        "place_name": "강릉 주문진",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "강릉시",
+        "drama_title": "도깨비",
+        "start_time": 13.0,
+        "end_time": 18.0,
+        "keyframe_path": "keyframes/V008_vzS5MqlN-wU/V008_P013_S002_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "ocean",
+            "rock jetty",
+            "waves",
+            "pavement",
+            "sky"
+        ],
+        "activity": [
+            "waving"
+        ],
+        "description": "A serene coastal scene with waves crashing against a stone jetty, captured during the day."
+    },
+    {
+        "segment_id": "V008_P014_S001_SCENE_001",
+        "source_segment_id": "V008_P014_S001",
+        "video_id": "V008_2jiJ9CCzclg",
+        "place_id": "P014",
+        "place_name": "평창 월정사",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "평창군",
+        "drama_title": "도깨비",
+        "start_time": 0.0,
+        "end_time": 11.5,
+        "keyframe_path": "keyframes/V008_2jiJ9CCzclg/V008_P014_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "snowy",
+            "peaceful",
+            "calm",
+            "winter",
+            "serene"
+        ],
+        "scene_elements": [
+            "snow",
+            "bridge",
+            "trees",
+            "road",
+            "signs",
+            "person",
+            "hanok"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A snowy bridge in a forest with people walking on the path, surrounded by snow-covered trees."
+    },
+    {
+        "segment_id": "V008_P014_S001_SCENE_002",
+        "source_segment_id": "V008_P014_S001",
+        "video_id": "V008_2jiJ9CCzclg",
+        "place_id": "P014",
+        "place_name": "평창 월정사",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "평창군",
+        "drama_title": "도깨비",
+        "start_time": 11.5,
+        "end_time": 16.75,
+        "keyframe_path": "keyframes/V008_2jiJ9CCzclg/V008_P014_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "wintery",
+            "serene"
+        ],
+        "scene_elements": [
+            "bridge",
+            "snow",
+            "trees",
+            "road sign",
+            "hanok"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A snowy bridge with two people walking in a quiet, wintry forest."
+    },
+    {
+        "segment_id": "V008_P014_S001_SCENE_003",
+        "source_segment_id": "V008_P014_S001",
+        "video_id": "V008_2jiJ9CCzclg",
+        "place_id": "P014",
+        "place_name": "평창 월정사",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "평창군",
+        "drama_title": "도깨비",
+        "start_time": 16.75,
+        "end_time": 22.5,
+        "keyframe_path": "keyframes/V008_2jiJ9CCzclg/V008_P014_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "snow",
+            "tree",
+            "coat",
+            "scarf",
+            "man"
+        ],
+        "activity": [
+            "standing",
+            "looking"
+        ],
+        "description": "A man stands in a snowy landscape, wearing a dark coat and a white scarf, with a calm and peaceful expression."
+    },
+    {
+        "segment_id": "V008_P014_S001_SCENE_004",
+        "source_segment_id": "V008_P014_S001",
+        "video_id": "V008_2jiJ9CCzclg",
+        "place_id": "P014",
+        "place_name": "평창 월정사",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "평창군",
+        "drama_title": "도깨비",
+        "start_time": 22.5,
+        "end_time": 28.0,
+        "keyframe_path": "keyframes/V008_2jiJ9CCzclg/V008_P014_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "wintery"
+        ],
+        "scene_elements": [
+            "bridge",
+            "snow",
+            "trees",
+            "road",
+            "sign",
+            "person"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A couple is walking on a snow-covered bridge in a winter landscape, with a speed limit sign and trees covered in snow."
+    },
+    {
+        "segment_id": "V008_P014_S002_SCENE_001",
+        "source_segment_id": "V008_P014_S002",
+        "video_id": "V008_89CfEae8uRI",
+        "place_id": "P014",
+        "place_name": "평창 월정사",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "평창군",
+        "drama_title": "도깨비",
+        "start_time": 0.0,
+        "end_time": 35.0,
+        "keyframe_path": "keyframes/V008_89CfEae8uRI/V008_P014_S002_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "snow",
+            "path",
+            "trees",
+            "people",
+            "forest",
+            "sunlight"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A snowy forest path with people walking, illuminated by sunlight. The scene is peaceful and serene."
+    },
+    {
+        "segment_id": "V008_P014_S002_SCENE_002",
+        "source_segment_id": "V008_P014_S002",
+        "video_id": "V008_89CfEae8uRI",
+        "place_id": "P014",
+        "place_name": "평창 월정사",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "평창군",
+        "drama_title": "도깨비",
+        "start_time": 52.5,
+        "end_time": 87.5,
+        "keyframe_path": "keyframes/V008_89CfEae8uRI/V008_P014_S002_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "tree",
+            "wood",
+            "forest",
+            "sky",
+            "snow",
+            "bark",
+            "tree trunk",
+            "leafless tree",
+            "coniferous tree"
+        ],
+        "activity": [
+            "standing",
+            "looking"
+        ],
+        "description": "A low-angle shot of two large, weathered tree trunks in a forest, with snow on the ground and bare trees in the background. The scene is peaceful and serene."
+    },
+    {
+        "segment_id": "V008_P014_S002_SCENE_003",
+        "source_segment_id": "V008_P014_S002",
+        "video_id": "V008_89CfEae8uRI",
+        "place_id": "P014",
+        "place_name": "평창 월정사",
+        "season": "겨울",
+        "region": "강원특별자치도",
+        "city": "평창군",
+        "drama_title": "도깨비",
+        "start_time": 100.5,
+        "end_time": 135.5,
+        "keyframe_path": "keyframes/V008_89CfEae8uRI/V008_P014_S002_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "tree",
+            "snow",
+            "balloons",
+            "people",
+            "building",
+            "garden",
+            "sky",
+            "clouds"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "children_playing"
+        ],
+        "description": "A traditional Korean courtyard with snow on the ground, a tree adorned with colorful balloons, and people walking and enjoying the peaceful atmosphere."
+    },
+    {
+        "segment_id": "V008_P044_S001_SCENE_001",
+        "source_segment_id": "V008_P044_S001",
+        "video_id": "V008_oWyqws_5cbs",
+        "place_id": "P044",
+        "place_name": "주문진 방파제",
+        "season": "봄",
+        "region": "강원특별자치도",
+        "city": "강릉시",
+        "drama_title": "도깨비",
+        "start_time": 0.0,
+        "end_time": 2.75,
+        "keyframe_path": "keyframes/V008_oWyqws_5cbs/V008_P044_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "sunny"
+        ],
+        "scene_elements": [
+            "sea",
+            "bus_stop",
+            "signboard",
+            "rocks",
+            "sea wall",
+            "beach",
+            "sky",
+            "lighthouse",
+            "sea bus",
+            "coastline"
+        ],
+        "activity": [
+            "standing",
+            "waiting"
+        ],
+        "description": "A sunny day at a coastal bus stop with a clear blue sky, featuring a red bus sign and a scenic view of the sea and a distant lighthouse."
+    },
+    {
+        "segment_id": "V008_P044_S001_SCENE_002",
+        "source_segment_id": "V008_P044_S001",
+        "video_id": "V008_oWyqws_5cbs",
+        "place_id": "P044",
+        "place_name": "주문진 방파제",
+        "season": "봄",
+        "region": "강원특별자치도",
+        "city": "강릉시",
+        "drama_title": "도깨비",
+        "start_time": 2.75,
+        "end_time": 4.5,
+        "keyframe_path": "keyframes/V008_oWyqws_5cbs/V008_P044_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "sign",
+            "sea",
+            "beach",
+            "rock",
+            "sky",
+            "person",
+            "tvn"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A sign for the TV series 'The One' is displayed on a beach, with a couple standing on the shore overlooking the sea. The scene is bright and sunny, with a calm and peaceful atmosphere."
+    },
+    {
+        "segment_id": "V008_P044_S001_SCENE_003",
+        "source_segment_id": "V008_P044_S001",
+        "video_id": "V008_oWyqws_5cbs",
+        "place_id": "P044",
+        "place_name": "주문진 방파제",
+        "season": "봄",
+        "region": "강원특별자치도",
+        "city": "강릉시",
+        "drama_title": "도깨비",
+        "start_time": 4.5,
+        "end_time": 11.5,
+        "keyframe_path": "keyframes/V008_oWyqws_5cbs/V008_P044_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "romantic",
+            "serene"
+        ],
+        "scene_elements": [
+            "sea",
+            "beach",
+            "sign",
+            "people",
+            "postcard",
+            "sky"
+        ],
+        "activity": [
+            "standing",
+            "looking",
+            "fishing"
+        ],
+        "description": "A sign with a TVN drama poster is placed on a beach, showing two people standing by the sea. The scene is bright and sunny, with a calm and romantic atmosphere."
+    },
+    {
+        "segment_id": "V008_P044_S001_SCENE_004",
+        "source_segment_id": "V008_P044_S001",
+        "video_id": "V008_oWyqws_5cbs",
+        "place_id": "P044",
+        "place_name": "주문진 방파제",
+        "season": "봄",
+        "region": "강원특별자치도",
+        "city": "강릉시",
+        "drama_title": "도깨비",
+        "start_time": 11.5,
+        "end_time": 13.0,
+        "keyframe_path": "keyframes/V008_oWyqws_5cbs/V008_P044_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "ocean",
+            "waves",
+            "rocks",
+            "beach",
+            "buildings",
+            "sky"
+        ],
+        "activity": [
+            "waving"
+        ],
+        "description": "A coastal scene with waves crashing against rocks, under a clear blue sky."
+    },
+    {
+        "segment_id": "V009_P015_S001_SCENE_001",
+        "source_segment_id": "V009_P015_S001",
+        "video_id": "V009_7ir6-MekfHU",
+        "place_id": "P015",
+        "place_name": "망상해변",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "동해시",
+        "drama_title": "호텔 델루나",
+        "start_time": 0.0,
+        "end_time": 4.75,
+        "keyframe_path": "keyframes/V009_7ir6-MekfHU/V009_P015_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "cozy",
+            "calm",
+            "sunny"
+        ],
+        "scene_elements": [
+            "surfboard_signs",
+            "trees",
+            "gravel",
+            "red_postbox",
+            "surfboard",
+            "metallic_railing"
+        ],
+        "activity": [
+            "standing",
+            "looking"
+        ],
+        "description": "A surfboard signpost in a park with various destinations and distances, surrounded by trees and a red postbox under bright sunlight."
+    },
+    {
+        "segment_id": "V009_P015_S001_SCENE_002",
+        "source_segment_id": "V009_P015_S001",
+        "video_id": "V009_7ir6-MekfHU",
+        "place_id": "P015",
+        "place_name": "망상해변",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "동해시",
+        "drama_title": "호텔 델루나",
+        "start_time": 4.75,
+        "end_time": 6.75,
+        "keyframe_path": "keyframes/V009_7ir6-MekfHU/V009_P015_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "cozy",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "surfboard_signs",
+            "pine_trees",
+            "red_postbox",
+            "gravel_path",
+            "white_fence",
+            "building"
+        ],
+        "activity": [
+            "standing",
+            "looking"
+        ],
+        "description": "A surfboard signpost in a park with various destinations, surrounded by pine trees and a red postbox."
+    },
+    {
+        "segment_id": "V009_P015_S001_SCENE_003",
+        "source_segment_id": "V009_P015_S001",
+        "video_id": "V009_7ir6-MekfHU",
+        "place_id": "P015",
+        "place_name": "망상해변",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "동해시",
+        "drama_title": "호텔 델루나",
+        "start_time": 6.75,
+        "end_time": 8.75,
+        "keyframe_path": "keyframes/V009_7ir6-MekfHU/V009_P015_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "fun",
+            "excited",
+            "lively"
+        ],
+        "scene_elements": [
+            "fairground",
+            "game stall",
+            "balloons",
+            "balloon popper",
+            "men",
+            "clothing",
+            "hat",
+            "backpack",
+            "green carpet",
+            "sky"
+        ],
+        "activity": [
+            "playing game",
+            "waiting",
+            "standing"
+        ],
+        "description": "A group of men are standing at a game stall in a fairground, participating in a balloon popping game. The scene is bright and lively under a clear blue sky."
+    },
+    {
+        "segment_id": "V009_P015_S001_SCENE_004",
+        "source_segment_id": "V009_P015_S001",
+        "video_id": "V009_7ir6-MekfHU",
+        "place_id": "P015",
+        "place_name": "망상해변",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "동해시",
+        "drama_title": "호텔 델루나",
+        "start_time": 8.75,
+        "end_time": 10.0,
+        "keyframe_path": "keyframes/V009_7ir6-MekfHU/V009_P015_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "sunny",
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "beach",
+            "wooden_deck",
+            "large_letters",
+            "sea",
+            "sky",
+            "sand",
+            "signs"
+        ],
+        "activity": [
+            "standing",
+            "photographing"
+        ],
+        "description": "A sunny day at a beach with colorful letters spelling 'MANGSTG' on a wooden deck, under a clear blue sky."
+    },
+    {
+        "segment_id": "V009_P015_S001_SCENE_005",
+        "source_segment_id": "V009_P015_S001",
+        "video_id": "V009_7ir6-MekfHU",
+        "place_id": "P015",
+        "place_name": "망상해변",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "동해시",
+        "drama_title": "호텔 델루나",
+        "start_time": 10.0,
+        "end_time": 11.25,
+        "keyframe_path": "keyframes/V009_7ir6-MekfHU/V009_P015_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "sunny",
+            "calm",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "beach",
+            "wooden_deck",
+            "large_letters",
+            "ocean",
+            "sky",
+            "sea",
+            "sand",
+            "signs"
+        ],
+        "activity": [
+            "standing",
+            "photographing"
+        ],
+        "description": "A sunny day at a colorful beach sign on a wooden deck, with the ocean and sky in the background."
+    },
+    {
+        "segment_id": "V009_P015_S001_SCENE_006",
+        "source_segment_id": "V009_P015_S001",
+        "video_id": "V009_7ir6-MekfHU",
+        "place_id": "P015",
+        "place_name": "망상해변",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "동해시",
+        "drama_title": "호텔 델루나",
+        "start_time": 11.25,
+        "end_time": 16.5,
+        "keyframe_path": "keyframes/V009_7ir6-MekfHU/V009_P015_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "sunny",
+            "calm",
+            "relaxing"
+        ],
+        "scene_elements": [
+            "beach",
+            "sea",
+            "red frame",
+            "white wooden structure",
+            "people",
+            "sky",
+            "sun"
+        ],
+        "activity": [
+            "standing",
+            "sitting",
+            "walking"
+        ],
+        "description": "A red frame sculpture on a sunny beach with people relaxing on the sand and the sea in the background."
+    },
+    {
+        "segment_id": "V009_P015_S001_SCENE_007",
+        "source_segment_id": "V009_P015_S001",
+        "video_id": "V009_7ir6-MekfHU",
+        "place_id": "P015",
+        "place_name": "망상해변",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "동해시",
+        "drama_title": "호텔 델루나",
+        "start_time": 16.5,
+        "end_time": 20.5,
+        "keyframe_path": "keyframes/V009_7ir6-MekfHU/V009_P015_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "ocean",
+            "sky",
+            "waves",
+            "sand"
+        ],
+        "activity": [],
+        "description": "A serene beach scene with gentle waves rolling onto the shore under a clear blue sky."
+    },
+    {
+        "segment_id": "V009_P015_S001_SCENE_008",
+        "source_segment_id": "V009_P015_S001",
+        "video_id": "V009_7ir6-MekfHU",
+        "place_id": "P015",
+        "place_name": "망상해변",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "동해시",
+        "drama_title": "호텔 델루나",
+        "start_time": 20.5,
+        "end_time": 23.5,
+        "keyframe_path": "keyframes/V009_7ir6-MekfHU/V009_P015_S001_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "playful",
+            "joyful"
+        ],
+        "scene_elements": [
+            "ocean",
+            "beach",
+            "inflatable ring",
+            "person",
+            "waves",
+            "sand",
+            "sky"
+        ],
+        "activity": [
+            "wading",
+            "swimming",
+            "playing"
+        ],
+        "description": "A blue inflatable ring lies on the wet sand near the ocean waves, with a child playing in the water in the background."
+    },
+    {
+        "segment_id": "V009_P015_S001_SCENE_009",
+        "source_segment_id": "V009_P015_S001",
+        "video_id": "V009_7ir6-MekfHU",
+        "place_id": "P015",
+        "place_name": "망상해변",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "동해시",
+        "drama_title": "호텔 델루나",
+        "start_time": 23.5,
+        "end_time": 26.5,
+        "keyframe_path": "keyframes/V009_7ir6-MekfHU/V009_P015_S001_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "path",
+            "trees",
+            "grass",
+            "mountains",
+            "sky",
+            "fence",
+            "pine_trees"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A stone path winds through a forested area with pine trees, leading to a distant mountain range under a clear blue sky."
+    },
+    {
+        "segment_id": "V009_P015_S001_SCENE_010",
+        "source_segment_id": "V009_P015_S001",
+        "video_id": "V009_7ir6-MekfHU",
+        "place_id": "P015",
+        "place_name": "망상해변",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "동해시",
+        "drama_title": "호텔 델루나",
+        "start_time": 26.5,
+        "end_time": 30.5,
+        "keyframe_path": "keyframes/V009_7ir6-MekfHU/V009_P015_S001_SCENE_010.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "natural"
+        ],
+        "scene_elements": [
+            "grass",
+            "trees",
+            "piano",
+            "playground",
+            "garden",
+            "summer",
+            "fence",
+            "bench",
+            "cactus"
+        ],
+        "activity": [
+            "standing",
+            "sitting",
+            "playing"
+        ],
+        "description": "A sunny day at a park with a grassy area, trees, a piano, and a playground. The scene is peaceful and natural."
+    },
+    {
+        "segment_id": "V009_P015_S001_SCENE_011",
+        "source_segment_id": "V009_P015_S001",
+        "video_id": "V009_7ir6-MekfHU",
+        "place_id": "P015",
+        "place_name": "망상해변",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "동해시",
+        "drama_title": "호텔 델루나",
+        "start_time": 30.5,
+        "end_time": 32.5,
+        "keyframe_path": "keyframes/V009_7ir6-MekfHU/V009_P015_S001_SCENE_011.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "direction sign",
+            "trees",
+            "building",
+            "grass",
+            "pines",
+            "sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A directional signpost in a park with trees and a building in the background, indicating directions to various locations."
+    },
+    {
+        "segment_id": "V009_P015_S001_SCENE_012",
+        "source_segment_id": "V009_P015_S001",
+        "video_id": "V009_7ir6-MekfHU",
+        "place_id": "P015",
+        "place_name": "망상해변",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "동해시",
+        "drama_title": "호텔 델루나",
+        "start_time": 32.5,
+        "end_time": 37.5,
+        "keyframe_path": "keyframes/V009_7ir6-MekfHU/V009_P015_S001_SCENE_012.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "happy",
+            "colorful",
+            "sunny"
+        ],
+        "scene_elements": [
+            "tree",
+            "colorful_letters",
+            "blue_tile_pavement",
+            "black_suv",
+            "black_car",
+            "parking_lot",
+            "building",
+            "sky"
+        ],
+        "activity": [
+            "standing",
+            "waiting"
+        ],
+        "description": "A colorful sign with Korean letters is displayed on a blue tiled ground under a tree on a sunny day. Two black SUVs are parked nearby."
+    },
+    {
+        "segment_id": "V009_P015_S001_SCENE_013",
+        "source_segment_id": "V009_P015_S001",
+        "video_id": "V009_7ir6-MekfHU",
+        "place_id": "P015",
+        "place_name": "망상해변",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "동해시",
+        "drama_title": "호텔 델루나",
+        "start_time": 37.5,
+        "end_time": 41.5,
+        "keyframe_path": "keyframes/V009_7ir6-MekfHU/V009_P015_S001_SCENE_013.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "vibrant",
+            "fun",
+            "colorful",
+            "playful"
+        ],
+        "scene_elements": [
+            "surfboards",
+            "trees",
+            "sky",
+            "gravel",
+            "metal rack",
+            "fence",
+            "surfboard",
+            "fish",
+            "hawaii",
+            "tropical"
+        ],
+        "activity": [],
+        "description": "A row of colorful, hand-painted surfboards stands in a sunny outdoor setting, surrounded by trees and a gravel ground."
+    },
+    {
+        "segment_id": "V009_P015_S001_SCENE_014",
+        "source_segment_id": "V009_P015_S001",
+        "video_id": "V009_7ir6-MekfHU",
+        "place_id": "P015",
+        "place_name": "망상해변",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "동해시",
+        "drama_title": "호텔 델루나",
+        "start_time": 41.5,
+        "end_time": 44.0,
+        "keyframe_path": "keyframes/V009_7ir6-MekfHU/V009_P015_S001_SCENE_014.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "beach",
+            "sea",
+            "sand",
+            "waves",
+            "sky"
+        ],
+        "activity": [
+            "standing"
+        ],
+        "description": "A serene beach scene with gentle waves and a clear sky, capturing a peaceful moment."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_001",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 0.0,
+        "end_time": 2.0,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_001.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "fun",
+            "magic",
+            "festive"
+        ],
+        "scene_elements": [
+            "carousel",
+            "lighting",
+            "stripes",
+            "moon",
+            "tree",
+            "building",
+            "stars",
+            "paradise"
+        ],
+        "activity": [
+            "standing",
+            "waiting",
+            "looking"
+        ],
+        "description": "A night scene at a themed amusement park featuring a carousel, illuminated by colorful lights and a large moon, with a magical atmosphere."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_002",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 2.0,
+        "end_time": 3.5,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_002.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "magical",
+            "dreamy",
+            "fairy_tale"
+        ],
+        "scene_elements": [
+            "large pumpkin",
+            "moon",
+            "clouds",
+            "circular staircase",
+            "purple lighting",
+            "text"
+        ],
+        "activity": [],
+        "description": "A large, golden pumpkin sculpture with black dots is displayed in a circular, purple-lit space, creating a magical and dreamy atmosphere. The text on the image indicates it is a promotional video for a drama titled 'Hotel Del Luna'."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_003",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 3.5,
+        "end_time": 7.5,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "building",
+            "trees",
+            "potted_plants",
+            "grass",
+            "lawn",
+            "streetlight",
+            "sky"
+        ],
+        "activity": [
+            "standing"
+        ],
+        "description": "A serene outdoor scene of a modern building with lush greenery and a clear blue sky. A person is standing in front of the building."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_004",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 7.5,
+        "end_time": 10.25,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_004.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "luxury",
+            "modern",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "rotating door",
+            "glass",
+            "lighting",
+            "building",
+            "ceiling",
+            "fountain",
+            "chandelier"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A modern, luxurious hotel lobby with a rotating glass door, illuminated by warm lights and a fountain in the background."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_005",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 10.25,
+        "end_time": 13.25,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "luxurious",
+            "grand",
+            "sophisticated"
+        ],
+        "scene_elements": [
+            "statue",
+            "golden",
+            "winged horse",
+            "chandelier",
+            "ceiling",
+            "hotel",
+            "lobby"
+        ],
+        "activity": [],
+        "description": "A golden winged horse statue is displayed in a luxurious hotel lobby, illuminated by warm lighting and chandeliers."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_006",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 13.25,
+        "end_time": 20.0,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "amazing",
+            "wonderful",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "pumpkin",
+            "art",
+            "man",
+            "hotel",
+            "staircase",
+            "balcony",
+            "lighting",
+            "floor"
+        ],
+        "activity": [
+            "looking",
+            "staring"
+        ],
+        "description": "A man is looking at a large, yellow pumpkin sculpture with black dots inside a modern hotel lobby. The scene is well-lit and appears to be during the day."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_007",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 20.0,
+        "end_time": 23.5,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "luxurious",
+            "modern",
+            "grand"
+        ],
+        "scene_elements": [
+            "hotel lobby",
+            "sculpture",
+            "rotating door",
+            "golden sculpture",
+            "gold pedestal",
+            "white columns",
+            "black glass doors",
+            "yellow and black patterned sculpture",
+            "person"
+        ],
+        "activity": [
+            "standing",
+            "walking"
+        ],
+        "description": "A luxurious hotel lobby featuring a large golden sculpture of a winged creature, with a person walking in the background."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_008",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 23.5,
+        "end_time": 26.5,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "dreamy",
+            "pastel",
+            "calm"
+        ],
+        "scene_elements": [
+            "building",
+            "cinerama",
+            "sky",
+            "stars",
+            "clouds",
+            "glass",
+            "lighting"
+        ],
+        "activity": [],
+        "description": "A modern building with a large 'cinerama' sign, featuring a pastel purple and blue color scheme and a starry sky above."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_009",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 26.5,
+        "end_time": 28.5,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "serene",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "pool",
+            "sun loungers",
+            "stairs",
+            "wall",
+            "light fixtures",
+            "ceiling",
+            "floor"
+        ],
+        "activity": [
+            "resting",
+            "sitting"
+        ],
+        "description": "A row of white sun loungers by a pool in a modern, well-lit indoor space."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_010",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 28.5,
+        "end_time": 30.5,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_010.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "relaxing",
+            "clean",
+            "modern",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "pool",
+            "lounge chairs",
+            "glass roof",
+            "building",
+            "balcony",
+            "decorative wall",
+            "poolside",
+            "water",
+            "sky",
+            "light"
+        ],
+        "activity": [
+            "resting",
+            "swimming",
+            "sunbathing"
+        ],
+        "description": "A modern indoor pool with lounge chairs and a glass roof, featuring a calm and relaxing atmosphere."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_011",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 30.5,
+        "end_time": 33.25,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_011.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "relaxing",
+            "sunny"
+        ],
+        "scene_elements": [
+            "pool",
+            "lounge chairs",
+            "umbrellas",
+            "building",
+            "glass windows",
+            "poolside",
+            "sunlight",
+            "reflection"
+        ],
+        "activity": [
+            "resting",
+            "sunbathing"
+        ],
+        "description": "A serene poolside scene with lounge chairs and umbrellas, capturing a relaxing day at a modern resort."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_012",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 33.25,
+        "end_time": 35.25,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_012.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "pool",
+            "sunbeds",
+            "umbrellas",
+            "building",
+            "glass doors",
+            "ladder",
+            "floating object"
+        ],
+        "activity": [
+            "resting",
+            "sunbathing"
+        ],
+        "description": "A serene poolside scene with sunbeds and umbrellas, reflecting a calm and peaceful atmosphere."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_013",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 35.25,
+        "end_time": 37.5,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_013.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "fun",
+            "magical",
+            "festive"
+        ],
+        "scene_elements": [
+            "slide",
+            "lighting",
+            "tree",
+            "fairy_tale",
+            "fairy_tale_theme",
+            "moon",
+            "paradise"
+        ],
+        "activity": [
+            "walking",
+            "playing"
+        ],
+        "description": "A night-time scene at a magical, fairy-tale themed amusement park with colorful lights and slides. A person is walking through the area, enjoying the festive atmosphere."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_014",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 37.5,
+        "end_time": 39.0,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_014.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "fun",
+            "magical",
+            "colorful"
+        ],
+        "scene_elements": [
+            "slide",
+            "giant_tree",
+            "lighting",
+            "cabin",
+            "slide_track",
+            "bubble",
+            "moon"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A nighttime scene at a colorful amusement park with a slide and a giant tree, featuring a magical atmosphere."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_015",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 39.0,
+        "end_time": 42.0,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_015.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "fun",
+            "magical",
+            "festive"
+        ],
+        "scene_elements": [
+            "carousel",
+            "lights",
+            "decorations",
+            "night sky"
+        ],
+        "activity": [
+            "rotating",
+            "people on carousel"
+        ],
+        "description": "A brightly lit carousel at night, with people enjoying the ride. The scene is filled with vibrant lights and festive decorations."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_016",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 42.0,
+        "end_time": 44.5,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_016.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "festive",
+            "joyful",
+            "magical"
+        ],
+        "scene_elements": [
+            "carousel",
+            "lighting",
+            "ornate structure",
+            "horse figures",
+            "circular windows",
+            "decorative elements",
+            "dark sky"
+        ],
+        "activity": [
+            "rotating",
+            "illuminated"
+        ],
+        "description": "A brightly lit carousel at night, showcasing its ornate design and vibrant lights."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_017",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 44.5,
+        "end_time": 46.25,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_017.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "fun",
+            "exciting",
+            "colorful"
+        ],
+        "scene_elements": [
+            "ferris_wheel",
+            "gondola",
+            "lighting",
+            "purple_light",
+            "red_light",
+            "yellow_gondola",
+            "metal_frame",
+            "text"
+        ],
+        "activity": [
+            "operating",
+            "moving"
+        ],
+        "description": "A ferris wheel at night with colorful lights and a gondola in motion. The text on the image indicates it is a theme park ride."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_018",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 46.25,
+        "end_time": 47.5,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_018.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "luxury",
+            "magical",
+            "dreamy",
+            "fairy_tale",
+            "elegant"
+        ],
+        "scene_elements": [
+            "rotating_door",
+            "golden_pegasus_statue",
+            "golden_sculpture",
+            "purple_light",
+            "white_columns",
+            "balloon_like_clouds",
+            "dotted_orange_arc",
+            "glass_floors",
+            "shiny_floor",
+            "shiny_walls"
+        ],
+        "activity": [
+            "standing",
+            "watching",
+            "staring"
+        ],
+        "description": "A luxurious and magical indoor scene featuring a golden pegasus statue in a purple-lit hall, with a large orange and black sculpture in the foreground."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_019",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 47.5,
+        "end_time": 48.5,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_019.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "luxurious",
+            "magical",
+            "dreamy"
+        ],
+        "scene_elements": [
+            "statue",
+            "rotating_door",
+            "pillar",
+            "clouds",
+            "sparkles",
+            "golden winged statue",
+            "golden patterned object"
+        ],
+        "activity": [
+            "standing",
+            "waiting"
+        ],
+        "description": "A luxurious and magical scene featuring a golden winged statue in a modern building, with a glowing and dreamy atmosphere."
+    },
+    {
+        "segment_id": "V009_P022_S001_SCENE_020",
+        "source_segment_id": "V009_P022_S001",
+        "video_id": "V009_ju15D1xTvVU",
+        "place_id": "P022",
+        "place_name": "파라다이스시티",
+        "season": "여름",
+        "region": "인천광역시",
+        "city": "인천광역시",
+        "drama_title": "호텔 델루나",
+        "start_time": 48.5,
+        "end_time": 50.0,
+        "keyframe_path": "keyframes/V009_ju15D1xTvVU/V009_P022_S001_SCENE_020.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "calm",
+            "peaceful",
+            "dreamy",
+            "luxurious",
+            "serene"
+        ],
+        "scene_elements": [
+            "pool",
+            "lounge chairs",
+            "umbrellas",
+            "building",
+            "glass windows",
+            "moon",
+            "clouds",
+            "stars",
+            "lighting",
+            "reflection"
+        ],
+        "activity": [
+            "resting",
+            "swimming",
+            "relaxing"
+        ],
+        "description": "A serene night scene at a luxurious resort pool with lounge chairs and a calm atmosphere, featuring a moon and stars in the sky."
+    },
+    {
+        "segment_id": "V009_P015_S002_SCENE_001",
+        "source_segment_id": "V009_P015_S002",
+        "video_id": "V009_Uiu32MwpDjU",
+        "place_id": "P015",
+        "place_name": "망상해변",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "동해시",
+        "drama_title": "호텔 델루나",
+        "start_time": 0.0,
+        "end_time": 1.0,
+        "keyframe_path": "keyframes/V009_Uiu32MwpDjU/V009_P015_S002_SCENE_001.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "calm",
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "beach",
+            "sun",
+            "umbrellas",
+            "seashore",
+            "sand",
+            "sky",
+            "clouds",
+            "lifeguard station"
+        ],
+        "activity": [
+            "standing",
+            "waiting"
+        ],
+        "description": "A serene beach scene at sunset with a line of umbrellas and a lifeguard station, capturing the calm and peaceful atmosphere of the evening."
+    },
+    {
+        "segment_id": "V009_P015_S002_SCENE_002",
+        "source_segment_id": "V009_P015_S002",
+        "video_id": "V009_Uiu32MwpDjU",
+        "place_id": "P015",
+        "place_name": "망상해변",
+        "season": "여름",
+        "region": "강원특별자치도",
+        "city": "동해시",
+        "drama_title": "호텔 델루나",
+        "start_time": 1.0,
+        "end_time": 2.75,
+        "keyframe_path": "keyframes/V009_Uiu32MwpDjU/V009_P015_S002_SCENE_002.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "beach",
+            "sun",
+            "umbrellas",
+            "seashore",
+            "sand",
+            "sky",
+            "sea",
+            "lifeguard station"
+        ],
+        "activity": [
+            "resting",
+            "waiting"
+        ],
+        "description": "A serene beach scene at sunset with rows of umbrellas and a lifeguard station, evoking a calm and relaxing atmosphere."
+    }
+]
