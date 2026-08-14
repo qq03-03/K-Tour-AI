@@ -1,0 +1,1132 @@
+[
+    {
+        "segment_id": "V061_P082_S001_SCENE_001",
+        "source_segment_id": "V061_P082_S001",
+        "video_id": "V061_KbLnPZ7DdPQ",
+        "place_id": "P082",
+        "place_name": "새만금방조제·고군산군도 드라이브",
+        "season": "여름",
+        "region": "전북특별자치도",
+        "city": "군산시",
+        "drama_title": null,
+        "start_time": 0.0,
+        "end_time": 20.0,
+        "keyframe_path": "keyframes/V061_KbLnPZ7DdPQ/V061_P082_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "sea",
+            "mountain",
+            "barrier",
+            "reeds",
+            "sky",
+            "road"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A serene coastal view with a calm sea, distant mountains, and reeds in the foreground. A person is standing by the roadside, watching the sea."
+    },
+    {
+        "segment_id": "V061_P082_S001_SCENE_002",
+        "source_segment_id": "V061_P082_S001",
+        "video_id": "V061_KbLnPZ7DdPQ",
+        "place_id": "P082",
+        "place_name": "새만금방조제·고군산군도 드라이브",
+        "season": "여름",
+        "region": "전북특별자치도",
+        "city": "군산시",
+        "drama_title": null,
+        "start_time": 37.25,
+        "end_time": 57.25,
+        "keyframe_path": "keyframes/V061_KbLnPZ7DdPQ/V061_P082_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "sea",
+            "sky",
+            "island",
+            "beach",
+            "rocks",
+            "trees"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A serene beach scene with a calm sea and a clear sky, featuring a distant island and a rocky shore."
+    },
+    {
+        "segment_id": "V061_P082_S001_SCENE_003",
+        "source_segment_id": "V061_P082_S001",
+        "video_id": "V061_KbLnPZ7DdPQ",
+        "place_id": "P082",
+        "place_name": "새만금방조제·고군산군도 드라이브",
+        "season": "여름",
+        "region": "전북특별자치도",
+        "city": "군산시",
+        "drama_title": null,
+        "start_time": 58.25,
+        "end_time": 78.25,
+        "keyframe_path": "keyframes/V061_KbLnPZ7DdPQ/V061_P082_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "lake",
+            "mountain",
+            "rocky shore",
+            "sky",
+            "clouds",
+            "sun",
+            "people",
+            "fishing rod",
+            "bicycle"
+        ],
+        "activity": [
+            "fishing",
+            "standing",
+            "walking"
+        ],
+        "description": "A scenic lake with a mountain backdrop, where people are enjoying the outdoors on a sunny day."
+    },
+    {
+        "segment_id": "V062_P083_S001_SCENE_001",
+        "source_segment_id": "V062_P083_S001",
+        "video_id": "V062_Q8rcwJ2I5GM",
+        "place_id": "P083",
+        "place_name": "북한강길",
+        "season": "봄",
+        "region": "경기도",
+        "city": "가평군",
+        "drama_title": "호텔 델루나",
+        "start_time": 0.0,
+        "end_time": 58.0,
+        "keyframe_path": "keyframes/V062_Q8rcwJ2I5GM/V062_P083_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "spring",
+            "peaceful",
+            "calm",
+            "beautiful",
+            "serene"
+        ],
+        "scene_elements": [
+            "road",
+            "tree",
+            "cherry_blossom",
+            "concrete_wall",
+            "sky",
+            "clouds",
+            "yellow_flowers"
+        ],
+        "activity": [
+            "driving"
+        ],
+        "description": "A car is driving along a road with cherry blossom trees in full bloom, creating a serene and beautiful spring scene."
+    },
+    {
+        "segment_id": "V063_P084_S001_SCENE_001",
+        "source_segment_id": "V063_P084_S001",
+        "video_id": "V063_YKXwHtx-ZeQ",
+        "place_id": "P084",
+        "place_name": "과천 교육원로·관문로 은행나무길",
+        "season": "가을",
+        "region": "경기도",
+        "city": "과천시",
+        "drama_title": null,
+        "start_time": 0.0,
+        "end_time": 4.5,
+        "keyframe_path": "keyframes/V063_YKXwHtx-ZeQ/V063_P084_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "autumn",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "road",
+            "ginkgo_trees",
+            "car",
+            "bus",
+            "signpost",
+            "mountain",
+            "streetlight",
+            "traffic_cone"
+        ],
+        "activity": [
+            "driving",
+            "traveling",
+            "parking"
+        ],
+        "description": "A serene autumn road lined with ginkgo trees, with a car and a bus driving along the path."
+    },
+    {
+        "segment_id": "V063_P084_S001_SCENE_002",
+        "source_segment_id": "V063_P084_S001",
+        "video_id": "V063_YKXwHtx-ZeQ",
+        "place_id": "P084",
+        "place_name": "과천 교육원로·관문로 은행나무길",
+        "season": "가을",
+        "region": "경기도",
+        "city": "과천시",
+        "drama_title": null,
+        "start_time": 4.5,
+        "end_time": 11.25,
+        "keyframe_path": "keyframes/V063_YKXwHtx-ZeQ/V063_P084_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "tree",
+            "leaves",
+            "pavement",
+            "fence",
+            "road",
+            "car"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A quiet autumn street lined with trees, where a person is walking along the sidewalk."
+    },
+    {
+        "segment_id": "V063_P084_S001_SCENE_003",
+        "source_segment_id": "V063_P084_S001",
+        "video_id": "V063_YKXwHtx-ZeQ",
+        "place_id": "P084",
+        "place_name": "과천 교육원로·관문로 은행나무길",
+        "season": "가을",
+        "region": "경기도",
+        "city": "과천시",
+        "drama_title": null,
+        "start_time": 11.25,
+        "end_time": 21.0,
+        "keyframe_path": "keyframes/V063_YKXwHtx-ZeQ/V063_P084_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "road",
+            "ginkgo_trees",
+            "sky",
+            "clouds",
+            "mountain",
+            "streetlight",
+            "car",
+            "parking_lot",
+            "tree",
+            "path"
+        ],
+        "activity": [
+            "standing",
+            "walking",
+            "driving"
+        ],
+        "description": "A quiet road lined with yellow ginkgo trees under a partly cloudy sky, with a few cars parked on the side."
+    },
+    {
+        "segment_id": "V063_P084_S001_SCENE_004",
+        "source_segment_id": "V063_P084_S001",
+        "video_id": "V063_YKXwHtx-ZeQ",
+        "place_id": "P084",
+        "place_name": "과천 교육원로·관문로 은행나무길",
+        "season": "가을",
+        "region": "경기도",
+        "city": "과천시",
+        "drama_title": null,
+        "start_time": 21.0,
+        "end_time": 26.5,
+        "keyframe_path": "keyframes/V063_YKXwHtx-ZeQ/V063_P084_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene",
+            "vibrant",
+            "calm"
+        ],
+        "scene_elements": [
+            "road",
+            "ginkgo_trees",
+            "signposts",
+            "mountain",
+            "sky",
+            "blue_sign",
+            "white_line",
+            "black_fence"
+        ],
+        "activity": [
+            "driving",
+            "walking",
+            "stopping",
+            "waiting"
+        ],
+        "description": "A road lined with yellow ginkgo trees during the day, with signs indicating a route to a location. The scene appears calm and quiet, with no people visible."
+    },
+    {
+        "segment_id": "V063_P084_S001_SCENE_005",
+        "source_segment_id": "V063_P084_S001",
+        "video_id": "V063_YKXwHtx-ZeQ",
+        "place_id": "P084",
+        "place_name": "과천 교육원로·관문로 은행나무길",
+        "season": "가을",
+        "region": "경기도",
+        "city": "과천시",
+        "drama_title": null,
+        "start_time": 26.5,
+        "end_time": 33.25,
+        "keyframe_path": "keyframes/V063_YKXwHtx-ZeQ/V063_P084_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "road",
+            "ginkgo_trees",
+            "mountain",
+            "clouds",
+            "building",
+            "leaves",
+            "sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A person is walking on a paved road lined with ginkgo trees in autumn, with mountains in the background."
+    },
+    {
+        "segment_id": "V063_P084_S001_SCENE_006",
+        "source_segment_id": "V063_P084_S001",
+        "video_id": "V063_YKXwHtx-ZeQ",
+        "place_id": "P084",
+        "place_name": "과천 교육원로·관문로 은행나무길",
+        "season": "가을",
+        "region": "경기도",
+        "city": "과천시",
+        "drama_title": null,
+        "start_time": 33.25,
+        "end_time": 47.75,
+        "keyframe_path": "keyframes/V063_YKXwHtx-ZeQ/V063_P084_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene",
+            "calm",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "road",
+            "trees",
+            "mountain",
+            "building",
+            "bus",
+            "leaves",
+            "sky",
+            "clouds"
+        ],
+        "activity": [
+            "driving",
+            "walking"
+        ],
+        "description": "A scenic autumn road lined with golden trees, leading to a building and a mountain in the background, with a bus parked on the side."
+    },
+    {
+        "segment_id": "V063_P084_S001_SCENE_007",
+        "source_segment_id": "V063_P084_S001",
+        "video_id": "V063_YKXwHtx-ZeQ",
+        "place_id": "P084",
+        "place_name": "과천 교육원로·관문로 은행나무길",
+        "season": "가을",
+        "region": "경기도",
+        "city": "과천시",
+        "drama_title": null,
+        "start_time": 47.75,
+        "end_time": 59.0,
+        "keyframe_path": "keyframes/V063_YKXwHtx-ZeQ/V063_P084_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "autumn"
+        ],
+        "scene_elements": [
+            "ginkgo_trees",
+            "leaves",
+            "grass",
+            "park",
+            "sky",
+            "bushes"
+        ],
+        "activity": [
+            "standing",
+            "looking"
+        ],
+        "description": "A park with golden ginkgo trees in autumn, showing a peaceful and serene atmosphere."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_001",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 0.0,
+        "end_time": 8.0,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_001.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "peaceful",
+            "serene",
+            "calm"
+        ],
+        "scene_elements": [
+            "sea",
+            "sky",
+            "people",
+            "boat",
+            "sunset"
+        ],
+        "activity": [
+            "sitting",
+            "watching"
+        ],
+        "description": "Two people are sitting on a boat, watching the sunset over the sea. The scene is calm and peaceful."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_002",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 8.0,
+        "end_time": 10.25,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "curious"
+        ],
+        "scene_elements": [
+            "crab",
+            "rock",
+            "water",
+            "dirt",
+            "crab_shell"
+        ],
+        "activity": [
+            "hiding",
+            "watching"
+        ],
+        "description": "A crab is hiding in a crevice of a rocky shore, with a text overlay describing its behavior."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_003",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 10.25,
+        "end_time": 12.5,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_003.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "close_up",
+            "curious",
+            "natural",
+            "mysterious"
+        ],
+        "scene_elements": [
+            "crab",
+            "rock",
+            "water",
+            "darkness"
+        ],
+        "activity": [],
+        "description": "A close-up shot of a crab in a dark, rocky environment, with text overlay asking if it's a human."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_004",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 12.5,
+        "end_time": 15.75,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "statue",
+            "ocean",
+            "wind turbine",
+            "rocky shore",
+            "sky"
+        ],
+        "activity": [
+            "standing"
+        ],
+        "description": "A statue of a coastal worker stands on a rocky shore with the ocean and a wind turbine in the background."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_005",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 15.75,
+        "end_time": 18.5,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_005.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "peaceful",
+            "serene",
+            "calm"
+        ],
+        "scene_elements": [
+            "wind turbine",
+            "bridge",
+            "sea",
+            "sky",
+            "person",
+            "hat",
+            "railing"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A person walks along a bridge with wind turbines in the background during the evening, creating a peaceful and serene atmosphere."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_006",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 18.5,
+        "end_time": 23.5,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "wind turbine",
+            "sea",
+            "sky",
+            "lighthouse",
+            "bridge",
+            "buildings",
+            "grass",
+            "road",
+            "island",
+            "clouds"
+        ],
+        "activity": [],
+        "description": "A scenic view of wind turbines on a coastal island with clear blue skies and calm waters. The image captures a peaceful and serene atmosphere."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_007",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 23.5,
+        "end_time": 26.5,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_007.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "calm",
+            "serene",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "wind turbine",
+            "ocean",
+            "sky",
+            "sunset",
+            "water",
+            "stilt foundation"
+        ],
+        "activity": [],
+        "description": "A wind turbine stands tall on a sea platform during a beautiful evening sunset, with the ocean reflecting the warm colors of the sky."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_008",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 26.5,
+        "end_time": 29.25,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_008.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "sea",
+            "lighthouse",
+            "islands",
+            "houses",
+            "fields",
+            "docks",
+            "sunset"
+        ],
+        "activity": [
+            "sailing"
+        ],
+        "description": "A serene evening scene at a coastal village with a beautiful sunset, featuring a lighthouse and calm waters."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_009",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 29.25,
+        "end_time": 33.25,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "wind turbine",
+            "water",
+            "shipwreck",
+            "sky",
+            "shore",
+            "trees",
+            "buildings",
+            "windmill",
+            "boat"
+        ],
+        "activity": [
+            "floating",
+            "resting"
+        ],
+        "description": "A shipwreck is floating on the water near wind turbines, with a peaceful and serene atmosphere under a clear sky."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_010",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 33.25,
+        "end_time": 34.25,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_010.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "calm",
+            "serene",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "windmill",
+            "clouds",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A windmill stands tall against a dramatic sky filled with large, fluffy clouds during the evening."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_011",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 34.25,
+        "end_time": 35.25,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_011.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "calm",
+            "serene",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "wind turbine",
+            "clouds",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A wind turbine stands against a dramatic sky with large clouds, captured during the evening. The scene is peaceful and serene."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_012",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 35.25,
+        "end_time": 36.25,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_012.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene",
+            "violet",
+            "sunset"
+        ],
+        "scene_elements": [
+            "windmill",
+            "ocean",
+            "sky",
+            "reflection",
+            "distant lights",
+            "coastline",
+            "water"
+        ],
+        "activity": [],
+        "description": "A serene evening scene featuring a windmill on the ocean with a vibrant pink and purple sky, capturing the tranquil beauty of the twilight."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_013",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 36.25,
+        "end_time": 37.25,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_013.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "wind turbine",
+            "sea",
+            "bridge",
+            "string lights",
+            "clouds",
+            "dock",
+            "water",
+            "sky",
+            "lighthouse"
+        ],
+        "activity": [],
+        "description": "A serene evening scene at a coastal area featuring a wind turbine, calm waters, and string lights hanging in the foreground."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_014",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 37.25,
+        "end_time": 38.25,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_014.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "sunny"
+        ],
+        "scene_elements": [
+            "wind turbines",
+            "ocean",
+            "waves",
+            "coastline",
+            "sky",
+            "cliff",
+            "road",
+            "buildings",
+            "grass",
+            "distant buildings"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A serene coastal scene featuring two wind turbines on a rocky shore, with waves crashing against the shore under a clear blue sky."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_015",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 38.25,
+        "end_time": 39.25,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_015.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "wind turbines",
+            "ocean",
+            "waves",
+            "coastline",
+            "sky",
+            "cliff",
+            "buildings",
+            "wooden fence"
+        ],
+        "activity": [
+            "standing",
+            "watching"
+        ],
+        "description": "A coastal scene featuring two wind turbines on a cliff overlooking the ocean, with waves crashing below. The sky is clear and the weather appears sunny."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_016",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 39.25,
+        "end_time": 41.0,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_016.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "peaceful",
+            "serene",
+            "calm"
+        ],
+        "scene_elements": [
+            "wind turbines",
+            "road",
+            "sunset",
+            "sky",
+            "streetlight",
+            "vehicle"
+        ],
+        "activity": [
+            "driving"
+        ],
+        "description": "A car drives along a winding road at sunset, with wind turbines silhouetted against the orange sky."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_017",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 41.0,
+        "end_time": 42.0,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_017.jpg",
+        "time_of_day": "evening",
+        "mood": [
+            "peaceful",
+            "serene",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "windmill",
+            "road",
+            "sky",
+            "dusk",
+            "sunset",
+            "roadside",
+            "wave",
+            "horizon",
+            "road sign",
+            "traffic cone"
+        ],
+        "activity": [
+            "driving"
+        ],
+        "description": "A car is driving along a road at sunset, with wind turbines in the distance. The sky is painted with warm orange and pink hues, creating a peaceful and serene atmosphere."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_018",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 42.0,
+        "end_time": 43.0,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_018.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "bridge",
+            "water",
+            "riverside",
+            "people",
+            "walkway",
+            "railing",
+            "backpack",
+            "hat",
+            "clothing",
+            "distant islands"
+        ],
+        "activity": [
+            "walking",
+            "running"
+        ],
+        "description": "A couple is walking along a bridge over a calm body of water, with a scenic view of distant islands in the background."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_019",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 43.0,
+        "end_time": 45.0,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_019.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "sea",
+            "wind turbine",
+            "bridge",
+            "person",
+            "sky",
+            "cloud"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A person walks on a bridge over the sea with a wind turbine in the distance, under a calm, overcast sky."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_020",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 45.0,
+        "end_time": 46.5,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_020.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "person",
+            "rocky海滩",
+            "sea",
+            "camera",
+            "backpack"
+        ],
+        "activity": [
+            "photographing",
+            "standing"
+        ],
+        "description": "A person is photographing a rocky beach at day."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_021",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 46.5,
+        "end_time": 49.5,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_021.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "cozy"
+        ],
+        "scene_elements": [
+            "woman",
+            "man",
+            "tripod",
+            "phone",
+            "sea",
+            "rocky shore",
+            "bridge"
+        ],
+        "activity": [
+            "photographing",
+            "standing"
+        ],
+        "description": "A man and a woman are standing on a rocky shore by the sea, with a tripod set up for a photo shoot. The scene is calm and peaceful, with a clear view of the sea and a distant bridge."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_022",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 49.5,
+        "end_time": 51.5,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_022.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "romantic",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "couple",
+            "tripod",
+            "rocky shore",
+            "sea",
+            "bridge",
+            "overcast sky"
+        ],
+        "activity": [
+            "holding hands",
+            "standing"
+        ],
+        "description": "A couple stands on a rocky shore, holding hands, with a scenic view of the sea and a distant bridge under an overcast sky."
+    },
+    {
+        "segment_id": "V065_P086_S001_SCENE_023",
+        "source_segment_id": "V065_P086_S001",
+        "video_id": "V065_6WP8sOqHwSc",
+        "place_id": "P086",
+        "place_name": "신창풍차해안도로",
+        "season": "여름",
+        "region": "제주특별자치도",
+        "city": "제주시",
+        "drama_title": null,
+        "start_time": 51.5,
+        "end_time": 54.0,
+        "keyframe_path": "keyframes/V065_6WP8sOqHwSc/V065_P086_S001_SCENE_023.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "sea",
+            "wind turbines",
+            "rocky shore",
+            "path",
+            "reflection",
+            "people",
+            "windmill"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A couple walks along a rocky coastal path with wind turbines in the background, under a clear sky."
+    }
+]
