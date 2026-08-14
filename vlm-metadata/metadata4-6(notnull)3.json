@@ -1,0 +1,337 @@
+[
+    {
+        "segment_id": "V056_P004_S001_SCENE_001",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 0.0,
+        "end_time": 4.0,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "vibrant",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "crops",
+            "paths",
+            "people",
+            "fields",
+            "sky"
+        ],
+        "activity": [
+            "walking",
+            "strolling"
+        ],
+        "description": "An aerial view of a vibrant field of yellow and green crops, with people walking along winding paths, showcasing a serene and picturesque rural landscape."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_002",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 4.0,
+        "end_time": 8.5,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "vibrant",
+            "peaceful",
+            "natural",
+            "serene",
+            "colorful"
+        ],
+        "scene_elements": [
+            "canola_fields",
+            "paths",
+            "people",
+            "road",
+            "cars",
+            "green_fields",
+            "wooden_hut",
+            "pond",
+            "tree"
+        ],
+        "activity": [
+            "walking",
+            "visiting",
+            "strolling"
+        ],
+        "description": "Aerial view of a vibrant yellow canola field with winding paths and visitors walking through, surrounded by green fields and a road with parked cars."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_003",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 8.5,
+        "end_time": 12.75,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "vibrant",
+            "serene"
+        ],
+        "scene_elements": [
+            "green_field",
+            "path",
+            "people",
+            "road",
+            "farm",
+            "bicycle",
+            "circular_path",
+            "roadside"
+        ],
+        "activity": [
+            "walking",
+            "cycling"
+        ],
+        "description": "An aerial view of a winding path through a vibrant green field, with people walking along the path."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_004",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 12.75,
+        "end_time": 21.75,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "vibrant",
+            "serene"
+        ],
+        "scene_elements": [
+            "flower_field",
+            "path",
+            "people",
+            "green_field"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "An aerial view of a vibrant yellow flower field and a green field, with people walking along winding paths."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_005",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 21.75,
+        "end_time": 25.0,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "natural",
+            "serene"
+        ],
+        "scene_elements": [
+            "tree",
+            "wooden structure",
+            "path",
+            "yellow flowers",
+            "people",
+            "sky"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "taking photos"
+        ],
+        "description": "A wooden structure is surrounded by a tree and yellow flowers, with people walking along a path. The scene has a peaceful and natural atmosphere."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_006",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 25.0,
+        "end_time": 27.5,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "rustic",
+            "peaceful",
+            "natural"
+        ],
+        "scene_elements": [
+            "wooden_shack",
+            "tree",
+            "bench",
+            "path",
+            "grass",
+            "sky",
+            "person"
+        ],
+        "activity": [
+            "standing",
+            "walking"
+        ],
+        "description": "A rustic wooden shack stands in a natural setting, with a person walking on a path nearby."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_007",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 27.5,
+        "end_time": 31.5,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "happy",
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "flower_field",
+            "wooden_hut",
+            "mountain",
+            "green_field",
+            "tree",
+            "people"
+        ],
+        "activity": [
+            "walking",
+            "strolling",
+            "sitting"
+        ],
+        "description": "A vibrant yellow flower field with a wooden hut and people enjoying the scenery. The scene is set against a backdrop of green hills and mountains under a cloudy sky."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_008",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 31.5,
+        "end_time": 34.0,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "vibrant",
+            "serene"
+        ],
+        "scene_elements": [
+            "flower_field",
+            "green_field",
+            "mountain",
+            "people",
+            "sky"
+        ],
+        "activity": [
+            "walking",
+            "staring",
+            "standing"
+        ],
+        "description": "A group of people are walking and observing a vibrant yellow flower field in a lush green landscape under a partly cloudy sky."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_009",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 34.0,
+        "end_time": 36.5,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "festive",
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "green_field",
+            "flags",
+            "people",
+            "mountains",
+            "trees",
+            "fence",
+            "clouds"
+        ],
+        "activity": [
+            "standing",
+            "watching",
+            "dancing"
+        ],
+        "description": "A vibrant green field with people gathered around flags, enjoying a festive outdoor event under a cloudy sky."
+    },
+    {
+        "segment_id": "V056_P004_S001_SCENE_010",
+        "source_segment_id": "V056_P004_S001",
+        "video_id": "V056_fznVy5NzqVI",
+        "place_id": "P004",
+        "place_name": "고창 학원농장",
+        "season": "봄",
+        "region": "전북특별자치도",
+        "city": "고창군",
+        "drama_title": "폭싹 속았수다",
+        "start_time": 36.5,
+        "end_time": 42.0,
+        "keyframe_path": "keyframes/V056_fznVy5NzqVI/V056_P004_S001_SCENE_010.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "tree",
+            "field",
+            "sky",
+            "mountain",
+            "grass",
+            "clouds"
+        ],
+        "activity": [],
+        "description": "A lone tree stands in a vibrant green field under a cloudy sky."
+    }
+]
