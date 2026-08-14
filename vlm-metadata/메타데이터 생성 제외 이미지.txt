@@ -1,0 +1,7 @@
+파일명 : preprocessed_segments
+20552열 "V045_P069_S001_SCENE_001.jpg"
+20594열 "V045_P069_S001_SCENE_002.jpg"
+20636열 "V045_P069_S001_SCENE_003.jpg"
+20678열 "V045_P069_S001_SCENE_004.jpg"
+(drama_title = 겨울연가
+place_name = 남이섬)
