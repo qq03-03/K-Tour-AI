@@ -1,0 +1,695 @@
+[
+    {
+        "segment_id": "V052_P005_S001_SCENE_001",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 0.0,
+        "end_time": 0.75,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "happy",
+            "fun",
+            "autumn",
+            "cozy",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "stone_wall",
+            "hanok",
+            "tree",
+            "autumn_leaves",
+            "woman",
+            "cartoon_characters"
+        ],
+        "activity": [
+            "walking",
+            "running"
+        ],
+        "description": "A woman is walking through a traditional Korean courtyard covered in golden autumn leaves, with cartoon characters in the background. The scene is bright and cheerful."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_002",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 0.75,
+        "end_time": 1.75,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "wooden_building",
+            "garden",
+            "autumn_leaves",
+            "stone_wall",
+            "signboard",
+            "woman",
+            "path"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A woman is walking in front of a traditional Korean building covered in yellow autumn leaves."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_003",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 1.75,
+        "end_time": 3.5,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "autumn",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "building",
+            "yellow_leaves",
+            "sign",
+            "stone_pillar",
+            "woman",
+            "long_gown"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A woman walks past a traditional Korean building covered in yellow autumn leaves. The scene is peaceful and serene."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_004",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 3.5,
+        "end_time": 4.25,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "energetic",
+            "dynamic",
+            "casual"
+        ],
+        "scene_elements": [
+            "brick_wall",
+            "manhole",
+            "stone_block",
+            "sign",
+            "building",
+            "pavement",
+            "woman",
+            "coat",
+            "boot",
+            "paper"
+        ],
+        "activity": [
+            "running",
+            "walking",
+            "holding_paper"
+        ],
+        "description": "A woman in a grey coat is running on a paved street, passing by a brick building with a yellow sign. The scene is bright and appears to be in the daytime."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_005",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 4.25,
+        "end_time": 5.0,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "traditional"
+        ],
+        "scene_elements": [
+            "wall",
+            "stone",
+            "roof",
+            "tree",
+            "sky",
+            "cloud",
+            "building"
+        ],
+        "activity": [
+            "placing"
+        ],
+        "description": "A traditional Korean wall with a stone base and a roof, with a piece of paper placed on the roof. The scene is peaceful and sunny."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_006",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 5.0,
+        "end_time": 6.0,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "happy",
+            "dancing",
+            "lively"
+        ],
+        "scene_elements": [
+            "building",
+            "brick",
+            "stone",
+            "pavement",
+            "woman",
+            "door",
+            "window",
+            "circular window",
+            "towers"
+        ],
+        "activity": [
+            "dancing",
+            "walking"
+        ],
+        "description": "A woman is dancing in front of a historic brick building with a circular window and stone arches."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_007",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 6.0,
+        "end_time": 7.5,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "serene",
+            "historic",
+            "peaceful"
+        ],
+        "scene_elements": [
+            "church",
+            "brick building",
+            "stone steps",
+            "paved ground",
+            "arches",
+            "windows",
+            "tower"
+        ],
+        "activity": [
+            "standing"
+        ],
+        "description": "A historic brick church with a large arched entrance and a circular window, viewed during the day on a paved square."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_008",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 7.5,
+        "end_time": 8.75,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "joyful",
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "building",
+            "wooden floor",
+            "red pillars",
+            "green roof",
+            "balcony",
+            "cityscape",
+            "trees",
+            "sky"
+        ],
+        "activity": [
+            "running",
+            "dancing"
+        ],
+        "description": "A woman is running on a wooden balcony of a traditional building, with a cityscape in the background."
+    },
+    {
+        "segment_id": "V052_P005_S001_SCENE_009",
+        "source_segment_id": "V052_P005_S001",
+        "video_id": "V052_URa5-lfWhII",
+        "place_id": "P005",
+        "place_name": "전주 한옥마을",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "그 해 우리는",
+        "start_time": 8.75,
+        "end_time": 11.0,
+        "keyframe_path": "keyframes/V052_URa5-lfWhII/V052_P005_S001_SCENE_009.jpg",
+        "time_of_day": "night",
+        "mood": [
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "palace",
+            "wooden_building",
+            "columns",
+            "steps",
+            "potted_plants",
+            "circular庭院"
+        ],
+        "activity": [],
+        "description": "A traditional wooden building at night, illuminated by warm lights, with a peaceful and tranquil atmosphere."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_001",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 0.0,
+        "end_time": 4.5,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene",
+            "traditional",
+            "natural"
+        ],
+        "scene_elements": [
+            "hanok",
+            "thatched-roof",
+            "mountain",
+            "tree",
+            "pavement",
+            "stone wall",
+            "green plants",
+            "cypress trees",
+            "house",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A peaceful traditional village with thatched-roof houses under a clear blue sky, surrounded by lush greenery and mountains."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_002",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 4.5,
+        "end_time": 10.75,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "thatched-roof",
+            "tree",
+            "grass",
+            "stone-paved-path",
+            "flower",
+            "sky",
+            "sunlight"
+        ],
+        "activity": [
+            "standing",
+            "staring"
+        ],
+        "description": "A traditional Korean village with hanok houses, surrounded by lush greenery under a bright sky."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_003",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 10.75,
+        "end_time": 12.25,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "traditional"
+        ],
+        "scene_elements": [
+            "hanok",
+            "thatched_hut",
+            "green_hill",
+            "dirt_path",
+            "orange_cone",
+            "motorcycle",
+            "solar_panel",
+            "wooden_building",
+            "signboard",
+            "tree"
+        ],
+        "activity": [
+            "standing",
+            "sitting",
+            "walking"
+        ],
+        "description": "A traditional Korean village with thatched huts under a clear blue sky, featuring a dirt path and a green hill in the background."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_004",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 12.25,
+        "end_time": 14.0,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "traditional"
+        ],
+        "scene_elements": [
+            "woven basket",
+            "paper fan",
+            "sign",
+            "sand",
+            "sunlight"
+        ],
+        "activity": [
+            "selling"
+        ],
+        "description": "A basket of paper fans is displayed on the ground, with a sign indicating the price. The scene appears to be a market or outdoor stall during the day."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_005",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 14.0,
+        "end_time": 20.25,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "natural"
+        ],
+        "scene_elements": [
+            "pine_tree",
+            "path",
+            "wooden_bars",
+            "grass",
+            "river",
+            "mountain",
+            "sky",
+            "tree_trunks"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A serene forest path with pine trees, leading to a river in the distance. The scene is peaceful and natural, with sunlight filtering through the trees."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_006",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 20.25,
+        "end_time": 23.0,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "traditional",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "coffee_shop",
+            "roof",
+            "sign",
+            "window",
+            "stone_path",
+            "gravel",
+            "tree",
+            "blue_sky"
+        ],
+        "activity": [],
+        "description": "A traditional Korean coffee shop with a peaceful, traditional atmosphere. The building features a classic hanok style roof and a sign that reads 'COFFEE'."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_007",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 23.0,
+        "end_time": 25.75,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "calm",
+            "peaceful",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "iced_coffee",
+            "caramel_latte",
+            "candy",
+            "red_plate",
+            "bamboo_mat",
+            "wooden_door",
+            "traditional_building",
+            "doorframe",
+            "floor"
+        ],
+        "activity": [
+            "drinking",
+            "sitting",
+            "waiting"
+        ],
+        "description": "A red tray with two iced beverages and candy sits on a bamboo mat in a traditional Korean setting, suggesting a quiet, peaceful moment during the day."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_008",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 25.75,
+        "end_time": 28.75,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene",
+            "calm",
+            "cozy"
+        ],
+        "scene_elements": [
+            "house",
+            "porch",
+            "wooden table",
+            "wooden chairs",
+            "stone wall",
+            "wooden door",
+            "clock",
+            "fire extinguisher",
+            "stack of logs",
+            "fan"
+        ],
+        "activity": [
+            "sitting",
+            "resting",
+            "waiting"
+        ],
+        "description": "A peaceful outdoor porch of a traditional house with wooden furniture and stone walls, bathed in warm sunlight."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_009",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 28.75,
+        "end_time": 32.75,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "pine_tree",
+            "hanok_house",
+            "thatched_roof",
+            "dirt_path",
+            "green_shrub",
+            "sky"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A serene scene at a traditional hanok with a large pine tree and a dirt path, suggesting a peaceful walk in a traditional Korean village."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_010",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 32.75,
+        "end_time": 35.5,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_010.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "tree",
+            "hanok",
+            "thatched-roof",
+            "garden",
+            "path",
+            "green_hedge",
+            "dried_coconut"
+        ],
+        "activity": [
+            "standing",
+            "walking"
+        ],
+        "description": "A serene traditional Korean garden with a large pine tree and a path leading to a hanok, under a clear blue sky."
+    },
+    {
+        "segment_id": "V053_P075_S001_SCENE_011",
+        "source_segment_id": "V053_P075_S001",
+        "video_id": "V053_Dw1hu5ADanI",
+        "place_id": "P075",
+        "place_name": "안동 하회마을",
+        "season": "여름",
+        "region": "경상북도",
+        "city": "안동시",
+        "drama_title": "미스터 션샤인",
+        "start_time": 35.5,
+        "end_time": 37.0,
+        "keyframe_path": "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_011.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "natural",
+            "village",
+            "green"
+        ],
+        "scene_elements": [
+            "tree",
+            "field",
+            "house",
+            "thatched-roof",
+            "rural",
+            "grass",
+            "sky",
+            "road",
+            "water",
+            "sun"
+        ],
+        "activity": [],
+        "description": "A serene rural landscape with a green field, a tree, and traditional houses under a bright sky."
+    }
+]
