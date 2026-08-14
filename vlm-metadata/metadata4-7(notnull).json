@@ -1,0 +1,36 @@
+[
+    {
+        "segment_id": "V062_P083_S001_SCENE_001",
+        "source_segment_id": "V062_P083_S001",
+        "video_id": "V062_Q8rcwJ2I5GM",
+        "place_id": "P083",
+        "place_name": "북한강길",
+        "season": "봄",
+        "region": "경기도",
+        "city": "가평군",
+        "drama_title": "호텔 델루나",
+        "start_time": 0.0,
+        "end_time": 58.0,
+        "keyframe_path": "keyframes/V062_Q8rcwJ2I5GM/V062_P083_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "spring",
+            "peaceful",
+            "beautiful",
+            "calm"
+        ],
+        "scene_elements": [
+            "cherry_blossom",
+            "tree",
+            "road",
+            "concrete_wall",
+            "sky",
+            "clouds",
+            "sunlight"
+        ],
+        "activity": [
+            "driving"
+        ],
+        "description": "A car is driving on a road with cherry blossom trees in full bloom, creating a serene spring scene."
+    }
+]
