@@ -1,0 +1,304 @@
+[
+    {
+        "segment_id": "V044_P067_S001_SCENE_010",
+        "source_segment_id": "V044_P067_S001",
+        "video_id": "V044_nlhrr-2PZRY",
+        "place_id": "P067",
+        "place_name": "계명대",
+        "season": "봄",
+        "region": "대구광역시",
+        "city": "대구광역시",
+        "drama_title": "사랑비",
+        "start_time": 25.25,
+        "end_time": 27.5,
+        "keyframe_path": "keyframes/V044_nlhrr-2PZRY/V044_P067_S001_SCENE_010.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "sunny",
+            "peaceful",
+            "cherry_blossom",
+            "spring",
+            "happy"
+        ],
+        "scene_elements": [
+            "cherry_blossom_trees",
+            "paved_path",
+            "bushes",
+            "woman",
+            "handbag",
+            "clothing",
+            "shoes",
+            "bollard"
+        ],
+        "activity": [
+            "photographing",
+            "standing",
+            "crouching"
+        ],
+        "description": "A woman is photographing another woman on a path lined with cherry blossom trees in the spring. The scene is bright and sunny, with a peaceful atmosphere."
+    },
+    {
+        "segment_id": "V044_P067_S001_SCENE_011",
+        "source_segment_id": "V044_P067_S001",
+        "video_id": "V044_nlhrr-2PZRY",
+        "place_id": "P067",
+        "place_name": "계명대",
+        "season": "봄",
+        "region": "대구광역시",
+        "city": "대구광역시",
+        "drama_title": "사랑비",
+        "start_time": 27.5,
+        "end_time": 31.0,
+        "keyframe_path": "keyframes/V044_nlhrr-2PZRY/V044_P067_S001_SCENE_011.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "cherry_blossom",
+            "spring",
+            "peaceful",
+            "happy",
+            "outdoor"
+        ],
+        "scene_elements": [
+            "cherry_blossom_trees",
+            "path",
+            "paved_walkway",
+            "green_hedges",
+            "woman",
+            "white_bags",
+            "black_skirt",
+            "black_tights",
+            "white_shirt",
+            "white_pants",
+            "white_shoes",
+            "black_shoes",
+            "pink_pants"
+        ],
+        "activity": [
+            "taking_photo",
+            "standing",
+            "crouching",
+            "walking",
+            "posing"
+        ],
+        "description": "A group of women are enjoying a spring day in a park with cherry blossom trees in full bloom, with one woman taking a photo while others pose and walk around."
+    },
+    {
+        "segment_id": "V044_P067_S002_SCENE_001",
+        "source_segment_id": "V044_P067_S002",
+        "video_id": "V044_9B4fmTx1ido",
+        "place_id": "P067",
+        "place_name": "계명대",
+        "season": "봄",
+        "region": "대구광역시",
+        "city": "대구광역시",
+        "drama_title": "사랑비",
+        "start_time": 0.0,
+        "end_time": 9.0,
+        "keyframe_path": "keyframes/V044_9B4fmTx1ido/V044_P067_S002_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "joyful",
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "flowers",
+            "tree",
+            "sky",
+            "blue"
+        ],
+        "activity": [],
+        "description": "A vibrant pink flowering tree in full bloom under a clear blue sky."
+    },
+    {
+        "segment_id": "V044_P067_S002_SCENE_002",
+        "source_segment_id": "V044_P067_S002",
+        "video_id": "V044_9B4fmTx1ido",
+        "place_id": "P067",
+        "place_name": "계명대",
+        "season": "봄",
+        "region": "대구광역시",
+        "city": "대구광역시",
+        "drama_title": "사랑비",
+        "start_time": 9.0,
+        "end_time": 13.25,
+        "keyframe_path": "keyframes/V044_9B4fmTx1ido/V044_P067_S002_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "vibrant",
+            "peaceful",
+            "joyful"
+        ],
+        "scene_elements": [
+            "flowers",
+            "sky",
+            "clouds",
+            "tree"
+        ],
+        "activity": [],
+        "description": "A vibrant display of pink flowers in full bloom against a clear blue sky with a few clouds."
+    },
+    {
+        "segment_id": "V044_P067_S002_SCENE_003",
+        "source_segment_id": "V044_P067_S002",
+        "video_id": "V044_9B4fmTx1ido",
+        "place_id": "P067",
+        "place_name": "계명대",
+        "season": "봄",
+        "region": "대구광역시",
+        "city": "대구광역시",
+        "drama_title": "사랑비",
+        "start_time": 13.25,
+        "end_time": 34.75,
+        "keyframe_path": "keyframes/V044_9B4fmTx1ido/V044_P067_S002_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "beautiful",
+            "peaceful",
+            "joyful"
+        ],
+        "scene_elements": [
+            "flowers",
+            "trees",
+            "sky",
+            "green_hedges"
+        ],
+        "activity": [],
+        "description": "A vibrant scene of pink flowers blooming in a lush garden under a clear blue sky."
+    },
+    {
+        "segment_id": "V044_P067_S002_SCENE_004",
+        "source_segment_id": "V044_P067_S002",
+        "video_id": "V044_9B4fmTx1ido",
+        "place_id": "P067",
+        "place_name": "계명대",
+        "season": "봄",
+        "region": "대구광역시",
+        "city": "대구광역시",
+        "drama_title": "사랑비",
+        "start_time": 34.75,
+        "end_time": 43.0,
+        "keyframe_path": "keyframes/V044_9B4fmTx1ido/V044_P067_S002_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "tree",
+            "flower",
+            "pine_tree",
+            "sky",
+            "green_leaves",
+            "pink_flowers"
+        ],
+        "activity": [],
+        "description": "A vibrant scene of pink flowers blooming among green pine trees under a bright, sunny sky."
+    },
+    {
+        "segment_id": "V044_P067_S002_SCENE_005",
+        "source_segment_id": "V044_P067_S002",
+        "video_id": "V044_9B4fmTx1ido",
+        "place_id": "P067",
+        "place_name": "계명대",
+        "season": "봄",
+        "region": "대구광역시",
+        "city": "대구광역시",
+        "drama_title": "사랑비",
+        "start_time": 43.0,
+        "end_time": 57.0,
+        "keyframe_path": "keyframes/V044_9B4fmTx1ido/V044_P067_S002_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "calm"
+        ],
+        "scene_elements": [
+            "tree",
+            "pine_tree",
+            "leaves",
+            "greenery",
+            "sunlight",
+            "sky"
+        ],
+        "activity": [],
+        "description": "A serene outdoor scene featuring a pine tree with lush green foliage, surrounded by other trees under bright daylight."
+    },
+    {
+        "segment_id": "V044_P068_S001_SCENE_001",
+        "source_segment_id": "V044_P068_S001",
+        "video_id": "V044_LCBgFfm0r7M",
+        "place_id": "P068",
+        "place_name": "춘천 제이드가든",
+        "season": "가을",
+        "region": "강원특별자치도",
+        "city": "춘천시",
+        "drama_title": "사랑비",
+        "start_time": 0.0,
+        "end_time": 12.75,
+        "keyframe_path": "keyframes/V044_LCBgFfm0r7M/V044_P068_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "natural",
+            "vibrant",
+            "wanderlust"
+        ],
+        "scene_elements": [
+            "mountain",
+            "forest",
+            "path",
+            "trees",
+            "people",
+            "autumn",
+            "hills",
+            "sky",
+            "clearing",
+            "walkway"
+        ],
+        "activity": [
+            "walking",
+            "strolling",
+            "exploring",
+            "visiting",
+            "admiring"
+        ],
+        "description": "A scenic autumn forest with winding paths, people walking and enjoying the natural beauty."
+    },
+    {
+        "segment_id": "V044_P068_S001_SCENE_002",
+        "source_segment_id": "V044_P068_S001",
+        "video_id": "V044_LCBgFfm0r7M",
+        "place_id": "P068",
+        "place_name": "춘천 제이드가든",
+        "season": "가을",
+        "region": "강원특별자치도",
+        "city": "춘천시",
+        "drama_title": "사랑비",
+        "start_time": 12.75,
+        "end_time": 59.0,
+        "keyframe_path": "keyframes/V044_LCBgFfm0r7M/V044_P068_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "autumn_leaves",
+            "trees",
+            "paths",
+            "benches",
+            "garden",
+            "white_utensils",
+            "white_tables",
+            "white_walls"
+        ],
+        "activity": [
+            "walking",
+            "sitting"
+        ],
+        "description": "An aerial view of a park in autumn with colorful foliage, people walking along paths, and benches where visitors are sitting. The scene is peaceful and serene."
+    }
+]
