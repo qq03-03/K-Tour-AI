@@ -1,0 +1,149 @@
+[
+    {
+        "segment_id": "V045_P069_S001_SCENE_001",
+        "source_segment_id": "V045_P069_S001",
+        "video_id": "V045_5YeMx8-mMwY",
+        "place_id": "P069",
+        "place_name": "남이섬",
+        "season": "봄",
+        "region": "강원특별자치도",
+        "city": "춘천시",
+        "drama_title": "겨울연가",
+        "start_time": 0.0,
+        "end_time": 11.25,
+        "keyframe_path": "keyframes/V045_5YeMx8-mMwY/V045_P069_S001_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "sunny"
+            ],
+        "scene_elements": [
+            "cherry_blossom",
+            "path",
+            "trees",
+            "people",
+            "park",
+            "grass",
+            "walking"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "photographing"
+        ],
+        "description": "A group of people are walking along a path lined with cherry blossom trees in full bloom, enjoying the spring scenery."
+    },
+    {
+        "segment_id": "V045_P069_S001_SCENE_002",
+        "source_segment_id": "V045_P069_S001",
+        "video_id": "V045_5YeMx8-mMwY",
+        "place_id": "P069",
+        "place_name": "남이섬",
+        "season": "봄",
+        "region": "강원특별자치도",
+        "city": "춘천시",
+        "drama_title": "겨울연가",
+        "start_time": 11.25,
+        "end_time": 17.25,
+        "keyframe_path": "keyframes/V045_5YeMx8-mMwY/V045_P069_S001_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "romantic"
+        ],
+        "scene_elements": [
+            "tree",
+            "path",
+            "cherry blossom",
+            "hanok",
+            "lighting",
+            "snowflake",
+            "couples",
+            "stone wall",
+            "sunset",
+            "blossom"
+        ],
+        "activity": [
+            "walking",
+            "strolling",
+            "talking"
+        ],
+        "description": "A couple is walking along a tree-lined path in Nami Island, surrounded by cherry blossoms and festive lights. The scene is peaceful and romantic, with the couple enjoying the natural beauty of the location."
+    },
+    {
+        "segment_id": "V045_P069_S001_SCENE_003",
+        "source_segment_id": "V045_P069_S001",
+        "video_id": "V045_5YeMx8-mMwY",
+        "place_id": "P069",
+        "place_name": "남이섬",
+        "season": "봄",
+        "region": "강원특별자치도",
+        "city": "춘천시",
+        "drama_title": "겨울연가",
+        "start_time": 17.25,
+        "end_time": 33.75,
+        "keyframe_path": "keyframes/V045_5YeMx8-mMwY/V045_P069_S001_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "lively"
+        ],
+        "scene_elements": [
+            "tree",
+            "path",
+            "cherry_blossom",
+            "building",
+            "string_lighting",
+            "woman",
+            "man",
+            "child",
+            "hanok",
+            "stone_wall"
+        ],
+        "activity": [
+            "walking",
+            "strolling",
+            "hugging"
+        ],
+        "description": "A couple is walking along a tree-lined path in a park, with cherry blossoms and string lights overhead. The scene is peaceful and spring-like."
+    },
+    {
+        "segment_id": "V045_P069_S001_SCENE_004",
+        "source_segment_id": "V045_P069_S001",
+        "video_id": "V045_5YeMx8-mMwY",
+        "place_id": "P069",
+        "place_name": "남이섬",
+        "season": "봄",
+        "region": "강원특별자치도",
+        "city": "춘천시",
+        "drama_title": "겨울연가",
+        "start_time": 33.75,
+        "end_time": 41.0,
+        "keyframe_path": "keyframes/V045_5YeMx8-mMwY/V045_P069_S001_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "cherry blossoms",
+            "ostrich",
+            "wooden fence",
+            "grass",
+            "trees",
+            "sky",
+            "mountain",
+            "cottage",
+            "log",
+            "fence"
+        ],
+        "activity": [
+            "standing",
+            "resting"
+        ],
+        "description": "A serene spring scene at Nami Island, featuring cherry blossoms, ostriches, and a lush green landscape under a clear blue sky."
+    }
+]
