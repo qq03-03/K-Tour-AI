@@ -1,0 +1,629 @@
+[
+    {
+        "segment_id": "V048_P073_S002_SCENE_001",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 0.0,
+        "end_time": 1.0,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_001.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene",
+            "cozy",
+            "calm"
+        ],
+        "scene_elements": [
+            "road",
+            "tree",
+            "bus",
+            "pedestrian",
+            "cones",
+            "hanok",
+            "fallen_leaves",
+            "sky",
+            "person",
+            "streetlight"
+        ],
+        "activity": [
+            "walking",
+            "driving"
+        ],
+        "description": "A serene autumn street scene with people walking and a bus driving along a tree-lined road, surrounded by vibrant yellow and orange leaves."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_002",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 1.0,
+        "end_time": 4.25,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_002.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "road",
+            "tree",
+            "bus",
+            "person",
+            "sign",
+            "streetlight",
+            "building",
+            "ginkgo",
+            "fallen_leaf",
+            "pine_tree"
+        ],
+        "activity": [
+            "walking",
+            "waiting"
+        ],
+        "description": "A green bus is stopped on a tree-lined road in autumn, with people walking along the sidewalk. The scene is peaceful and serene."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_003",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 4.25,
+        "end_time": 8.75,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_003.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "giant_tree",
+            "golden_leaves",
+            "wooden_fence",
+            "information_sign",
+            "hanok",
+            "building",
+            "path"
+        ],
+        "activity": [
+            "standing",
+            "viewing"
+        ],
+        "description": "A large, ancient tree with golden autumn leaves stands in a park, surrounded by a wooden fence and traditional buildings."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_004",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 8.75,
+        "end_time": 10.0,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_004.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "serene"
+        ],
+        "scene_elements": [
+            "hanok",
+            "tree",
+            "building",
+            "dirt_ground",
+            "stone",
+            "autumn_leaves",
+            "people",
+            "steps",
+            "sky"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "sitting"
+        ],
+        "description": "A tranquil scene at a traditional Korean temple with autumn leaves and visitors exploring the grounds."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_005",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 10.0,
+        "end_time": 18.75,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_005.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "tranquil",
+            "autumn",
+            "serene"
+        ],
+        "scene_elements": [
+            "ginkgo_tree",
+            "traditional_building",
+            "sky",
+            "leaves",
+            "roof",
+            "clouds"
+        ],
+        "activity": [],
+        "description": "A view from below of a ginkgo tree with golden leaves against a traditional building and a clear sky."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_006",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 18.75,
+        "end_time": 22.5,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_006.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "autumn",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "tree",
+            "autumn_leaves",
+            "building",
+            "fence",
+            "grass",
+            "hanok",
+            "person"
+        ],
+        "activity": [
+            "standing",
+            "walking"
+        ],
+        "description": "A person stands in front of a traditional building with a large tree in the foreground, its golden leaves falling on the ground. The scene is peaceful and autumnal."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_007",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 22.5,
+        "end_time": 24.0,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_007.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "ginkgo_tree",
+            "hanok",
+            "fence",
+            "people",
+            "building",
+            "sky",
+            "leaves",
+            "ground"
+        ],
+        "activity": [
+            "walking",
+            "standing"
+        ],
+        "description": "A scenic autumn view of a traditional Korean hanok with people walking around, framed by a ginkgo tree. The atmosphere is peaceful and serene."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_008",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 24.0,
+        "end_time": 25.0,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_008.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "tree",
+            "building",
+            "path",
+            "leaves",
+            "people",
+            "hanok",
+            "autumn_leaves",
+            "stone bench"
+        ],
+        "activity": [
+            "walking",
+            "sitting",
+            "standing"
+        ],
+        "description": "A serene autumn scene at a traditional Korean temple, with people walking and sitting under large trees with vibrant red and yellow leaves."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_009",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 25.0,
+        "end_time": 26.5,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_009.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "tranquil"
+        ],
+        "scene_elements": [
+            "tree",
+            "building",
+            "path",
+            "leaves",
+            "people",
+            "hanok",
+            "sky"
+        ],
+        "activity": [
+            "walking",
+            "sitting",
+            "standing"
+        ],
+        "description": "A serene autumn scene at a traditional Korean temple, with people walking and sitting under a large tree with pink leaves. The sky is overcast, and the overall atmosphere is peaceful."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_010",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 26.5,
+        "end_time": 31.0,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_010.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene",
+            "tranquil",
+            "beautiful"
+        ],
+        "scene_elements": [
+            "trees",
+            "autumn_leaves",
+            "trunk",
+            "sky",
+            "path",
+            "building",
+            "people"
+        ],
+        "activity": [
+            "walking",
+            "strolling"
+        ],
+        "description": "A vibrant autumn scene with golden leaves on trees, capturing a peaceful and beautiful atmosphere. People are walking along a path in the background."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_011",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 31.0,
+        "end_time": 32.75,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_011.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "serene",
+            "autumn"
+        ],
+        "scene_elements": [
+            "ginkgo_tree",
+            "leaves",
+            "stone_stool",
+            "hanok",
+            "fence",
+            "ground",
+            "building",
+            "fallen_leaves"
+        ],
+        "activity": [],
+        "description": "A large, ancient ginkgo tree in full autumn color stands majestically in a traditional courtyard, its golden leaves creating a serene and picturesque scene."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_012",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 32.75,
+        "end_time": 34.5,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_012.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "peaceful",
+            "autumn",
+            "serene"
+        ],
+        "scene_elements": [
+            "tree",
+            "path",
+            "hanok",
+            "fallen_leaves",
+            "people",
+            "stone_wall",
+            "building"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "sitting"
+        ],
+        "description": "A peaceful autumn scene in a traditional Korean park, with people walking on a dirt path under colorful trees."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_013",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 34.5,
+        "end_time": 35.5,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_013.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "tree",
+            "hanok",
+            "dirt_ground",
+            "people",
+            "fallen_leaves",
+            "stone_wall",
+            "fence",
+            "sky"
+        ],
+        "activity": [
+            "walking",
+            "standing",
+            "playing"
+        ],
+        "description": "An autumn scene in a traditional Korean park with people walking and enjoying the colorful leaves."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_014",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 35.5,
+        "end_time": 37.0,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_014.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "trees",
+            "autumn_leaves",
+            "sky",
+            "ginkgo",
+            "red_maple",
+            "green_hedges"
+        ],
+        "activity": [
+            "standing"
+        ],
+        "description": "A vibrant autumn scene with red and yellow leaves, showcasing the beauty of the season."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_015",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 37.0,
+        "end_time": 39.75,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_015.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene"
+        ],
+        "scene_elements": [
+            "trees",
+            "leaves",
+            "path",
+            "people",
+            "signs",
+            "parking_lot",
+            "sidewalk"
+        ],
+        "activity": [
+            "walking"
+        ],
+        "description": "A path lined with vibrant red autumn leaves, where people are walking along the sidewalk. The scene is bright and full of life, capturing the essence of a pleasant autumn day."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_016",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 39.75,
+        "end_time": 42.25,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_016.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "serene",
+            "tranquil",
+            "vibrant"
+        ],
+        "scene_elements": [
+            "ginkgo_tree",
+            "hanok",
+            "roof",
+            "sky",
+            "autumn_leaves",
+            "mountain",
+            "wall",
+            "building"
+        ],
+        "activity": [],
+        "description": "A vibrant autumn ginkgo tree stands in front of a traditional hanok, capturing the serene beauty of the season."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_017",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 42.25,
+        "end_time": 44.75,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_017.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "pleasant",
+            "autumn",
+            "calm"
+        ],
+        "scene_elements": [
+            "road",
+            "trees",
+            "bus",
+            "people",
+            "crosswalk",
+            "streetlight",
+            "bus_stop",
+            "sign",
+            "building"
+        ],
+        "activity": [
+            "waiting",
+            "walking",
+            "standing"
+        ],
+        "description": "A street scene in autumn with people waiting at a bus stop, surrounded by trees with golden leaves."
+    },
+    {
+        "segment_id": "V048_P073_S002_SCENE_018",
+        "source_segment_id": "V048_P073_S002",
+        "video_id": "V048_lqS0xAtpKVQ",
+        "place_id": "P073",
+        "place_name": "전주향교",
+        "season": "가을",
+        "region": "전북특별자치도",
+        "city": "전주시",
+        "drama_title": "연모",
+        "start_time": 44.75,
+        "end_time": 46.0,
+        "keyframe_path": "keyframes/V048_lqS0xAtpKVQ/V048_P073_S002_SCENE_018.jpg",
+        "time_of_day": "day",
+        "mood": [
+            "autumn",
+            "peaceful",
+            "tranquil",
+            "vibrant",
+            "serene"
+        ],
+        "scene_elements": [
+            "tree",
+            "roof",
+            "hanok",
+            "autumn_leaves",
+            "sky",
+            "building",
+            "clouds"
+        ],
+        "activity": [],
+        "description": "A vibrant autumn tree with golden leaves stands in front of a traditional Korean building, creating a serene and picturesque scene."
+    }
+]
