@@ -21,6 +21,316 @@ def validate_top_k(top_k: int) -> int:
         raise ValueError("top-k must be an integer greater than or equal to 1.")
     return top_k
 
+def resolve_candidate_k(
+    top_k: int,
+    candidate_k: int | None,
+) -> int:
+    """candidate_k 기본값과 입력값을 검증한다."""
+    validated_top_k = validate_top_k(top_k)
+
+    if candidate_k is None:
+        return max(validated_top_k * 5, 50)
+
+    if not isinstance(candidate_k, int) or candidate_k < 1:
+        raise ValueError(
+            "candidate-k must be an integer greater than or equal to 1."
+        )
+
+    return candidate_k
+
+def normalize_filter_values(values) -> list[str]:
+    """필터 입력을 중복 없는 문자열 리스트로 정리한다."""
+    if values is None:
+        return []
+
+    if isinstance(values, str):
+        values = [values]
+
+    if not isinstance(values, (list, tuple, set)):
+        return []
+
+    result = []
+    seen = set()
+
+    for value in values:
+        if not isinstance(value, str):
+            continue
+
+        cleaned = value.strip()
+
+        if not cleaned:
+            continue
+
+        key = cleaned.lower()
+
+        if key not in seen:
+            seen.add(key)
+            result.append(cleaned)
+
+    return result
+
+def build_filter_clause(
+    filters: dict | None,
+) -> tuple[str, list, dict]:
+    """하드 필터를 안전한 SQL WHERE 조건으로 변환한다."""
+    allowed_fields = {
+        "place_id": "vs.place_id",
+        "drama_title": "vs.drama_title",
+        "region": "vs.region",
+        "city": "vs.city",
+        "season": "vs.season",
+        "time_of_day": "vs.time_of_day",
+    }
+
+    filters = filters or {}
+
+    clauses = []
+    params = []
+    applied_filters = {}
+
+    for field, column in allowed_fields.items():
+        values = normalize_filter_values(
+            filters.get(field)
+        )
+
+        if not values:
+            continue
+
+        clauses.append(
+            f"{column} = ANY(%s)"
+        )
+        params.append(values)
+        applied_filters[field] = values
+
+    if not clauses:
+        return "", [], {}
+
+    return (
+        " AND " + " AND ".join(clauses),
+        params,
+        applied_filters,
+    )
+
+def search_text_candidates(
+    cursor,
+    query_vector,
+    candidate_k: int,
+    filters: dict | None = None,
+) -> list[dict]:
+    """필터 적용 후 text embedding 기준 후보 SCENE을 검색한다."""
+    vector = validate_query_vector(query_vector)
+    limit = resolve_candidate_k(1, candidate_k)
+
+    filter_clause, filter_params, _ = build_filter_clause(
+        filters
+    )
+
+    query = f"""
+        SELECT
+            vs.source_segment_id,
+            vs.segment_id,
+            sk.keyframe_id,
+            sk.keyframe_path,
+            vs.place_id,
+            vs.place_name,
+            vs.region,
+            vs.city,
+            vs.drama_title,
+            vs.season,
+            vs.time_of_day,
+            sk.description,
+            sk.mood,
+            sk.activity,
+            sk.scene_elements,
+            sk.k_culture_elements,
+            vs.start_time,
+            vs.end_time,
+            se.text_embedding <=> %s AS text_distance
+        FROM video_segments AS vs
+
+        JOIN segment_embeddings AS se
+            ON se.segment_id = vs.segment_id
+
+        LEFT JOIN segment_keyframes AS sk
+            ON sk.segment_id = vs.segment_id
+
+        WHERE se.text_embedding IS NOT NULL
+        {filter_clause}
+
+        ORDER BY text_distance ASC
+        LIMIT %s
+    """
+
+    params = [
+        vector,
+        *filter_params,
+        limit,
+    ]
+
+    cursor.execute(
+        query,
+        params,
+    )
+
+    rows = cursor.fetchall()
+    results = []
+
+    for rank, row in enumerate(rows, start=1):
+        results.append(
+            {
+                "source_segment_id": row[0],
+                "segment_id": row[1],
+                "keyframe_id": row[2],
+                "keyframe_path": row[3],
+                "place_id": row[4],
+                "place_name": row[5],
+                "region": row[6],
+                "city": row[7],
+                "drama_title": row[8],
+                "season": row[9],
+                "time_of_day": row[10],
+                "description": row[11],
+                "mood": row[12],
+                "activity": row[13],
+                "scene_elements": row[14],
+                "k_culture_elements": row[15],
+                "start_time": row[16],
+                "end_time": row[17],
+                "text_score": distance_to_similarity(
+                    row[18]
+                ),
+                "text_rank": rank,
+                "image_score": None,
+                "image_rank": None,
+            }
+        )
+
+    return results
+
+def search_image_candidates(
+    cursor,
+    query_vector,
+    candidate_k: int,
+    filters: dict | None = None,
+) -> list[dict]:
+    """필터 적용 후 image embedding 기준 후보 SCENE을 검색한다."""
+    vector = validate_query_vector(query_vector)
+    limit = resolve_candidate_k(1, candidate_k)
+
+    filter_clause, filter_params, _ = build_filter_clause(
+        filters
+    )
+
+    query = f"""
+        SELECT
+            vs.source_segment_id,
+            vs.segment_id,
+            sk.keyframe_id,
+            sk.keyframe_path,
+            vs.place_id,
+            vs.place_name,
+            vs.region,
+            vs.city,
+            vs.drama_title,
+            vs.season,
+            vs.time_of_day,
+            sk.description,
+            sk.mood,
+            sk.activity,
+            sk.scene_elements,
+            sk.k_culture_elements,
+            vs.start_time,
+            vs.end_time,
+            ke.image_embedding <=> %s AS image_distance
+        FROM video_segments AS vs
+
+        JOIN segment_keyframes AS sk
+            ON sk.segment_id = vs.segment_id
+
+        JOIN keyframe_embeddings AS ke
+            ON ke.keyframe_id = sk.keyframe_id
+
+        WHERE ke.image_embedding IS NOT NULL
+        {filter_clause}
+
+        ORDER BY image_distance ASC
+        LIMIT %s
+    """
+
+    params = [
+        vector,
+        *filter_params,
+        limit,
+    ]
+
+    cursor.execute(
+        query,
+        params,
+    )
+
+    rows = cursor.fetchall()
+    results = []
+
+    for rank, row in enumerate(rows, start=1):
+        results.append(
+            {
+                "source_segment_id": row[0],
+                "segment_id": row[1],
+                "keyframe_id": row[2],
+                "keyframe_path": row[3],
+                "place_id": row[4],
+                "place_name": row[5],
+                "region": row[6],
+                "city": row[7],
+                "drama_title": row[8],
+                "season": row[9],
+                "time_of_day": row[10],
+                "description": row[11],
+                "mood": row[12],
+                "activity": row[13],
+                "scene_elements": row[14],
+                "k_culture_elements": row[15],
+                "start_time": row[16],
+                "end_time": row[17],
+                "text_score": None,
+                "text_rank": None,
+                "image_score": distance_to_similarity(
+                    row[18]
+                ),
+                "image_rank": rank,
+            }
+        )
+
+    return results
+
+def merge_candidate_results(
+    text_results: list[dict],
+    image_results: list[dict],
+) -> list[dict]:
+    """text/image 후보를 segment_id 기준으로 병합한다."""
+    merged = {}
+
+    for item in text_results:
+        segment_id = item["segment_id"]
+        merged[segment_id] = dict(item)
+
+    for item in image_results:
+        segment_id = item["segment_id"]
+
+        if segment_id not in merged:
+            merged[segment_id] = dict(item)
+            continue
+
+        merged_item = merged[segment_id]
+
+        merged_item["image_score"] = item.get(
+            "image_score"
+        )
+        merged_item["image_rank"] = item.get(
+            "image_rank"
+        )
+
+    return list(merged.values())
 
 def validate_query_vector(vector) -> np.ndarray:
     array = np.asarray(vector, dtype=np.float32)
@@ -74,8 +384,55 @@ def parse_arguments(argv=None):
         help="Number of results to return",
     )
 
+    parser.add_argument(
+    "--candidate-k",
+    type=int,
+    default=None,
+    help="Number of candidates to retrieve per modality",
+    )
+
+    parser.add_argument(
+        "--place-id",
+        action="append",
+        default=None,
+    )
+
+    parser.add_argument(
+        "--drama-title",
+        action="append",
+        default=None,
+    )
+
+    parser.add_argument(
+        "--region",
+        action="append",
+        default=None,
+    )
+
+    parser.add_argument(
+        "--city",
+        action="append",
+        default=None,
+    )
+
+    parser.add_argument(
+        "--season",
+        action="append",
+        default=None,
+    )
+
+    parser.add_argument(
+        "--time-of-day",
+        action="append",
+        default=None,
+    )
+
     args = parser.parse_args(argv)
     args.top_k = validate_top_k(args.top_k)
+    args.candidate_k = resolve_candidate_k(
+        args.top_k,
+        args.candidate_k,
+    )
     return args
 
 
@@ -217,151 +574,57 @@ def encode_image(
 
 def search_database(
     query_vector,
-    search_mode: str,
-    top_k: int,
-) -> list[dict]:
-    if search_mode not in {"text", "image"}:
-        raise ValueError(
-            f"지원하지 않는 검색 모드입니다: {search_mode}"
-        )
-
+    top_k: int = 5,
+    candidate_k: int | None = None,
+    filters: dict | None = None,
+) -> dict:
+    """text/image 후보를 각각 검색한 뒤 SCENE 단위로 병합한다."""
     vector = validate_query_vector(query_vector)
-    limit = validate_top_k(top_k)
-    connection_string = build_connection_string()
 
-    order_column = (
-        "text_distance"
-        if search_mode == "text"
-        else "image_distance"
+    validated_top_k = validate_top_k(top_k)
+
+    resolved_candidate_k = resolve_candidate_k(
+        validated_top_k,
+        candidate_k,
     )
 
-    query = f"""
-        SELECT
-            vs.segment_id,
-            best_keyframe.keyframe_id,
-            best_keyframe.keyframe_path,
-            vs.place_id,
-            vs.region,
-            vs.spot_name,
-            vs.drama_title,
+    _, _, applied_filters = build_filter_clause(
+        filters
+    )
 
-            best_keyframe.description,
-            best_keyframe.time_of_day,
-            best_keyframe.mood,
-            best_keyframe.activity,
-            best_keyframe.scene_elements,
+    connection_string = build_connection_string()
 
-            vs.video_id,
-            vs.start_time,
-            vs.end_time,
-
-            se.text_embedding <=> %s
-                AS text_distance,
-
-            best_keyframe.image_distance,
-
-            vs.summary
-
-        FROM video_segments AS vs
-
-        JOIN segment_embeddings AS se
-            ON se.segment_id = vs.segment_id
-
-        JOIN LATERAL (
-            SELECT
-                sk.keyframe_id,
-                sk.keyframe_path,
-                sk.description,
-                sk.time_of_day,
-                sk.mood,
-                sk.activity,
-                sk.scene_elements,
-
-                ke.image_embedding <=> %s
-                    AS image_distance
-
-            FROM segment_keyframes AS sk
-
-            JOIN keyframe_embeddings AS ke
-                ON ke.keyframe_id = sk.keyframe_id
-
-            WHERE sk.segment_id = vs.segment_id
-              AND ke.image_embedding IS NOT NULL
-
-            ORDER BY image_distance
-            LIMIT 1
-
-        ) AS best_keyframe
-            ON TRUE
-
-        WHERE se.text_embedding IS NOT NULL
-
-        ORDER BY {order_column}
-        LIMIT %s
-    """
-
-    with psycopg.connect(connection_string) as connection:
+    with psycopg.connect(
+        connection_string
+    ) as connection:
         register_vector(connection)
 
         with connection.cursor() as cursor:
-            cursor.execute(
-                query,
-                (
-                    vector,
-                    vector,
-                    limit,
-                ),
+            text_results = search_text_candidates(
+                cursor=cursor,
+                query_vector=vector,
+                candidate_k=resolved_candidate_k,
+                filters=filters,
             )
 
-            rows = cursor.fetchall()
+            image_results = search_image_candidates(
+                cursor=cursor,
+                query_vector=vector,
+                candidate_k=resolved_candidate_k,
+                filters=filters,
+            )
 
-    results = []
+    results = merge_candidate_results(
+        text_results,
+        image_results,
+    )
 
-    for row in rows:
-        text_score = distance_to_similarity(
-            float(row[15])
-        )
-
-        image_score = distance_to_similarity(
-            float(row[16])
-        )
-
-        similarity = (
-            text_score
-            if search_mode == "text"
-            else image_score
-        )
-
-        results.append(
-            {
-                "segment_id": row[0],
-                "keyframe_id": row[1],
-                "keyframe_path": row[2],
-
-                "place_id": row[3],
-                "region": row[4],
-                "spot_name": row[5],
-                "drama_title": row[6],
-
-                "description": row[7],
-                "time_of_day": row[8],
-                "mood": row[9],
-                "activity": row[10],
-                "scene_elements": row[11],
-
-                "video_id": row[12],
-                "start_time": row[13],
-                "end_time": row[14],
-
-                "text_score": text_score,
-                "image_score": image_score,
-                "similarity": similarity,
-
-                "summary": row[17],
-            }
-        )
-
-    return results
+    return {
+        "applied_filters": applied_filters,
+        "result_count": len(results),
+        "candidate_k": resolved_candidate_k,
+        "results": results,
+    }
 
 def print_results(results: list[dict]) -> None:
     if not results:
@@ -434,11 +697,6 @@ def print_results(results: list[dict]) -> None:
         )
 
         print(
-            f"similarity     : "
-            f"{item.get('similarity', 0.0):.4f}"
-        )
-
-        print(
             f"keyframe_path : "
             f"{item.get('keyframe_path')}"
         )
@@ -449,6 +707,135 @@ def print_results(results: list[dict]) -> None:
         )
 
         print("-" * 70)
+
+    def print_results(results: list[dict]) -> None:
+        if not results:
+            print("검색 결과가 없습니다.")
+            return
+
+        print()
+        print("=" * 70)
+        print(f"Search results: {len(results)}")
+        print("=" * 70)
+
+        for index, item in enumerate(
+            results,
+            start=1,
+        ):
+            print(f"[{index}]")
+
+            print(
+                f"source_segment_id : "
+                f"{item.get('source_segment_id')}"
+            )
+
+            print(
+                f"segment_id        : "
+                f"{item.get('segment_id')}"
+            )
+
+            print(
+                f"keyframe_id       : "
+                f"{item.get('keyframe_id')}"
+            )
+
+            print(
+                f"keyframe_path     : "
+                f"{item.get('keyframe_path')}"
+            )
+
+            print(
+                f"place_id          : "
+                f"{item.get('place_id')}"
+            )
+
+            print(
+                f"place_name        : "
+                f"{item.get('place_name')}"
+            )
+
+            print(
+                f"region            : "
+                f"{item.get('region')}"
+            )
+
+            print(
+                f"city              : "
+                f"{item.get('city')}"
+            )
+
+            print(
+                f"drama_title       : "
+                f"{item.get('drama_title')}"
+            )
+
+            print(
+                f"season            : "
+                f"{item.get('season')}"
+            )
+
+            print(
+                f"time_of_day       : "
+                f"{item.get('time_of_day')}"
+            )
+
+            print(
+                f"description       : "
+                f"{item.get('description')}"
+            )
+
+            print(
+                f"mood              : "
+                f"{item.get('mood')}"
+            )
+
+            print(
+                f"activity          : "
+                f"{item.get('activity')}"
+            )
+
+            print(
+                f"scene_elements    : "
+                f"{item.get('scene_elements')}"
+            )
+
+            print(
+                f"k_culture_elements: "
+                f"{item.get('k_culture_elements')}"
+            )
+
+            start_time = item.get("start_time")
+            end_time = item.get("end_time")
+
+            print(
+                f"time              : "
+                f"{start_time}s ~ {end_time}s"
+            )
+
+            text_score = item.get("text_score")
+            image_score = item.get("image_score")
+
+            print(
+                f"text_score        : "
+                f"{text_score if text_score is not None else None}"
+            )
+
+            print(
+                f"image_score       : "
+                f"{image_score if image_score is not None else None}"
+            )
+
+            print(
+                f"text_rank         : "
+                f"{item.get('text_rank')}"
+            )
+
+            print(
+                f"image_rank        : "
+                f"{item.get('image_rank')}"
+            )
+
+            print("-" * 70)
 
 def load_clip_model():
     device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -499,13 +886,41 @@ def main(argv=None) -> None:
     print(f"Query vector dimension: {query_vector.shape[0]}")
     print(f"Searching top {args.top_k} results...")
 
-    results = search_database(
-        query_vector,
-        search_mode,
-        args.top_k,
+    filters = {
+        "place_id": args.place_id,
+        "drama_title": args.drama_title,
+        "region": args.region,
+        "city": args.city,
+        "season": args.season,
+        "time_of_day": args.time_of_day,
+    }
+
+    response = search_database(
+        query_vector=query_vector,
+        top_k=args.top_k,
+        candidate_k=args.candidate_k,
+        filters=filters,
     )
 
-    print_results(results)
+    print(
+        f"Applied filters: "
+        f"{response['applied_filters']}"
+    )
+
+    print(
+        f"Candidate count: "
+        f"{response['result_count']}"
+    )
+
+    print(
+        f"Candidate k: "
+        f"{response['candidate_k']}"
+    )
+
+    print_results(
+        response["results"]
+    )
+
 
 
 if __name__ == "__main__":

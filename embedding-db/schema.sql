@@ -68,10 +68,20 @@ CREATE TABLE IF NOT EXISTS video_segments (
     mood_tags TEXT[],
     season_tags TEXT[],
 
+    source_segment_id TEXT,
+
     place_id TEXT,
+    place_name TEXT,
     region TEXT,
+    city TEXT,
     drama_title TEXT,
+    season TEXT,
+    time_of_day TEXT,
     spot_name TEXT,
+
+    activity_tags TEXT[],
+    scene_elements TEXT[],
+    k_culture_elements TEXT[],
 
     keyframe_path TEXT,
 
@@ -85,6 +95,43 @@ ADD COLUMN IF NOT EXISTS place_id TEXT;
 
 ALTER TABLE video_segments
 ADD COLUMN IF NOT EXISTS drama_title TEXT;
+
+-- =========================================================
+-- 기존 DB 호환용 SCENE 검색 컬럼 마이그레이션
+-- =========================================================
+
+ALTER TABLE video_segments
+ADD COLUMN IF NOT EXISTS source_segment_id TEXT;
+
+ALTER TABLE video_segments
+ADD COLUMN IF NOT EXISTS place_id TEXT;
+
+ALTER TABLE video_segments
+ADD COLUMN IF NOT EXISTS place_name TEXT;
+
+ALTER TABLE video_segments
+ADD COLUMN IF NOT EXISTS region TEXT;
+
+ALTER TABLE video_segments
+ADD COLUMN IF NOT EXISTS city TEXT;
+
+ALTER TABLE video_segments
+ADD COLUMN IF NOT EXISTS drama_title TEXT;
+
+ALTER TABLE video_segments
+ADD COLUMN IF NOT EXISTS season TEXT;
+
+ALTER TABLE video_segments
+ADD COLUMN IF NOT EXISTS time_of_day TEXT;
+
+ALTER TABLE video_segments
+ADD COLUMN IF NOT EXISTS activity_tags TEXT[];
+
+ALTER TABLE video_segments
+ADD COLUMN IF NOT EXISTS scene_elements TEXT[];
+
+ALTER TABLE video_segments
+ADD COLUMN IF NOT EXISTS k_culture_elements TEXT[];
 -- =========================================================
 -- 5. 임베딩 테이블
 -- 텍스트 임베딩과 이미지 임베딩 저장
@@ -120,6 +167,7 @@ CREATE TABLE IF NOT EXISTS segment_keyframes (
     mood TEXT[],
     activity TEXT[],
     scene_elements TEXT[],
+    k_culture_elements TEXT[],
 
     metadata JSONB,
 
@@ -141,6 +189,9 @@ ADD COLUMN IF NOT EXISTS activity TEXT[];
 
 ALTER TABLE segment_keyframes
 ADD COLUMN IF NOT EXISTS scene_elements TEXT[];
+
+ALTER TABLE segment_keyframes
+ADD COLUMN IF NOT EXISTS k_culture_elements TEXT[];
 
 CREATE INDEX IF NOT EXISTS idx_segment_keyframes_segment_id
 ON segment_keyframes(segment_id);
@@ -165,6 +216,24 @@ CREATE TABLE IF NOT EXISTS keyframe_embeddings (
 -- 8. 일반 검색용 인덱스
 -- 지역, 태그, 감성, 계절 필터 검색을 빠르게 하기 위함
 -- =========================================================
+CREATE INDEX IF NOT EXISTS idx_video_segments_source_segment_id
+ON video_segments(source_segment_id);
+
+CREATE INDEX IF NOT EXISTS idx_video_segments_place_id
+ON video_segments(place_id);
+
+CREATE INDEX IF NOT EXISTS idx_video_segments_drama_title
+ON video_segments(drama_title);
+
+CREATE INDEX IF NOT EXISTS idx_video_segments_city
+ON video_segments(city);
+
+CREATE INDEX IF NOT EXISTS idx_video_segments_season
+ON video_segments(season);
+
+CREATE INDEX IF NOT EXISTS idx_video_segments_time_of_day
+ON video_segments(time_of_day);
+
 CREATE INDEX IF NOT EXISTS idx_video_segments_video_id
 ON video_segments(video_id);
 

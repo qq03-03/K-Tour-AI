@@ -195,6 +195,9 @@ def prepare_records(
 
         segments.append(
             {
+                "source_segment_id": optional_text(
+                    first_item.get("source_segment_id")
+                ),
                 "segment_id": segment_id,
                 "video_id": first_item["video_id"],
                 "place_id": optional_text(
@@ -209,8 +212,29 @@ def prepare_records(
                 "region": optional_text(
                     first_item.get("region")
                 ),
+                "city": optional_text(
+                    first_item.get("city")
+                ),
                 "drama_title": optional_text(
                     first_item.get("drama_title")
+                ),
+                "season": optional_text(
+                    first_item.get("season")
+                ),
+                "time_of_day": optional_text(
+                    first_item.get("time_of_day")
+                ),
+                "mood": unique_strings(
+                    first_item.get("mood")
+                ),
+                "activity": unique_strings(
+                    first_item.get("activity")
+                ),
+                "scene_elements": unique_strings(
+                    first_item.get("scene_elements")
+                ),
+                "k_culture_elements": unique_strings(
+                    first_item.get("k_culture_elements")
                 ),
                 "start_time": first_item.get(
                     "start_time"
@@ -282,6 +306,9 @@ def prepare_records(
             "scene_elements",
             [],
         ),
+        "k_culture_elements": unique_strings(
+            metadata.get("k_culture_elements")
+        ),
         "image_embedding": image_embedding,
         "metadata": metadata,
     }
@@ -343,6 +370,13 @@ def insert_prepared_records(
             )
         )
 
+        k_culture_elements = unique_strings(
+            first_metadata.get(
+                "k_culture_elements",
+                [],
+            )
+        )
+
         tags = unique_strings(
             scene_elements + activities
         )
@@ -397,53 +431,96 @@ def insert_prepared_records(
 
         cursor.execute(
             """
-            INSERT INTO video_segments (
-                segment_id,
-                video_id,
-                spot_id,
-                place_id,
-                start_time,
-                end_time,
-                caption,
-                summary,
-                tags,
-                mood_tags,
-                season_tags,
-                region,
-                drama_title,
-                spot_name,
-                keyframe_path,
-                metadata
-            )
-            VALUES (
-                %s, %s, %s, %s,
-                %s, %s, %s, %s,
-                %s, %s, %s, %s,
-                %s, %s, %s, %s
-            )
-            ON CONFLICT (segment_id)
-            DO UPDATE SET
-                video_id = EXCLUDED.video_id,
-                spot_id = EXCLUDED.spot_id,
-                place_id = EXCLUDED.place_id,
-                start_time = EXCLUDED.start_time,
-                end_time = EXCLUDED.end_time,
-                caption = EXCLUDED.caption,
-                summary = EXCLUDED.summary,
-                tags = EXCLUDED.tags,
-                mood_tags = EXCLUDED.mood_tags,
-                season_tags = EXCLUDED.season_tags,
-                region = EXCLUDED.region,
-                drama_title = EXCLUDED.drama_title,
-                spot_name = EXCLUDED.spot_name,
-                keyframe_path = EXCLUDED.keyframe_path,
-                metadata = EXCLUDED.metadata
+                INSERT INTO video_segments (
+                    segment_id,
+                    source_segment_id,
+                    video_id,
+                    spot_id,
+                    place_id,
+                    place_name,
+                    start_time,
+                    end_time,
+                    caption,
+                    summary,
+                    tags,
+                    mood_tags,
+                    season_tags,
+                    activity_tags,
+                    scene_elements,
+                    k_culture_elements,
+                    region,
+                    city,
+                    drama_title,
+                    season,
+                    time_of_day,
+                    spot_name,
+                    keyframe_path,
+                    metadata
+                )
+                VALUES (
+                    %s, %s, %s, %s,
+                    %s, %s, %s, %s,
+                    %s, %s, %s, %s,
+                    %s, %s, %s, %s,
+                    %s, %s, %s, %s,
+                    %s, %s, %s, %s
+                )
+                ON CONFLICT (segment_id)
+                DO UPDATE SET
+                    source_segment_id =
+                        EXCLUDED.source_segment_id,
+                    video_id =
+                        EXCLUDED.video_id,
+                    spot_id =
+                        EXCLUDED.spot_id,
+                    place_id =
+                        EXCLUDED.place_id,
+                    place_name =
+                        EXCLUDED.place_name,
+                    start_time =
+                        EXCLUDED.start_time,
+                    end_time =
+                        EXCLUDED.end_time,
+                    caption =
+                        EXCLUDED.caption,
+                    summary =
+                        EXCLUDED.summary,
+                    tags =
+                        EXCLUDED.tags,
+                    mood_tags =
+                        EXCLUDED.mood_tags,
+                    season_tags =
+                        EXCLUDED.season_tags,
+                    activity_tags =
+                        EXCLUDED.activity_tags,
+                    scene_elements =
+                        EXCLUDED.scene_elements,
+                    k_culture_elements =
+                        EXCLUDED.k_culture_elements,
+                    region =
+                        EXCLUDED.region,
+                    city =
+                        EXCLUDED.city,
+                    drama_title =
+                        EXCLUDED.drama_title,
+                    season =
+                        EXCLUDED.season,
+                    time_of_day =
+                        EXCLUDED.time_of_day,
+                    spot_name =
+                        EXCLUDED.spot_name,
+                    keyframe_path =
+                        EXCLUDED.keyframe_path,
+                    metadata =
+                        EXCLUDED.metadata
             """,
             (
                 segment_id,
+                segment.get("source_segment_id"),
                 video_id,
                 None,
                 segment.get("place_id"),
+                segment.get("place_name"),
                 segment.get("start_time"),
                 segment.get("end_time"),
                 description,
@@ -451,8 +528,14 @@ def insert_prepared_records(
                 tags,
                 mood_tags,
                 season_tags,
+                activities,
+                scene_elements,
+                k_culture_elements,
                 segment.get("region"),
+                segment.get("city"),
                 segment.get("drama_title"),
+                segment.get("season"),
+                segment.get("time_of_day"),
                 spot_name,
                 keyframe_path,
                 Jsonb(metadata_items),
@@ -482,40 +565,44 @@ def insert_prepared_records(
     for keyframe in records["keyframes"]:
         cursor.execute(
     """
-    INSERT INTO segment_keyframes (
-        keyframe_id,
-        segment_id,
-        keyframe_path,
-        description,
-        time_of_day,
-        mood,
-        activity,
-        scene_elements,
-        metadata
-    )
-    VALUES (
-        %s, %s, %s,
-        %s, %s, %s,
-        %s, %s, %s
-    )
-    ON CONFLICT (keyframe_id)
-    DO UPDATE SET
-        segment_id =
-            EXCLUDED.segment_id,
-        keyframe_path =
-            EXCLUDED.keyframe_path,
-        description =
-            EXCLUDED.description,
-        time_of_day =
-            EXCLUDED.time_of_day,
-        mood =
-            EXCLUDED.mood,
-        activity =
-            EXCLUDED.activity,
-        scene_elements =
-            EXCLUDED.scene_elements,
-        metadata =
-            EXCLUDED.metadata
+        INSERT INTO segment_keyframes (
+            keyframe_id,
+            segment_id,
+            keyframe_path,
+            description,
+            time_of_day,
+            mood,
+            activity,
+            scene_elements,
+            k_culture_elements,
+            metadata
+        )
+        VALUES (
+            %s, %s, %s,
+            %s, %s, %s,
+            %s, %s, %s,
+            %s
+        )
+        ON CONFLICT (keyframe_id)
+        DO UPDATE SET
+            segment_id =
+                EXCLUDED.segment_id,
+            keyframe_path =
+                EXCLUDED.keyframe_path,
+            description =
+                EXCLUDED.description,
+            time_of_day =
+                EXCLUDED.time_of_day,
+            mood =
+                EXCLUDED.mood,
+            activity =
+                EXCLUDED.activity,
+            scene_elements =
+                EXCLUDED.scene_elements,
+            k_culture_elements =
+                EXCLUDED.k_culture_elements,
+            metadata =
+                EXCLUDED.metadata
     """,
     (
         keyframe["keyframe_id"],
@@ -527,6 +614,10 @@ def insert_prepared_records(
         keyframe.get("activity", []),
         keyframe.get(
             "scene_elements",
+            [],
+        ),
+        keyframe.get(
+            "k_culture_elements",
             [],
         ),
         Jsonb(
@@ -721,11 +812,6 @@ def main() -> None:
     ) as connection:
 
         with connection.cursor() as cursor:
-            delete_stale_records(
-                cursor,
-                records,
-            )
-
             insert_prepared_records(
                 cursor,
                 records,

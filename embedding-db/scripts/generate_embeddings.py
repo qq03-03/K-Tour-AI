@@ -52,14 +52,16 @@ def build_search_text(item: dict) -> str:
     spot_name = valid_text(item.get("spot_name"))
     place_name = valid_text(item.get("place_name"))
     region = valid_text(item.get("region"))
+    city = valid_text(item.get("city"))
     drama_title = valid_text(item.get("drama_title"))
     season = valid_text(item.get("season"))
     time_of_day = valid_text(item.get("time_of_day"))
     description = valid_text(item.get("description"))
 
-    mood = unique_strings(item.get("mood", []))
-    scene_elements = unique_strings(item.get("scene_elements", []))
-    activities = unique_strings(item.get("activity", []))
+    mood = unique_strings(item.get("mood") or [])
+    scene_elements = unique_strings(item.get("scene_elements") or [])
+    activities = unique_strings(item.get("activity") or [])
+    k_culture_elements = unique_strings(item.get("k_culture_elements") or [])
 
     if spot_name:
         parts.append(spot_name)
@@ -69,6 +71,9 @@ def build_search_text(item: dict) -> str:
 
     if region:
         parts.append(region)
+
+    if city:
+        parts.append(city)
 
     if drama_title:
         parts.append(drama_title)
@@ -88,11 +93,14 @@ def build_search_text(item: dict) -> str:
     if activities:
         parts.append("Activities: " + ", ".join(activities[:5]))
 
+    if k_culture_elements:
+        parts.append("K-culture: " + ", ".join(k_culture_elements[:5]))
+
     return ". ".join(parts)
 
 def build_keyframe_id(item: dict) -> str:
-    """segment_id와 keyframe 파일명으로 고유 keyframe_id를 만든다."""
-    segment_id = item["segment_id"]
+    """팀 검색 규격에 따라 keyframe_id는 segment_id와 동일하게 사용한다."""
+    return item["segment_id"]
     keyframe_stem = Path(item["keyframe_path"]).stem
 
     return f"{segment_id}__{keyframe_stem}"
@@ -173,12 +181,22 @@ def build_embedding_records(
 
         segment_embeddings.append(
             {
+                "source_segment_id": first_item.get("source_segment_id"),
                 "segment_id": segment_id,
                 "video_id": first_item["video_id"],
+                "place_id": first_item.get("place_id"),
                 "place_name": first_item.get("place_name"),
                 "spot_name": first_item.get("spot_name"),
                 "region": first_item.get("region"),
+                "city": first_item.get("city"),
                 "drama_title": first_item.get("drama_title"),
+                "season": first_item.get("season"),
+                "time_of_day": first_item.get("time_of_day"),
+                "description": first_item.get("description"),
+                "mood": first_item.get("mood", []),
+                "activity": first_item.get("activity", []),
+                "scene_elements": first_item.get("scene_elements", []),
+                "k_culture_elements": first_item.get("k_culture_elements"),
                 "start_time": first_item.get("start_time"),
                 "end_time": first_item.get("end_time"),
                 "search_text": search_text,
@@ -205,13 +223,25 @@ def build_embedding_records(
 
             keyframe_embeddings.append(
                 {
-                    "keyframe_id": keyframe_id,
+                    "source_segment_id": item.get("source_segment_id"),
                     "segment_id": segment_id,
+                    "keyframe_id": keyframe_id,
                     "keyframe_path": item["keyframe_path"],
+                    "video_id": item.get("video_id"),
+                    "place_id": item.get("place_id"),
                     "place_name": item.get("place_name"),
                     "region": item.get("region"),
+                    "city": item.get("city"),
                     "drama_title": item.get("drama_title"),
+                    "season": item.get("season"),
+                    "time_of_day": item.get("time_of_day"),
                     "description": item.get("description"),
+                    "mood": item.get("mood", []),
+                    "activity": item.get("activity", []),
+                    "scene_elements": item.get("scene_elements", []),
+                    "k_culture_elements": item.get("k_culture_elements"),
+                    "start_time": item.get("start_time"),
+                    "end_time": item.get("end_time"),
                     "metadata": item,
                     "embedding_model": MODEL_NAME,
                     "image_embedding": image_embedding,
