@@ -1,0 +1,26 @@
+{
+  "applied_filters": {
+    "region": [
+      "경기도"
+    ],
+    "season": [
+      "봄"
+    ],
+    "time_of_day": [
+      "day"
+    ]
+  },
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "source_segment_id": "V062_P083_S001",
+      "segment_id": "V062_P083_S001_SCENE_001",
+      "keyframe_id": "V062_P083_S001_SCENE_001",
+      "keyframe_path": "keyframes/V062_aSample/V062_P083_S001_SCENE_001.jpg",
+      "text_score": 0.82,
+      "image_score": 0.79,
+      "text_rank": 1,
+      "image_rank": 1
+    }
+  ]
+}

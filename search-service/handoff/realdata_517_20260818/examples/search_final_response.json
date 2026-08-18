@@ -1,0 +1,26 @@
+{
+  "query": "봄 벚꽃길을 자동차로 달리는 장면",
+  "lang": "ko",
+  "result_count": 1,
+  "results": [
+    {
+      "rank": 1,
+      "source_segment_id": "V062_P083_S001",
+      "segment_id": "V062_P083_S001_SCENE_001",
+      "keyframe_id": "V062_P083_S001_SCENE_001",
+      "place_id": "P083",
+      "place_name": "북한강길",
+      "region": "경기도",
+      "city": "가평군",
+      "latitude": 37.7073429953365,
+      "longitude": 127.398350926483,
+      "season": "봄",
+      "time_of_day": "day",
+      "text_score": 0.82,
+      "image_score": 0.79,
+      "text_rank": 1,
+      "image_rank": 1,
+      "final_score": 0.03278688524590164
+    }
+  ]
+}

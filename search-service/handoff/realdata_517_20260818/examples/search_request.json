@@ -1,0 +1,15 @@
+{
+  "query": "봄 벚꽃길을 자동차로 달리는 장면",
+  "lang": "ko",
+  "region": [
+    "경기도"
+  ],
+  "season": [
+    "봄"
+  ],
+  "time_of_day": [
+    "day"
+  ],
+  "top_k": 5,
+  "candidate_k": 50
+}

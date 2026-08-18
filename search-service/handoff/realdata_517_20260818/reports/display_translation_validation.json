@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-08-18T05:17:50.437Z",
+  "metadata_records": 517,
+  "translation_records": 517,
+  "unique_translation_segment_ids": 517,
+  "required_languages": [
+    "ko",
+    "en",
+    "ja",
+    "zh"
+  ],
+  "p063_records": 0,
+  "errors": [],
+  "passed": true
+}

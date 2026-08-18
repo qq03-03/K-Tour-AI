@@ -1,0 +1,28 @@
+{
+  "metadata_records": 517,
+  "unique_segment_ids": 517,
+  "unique_keyframe_paths": 517,
+  "checks": [
+    {
+      "label": "translations",
+      "records": 517,
+      "unique_ids": 517,
+      "passed": true
+    },
+    {
+      "label": "coordinates",
+      "records": 74,
+      "missing_place_ids": [],
+      "passed": true
+    },
+    {
+      "label": "keyframes_zip",
+      "records": 517,
+      "missing": [],
+      "unexpected": [],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

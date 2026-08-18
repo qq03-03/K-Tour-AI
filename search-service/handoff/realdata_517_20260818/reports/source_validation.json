@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-08-18T05:17:50.452Z",
+  "metadata_records": 517,
+  "unique_segment_ids": 517,
+  "unique_keyframe_paths": 517,
+  "unique_source_segment_ids": 109,
+  "unique_place_ids": 74,
+  "p063_records": 0,
+  "p064_records": 0,
+  "invalid_time_ranges": 0,
+  "blank_drama_titles": 0,
+  "translation_validation_passed": true,
+  "coordinate_records": 74,
+  "coordinate_missing": 0,
+  "evaluation_queries": 40
+}

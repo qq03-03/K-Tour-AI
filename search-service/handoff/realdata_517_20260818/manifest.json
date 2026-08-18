@@ -1,0 +1,28 @@
+{
+  "package_version": "2026-08-18-v1",
+  "base_scene_count": 517,
+  "excluded_place_ids": [
+    "P063"
+  ],
+  "source_sha256": {
+    "metadata_517_no_P063_json": "df55406c12909ef0e3bdeaee3f0cdc43271035ec7c2dbdaccb7f952f2c468a38",
+    "display_translations_517_no_P063_json": "a2efb1d775e4138924abcfc5693b57140c2ceeedcc88fb47d6e580bb60454b48",
+    "keyframes_517_no_P063_zip": "c9d64dbf30fe8b45b1236b0c079cf00fd146b8e7bc42d216caef68c00aacf1de"
+  },
+  "generated_files": [
+    "data/metadata_517_no_P063.json",
+    "data/display_translations_517_no_P063.json",
+    "data/places_coordinates_517.json",
+    "data/places_coordinates_517.csv",
+    "data/multilingual_theme_evaluation_40.json",
+    "docs/search_api_contract.md",
+    "examples/search_request.json",
+    "examples/db_candidate_response.json",
+    "examples/search_final_response.json",
+    "scripts/validate_embedding_delivery.py",
+    "scripts/run_post_embedding_checks.ps1",
+    "reports/source_validation.json",
+    "reports/display_translation_validation.json",
+    "places_coordinates_517_review.xlsx"
+  ]
+}
