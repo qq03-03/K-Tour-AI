@@ -636,206 +636,111 @@ def print_results(results: list[dict]) -> None:
     print(f"Search results: {len(results)}")
     print("=" * 70)
 
-    for index, item in enumerate(
-        results,
-        start=1,
-    ):
+    for index, item in enumerate(results, start=1):
         print(f"[{index}]")
 
         print(
-            f"segment_id    : "
-            f"{item['segment_id']}"
+            f"source_segment_id : "
+            f"{item.get('source_segment_id')}"
         )
-
         print(
-            f"keyframe_id   : "
+            f"segment_id        : "
+            f"{item.get('segment_id')}"
+        )
+        print(
+            f"keyframe_id       : "
             f"{item.get('keyframe_id')}"
         )
-
         print(
-            f"place_id      : "
-            f"{item.get('place_id')}"
-        )
-
-        print(
-            f"region        : "
-            f"{item.get('region')}"
-        )
-
-        print(
-            f"spot_name     : "
-            f"{item.get('spot_name')}"
-        )
-
-        print(f"drama_title   : {item.get('drama_title')}")
-        print(f"description   : {item.get('description')}")
-        print(f"time_of_day   : {item.get('time_of_day')}")
-        print(f"mood          : {item.get('mood')}")
-        print(f"activity      : {item.get('activity')}")
-        print(f"scene_elements: {item.get('scene_elements')}")
-
-        print(
-            f"video_id      : "
-            f"{item.get('video_id')}"
-        )
-
-        print(
-            "time           : "
-            f"{item.get('start_time', 0.0):.2f}s "
-            "~ "
-            f"{item.get('end_time', 0.0):.2f}s"
-        )
-
-        print(
-            f"text_score     : "
-            f"{item.get('text_score', 0.0):.4f}"
-        )
-
-        print(
-            f"image_score    : "
-            f"{item.get('image_score', 0.0):.4f}"
-        )
-
-        print(
-            f"keyframe_path : "
+            f"keyframe_path     : "
             f"{item.get('keyframe_path')}"
         )
 
         print(
-            f"summary        : "
-            f"{item.get('summary')}"
+            f"place_id          : "
+            f"{item.get('place_id')}"
+        )
+        print(
+            f"place_name        : "
+            f"{item.get('place_name')}"
+        )
+        print(
+            f"region            : "
+            f"{item.get('region')}"
+        )
+        print(
+            f"city              : "
+            f"{item.get('city')}"
+        )
+        print(
+            f"drama_title       : "
+            f"{item.get('drama_title')}"
+        )
+        print(
+            f"season            : "
+            f"{item.get('season')}"
+        )
+        print(
+            f"time_of_day       : "
+            f"{item.get('time_of_day')}"
+        )
+
+        print(
+            f"description       : "
+            f"{item.get('description')}"
+        )
+        print(
+            f"mood              : "
+            f"{item.get('mood')}"
+        )
+        print(
+            f"activity          : "
+            f"{item.get('activity')}"
+        )
+        print(
+            f"scene_elements    : "
+            f"{item.get('scene_elements')}"
+        )
+        print(
+            f"k_culture_elements: "
+            f"{item.get('k_culture_elements')}"
+        )
+
+        print(
+            f"time              : "
+            f"{item.get('start_time')}s ~ "
+            f"{item.get('end_time')}s"
+        )
+
+        text_score = item.get("text_score")
+        image_score = item.get("image_score")
+
+        if text_score is None:
+            print("text_score        : None")
+        else:
+            print(
+                f"text_score        : "
+                f"{text_score:.4f}"
+            )
+
+        if image_score is None:
+            print("image_score       : None")
+        else:
+            print(
+                f"image_score       : "
+                f"{image_score:.4f}"
+            )
+
+        print(
+            f"text_rank         : "
+            f"{item.get('text_rank')}"
+        )
+        print(
+            f"image_rank        : "
+            f"{item.get('image_rank')}"
         )
 
         print("-" * 70)
-
-    def print_results(results: list[dict]) -> None:
-        if not results:
-            print("검색 결과가 없습니다.")
-            return
-
-        print()
-        print("=" * 70)
-        print(f"Search results: {len(results)}")
-        print("=" * 70)
-
-        for index, item in enumerate(
-            results,
-            start=1,
-        ):
-            print(f"[{index}]")
-
-            print(
-                f"source_segment_id : "
-                f"{item.get('source_segment_id')}"
-            )
-
-            print(
-                f"segment_id        : "
-                f"{item.get('segment_id')}"
-            )
-
-            print(
-                f"keyframe_id       : "
-                f"{item.get('keyframe_id')}"
-            )
-
-            print(
-                f"keyframe_path     : "
-                f"{item.get('keyframe_path')}"
-            )
-
-            print(
-                f"place_id          : "
-                f"{item.get('place_id')}"
-            )
-
-            print(
-                f"place_name        : "
-                f"{item.get('place_name')}"
-            )
-
-            print(
-                f"region            : "
-                f"{item.get('region')}"
-            )
-
-            print(
-                f"city              : "
-                f"{item.get('city')}"
-            )
-
-            print(
-                f"drama_title       : "
-                f"{item.get('drama_title')}"
-            )
-
-            print(
-                f"season            : "
-                f"{item.get('season')}"
-            )
-
-            print(
-                f"time_of_day       : "
-                f"{item.get('time_of_day')}"
-            )
-
-            print(
-                f"description       : "
-                f"{item.get('description')}"
-            )
-
-            print(
-                f"mood              : "
-                f"{item.get('mood')}"
-            )
-
-            print(
-                f"activity          : "
-                f"{item.get('activity')}"
-            )
-
-            print(
-                f"scene_elements    : "
-                f"{item.get('scene_elements')}"
-            )
-
-            print(
-                f"k_culture_elements: "
-                f"{item.get('k_culture_elements')}"
-            )
-
-            start_time = item.get("start_time")
-            end_time = item.get("end_time")
-
-            print(
-                f"time              : "
-                f"{start_time}s ~ {end_time}s"
-            )
-
-            text_score = item.get("text_score")
-            image_score = item.get("image_score")
-
-            print(
-                f"text_score        : "
-                f"{text_score if text_score is not None else None}"
-            )
-
-            print(
-                f"image_score       : "
-                f"{image_score if image_score is not None else None}"
-            )
-
-            print(
-                f"text_rank         : "
-                f"{item.get('text_rank')}"
-            )
-
-            print(
-                f"image_rank        : "
-                f"{item.get('image_rank')}"
-            )
-
-            print("-" * 70)
 
 def load_clip_model():
     device = "cuda" if torch.cuda.is_available() else "cpu"

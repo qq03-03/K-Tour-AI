@@ -46,55 +46,106 @@ def valid_text(value) -> str:
 
 
 def build_search_text(item: dict) -> str:
-    """메타데이터에서 CLIP 텍스트 임베딩용 문장을 만든다."""
+    """CLIP 77-token 제한을 고려해 SCENE 구별 정보를 우선 배치한다."""
+    description = valid_text(
+        item.get("description")
+    )
+
+    scene_elements = unique_strings(
+        item.get("scene_elements") or []
+    )
+
+    activities = unique_strings(
+        item.get("activity") or []
+    )
+
+    mood = unique_strings(
+        item.get("mood") or []
+    )
+
+    k_culture_elements = unique_strings(
+        item.get("k_culture_elements") or []
+    )
+
+    season = valid_text(
+        item.get("season")
+    )
+
+    time_of_day = valid_text(
+        item.get("time_of_day")
+    )
+
+    place_name = (
+        valid_text(item.get("place_name"))
+        or valid_text(item.get("spot_name"))
+    )
+
+    drama_title = valid_text(
+        item.get("drama_title")
+    )
+
+    region = valid_text(
+        item.get("region")
+    )
+
+    city = valid_text(
+        item.get("city")
+    )
+
     parts = []
 
-    spot_name = valid_text(item.get("spot_name"))
-    place_name = valid_text(item.get("place_name"))
-    region = valid_text(item.get("region"))
-    city = valid_text(item.get("city"))
-    drama_title = valid_text(item.get("drama_title"))
-    season = valid_text(item.get("season"))
-    time_of_day = valid_text(item.get("time_of_day"))
-    description = valid_text(item.get("description"))
+    # 1. SCENE별로 달라지는 정보를 가장 앞에 배치
+    if description:
+        parts.append(description)
 
-    mood = unique_strings(item.get("mood") or [])
-    scene_elements = unique_strings(item.get("scene_elements") or [])
-    activities = unique_strings(item.get("activity") or [])
-    k_culture_elements = unique_strings(item.get("k_culture_elements") or [])
+    if scene_elements:
+        parts.append(
+            "Scene: "
+            + ", ".join(scene_elements[:8])
+        )
 
-    if spot_name:
-        parts.append(spot_name)
+    if activities:
+        parts.append(
+            "Activities: "
+            + ", ".join(activities[:5])
+        )
 
+    if mood:
+        parts.append(
+            "Mood: "
+            + ", ".join(mood[:5])
+        )
+
+    if k_culture_elements:
+        parts.append(
+            "K-culture: "
+            + ", ".join(k_culture_elements[:5])
+        )
+
+    # 2. 계절/시간 정보
+    season_time = " ".join(
+        value
+        for value in [season, time_of_day]
+        if value
+    )
+
+    if season_time:
+        parts.append(season_time)
+
+    # 3. 장소/작품 정보
     if place_name:
         parts.append(place_name)
-
-    if region:
-        parts.append(region)
-
-    if city:
-        parts.append(city)
 
     if drama_title:
         parts.append(drama_title)
 
-    if season or time_of_day:
-        parts.append(" ".join(value for value in [season, time_of_day] if value))
+    # 4. 지역 정보는 마지막에 배치
+    if region:
+        parts.append(region)
 
-    if description:
-        parts.append(description)
-
-    if mood:
-        parts.append("Mood: " + ", ".join(mood[:5]))
-
-    if scene_elements:
-        parts.append("Scene: " + ", ".join(scene_elements[:8]))
-
-    if activities:
-        parts.append("Activities: " + ", ".join(activities[:5]))
-
-    if k_culture_elements:
-        parts.append("K-culture: " + ", ".join(k_culture_elements[:5]))
+    # region과 city가 같으면 중복 삽입하지 않음
+    if city and city != region:
+        parts.append(city)
 
     return ". ".join(parts)
 
