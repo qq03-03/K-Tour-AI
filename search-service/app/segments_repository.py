@@ -25,9 +25,9 @@ class SegmentsRepository:
         query = f"""
             SELECT {_COLUMNS}
             FROM video_segments AS vs
-            WHERE (%s IS NULL OR vs.video_id = %s)
-              AND (%s IS NULL OR vs.place_id = %s)
-              AND (%s IS NULL OR vs.drama_title = %s)
+            WHERE (%s::text IS NULL OR vs.video_id = %s)
+              AND (%s::text IS NULL OR vs.place_id = %s)
+              AND (%s::text IS NULL OR vs.drama_title = %s)
             ORDER BY vs.segment_id
         """
         params = (video_id, video_id, place_id, place_id, drama_title, drama_title)

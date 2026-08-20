@@ -10,7 +10,7 @@ class SpotsRepository:
         query = """
             SELECT spot_id, spot_name, region, address, latitude, longitude, description, source_url
             FROM spots
-            WHERE (%s IS NULL OR region = %s)
+            WHERE (%s::text IS NULL OR region = %s)
             ORDER BY spot_id
         """
         with self._connection_factory() as connection:
