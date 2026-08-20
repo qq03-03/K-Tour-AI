@@ -17,7 +17,15 @@ DATA_PATH = PROJECT_ROOT / "data" / "dummy_segments.json"
 @pytest.fixture(scope="module")
 def segments() -> list[dict[str, object]]:
     with DATA_PATH.open("r", encoding="utf-8") as file:
-        return json.load(file)["segments"]
+        raw_segments = json.load(file)["segments"]
+
+    # 실제 프로덕션 DB(segment_row.segment_from_row)가 만드는 구간 딕셔너리는
+    # "landscape"가 아니라 "scene_elements" 키를 사용한다. 더미 픽스처 파일은
+    # 다른(레거시) 파이프라인 테스트들과 공유되므로 파일 자체는 그대로 두고,
+    # 여기서만 filters.py가 실제로 받는 필드명으로 맞춰준다.
+    for segment in raw_segments:
+        segment["scene_elements"] = segment.pop("landscape")
+    return raw_segments
 
 
 def segment_ids(items: list[object]) -> list[str]:
@@ -137,6 +145,34 @@ def test_landscape_all_requires_every_requested_element(
     )
 
     assert segment_ids(results) == ["SEG_001", "SEG_020"]
+
+
+def test_landscapes_filter_matches_scene_elements_field() -> None:
+    """실제 DB 구간 딕셔너리(segment_row.segment_from_row)처럼 'landscape' 키가
+    없고 'scene_elements' 키만 있는 구간도 landscapes= 필터로 매칭돼야 한다.
+
+    회귀 방지: filter_segments가 내부적으로 segment.get("landscape")를 조회하면
+    이런 구간은 항상 걸러지고, 실사용 시 TypeError까지 발생한다.
+    """
+
+    segments = [
+        {
+            "segment_id": "SEG_REAL_1",
+            "scene_elements": ["한옥", "단풍", "마당"],
+        },
+        {
+            "segment_id": "SEG_REAL_2",
+            "scene_elements": ["바다", "노을"],
+        },
+    ]
+
+    results = filter_segments(
+        segments,
+        landscapes=["한옥", "단풍"],
+        landscape_match="all",
+    )
+
+    assert segment_ids(results) == ["SEG_REAL_1"]
 
 
 def test_category_any_accepts_one_requested_category(

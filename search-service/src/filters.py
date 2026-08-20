@@ -77,7 +77,7 @@ def filter_segments(
         list_filters = (
             ("mood", normalized_moods, mood_match),
             ("activity", normalized_activities, activity_match),
-            ("landscape", normalized_landscapes, landscape_match),
+            ("scene_elements", normalized_landscapes, landscape_match),
             ("category", normalized_categories, category_match),
         )
         if any(
