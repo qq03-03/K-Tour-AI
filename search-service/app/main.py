@@ -29,34 +29,27 @@ def health() -> dict[str, str]:
 
 @app.post("/api/search", response_model=SearchResponse)
 def search(request: SearchRequest, pipeline=Depends(get_pipeline), parser=Depends(get_query_parser)):
-    if any(
-        value is not None
-        for value in (
-            request.place_id,
-            request.drama_title,
-            request.region,
-            request.city,
-            request.season,
-            request.time_of_day,
-        )
-    ):
-        raise HTTPException(
-            status_code=422,
-            detail=(
-                "Hard filters (place_id, drama_title, region, city, season, time_of_day) "
-                "are not yet implemented in POST /api/search. The search library does not "
-                "support filter overrides yet; passing these fields does not filter results "
-                "and would silently return unfiltered nationwide results, so this request is "
-                "rejected instead. Omit these fields for now."
-            ),
-        )
     candidate_k = request.candidate_k or max(request.top_k * 5, 50)
+    # 값이 없는(None) 필드와 빈 목록은 필터를 적용하지 않는 것으로 취급한다.
+    filter_overrides = {
+        field_name: values
+        for field_name, values in {
+            "place_id": request.place_id,
+            "drama_title": request.drama_title,
+            "region": request.region,
+            "city": request.city,
+            "season": request.season,
+            "time_of_day": request.time_of_day,
+        }.items()
+        if values
+    }
     output = pipeline.search(
         request.query,
         parser=parser,
         top_k=candidate_k,
         search_depth=candidate_k,
         methods=("rrf",),
+        filter_overrides=filter_overrides or None,
     )
     results = build_search_results(output, top_k=request.top_k)
     return SearchResponse(

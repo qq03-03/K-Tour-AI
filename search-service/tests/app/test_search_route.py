@@ -7,9 +7,11 @@ from app.dependencies import get_pipeline, get_query_parser
 class FakePipeline:
     def __init__(self):
         self.received_search_depth = None
+        self.received_filter_overrides = "(호출되지 않음)"
 
     def search(self, query, *, parser, top_k, search_depth, methods, **kwargs):
         self.received_search_depth = search_depth
+        self.received_filter_overrides = kwargs.get("filter_overrides")
         segment = {
             "segment_id": "V007_P031_S002_SCENE_001",
             "source_segment_id": "V007_P031_S002",
@@ -76,12 +78,72 @@ def test_search_rejects_an_empty_query():
     assert response.status_code == 422
 
 
-def test_search_rejects_hard_filters_as_not_yet_supported():
-    client, _ = _client()
+def test_search_forwards_region_filter_to_the_pipeline():
+    client, fake_pipeline = _client()
     response = client.post("/api/search", json={"query": "봄 궁궐 산책", "region": ["강원"]})
     app.dependency_overrides.clear()
 
-    assert response.status_code == 422
-    detail = response.json()["detail"]
-    assert "not yet implemented" in detail
-    assert "region" in detail
+    assert response.status_code == 200
+    assert fake_pipeline.received_filter_overrides == {"region": ["강원"]}
+
+
+def test_search_forwards_drama_title_filter_to_the_pipeline():
+    client, fake_pipeline = _client()
+    response = client.post(
+        "/api/search",
+        json={"query": "촬영지", "drama_title": ["겨울연가", "사랑의 불시착"]},
+    )
+    app.dependency_overrides.clear()
+
+    assert response.status_code == 200
+    assert fake_pipeline.received_filter_overrides == {
+        "drama_title": ["겨울연가", "사랑의 불시착"]
+    }
+
+
+def test_search_forwards_every_hard_filter_field_to_the_pipeline():
+    client, fake_pipeline = _client()
+    response = client.post(
+        "/api/search",
+        json={
+            "query": "촬영지",
+            "place_id": ["P031"],
+            "drama_title": ["사랑의 불시착"],
+            "region": ["충청북도"],
+            "city": ["충주시"],
+            "season": ["summer"],
+            "time_of_day": ["night"],
+        },
+    )
+    app.dependency_overrides.clear()
+
+    assert response.status_code == 200
+    assert fake_pipeline.received_filter_overrides == {
+        "place_id": ["P031"],
+        "drama_title": ["사랑의 불시착"],
+        "region": ["충청북도"],
+        "city": ["충주시"],
+        "season": ["summer"],
+        "time_of_day": ["night"],
+    }
+
+
+def test_search_without_hard_filters_sends_no_filter_overrides():
+    client, fake_pipeline = _client()
+    response = client.post("/api/search", json={"query": "봄 궁궐 산책"})
+    app.dependency_overrides.clear()
+
+    assert response.status_code == 200
+    assert fake_pipeline.received_filter_overrides is None
+
+
+def test_search_treats_empty_hard_filter_lists_as_not_set():
+    client, fake_pipeline = _client()
+    response = client.post(
+        "/api/search",
+        json={"query": "봄 궁궐 산책", "region": [], "drama_title": None},
+    )
+    app.dependency_overrides.clear()
+
+    assert response.status_code == 200
+    assert fake_pipeline.received_filter_overrides is None
