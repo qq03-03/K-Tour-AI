@@ -244,6 +244,29 @@ def test_ui_hard_filter_with_no_match_returns_empty_without_fallback() -> None:
     assert body["fallback_reason"] is None
 
 
+def test_ui_hard_filter_unrecognized_alias_value_returns_empty_without_fallback() -> None:
+    """별칭 테이블에 없는 값("저녁")도 필터가 사라지지 않고 그대로 적용돼야 한다.
+
+    ``_canonical_value("time_of_day", "저녁")``는 별칭 테이블에 없어 None을
+    반환한다. 이전 구현은 이 경우 time_of_day 필터 전체를 조용히 버려 4개
+    구간을 모두 돌려주었다. 값을 있는 그대로 적용해 정직하게 0건을
+    돌려주는 것이 올바른 동작이다.
+    """
+
+    client = _client()
+    response = client.post(
+        "/api/search",
+        json={"query": NEUTRAL_QUERY, "time_of_day": ["저녁"], "top_k": 10},
+    )
+    app.dependency_overrides.clear()
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["results"] == []
+    assert body["fallback_used"] is False
+    assert body["fallback_reason"] is None
+
+
 def test_ui_hard_filter_alias_value_is_canonicalized_before_matching() -> None:
     """UI가 별칭("강원도")을 보내도 정식 표기("강원")로 정규화되어 매칭돼야 한다."""
 

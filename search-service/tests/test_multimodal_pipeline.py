@@ -341,6 +341,32 @@ def test_filter_overrides_apply_the_same_alias_canonicalization_as_natural_langu
     assert repository.candidate_id_calls[0] == ["SEG_A", "SEG_C"]
 
 
+def test_filter_overrides_with_unrecognized_value_is_applied_literally_not_dropped() -> None:
+    """별칭 테이블에 없는 filter_overrides 값은 버려지지 않고 그대로 적용돼야 한다.
+
+    ``_canonical_value("time_of_day", "저녁")``는 별칭 테이블에 "저녁"이 없어
+    ``None``을 반환한다. 이전 구현은 이 경우 필드 전체를 조용히 버려 전체
+    구간을 필터 없이 반환했다(``fallback_used`` 는 ``False`` 인 채로). 올바른
+    동작은 값을 있는 그대로 하드 필터로 적용해 정직하게 0건을 돌려주는 것이다.
+    """
+
+    pipeline, repository = _ui_pipeline()
+
+    output = pipeline.search(
+        "촬영지 풍경",
+        parser=NoFilterParser(),
+        methods=("rrf",),
+        filter_overrides={"time_of_day": ["저녁"]},
+    )
+
+    assert output["filters"] == {"time_of_day": ["저녁"]}
+    assert output["candidate_count"] == 0
+    assert output["fallback_used"] is False
+    assert output["fallback_reason"] is None
+    assert repository.candidate_id_calls == [[], []]
+    assert output["results_by_method"]["rrf"] == []
+
+
 def test_empty_filter_overrides_leave_natural_language_fallback_unchanged() -> None:
     """빈 filter_overrides는 UI 지정으로 취급하지 않는다."""
 

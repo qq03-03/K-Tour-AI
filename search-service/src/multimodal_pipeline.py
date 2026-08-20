@@ -264,17 +264,23 @@ def _canonicalize_filter_overrides(
     ``_canonical_value``는 자연어 후처리(``_postprocess_parsed_query``)에서
     쓰이는 것과 같은 별칭 조회 로직이다. 별칭 테이블이 없는 필드(``place_id``,
     ``city``, ``drama_title``)는 값을 그대로 둔 채 공백만 정리한다.
+
+    ``_canonical_value``는 별칭 테이블에 없는 ``season``/``time_of_day`` 값에
+    대해 ``None``(드물게는 빈 문자열)을 반환한다. 이 경우 필드를 통째로
+    버리면 UI가 명시한 하드 필터가 조용히 사라져 필터 없는(전체) 결과가
+    나가버린다 (``search()``의 ``has_ui_filter_overrides`` 억제 로직의
+    취지에 정면으로 반한다). 따라서 정규화값이 없으면 원래 값을 그대로
+    하드 필터로 적용한다 — 어떤 구간과도 일치하지 않아 정직하게 0건이
+    나오는 편이, 필터가 조용히 사라지는 것보다 낫다.
     """
 
     canonicalized: dict[str, list[str]] = {}
     for field_name, values in filter_overrides.items():
-        canonical_values = [
-            canonical
-            for canonical in (_canonical_value(field_name, value) for value in values)
-            if canonical is not None
+        resolved_values = [
+            _canonical_value(field_name, value) or value.strip() for value in values
         ]
-        if canonical_values:
-            canonicalized[field_name] = canonical_values
+        if resolved_values:
+            canonicalized[field_name] = resolved_values
     return canonicalized
 
 
