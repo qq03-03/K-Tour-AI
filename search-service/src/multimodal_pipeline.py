@@ -61,6 +61,7 @@ class MultimodalSearchPipeline:
         methods: Sequence[FusionMethod] = SUPPORTED_FUSION_METHODS,
         weights: Mapping[str, float] | None = None,
         rrf_k: float = 60.0,
+        filter_overrides: Mapping[str, Sequence[str]] | None = None,
     ) -> dict[str, Any]:
         if top_k < 1 or search_depth < 1:
             raise ValueError("top_k와 search_depth는 1 이상이어야 합니다.")
@@ -72,13 +73,20 @@ class MultimodalSearchPipeline:
 
         parser_started = perf_counter()
         parsed = parse_query_safely(query, parser)
+        # UI가 명시적으로 전달한 필터는 QueryParser가 자연어에서 추출한 같은
+        # 필드의 값보다 우선한다 (해당 필드는 완전히 대체되며, 병합하지 않는다).
+        has_ui_filter_overrides = bool(filter_overrides)
+        if filter_overrides:
+            parsed = replace(parsed, filters={**parsed.filters, **filter_overrides})
         parser_latency_ms = _elapsed_ms(parser_started)
 
         metadata_started = perf_counter()
         segments = self._load_segments()
         filter_arguments = to_filter_arguments(parsed.filters)
         candidates = filter_segments(segments, **filter_arguments)
-        if parsed.filters and not candidates:
+        # UI가 직접 지정한 하드 필터로 0건이 나온 경우에는 필터를 풀어 다시
+        # 검색하지 않는다. 사용자가 고른 조건과 다른 결과를 돌려주지 않기 위함이다.
+        if parsed.filters and not candidates and not has_ui_filter_overrides:
             parsed = replace(
                 parsed,
                 filters={},
