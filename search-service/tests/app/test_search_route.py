@@ -5,7 +5,11 @@ from app.dependencies import get_pipeline, get_query_parser
 
 
 class FakePipeline:
-    def search(self, query, *, parser, top_k, methods, **kwargs):
+    def __init__(self):
+        self.received_search_depth = None
+
+    def search(self, query, *, parser, top_k, search_depth, methods, **kwargs):
+        self.received_search_depth = search_depth
         segment = {
             "segment_id": "V007_P031_S002_SCENE_001",
             "source_segment_id": "V007_P031_S002",
@@ -44,13 +48,14 @@ class FakeParser:
 
 
 def _client():
-    app.dependency_overrides[get_pipeline] = lambda: FakePipeline()
+    fake_pipeline = FakePipeline()
+    app.dependency_overrides[get_pipeline] = lambda: fake_pipeline
     app.dependency_overrides[get_query_parser] = lambda: FakeParser()
-    return TestClient(app)
+    return TestClient(app), fake_pipeline
 
 
 def test_search_returns_mapped_results():
-    client = _client()
+    client, fake_pipeline = _client()
     response = client.post("/api/search", json={"query": "봄 궁궐 산책"})
     app.dependency_overrides.clear()
 
@@ -59,10 +64,12 @@ def test_search_returns_mapped_results():
     assert body["results"][0]["place_name"] == "충주 중앙탑공원"
     assert body["results"][0]["rank"] == 1
     assert body["fallback_used"] is False
+    # Verify that the pipeline received the correct search_depth (candidate_k = max(5*5, 50) = 50)
+    assert fake_pipeline.received_search_depth == 50
 
 
 def test_search_rejects_an_empty_query():
-    client = _client()
+    client, _ = _client()
     response = client.post("/api/search", json={"query": ""})
     app.dependency_overrides.clear()
 
