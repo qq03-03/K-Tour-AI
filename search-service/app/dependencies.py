@@ -21,6 +21,7 @@ def _repository() -> PgVectorRepository:
     return PgVectorRepository(DatabaseConfig.from_environment())
 
 
+@lru_cache
 def get_pipeline():
     from src.multimodal_pipeline import MultimodalSearchPipeline
 
