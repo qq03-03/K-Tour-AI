@@ -2,6 +2,9 @@
 
 from __future__ import annotations
 
+import threading
+import time
+
 import numpy as np
 import pytest
 import torch
@@ -46,6 +49,63 @@ def test_clip_runtime_loads_model_only_once(monkeypatch) -> None:
 
     assert first.shape == (512,)
     assert np.linalg.norm(second) == pytest.approx(1.0)
+    assert runtime.load_count == 1
+    assert calls == {"model": 1, "processor": 1}
+
+
+def test_clip_runtime_ensure_loaded_is_thread_safe_under_concurrency(monkeypatch) -> None:
+    calls = {"model": 0, "processor": 0}
+    thread_count = 10
+    barrier = threading.Barrier(thread_count)
+
+    class FakeModel:
+        @classmethod
+        def from_pretrained(cls, name, local_files_only):
+            calls["model"] += 1
+            # Widen the race window: without a lock, multiple threads can
+            # observe "not loaded yet" and all reach this point before any
+            # of them finishes assigning self._model.
+            time.sleep(0.05)
+            return cls()
+
+        def to(self, device):
+            return self
+
+        def eval(self):
+            return self
+
+        def get_text_features(self, **inputs):
+            return torch.ones((1, 512), dtype=torch.float32)
+
+    class FakeProcessor:
+        @classmethod
+        def from_pretrained(cls, name, local_files_only):
+            calls["processor"] += 1
+            return cls()
+
+        def __call__(self, **kwargs):
+            return {"input_ids": torch.ones((1, 3), dtype=torch.int64)}
+
+    monkeypatch.setattr(clip_backend, "CLIPModel", FakeModel)
+    monkeypatch.setattr(clip_backend, "CLIPProcessor", FakeProcessor)
+
+    runtime = clip_backend.ClipRuntime(device="cpu")
+    errors: list[BaseException] = []
+
+    def worker() -> None:
+        try:
+            barrier.wait()
+            runtime.encode_text("concurrent query")
+        except BaseException as exc:  # noqa: BLE001 - surface any thread failure
+            errors.append(exc)
+
+    threads = [threading.Thread(target=worker) for _ in range(thread_count)]
+    for thread in threads:
+        thread.start()
+    for thread in threads:
+        thread.join()
+
+    assert not errors
     assert runtime.load_count == 1
     assert calls == {"model": 1, "processor": 1}
 

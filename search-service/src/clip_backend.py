@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import os
+import threading
 from collections.abc import Sequence
 from dataclasses import dataclass
 from pathlib import Path
@@ -63,6 +64,7 @@ class ClipRuntime:
         self.local_files_only = local_files_only
         self._model: Any | None = None
         self._processor: Any | None = None
+        self._load_lock = threading.Lock()
         self.load_count = 0
         self.load_latency_ms = 0.0
 
@@ -96,18 +98,23 @@ class ClipRuntime:
     def _ensure_loaded(self) -> None:
         if self._model is not None:
             return
-        started = perf_counter()
-        self._model = CLIPModel.from_pretrained(
-            self.model_name,
-            local_files_only=self.local_files_only,
-        ).to(self.device)
-        self._processor = CLIPProcessor.from_pretrained(
-            self.model_name,
-            local_files_only=self.local_files_only,
-        )
-        self._model.eval()
-        self.load_count += 1
-        self.load_latency_ms = (perf_counter() - started) * 1000.0
+        with self._load_lock:
+            if self._model is not None:
+                return
+            started = perf_counter()
+            model = CLIPModel.from_pretrained(
+                self.model_name,
+                local_files_only=self.local_files_only,
+            ).to(self.device)
+            processor = CLIPProcessor.from_pretrained(
+                self.model_name,
+                local_files_only=self.local_files_only,
+            )
+            model.eval()
+            self._model = model
+            self._processor = processor
+            self.load_count += 1
+            self.load_latency_ms = (perf_counter() - started) * 1000.0
 
 
 @dataclass(frozen=True)
