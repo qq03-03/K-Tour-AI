@@ -111,3 +111,96 @@ def test_applies_top_k_after_dedup_and_reranks_sequentially():
 def test_returns_empty_list_for_no_results():
     output = _pipeline_output([], [], [])
     assert build_search_results(output, top_k=5) == []
+
+
+def test_dedup_tie_break_prefers_higher_image_score_when_final_score_ties():
+    # Two candidates for the SAME place (source_segment_id), tied on final_score.
+    # The dedup pass (_is_better) must keep the one with the higher image_score.
+    rrf = [
+        {**_segment("S001", "SEG001"), "rrf_score": 0.05, "source_ranks": {}},
+        {**_segment("S002", "SEG001"), "rrf_score": 0.05, "source_ranks": {}},
+    ]
+    image = [
+        {"segment_id": "S001", "score": 0.3},
+        {"segment_id": "S002", "score": 0.9},
+    ]
+    output = _pipeline_output(rrf, [], image)
+
+    results = build_search_results(output, top_k=5)
+
+    assert len(results) == 1
+    assert results[0]["segment_id"] == "S002"
+    assert results[0]["image_score"] == 0.9
+
+
+def test_dedup_tie_break_falls_back_to_text_score_when_image_score_also_ties():
+    # Same place, tied final_score AND tied image_score. text_score must decide.
+    rrf = [
+        {**_segment("S001", "SEG001"), "rrf_score": 0.05, "source_ranks": {}},
+        {**_segment("S002", "SEG001"), "rrf_score": 0.05, "source_ranks": {}},
+    ]
+    image = [
+        {"segment_id": "S001", "score": 0.5},
+        {"segment_id": "S002", "score": 0.5},
+    ]
+    text = [
+        {"segment_id": "S001", "score": 0.2},
+        {"segment_id": "S002", "score": 0.7},
+    ]
+    output = _pipeline_output(rrf, text, image)
+
+    results = build_search_results(output, top_k=5)
+
+    assert len(results) == 1
+    assert results[0]["segment_id"] == "S002"
+    assert results[0]["text_score"] == 0.7
+
+
+def test_final_ordering_treats_a_real_zero_image_score_as_better_than_missing():
+    # Regression test for the ordering bug: `-(item["image_score"] or -1)` treated
+    # a real image_score of 0.0 the same as a missing (None) image_score, because
+    # `0.0 or -1` evaluates to -1 in Python. Two DIFFERENT places, tied on
+    # final_score: place A has a real image_score of 0.0, place B has no image
+    # score at all (None). Per the stated rule, None must sort strictly lower
+    # than any real score, including 0.0 — so A must be ranked ahead of B.
+    #
+    # Under the old buggy key, both compared equal on the image_score component,
+    # so the segment_id tie-break ("S001" < "S002") would have put B ahead of A,
+    # violating the rule. This assertion would have failed before the fix.
+    rrf = [
+        {**_segment("S001", "SEG_NONE"), "rrf_score": 0.05, "source_ranks": {}},
+        {**_segment("S002", "SEG_ZERO"), "rrf_score": 0.05, "source_ranks": {}},
+    ]
+    image = [
+        {"segment_id": "S002", "score": 0.0},
+        # S001 has no entry in image results -> image_score resolves to None.
+    ]
+    output = _pipeline_output(rrf, [], image)
+
+    results = build_search_results(output, top_k=5)
+
+    assert [item["source_segment_id"] for item in results] == ["SEG_ZERO", "SEG_NONE"]
+    assert results[0]["image_score"] == 0.0
+    assert results[1]["image_score"] is None
+
+
+def test_final_ordering_uses_text_score_when_final_and_image_scores_tie():
+    # Two different places, tied final_score AND tied image_score: text_score
+    # must decide the final output order (not just the dedup pass).
+    rrf = [
+        {**_segment("S003", "SEG_LOW_TEXT"), "rrf_score": 0.02, "source_ranks": {}},
+        {**_segment("S004", "SEG_HIGH_TEXT"), "rrf_score": 0.02, "source_ranks": {}},
+    ]
+    image = [
+        {"segment_id": "S003", "score": 0.5},
+        {"segment_id": "S004", "score": 0.5},
+    ]
+    text = [
+        {"segment_id": "S003", "score": 0.1},
+        {"segment_id": "S004", "score": 0.9},
+    ]
+    output = _pipeline_output(rrf, text, image)
+
+    results = build_search_results(output, top_k=5)
+
+    assert [item["source_segment_id"] for item in results] == ["SEG_HIGH_TEXT", "SEG_LOW_TEXT"]

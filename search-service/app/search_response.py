@@ -1,3 +1,4 @@
+from functools import cmp_to_key
 from typing import Any
 
 
@@ -46,15 +47,7 @@ def build_search_results(pipeline_output: dict[str, Any], *, top_k: int) -> list
         if current_best is None or _is_better(item, current_best):
             best_by_place[key] = item
 
-    ordered = sorted(
-        best_by_place.values(),
-        key=lambda item: (
-            -item["final_score"],
-            -(item["image_score"] or -1),
-            -(item["text_score"] or -1),
-            item["segment_id"],
-        ),
-    )
+    ordered = sorted(best_by_place.values(), key=cmp_to_key(_compare))
 
     trimmed = ordered[:top_k]
     for rank, item in enumerate(trimmed, start=1):
@@ -74,3 +67,13 @@ def _is_better(candidate: dict[str, Any], current_best: dict[str, Any]) -> bool:
     if candidate_text != best_text:
         return candidate_text > best_text
     return candidate["segment_id"] < current_best["segment_id"]
+
+
+def _compare(a: dict[str, Any], b: dict[str, Any]) -> int:
+    """Comparator for sorting, built on the same rules as `_is_better` so the
+    dedup pass and the final ordering can never disagree."""
+    if _is_better(a, b):
+        return -1
+    if _is_better(b, a):
+        return 1
+    return 0
