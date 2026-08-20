@@ -74,3 +74,14 @@ def test_search_rejects_an_empty_query():
     app.dependency_overrides.clear()
 
     assert response.status_code == 422
+
+
+def test_search_rejects_hard_filters_as_not_yet_supported():
+    client, _ = _client()
+    response = client.post("/api/search", json={"query": "봄 궁궐 산책", "region": ["강원"]})
+    app.dependency_overrides.clear()
+
+    assert response.status_code == 422
+    detail = response.json()["detail"]
+    assert "not yet implemented" in detail
+    assert "region" in detail
