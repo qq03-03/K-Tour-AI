@@ -147,3 +147,39 @@ def test_search_treats_empty_hard_filter_lists_as_not_set():
 
     assert response.status_code == 200
     assert fake_pipeline.received_filter_overrides is None
+
+
+def test_search_treats_blank_string_filter_element_as_not_set():
+    client, fake_pipeline = _client()
+    response = client.post(
+        "/api/search",
+        json={"query": "봄 궁궐 산책", "region": [""]},
+    )
+    app.dependency_overrides.clear()
+
+    assert response.status_code == 200
+    assert fake_pipeline.received_filter_overrides is None
+
+
+def test_search_treats_whitespace_only_filter_element_as_not_set():
+    client, fake_pipeline = _client()
+    response = client.post(
+        "/api/search",
+        json={"query": "봄 궁궐 산책", "region": ["  "]},
+    )
+    app.dependency_overrides.clear()
+
+    assert response.status_code == 200
+    assert fake_pipeline.received_filter_overrides is None
+
+
+def test_search_drops_blank_element_but_keeps_other_values_in_the_same_field():
+    client, fake_pipeline = _client()
+    response = client.post(
+        "/api/search",
+        json={"query": "봄 궁궐 산책", "region": ["", "강원"]},
+    )
+    app.dependency_overrides.clear()
+
+    assert response.status_code == 200
+    assert fake_pipeline.received_filter_overrides == {"region": ["강원"]}

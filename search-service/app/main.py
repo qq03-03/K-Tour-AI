@@ -30,19 +30,23 @@ def health() -> dict[str, str]:
 @app.post("/api/search", response_model=SearchResponse)
 def search(request: SearchRequest, pipeline=Depends(get_pipeline), parser=Depends(get_query_parser)):
     candidate_k = request.candidate_k or max(request.top_k * 5, 50)
-    # 값이 없는(None) 필드와 빈 목록은 필터를 적용하지 않는 것으로 취급한다.
-    filter_overrides = {
-        field_name: values
-        for field_name, values in {
-            "place_id": request.place_id,
-            "drama_title": request.drama_title,
-            "region": request.region,
-            "city": request.city,
-            "season": request.season,
-            "time_of_day": request.time_of_day,
-        }.items()
-        if values
+    # 값이 없는(None) 필드, 빈 목록, 그리고 공백뿐인 문자열 요소는
+    # 필터를 적용하지 않는 것으로 취급한다.
+    raw_hard_filters = {
+        "place_id": request.place_id,
+        "drama_title": request.drama_title,
+        "region": request.region,
+        "city": request.city,
+        "season": request.season,
+        "time_of_day": request.time_of_day,
     }
+    filter_overrides: dict[str, list[str]] = {}
+    for field_name, values in raw_hard_filters.items():
+        if not values:
+            continue
+        cleaned_values = [value for value in values if value and value.strip()]
+        if cleaned_values:
+            filter_overrides[field_name] = cleaned_values
     output = pipeline.search(
         request.query,
         parser=parser,
