@@ -7,6 +7,8 @@ from src.llm_query_parser import LLMQueryParser
 from src.openai_client import DEFAULT_QUERY_MODEL, OpenAIStructuredClient
 from src.query_parser import RuleBasedQueryParser
 
+from app.spots_repository import SpotsRepository
+
 
 @lru_cache
 def _runtime() -> ClipRuntime:
@@ -28,3 +30,9 @@ def get_query_parser() -> QueryParser:
     if os.getenv("OPENAI_API_KEY"):
         return LLMQueryParser(OpenAIStructuredClient(model=DEFAULT_QUERY_MODEL))
     return RuleBasedQueryParser()
+
+
+def get_spots_repository() -> SpotsRepository:
+    import psycopg
+
+    return SpotsRepository(connection_factory=lambda: psycopg.connect(_repository()._config.connection_string))

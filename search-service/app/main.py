@@ -1,9 +1,9 @@
 import psycopg
-from fastapi import Depends, FastAPI, Request
+from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from app.dependencies import get_pipeline, get_query_parser
+from app.dependencies import get_pipeline, get_query_parser, get_spots_repository
 from app.schemas import SearchRequest, SearchResponse
 from app.search_response import build_search_results
 
@@ -43,3 +43,16 @@ def search(request: SearchRequest, pipeline=Depends(get_pipeline), parser=Depend
         fallback_used=output["fallback_used"],
         fallback_reason=output["fallback_reason"],
     )
+
+
+@app.get("/api/spots")
+def list_spots(region: str | None = None, repository=Depends(get_spots_repository)):
+    return repository.list_spots(region)
+
+
+@app.get("/api/spots/{spot_id}")
+def get_spot(spot_id: int, repository=Depends(get_spots_repository)):
+    spot = repository.get_spot(spot_id)
+    if spot is None:
+        raise HTTPException(status_code=404, detail="해당 관광지를 찾을 수 없어요.")
+    return spot
