@@ -104,6 +104,38 @@ def test_search_result_item_allows_null_score_and_rank():
     assert item.text_rank is None
 
 
+def test_search_result_item_defaults_latitude_and_longitude_to_none():
+    item = SearchResultItem(
+        rank=1,
+        source_segment_id="V007_P031_S002",
+        segment_id="V007_P031_S002_SCENE_001",
+        keyframe_id="V007_P031_S002_SCENE_001",
+        keyframe_path="keyframes/x.jpg",
+        video_id="V007_Z7u5SNDq0jw",
+        place_id="P031",
+        place_name="충주 중앙탑공원",
+        region="충청북도",
+        city="충주시",
+        drama_title="사랑의 불시착",
+        start_time=0.0,
+        end_time=3.75,
+        season="summer",
+        time_of_day="night",
+        description="설명",
+        mood=[],
+        activity=[],
+        scene_elements=[],
+        k_culture_elements=[],
+        text_score=None,
+        image_score=None,
+        text_rank=None,
+        image_rank=None,
+        final_score=0.0,
+    )
+    assert item.latitude is None
+    assert item.longitude is None
+
+
 def test_search_response_wraps_results_with_fallback_flags():
     response = SearchResponse(results=[], fallback_used=True, fallback_reason="필터 결과가 없어 원문 질문으로 다시 검색했습니다.")
     assert response.results == []

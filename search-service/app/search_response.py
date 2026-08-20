@@ -22,6 +22,12 @@ def build_search_results(pipeline_output: dict[str, Any], *, top_k: int) -> list
                 "place_name": segment["place_name"],
                 "region": segment["region"],
                 "city": segment["city"],
+                # No code path currently supplies real coordinates: video_segments
+                # has no lat/lng columns, and the separate spots table isn't linked
+                # to segments by place_id. Explicitly None until that data model
+                # gap is closed (deferred to future work).
+                "latitude": None,
+                "longitude": None,
                 "drama_title": segment["drama_title"],
                 "start_time": segment["start_time"],
                 "end_time": segment["end_time"],

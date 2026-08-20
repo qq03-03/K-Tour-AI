@@ -25,8 +25,8 @@ class SearchResultItem(BaseModel):
     place_name: str
     region: str
     city: str
-    latitude: float
-    longitude: float
+    latitude: float | None = None
+    longitude: float | None = None
     drama_title: str
     start_time: float
     end_time: float
