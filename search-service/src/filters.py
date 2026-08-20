@@ -15,6 +15,9 @@ def filter_segments(
     regions: str | Sequence[str] | None = None,
     seasons: str | Sequence[str] | None = None,
     times_of_day: str | Sequence[str] | None = None,
+    place_ids: str | Sequence[str] | None = None,
+    cities: str | Sequence[str] | None = None,
+    drama_titles: str | Sequence[str] | None = None,
     moods: str | Sequence[str] | None = None,
     activities: str | Sequence[str] | None = None,
     landscapes: str | Sequence[str] | None = None,
@@ -26,7 +29,8 @@ def filter_segments(
 ) -> list[Mapping[str, Any]]:
     """구조화 조건을 만족하는 영상 구간을 원래 순서대로 반환한다.
 
-    지역·계절·시간대는 지정한 값 중 하나가 일치하면 통과한다.
+    지역·계절·시간대·장소(place_id)·도시(city)·작품명(drama_title)은
+    지정한 값 중 하나가 일치하면 통과한다.
     감성·활동·풍경·카테고리는 각각의 ``*_match`` 값이 ``"all"``이면
     모든 값, ``"any"``이면 하나 이상의 값이 포함되어야 한다.
     """
@@ -39,6 +43,9 @@ def filter_segments(
     normalized_regions = _normalize_filter_values(regions, "regions")
     normalized_seasons = _normalize_filter_values(seasons, "seasons")
     normalized_times = _normalize_filter_values(times_of_day, "times_of_day")
+    normalized_place_ids = _normalize_filter_values(place_ids, "place_ids")
+    normalized_cities = _normalize_filter_values(cities, "cities")
+    normalized_drama_titles = _normalize_filter_values(drama_titles, "drama_titles")
     normalized_moods = _normalize_filter_values(moods, "moods")
     normalized_activities = _normalize_filter_values(activities, "activities")
     normalized_landscapes = _normalize_filter_values(landscapes, "landscapes")
@@ -49,6 +56,9 @@ def filter_segments(
             normalized_regions,
             normalized_seasons,
             normalized_times,
+            normalized_place_ids,
+            normalized_cities,
+            normalized_drama_titles,
             normalized_moods,
             normalized_activities,
             normalized_landscapes,
@@ -72,6 +82,21 @@ def filter_segments(
         if normalized_times:
             time_of_day = _normalize_scalar_field(segment, "time_of_day")
             if time_of_day not in normalized_times:
+                continue
+
+        if normalized_place_ids:
+            place_id = _normalize_scalar_field(segment, "place_id")
+            if place_id not in normalized_place_ids:
+                continue
+
+        if normalized_cities:
+            city = _normalize_scalar_field(segment, "city")
+            if city not in normalized_cities:
+                continue
+
+        if normalized_drama_titles:
+            drama_title = _normalize_scalar_field(segment, "drama_title")
+            if drama_title not in normalized_drama_titles:
                 continue
 
         list_filters = (

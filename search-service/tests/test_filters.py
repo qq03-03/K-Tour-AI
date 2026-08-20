@@ -175,6 +175,122 @@ def test_landscapes_filter_matches_scene_elements_field() -> None:
     assert segment_ids(results) == ["SEG_REAL_1"]
 
 
+def _ui_filter_segments() -> list[dict[str, object]]:
+    """UI 하드 필터 3종(place_id·city·drama_title)을 가진 실제 DB 형태의 구간."""
+
+    return [
+        {
+            "segment_id": "SEG_UI_1",
+            "place_id": "P031",
+            "city": "충주시",
+            "region": "충청북도",
+            "drama_title": "사랑의 불시착",
+        },
+        {
+            "segment_id": "SEG_UI_2",
+            "place_id": "P031",
+            "city": "충주시",
+            "region": "충청북도",
+            "drama_title": "겨울연가",
+        },
+        {
+            "segment_id": "SEG_UI_3",
+            "place_id": "P042",
+            "city": "춘천시",
+            "region": "강원특별자치도",
+            "drama_title": "겨울연가",
+        },
+    ]
+
+
+def test_place_id_filter_matches_exactly() -> None:
+    results = filter_segments(_ui_filter_segments(), place_ids="P031")
+
+    assert segment_ids(results) == ["SEG_UI_1", "SEG_UI_2"]
+
+
+def test_city_filter_matches_after_normalization() -> None:
+    results = filter_segments(_ui_filter_segments(), cities=" 춘천시 ")
+
+    assert segment_ids(results) == ["SEG_UI_3"]
+
+
+def test_drama_title_filter_matches_normalized_title() -> None:
+    results = filter_segments(_ui_filter_segments(), drama_titles="겨울연가")
+
+    assert segment_ids(results) == ["SEG_UI_2", "SEG_UI_3"]
+
+
+def test_place_id_filter_ignores_case_and_surrounding_spaces() -> None:
+    results = filter_segments(_ui_filter_segments(), place_ids=[" p031 "])
+
+    assert segment_ids(results) == ["SEG_UI_1", "SEG_UI_2"]
+
+
+def test_multiple_drama_titles_use_or_condition() -> None:
+    results = filter_segments(
+        _ui_filter_segments(),
+        drama_titles=["사랑의 불시착", "겨울연가"],
+    )
+
+    assert segment_ids(results) == ["SEG_UI_1", "SEG_UI_2", "SEG_UI_3"]
+
+
+def test_multiple_place_ids_use_or_condition() -> None:
+    results = filter_segments(_ui_filter_segments(), place_ids=["P031", "P042"])
+
+    assert segment_ids(results) == ["SEG_UI_1", "SEG_UI_2", "SEG_UI_3"]
+
+
+def test_ui_hard_filters_from_different_fields_use_and_condition() -> None:
+    """같은 필드 여러 값은 OR, 서로 다른 필드는 AND로 결합된다."""
+
+    results = filter_segments(
+        _ui_filter_segments(),
+        place_ids=["P031", "P042"],
+        drama_titles=["겨울연가"],
+        cities=["충주시"],
+    )
+
+    assert segment_ids(results) == ["SEG_UI_2"]
+
+
+def test_ui_hard_filters_combine_with_existing_scalar_filters() -> None:
+    results = filter_segments(
+        _ui_filter_segments(),
+        regions="충청북도",
+        drama_titles="겨울연가",
+    )
+
+    assert segment_ids(results) == ["SEG_UI_2"]
+
+
+def test_no_matching_ui_hard_filter_returns_empty_list() -> None:
+    assert filter_segments(_ui_filter_segments(), place_ids="P999") == []
+
+
+@pytest.mark.parametrize("keyword", ["place_ids", "cities", "drama_titles"])
+def test_ui_hard_filter_is_not_applied_when_omitted(keyword: str) -> None:
+    """None을 전달하면 해당 필드 필터는 적용되지 않는다."""
+
+    segments = _ui_filter_segments()
+
+    results = filter_segments(segments, **{keyword: None})  # type: ignore[arg-type]
+
+    assert segment_ids(results) == segment_ids(segments)
+
+
+@pytest.mark.parametrize("field_name", ["place_id", "city", "drama_title"])
+def test_invalid_segment_ui_hard_filter_field_raises_error(field_name: str) -> None:
+    segment = {"segment_id": "SEG_BAD", field_name: None}
+    keyword = {"place_id": "place_ids", "city": "cities", "drama_title": "drama_titles"}[
+        field_name
+    ]
+
+    with pytest.raises(TypeError, match=f"SEG_BAD.*{field_name}"):
+        filter_segments([segment], **{keyword: "값"})  # type: ignore[arg-type]
+
+
 def test_category_any_accepts_one_requested_category(
     segments: list[dict[str, object]],
 ) -> None:
