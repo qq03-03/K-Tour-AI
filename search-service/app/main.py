@@ -1,13 +1,30 @@
+from contextlib import asynccontextmanager
+
 import psycopg
 from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from app.dependencies import get_pipeline, get_query_parser, get_segments_repository, get_spots_repository
+from app.dependencies import (
+    ConfigurationError,
+    get_pipeline,
+    get_query_parser,
+    get_runtime,
+    get_segments_repository,
+    get_spots_repository,
+    ping_database,
+)
 from app.schemas import SearchRequest, SearchResponse
 from app.search_response import build_search_results
 
-app = FastAPI(title="K-Tour AI Search API")
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    get_runtime().warmup()
+    yield
+
+
+app = FastAPI(title="K-Tour AI Search API", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
@@ -17,13 +34,18 @@ app.add_middleware(
 )
 
 
-@app.exception_handler(psycopg.OperationalError)
-def handle_db_connection_error(request: Request, exc: psycopg.OperationalError) -> JSONResponse:
+@app.exception_handler(psycopg.Error)
+def handle_db_connection_error(request: Request, exc: psycopg.Error) -> JSONResponse:
     return JSONResponse(status_code=503, content={"detail": "데이터베이스에 연결할 수 없어요. 잠시 후 다시 시도해주세요."})
 
 
+@app.exception_handler(ConfigurationError)
+def handle_configuration_error(request: Request, exc: ConfigurationError) -> JSONResponse:
+    return JSONResponse(status_code=503, content={"detail": "서비스 설정에 문제가 있어 요청을 처리할 수 없어요. 잠시 후 다시 시도해주세요."})
+
+
 @app.get("/health")
-def health() -> dict[str, str]:
+def health(_: None = Depends(ping_database)) -> dict[str, str]:
     return {"status": "ok"}
 
 

@@ -12,20 +12,27 @@ from app.spots_repository import SpotsRepository
 
 
 @lru_cache
-def _runtime() -> ClipRuntime:
+def get_runtime() -> ClipRuntime:
     return ClipRuntime(local_files_only=True)
+
+
+class ConfigurationError(RuntimeError):
+    """환경변수 등 설정 문제로 서비스를 시작할 수 없을 때 발생한다."""
 
 
 @lru_cache
 def _repository() -> PgVectorRepository:
-    return PgVectorRepository(DatabaseConfig.from_environment())
+    try:
+        return PgVectorRepository(DatabaseConfig.from_environment())
+    except ValueError as exc:
+        raise ConfigurationError(str(exc)) from exc
 
 
 @lru_cache
 def get_pipeline():
     from src.multimodal_pipeline import MultimodalSearchPipeline
 
-    return MultimodalSearchPipeline(runtime=_runtime(), repository=_repository())
+    return MultimodalSearchPipeline(runtime=get_runtime(), repository=_repository())
 
 
 def get_query_parser() -> QueryParser:
@@ -44,3 +51,12 @@ def get_segments_repository() -> SegmentsRepository:
     import psycopg
 
     return SegmentsRepository(connection_factory=lambda: psycopg.connect(_repository()._config.connection_string))
+
+
+def ping_database() -> None:
+    """DB에 가볍게 왕복 요청을 보내 연결 가능 여부를 확인한다 (/health 용)."""
+    import psycopg
+
+    with psycopg.connect(_repository()._config.connection_string) as connection:
+        with connection.cursor() as cursor:
+            cursor.execute("SELECT 1")
