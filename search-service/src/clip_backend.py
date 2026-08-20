@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import os
-from collections.abc import Mapping, Sequence
+from collections.abc import Sequence
 from dataclasses import dataclass
 from pathlib import Path
 from time import perf_counter
@@ -17,33 +17,12 @@ from pgvector.psycopg import register_vector
 from psycopg import sql
 from transformers import CLIPModel, CLIPProcessor
 
+from .segment_row import segment_from_row
+
 
 MODEL_NAME = "openai/clip-vit-base-patch32"
 EXPECTED_DIMENSION = 512
 SearchSource = Literal["text", "image"]
-
-# 현재 남이섬 샘플에는 region 필드가 없고 기존 적재 코드가 place_name을
-# region 열에 넣었다. 실제 규격에 region이 포함되면 이 보정표는 제거할 수 있다.
-_PLACE_REGION_FALLBACKS = {
-    "nami_island": "강원",
-    "남이섬": "강원",
-}
-_SEASON_CANONICAL = {
-    "spring": "봄",
-    "summer": "여름",
-    "autumn": "가을",
-    "fall": "가을",
-    "winter": "겨울",
-}
-_TIME_CANONICAL = {
-    "dawn": "새벽",
-    "morning": "아침",
-    "day": "낮",
-    "daytime": "낮",
-    "sunset": "해질녘",
-    "dusk": "해질녘",
-    "night": "밤",
-}
 
 
 def _normalize_vector(vector: Any) -> np.ndarray:
@@ -176,9 +155,12 @@ class PgVectorRepository:
     def list_segments(self) -> list[dict[str, Any]]:
         query = """
             SELECT
-                vs.segment_id, vs.video_id, vs.start_time, vs.end_time,
-                vs.keyframe_path, vs.summary, vs.region, vs.spot_name,
-                vs.tags, vs.mood_tags, vs.season_tags, vs.metadata
+                vs.segment_id, vs.source_segment_id, vs.video_id,
+                vs.place_id, vs.place_name, vs.region, vs.city,
+                vs.drama_title, vs.start_time, vs.end_time,
+                vs.caption, vs.season, vs.time_of_day, vs.keyframe_path,
+                vs.mood_tags, vs.activity_tags, vs.scene_elements,
+                vs.k_culture_elements
             FROM video_segments AS vs
             JOIN segment_embeddings AS se ON se.segment_id = vs.segment_id
             ORDER BY vs.segment_id
@@ -187,7 +169,7 @@ class PgVectorRepository:
             with connection.cursor() as cursor:
                 cursor.execute(query)
                 rows = cursor.fetchall()
-        return [self._segment_from_row(row) for row in rows]
+        return [segment_from_row(row) for row in rows]
 
     def search(
         self,
@@ -232,57 +214,3 @@ class PgVectorRepository:
             {"segment_id": str(segment_id), "score": float(similarity)}
             for segment_id, similarity in rows
         ]
-
-    @staticmethod
-    def _segment_from_row(row: Sequence[Any]) -> dict[str, Any]:
-        metadata = row[11] if isinstance(row[11], dict) else {}
-        place_name = metadata.get("place_name")
-        stored_region = row[6]
-        if stored_region and str(stored_region).casefold() == str(place_name).casefold():
-            stored_region = None
-        region = (
-            metadata.get("region")
-            or stored_region
-            or _PLACE_REGION_FALLBACKS.get(str(place_name).casefold())
-            or "unknown"
-        )
-        tags = list(row[8] or [])
-        moods = list(metadata.get("mood") or row[9] or [])
-        season_tags = list(row[10] or [])
-        season = metadata.get("season")
-        if not season and season_tags:
-            season = season_tags[0]
-        return {
-            "segment_id": row[0],
-            "video_id": row[1],
-            "start_time": float(row[2]),
-            "end_time": float(row[3]),
-            "start_sec": float(row[2]),
-            "end_sec": float(row[3]),
-            "keyframe_path": row[4],
-            "description": metadata.get("description") or row[5],
-            "region": region,
-            "place_name": place_name,
-            "spot_name": metadata.get("spot_name") or row[7],
-            "season": _canonical_scalar(season, _SEASON_CANONICAL),
-            "time_of_day": _canonical_scalar(
-                metadata.get("time_of_day"),
-                _TIME_CANONICAL,
-            ),
-            "mood": moods,
-            "activity": list(metadata.get("activity") or []),
-            "landscape": list(metadata.get("scene_elements") or tags),
-            "scene_elements": list(metadata.get("scene_elements") or tags),
-            "category": list(metadata.get("category") or []),
-            "metadata": metadata,
-        }
-
-
-def _canonical_scalar(
-    value: object,
-    aliases: Mapping[str, str],
-) -> str:
-    if not isinstance(value, str) or not value.strip():
-        return "unknown"
-    cleaned = value.strip()
-    return aliases.get(cleaned.casefold(), cleaned)
