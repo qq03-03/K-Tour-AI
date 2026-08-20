@@ -1,3 +1,5 @@
+import logging
+
 import psycopg
 import pytest
 from fastapi.testclient import TestClient
@@ -77,3 +79,36 @@ def test_configuration_error_returns_503_with_a_safe_message():
     response = client.get("/__test_config_error")
     assert response.status_code == 503
     assert "detail" in response.json()
+
+
+def test_db_connection_failure_is_logged_server_side(caplog):
+    @app.get("/__test_db_error_logged")
+    def _raise_db_error():
+        raise psycopg.OperationalError("connection refused")
+
+    with caplog.at_level(logging.ERROR, logger="app.main"):
+        response = client.get("/__test_db_error_logged")
+
+    assert response.status_code == 503
+    matching_records = [record for record in caplog.records if record.name == "app.main"]
+    assert matching_records, "expected app.main to log the DB error"
+    assert all(record.levelno >= logging.ERROR for record in matching_records)
+    assert any("__test_db_error_logged" in record.getMessage() for record in matching_records)
+    # the underlying exception must actually be attached, not just a generic message
+    assert any(record.exc_info is not None for record in matching_records)
+
+
+def test_configuration_error_is_logged_server_side(caplog):
+    @app.get("/__test_config_error_logged")
+    def _raise_config_error():
+        raise ConfigurationError("DB 환경변수가 없습니다: POSTGRES_HOST")
+
+    with caplog.at_level(logging.ERROR, logger="app.main"):
+        response = client.get("/__test_config_error_logged")
+
+    assert response.status_code == 503
+    matching_records = [record for record in caplog.records if record.name == "app.main"]
+    assert matching_records, "expected app.main to log the configuration error"
+    assert all(record.levelno >= logging.ERROR for record in matching_records)
+    assert any("__test_config_error_logged" in record.getMessage() for record in matching_records)
+    assert any(record.exc_info is not None for record in matching_records)

@@ -1,3 +1,5 @@
+import logging
+import os
 from contextlib import asynccontextmanager
 
 import psycopg
@@ -17,10 +19,16 @@ from app.dependencies import (
 from app.schemas import SearchRequest, SearchResponse
 from app.search_response import build_search_results
 
+logger = logging.getLogger(__name__)
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    get_runtime().warmup()
+    # SKIP_CLIP_WARMUP은 테스트 환경에서 설정된다 (tests/app/conftest.py 참고).
+    # `with TestClient(app) as client:` 형태는 lifespan을 실제로 발동시키므로,
+    # 이 가드가 없으면 무거운 실제 CLIP 모델 로딩이 테스트 중 트리거될 수 있다.
+    if not os.getenv("SKIP_CLIP_WARMUP"):
+        get_runtime().warmup()
     yield
 
 
@@ -36,11 +44,13 @@ app.add_middleware(
 
 @app.exception_handler(psycopg.Error)
 def handle_db_connection_error(request: Request, exc: psycopg.Error) -> JSONResponse:
+    logger.error("DB error handling %s", request.url.path, exc_info=exc)
     return JSONResponse(status_code=503, content={"detail": "데이터베이스에 연결할 수 없어요. 잠시 후 다시 시도해주세요."})
 
 
 @app.exception_handler(ConfigurationError)
 def handle_configuration_error(request: Request, exc: ConfigurationError) -> JSONResponse:
+    logger.error("Configuration error handling %s", request.url.path, exc_info=exc)
     return JSONResponse(status_code=503, content={"detail": "서비스 설정에 문제가 있어 요청을 처리할 수 없어요. 잠시 후 다시 시도해주세요."})
 
 
