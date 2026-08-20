@@ -7,6 +7,7 @@ from src.llm_query_parser import LLMQueryParser
 from src.openai_client import DEFAULT_QUERY_MODEL, OpenAIStructuredClient
 from src.query_parser import RuleBasedQueryParser
 
+from app.segments_repository import SegmentsRepository
 from app.spots_repository import SpotsRepository
 
 
@@ -36,3 +37,9 @@ def get_spots_repository() -> SpotsRepository:
     import psycopg
 
     return SpotsRepository(connection_factory=lambda: psycopg.connect(_repository()._config.connection_string))
+
+
+def get_segments_repository() -> SegmentsRepository:
+    import psycopg
+
+    return SegmentsRepository(connection_factory=lambda: psycopg.connect(_repository()._config.connection_string))

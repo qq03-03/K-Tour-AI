@@ -3,7 +3,7 @@ from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from app.dependencies import get_pipeline, get_query_parser, get_spots_repository
+from app.dependencies import get_pipeline, get_query_parser, get_segments_repository, get_spots_repository
 from app.schemas import SearchRequest, SearchResponse
 from app.search_response import build_search_results
 
@@ -56,3 +56,21 @@ def get_spot(spot_id: int, repository=Depends(get_spots_repository)):
     if spot is None:
         raise HTTPException(status_code=404, detail="해당 관광지를 찾을 수 없어요.")
     return spot
+
+
+@app.get("/api/segments")
+def list_segments(
+    video_id: str | None = None,
+    place_id: str | None = None,
+    drama_title: str | None = None,
+    repository=Depends(get_segments_repository),
+):
+    return repository.list_segments(video_id, place_id, drama_title)
+
+
+@app.get("/api/segments/{segment_id}")
+def get_segment(segment_id: str, repository=Depends(get_segments_repository)):
+    segment = repository.get_segment(segment_id)
+    if segment is None:
+        raise HTTPException(status_code=404, detail="해당 영상 구간을 찾을 수 없어요.")
+    return segment
