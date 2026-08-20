@@ -321,6 +321,26 @@ def test_natural_language_filter_with_no_match_still_retries_without_filters() -
     assert repository.candidate_id_calls[0] == ["SEG_A", "SEG_B", "SEG_C"]
 
 
+def test_filter_overrides_apply_the_same_alias_canonicalization_as_natural_language() -> None:
+    """UI가 보낸 filter_overrides 값도 자연어 필터와 동일하게 별칭이 정규화되어야 한다."""
+
+    pipeline, repository = _ui_pipeline()
+
+    # UiFilterRepository의 SEG_A/SEG_C는 season이 "여름"(canonical)으로 저장돼 있다.
+    # UI는 별칭인 "summer"를 그대로 보낼 수 있다.
+    output = pipeline.search(
+        "촬영지 풍경",
+        parser=NoFilterParser(),
+        methods=("rrf",),
+        filter_overrides={"season": ["summer"]},
+    )
+
+    assert output["candidate_count"] == 2
+    assert output["filters"] == {"season": ["여름"]}
+    assert sorted(_result_ids(output)) == ["SEG_A", "SEG_C"]
+    assert repository.candidate_id_calls[0] == ["SEG_A", "SEG_C"]
+
+
 def test_empty_filter_overrides_leave_natural_language_fallback_unchanged() -> None:
     """빈 filter_overrides는 UI 지정으로 취급하지 않는다."""
 

@@ -11,7 +11,7 @@ from .clip_backend import ClipRuntime, PgVectorRepository
 from .filters import filter_segments
 from .fusion import normalized_score_fusion, reciprocal_rank_fusion
 from .interfaces import QueryParser
-from .query_parser import ParsedQuery, parse_query_safely, to_filter_arguments
+from .query_parser import ParsedQuery, _canonical_value, parse_query_safely, to_filter_arguments
 
 
 FusionMethod = Literal["rrf", "normalized"]
@@ -77,7 +77,10 @@ class MultimodalSearchPipeline:
         # 필드의 값보다 우선한다 (해당 필드는 완전히 대체되며, 병합하지 않는다).
         has_ui_filter_overrides = bool(filter_overrides)
         if filter_overrides:
-            parsed = replace(parsed, filters={**parsed.filters, **filter_overrides})
+            # 자연어에서 추출한 값과 동일하게, UI가 보낸 값도 별칭 테이블로
+            # 정식 표기로 정규화한 뒤 병합한다 (예: "summer" -> "여름").
+            canonical_overrides = _canonicalize_filter_overrides(filter_overrides)
+            parsed = replace(parsed, filters={**parsed.filters, **canonical_overrides})
         parser_latency_ms = _elapsed_ms(parser_started)
 
         metadata_started = perf_counter()
@@ -251,6 +254,28 @@ def _matching_moods(
         if actual.intersection(alias.casefold() for alias in aliases):
             matches.append(canonical)
     return matches
+
+
+def _canonicalize_filter_overrides(
+    filter_overrides: Mapping[str, Sequence[str]],
+) -> dict[str, list[str]]:
+    """UI가 보낸 filter_overrides 값에 자연어 필터와 동일한 별칭 정규화를 적용한다.
+
+    ``_canonical_value``는 자연어 후처리(``_postprocess_parsed_query``)에서
+    쓰이는 것과 같은 별칭 조회 로직이다. 별칭 테이블이 없는 필드(``place_id``,
+    ``city``, ``drama_title``)는 값을 그대로 둔 채 공백만 정리한다.
+    """
+
+    canonicalized: dict[str, list[str]] = {}
+    for field_name, values in filter_overrides.items():
+        canonical_values = [
+            canonical
+            for canonical in (_canonical_value(field_name, value) for value in values)
+            if canonical is not None
+        ]
+        if canonical_values:
+            canonicalized[field_name] = canonical_values
+    return canonicalized
 
 
 def _elapsed_ms(started: float) -> float:

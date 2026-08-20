@@ -244,6 +244,22 @@ def test_ui_hard_filter_with_no_match_returns_empty_without_fallback() -> None:
     assert body["fallback_reason"] is None
 
 
+def test_ui_hard_filter_alias_value_is_canonicalized_before_matching() -> None:
+    """UI가 별칭("강원도")을 보내도 정식 표기("강원")로 정규화되어 매칭돼야 한다."""
+
+    client = _client()
+    response = client.post(
+        "/api/search",
+        json={"query": NEUTRAL_QUERY, "region": ["강원도"], "top_k": 10},
+    )
+    app.dependency_overrides.clear()
+
+    assert response.status_code == 200
+    body = response.json()
+    assert _result_ids(body) == ["SEG_A", "SEG_B"]
+    assert body["fallback_used"] is False
+
+
 def test_natural_language_filter_with_no_match_still_falls_back() -> None:
     """UI 지정이 없는 자연어 추출 필터는 기존대로 필터 없이 재검색한다(회귀 방지)."""
 
