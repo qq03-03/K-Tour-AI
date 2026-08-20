@@ -1,0 +1,304 @@
+{
+  "schema_version": "0.1",
+  "description": "규칙 기반·로컬 LLM·API LLM QueryParser의 구조화 정확도와 속도 비교용 평가 질문",
+  "queries": [
+    {
+      "query_id": "QP_KO_001",
+      "language": "ko",
+      "query": "여름 밤 강원에서 볼 수 있는 낭만적인 장면",
+      "expected_filters": {
+        "region": ["강원"],
+        "season": ["여름"],
+        "time_of_day": ["밤"]
+      },
+      "expected_soft_hints": {
+        "mood": ["낭만적인"]
+      },
+      "case_type": "explicit_filters"
+    },
+    {
+      "query_id": "QP_KO_002",
+      "language": "ko",
+      "query": "겨울연가 남이섬 촬영지",
+      "expected_filters": {},
+      "case_type": "title_ambiguity"
+    },
+    {
+      "query_id": "QP_KO_003",
+      "language": "ko",
+      "query": "봄 서울의 낭만적인 궁궐",
+      "expected_filters": {
+        "region": ["서울"],
+        "season": ["봄"]
+      },
+      "expected_soft_hints": {
+        "mood": ["낭만적인"]
+      },
+      "case_type": "explicit_filters"
+    },
+    {
+      "query_id": "QP_KO_004",
+      "language": "ko",
+      "query": "연꽃 사이를 헤엄치는 오리",
+      "expected_filters": {},
+      "case_type": "semantic_only"
+    },
+    {
+      "query_id": "QP_EN_001",
+      "language": "en",
+      "query": "A peaceful place in Seoul during autumn",
+      "expected_filters": {
+        "region": ["서울"],
+        "season": ["가을"]
+      },
+      "expected_soft_hints": {
+        "mood": ["평화로운"]
+      },
+      "case_type": "multilingual"
+    },
+    {
+      "query_id": "QP_EN_002",
+      "language": "en",
+      "query": "A lively Busan beach at night",
+      "expected_filters": {
+        "region": ["부산"],
+        "time_of_day": ["밤"]
+      },
+      "expected_soft_hints": {
+        "mood": ["활기찬"]
+      },
+      "case_type": "multilingual"
+    },
+    {
+      "query_id": "QP_EN_003",
+      "language": "en",
+      "query": "Winter Sonata filming location on Nami Island",
+      "expected_filters": {},
+      "case_type": "title_ambiguity"
+    },
+    {
+      "query_id": "QP_JA_001",
+      "language": "ja",
+      "query": "秋のソウルにある静かな撮影地",
+      "expected_filters": {
+        "region": ["서울"],
+        "season": ["가을"]
+      },
+      "expected_soft_hints": {
+        "mood": ["고요한"]
+      },
+      "case_type": "multilingual"
+    },
+    {
+      "query_id": "QP_JA_002",
+      "language": "ja",
+      "query": "春の済州島にあるロマンチックな場所",
+      "expected_filters": {
+        "region": ["제주"],
+        "season": ["봄"]
+      },
+      "expected_soft_hints": {
+        "mood": ["낭만적인"]
+      },
+      "case_type": "multilingual"
+    },
+    {
+      "query_id": "QP_JA_003",
+      "language": "ja",
+      "query": "冬のソナタの南怡島ロケ地",
+      "expected_filters": {},
+      "case_type": "title_ambiguity"
+    },
+    {
+      "query_id": "QP_ZH_001",
+      "language": "zh",
+      "query": "首尔秋天安静的拍摄地",
+      "expected_filters": {
+        "region": ["서울"],
+        "season": ["가을"]
+      },
+      "expected_soft_hints": {
+        "mood": ["고요한"]
+      },
+      "case_type": "multilingual"
+    },
+    {
+      "query_id": "QP_ZH_002",
+      "language": "zh",
+      "query": "釜山夏夜热闹的海边",
+      "expected_filters": {
+        "region": ["부산"],
+        "season": ["여름"],
+        "time_of_day": ["밤"]
+      },
+      "expected_soft_hints": {
+        "mood": ["활기찬"]
+      },
+      "case_type": "multilingual"
+    },
+    {
+      "query_id": "QP_KO_005",
+      "language": "ko",
+      "query": "겨울에 겨울연가 남이섬 촬영지를 보여줘",
+      "expected_filters": {
+        "season": ["겨울"]
+      },
+      "case_type": "title_with_explicit_season"
+    },
+    {
+      "query_id": "QP_KO_006",
+      "language": "ko",
+      "query": "마음이 편안해지는 잔잔하고 조용한 장소",
+      "expected_filters": {},
+      "expected_soft_hints": {
+        "mood": ["고요한", "평화로운"]
+      },
+      "case_type": "emotional_soft_hint"
+    },
+    {
+      "query_id": "QP_EN_004",
+      "language": "en",
+      "query": "Show me Winter Sonata filming locations on Nami Island in winter",
+      "expected_filters": {
+        "season": ["겨울"]
+      },
+      "case_type": "title_with_explicit_season"
+    },
+    {
+      "query_id": "QP_EN_005",
+      "language": "en",
+      "query": "A calm and peaceful place that makes me feel at ease",
+      "expected_filters": {},
+      "expected_soft_hints": {
+        "mood": ["고요한", "평화로운"]
+      },
+      "case_type": "emotional_soft_hint"
+    },
+    {
+      "query_id": "QP_EN_006",
+      "language": "en",
+      "query": "Ducks swimming among lotus flowers",
+      "expected_filters": {},
+      "case_type": "semantic_only"
+    },
+    {
+      "query_id": "QP_JA_004",
+      "language": "ja",
+      "query": "冬に見られる冬のソナタの南怡島ロケ地",
+      "expected_filters": {
+        "season": ["겨울"]
+      },
+      "case_type": "title_with_explicit_season"
+    },
+    {
+      "query_id": "QP_JA_005",
+      "language": "ja",
+      "query": "心が安らぐ穏やかで静かな場所",
+      "expected_filters": {},
+      "expected_soft_hints": {
+        "mood": ["고요한", "평화로운"]
+      },
+      "case_type": "emotional_soft_hint"
+    },
+    {
+      "query_id": "QP_JA_006",
+      "language": "ja",
+      "query": "蓮の花の間を泳ぐカモ",
+      "expected_filters": {},
+      "case_type": "semantic_only"
+    },
+    {
+      "query_id": "QP_ZH_003",
+      "language": "zh",
+      "query": "冬季恋歌在南怡岛的拍摄地",
+      "expected_filters": {},
+      "case_type": "title_ambiguity"
+    },
+    {
+      "query_id": "QP_ZH_004",
+      "language": "zh",
+      "query": "想看冬天的《冬季恋歌》南怡岛拍摄地",
+      "expected_filters": {
+        "season": ["겨울"]
+      },
+      "case_type": "title_with_explicit_season"
+    },
+    {
+      "query_id": "QP_ZH_005",
+      "language": "zh",
+      "query": "让人心情放松、宁静平和的地方",
+      "expected_filters": {},
+      "expected_soft_hints": {
+        "mood": ["고요한", "평화로운"]
+      },
+      "case_type": "emotional_soft_hint"
+    },
+    {
+      "query_id": "QP_ZH_006",
+      "language": "zh",
+      "query": "在荷花之间游泳的鸭子",
+      "expected_filters": {},
+      "case_type": "semantic_only"
+    },
+    {
+      "query_id": "QP_KO_007",
+      "language": "ko",
+      "query": "남이섬의 수국길",
+      "expected_filters": {},
+      "case_type": "place_not_region"
+    },
+    {
+      "query_id": "QP_KO_008",
+      "language": "ko",
+      "query": "낭만적인 벚꽃길을 걷는 장면",
+      "expected_filters": {},
+      "expected_soft_hints": {"mood": ["낭만적인"]},
+      "case_type": "inferred_season_guard"
+    },
+    {
+      "query_id": "QP_EN_007",
+      "language": "en",
+      "query": "A hydrangea path on Nami Island",
+      "expected_filters": {},
+      "case_type": "place_not_region"
+    },
+    {
+      "query_id": "QP_EN_008",
+      "language": "en",
+      "query": "A romantic path covered with cherry blossoms",
+      "expected_filters": {},
+      "expected_soft_hints": {"mood": ["낭만적인"]},
+      "case_type": "inferred_season_guard"
+    },
+    {
+      "query_id": "QP_JA_007",
+      "language": "ja",
+      "query": "南怡島のアジサイの小道",
+      "expected_filters": {},
+      "case_type": "place_not_region"
+    },
+    {
+      "query_id": "QP_JA_008",
+      "language": "ja",
+      "query": "ロマンチックな桜並木を歩く場面",
+      "expected_filters": {},
+      "expected_soft_hints": {"mood": ["낭만적인"]},
+      "case_type": "inferred_season_guard"
+    },
+    {
+      "query_id": "QP_ZH_007",
+      "language": "zh",
+      "query": "南怡岛的绣球花小路",
+      "expected_filters": {},
+      "case_type": "place_not_region"
+    },
+    {
+      "query_id": "QP_ZH_008",
+      "language": "zh",
+      "query": "走在浪漫的樱花小路上",
+      "expected_filters": {},
+      "expected_soft_hints": {"mood": ["낭만적인"]},
+      "case_type": "inferred_season_guard"
+    }
+  ]
+}
