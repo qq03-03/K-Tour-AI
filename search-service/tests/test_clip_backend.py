@@ -110,6 +110,53 @@ def test_clip_runtime_ensure_loaded_is_thread_safe_under_concurrency(monkeypatch
     assert calls == {"model": 1, "processor": 1}
 
 
+def test_ensure_loaded_publishes_processor_before_model(monkeypatch) -> None:
+    """Regression test for the fast-path publish-order bug.
+
+    The unlocked fast path in `_ensure_loaded` only checks
+    `self._model is not None`. If `self._model` were published before
+    `self._processor`, a concurrent thread could observe a non-None
+    `self._model` while `self._processor` is still None and crash.
+
+    This doesn't rely on timing/sleeps (which would make the race window
+    too narrow to hit reliably) - it directly inspects the order in which
+    the two attributes are written via a `__setattr__` override, so it is
+    deterministic and non-flaky.
+    """
+
+    order: list[str] = []
+
+    class OrderTrackingRuntime(clip_backend.ClipRuntime):
+        def __setattr__(self, name, value):
+            if name in ("_model", "_processor") and value is not None:
+                order.append(name)
+            super().__setattr__(name, value)
+
+    class FakeModel:
+        @classmethod
+        def from_pretrained(cls, name, local_files_only):
+            return cls()
+
+        def to(self, device):
+            return self
+
+        def eval(self):
+            return self
+
+    class FakeProcessor:
+        @classmethod
+        def from_pretrained(cls, name, local_files_only):
+            return cls()
+
+    monkeypatch.setattr(clip_backend, "CLIPModel", FakeModel)
+    monkeypatch.setattr(clip_backend, "CLIPProcessor", FakeProcessor)
+
+    runtime = OrderTrackingRuntime(device="cpu")
+    runtime._ensure_loaded()
+
+    assert order == ["_processor", "_model"]
+
+
 class _FakeCursor:
     def __init__(self, rows):
         self._rows = rows

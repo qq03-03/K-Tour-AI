@@ -111,8 +111,8 @@ class ClipRuntime:
                 local_files_only=self.local_files_only,
             )
             model.eval()
-            self._model = model
             self._processor = processor
+            self._model = model
             self.load_count += 1
             self.load_latency_ms = (perf_counter() - started) * 1000.0
 
