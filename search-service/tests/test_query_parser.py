@@ -156,6 +156,29 @@ def test_query_filter_names_are_adapted_for_filter_segments() -> None:
     }
 
 
+def test_ui_hard_filter_names_are_adapted_for_filter_segments() -> None:
+    """UI가 명시적으로 지정하는 하드 필터 3종도 filter_segments 인자명으로 변환된다."""
+
+    assert to_filter_arguments(
+        {
+            "place_id": ["P031"],
+            "city": ["충주시"],
+            "drama_title": ["사랑의 불시착"],
+        }
+    ) == {
+        "place_ids": ["P031"],
+        "cities": ["충주시"],
+        "drama_titles": ["사랑의 불시착"],
+    }
+
+
+@pytest.mark.parametrize("field_name", ["place_id", "city", "drama_title"])
+def test_ui_hard_filter_fields_are_allowed(field_name: str) -> None:
+    """_validate_filter_mapping이 더 이상 이 세 필드를 거부하지 않는다."""
+
+    assert to_filter_arguments({field_name: ["값"]})
+
+
 class OverGeneratingParser:
     def parse(self, query: str) -> ParsedQuery:
         return ParsedQuery(

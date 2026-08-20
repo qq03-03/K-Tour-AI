@@ -16,6 +16,9 @@ ALLOWED_FILTER_FIELDS = frozenset(
         "mood",
         "activity",
         "scene_elements",
+        "place_id",
+        "city",
+        "drama_title",
     }
 )
 
@@ -26,6 +29,9 @@ FILTER_ARGUMENT_NAMES: Mapping[str, str] = {
     "mood": "moods",
     "activity": "activities",
     "scene_elements": "landscapes",
+    "place_id": "place_ids",
+    "city": "cities",
+    "drama_title": "drama_titles",
 }
 
 _VALUE_ALIASES: Mapping[str, Mapping[str, tuple[str, ...]]] = {
