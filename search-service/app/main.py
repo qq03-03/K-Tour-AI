@@ -36,7 +36,7 @@ app = FastAPI(title="K-Tour AI Search API", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://qq03-03.github.io"],
+    allow_origins=["https://qq03-03.github.io", "http://localhost:5173"],
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )

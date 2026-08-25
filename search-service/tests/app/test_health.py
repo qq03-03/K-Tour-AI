@@ -49,6 +49,17 @@ def test_cors_allows_the_frontend_origin():
     assert response.headers["access-control-allow-origin"] == "https://qq03-03.github.io"
 
 
+def test_cors_allows_local_dev_origin():
+    response = client.options(
+        "/health",
+        headers={
+            "Origin": "http://localhost:5173",
+            "Access-Control-Request-Method": "GET",
+        },
+    )
+    assert response.headers["access-control-allow-origin"] == "http://localhost:5173"
+
+
 def test_db_connection_failure_returns_503_with_a_safe_message():
     @app.get("/__test_db_error")
     def _raise_db_error():
