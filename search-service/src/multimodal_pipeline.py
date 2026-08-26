@@ -11,7 +11,12 @@ from .clip_backend import ClipRuntime, PgVectorRepository
 from .filters import filter_segments
 from .fusion import normalized_score_fusion, reciprocal_rank_fusion
 from .interfaces import QueryParser
-from .query_parser import ParsedQuery, _canonical_value, parse_query_safely, to_filter_arguments
+from .query_parser import (
+    ParsedQuery,
+    _canonical_value,
+    parse_query_safely,
+    to_filter_arguments,
+)
 
 
 FusionMethod = Literal["rrf", "normalized"]
@@ -43,6 +48,12 @@ class MultimodalSearchPipeline:
         self.runtime = runtime
         self.repository = repository
         self._segments: list[dict[str, Any]] | None = None
+        # Caches successful (non-fallback) parses of identical query text so
+        # a repeated search -- a popular theme/season click, a user re-
+        # running the same search -- doesn't pay the OpenAI round trip
+        # again. Keyed by parser class so switching parser types for the
+        # same text can't return a stale result from a different parser.
+        self._parse_cache: dict[tuple[str, str], ParsedQuery] = {}
 
     def warmup(self) -> None:
         self.runtime.warmup()
@@ -72,7 +83,7 @@ class MultimodalSearchPipeline:
         total_started = perf_counter()
 
         parser_started = perf_counter()
-        parsed = parse_query_safely(query, parser)
+        parsed = self._parse_query_cached(query, parser)
         # UI가 명시적으로 전달한 필터는 QueryParser가 자연어에서 추출한 같은
         # 필드의 값보다 우선한다 (해당 필드는 완전히 대체되며, 병합하지 않는다).
         has_ui_filter_overrides = bool(filter_overrides)
@@ -173,6 +184,16 @@ class MultimodalSearchPipeline:
                 "total": round(_elapsed_ms(total_started), 3),
             },
         }
+
+    def _parse_query_cached(self, query: str, parser: QueryParser) -> ParsedQuery:
+        cache_key = (query, type(parser).__name__)
+        cached = self._parse_cache.get(cache_key)
+        if cached is not None:
+            return cached
+        parsed = parse_query_safely(query, parser)
+        if not parsed.fallback_used:
+            self._parse_cache[cache_key] = parsed
+        return parsed
 
     def _load_segments(self) -> list[dict[str, Any]]:
         if self._segments is None:

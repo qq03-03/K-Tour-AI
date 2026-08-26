@@ -65,6 +65,12 @@ class OpenAIStructuredClient:
                 {"role": "user", "content": user_prompt},
             ],
             text_format=QueryParserResponse,
+            # This parser runs on every /api/search request and only needs
+            # to extract structured fields, not reason -- minimizing effort
+            # and verbosity keeps latency in the sub-second range instead of
+            # the 15-35s a gpt-5.6-class reasoning model can otherwise take.
+            reasoning={"effort": "none"},
+            verbosity="low",
         )
         parsed = response.output_parsed
         if parsed is None:

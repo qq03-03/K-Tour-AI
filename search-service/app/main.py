@@ -7,6 +7,8 @@ from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
+from src.query_parser import RuleBasedQueryParser
+
 from app.dependencies import (
     ConfigurationError,
     get_pipeline,
@@ -20,6 +22,12 @@ from app.schemas import SearchRequest, SearchResponse
 from app.search_response import build_search_results
 
 logger = logging.getLogger(__name__)
+
+# The openai SDK only logs retry attempts and HTTP status codes (e.g. 429
+# rate limits, 5xx) at DEBUG level via its own logger. Surfacing that here
+# is how we tell "the model was just slow" apart from "the SDK retried a
+# failed request" when diagnosing a slow /api/search call.
+logging.getLogger("openai").setLevel(logging.DEBUG)
 
 
 @asynccontextmanager
@@ -79,13 +87,29 @@ def search(request: SearchRequest, pipeline=Depends(get_pipeline), parser=Depend
         cleaned_values = [value for value in values if value and value.strip()]
         if cleaned_values:
             filter_overrides[field_name] = cleaned_values
+
+    # When the UI already sent explicit filter values (a theme, season, or
+    # drama title click), the LLM parser's job -- extracting structured
+    # filters from free text -- is redundant: it costs an OpenAI round trip
+    # for no benefit, since filter_overrides already wins over anything the
+    # parser would infer (see multimodal_pipeline.search). Use the fast
+    # rule-based parser for those requests and reserve the LLM parser for
+    # genuine free-text queries.
+    effective_parser = RuleBasedQueryParser() if filter_overrides else parser
+
     output = pipeline.search(
         request.query,
-        parser=parser,
+        parser=effective_parser,
         top_k=candidate_k,
         search_depth=candidate_k,
         methods=("rrf",),
         filter_overrides=filter_overrides or None,
+    )
+    logger.info(
+        "search completed filter_overrides=%s used_llm_parser=%s latency_ms=%s",
+        filter_overrides or None,
+        effective_parser is parser,
+        output.get("latency_ms"),
     )
     results = build_search_results(output, top_k=request.top_k)
     return SearchResponse(

@@ -18,6 +18,28 @@ class FixedParser:
         )
 
 
+class CountingParser:
+    """Counts real .parse() calls, standing in for the OpenAI-backed parser
+    whose round trip is what caching is meant to avoid on repeat queries."""
+
+    def __init__(self) -> None:
+        self.call_count = 0
+
+    def parse(self, query: str) -> ParsedQuery:
+        self.call_count += 1
+        return ParsedQuery(
+            original_query=query,
+            search_text="summer hydrangea path on Nami Island",
+            filters={"season": ["여름"]},
+            soft_hints={"mood": ["평화로운"]},
+        )
+
+
+class FailingParser:
+    def parse(self, query: str) -> ParsedQuery:
+        raise ValueError("transient parser failure")
+
+
 class FakeRuntime:
     model_name = "fake-clip"
     device = "cpu"
@@ -96,6 +118,52 @@ def test_pipeline_encodes_once_and_searches_both_embeddings() -> None:
     assert output["results_by_method"]["rrf"][0]["soft_hint_matches"] == {
         "mood": ["평화로운"]
     }
+
+
+def test_pipeline_caches_repeated_identical_queries_and_skips_the_parser() -> None:
+    # Identical repeat searches (a popular theme/season query, a user
+    # re-running the same search) shouldn't pay the OpenAI round trip twice.
+    pipeline = MultimodalSearchPipeline(runtime=FakeRuntime(), repository=FakeRepository())
+    parser = CountingParser()
+
+    pipeline.search("여름의 평화로운 남이섬 수국길", parser=parser)
+    pipeline.search("여름의 평화로운 남이섬 수국길", parser=parser)
+
+    assert parser.call_count == 1
+
+
+def test_pipeline_does_not_cache_across_different_queries() -> None:
+    pipeline = MultimodalSearchPipeline(runtime=FakeRuntime(), repository=_LenientRepository())
+    parser = CountingParser()
+
+    pipeline.search("여름의 평화로운 남이섬 수국길", parser=parser)
+    pipeline.search("가을 단풍길", parser=parser)
+
+    assert parser.call_count == 2
+
+
+class _LenientRepository(FakeRepository):
+    """Like FakeRepository, but doesn't assert on candidate_ids -- a failed
+    parse legitimately falls back to the full, unfiltered segment set."""
+
+    def search(self, vector, source, *, candidate_ids, top_k):
+        self.sources.append(source)
+        score = 0.8 if source == "text" else 0.9
+        return [{"segment_id": candidate_ids[0], "score": score}] if candidate_ids else []
+
+
+def test_pipeline_does_not_cache_a_failed_parse() -> None:
+    # A transient failure shouldn't be remembered as the permanent answer
+    # for that query -- the next identical request should retry the parser.
+    pipeline = MultimodalSearchPipeline(runtime=FakeRuntime(), repository=_LenientRepository())
+
+    output = pipeline.search("여름의 평화로운 남이섬 수국길", parser=FailingParser())
+    assert output["fallback_used"] is True
+
+    parser = CountingParser()
+    pipeline.search("여름의 평화로운 남이섬 수국길", parser=parser)
+
+    assert parser.call_count == 1
 
 
 class NoFilterParser:
