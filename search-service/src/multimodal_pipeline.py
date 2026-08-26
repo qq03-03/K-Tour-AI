@@ -168,17 +168,20 @@ class MultimodalSearchPipeline:
                 results,
                 segment_by_id=segment_by_id,
                 soft_hints=parsed.soft_hints,
-                top_k=top_k,
+                top_k=depth,
                 enabled=self.metadata_rerank_enabled,
             )
             for method, results in fused.items()
         }
         enriched = {
-            method: self._enrich(
-                results,
-                segment_by_id=segment_by_id,
-                text_results=text_results,
-                image_results=image_results,
+            method: collapse_results_by_source_segment(
+                self._enrich(
+                    results,
+                    segment_by_id=segment_by_id,
+                    text_results=text_results,
+                    image_results=image_results,
+                ),
+                top_k=top_k,
             )
             for method, results in reranked.items()
         }
@@ -380,6 +383,87 @@ def collapse_source_results(
         collapsed,
         key=lambda item: (-float(item["score"]), str(item["segment_id"])),
     )
+
+
+def collapse_results_by_source_segment(
+    results: Sequence[Mapping[str, Any]],
+    *,
+    top_k: int,
+) -> list[dict[str, Any]]:
+    """같은 원본 구간의 SCENE 결과 중 최고 점수 장면 하나만 반환한다.
+
+    새 장면 데이터는 ``source_segment_id``를 부모 ID로 사용한다. 전환 기간의
+    데이터처럼 해당 필드가 없으면 ``..._SCENE_001`` 형태의 ``segment_id``에서
+    부모 ID를 추출한다. 기존 단일 구간 ID는 자기 자신을 부모 ID로 사용한다.
+    """
+
+    if isinstance(top_k, bool) or not isinstance(top_k, int) or top_k < 1:
+        raise ValueError("top_k는 1 이상의 정수여야 합니다.")
+
+    best_by_source: dict[str, tuple[tuple[float, float, int], dict[str, Any]]] = {}
+    for index, item in enumerate(results):
+        if not isinstance(item, Mapping):
+            raise TypeError(f"최종 검색 결과 {index}는 객체여야 합니다.")
+
+        segment_id = item.get("segment_id")
+        if not isinstance(segment_id, str) or not segment_id.strip():
+            raise ValueError("최종 검색 결과의 segment_id가 올바르지 않습니다.")
+        segment_id = segment_id.strip()
+        source_segment_id = _source_segment_id(item, segment_id)
+        final_score = _result_score(item)
+        image_score = _optional_score(item, "image_score", fallback=None)
+        fusion_rank = item.get("fusion_rank", item.get("rank", index + 1))
+        if isinstance(fusion_rank, bool) or not isinstance(fusion_rank, int):
+            raise TypeError("fusion_rank 또는 rank는 정수여야 합니다.")
+
+        # 점수는 클수록, 기존 결합 순위와 segment_id는 작을수록 우선한다.
+        selection_key = (
+            final_score,
+            image_score if image_score is not None else -math.inf,
+            -fusion_rank,
+        )
+        current = best_by_source.get(source_segment_id)
+        should_replace = current is None or selection_key > current[0]
+        if current is not None and selection_key == current[0]:
+            should_replace = segment_id < str(current[1]["segment_id"])
+        if should_replace:
+            representative = dict(item)
+            representative["segment_id"] = segment_id
+            representative["source_segment_id"] = source_segment_id
+            best_by_source[source_segment_id] = (selection_key, representative)
+
+    ordered = sorted(
+        (value[1] for value in best_by_source.values()),
+        key=lambda item: (
+            -_result_score(item),
+            int(item.get("fusion_rank", item.get("rank", 0))),
+            str(item["source_segment_id"]),
+            str(item["segment_id"]),
+        ),
+    )[:top_k]
+    return [
+        {"rank": rank, **{key: value for key, value in item.items() if key != "rank"}}
+        for rank, item in enumerate(ordered, start=1)
+    ]
+
+
+def _source_segment_id(item: Mapping[str, Any], segment_id: str) -> str:
+    explicit = item.get("source_segment_id")
+    if isinstance(explicit, str) and explicit.strip():
+        return explicit.strip()
+
+    parent, marker, scene_number = segment_id.rpartition("_SCENE_")
+    if marker and parent and scene_number.isdigit():
+        return parent
+    return segment_id
+
+
+def _result_score(item: Mapping[str, Any]) -> float:
+    for field_name in ("final_score", "combined_score", "rrf_score", "score"):
+        score = _optional_score(item, field_name, fallback=None)
+        if score is not None:
+            return score
+    raise ValueError("최종 검색 결과에 사용할 점수가 없습니다.")
 
 
 def _source_score(item: Mapping[str, Any], source: str) -> float:

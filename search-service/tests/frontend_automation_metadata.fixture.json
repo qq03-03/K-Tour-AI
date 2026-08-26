@@ -1,0 +1,36 @@
+[
+  {
+    "segment_id": "SEG_001",
+    "video_id": "VID_001",
+    "place_id": "P001",
+    "place_name": "화성행궁",
+    "region": "경기도",
+    "city": "수원시",
+    "source_url": "https://example.test/one",
+    "drama_title": "테스트 작품",
+    "season": "봄",
+    "time_of_day": "day",
+    "description": "A palace path in spring.",
+    "mood": ["peaceful"],
+    "activity": ["walking"],
+    "scene_elements": ["palace", "path"],
+    "keyframe_path": "keyframes/SEG_001.jpg"
+  },
+  {
+    "segment_id": "SEG_002",
+    "video_id": "VID_002",
+    "place_id": "P002",
+    "place_name": "남이섬",
+    "region": "강원특별자치도",
+    "city": "춘천시",
+    "source_url": "https://example.test/two",
+    "drama_title": "다른 작품",
+    "season": "여름",
+    "time_of_day": "day",
+    "description": "A green forest path in summer.",
+    "mood": ["refreshing"],
+    "activity": ["walking"],
+    "scene_elements": ["trees", "path"],
+    "keyframe_path": "keyframes/SEG_002.jpg"
+  }
+]

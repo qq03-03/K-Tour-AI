@@ -14,7 +14,8 @@
   "results": [
     {
       "rank": 1,
-      "segment_id": "V008_P014_S001",
+      "source_segment_id": "V008_P014_S001",
+      "segment_id": "V008_P014_S001_SCENE_001",
       "video_id": "GOBLIN_03",
       "place_id": "P014",
       "drama_title": "도깨비",

@@ -1,7 +1,8 @@
-# K-Tour 검색 API 입출력 계약 초안
+# K-Tour 검색 API 입출력 계약 v2
 
-이 문서는 검색 파트(⑤)가 백엔드 파트(⑥)에 전달할 최소 계약이다. 좌표와
-최종 `place_id`가 바뀌어도 검색 요청 형식은 유지한다.
+이 문서는 검색 파트(⑤)가 백엔드 파트(⑥)에 전달할 최소 계약이다. v2는
+하나의 원본 영상 구간에 여러 장면(`SCENE`)과 keyframe이 연결되는 2차 데이터
+구조를 지원한다. 좌표와 최종 `place_id`가 바뀌어도 검색 요청 형식은 유지한다.
 
 ## 요청
 
@@ -30,8 +31,17 @@
 
 ## 응답
 
-검색 결과 단위는 `segment`다. 한 세그먼트에 keyframe이 여러 장 있어도 결과는
-한 번만 노출하고, 이미지 유사도가 가장 높은 keyframe을 대표로 반환한다.
+검색 결과의 노출 단위는 원본 영상 구간인 `source_segment_id`다. 한 원본 구간에
+여러 장면과 keyframe이 있어도 결과는 한 번만 노출한다. 검색 후보 중
+`final_score`가 가장 높은 장면을 우선하고, 동점이면 `image_score`가 높은 장면의
+keyframe을 대표로 반환한다. `top_k`는 이 중복 제거가 끝난 뒤 적용한다.
+
+ID의 의미는 다음과 같다.
+
+- `source_segment_id`: 같은 원본 영상 구간을 묶는 부모 ID이자 중복 제거 기준
+- `segment_id`: 검색 결과를 대표하도록 선택된 실제 장면 ID
+- `keyframe_id`, `keyframe_path`: 선택된 장면의 대표 이미지
+- `start_time`, `end_time`: 선택된 장면의 실제 재생 시간
 
 질의의 작품명 판별 상태는 응답 최상위에 함께 반환한다.
 
@@ -44,7 +54,7 @@
 
 필수 결과 필드:
 
-- 식별·순위: `rank`, `segment_id`, `video_id`, `place_id`
+- 식별·순위: `rank`, `source_segment_id`, `segment_id`, `video_id`, `place_id`
 - 표시: `drama_title`, `place_name`, `region`, `city`, `address`
 - 지도: `latitude`, `longitude` — 좌표 미확정 시 둘 다 `null`
 - 재생: `start_time`, `end_time`
@@ -57,13 +67,56 @@
 
 ## 불변 조건
 
-1. 같은 응답에서 `segment_id`는 중복되면 안 된다.
-2. `rank`는 1부터 결과 순서대로 증가한다.
-3. `end_time`은 `start_time`보다 커야 한다.
-4. `latitude`와 `longitude`는 둘 다 있거나 둘 다 `null`이어야 한다.
-5. `text_score`, `image_score`, `final_score`를 모두 제공해 검색 결과를 설명할 수 있어야 한다.
-6. 좌표는 `place_id` 기준으로 연결하고 keyframe마다 복제 저장하지 않는다.
-7. `query_status`가 `not_found`이면 `results`는 비어 있어야 한다.
+1. 같은 응답에서 `source_segment_id`는 중복되면 안 된다.
+2. 같은 응답에서 대표 장면인 `segment_id`도 중복되면 안 된다.
+3. `rank`는 1부터 결과 순서대로 증가한다.
+4. `end_time`은 `start_time`보다 커야 한다.
+5. `latitude`와 `longitude`는 둘 다 있거나 둘 다 `null`이어야 한다.
+6. `text_score`, `image_score`, `final_score`를 모두 제공해 검색 결과를 설명할 수 있어야 한다.
+7. 좌표는 `place_id` 기준으로 연결하고 keyframe마다 복제 저장하지 않는다.
+8. `query_status`가 `not_found`이면 `results`는 비어 있어야 한다.
+
+## 응답 예시
+
+```json
+{
+  "query": "밤에 걷기 좋은 궁궐 촬영지를 보여줘",
+  "lang": "ko",
+  "query_status": "none",
+  "matched_drama_titles": [],
+  "possible_title": null,
+  "fallback_used": false,
+  "translation_fallback": false,
+  "results": [
+    {
+      "rank": 1,
+      "source_segment_id": "V001_P032_S001",
+      "segment_id": "V001_P032_S001_SCENE_003",
+      "video_id": "V001_VIDEO_01",
+      "place_id": "P032",
+      "drama_title": "선재 업고 튀어",
+      "place_name": "화홍문",
+      "region": "경기도",
+      "city": "수원시",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "start_time": 15.2,
+      "end_time": 20.8,
+      "description": "밤에 조명이 켜진 화홍문 주변을 걷는 장면",
+      "mood": ["낭만적인"],
+      "activity": ["산책"],
+      "scene_elements": ["성곽", "야경"],
+      "keyframe_id": "V001_P032_S001_SCENE_003",
+      "keyframe_path": "keyframes/V001_VIDEO_01/V001_P032_S001_SCENE_003.jpg",
+      "text_score": 0.82,
+      "image_score": 0.91,
+      "final_score": 0.87,
+      "content_language": "ko"
+    }
+  ]
+}
+```
 
 ## 오류 응답 권장
 

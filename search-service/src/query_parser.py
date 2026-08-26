@@ -180,6 +180,11 @@ class RuleBasedQueryParser:
             if matched:
                 filters[field_name] = matched
 
+        location_match = analyze_locations(filter_text)
+        if location_match.region_filters:
+            # 카탈로그가 확인한 개별 지역·지역권은 규칙 목록보다 우선한다.
+            filters["region"] = list(location_match.region_filters)
+
         moods = [
             canonical
             for canonical, expressions in self._MOOD_KEYWORDS.items()

@@ -4,7 +4,11 @@ from __future__ import annotations
 
 import numpy as np
 
-from src.multimodal_pipeline import MultimodalSearchPipeline, collapse_source_results
+from src.multimodal_pipeline import (
+    MultimodalSearchPipeline,
+    collapse_results_by_source_segment,
+    collapse_source_results,
+)
 from src.query_parser import ParsedQuery
 
 
@@ -142,6 +146,197 @@ def test_keyframe_rows_are_collapsed_to_best_image_per_segment() -> None:
     assert collapsed[0]["keyframe_id"] == "KF_A2"
     assert collapsed[0]["description"] == "벚꽃 장면"
     assert collapsed[0]["image_score"] == 0.95
+
+
+def test_scene_results_are_collapsed_to_best_result_per_source_segment() -> None:
+    rows = [
+        {
+            "rank": 1,
+            "segment_id": "V014_P021_S001_SCENE_001",
+            "source_segment_id": "V014_P021_S001",
+            "keyframe_path": "keyframes/scene_001.jpg",
+            "final_score": 0.72,
+            "image_score": 0.80,
+            "fusion_rank": 1,
+        },
+        {
+            "rank": 2,
+            "segment_id": "V014_P021_S001_SCENE_002",
+            "source_segment_id": "V014_P021_S001",
+            "keyframe_path": "keyframes/scene_002.jpg",
+            "final_score": 0.91,
+            "image_score": 0.88,
+            "fusion_rank": 2,
+        },
+        {
+            "rank": 3,
+            "segment_id": "V001_P032_S001_SCENE_001",
+            "source_segment_id": "V001_P032_S001",
+            "keyframe_path": "keyframes/hwahongmun.jpg",
+            "final_score": 0.83,
+            "image_score": 0.90,
+            "fusion_rank": 3,
+        },
+    ]
+
+    collapsed = collapse_results_by_source_segment(rows, top_k=5)
+
+    assert [item["source_segment_id"] for item in collapsed] == [
+        "V014_P021_S001",
+        "V001_P032_S001",
+    ]
+    assert collapsed[0]["segment_id"] == "V014_P021_S001_SCENE_002"
+    assert collapsed[0]["keyframe_path"] == "keyframes/scene_002.jpg"
+    assert [item["rank"] for item in collapsed] == [1, 2]
+
+
+def test_source_segment_id_is_inferred_from_scene_id_for_transition_data() -> None:
+    rows = [
+        {
+            "rank": 1,
+            "segment_id": "V003_P006_S001_SCENE_001",
+            "final_score": 0.70,
+            "image_score": 0.75,
+        },
+        {
+            "rank": 2,
+            "segment_id": "V003_P006_S001_SCENE_002",
+            "final_score": 0.80,
+            "image_score": 0.85,
+        },
+        {
+            "rank": 3,
+            "segment_id": "LEGACY_SEGMENT",
+            "final_score": 0.60,
+            "image_score": 0.65,
+        },
+    ]
+
+    collapsed = collapse_results_by_source_segment(rows, top_k=5)
+
+    assert [item["segment_id"] for item in collapsed] == [
+        "V003_P006_S001_SCENE_002",
+        "LEGACY_SEGMENT",
+    ]
+    assert collapsed[0]["source_segment_id"] == "V003_P006_S001"
+    assert collapsed[1]["source_segment_id"] == "LEGACY_SEGMENT"
+
+
+def test_source_segment_collapse_applies_top_k_after_deduplication() -> None:
+    rows = [
+        {
+            "rank": rank,
+            "segment_id": segment_id,
+            "source_segment_id": source_segment_id,
+            "final_score": score,
+        }
+        for rank, (segment_id, source_segment_id, score) in enumerate(
+            [
+                ("A_SCENE_001", "A", 0.95),
+                ("A_SCENE_002", "A", 0.90),
+                ("B_SCENE_001", "B", 0.85),
+                ("C_SCENE_001", "C", 0.80),
+            ],
+            start=1,
+        )
+    ]
+
+    collapsed = collapse_results_by_source_segment(rows, top_k=2)
+
+    assert [item["source_segment_id"] for item in collapsed] == ["A", "B"]
+    assert len(collapsed) == 2
+
+
+def test_source_segment_collapse_uses_stable_scene_id_tiebreaker() -> None:
+    rows = [
+        {
+            "rank": 1,
+            "segment_id": "V001_P001_S001_SCENE_002",
+            "source_segment_id": "V001_P001_S001",
+            "final_score": 0.8,
+            "image_score": 0.9,
+            "fusion_rank": 1,
+        },
+        {
+            "rank": 1,
+            "segment_id": "V001_P001_S001_SCENE_001",
+            "source_segment_id": "V001_P001_S001",
+            "final_score": 0.8,
+            "image_score": 0.9,
+            "fusion_rank": 1,
+        },
+    ]
+
+    collapsed = collapse_results_by_source_segment(rows, top_k=1)
+
+    assert collapsed[0]["segment_id"] == "V001_P001_S001_SCENE_001"
+
+
+def test_pipeline_returns_distinct_source_segments_after_scene_search() -> None:
+    class SceneRepository:
+        def list_segments(self):
+            return [
+                {
+                    "segment_id": segment_id,
+                    "video_id": source_segment_id,
+                    "start_time": float(index * 5),
+                    "end_time": float(index * 5 + 5),
+                    "region": "강원",
+                    "season": "여름",
+                    "time_of_day": "낮",
+                    "mood": ["peaceful"],
+                    "activity": [],
+                    "landscape": ["hydrangea"],
+                }
+                for index, (segment_id, source_segment_id) in enumerate(
+                    [
+                        ("V014_P021_S001_SCENE_001", "V014_P021_S001"),
+                        ("V014_P021_S001_SCENE_002", "V014_P021_S001"),
+                        ("V001_P032_S001_SCENE_001", "V001_P032_S001"),
+                    ]
+                )
+            ]
+
+        def search(self, vector, source, *, candidate_ids, top_k):
+            del vector
+            score_by_id = {
+                "V014_P021_S001_SCENE_001": 0.70,
+                "V014_P021_S001_SCENE_002": 0.95,
+                "V001_P032_S001_SCENE_001": 0.80,
+            }
+            score_field = "text_score" if source == "text" else "image_score"
+            return [
+                {
+                    "segment_id": segment_id,
+                    "keyframe_id": f"KF_{index}",
+                    "keyframe_path": f"keyframes/{segment_id}.jpg",
+                    score_field: score_by_id[segment_id],
+                    "score": score_by_id[segment_id],
+                }
+                for index, segment_id in enumerate(
+                    sorted(candidate_ids, key=score_by_id.get, reverse=True)[:top_k]
+                )
+            ]
+
+    pipeline = MultimodalSearchPipeline(
+        runtime=FakeRuntime(),
+        repository=SceneRepository(),
+    )
+
+    output = pipeline.search(
+        "여름의 평화로운 남이섬 수국길",
+        parser=FixedParser(),
+        top_k=5,
+        methods=("normalized",),
+    )
+
+    results = output["results_by_method"]["normalized"]
+    assert [item["source_segment_id"] for item in results] == [
+        "V014_P021_S001",
+        "V001_P032_S001",
+    ]
+    assert results[0]["segment_id"] == "V014_P021_S001_SCENE_002"
+    assert results[0]["keyframe_path"].endswith("SCENE_002.jpg")
 
 
 def test_unregistered_title_stops_before_embedding_and_db_search() -> None:

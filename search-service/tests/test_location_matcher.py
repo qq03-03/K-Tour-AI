@@ -44,3 +44,31 @@ def test_place_name_alone_does_not_infer_region() -> None:
 
     assert result.region_filters == ()
     assert [place.place_id for place in result.places] == ["P014"]
+
+
+def test_gyeongsang_region_expands_to_five_database_regions() -> None:
+    result = analyze_locations("경상도 야경 촬영지 보여줘")
+
+    assert result.region_filters == ("부산", "대구", "울산", "경북", "경남")
+
+
+def test_specific_busan_query_does_not_expand_to_gyeongsang_region() -> None:
+    result = analyze_locations("부산 야경 촬영지 보여줘")
+
+    assert result.region_filters == ("부산",)
+
+
+@pytest.mark.parametrize(
+    ("query", "expected"),
+    [
+        ("수도권 촬영지", ("서울", "경기", "인천")),
+        ("충청도 촬영지", ("대전", "세종", "충북", "충남")),
+        ("호남권 촬영지", ("광주", "전북", "전남")),
+        ("영남권 촬영지", ("부산", "대구", "울산", "경북", "경남")),
+    ],
+)
+def test_broad_region_aliases_expand_to_configured_regions(
+    query: str,
+    expected: tuple[str, ...],
+) -> None:
+    assert analyze_locations(query).region_filters == expected

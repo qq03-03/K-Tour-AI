@@ -148,11 +148,16 @@ def load_preprocessing_segments(path: str | Path) -> list[dict[str, Any]]:
 def build_alignment_report(
     metadata_path: str | Path,
     preprocessing_path: str | Path,
+    *,
+    keyframe_root: str | Path | None = None,
 ) -> dict[str, Any]:
     """VLM과 전처리 결과의 ID·시간·키프레임 연결을 전수 비교한다."""
 
     metadata_path = Path(metadata_path)
     preprocessing_path = Path(preprocessing_path)
+    resolved_keyframe_root = (
+        Path(keyframe_root) if keyframe_root is not None else preprocessing_path.parent
+    )
     try:
         metadata_payload = json.loads(
             metadata_path.read_text(encoding="utf-8-sig")
@@ -224,7 +229,7 @@ def build_alignment_report(
         if not keyframe_path:
             issues.append(f"{expected_id}: keyframe_path가 없습니다.")
         else:
-            keyframe_file = preprocessing_path.parent / Path(
+            keyframe_file = resolved_keyframe_root / Path(
                 keyframe_path.replace("/", "\\")
             )
             if not keyframe_file.is_file():

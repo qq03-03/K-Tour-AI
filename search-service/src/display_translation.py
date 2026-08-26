@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 from collections.abc import Mapping, Sequence
@@ -51,6 +52,79 @@ Preserve the number and order of every list. An empty list must remain empty.
 Do not add facts, places, seasons, activities, people, or scenery that are absent from the source.
 Use short natural UI tags for list values and one faithful sentence for description.
 This output is display text only and must not alter search meaning."""
+
+
+def translation_source_hash(record: Mapping[str, Any]) -> str:
+    """Return a stable hash for fields that are sent to the translation API."""
+
+    source = record.get("source")
+    if not isinstance(source, Mapping):
+        raise ValueError("translation source 레코드에 source가 필요합니다.")
+    semantic = {
+        "description": _text(source.get("description"), "description"),
+        "mood": _list(source.get("mood"), "mood"),
+        "activity": _list(source.get("activity"), "activity"),
+        "scene_elements": _list(source.get("scene_elements"), "scene_elements"),
+    }
+    serialized = json.dumps(
+        semantic,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    ).encode("utf-8")
+    return hashlib.sha256(serialized).hexdigest()
+
+
+def plan_incremental_translations(
+    source_records: Sequence[Mapping[str, Any]],
+    completed_records: Sequence[Mapping[str, Any]],
+) -> dict[str, Any]:
+    """Split a checkpoint into reusable, pending, changed, and stale records."""
+
+    source_index: dict[tuple[str, str], Mapping[str, Any]] = {}
+    for record in source_records:
+        key = (
+            _text(record.get("segment_id"), "segment_id"),
+            _text(record.get("keyframe_id"), "keyframe_id"),
+        )
+        if key in source_index:
+            raise ValueError(f"번역 source ID 중복: {key[0]}/{key[1]}")
+        source_index[key] = record
+
+    completed_index: dict[tuple[str, str], Mapping[str, Any]] = {}
+    for record in completed_records:
+        key = (
+            _text(record.get("segment_id"), "segment_id"),
+            _text(record.get("keyframe_id"), "keyframe_id"),
+        )
+        if key in completed_index:
+            raise ValueError(f"번역 checkpoint ID 중복: {key[0]}/{key[1]}")
+        completed_index[key] = record
+
+    reusable: list[dict[str, Any]] = []
+    pending: list[dict[str, Any]] = []
+    added_keys: list[tuple[str, str]] = []
+    changed_keys: list[tuple[str, str]] = []
+    for key, source_record in source_index.items():
+        completed = completed_index.get(key)
+        expected_hash = translation_source_hash(source_record)
+        if completed is None:
+            pending.append(dict(source_record))
+            added_keys.append(key)
+        elif completed.get("source_hash") != expected_hash:
+            pending.append(dict(source_record))
+            changed_keys.append(key)
+        else:
+            reusable.append(dict(completed))
+
+    stale_keys = sorted(set(completed_index) - set(source_index))
+    return {
+        "reusable": reusable,
+        "pending": pending,
+        "added_keys": sorted(added_keys),
+        "changed_keys": sorted(changed_keys),
+        "stale_keys": stale_keys,
+    }
 
 
 REGION_NAMES: dict[str, dict[str, str]] = {

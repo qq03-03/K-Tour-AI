@@ -50,6 +50,28 @@ def test_province_filter_accepts_short_and_official_names() -> None:
     assert segment_ids(filter_segments(sample, regions="강원도")) == ["GANGWON"]
 
 
+def test_gyeongsang_region_values_filter_with_or_semantics() -> None:
+    sample = [
+        {"segment_id": "BUSAN", "region": "부산광역시"},
+        {"segment_id": "DAEGU", "region": "대구광역시"},
+        {"segment_id": "ULSAN", "region": "울산광역시"},
+        {"segment_id": "GYEONGBUK", "region": "경상북도"},
+        {"segment_id": "GYEONGNAM", "region": "경상남도"},
+        {"segment_id": "SEOUL", "region": "서울특별시"},
+    ]
+
+    regions = ["부산", "대구", "울산", "경북", "경남"]
+
+    assert segment_ids(filter_segments(sample, regions=regions)) == [
+        "BUSAN",
+        "DAEGU",
+        "ULSAN",
+        "GYEONGBUK",
+        "GYEONGNAM",
+    ]
+    assert segment_ids(filter_segments(sample, regions="부산")) == ["BUSAN"]
+
+
 def test_city_filter_does_not_expand_to_the_entire_province() -> None:
     sample = [
         {

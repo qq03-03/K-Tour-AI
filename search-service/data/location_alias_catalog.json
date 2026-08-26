@@ -22,6 +22,24 @@
       }
     },
     {
+      "canonical": "대구",
+      "aliases": {
+        "ko": ["대구", "대구광역시"],
+        "en": ["Daegu"],
+        "ja": ["大邱"],
+        "zh": ["大邱"]
+      }
+    },
+    {
+      "canonical": "울산",
+      "aliases": {
+        "ko": ["울산", "울산광역시"],
+        "en": ["Ulsan"],
+        "ja": ["蔚山"],
+        "zh": ["蔚山"]
+      }
+    },
+    {
       "canonical": "제주",
       "aliases": {
         "ko": ["제주", "제주도", "제주특별자치도"],
@@ -58,6 +76,33 @@
       }
     },
     {
+      "canonical": "광주",
+      "aliases": {
+        "ko": ["광주", "광주광역시"],
+        "en": ["Gwangju"],
+        "ja": ["光州"],
+        "zh": ["光州"]
+      }
+    },
+    {
+      "canonical": "대전",
+      "aliases": {
+        "ko": ["대전", "대전광역시"],
+        "en": ["Daejeon"],
+        "ja": ["大田"],
+        "zh": ["大田"]
+      }
+    },
+    {
+      "canonical": "세종",
+      "aliases": {
+        "ko": ["세종", "세종시", "세종특별자치시"],
+        "en": ["Sejong", "Sejong City"],
+        "ja": ["世宗", "世宗市"],
+        "zh": ["世宗", "世宗市"]
+      }
+    },
+    {
       "canonical": "충북",
       "aliases": {
         "ko": ["충북", "충청북도"],
@@ -85,12 +130,66 @@
       }
     },
     {
+      "canonical": "전남",
+      "aliases": {
+        "ko": ["전남", "전라남도"],
+        "en": ["Jeonnam", "Jeollanam-do", "South Jeolla"],
+        "ja": ["全羅南道"],
+        "zh": ["全罗南道", "全羅南道"]
+      }
+    },
+    {
       "canonical": "경북",
       "aliases": {
         "ko": ["경북", "경상북도"],
         "en": ["Gyeongbuk", "Gyeongsangbuk-do", "North Gyeongsang"],
         "ja": ["慶尚北道"],
         "zh": ["庆尚北道", "慶尚北道"]
+      }
+    },
+    {
+      "canonical": "경남",
+      "aliases": {
+        "ko": ["경남", "경상남도"],
+        "en": ["Gyeongnam", "Gyeongsangnam-do", "South Gyeongsang"],
+        "ja": ["慶尚南道"],
+        "zh": ["庆尚南道", "慶尚南道"]
+      }
+    },
+    {
+      "canonical": ["서울", "경기", "인천"],
+      "aliases": {
+        "ko": ["수도권"],
+        "en": ["Seoul Capital Area", "Korean Capital Region"],
+        "ja": ["首都圏"],
+        "zh": ["首都圈"]
+      }
+    },
+    {
+      "canonical": ["대전", "세종", "충북", "충남"],
+      "aliases": {
+        "ko": ["충청도", "충청권"],
+        "en": ["Chungcheong region"],
+        "ja": ["忠清道", "忠清圏"],
+        "zh": ["忠清道", "忠清地区"]
+      }
+    },
+    {
+      "canonical": ["광주", "전북", "전남"],
+      "aliases": {
+        "ko": ["전라도", "전라권", "호남", "호남권"],
+        "en": ["Jeolla region", "Honam region"],
+        "ja": ["全羅道", "湖南地方"],
+        "zh": ["全罗道", "全羅道", "湖南地区"]
+      }
+    },
+    {
+      "canonical": ["부산", "대구", "울산", "경북", "경남"],
+      "aliases": {
+        "ko": ["경상도", "경상권", "영남", "영남권"],
+        "en": ["Gyeongsang region", "Yeongnam region"],
+        "ja": ["慶尚道", "嶺南地方"],
+        "zh": ["庆尚道", "慶尚道", "岭南地区", "嶺南地區"]
       }
     },
     {

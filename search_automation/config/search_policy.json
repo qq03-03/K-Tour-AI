@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "result_unit": "source_segment_id",
+  "keyframe_id_rule": "segment_id",
+  "embedding_dimension": 512,
+  "embedding_model": "openai/clip-vit-base-patch32",
+  "embedding_norm_tolerance": 0.001,
+  "hard_filter_fields": [
+    "place_id",
+    "drama_title",
+    "region",
+    "city",
+    "season",
+    "time_of_day",
+    "theme"
+  ],
+  "soft_hint_fields": [
+    "mood",
+    "activity",
+    "scene_elements",
+    "k_culture_elements"
+  ],
+  "allowed_values": {
+    "season": ["봄", "여름", "가을", "겨울"],
+    "time_of_day": ["day", "evening", "night"],
+    "theme": [
+      "night_view",
+      "flower",
+      "autumn_leaves",
+      "traditional",
+      "field",
+      "hiking",
+      "forest",
+      "drive",
+      "sea"
+    ]
+  },
+  "value_aliases": {
+    "season": {
+      "봄": ["봄", "spring", "春", "春天", "春季"],
+      "여름": ["여름", "summer", "夏", "夏天", "夏季"],
+      "가을": ["가을", "autumn", "fall", "秋", "秋天", "秋季"],
+      "겨울": ["겨울", "winter", "冬", "冬天", "冬季"]
+    },
+    "time_of_day": {
+      "day": ["오전", "낮", "오후", "day", "daytime", "morning", "昼", "白天"],
+      "evening": ["해질녘", "저녁", "evening", "sunset", "dusk", "夕暮れ", "黄昏"],
+      "night": ["밤", "야간", "야경", "night", "nighttime", "夜", "夜晚"]
+    }
+  },
+  "region_groups": {
+    "경상도": ["부산", "대구", "울산", "경북", "경남"],
+    "영남": ["부산", "대구", "울산", "경북", "경남"],
+    "전라도": ["광주", "전북", "전남"],
+    "호남": ["광주", "전북", "전남"],
+    "충청도": ["대전", "세종", "충북", "충남"],
+    "수도권": ["서울", "경기", "인천"]
+  },
+  "candidate_k": {
+    "minimum": 50,
+    "top_k_multiplier": 5
+  },
+  "rrf_k": 60
+}

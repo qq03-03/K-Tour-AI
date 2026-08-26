@@ -1,0 +1,15 @@
+{
+  "metadata": "../outputs/K-Tour_AI_Backend_Handoff_517_Final_v4_Region_20260820/data/metadata_517_yonghwasan_v2.json",
+  "baseline_metadata": "../outputs/K-Tour_AI_Backend_Handoff_517_Final_v4_Region_20260820/data/metadata_517_yonghwasan_v2.json",
+  "translations": "../outputs/K-Tour_AI_Backend_Handoff_517_Final_v4_Region_20260820/data/display_translations_517_no_P063.json",
+  "existing_title_catalog": "../codex_staging/region_group_normalization/search-service/data/drama_title_catalog.json",
+  "existing_location_catalog": "../codex_staging/region_group_normalization/search-service/data/location_alias_catalog.json",
+  "theme_mapping": "../outputs/K-Tour_AI_Backend_Theme_Mapping_Final_v6_20260820/data/theme_mapping.confirmed_final_v6.json",
+  "theme_rules": "../codex_staging/theme_mapping_517/theme_rules.json",
+  "evaluation": "../outputs/K-Tour_AI_Backend_Handoff_517_Final_v4_Region_20260820/data/multilingual_theme_evaluation_40.json",
+  "text_embeddings": "../outputs/K-Tour_AI_Backend_Handoff_517_Final_v4_Region_20260820/embeddings/segment_embeddings_517_yonghwasan_v2.json",
+  "image_embeddings": "../outputs/K-Tour_AI_Backend_Handoff_517_Final_v4_Region_20260820/embeddings/keyframe_embeddings_517_unchanged.json",
+  "coordinates": "../outputs/K-Tour_AI_Backend_Handoff_517_Final_v4_Region_20260820/data/places_coordinates_517.json",
+  "policy": "config/search_policy.json",
+  "output_dir": "output/current_517_check"
+}

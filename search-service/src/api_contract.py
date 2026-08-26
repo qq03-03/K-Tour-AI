@@ -12,6 +12,7 @@ QUERY_STATUSES = frozenset({"matched", "not_found", "ambiguous", "none"})
 OPTIONAL_REQUEST_FILTERS = ("region", "season", "time_of_day")
 REQUIRED_RESULT_FIELDS = (
     "rank",
+    "source_segment_id",
     "segment_id",
     "video_id",
     "place_id",
@@ -73,6 +74,7 @@ def validate_search_response(payload: object) -> dict[str, Any]:
     if query_status == "not_found" and raw_results:
         raise ValueError("미등록 작품 검색은 results가 비어 있어야 합니다.")
 
+    seen_source_segments: set[str] = set()
     seen_segments: set[str] = set()
     validated_results: list[dict[str, Any]] = []
     for index, item in enumerate(raw_results):
@@ -84,6 +86,15 @@ def validate_search_response(payload: object) -> dict[str, Any]:
         rank = item["rank"]
         if rank != index + 1:
             raise ValueError("rank는 1부터 결과 순서대로 증가해야 합니다.")
+        source_segment_id = _nonempty_text(
+            item["source_segment_id"],
+            f"results[{index}].source_segment_id",
+        )
+        if source_segment_id in seen_source_segments:
+            raise ValueError(
+                f"source_segment_id가 중복 노출됐습니다: {source_segment_id}"
+            )
+        seen_source_segments.add(source_segment_id)
         segment_id = _nonempty_text(item["segment_id"], f"results[{index}].segment_id")
         if segment_id in seen_segments:
             raise ValueError(f"segment_id가 중복 노출됐습니다: {segment_id}")

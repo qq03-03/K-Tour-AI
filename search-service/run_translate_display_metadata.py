@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 from pathlib import Path
 
 from src.display_localization import load_json
@@ -11,6 +10,8 @@ from src.display_translation import (
     OpenAIDisplayTranslator,
     build_display_translation_catalog,
     load_checkpoint,
+    plan_incremental_translations,
+    translation_source_hash,
     write_checkpoint,
 )
 
@@ -68,19 +69,20 @@ def main() -> None:
     if not isinstance(records, list):
         raise SystemExit("source.records는 배열이어야 합니다.")
 
-    completed = load_checkpoint(checkpoint_path)
-    completed_by_key = {
-        (item["segment_id"], item["keyframe_id"]): item for item in completed
+    plan = plan_incremental_translations(records, load_checkpoint(checkpoint_path))
+    completed = plan["reusable"]
+    pending = plan["pending"]
+    source_by_key = {
+        (item["segment_id"], item["keyframe_id"]): item for item in records
     }
-    pending = [
-        item
-        for item in records
-        if _needs_translation(item, completed_by_key.get((item["segment_id"], item["keyframe_id"])))
-    ]
     translator = OpenAIDisplayTranslator(model=args.model)
     total_batches = (len(pending) + args.batch_size - 1) // args.batch_size
     print("=== 표시용 번역 시작 ===")
-    print(f"전체: {len(records)}건 / 완료: {len(completed)}건 / 남음: {len(pending)}건")
+    print(
+        f"전체: {len(records)}건 / 재사용: {len(completed)}건 / "
+        f"신규: {len(plan['added_keys'])}건 / 변경: {len(plan['changed_keys'])}건 / "
+        f"stale 정리: {len(plan['stale_keys'])}건"
+    )
     print(f"모델: {args.model} / 배치: {args.batch_size}건 / API 호출 예정: {total_batches}회")
 
     for start in range(0, len(pending), args.batch_size):
@@ -88,6 +90,9 @@ def main() -> None:
         batch_number = start // args.batch_size + 1
         print(f"[{batch_number}/{total_batches}] {len(batch)}건 번역 중...", flush=True)
         translated = translator.translate_batch(batch)
+        for item in translated:
+            key = (item["segment_id"], item["keyframe_id"])
+            item["source_hash"] = translation_source_hash(source_by_key[key])
         translated_keys = {(item["segment_id"], item["keyframe_id"]) for item in translated}
         completed = [
             item
@@ -98,6 +103,9 @@ def main() -> None:
         write_checkpoint(checkpoint_path, model=args.model, completed=completed)
         print(f"[{batch_number}/{total_batches}] 누적 {len(completed)}건 완료", flush=True)
 
+    # Persist the reconciled checkpoint even when no API batch was needed so
+    # records removed from the current metadata cannot survive indefinitely.
+    write_checkpoint(checkpoint_path, model=args.model, completed=completed)
     catalog = build_display_translation_catalog(
         source,
         completed,
@@ -115,17 +123,6 @@ def main() -> None:
     print(f"언어: {', '.join(catalog['languages'])}")
     print(f"출력: {output_path}")
     print(f"체크포인트: {checkpoint_path}")
-
-
-def _needs_translation(source_record: dict, completed_record: dict | None) -> bool:
-    if completed_record is None:
-        return True
-    source = source_record.get("source", {})
-    semantic_text = " ".join(
-        [str(source.get("description", ""))]
-        + [str(value) for field in ("mood", "activity", "scene_elements") for value in source.get(field, [])]
-    )
-    return bool(re.search(r"[가-힣]", semantic_text)) and "en" not in completed_record
 
 
 if __name__ == "__main__":

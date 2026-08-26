@@ -25,7 +25,8 @@ def test_request_example_matches_contract() -> None:
 def test_response_example_matches_contract() -> None:
     response = validate_search_response(load_example("search_response_example.json"))
 
-    assert response["results"][0]["segment_id"] == "V008_P014_S001"
+    assert response["results"][0]["source_segment_id"] == "V008_P014_S001"
+    assert response["results"][0]["segment_id"] == "V008_P014_S001_SCENE_001"
 
 
 def test_response_rejects_duplicate_segment_results() -> None:
@@ -35,6 +36,29 @@ def test_response_rejects_duplicate_segment_results() -> None:
     response["results"].append(duplicate)
 
     with pytest.raises(ValueError, match="중복"):
+        validate_search_response(response)
+
+
+def test_response_rejects_two_scenes_from_same_source_segment() -> None:
+    response = load_example("search_response_example.json")
+    second_scene = dict(response["results"][0])
+    second_scene["rank"] = 2
+    second_scene["segment_id"] = "V008_P014_S001_SCENE_002"
+    second_scene["keyframe_id"] = "V008_P014_S001_SCENE_002"
+    second_scene["keyframe_path"] = (
+        "keyframes/GOBLIN_03/V008_P014_S001_SCENE_002.jpg"
+    )
+    response["results"].append(second_scene)
+
+    with pytest.raises(ValueError, match="source_segment_id가 중복"):
+        validate_search_response(response)
+
+
+def test_response_requires_source_segment_id() -> None:
+    response = load_example("search_response_example.json")
+    del response["results"][0]["source_segment_id"]
+
+    with pytest.raises(ValueError, match="source_segment_id"):
         validate_search_response(response)
 
 

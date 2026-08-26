@@ -232,6 +232,57 @@ def test_alignment_report_accepts_matching_scene(tmp_path) -> None:
     assert report["issues"] == []
 
 
+def test_alignment_report_accepts_separate_keyframe_root(tmp_path) -> None:
+    preprocessing_path = tmp_path / "data" / "preprocessed_segments.json"
+    preprocessing_path.parent.mkdir()
+    preprocessing_path.write_text(
+        json.dumps(
+            [
+                {
+                    "video_id": "VIDEO_01",
+                    "segments": [
+                        {
+                            "segment_id": "SCENE_01",
+                            "source_segment_id": "SOURCE_01",
+                            "start_time": 10.0,
+                            "end_time": 15.0,
+                            "keyframe_path": "keyframes/SCENE_01.jpg",
+                        }
+                    ],
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+    metadata_path = tmp_path / "metadata.json"
+    metadata_path.write_text(
+        json.dumps(
+            [
+                {
+                    **make_segment("SCENE_01"),
+                    "source_segment_id": "SOURCE_01",
+                    "start_time": 10.0,
+                    "end_time": 15.0,
+                    "keyframe_path": "keyframes/SCENE_01.jpg",
+                }
+            ],
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
+    keyframe_root = tmp_path / "assets"
+    (keyframe_root / "keyframes").mkdir(parents=True)
+    (keyframe_root / "keyframes" / "SCENE_01.jpg").write_bytes(b"image")
+
+    report = build_alignment_report(
+        metadata_path,
+        preprocessing_path,
+        keyframe_root=keyframe_root,
+    )
+
+    assert report["is_valid"] is True
+
+
 def test_load_vlm_metadata_checks_preprocessing_ids(tmp_path) -> None:
     path = tmp_path / "vlm.json"
     path.write_text(

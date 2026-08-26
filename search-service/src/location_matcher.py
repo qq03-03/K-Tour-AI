@@ -27,7 +27,7 @@ class LocationMatch:
 
 @dataclass(frozen=True)
 class _RegionEntry:
-    canonical: str
+    canonicals: tuple[str, ...]
     alias: str
 
 
@@ -65,10 +65,14 @@ def _catalog_entries() -> tuple[tuple[_RegionEntry, ...], tuple[_PlaceEntry, ...
     for index, item in enumerate(raw_regions):
         if not isinstance(item, dict):
             raise ValueError(f"region_aliases[{index}]는 객체여야 합니다.")
-        canonical = _required_text(item.get("canonical"), f"region_aliases[{index}].canonical")
+        canonicals = _required_text_values(
+            item.get("canonical"),
+            f"region_aliases[{index}].canonical",
+        )
         for alias in _flatten_aliases(item.get("aliases"), f"region_aliases[{index}].aliases"):
-            _register_alias(seen_aliases, alias, f"region:{canonical}")
-            regions.append(_RegionEntry(canonical, alias))
+            owner = f"region:{'|'.join(canonicals)}"
+            _register_alias(seen_aliases, alias, owner)
+            regions.append(_RegionEntry(canonicals, alias))
 
     for index, item in enumerate(raw_places):
         if not isinstance(item, dict):
@@ -115,7 +119,7 @@ def analyze_locations(query: str) -> LocationMatch:
     for entry in region_entries:
         spans = _find_spans(query, entry.alias)
         if any(not any(span.overlaps(place_span) for place_span in place_spans) for span in spans):
-            explicit_regions.append(entry.canonical)
+            explicit_regions.extend(entry.canonicals)
 
     return LocationMatch(
         region_filters=tuple(_deduplicate(explicit_regions)),
@@ -161,6 +165,19 @@ def _required_text(value: object, field_name: str) -> str:
     if not isinstance(value, str) or not value.strip():
         raise ValueError(f"{field_name}은 빈 문자열이 아니어야 합니다.")
     return value.strip()
+
+
+def _required_text_values(value: object, field_name: str) -> tuple[str, ...]:
+    """단일 지역과 여러 행정구역을 묶은 지역권을 같은 형식으로 읽는다."""
+
+    if isinstance(value, str):
+        return (_required_text(value, field_name),)
+    if not isinstance(value, list) or not value:
+        raise ValueError(f"{field_name}은 문자열 또는 비어 있지 않은 문자열 배열이어야 합니다.")
+    return tuple(
+        _required_text(item, f"{field_name}[{index}]")
+        for index, item in enumerate(value)
+    )
 
 
 def _register_alias(seen: dict[str, str], alias: str, owner: str) -> None:

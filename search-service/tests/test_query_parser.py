@@ -78,6 +78,26 @@ def test_general_seoul_spring_query_keeps_region_and_season() -> None:
     }
 
 
+def test_safe_rule_parser_adds_gyeongsang_region_group_filter() -> None:
+    parsed = parse_query_safely(
+        "경상도 야경 촬영지 보여줘",
+        RuleBasedQueryParser(),
+    )
+
+    assert parsed.filters == {
+        "region": ["부산", "대구", "울산", "경북", "경남"],
+    }
+
+
+def test_safe_rule_parser_keeps_specific_busan_filter_narrow() -> None:
+    parsed = parse_query_safely(
+        "부산 야경 촬영지 보여줘",
+        RuleBasedQueryParser(),
+    )
+
+    assert parsed.filters == {"region": ["부산"]}
+
+
 def test_chinese_season_and_morning_survive_known_place_filming_intent() -> None:
     filters = extract_explicit_scalar_filters("秋天早晨水原大学的拍摄地")
 
