@@ -21,6 +21,14 @@ from app.dependencies import (
 from app.schemas import SearchRequest, SearchResponse
 from app.search_response import build_search_results
 
+# Without this, the root logger has no handler attached, so every
+# logger.info() call below (and everywhere else in the app) is silently
+# dropped instead of reaching stdout -- Uvicorn only configures its own
+# uvicorn/uvicorn.access loggers, not the application's or third-party
+# libraries'. Railway captures stdout, so this is what actually makes our
+# logs (and the openai DEBUG logs below) visible in its log viewer.
+logging.basicConfig(level=logging.INFO)
+
 logger = logging.getLogger(__name__)
 
 # The openai SDK only logs retry attempts and HTTP status codes (e.g. 429
