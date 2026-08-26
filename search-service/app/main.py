@@ -106,7 +106,7 @@ def search(request: SearchRequest, pipeline=Depends(get_pipeline), parser=Depend
     effective_parser = RuleBasedQueryParser() if filter_overrides else parser
 
     output = pipeline.search(
-        request.query,
+        request.q,
         parser=effective_parser,
         top_k=candidate_k,
         search_depth=candidate_k,

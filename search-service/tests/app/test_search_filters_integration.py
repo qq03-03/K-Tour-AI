@@ -154,7 +154,7 @@ def test_each_hard_filter_narrows_the_final_results(
     client = _client()
     response = client.post(
         "/api/search",
-        json={"query": NEUTRAL_QUERY, field_name: values, "top_k": 10},
+        json={"q": NEUTRAL_QUERY, field_name: values, "top_k": 10},
     )
     app.dependency_overrides.clear()
 
@@ -166,7 +166,7 @@ def test_each_hard_filter_narrows_the_final_results(
 
 def test_no_hard_filter_returns_every_segment() -> None:
     client = _client()
-    response = client.post("/api/search", json={"query": NEUTRAL_QUERY, "top_k": 10})
+    response = client.post("/api/search", json={"q": NEUTRAL_QUERY, "top_k": 10})
     app.dependency_overrides.clear()
 
     assert response.status_code == 200
@@ -177,7 +177,7 @@ def test_multiple_values_for_one_field_use_or_condition() -> None:
     client = _client()
     response = client.post(
         "/api/search",
-        json={"query": NEUTRAL_QUERY, "place_id": ["P001", "P031"], "top_k": 10},
+        json={"q": NEUTRAL_QUERY, "place_id": ["P001", "P031"], "top_k": 10},
     )
     app.dependency_overrides.clear()
 
@@ -190,7 +190,7 @@ def test_different_fields_use_and_condition() -> None:
     response = client.post(
         "/api/search",
         json={
-            "query": NEUTRAL_QUERY,
+            "q": NEUTRAL_QUERY,
             "drama_title": ["겨울연가"],
             "season": ["겨울"],
             "top_k": 10,
@@ -206,7 +206,7 @@ def test_hard_filter_values_are_matched_case_insensitively() -> None:
     client = _client()
     response = client.post(
         "/api/search",
-        json={"query": NEUTRAL_QUERY, "place_id": [" p031 "], "top_k": 10},
+        json={"q": NEUTRAL_QUERY, "place_id": [" p031 "], "top_k": 10},
     )
     app.dependency_overrides.clear()
 
@@ -219,7 +219,7 @@ def test_empty_hard_filter_is_not_applied(empty_value: object) -> None:
     client = _client()
     response = client.post(
         "/api/search",
-        json={"query": NEUTRAL_QUERY, "region": empty_value, "top_k": 10},
+        json={"q": NEUTRAL_QUERY, "region": empty_value, "top_k": 10},
     )
     app.dependency_overrides.clear()
 
@@ -233,7 +233,7 @@ def test_ui_hard_filter_with_no_match_returns_empty_without_fallback() -> None:
     client = _client()
     response = client.post(
         "/api/search",
-        json={"query": NEUTRAL_QUERY, "place_id": ["P999"], "top_k": 10},
+        json={"q": NEUTRAL_QUERY, "place_id": ["P999"], "top_k": 10},
     )
     app.dependency_overrides.clear()
 
@@ -256,7 +256,7 @@ def test_ui_hard_filter_unrecognized_alias_value_returns_empty_without_fallback(
     client = _client()
     response = client.post(
         "/api/search",
-        json={"query": NEUTRAL_QUERY, "time_of_day": ["저녁"], "top_k": 10},
+        json={"q": NEUTRAL_QUERY, "time_of_day": ["저녁"], "top_k": 10},
     )
     app.dependency_overrides.clear()
 
@@ -273,7 +273,7 @@ def test_ui_hard_filter_alias_value_is_canonicalized_before_matching() -> None:
     client = _client()
     response = client.post(
         "/api/search",
-        json={"query": NEUTRAL_QUERY, "region": ["강원도"], "top_k": 10},
+        json={"q": NEUTRAL_QUERY, "region": ["강원도"], "top_k": 10},
     )
     app.dependency_overrides.clear()
 
@@ -290,7 +290,7 @@ def test_natural_language_filter_with_no_match_still_falls_back() -> None:
     # RuleBasedQueryParser가 '부산'을 region 필터로 뽑지만 일치하는 구간이 없다.
     response = client.post(
         "/api/search",
-        json={"query": "부산 촬영지 풍경 보여줘", "top_k": 10},
+        json={"q": "부산 촬영지 풍경 보여줘", "top_k": 10},
     )
     app.dependency_overrides.clear()
 

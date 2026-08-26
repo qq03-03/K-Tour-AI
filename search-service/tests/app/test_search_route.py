@@ -68,7 +68,7 @@ def _client():
 
 def test_search_returns_mapped_results():
     client, fake_pipeline = _client()
-    response = client.post("/api/search", json={"query": "봄 궁궐 산책"})
+    response = client.post("/api/search", json={"q": "봄 궁궐 산책"})
     app.dependency_overrides.clear()
 
     assert response.status_code == 200
@@ -82,7 +82,7 @@ def test_search_returns_mapped_results():
 
 def test_search_rejects_an_empty_query():
     client, _ = _client()
-    response = client.post("/api/search", json={"query": ""})
+    response = client.post("/api/search", json={"q": ""})
     app.dependency_overrides.clear()
 
     assert response.status_code == 422
@@ -90,7 +90,7 @@ def test_search_rejects_an_empty_query():
 
 def test_search_forwards_region_filter_to_the_pipeline():
     client, fake_pipeline = _client()
-    response = client.post("/api/search", json={"query": "봄 궁궐 산책", "region": ["강원"]})
+    response = client.post("/api/search", json={"q": "봄 궁궐 산책", "region": ["강원"]})
     app.dependency_overrides.clear()
 
     assert response.status_code == 200
@@ -101,7 +101,7 @@ def test_search_forwards_drama_title_filter_to_the_pipeline():
     client, fake_pipeline = _client()
     response = client.post(
         "/api/search",
-        json={"query": "촬영지", "drama_title": ["겨울연가", "사랑의 불시착"]},
+        json={"q": "촬영지", "drama_title": ["겨울연가", "사랑의 불시착"]},
     )
     app.dependency_overrides.clear()
 
@@ -116,7 +116,7 @@ def test_search_forwards_every_hard_filter_field_to_the_pipeline():
     response = client.post(
         "/api/search",
         json={
-            "query": "촬영지",
+            "q": "촬영지",
             "place_id": ["P031"],
             "drama_title": ["사랑의 불시착"],
             "region": ["충청북도"],
@@ -140,7 +140,7 @@ def test_search_forwards_every_hard_filter_field_to_the_pipeline():
 
 def test_search_without_hard_filters_sends_no_filter_overrides():
     client, fake_pipeline = _client()
-    response = client.post("/api/search", json={"query": "봄 궁궐 산책"})
+    response = client.post("/api/search", json={"q": "봄 궁궐 산책"})
     app.dependency_overrides.clear()
 
     assert response.status_code == 200
@@ -151,7 +151,7 @@ def test_search_treats_empty_hard_filter_lists_as_not_set():
     client, fake_pipeline = _client()
     response = client.post(
         "/api/search",
-        json={"query": "봄 궁궐 산책", "region": [], "drama_title": None},
+        json={"q": "봄 궁궐 산책", "region": [], "drama_title": None},
     )
     app.dependency_overrides.clear()
 
@@ -163,7 +163,7 @@ def test_search_treats_blank_string_filter_element_as_not_set():
     client, fake_pipeline = _client()
     response = client.post(
         "/api/search",
-        json={"query": "봄 궁궐 산책", "region": [""]},
+        json={"q": "봄 궁궐 산책", "region": [""]},
     )
     app.dependency_overrides.clear()
 
@@ -175,7 +175,7 @@ def test_search_treats_whitespace_only_filter_element_as_not_set():
     client, fake_pipeline = _client()
     response = client.post(
         "/api/search",
-        json={"query": "봄 궁궐 산책", "region": ["  "]},
+        json={"q": "봄 궁궐 산책", "region": ["  "]},
     )
     app.dependency_overrides.clear()
 
@@ -187,7 +187,7 @@ def test_search_drops_blank_element_but_keeps_other_values_in_the_same_field():
     client, fake_pipeline = _client()
     response = client.post(
         "/api/search",
-        json={"query": "봄 궁궐 산책", "region": ["", "강원"]},
+        json={"q": "봄 궁궐 산책", "region": ["", "강원"]},
     )
     app.dependency_overrides.clear()
 
@@ -200,7 +200,7 @@ def test_search_without_hard_filters_uses_the_injected_query_parser():
     # so it should go through whatever parser get_query_parser() resolved to
     # (the LLM parser in production).
     client, fake_pipeline = _client()
-    response = client.post("/api/search", json={"query": "봄 궁궐 산책"})
+    response = client.post("/api/search", json={"q": "봄 궁궐 산책"})
     app.dependency_overrides.clear()
 
     assert response.status_code == 200
@@ -217,7 +217,7 @@ def test_search_with_hard_filters_skips_the_llm_parser():
     client, fake_pipeline = _client()
     response = client.post(
         "/api/search",
-        json={"query": "촬영지", "drama_title": ["겨울연가"]},
+        json={"q": "촬영지", "drama_title": ["겨울연가"]},
     )
     app.dependency_overrides.clear()
 
@@ -230,7 +230,7 @@ def test_search_logs_the_latency_breakdown(caplog):
 
     client, _ = _client()
     with caplog.at_level(logging.INFO, logger="app.main"):
-        response = client.post("/api/search", json={"query": "봄 궁궐 산책"})
+        response = client.post("/api/search", json={"q": "봄 궁궐 산책"})
     app.dependency_overrides.clear()
 
     assert response.status_code == 200

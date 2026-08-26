@@ -5,8 +5,8 @@ from app.schemas import SearchRequest, SearchResultItem, SearchResponse
 
 
 def test_search_request_requires_only_query():
-    request = SearchRequest(query="봄에 궁궐 산책")
-    assert request.query == "봄에 궁궐 산책"
+    request = SearchRequest(q="봄에 궁궐 산책")
+    assert request.q == "봄에 궁궐 산책"
     assert request.lang == "ko"
     assert request.top_k == 5
     assert request.candidate_k is None
@@ -16,7 +16,7 @@ def test_search_request_requires_only_query():
 
 def test_search_request_accepts_all_filters():
     request = SearchRequest(
-        query="여름 바다",
+        q="여름 바다",
         lang="en",
         place_id=["N-P031"],
         drama_title=["사랑의 불시착"],
@@ -33,7 +33,7 @@ def test_search_request_accepts_all_filters():
 
 def test_search_request_rejects_empty_query():
     with pytest.raises(ValidationError):
-        SearchRequest(query="")
+        SearchRequest(q="")
 
 
 def test_search_result_item_matches_the_contract_fields():

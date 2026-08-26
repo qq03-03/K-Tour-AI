@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 
 
 class SearchRequest(BaseModel):
-    query: str = Field(min_length=1)
+    q: str = Field(min_length=1)
     lang: str = "ko"
     place_id: list[str] | None = None
     drama_title: list[str] | None = None
