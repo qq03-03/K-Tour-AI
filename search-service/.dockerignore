@@ -3,5 +3,14 @@ __pycache__
 *.pyc
 tests
 output
-data
 .env
+
+# data/ is needed at runtime now (theme_mapping.confirmed_final_v6.json,
+# the place display catalog) -- exclude only the dev/eval-only files that
+# shouldn't ship in the image, not the whole folder.
+data/dummy_segments.json
+data/eval_queries.json
+data/nami_segments.json
+data/nami_segments_10.json
+data/nami_multimodal_eval.json
+data/query_parser_eval.json
