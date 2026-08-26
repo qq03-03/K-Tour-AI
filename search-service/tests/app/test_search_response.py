@@ -78,6 +78,64 @@ def test_defaults_themes_to_an_empty_list_when_the_segment_has_none():
     assert results[0]["themes"] == []
 
 
+# ---------------------------------------------------------------------------
+# place_display_catalog.translated.json 연동 (README_BACKEND_APPLY.md 5절).
+# place_id는 fixture 기본값(P031, 충주 중앙탑공원)을 그대로 쓴다 -- 실제
+# 번들 카탈로그에 4개 언어 전부 번역된 진짜 앵커 레코드다.
+# ---------------------------------------------------------------------------
+
+
+def test_lang_ko_uses_the_catalog_display_and_real_coordinates():
+    rrf = [{**_segment("S001", "SEG001"), "rrf_score": 0.03, "source_ranks": {}}]
+    output = _pipeline_output(rrf, [], [])
+
+    results = build_search_results(output, top_k=5, lang="ko")
+
+    item = results[0]
+    assert item["place_name"] == "충주 중앙탑공원"
+    assert item["address"] == "충북 충주시 중앙탑면 탑정안길 6"
+    assert item["location_label"] == "충청북도 · 충주시 · 충주 중앙탑공원"
+    assert item["latitude"] == 37.01711679176299
+    assert item["longitude"] == 127.86685914869933
+
+
+def test_lang_en_returns_the_translated_place_name_and_address():
+    rrf = [{**_segment("S001", "SEG001"), "rrf_score": 0.03, "source_ranks": {}}]
+    output = _pipeline_output(rrf, [], [])
+
+    results = build_search_results(output, top_k=5, lang="en")
+
+    item = results[0]
+    assert item["place_name"] == "Chungju Jungangtap Park"
+    assert item["region"] == "Chungcheongbuk-do"
+    assert item["address"] == "6 Tapjeongan-gil, Jungangtap-myeon, Chungju-si, Chungcheongbuk-do"
+
+
+def test_falls_back_to_the_dbs_own_fields_when_the_place_id_is_not_in_the_catalog():
+    rrf = [
+        {**_segment("S001", "SEG001", place_id="P_NOT_IN_CATALOG"), "rrf_score": 0.03, "source_ranks": {}},
+    ]
+    output = _pipeline_output(rrf, [], [])
+
+    results = build_search_results(output, top_k=5, lang="en")
+
+    item = results[0]
+    assert item["place_name"] == "충주 중앙탑공원"  # unchanged DB value, not overwritten
+    assert item["address"] == ""
+    assert item["location_label"] == ""
+    assert item["latitude"] is None
+    assert item["longitude"] is None
+
+
+def test_lang_defaults_to_korean_when_not_specified():
+    rrf = [{**_segment("S001", "SEG001"), "rrf_score": 0.03, "source_ranks": {}}]
+    output = _pipeline_output(rrf, [], [])
+
+    results = build_search_results(output, top_k=5)
+
+    assert results[0]["place_name"] == "충주 중앙탑공원"
+
+
 def test_null_score_and_rank_when_a_segment_is_missing_from_one_source():
     rrf = [
         {**_segment("S001", "SEG001"), "rrf_score": 0.02, "source_ranks": {"image": 1}},

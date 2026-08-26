@@ -1,8 +1,12 @@
 from functools import cmp_to_key
 from typing import Any
 
+from src.place_display import display_for
 
-def build_search_results(pipeline_output: dict[str, Any], *, top_k: int) -> list[dict[str, Any]]:
+
+def build_search_results(
+    pipeline_output: dict[str, Any], *, top_k: int, lang: str = "ko"
+) -> list[dict[str, Any]]:
     rrf_results = pipeline_output["results_by_method"].get("rrf", [])
     text_scores = {item["segment_id"]: item["score"] for item in pipeline_output["source_results"]["text"]}
     image_scores = {item["segment_id"]: item["score"] for item in pipeline_output["source_results"]["image"]}
@@ -11,6 +15,12 @@ def build_search_results(pipeline_output: dict[str, Any], *, top_k: int) -> list
     for segment in rrf_results:
         segment_id = segment["segment_id"]
         source_ranks = segment.get("source_ranks", {})
+        # place_display_catalog.translated.json has the requested language's
+        # real place_name/region/city/address/location_label and (unlike
+        # video_segments, which has no lat/lng columns) real coordinates.
+        # Falls back to the DB's own Korean-only fields when the place_id
+        # isn't in the catalog yet, rather than dropping the result.
+        display = display_for(segment["place_id"], lang)
         mapped.append(
             {
                 "source_segment_id": segment["source_segment_id"],
@@ -19,15 +29,13 @@ def build_search_results(pipeline_output: dict[str, Any], *, top_k: int) -> list
                 "keyframe_path": segment["keyframe_path"],
                 "video_id": segment["video_id"],
                 "place_id": segment["place_id"],
-                "place_name": segment["place_name"],
-                "region": segment["region"],
-                "city": segment["city"],
-                # No code path currently supplies real coordinates: video_segments
-                # has no lat/lng columns, and the separate spots table isn't linked
-                # to segments by place_id. Explicitly None until that data model
-                # gap is closed (deferred to future work).
-                "latitude": None,
-                "longitude": None,
+                "place_name": display["place_name"] if display else segment["place_name"],
+                "region": display["region"] if display else segment["region"],
+                "city": display["city"] if display else segment["city"],
+                "address": display["address"] if display else "",
+                "location_label": display["location_label"] if display else "",
+                "latitude": display["latitude"] if display else None,
+                "longitude": display["longitude"] if display else None,
                 "drama_title": segment["drama_title"],
                 "start_time": segment["start_time"],
                 "end_time": segment["end_time"],

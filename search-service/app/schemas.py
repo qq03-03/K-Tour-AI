@@ -49,6 +49,8 @@ class SearchResultItem(BaseModel):
     place_name: str
     region: str
     city: str
+    address: str = ""
+    location_label: str = ""
     latitude: float | None = None
     longitude: float | None = None
     drama_title: str

@@ -279,3 +279,27 @@ def test_search_rejects_empty_query_with_no_theme_or_filters():
     app.dependency_overrides.clear()
 
     assert response.status_code == 422
+
+
+def test_search_with_lang_en_returns_the_catalogs_translated_place_name():
+    # FakePipeline's fixture segment uses place_id "P031", the real bundled
+    # place_display_catalog.translated.json anchor, so this exercises the
+    # actual request.lang -> build_search_results(..., lang=...) wiring
+    # end-to-end instead of just the unit-level search_response.py tests.
+    client, _ = _client()
+    response = client.post("/api/search", json={"q": "봄 궁궐 산책", "lang": "en"})
+    app.dependency_overrides.clear()
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["results"][0]["place_name"] == "Chungju Jungangtap Park"
+    assert body["results"][0]["address"] == "6 Tapjeongan-gil, Jungangtap-myeon, Chungju-si, Chungcheongbuk-do"
+
+
+def test_search_without_lang_defaults_to_korean_place_name():
+    client, _ = _client()
+    response = client.post("/api/search", json={"q": "봄 궁궐 산책"})
+    app.dependency_overrides.clear()
+
+    assert response.status_code == 200
+    assert response.json()["results"][0]["place_name"] == "충주 중앙탑공원"

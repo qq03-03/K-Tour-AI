@@ -127,7 +127,7 @@ def search(request: SearchRequest, pipeline=Depends(get_pipeline), parser=Depend
         effective_parser is parser,
         output.get("latency_ms"),
     )
-    results = build_search_results(output, top_k=request.top_k)
+    results = build_search_results(output, top_k=request.top_k, lang=request.lang)
     return SearchResponse(
         results=results,
         fallback_used=output["fallback_used"],
