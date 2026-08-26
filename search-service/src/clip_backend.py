@@ -62,6 +62,15 @@ class ClipRuntime:
         self.model_name = model_name
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         self.local_files_only = local_files_only
+        # torch defaults intra-op thread count to the HOST's logical CPU
+        # count, not the container's actual cgroup CPU quota. On a small or
+        # shared instance (e.g. Railway) this oversubscribes threads far
+        # beyond the real allocation, and CLIP text encoding -- a single
+        # short sentence, should take well under a second -- swings wildly
+        # instead (3-22s observed in production). Capping it removes that
+        # contention; override with CLIP_NUM_THREADS if the deployment has
+        # more CPU actually available.
+        torch.set_num_threads(int(os.getenv("CLIP_NUM_THREADS", "1")))
         self._model: Any | None = None
         self._processor: Any | None = None
         self._load_lock = threading.Lock()

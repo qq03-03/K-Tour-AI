@@ -10,7 +10,33 @@ import pytest
 import torch
 
 from src import clip_backend
-from src.clip_backend import DatabaseConfig, PgVectorRepository
+from src.clip_backend import ClipRuntime, DatabaseConfig, PgVectorRepository
+
+
+def test_clip_runtime_caps_torch_threads_to_avoid_container_oversubscription(monkeypatch) -> None:
+    # torch.set_num_threads() defaults to the HOST's logical CPU count, not
+    # the container's actual cgroup CPU quota. On a small/shared Railway
+    # instance this oversubscribes threads far beyond the real allocation,
+    # causing text-encoding latency to swing wildly (observed 3-22s for a
+    # single short sentence in production logs). Capping it removes that
+    # contention.
+    monkeypatch.delenv("CLIP_NUM_THREADS", raising=False)
+    calls = []
+    monkeypatch.setattr(torch, "set_num_threads", lambda n: calls.append(n))
+
+    ClipRuntime()
+
+    assert calls == [1]
+
+
+def test_clip_runtime_respects_clip_num_threads_override(monkeypatch) -> None:
+    monkeypatch.setenv("CLIP_NUM_THREADS", "4")
+    calls = []
+    monkeypatch.setattr(torch, "set_num_threads", lambda n: calls.append(n))
+
+    ClipRuntime()
+
+    assert calls == [4]
 
 
 def test_clip_runtime_loads_model_only_once(monkeypatch) -> None:

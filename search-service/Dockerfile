@@ -18,6 +18,13 @@ COPY app ./app
 ENV HF_HUB_OFFLINE=1
 ENV TRANSFORMERS_OFFLINE=1
 
+# BLAS backends (OpenMP/MKL) read these at process start, before
+# torch.set_num_threads() runs -- set them too so CPU thread count stays
+# capped from the very first inference call, not just after ClipRuntime
+# has constructed once. See src/clip_backend.py's ClipRuntime.__init__.
+ENV OMP_NUM_THREADS=1
+ENV MKL_NUM_THREADS=1
+
 EXPOSE 8000
 
 # Railway (and most PaaS platforms) inject the bind port via $PORT at
