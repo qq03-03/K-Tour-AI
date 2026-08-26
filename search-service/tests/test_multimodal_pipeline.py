@@ -448,4 +448,143 @@ def test_empty_filter_overrides_leave_natural_language_fallback_unchanged() -> N
     )
 
     assert output["fallback_used"] is True
+
+
+# ---------------------------------------------------------------------------
+# theme_mapping.confirmed_final_v6.json 하드 필터, 그리고 자연어 없이
+# 테마/필터 버튼만으로 들어오는 검색 (BACKEND_THEME_MAPPING_APPLY_GUIDE.txt,
+# README_BACKEND_APPLY.md 참고). source_segment_id는 실제 번들 v6 데이터에
+# 있는 값을 그대로 쓴다 (V001_P003_S001 -> flower, V028_P052_S001 -> drive).
+# ---------------------------------------------------------------------------
+
+
+class ThemeFixtureRepository:
+    def __init__(self) -> None:
+        self.candidate_id_calls: list[list[str]] = []
+
+    def list_segments(self):
+        return [
+            {
+                "segment_id": "V001_P003_S001_SCENE_001",
+                "source_segment_id": "V001_P003_S001",  # themes: flower
+                "video_id": "V001",
+                "place_id": "P003",
+                "region": "경기도",
+                "season": "봄",
+            },
+            {
+                "segment_id": "V028_P052_S001_SCENE_001",
+                "source_segment_id": "V028_P052_S001",  # themes: drive
+                "video_id": "V028",
+                "place_id": "P052",
+                "region": "서울",
+                "season": "가을",
+            },
+            {
+                "segment_id": "V999_UNMAPPED_S001_SCENE_001",
+                "source_segment_id": "V999_UNMAPPED_S001",  # no theme mapping
+                "video_id": "V999",
+                "place_id": "P999",
+                "region": "제주",
+                "season": "여름",
+            },
+        ]
+
+    def search(self, vector, source, *, candidate_ids, top_k):
+        self.candidate_id_calls.append(list(candidate_ids))
+        if not candidate_ids:
+            return []
+        return [
+            {"segment_id": segment_id, "score": 0.9 - index * 0.1}
+            for index, segment_id in enumerate(candidate_ids[:top_k])
+        ]
+
+
+def _theme_pipeline() -> tuple[MultimodalSearchPipeline, ThemeFixtureRepository]:
+    repository = ThemeFixtureRepository()
+    pipeline = MultimodalSearchPipeline(runtime=FakeRuntime(), repository=repository)
+    return pipeline, repository
+
+
+def test_theme_ids_hard_filters_candidates_before_vector_search() -> None:
+    pipeline, repository = _theme_pipeline()
+
+    output = pipeline.search(
+        "봄나들이",
+        parser=NoFilterParser(),
+        methods=("rrf",),
+        theme_ids=["flower"],
+    )
+
+    assert output["candidate_count"] == 1
+    # The repository only ever saw the flower-mapped candidate -- theme
+    # filtering happened before the text/image vector search, not after.
+    assert repository.candidate_id_calls[0] == ["V001_P003_S001_SCENE_001"]
+    assert _result_ids(output) == ["V001_P003_S001_SCENE_001"]
+
+
+def test_theme_ids_is_an_or_across_multiple_requested_themes() -> None:
+    pipeline, _ = _theme_pipeline()
+
+    output = pipeline.search(
+        "여행",
+        parser=NoFilterParser(),
+        methods=("rrf",),
+        theme_ids=["flower", "drive"],
+    )
+
+    assert output["candidate_count"] == 2
+
+
+def test_every_result_includes_a_themes_array() -> None:
+    pipeline, _ = _theme_pipeline()
+
+    output = pipeline.search("여행", parser=NoFilterParser(), methods=("rrf",))
+
+    by_id = {item["segment_id"]: item for item in output["results_by_method"]["rrf"]}
+    assert by_id["V001_P003_S001_SCENE_001"]["themes"] == ["flower"]
+    assert by_id["V028_P052_S001_SCENE_001"]["themes"] == ["drive"]
+    # No mapping entry -> empty list, never omitted or null.
+    assert by_id["V999_UNMAPPED_S001_SCENE_001"]["themes"] == []
+
+
+def test_blank_query_with_theme_skips_the_parser_and_vector_search() -> None:
+    # Theme/season/region button clicks with no free text shouldn't call
+    # OpenAI (there's no natural language to parse) or run CLIP encoding +
+    # vector search -- they return the theme-filtered candidates directly,
+    # scored 0.0, per README_BACKEND_APPLY.md section 8's example response.
+    pipeline, repository = _theme_pipeline()
+    parser = CountingParser()
+
+    output = pipeline.search("", parser=parser, methods=("rrf",), theme_ids=["flower"])
+
+    assert parser.call_count == 0
+    assert repository.candidate_id_calls == []
+    assert output["candidate_count"] == 1
+    results = output["results_by_method"]["rrf"]
+    assert [r["segment_id"] for r in results] == ["V001_P003_S001_SCENE_001"]
+    assert results[0]["rrf_score"] == 0.0
+    assert output["fallback_used"] is False
+    # Matches README_BACKEND_APPLY.md section 8's example response, which
+    # shows text_score/image_score as 0.0 (not null) for a theme-only result.
+    assert output["source_results"]["text"] == [{"segment_id": "V001_P003_S001_SCENE_001", "score": 0.0}]
+    assert output["source_results"]["image"] == [{"segment_id": "V001_P003_S001_SCENE_001", "score": 0.0}]
+
+
+def test_whitespace_only_query_is_treated_as_blank() -> None:
+    pipeline, repository = _theme_pipeline()
+    parser = CountingParser()
+
+    pipeline.search("   ", parser=parser, methods=("rrf",), theme_ids=["drive"])
+
+    assert parser.call_count == 0
+    assert repository.candidate_id_calls == []
+
+
+def test_blank_query_without_any_filter_returns_every_segment_unranked() -> None:
+    pipeline, _ = _theme_pipeline()
+
+    output = pipeline.search("", parser=CountingParser(), methods=("rrf",))
+
+    assert output["candidate_count"] == 3
     assert output["candidate_count"] == 3

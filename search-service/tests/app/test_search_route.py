@@ -9,11 +9,13 @@ class FakePipeline:
         self.received_search_depth = None
         self.received_filter_overrides = "(호출되지 않음)"
         self.received_parser = None
+        self.received_theme_ids = "(호출되지 않음)"
 
     def search(self, query, *, parser, top_k, search_depth, methods, **kwargs):
         self.received_search_depth = search_depth
         self.received_filter_overrides = kwargs.get("filter_overrides")
         self.received_parser = parser
+        self.received_theme_ids = kwargs.get("theme_ids")
         segment = {
             "segment_id": "V007_P031_S002_SCENE_001",
             "source_segment_id": "V007_P031_S002",
@@ -237,3 +239,43 @@ def test_search_logs_the_latency_breakdown(caplog):
     matching = [r for r in caplog.records if "latency_ms" in r.getMessage()]
     assert matching, f"no latency log found in {[r.getMessage() for r in caplog.records]}"
     assert "total" in matching[0].getMessage()
+
+
+def test_search_forwards_theme_to_the_pipeline_as_theme_ids():
+    client, fake_pipeline = _client()
+    response = client.post("/api/search", json={"q": "", "theme": ["flower", "drive"]})
+    app.dependency_overrides.clear()
+
+    assert response.status_code == 200
+    assert fake_pipeline.received_theme_ids == ["flower", "drive"]
+    # theme isn't a video_segments column, so it must not leak into the
+    # DB-column filter_overrides dict alongside region/season/etc.
+    assert fake_pipeline.received_filter_overrides is None
+
+
+def test_search_without_theme_sends_no_theme_ids():
+    client, fake_pipeline = _client()
+    response = client.post("/api/search", json={"q": "봄 궁궐 산책"})
+    app.dependency_overrides.clear()
+
+    assert response.status_code == 200
+    assert fake_pipeline.received_theme_ids is None
+
+
+def test_search_with_only_a_theme_skips_the_llm_parser():
+    from src.query_parser import RuleBasedQueryParser
+
+    client, fake_pipeline = _client()
+    response = client.post("/api/search", json={"q": "", "theme": ["flower"]})
+    app.dependency_overrides.clear()
+
+    assert response.status_code == 200
+    assert isinstance(fake_pipeline.received_parser, RuleBasedQueryParser)
+
+
+def test_search_rejects_empty_query_with_no_theme_or_filters():
+    client, _ = _client()
+    response = client.post("/api/search", json={"q": ""})
+    app.dependency_overrides.clear()
+
+    assert response.status_code == 422

@@ -17,6 +17,7 @@ from .query_parser import (
     parse_query_safely,
     to_filter_arguments,
 )
+from .theme_mapping import filter_by_theme, themes_for
 
 
 FusionMethod = Literal["rrf", "normalized"]
@@ -73,6 +74,7 @@ class MultimodalSearchPipeline:
         weights: Mapping[str, float] | None = None,
         rrf_k: float = 60.0,
         filter_overrides: Mapping[str, Sequence[str]] | None = None,
+        theme_ids: Sequence[str] | None = None,
     ) -> dict[str, Any]:
         if top_k < 1 or search_depth < 1:
             raise ValueError("top_k와 search_depth는 1 이상이어야 합니다.")
@@ -81,18 +83,33 @@ class MultimodalSearchPipeline:
             raise ValueError(f"지원하지 않는 결합 방식입니다: {sorted(unknown_methods)}")
 
         total_started = perf_counter()
+        has_free_text = isinstance(query, str) and bool(query.strip())
+        # UI가 명시적으로 전달한 필터(구조화 필터든 테마든)는 QueryParser가
+        # 자연어에서 추출한 같은 필드의 값보다 우선한다.
+        has_ui_filter_overrides = bool(filter_overrides) or bool(theme_ids)
 
-        parser_started = perf_counter()
-        parsed = self._parse_query_cached(query, parser)
-        # UI가 명시적으로 전달한 필터는 QueryParser가 자연어에서 추출한 같은
-        # 필드의 값보다 우선한다 (해당 필드는 완전히 대체되며, 병합하지 않는다).
-        has_ui_filter_overrides = bool(filter_overrides)
-        if filter_overrides:
-            # 자연어에서 추출한 값과 동일하게, UI가 보낸 값도 별칭 테이블로
-            # 정식 표기로 정규화한 뒤 병합한다 (예: "summer" -> "여름").
-            canonical_overrides = _canonicalize_filter_overrides(filter_overrides)
-            parsed = replace(parsed, filters={**parsed.filters, **canonical_overrides})
-        parser_latency_ms = _elapsed_ms(parser_started)
+        if has_free_text:
+            parser_started = perf_counter()
+            parsed = self._parse_query_cached(query, parser)
+            if filter_overrides:
+                # 자연어에서 추출한 값과 동일하게, UI가 보낸 값도 별칭
+                # 테이블로 정식 표기로 정규화한 뒤 병합한다 (해당 필드는
+                # 완전히 대체되며, 병합하지 않는다. 예: "summer" -> "여름").
+                canonical_overrides = _canonicalize_filter_overrides(filter_overrides)
+                parsed = replace(parsed, filters={**parsed.filters, **canonical_overrides})
+            parser_latency_ms = _elapsed_ms(parser_started)
+        else:
+            # 테마/계절/지역 버튼처럼 자연어가 없는 요청은 파싱할 텍스트가
+            # 없으므로 QueryParser(OpenAI 포함)를 아예 호출하지 않는다.
+            parser_latency_ms = 0.0
+            canonical_overrides = (
+                _canonicalize_filter_overrides(filter_overrides) if filter_overrides else {}
+            )
+            parsed = ParsedQuery(
+                original_query=query,
+                search_text="",
+                filters=canonical_overrides,
+            )
 
         metadata_started = perf_counter()
         segments = self._load_segments()
@@ -109,51 +126,86 @@ class MultimodalSearchPipeline:
             )
             filter_arguments = {}
             candidates = list(segments)
+        # 테마는 source_segment_id 기준 하드 필터이며, Text/Image 후보 검색
+        # 이전에 적용한다 (BACKEND_THEME_MAPPING_APPLY_GUIDE.txt 6절 참고).
+        candidates = filter_by_theme(candidates, theme_ids)
         metadata_latency_ms = _elapsed_ms(metadata_started)
 
         candidate_ids = [str(segment["segment_id"]) for segment in candidates]
-        depth = min(search_depth, len(candidate_ids))
-
-        encoder_started = perf_counter()
-        query_vector = self.runtime.encode_text(parsed.search_text)
-        encoder_latency_ms = _elapsed_ms(encoder_started)
-
-        vector_started = perf_counter()
-        text_results = self.repository.search(
-            query_vector,
-            "text",
-            candidate_ids=candidate_ids,
-            top_k=depth,
-        )
-        image_results = self.repository.search(
-            query_vector,
-            "image",
-            candidate_ids=candidate_ids,
-            top_k=depth,
-        )
-        vector_search_latency_ms = _elapsed_ms(vector_started)
-
-        fusion_started = perf_counter()
-        fused = self._fuse(
-            text_results,
-            image_results,
-            methods=methods,
-            weights=weights,
-            rrf_k=rrf_k,
-            top_k=top_k,
-        )
         segment_by_id = {
             str(segment["segment_id"]): dict(segment) for segment in candidates
         }
-        enriched = {
-            method: self._enrich(
-                results,
-                segment_by_id=segment_by_id,
-                soft_hints=parsed.soft_hints,
+
+        if not has_free_text:
+            # 순수 필터(테마/계절/지역 버튼) 검색: 랭킹할 자연어가 없으므로
+            # CLIP 인코딩과 벡터 검색을 생략하고, 필터를 통과한 구간을 점수
+            # 0.0으로 그대로 반환한다 (README_BACKEND_APPLY.md 8절 예시와
+            # 동일한 형태).
+            encoder_latency_ms = 0.0
+            vector_search_latency_ms = 0.0
+
+            fusion_started = perf_counter()
+            depth = min(search_depth, len(candidate_ids))
+            selected_ids = candidate_ids[:depth]
+            # README_BACKEND_APPLY.md section 8's example response shows
+            # text_score/image_score/final_score as 0.0 (not null) for a
+            # theme-only result, so populate source_results the same way
+            # the real vector search would, just with a constant score.
+            text_results: list[dict[str, Any]] = [
+                {"segment_id": segment_id, "score": 0.0} for segment_id in selected_ids
+            ]
+            image_results: list[dict[str, Any]] = [
+                {"segment_id": segment_id, "score": 0.0} for segment_id in selected_ids
+            ]
+            synthetic_fused = [
+                {"rank": rank, "segment_id": segment_id, "rrf_score": 0.0, "source_ranks": {}}
+                for rank, segment_id in enumerate(selected_ids, start=1)
+            ]
+            enriched = {
+                "rrf": self._enrich(
+                    synthetic_fused, segment_by_id=segment_by_id, soft_hints=parsed.soft_hints
+                )
+            }
+            fusion_latency_ms = _elapsed_ms(fusion_started)
+        else:
+            encoder_started = perf_counter()
+            query_vector = self.runtime.encode_text(parsed.search_text)
+            encoder_latency_ms = _elapsed_ms(encoder_started)
+
+            vector_started = perf_counter()
+            depth = min(search_depth, len(candidate_ids))
+            text_results = self.repository.search(
+                query_vector,
+                "text",
+                candidate_ids=candidate_ids,
+                top_k=depth,
             )
-            for method, results in fused.items()
-        }
-        fusion_latency_ms = _elapsed_ms(fusion_started)
+            image_results = self.repository.search(
+                query_vector,
+                "image",
+                candidate_ids=candidate_ids,
+                top_k=depth,
+            )
+            vector_search_latency_ms = _elapsed_ms(vector_started)
+
+            fusion_started = perf_counter()
+            fused = self._fuse(
+                text_results,
+                image_results,
+                methods=methods,
+                weights=weights,
+                rrf_k=rrf_k,
+                top_k=top_k,
+            )
+            enriched = {
+                method: self._enrich(
+                    results,
+                    segment_by_id=segment_by_id,
+                    soft_hints=parsed.soft_hints,
+                )
+                for method, results in fused.items()
+            }
+            fusion_latency_ms = _elapsed_ms(fusion_started)
 
         return {
             "original_query": parsed.original_query,
@@ -253,6 +305,7 @@ class MultimodalSearchPipeline:
                 {
                     **segment,
                     **dict(fused),
+                    "themes": themes_for(str(segment.get("source_segment_id", ""))),
                     "soft_hint_matches": {"mood": mood_matches},
                 }
             )

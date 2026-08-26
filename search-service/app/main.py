@@ -96,6 +96,12 @@ def search(request: SearchRequest, pipeline=Depends(get_pipeline), parser=Depend
         if cleaned_values:
             filter_overrides[field_name] = cleaned_values
 
+    # theme is a source_segment_id hard filter, not a video_segments column,
+    # so it's kept out of filter_overrides (which maps 1:1 to DB columns via
+    # to_filter_arguments/filter_segments) and passed to the pipeline
+    # separately as theme_ids.
+    theme_ids = [value for value in (request.theme or []) if value and value.strip()] or None
+
     # When the UI already sent explicit filter values (a theme, season, or
     # drama title click), the LLM parser's job -- extracting structured
     # filters from free text -- is redundant: it costs an OpenAI round trip
@@ -103,7 +109,7 @@ def search(request: SearchRequest, pipeline=Depends(get_pipeline), parser=Depend
     # parser would infer (see multimodal_pipeline.search). Use the fast
     # rule-based parser for those requests and reserve the LLM parser for
     # genuine free-text queries.
-    effective_parser = RuleBasedQueryParser() if filter_overrides else parser
+    effective_parser = RuleBasedQueryParser() if (filter_overrides or theme_ids) else parser
 
     output = pipeline.search(
         request.q,
@@ -112,10 +118,12 @@ def search(request: SearchRequest, pipeline=Depends(get_pipeline), parser=Depend
         search_depth=candidate_k,
         methods=("rrf",),
         filter_overrides=filter_overrides or None,
+        theme_ids=theme_ids,
     )
     logger.info(
-        "search completed filter_overrides=%s used_llm_parser=%s latency_ms=%s",
+        "search completed filter_overrides=%s theme_ids=%s used_llm_parser=%s latency_ms=%s",
         filter_overrides or None,
+        theme_ids,
         effective_parser is parser,
         output.get("latency_ms"),
     )

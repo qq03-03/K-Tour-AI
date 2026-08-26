@@ -36,6 +36,30 @@ def test_search_request_rejects_empty_query():
         SearchRequest(q="")
 
 
+def test_search_request_accepts_empty_query_when_theme_is_set():
+    # Theme/season/region button clicks have no free text -- only the
+    # structured filters. README_BACKEND_APPLY.md's example request is
+    # exactly {"query": "", "theme": ["flower"]}.
+    request = SearchRequest(q="", theme=["flower"])
+    assert request.q == ""
+    assert request.theme == ["flower"]
+
+
+def test_search_request_accepts_empty_query_when_any_other_filter_is_set():
+    request = SearchRequest(q="", region=["강원도"])
+    assert request.q == ""
+
+
+def test_search_request_rejects_empty_query_with_no_filters_at_all():
+    with pytest.raises(ValidationError):
+        SearchRequest(q="", theme=None, region=None)
+
+
+def test_search_request_theme_defaults_to_none():
+    request = SearchRequest(q="꽃 구경")
+    assert request.theme is None
+
+
 def test_search_result_item_matches_the_contract_fields():
     item = SearchResultItem(
         rank=1,

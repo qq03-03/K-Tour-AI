@@ -38,6 +38,7 @@ def build_search_results(pipeline_output: dict[str, Any], *, top_k: int) -> list
                 "activity": segment["activity"],
                 "scene_elements": segment["scene_elements"],
                 "k_culture_elements": segment["k_culture_elements"],
+                "themes": segment.get("themes", []),
                 "text_score": text_scores.get(segment_id),
                 "image_score": image_scores.get(segment_id),
                 "text_rank": source_ranks.get("text"),

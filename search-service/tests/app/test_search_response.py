@@ -58,6 +58,26 @@ def test_maps_fields_to_the_contract_shape():
     assert item["final_score"] == 0.031
 
 
+def test_passes_through_the_themes_array():
+    rrf = [
+        {**_segment("S001", "SEG001", themes=["flower", "field"]), "rrf_score": 0.03, "source_ranks": {}},
+    ]
+    output = _pipeline_output(rrf, [], [])
+
+    results = build_search_results(output, top_k=5)
+
+    assert results[0]["themes"] == ["flower", "field"]
+
+
+def test_defaults_themes_to_an_empty_list_when_the_segment_has_none():
+    rrf = [{**_segment("S001", "SEG001"), "rrf_score": 0.03, "source_ranks": {}}]
+    output = _pipeline_output(rrf, [], [])
+
+    results = build_search_results(output, top_k=5)
+
+    assert results[0]["themes"] == []
+
+
 def test_null_score_and_rank_when_a_segment_is_missing_from_one_source():
     rrf = [
         {**_segment("S001", "SEG001"), "rrf_score": 0.02, "source_ranks": {"image": 1}},

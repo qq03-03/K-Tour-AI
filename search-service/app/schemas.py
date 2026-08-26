@@ -1,9 +1,15 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, model_validator
 
 
 class SearchRequest(BaseModel):
-    q: str = Field(min_length=1)
+    # Free text is optional: a pure filter/theme-button request (no natural
+    # language) sends q="" -- README_BACKEND_APPLY.md's own example request
+    # is exactly {"query": "", "theme": ["flower"]}. The model validator
+    # below still rejects q="" when no filter is set either, since that
+    # would be a meaningless, totally unconstrained request.
+    q: str = ""
     lang: str = "ko"
+    theme: list[str] | None = None
     place_id: list[str] | None = None
     drama_title: list[str] | None = None
     region: list[str] | None = None
@@ -12,6 +18,24 @@ class SearchRequest(BaseModel):
     time_of_day: list[str] | None = None
     top_k: int = Field(default=5, ge=1)
     candidate_k: int | None = Field(default=None, ge=1)
+
+    @model_validator(mode="after")
+    def _require_query_or_a_filter(self) -> "SearchRequest":
+        has_query = bool(self.q.strip())
+        has_filter = any(
+            [
+                self.theme,
+                self.place_id,
+                self.drama_title,
+                self.region,
+                self.city,
+                self.season,
+                self.time_of_day,
+            ]
+        )
+        if not has_query and not has_filter:
+            raise ValueError("q(자연어 검색어) 또는 필터(theme/region/season 등) 중 하나는 있어야 합니다.")
+        return self
 
 
 class SearchResultItem(BaseModel):
@@ -37,6 +61,7 @@ class SearchResultItem(BaseModel):
     activity: list[str]
     scene_elements: list[str]
     k_culture_elements: list[str]
+    themes: list[str] = []
     text_score: float | None
     image_score: float | None
     text_rank: int | None
