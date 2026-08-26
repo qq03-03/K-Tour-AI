@@ -14,6 +14,7 @@ RUN python -c "from transformers import CLIPModel, CLIPProcessor; CLIPModel.from
 
 COPY src ./src
 COPY app ./app
+COPY data ./data
 
 ENV HF_HUB_OFFLINE=1
 ENV TRANSFORMERS_OFFLINE=1
