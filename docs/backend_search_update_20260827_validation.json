@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": {
+    "languages": true,
+    "ui_key_parity": true,
+    "season_count": true,
+    "theme_count": true,
+    "drama_count": true,
+    "theme_mapping_count": true,
+    "theme_mapping_unique": true,
+    "place_count": true,
+    "coordinate_place_id_match": true,
+    "alias_place_id_match": true,
+    "place_locales_complete": true,
+    "title_labels_complete": true,
+    "p013_p044_coordinates_equal": true,
+    "verified_address_overrides_applied": true
+  },
+  "counts": {
+    "scene": 517,
+    "source_segment": 109,
+    "place": 74,
+    "drama": 42,
+    "season": 4,
+    "theme": 9,
+    "ui_text_keys_per_language": 27,
+    "missing_source_address_places": 0
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "record_count": 74,
   "records": [
     {
@@ -7,91 +7,112 @@
       "place_name": "수원 화성",
       "region": "경기도",
       "city": "수원시",
-      "address": "",
+      "address": "경기도 수원시 팔달구 정조로 825",
       "latitude": 37.2827,
       "longitude": 127.0141,
       "coordinate_source": "사용자 제공",
       "coordinate_source_url": "",
       "status": "확정",
-      "notes": "관광 중심지 기준"
+      "notes": "관광 중심지 기준",
+      "address_source_url": "https://www.swcf.or.kr/?p=68",
+      "address_basis": "수원 화성 범위 내 화성행궁 대표 안내 지점",
+      "address_status": "verified_representative"
     },
     {
       "place_id": "P002",
       "place_name": "여의도 한강",
       "region": "서울특별시",
       "city": "서울특별시",
-      "address": "",
+      "address": "서울특별시 영등포구 여의동로 330",
       "latitude": 37.528391,
       "longitude": 126.934242,
       "coordinate_source": "사용자 제공",
       "coordinate_source_url": "",
       "status": "확정",
-      "notes": "이벤트광장 기준"
+      "notes": "이벤트광장 기준",
+      "address_source_url": "https://hangang.seoul.go.kr/www/contents/671.do?mid=476",
+      "address_basis": "여의도한강공원 여의도안내센터 대표 지점",
+      "address_status": "verified_representative"
     },
     {
       "place_id": "P003",
       "place_name": "수원대학교",
       "region": "경기도",
       "city": "화성시",
-      "address": "",
+      "address": "경기도 화성시 봉담읍 와우안길 17",
       "latitude": 37.2101,
       "longitude": 126.9793,
       "coordinate_source": "사용자 제공",
       "coordinate_source_url": "",
       "status": "확정",
-      "notes": "대표 좌표"
+      "notes": "대표 좌표",
+      "address_source_url": "https://www.suwon.ac.kr/index.html?menuno=652",
+      "address_basis": "수원대학교 공식 주소",
+      "address_status": "verified_representative"
     },
     {
       "place_id": "P004",
       "place_name": "고창 학원농장",
       "region": "전북특별자치도",
       "city": "고창군",
-      "address": "",
+      "address": "전북특별자치도 고창군 공음면 학원농장길 150",
       "latitude": 35.52353,
       "longitude": 126.53899,
       "coordinate_source": "사용자 제공",
       "coordinate_source_url": "",
       "status": "확정",
-      "notes": "대표 좌표"
+      "notes": "대표 좌표",
+      "address_source_url": "https://borinara.co.kr/direction",
+      "address_basis": "학원농장 공식 홈페이지의 현재 중앙부 주소",
+      "address_status": "verified_representative"
     },
     {
       "place_id": "P005",
       "place_name": "전주 한옥마을",
       "region": "전북특별자치도",
       "city": "전주시",
-      "address": "",
+      "address": "전북특별자치도 전주시 완산구 기린대로 99",
       "latitude": 35.81558,
       "longitude": 127.1498,
       "coordinate_source": "사용자 제공",
       "coordinate_source_url": "",
       "status": "확정",
-      "notes": "중심 거리·경기전 인근 기준"
+      "notes": "중심 거리·경기전 인근 기준",
+      "address_source_url": "https://tour.jeonju.go.kr/index.jeonju?menuCd=DOM_000000106004000000",
+      "address_basis": "전주한옥마을 관광안내소 대표 지점",
+      "address_status": "verified_representative"
     },
     {
       "place_id": "P006",
       "place_name": "온빛자연휴양림",
       "region": "충청남도",
       "city": "논산시",
-      "address": "",
+      "address": "충청남도 논산시 벌곡면 황룡재로 480-113",
       "latitude": 36.2198,
       "longitude": 127.2985,
       "coordinate_source": "사용자 제공",
       "coordinate_source_url": "",
       "status": "확정",
-      "notes": "은빛자연휴양림 표기는 온빛자연휴양림으로 통일 필요"
+      "notes": "은빛자연휴양림 표기는 온빛자연휴양림으로 통일 필요",
+      "address_source_url": "https://www.nonsan.go.kr/tour/html/sub02/0201.html?mng_no=284&mode=V",
+      "address_basis": "논산시 문화관광 공식 소재지",
+      "address_status": "verified_representative"
     },
     {
       "place_id": "P007",
       "place_name": "한벽굴",
       "region": "전북특별자치도",
       "city": "전주시",
-      "address": "",
+      "address": "전북특별자치도 전주시 완산구 교동 산 7-3",
       "latitude": 35.81187,
       "longitude": 127.16081,
       "coordinate_source": "사용자 제공",
       "coordinate_source_url": "",
       "status": "확정",
-      "notes": ""
+      "notes": "",
+      "address_source_url": "https://tour.jeonju.go.kr/board/view.jeonju?boardId=BBS_0000003&dataSid=16670&menuCd=DOM_000000101006001000",
+      "address_basis": "전주시 문화관광 공식 기본주소",
+      "address_status": "verified_representative"
     },
     {
       "place_id": "P008",
@@ -163,13 +184,16 @@
       "place_name": "강릉 주문진",
       "region": "강원특별자치도",
       "city": "강릉시",
-      "address": "",
+      "address": "강원특별자치도 강릉시 주문진읍 교항리",
       "latitude": 37.8798554564007,
       "longitude": 128.834204251177,
       "coordinate_source": "카카오 로컬 API",
       "coordinate_source_url": "http://place.map.kakao.com/1873746459",
       "status": "확정",
-      "notes": "강릉 주문진 대표 촬영지 기준"
+      "notes": "강릉 주문진 대표 촬영지 기준",
+      "address_source_url": "http://place.map.kakao.com/1873746459",
+      "address_basis": "동일 장소 P044 주문진 방파제의 검증 주소 승계",
+      "address_status": "verified_representative"
     },
     {
       "place_id": "P014",

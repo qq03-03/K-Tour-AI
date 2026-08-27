@@ -1,0 +1,1079 @@
+{
+  "version": "2026-08-27-theme-final-v7.0",
+  "result_unit": "source_segment_id",
+  "policy": "v6 확정 매핑 유지 + 사용자 영상 검수 완료 8개 source_segment_id 추가; season은 변경하지 않음",
+  "entries": [
+    {
+      "source_segment_id": "V001_P001_S001",
+      "place_id": "P001",
+      "place_name": "수원 화성",
+      "drama_title": "선재 업고 튀어",
+      "themes": [
+        "flower",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V001_P002_S001",
+      "place_id": "P002",
+      "place_name": "여의도 한강",
+      "drama_title": "선재 업고 튀어",
+      "themes": [
+        "flower",
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V001_P003_S001",
+      "place_id": "P003",
+      "place_name": "수원대학교",
+      "drama_title": "선재 업고 튀어",
+      "themes": [
+        "flower"
+      ]
+    },
+    {
+      "source_segment_id": "V001_P032_S001",
+      "place_id": "P032",
+      "place_name": "화홍문",
+      "drama_title": "선재 업고 튀어",
+      "themes": [
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V001_P032_S002",
+      "place_id": "P032",
+      "place_name": "화홍문",
+      "drama_title": "선재 업고 튀어",
+      "themes": [
+        "autumn_leaves",
+        "field",
+        "forest",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V002_P004_S001",
+      "place_id": "P004",
+      "place_name": "고창 학원농장",
+      "drama_title": "폭싹 속았수다",
+      "themes": [
+        "field",
+        "flower"
+      ]
+    },
+    {
+      "source_segment_id": "V002_P004_S002",
+      "place_id": "P004",
+      "place_name": "고창 학원농장",
+      "drama_title": "폭싹 속았수다",
+      "themes": [
+        "field",
+        "flower"
+      ]
+    },
+    {
+      "source_segment_id": "V002_P004_S003",
+      "place_id": "P004",
+      "place_name": "고창 학원농장",
+      "drama_title": "폭싹 속았수다",
+      "themes": [
+        "field",
+        "flower"
+      ]
+    },
+    {
+      "source_segment_id": "V003_P001_S001",
+      "place_id": "P001",
+      "place_name": "수원 화성",
+      "drama_title": "그 해 우리는",
+      "themes": [
+        "drive",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V003_P005_S001",
+      "place_id": "P005",
+      "place_name": "전주 한옥마을",
+      "drama_title": "그 해 우리는",
+      "themes": [
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V003_P006_S001",
+      "place_id": "P006",
+      "place_name": "온빛자연휴양림",
+      "drama_title": "그 해 우리는",
+      "themes": [
+        "autumn_leaves",
+        "forest",
+        "hiking"
+      ]
+    },
+    {
+      "source_segment_id": "V003_P006_S002",
+      "place_id": "P006",
+      "place_name": "온빛자연휴양림",
+      "drama_title": "그 해 우리는",
+      "themes": [
+        "autumn_leaves"
+      ]
+    },
+    {
+      "source_segment_id": "V003_P006_S003",
+      "place_id": "P006",
+      "place_name": "온빛자연휴양림",
+      "drama_title": "그 해 우리는",
+      "themes": [
+        "autumn_leaves",
+        "field",
+        "forest",
+        "hiking"
+      ]
+    },
+    {
+      "source_segment_id": "V004_P007_S001",
+      "place_id": "P007",
+      "place_name": "한벽굴",
+      "drama_title": "스물다섯 스물하나",
+      "themes": [
+        "autumn_leaves",
+        "drive"
+      ]
+    },
+    {
+      "source_segment_id": "V004_P007_S002",
+      "place_id": "P007",
+      "place_name": "한벽굴",
+      "drama_title": "스물다섯 스물하나",
+      "themes": [
+        "forest",
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V004_P007_S003",
+      "place_id": "P007",
+      "place_name": "한벽굴",
+      "drama_title": "스물다섯 스물하나",
+      "themes": [
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V004_P008_S001",
+      "place_id": "P008",
+      "place_name": "명진 책 대여점",
+      "drama_title": "스물다섯 스물하나",
+      "themes": [
+        "drive"
+      ]
+    },
+    {
+      "source_segment_id": "V004_P009_S001",
+      "place_id": "P009",
+      "place_name": "전주 오목대",
+      "drama_title": "스물다섯 스물하나",
+      "themes": [
+        "forest",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V005_P010_S001",
+      "place_id": "P010",
+      "place_name": "포항 영일만항",
+      "drama_title": "갯마을 차차차",
+      "themes": [
+        "forest",
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V005_P023_S001",
+      "place_id": "P023",
+      "place_name": "포항 구룡포 석병리",
+      "drama_title": "갯마을 차차차",
+      "themes": [
+        "sea",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V005_P023_S002",
+      "place_id": "P023",
+      "place_name": "포항 구룡포 석병리",
+      "drama_title": "갯마을 차차차",
+      "themes": [
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V005_P024_S001",
+      "place_id": "P024",
+      "place_name": "포항 청하 공진시장",
+      "drama_title": "갯마을 차차차",
+      "themes": [
+        "drive"
+      ]
+    },
+    {
+      "source_segment_id": "V005_P041_S001",
+      "place_id": "P041",
+      "place_name": "사방기념공원",
+      "drama_title": "갯마을 차차차",
+      "themes": [
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V006_P011_S001",
+      "place_id": "P011",
+      "place_name": "제주도 고성오일시장",
+      "drama_title": "우리들의 블루스",
+      "themes": [
+        "drive"
+      ]
+    },
+    {
+      "source_segment_id": "V006_P025_S001",
+      "place_id": "P025",
+      "place_name": "제주도 청굴물",
+      "drama_title": "우리들의 블루스",
+      "themes": [
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V006_P026_S001",
+      "place_id": "P026",
+      "place_name": "제주도 태봉왓",
+      "drama_title": "우리들의 블루스",
+      "themes": [
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V006_P027_S001",
+      "place_id": "P027",
+      "place_name": "금능리 대표 관광지",
+      "drama_title": "우리들의 블루스",
+      "themes": [
+        "drive",
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V006_P042_S001",
+      "place_id": "P042",
+      "place_name": "쿠키 가파도",
+      "drama_title": "우리들의 블루스",
+      "themes": [
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V006_P043_S001",
+      "place_id": "P043",
+      "place_name": "신촌 앞바다",
+      "drama_title": "우리들의 블루스",
+      "themes": [
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V007_P012_S001",
+      "place_id": "P012",
+      "place_name": "비내섬",
+      "drama_title": "사랑의 불시착",
+      "themes": [
+        "field",
+        "forest"
+      ]
+    },
+    {
+      "source_segment_id": "V007_P012_S002",
+      "place_id": "P012",
+      "place_name": "비내섬",
+      "drama_title": "사랑의 불시착",
+      "themes": [
+        "field",
+        "forest"
+      ]
+    },
+    {
+      "source_segment_id": "V007_P031_S001",
+      "place_id": "P031",
+      "place_name": "충주 중앙탑공원",
+      "drama_title": "사랑의 불시착",
+      "themes": [
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V007_P031_S002",
+      "place_id": "P031",
+      "place_name": "충주 중앙탑공원",
+      "drama_title": "사랑의 불시착",
+      "themes": [
+        "field",
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V008_P013_S002",
+      "place_id": "P013",
+      "place_name": "강릉 주문진",
+      "drama_title": "도깨비",
+      "themes": [
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V008_P014_S001",
+      "place_id": "P014",
+      "place_name": "평창 월정사",
+      "drama_title": "도깨비",
+      "themes": [
+        "forest"
+      ]
+    },
+    {
+      "source_segment_id": "V008_P014_S002",
+      "place_id": "P014",
+      "place_name": "평창 월정사",
+      "drama_title": "도깨비",
+      "themes": [
+        "forest",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V008_P044_S001",
+      "place_id": "P044",
+      "place_name": "주문진 방파제",
+      "drama_title": "도깨비",
+      "themes": [
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V009_P015_S001",
+      "place_id": "P015",
+      "place_name": "망상해변",
+      "drama_title": "호텔 델루나",
+      "themes": [
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V009_P015_S002",
+      "place_id": "P015",
+      "place_name": "망상해변",
+      "drama_title": "호텔 델루나",
+      "themes": [
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V009_P022_S001",
+      "place_id": "P022",
+      "place_name": "파라다이스시티",
+      "drama_title": "호텔 델루나",
+      "themes": [
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V011_P016_S001",
+      "place_id": "P016",
+      "place_name": "경복궁",
+      "drama_title": "킹덤",
+      "themes": [
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V011_P016_S002",
+      "place_id": "P016",
+      "place_name": "경복궁",
+      "drama_title": "킹덤",
+      "themes": [
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V011_P017_S001",
+      "place_id": "P017",
+      "place_name": "창덕궁",
+      "drama_title": "킹덤",
+      "themes": [
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V011_P017_S002",
+      "place_id": "P017",
+      "place_name": "창덕궁",
+      "drama_title": "킹덤",
+      "themes": [
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V012_P018_S001",
+      "place_id": "P018",
+      "place_name": "영월 주천강",
+      "drama_title": "날씨가 좋으면 찾아가겠어요",
+      "themes": [
+        "field"
+      ]
+    },
+    {
+      "source_segment_id": "V012_P018_S002",
+      "place_id": "P018",
+      "place_name": "영월 주천강",
+      "drama_title": "날씨가 좋으면 찾아가겠어요",
+      "themes": [
+        "field"
+      ]
+    },
+    {
+      "source_segment_id": "V012_P018_S003",
+      "place_id": "P018",
+      "place_name": "영월 주천강",
+      "drama_title": "날씨가 좋으면 찾아가겠어요",
+      "themes": [
+        "forest"
+      ]
+    },
+    {
+      "source_segment_id": "V013_P019_S001",
+      "place_id": "P019",
+      "place_name": "상주 함창역",
+      "drama_title": "무인도의 디바",
+      "themes": [
+        "drive"
+      ]
+    },
+    {
+      "source_segment_id": "V013_P020_S001",
+      "place_id": "P020",
+      "place_name": "서천",
+      "drama_title": "무인도의 디바",
+      "themes": [
+        "field",
+        "flower",
+        "forest"
+      ]
+    },
+    {
+      "source_segment_id": "V013_P029_S001",
+      "place_id": "P029",
+      "place_name": "상주 경천섬 공원",
+      "drama_title": "무인도의 디바",
+      "themes": [
+        "hiking"
+      ]
+    },
+    {
+      "source_segment_id": "V014_P021_S001",
+      "place_id": "P021",
+      "place_name": "청계천",
+      "drama_title": "도시남녀의 사랑법",
+      "themes": [
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V015_P030_S001",
+      "place_id": "P030",
+      "place_name": "혜원의 집",
+      "drama_title": "리틀 포레스트",
+      "themes": [
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V015_P030_S002",
+      "place_id": "P030",
+      "place_name": "혜원의 집",
+      "drama_title": "리틀 포레스트",
+      "themes": [
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V015_P087_S001",
+      "place_id": "P087",
+      "place_name": "화본역",
+      "drama_title": "리틀 포레스트",
+      "themes": [
+        "flower"
+      ]
+    },
+    {
+      "source_segment_id": "V016_P033_S001",
+      "place_id": "P033",
+      "place_name": "서울로7017",
+      "drama_title": "빈센조",
+      "themes": [
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V016_P033_S002",
+      "place_id": "P033",
+      "place_name": "서울로7017",
+      "drama_title": "빈센조",
+      "themes": [
+        "drive",
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V017_P034_S001",
+      "place_id": "P034",
+      "place_name": "이태원 녹사평 육교",
+      "drama_title": "이태원 클라스",
+      "themes": [
+        "drive",
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V018_P035_S001",
+      "place_id": "P035",
+      "place_name": "여수 소호동동다리",
+      "drama_title": "남남",
+      "themes": [
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V018_P035_S002",
+      "place_id": "P035",
+      "place_name": "여수 소호동동다리",
+      "drama_title": "남남",
+      "themes": [
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V019_P036_S001",
+      "place_id": "P036",
+      "place_name": "부산 더베이101·마린시티",
+      "drama_title": "지금, 헤어지는 중입니다",
+      "themes": [
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V019_P036_S002",
+      "place_id": "P036",
+      "place_name": "부산 더베이101·마린시티",
+      "drama_title": "지금, 헤어지는 중입니다",
+      "themes": [
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V020_P037_S001",
+      "place_id": "P037",
+      "place_name": "부산항대교·영도",
+      "drama_title": "마이 네임",
+      "themes": [
+        "night_view",
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V020_P037_S002",
+      "place_id": "P037",
+      "place_name": "부산항대교·영도",
+      "drama_title": "마이 네임",
+      "themes": [
+        "night_view",
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V021_P038_S001",
+      "place_id": "P038",
+      "place_name": "부산 광안대교",
+      "drama_title": "헤어질 결심",
+      "themes": [
+        "night_view",
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V021_P038_S002",
+      "place_id": "P038",
+      "place_name": "부산 광안대교",
+      "drama_title": "헤어질 결심",
+      "themes": [
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V021_P048_S001",
+      "place_id": "P048",
+      "place_name": "부남해변",
+      "drama_title": "헤어질 결심",
+      "themes": [
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V022_P039_S001",
+      "place_id": "P039",
+      "place_name": "청주 중앙공원·수암골 일대",
+      "drama_title": "20세기 소녀",
+      "themes": [
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V022_P039_S002",
+      "place_id": "P039",
+      "place_name": "청주 중앙공원·수암골 일대",
+      "drama_title": "20세기 소녀",
+      "themes": [
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V023_P040_S001",
+      "place_id": "P040",
+      "place_name": "포항 스페이스워크",
+      "drama_title": "이 연애는 불가항력",
+      "themes": [
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V023_P040_S002",
+      "place_id": "P040",
+      "place_name": "포항 스페이스워크",
+      "drama_title": "이 연애는 불가항력",
+      "themes": [
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V023_P040_S003",
+      "place_id": "P040",
+      "place_name": "포항 스페이스워크",
+      "drama_title": "이 연애는 불가항력",
+      "themes": [
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V024_P045_S001",
+      "place_id": "P045",
+      "place_name": "올레길5코스",
+      "drama_title": "건축학개론",
+      "themes": [
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V025_P046_S001",
+      "place_id": "P046",
+      "place_name": "오천항",
+      "drama_title": "동백꽃 필 무렵",
+      "themes": [
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V025_P047_S001",
+      "place_id": "P047",
+      "place_name": "구룡포 일본인가옥거리",
+      "drama_title": "동백꽃 필 무렵",
+      "themes": [
+        "night_view"
+      ]
+    },
+    {
+      "source_segment_id": "V026_P049_S001",
+      "place_id": "P049",
+      "place_name": "이기대 해안산책로",
+      "drama_title": "해운대",
+      "themes": [
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V027_P050_S001",
+      "place_id": "P050",
+      "place_name": "화진포 해수욕장",
+      "drama_title": "가을동화",
+      "themes": [
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V027_P051_S001",
+      "place_id": "P051",
+      "place_name": "아바이마을",
+      "drama_title": "가을동화",
+      "themes": [
+        "sea",
+        "drive"
+      ]
+    },
+    {
+      "source_segment_id": "V028_P052_S001",
+      "place_id": "P052",
+      "place_name": "자하문터널",
+      "drama_title": "기생충",
+      "themes": [
+        "drive"
+      ]
+    },
+    {
+      "source_segment_id": "V029_P053_S001",
+      "place_id": "P053",
+      "place_name": "사천진 해변",
+      "drama_title": "남자친구",
+      "themes": [
+        "sea"
+      ]
+    },
+    {
+      "source_segment_id": "V030_P055_S001",
+      "place_id": "P055",
+      "place_name": "동부마을 팽나무",
+      "drama_title": "이상한 변호사 우영우",
+      "themes": [
+        "field",
+        "forest"
+      ]
+    },
+    {
+      "source_segment_id": "V032_P056_S001",
+      "place_id": "P056",
+      "place_name": "강화 전등사",
+      "drama_title": "조명가게",
+      "themes": [
+        "flower",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V033_P057_S001",
+      "place_id": "P057",
+      "place_name": "청라호수공원",
+      "drama_title": "더 글로리",
+      "themes": [
+        "flower"
+      ]
+    },
+    {
+      "source_segment_id": "V034_P058_S001",
+      "place_id": "P058",
+      "place_name": "부평역",
+      "drama_title": "엽기적인 그녀",
+      "themes": [
+        "drive"
+      ]
+    },
+    {
+      "source_segment_id": "V036_P059_S001",
+      "place_id": "P059",
+      "place_name": "원대리 자작나무숲",
+      "drama_title": "킹덤 시즌2",
+      "themes": [
+        "forest"
+      ]
+    },
+    {
+      "source_segment_id": "V037_P060_S001",
+      "place_id": "P060",
+      "place_name": "재인폭포",
+      "drama_title": "옥씨부인전",
+      "themes": [
+        "forest"
+      ]
+    },
+    {
+      "source_segment_id": "V040_P061_S001",
+      "place_id": "P061",
+      "place_name": "용화산",
+      "drama_title": "옥자",
+      "themes": [
+        "forest",
+        "hiking"
+      ]
+    },
+    {
+      "source_segment_id": "V042_P062_S001",
+      "place_id": "P062",
+      "place_name": "선샤인스튜디오",
+      "drama_title": "미스터 션샤인",
+      "themes": [
+        "flower",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V042_P065_S001",
+      "place_id": "P065",
+      "place_name": "서산유기방가옥",
+      "drama_title": "미스터 션샤인",
+      "themes": [
+        "flower"
+      ]
+    },
+    {
+      "source_segment_id": "V042_P066_S001",
+      "place_id": "P066",
+      "place_name": "안동 만휴정",
+      "drama_title": "미스터 션샤인",
+      "themes": [
+        "autumn_leaves",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V042_P066_S002",
+      "place_id": "P066",
+      "place_name": "안동 만휴정",
+      "drama_title": "미스터 션샤인",
+      "themes": [
+        "autumn_leaves",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V043_P054_S001",
+      "place_id": "P054",
+      "place_name": "영인산 자연휴양림",
+      "drama_title": "악귀",
+      "themes": [
+        "forest",
+        "hiking"
+      ]
+    },
+    {
+      "source_segment_id": "V044_P067_S001",
+      "place_id": "P067",
+      "place_name": "계명대",
+      "drama_title": "사랑비",
+      "themes": [
+        "flower",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V044_P067_S002",
+      "place_id": "P067",
+      "place_name": "계명대",
+      "drama_title": "사랑비",
+      "themes": [
+        "flower"
+      ]
+    },
+    {
+      "source_segment_id": "V044_P068_S001",
+      "place_id": "P068",
+      "place_name": "춘천 제이드가든",
+      "drama_title": "사랑비",
+      "themes": [
+        "autumn_leaves",
+        "forest"
+      ]
+    },
+    {
+      "source_segment_id": "V045_P069_S001",
+      "place_id": "P069",
+      "place_name": "남이섬",
+      "drama_title": "겨울연가",
+      "themes": [
+        "field",
+        "flower",
+        "forest"
+      ]
+    },
+    {
+      "source_segment_id": "V045_P070_S001",
+      "place_id": "P070",
+      "place_name": "남이섬 겹벚나무길",
+      "drama_title": "겨울연가",
+      "themes": [
+        "flower",
+        "forest"
+      ]
+    },
+    {
+      "source_segment_id": "V045_P071_S001",
+      "place_id": "P071",
+      "place_name": "남이섬 메타세쿼이아길",
+      "drama_title": "겨울연가",
+      "themes": [
+        "autumn_leaves",
+        "forest",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V045_P071_S002",
+      "place_id": "P071",
+      "place_name": "남이섬 메타세쿼이아길",
+      "drama_title": "겨울연가",
+      "themes": [
+        "autumn_leaves",
+        "forest",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V046_P072_S001",
+      "place_id": "P072",
+      "place_name": "아침고요수목원 서화연",
+      "drama_title": "옷소매 붉은 끝동",
+      "themes": [
+        "field",
+        "flower",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V046_P072_S002",
+      "place_id": "P072",
+      "place_name": "아침고요수목원 서화연",
+      "drama_title": "옷소매 붉은 끝동",
+      "themes": [
+        "field",
+        "flower"
+      ]
+    },
+    {
+      "source_segment_id": "V046_P073_S001",
+      "place_id": "P073",
+      "place_name": "전주향교",
+      "drama_title": "옷소매 붉은 끝동",
+      "themes": [
+        "autumn_leaves",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V046_P073_S002",
+      "place_id": "P073",
+      "place_name": "전주향교",
+      "drama_title": "옷소매 붉은 끝동",
+      "themes": [
+        "autumn_leaves",
+        "forest",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V047_P074_S001",
+      "place_id": "P074",
+      "place_name": "영월 선돌",
+      "drama_title": "가을로",
+      "themes": [
+        "autumn_leaves",
+        "drive",
+        "field",
+        "forest",
+        "hiking"
+      ]
+    },
+    {
+      "source_segment_id": "V048_P073_S001",
+      "place_id": "P073",
+      "place_name": "전주향교",
+      "drama_title": "연모",
+      "themes": [
+        "autumn_leaves",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V048_P073_S002",
+      "place_id": "P073",
+      "place_name": "전주향교",
+      "drama_title": "연모",
+      "themes": [
+        "autumn_leaves",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V052_P005_S001",
+      "place_id": "P005",
+      "place_name": "전주 한옥마을",
+      "drama_title": "그 해 우리는",
+      "themes": [
+        "autumn_leaves",
+        "night_view",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V053_P075_S001",
+      "place_id": "P075",
+      "place_name": "안동 하회마을",
+      "drama_title": "미스터 션샤인",
+      "themes": [
+        "field",
+        "forest",
+        "traditional"
+      ]
+    },
+    {
+      "source_segment_id": "V056_P004_S001",
+      "place_id": "P004",
+      "place_name": "고창 학원농장",
+      "drama_title": "폭싹 속았수다",
+      "themes": [
+        "field",
+        "flower"
+      ]
+    },
+    {
+      "source_segment_id": "V062_P083_S001",
+      "place_id": "P083",
+      "place_name": "북한강길",
+      "drama_title": "호텔 델루나",
+      "themes": [
+        "drive",
+        "flower"
+      ]
+    }
+  ],
+  "theme_aliases": {
+    "궁궐": "traditional"
+  },
+  "source_detail_keywords": {
+    "V037_P060_S001": [
+      "폭포"
+    ],
+    "V011_P016_S002": [
+      "궁궐"
+    ]
+  },
+  "source_season_filters": {
+    "V003_P006_S002": [
+      "가을"
+    ],
+    "V048_P073_S002": [
+      "가을"
+    ],
+    "V001_P003_S001": [
+      "봄"
+    ],
+    "V046_P072_S002": [
+      "봄"
+    ]
+  }
+}

@@ -6,7 +6,7 @@
       "case_id": "EXPLICIT_FILTER_OVERRIDE",
       "label": "자연어 부산보다 UI 서울 필터 우선",
       "request": {
-        "query": "부산 촬영지",
+        "q": "부산 촬영지",
         "lang": "ko",
         "region": ["서울특별시"],
         "top_k": 5,
@@ -23,7 +23,7 @@
       "case_id": "SAME_FIELD_OR",
       "label": "같은 필드 place_id OR",
       "request": {
-        "query": "궁궐 촬영지",
+        "q": "궁궐 촬영지",
         "lang": "ko",
         "place_id": ["P016", "P017"],
         "top_k": 20,
@@ -41,7 +41,7 @@
       "case_id": "DIFFERENT_FIELDS_AND",
       "label": "서로 다른 필드 AND",
       "request": {
-        "query": "궁궐",
+        "q": "궁궐",
         "lang": "ko",
         "place_id": ["P016"],
         "region": ["서울특별시"],
@@ -59,7 +59,7 @@
       "case_id": "NO_FILTER_RELAXATION",
       "label": "모순된 명시 필터는 0건 유지",
       "request": {
-        "query": "궁궐",
+        "q": "궁궐",
         "lang": "ko",
         "place_id": ["P016"],
         "region": ["부산광역시"],
@@ -76,7 +76,7 @@
       "case_id": "THEME_ONLY_FLOWER",
       "label": "꽃 테마 버튼 검색",
       "request": {
-        "query": "",
+        "q": "",
         "lang": "ko",
         "theme": ["flower"],
         "top_k": 20,
@@ -102,7 +102,7 @@
       "case_id": "REGION_GROUP_GYEONGSANG",
       "label": "경상도 광역권 확장",
       "request": {
-        "query": "경상도 촬영지",
+        "q": "경상도 촬영지",
         "lang": "ko",
         "region": ["경상도"],
         "top_k": 20,
@@ -120,7 +120,7 @@
       "case_id": "REGION_EXACT_BUSAN",
       "label": "부산은 부산만",
       "request": {
-        "query": "부산 촬영지",
+        "q": "부산 촬영지",
         "lang": "ko",
         "region": ["부산광역시"],
         "top_k": 10,
@@ -137,7 +137,7 @@
       "case_id": "JEJU_SEOGWIPO_AND",
       "label": "제주 지역과 서귀포 city AND",
       "request": {
-        "query": "제주 서귀포 촬영지",
+        "q": "제주 서귀포 촬영지",
         "lang": "ko",
         "region": ["제주특별자치도"],
         "city": ["서귀포시"],
@@ -155,7 +155,7 @@
       "case_id": "SEASONAL_TITLE_PROTECTION",
       "label": "겨울연가를 겨울 필터로 오인하지 않음",
       "request": {
-        "query": "겨울연가 촬영지",
+        "q": "겨울연가 촬영지",
         "lang": "ko",
         "top_k": 5,
         "candidate_k": 50
@@ -171,7 +171,7 @@
       "case_id": "FULL_RESULT_CONTRACT",
       "label": "Top-K·중복 제거·rank·null·RRF 전체 계약",
       "request": {
-        "query": "드라마 촬영지 여행지를 추천해줘",
+        "q": "드라마 촬영지 여행지를 추천해줘",
         "lang": "ko",
         "top_k": 50,
         "candidate_k": 250

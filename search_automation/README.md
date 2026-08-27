@@ -96,7 +96,7 @@ location_alias_catalog.generated.json -> search-service/data/location_alias_cata
 질문을 실제 백엔드로 전송하며, 백엔드가 OpenAI QueryParser를 사용하면 해당
 API 비용이 발생할 수 있으므로 실행 전에 승인이 필요합니다.
 
-검색 요청의 자연어 필드명은 현재 프론트·백엔드 스키마에 맞춰 `query`를 사용합니다. `query`가 비어 있고 theme/region/
+검색 요청의 자연어 필드명은 현재 배포된 프론트·백엔드 스키마에 맞춰 `q`를 사용합니다. `q`가 비어 있고 theme/region/
 season 같은 명시 필터만 있으면 백엔드는 OpenAI를 호출하지 않아야 합니다.
 
 ```powershell

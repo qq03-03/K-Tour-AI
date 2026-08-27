@@ -3,8 +3,10 @@ from __future__ import annotations
 from ktour_search_automation.regression import (
     build_regression_report,
     compare_regression_reports,
+    evaluate_backend_api,
     evaluate_response_case,
 )
+from ktour_search_automation import regression as regression_module
 from ktour_search_automation.contract import evaluate_contract_response
 
 
@@ -65,8 +67,33 @@ def test_response_metrics_and_source_deduplication_check() -> None:
     assert report["summary"]["mrr"] == 0.5
 
 
+def test_backend_api_uses_deployed_q_field(monkeypatch) -> None:
+    captured: dict[str, object] = {}
+
+    def fake_post_json(url, payload, *, timeout, bearer_token):
+        captured.update(payload)
+        return {"results": [], "applied_filters": {}}
+
+    monkeypatch.setattr(regression_module, "_post_json", fake_post_json)
+    evaluate_backend_api(
+        base_url="https://example.test",
+        queries=[
+            {
+                "query_id": "Q_FIELD",
+                "language": "ko",
+                "query": "봄꽃 촬영지",
+                "relevant_source_segment_ids": ["SOURCE_1"],
+                "expected_filters": {},
+            }
+        ],
+    )
+
+    assert captured["q"] == "봄꽃 촬영지"
+    assert "query" not in captured
+
+
 def test_contract_checks_no_relax_and_rrf() -> None:
-    request = {"query": "궁궐", "lang": "ko", "top_k": 5}
+    request = {"q": "궁궐", "lang": "ko", "top_k": 5}
     expected = {
         "applied_filters": {"place_id": ["P016"]},
         "all_results": {"place_id": ["P016"]},

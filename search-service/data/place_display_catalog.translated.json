@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "key": "place_id",
   "fallback_policy": "requested language address -> Korean address -> empty",
   "records": [
@@ -12,37 +12,45 @@
           "place_name": "수원 화성",
           "region": "경기도",
           "city": "수원시",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "경기도 · 수원시 · 수원 화성"
+          "address": "경기도 수원시 팔달구 정조로 825",
+          "address_language": "ko",
+          "address_status": "verified_representative",
+          "location_label": "경기도 · 수원시 · 수원 화성",
+          "address_basis": "수원 화성 범위 내 화성행궁 대표 안내 지점",
+          "address_source_url": "https://www.swcf.or.kr/?p=68"
         },
         "en": {
           "place_name": "Suwon Hwaseong",
           "region": "Gyeonggi Province",
           "city": "Suwon",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "Gyeonggi Province · Suwon · Suwon Hwaseong"
+          "address": "825 Jeongjo-ro, Paldal-gu, Suwon-si, Gyeonggi-do, Republic of Korea",
+          "address_language": "en",
+          "address_status": "verified_representative",
+          "location_label": "Gyeonggi Province · Suwon · Suwon Hwaseong",
+          "address_basis": "수원 화성 범위 내 화성행궁 대표 안내 지점",
+          "address_source_url": "https://www.swcf.or.kr/?p=68"
         },
         "ja": {
           "place_name": "水原華城",
           "region": "京畿道",
           "city": "水原市",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "京畿道 · 水原市 · 水原華城"
+          "address": "京畿道 水原市 八達区 正祖路 825",
+          "address_language": "ja",
+          "address_status": "verified_representative",
+          "location_label": "京畿道 · 水原市 · 水原華城",
+          "address_basis": "수원 화성 범위 내 화성행궁 대표 안내 지점",
+          "address_source_url": "https://www.swcf.or.kr/?p=68"
         },
         "zh": {
           "place_name": "水原华城",
           "region": "京畿道",
           "city": "水原市",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "京畿道 · 水原市 · 水原华城"
+          "address": "京畿道水原市八达区正祖路825",
+          "address_language": "zh",
+          "address_status": "verified_representative",
+          "location_label": "京畿道 · 水原市 · 水原华城",
+          "address_basis": "수원 화성 범위 내 화성행궁 대표 안내 지점",
+          "address_source_url": "https://www.swcf.or.kr/?p=68"
         }
       }
     },
@@ -55,37 +63,45 @@
           "place_name": "여의도 한강",
           "region": "서울특별시",
           "city": "서울특별시",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "서울특별시 · 여의도 한강"
+          "address": "서울특별시 영등포구 여의동로 330",
+          "address_language": "ko",
+          "address_status": "verified_representative",
+          "location_label": "서울특별시 · 여의도 한강",
+          "address_basis": "여의도한강공원 여의도안내센터 대표 지점",
+          "address_source_url": "https://hangang.seoul.go.kr/www/contents/671.do?mid=476"
         },
         "en": {
           "place_name": "Yeouido Hangang",
           "region": "Seoul",
           "city": "Seoul",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "Seoul · Yeouido Hangang"
+          "address": "330 Yeouidong-ro, Yeongdeungpo-gu, Seoul, Republic of Korea",
+          "address_language": "en",
+          "address_status": "verified_representative",
+          "location_label": "Seoul · Yeouido Hangang",
+          "address_basis": "여의도한강공원 여의도안내센터 대표 지점",
+          "address_source_url": "https://hangang.seoul.go.kr/www/contents/671.do?mid=476"
         },
         "ja": {
           "place_name": "汝矣島漢江",
           "region": "ソウル特別市",
           "city": "ソウル特別市",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "ソウル特別市 · 汝矣島漢江"
+          "address": "ソウル特別市 永登浦区 汝矣東路 330",
+          "address_language": "ja",
+          "address_status": "verified_representative",
+          "location_label": "ソウル特別市 · 汝矣島漢江",
+          "address_basis": "여의도한강공원 여의도안내센터 대표 지점",
+          "address_source_url": "https://hangang.seoul.go.kr/www/contents/671.do?mid=476"
         },
         "zh": {
           "place_name": "汝矣岛汉江",
           "region": "首尔特别市",
           "city": "首尔特别市",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "首尔特别市 · 汝矣岛汉江"
+          "address": "首尔特别市永登浦区汝矣东路330",
+          "address_language": "zh",
+          "address_status": "verified_representative",
+          "location_label": "首尔特别市 · 汝矣岛汉江",
+          "address_basis": "여의도한강공원 여의도안내센터 대표 지점",
+          "address_source_url": "https://hangang.seoul.go.kr/www/contents/671.do?mid=476"
         }
       }
     },
@@ -98,37 +114,45 @@
           "place_name": "수원대학교",
           "region": "경기도",
           "city": "화성시",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "경기도 · 화성시 · 수원대학교"
+          "address": "경기도 화성시 봉담읍 와우안길 17",
+          "address_language": "ko",
+          "address_status": "verified_representative",
+          "location_label": "경기도 · 화성시 · 수원대학교",
+          "address_basis": "수원대학교 공식 주소",
+          "address_source_url": "https://www.suwon.ac.kr/index.html?menuno=652"
         },
         "en": {
           "place_name": "Suwon University",
           "region": "Gyeonggi-do",
           "city": "Hwaseong-si",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "Gyeonggi-do · Hwaseong-si · Suwon University"
+          "address": "17 Wauan-gil, Bongdam-eup, Hwaseong-si, Gyeonggi-do, Republic of Korea",
+          "address_language": "en",
+          "address_status": "verified_representative",
+          "location_label": "Gyeonggi-do · Hwaseong-si · Suwon University",
+          "address_basis": "수원대학교 공식 주소",
+          "address_source_url": "https://www.suwon.ac.kr/index.html?menuno=652"
         },
         "ja": {
           "place_name": "水原大学校",
           "region": "京畿道",
           "city": "華城市",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "京畿道 · 華城市 · 水原大学校"
+          "address": "京畿道 華城市 峰潭邑 ワウアンキル 17",
+          "address_language": "ja",
+          "address_status": "verified_representative",
+          "location_label": "京畿道 · 華城市 · 水原大学校",
+          "address_basis": "수원대학교 공식 주소",
+          "address_source_url": "https://www.suwon.ac.kr/index.html?menuno=652"
         },
         "zh": {
           "place_name": "水原大学",
           "region": "京畿道",
           "city": "华城市",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "京畿道 · 华城市 · 水原大学"
+          "address": "京畿道华城市峰潭邑卧牛安路17",
+          "address_language": "zh",
+          "address_status": "verified_representative",
+          "location_label": "京畿道 · 华城市 · 水原大学",
+          "address_basis": "수원대학교 공식 주소",
+          "address_source_url": "https://www.suwon.ac.kr/index.html?menuno=652"
         }
       }
     },
@@ -141,37 +165,45 @@
           "place_name": "고창 학원농장",
           "region": "전북특별자치도",
           "city": "고창군",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "전북특별자치도 · 고창군 · 고창 학원농장"
+          "address": "전북특별자치도 고창군 공음면 학원농장길 150",
+          "address_language": "ko",
+          "address_status": "verified_representative",
+          "location_label": "전북특별자치도 · 고창군 · 고창 학원농장",
+          "address_basis": "학원농장 공식 홈페이지의 현재 중앙부 주소",
+          "address_source_url": "https://borinara.co.kr/direction"
         },
         "en": {
           "place_name": "Gochang Hakwon Farm",
           "region": "Jeonbuk Special Self-Governing Province",
           "city": "Gochang County",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "Jeonbuk Special Self-Governing Province · Gochang County · Gochang Hakwon Farm"
+          "address": "150 Hagwonnongjang-gil, Gongeum-myeon, Gochang-gun, Jeonbuk State, Republic of Korea",
+          "address_language": "en",
+          "address_status": "verified_representative",
+          "location_label": "Jeonbuk Special Self-Governing Province · Gochang County · Gochang Hakwon Farm",
+          "address_basis": "학원농장 공식 홈페이지의 현재 중앙부 주소",
+          "address_source_url": "https://borinara.co.kr/direction"
         },
         "ja": {
           "place_name": "高敞学園農場",
           "region": "全北特別自治道",
           "city": "高敞郡",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "全北特別自治道 · 高敞郡 · 高敞学園農場"
+          "address": "全北特別自治道 高敞郡 孔音面 学園農場キル 150",
+          "address_language": "ja",
+          "address_status": "verified_representative",
+          "location_label": "全北特別自治道 · 高敞郡 · 高敞学園農場",
+          "address_basis": "학원농장 공식 홈페이지의 현재 중앙부 주소",
+          "address_source_url": "https://borinara.co.kr/direction"
         },
         "zh": {
           "place_name": "高敞学园农场",
           "region": "全北特别自治道",
           "city": "高敞郡",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "全北特别自治道 · 高敞郡 · 高敞学园农场"
+          "address": "全北特别自治道高敞郡孔音面学园农场路150",
+          "address_language": "zh",
+          "address_status": "verified_representative",
+          "location_label": "全北特别自治道 · 高敞郡 · 高敞学园农场",
+          "address_basis": "학원농장 공식 홈페이지의 현재 중앙부 주소",
+          "address_source_url": "https://borinara.co.kr/direction"
         }
       }
     },
@@ -184,37 +216,45 @@
           "place_name": "전주 한옥마을",
           "region": "전북특별자치도",
           "city": "전주시",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "전북특별자치도 · 전주시 · 전주 한옥마을"
+          "address": "전북특별자치도 전주시 완산구 기린대로 99",
+          "address_language": "ko",
+          "address_status": "verified_representative",
+          "location_label": "전북특별자치도 · 전주시 · 전주 한옥마을",
+          "address_basis": "전주한옥마을 관광안내소 대표 지점",
+          "address_source_url": "https://tour.jeonju.go.kr/index.jeonju?menuCd=DOM_000000106004000000"
         },
         "en": {
           "place_name": "Jeonju Hanok Village",
           "region": "Jeonbuk Special Self-Governing Province",
           "city": "Jeonju-si",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "Jeonbuk Special Self-Governing Province · Jeonju-si · Jeonju Hanok Village"
+          "address": "99 Girin-daero, Wansan-gu, Jeonju-si, Jeonbuk State, Republic of Korea",
+          "address_language": "en",
+          "address_status": "verified_representative",
+          "location_label": "Jeonbuk Special Self-Governing Province · Jeonju-si · Jeonju Hanok Village",
+          "address_basis": "전주한옥마을 관광안내소 대표 지점",
+          "address_source_url": "https://tour.jeonju.go.kr/index.jeonju?menuCd=DOM_000000106004000000"
         },
         "ja": {
           "place_name": "全州韓屋村",
           "region": "全北特別自治道",
           "city": "全州市",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "全北特別自治道 · 全州市 · 全州韓屋村"
+          "address": "全北特別自治道 全州市 完山区 麒麟大路 99",
+          "address_language": "ja",
+          "address_status": "verified_representative",
+          "location_label": "全北特別自治道 · 全州市 · 全州韓屋村",
+          "address_basis": "전주한옥마을 관광안내소 대표 지점",
+          "address_source_url": "https://tour.jeonju.go.kr/index.jeonju?menuCd=DOM_000000106004000000"
         },
         "zh": {
           "place_name": "全州韩屋村",
           "region": "全北特别自治道",
           "city": "全州市",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "全北特别自治道 · 全州市 · 全州韩屋村"
+          "address": "全北特别自治道全州市完山区麒麟大路99",
+          "address_language": "zh",
+          "address_status": "verified_representative",
+          "location_label": "全北特别自治道 · 全州市 · 全州韩屋村",
+          "address_basis": "전주한옥마을 관광안내소 대표 지점",
+          "address_source_url": "https://tour.jeonju.go.kr/index.jeonju?menuCd=DOM_000000106004000000"
         }
       }
     },
@@ -227,37 +267,45 @@
           "place_name": "온빛자연휴양림",
           "region": "충청남도",
           "city": "논산시",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "충청남도 · 논산시 · 온빛자연휴양림"
+          "address": "충청남도 논산시 벌곡면 황룡재로 480-113",
+          "address_language": "ko",
+          "address_status": "verified_representative",
+          "location_label": "충청남도 · 논산시 · 온빛자연휴양림",
+          "address_basis": "논산시 문화관광 공식 소재지",
+          "address_source_url": "https://www.nonsan.go.kr/tour/html/sub02/0201.html?mng_no=284&mode=V"
         },
         "en": {
           "place_name": "Onbit Natural Recreation Forest",
           "region": "Chungcheongnam-do",
           "city": "Nonsan",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "Chungcheongnam-do · Nonsan · Onbit Natural Recreation Forest"
+          "address": "480-113 Hwangnyongjae-ro, Beolgok-myeon, Nonsan-si, Chungcheongnam-do, Republic of Korea",
+          "address_language": "en",
+          "address_status": "verified_representative",
+          "location_label": "Chungcheongnam-do · Nonsan · Onbit Natural Recreation Forest",
+          "address_basis": "논산시 문화관광 공식 소재지",
+          "address_source_url": "https://www.nonsan.go.kr/tour/html/sub02/0201.html?mng_no=284&mode=V"
         },
         "ja": {
           "place_name": "オンビッ自然休養林",
           "region": "忠清南道",
           "city": "論山市",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "忠清南道 · 論山市 · オンビッ自然休養林"
+          "address": "忠清南道 論山市 伐谷面 ファンニョンジェロ 480-113",
+          "address_language": "ja",
+          "address_status": "verified_representative",
+          "location_label": "忠清南道 · 論山市 · オンビッ自然休養林",
+          "address_basis": "논산시 문화관광 공식 소재지",
+          "address_source_url": "https://www.nonsan.go.kr/tour/html/sub02/0201.html?mng_no=284&mode=V"
         },
         "zh": {
           "place_name": "Ondbit自然休养林",
           "region": "忠清南道",
           "city": "论山市",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "忠清南道 · 论山市 · Ondbit自然休养林"
+          "address": "忠清南道论山市伐谷面黄龙岭路480-113",
+          "address_language": "zh",
+          "address_status": "verified_representative",
+          "location_label": "忠清南道 · 论山市 · Ondbit自然休养林",
+          "address_basis": "논산시 문화관광 공식 소재지",
+          "address_source_url": "https://www.nonsan.go.kr/tour/html/sub02/0201.html?mng_no=284&mode=V"
         }
       }
     },
@@ -270,37 +318,45 @@
           "place_name": "한벽굴",
           "region": "전북특별자치도",
           "city": "전주시",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "전북특별자치도 · 전주시 · 한벽굴"
+          "address": "전북특별자치도 전주시 완산구 교동 산 7-3",
+          "address_language": "ko",
+          "address_status": "verified_representative",
+          "location_label": "전북특별자치도 · 전주시 · 한벽굴",
+          "address_basis": "전주시 문화관광 공식 기본주소",
+          "address_source_url": "https://tour.jeonju.go.kr/board/view.jeonju?boardId=BBS_0000003&dataSid=16670&menuCd=DOM_000000101006001000"
         },
         "en": {
           "place_name": "Hanbyeokgul Tunnel",
           "region": "Jeonbuk State",
           "city": "Jeonju-si",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "Jeonbuk State · Jeonju-si · Hanbyeokgul Tunnel"
+          "address": "San 7-3, Gyo-dong, Wansan-gu, Jeonju-si, Jeonbuk State, Republic of Korea",
+          "address_language": "en",
+          "address_status": "verified_representative",
+          "location_label": "Jeonbuk State · Jeonju-si · Hanbyeokgul Tunnel",
+          "address_basis": "전주시 문화관광 공식 기본주소",
+          "address_source_url": "https://tour.jeonju.go.kr/board/view.jeonju?boardId=BBS_0000003&dataSid=16670&menuCd=DOM_000000101006001000"
         },
         "ja": {
           "place_name": "ハンビョク窟",
           "region": "全北特別自治道",
           "city": "全州市",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "全北特別自治道 · 全州市 · ハンビョク窟"
+          "address": "全北特別自治道 全州市 完山区 校洞 山7-3",
+          "address_language": "ja",
+          "address_status": "verified_representative",
+          "location_label": "全北特別自治道 · 全州市 · ハンビョク窟",
+          "address_basis": "전주시 문화관광 공식 기본주소",
+          "address_source_url": "https://tour.jeonju.go.kr/board/view.jeonju?boardId=BBS_0000003&dataSid=16670&menuCd=DOM_000000101006001000"
         },
         "zh": {
           "place_name": "韩碧窟隧道",
           "region": "全北特别自治道",
           "city": "全州市",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "全北特别自治道 · 全州市 · 韩碧窟隧道"
+          "address": "全北特别自治道全州市完山区校洞山7-3",
+          "address_language": "zh",
+          "address_status": "verified_representative",
+          "location_label": "全北特别自治道 · 全州市 · 韩碧窟隧道",
+          "address_basis": "전주시 문화관광 공식 기본주소",
+          "address_source_url": "https://tour.jeonju.go.kr/board/view.jeonju?boardId=BBS_0000003&dataSid=16670&menuCd=DOM_000000101006001000"
         }
       }
     },
@@ -528,37 +584,45 @@
           "place_name": "강릉 주문진",
           "region": "강원특별자치도",
           "city": "강릉시",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "강원특별자치도 · 강릉시 · 강릉 주문진"
+          "address": "강원특별자치도 강릉시 주문진읍 교항리",
+          "address_language": "ko",
+          "address_status": "verified_representative",
+          "location_label": "강원특별자치도 · 강릉시 · 강릉 주문진",
+          "address_basis": "동일 장소 P044 주문진 방파제의 검증 주소 승계",
+          "address_source_url": "http://place.map.kakao.com/1873746459"
         },
         "en": {
           "place_name": "Jumunjin, Gangneung",
           "region": "Gangwon Special Self-Governing Province",
           "city": "Gangneung City",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "Gangwon Special Self-Governing Province · Gangneung City · Jumunjin, Gangneung"
+          "address": "Gyohang-ri, Jumunjin-eup, Gangneung-si, Gangwon Special Self-Governing Province, Republic of Korea",
+          "address_language": "en",
+          "address_status": "verified_representative",
+          "location_label": "Gangwon Special Self-Governing Province · Gangneung City · Jumunjin, Gangneung",
+          "address_basis": "동일 장소 P044 주문진 방파제의 검증 주소 승계",
+          "address_source_url": "http://place.map.kakao.com/1873746459"
         },
         "ja": {
           "place_name": "江陵 注文津",
           "region": "江原特別自治道",
           "city": "江陵市",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "江原特別自治道 · 江陵市 · 江陵 注文津"
+          "address": "江原特別自治道 江陵市 注文津邑 橋項里",
+          "address_language": "ja",
+          "address_status": "verified_representative",
+          "location_label": "江原特別自治道 · 江陵市 · 江陵 注文津",
+          "address_basis": "동일 장소 P044 주문진 방파제의 검증 주소 승계",
+          "address_source_url": "http://place.map.kakao.com/1873746459"
         },
         "zh": {
           "place_name": "江陵注文津",
           "region": "江原特别自治道",
           "city": "江陵市",
-          "address": "",
-          "address_language": null,
-          "address_status": "missing_source_address",
-          "location_label": "江原特别自治道 · 江陵市 · 江陵注文津"
+          "address": "江原特别自治道江陵市注文津邑桥项里",
+          "address_language": "zh",
+          "address_status": "verified_representative",
+          "location_label": "江原特别自治道 · 江陵市 · 江陵注文津",
+          "address_basis": "동일 장소 P044 주문진 방파제의 검증 주소 승계",
+          "address_source_url": "http://place.map.kakao.com/1873746459"
         }
       }
     },
@@ -3194,6 +3258,8 @@
       "ja",
       "zh"
     ],
-    "translated_place_count": 66
+    "translated_place_count": 66,
+    "verified_representative_address_count": 8,
+    "remaining_missing_address_count": 0
   }
 }

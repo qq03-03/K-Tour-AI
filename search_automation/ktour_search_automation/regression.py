@@ -37,7 +37,7 @@ def evaluate_backend_api(
     cases: list[dict[str, Any]] = []
     for case in queries:
         request_body = {
-            "query": _required_text(case.get("query"), "query"),
+            "q": _required_text(case.get("query"), "query"),
             "lang": _required_text(case.get("language"), "language"),
             "top_k": top_k,
             "candidate_k": candidate_k,
