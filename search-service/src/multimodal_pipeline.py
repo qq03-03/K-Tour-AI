@@ -11,6 +11,7 @@ from .clip_backend import ClipRuntime, PgVectorRepository
 from .filters import filter_segments
 from .fusion import normalized_score_fusion, reciprocal_rank_fusion
 from .interfaces import QueryParser
+from .place_id_normalization import expand_place_ids
 from .query_parser import (
     ParsedQuery,
     _canonical_value,
@@ -114,6 +115,15 @@ class MultimodalSearchPipeline:
         metadata_started = perf_counter()
         segments = self._load_segments()
         filter_arguments = to_filter_arguments(parsed.filters)
+        if filter_arguments.get("place_ids"):
+            # P013(강릉 주문진)/P044(주문진 방파제)처럼 동일 장소를 가리키는
+            # legacy/canonical place_id 쌍은 어느 쪽으로 필터해도 둘 다 검색돼야
+            # 한다 (BACKEND_APPLY_GUIDE.md 5절). 표시 정규화는 search_response.py/
+            # place_display.py 쪽에서 별도로 처리한다.
+            filter_arguments = {
+                **filter_arguments,
+                "place_ids": expand_place_ids(filter_arguments["place_ids"]),
+            }
         candidates = filter_segments(segments, **filter_arguments)
         # UI가 직접 지정한 하드 필터로 0건이 나온 경우에는 필터를 풀어 다시
         # 검색하지 않는다. 사용자가 고른 조건과 다른 결과를 돌려주지 않기 위함이다.

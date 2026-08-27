@@ -136,6 +136,21 @@ def test_lang_defaults_to_korean_when_not_specified():
     assert results[0]["place_name"] == "충주 중앙탑공원"
 
 
+def test_p013_result_displays_as_the_canonical_p044_place_id_and_name():
+    # P013(강릉 주문진)/P044(주문진 방파제)는 동일 장소 -- 표시용 place_id와
+    # place_name은 canonical id인 P044로 통일된다 (BACKEND_APPLY_GUIDE.md 5절).
+    rrf = [
+        {**_segment("S001", "SEG001", place_id="P013"), "rrf_score": 0.03, "source_ranks": {}},
+    ]
+    output = _pipeline_output(rrf, [], [])
+
+    results = build_search_results(output, top_k=5, lang="ko")
+
+    item = results[0]
+    assert item["place_id"] == "P044"
+    assert item["place_name"] == "주문진 방파제"
+
+
 def test_null_score_and_rank_when_a_segment_is_missing_from_one_source():
     rrf = [
         {**_segment("S001", "SEG001"), "rrf_score": 0.02, "source_ranks": {"image": 1}},

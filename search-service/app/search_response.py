@@ -2,6 +2,7 @@ from functools import cmp_to_key
 from typing import Any
 
 from src.place_display import display_for
+from src.place_id_normalization import canonicalize_place_id
 
 
 def build_search_results(
@@ -15,7 +16,7 @@ def build_search_results(
     for segment in rrf_results:
         segment_id = segment["segment_id"]
         source_ranks = segment.get("source_ranks", {})
-        # place_display_catalog.translated.json has the requested language's
+        # backend_integrated_search_catalog_v2.json's locations.places has the requested language's
         # real place_name/region/city/address/location_label and (unlike
         # video_segments, which has no lat/lng columns) real coordinates.
         # Falls back to the DB's own Korean-only fields when the place_id
@@ -28,7 +29,7 @@ def build_search_results(
                 "keyframe_id": segment_id,
                 "keyframe_path": segment["keyframe_path"],
                 "video_id": segment["video_id"],
-                "place_id": segment["place_id"],
+                "place_id": canonicalize_place_id(segment["place_id"]),
                 "place_name": display["place_name"] if display else segment["place_name"],
                 "region": display["region"] if display else segment["region"],
                 "city": display["city"] if display else segment["city"],

@@ -587,4 +587,61 @@ def test_blank_query_without_any_filter_returns_every_segment_unranked() -> None
     output = pipeline.search("", parser=CountingParser(), methods=("rrf",))
 
     assert output["candidate_count"] == 3
-    assert output["candidate_count"] == 3
+
+
+class LegacyPlaceIdRepository:
+    """P013(강릉 주문진)/P044(주문진 방파제)처럼 동일 장소를 가리키는 두
+    place_id를 가진, 실제 DB 구간 형태에 가까운 대역 저장소."""
+
+    def __init__(self) -> None:
+        self.candidate_id_calls: list[list[str]] = []
+
+    def list_segments(self):
+        return [
+            {"segment_id": "SEG_P013", "place_id": "P013", "region": "강원"},
+            {"segment_id": "SEG_P044", "place_id": "P044", "region": "강원"},
+            {"segment_id": "SEG_OTHER", "place_id": "P001", "region": "경기"},
+        ]
+
+    def search(self, vector, source, *, candidate_ids, top_k):
+        self.candidate_id_calls.append(list(candidate_ids))
+        if not candidate_ids:
+            return []
+        return [
+            {"segment_id": segment_id, "score": 0.9 - index * 0.1}
+            for index, segment_id in enumerate(candidate_ids[:top_k])
+        ]
+
+
+def _legacy_place_id_pipeline() -> tuple[MultimodalSearchPipeline, LegacyPlaceIdRepository]:
+    repository = LegacyPlaceIdRepository()
+    pipeline = MultimodalSearchPipeline(runtime=FakeRuntime(), repository=repository)
+    return pipeline, repository
+
+
+def test_place_id_filter_expands_p013_to_also_match_its_canonical_partner_p044() -> None:
+    pipeline, repository = _legacy_place_id_pipeline()
+
+    output = pipeline.search(
+        "촬영지",
+        parser=NoFilterParser(),
+        methods=("rrf",),
+        filter_overrides={"place_id": ["P013"]},
+    )
+
+    assert output["candidate_count"] == 2
+    assert sorted(repository.candidate_id_calls[0]) == ["SEG_P013", "SEG_P044"]
+
+
+def test_place_id_filter_expands_p044_to_also_match_its_legacy_partner_p013() -> None:
+    pipeline, repository = _legacy_place_id_pipeline()
+
+    output = pipeline.search(
+        "촬영지",
+        parser=NoFilterParser(),
+        methods=("rrf",),
+        filter_overrides={"place_id": ["P044"]},
+    )
+
+    assert output["candidate_count"] == 2
+    assert sorted(repository.candidate_id_calls[0]) == ["SEG_P013", "SEG_P044"]

@@ -1,8 +1,9 @@
-"""source_segment_id 단위 테마 하드 필터: theme_mapping.confirmed_final_v6.json 로드/적용.
+"""source_segment_id 단위 테마 하드 필터: backend_integrated_search_catalog_v2.json의
+theme_mapping(v7) 로드/적용.
 
 이 매핑은 기존 517건 metadata·embedding을 대체하지 않는다. source_segment_id
 기준으로 연결되는 별도의 구조화 필터 데이터이며, 재임베딩이 필요 없다.
-자세한 내용은 BACKEND_THEME_MAPPING_APPLY_GUIDE.txt 참고.
+자세한 내용은 BACKEND_APPLY_GUIDE.md 참고.
 """
 
 from __future__ import annotations
@@ -27,7 +28,9 @@ ALLOWED_THEMES = frozenset(
     }
 )
 
-_DEFAULT_PATH = Path(__file__).resolve().parent.parent / "data" / "theme_mapping.confirmed_final_v6.json"
+_DEFAULT_PATH = (
+    Path(__file__).resolve().parent.parent / "data" / "backend_integrated_search_catalog_v2.json"
+)
 
 
 @lru_cache
@@ -41,7 +44,8 @@ def load_theme_index(path: str | Path = _DEFAULT_PATH) -> dict[str, list[str]]:
     """
     with open(path, encoding="utf-8") as file:
         data = json.load(file)
-    return {entry["source_segment_id"]: list(entry["themes"]) for entry in data["entries"]}
+    entries = data["theme_mapping"]["entries"]
+    return {entry["source_segment_id"]: list(entry["themes"]) for entry in entries}
 
 
 def themes_for(

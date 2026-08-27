@@ -1,8 +1,10 @@
-"""theme_mapping.confirmed_final_v6.json 로드와 테마 하드 필터 테스트.
+"""backend_integrated_search_catalog_v2.json의 theme_mapping(v7) 로드와
+테마 하드 필터 테스트.
 
 여기 케이스들은 BACKEND_THEME_MAPPING_APPLY_GUIDE.txt의 "10. 필수 확인
-테스트"를 그대로 옮긴 것으로, 번들된 실제 v6 데이터 파일을 대상으로
-검증한다 (합성 fixture가 아님).
+테스트"를 그대로 옮긴 것으로, 번들된 실제 통합 카탈로그 파일을 대상으로
+검증한다 (합성 fixture가 아님). v7은 v6의 101건을 그대로 유지한 채 영상
+재검수로 확정된 8건을 추가해 총 109건이다.
 """
 
 from __future__ import annotations
@@ -10,9 +12,9 @@ from __future__ import annotations
 from src.theme_mapping import ALLOWED_THEMES, filter_by_theme, load_theme_index, themes_for
 
 
-def test_load_theme_index_reads_the_bundled_v6_file():
+def test_load_theme_index_reads_the_bundled_v7_catalog():
     index = load_theme_index()
-    assert len(index) == 101
+    assert len(index) == 109
 
 
 def test_themes_for_returns_empty_list_for_an_unmapped_segment():
