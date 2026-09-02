@@ -1,0 +1,3265 @@
+{
+  "schema_version": "2.0",
+  "key": "place_id",
+  "fallback_policy": "requested language address -> Korean address -> empty",
+  "records": [
+    {
+      "place_id": "P001",
+      "latitude": 37.2827,
+      "longitude": 127.0141,
+      "localized": {
+        "ko": {
+          "place_name": "수원 화성",
+          "region": "경기도",
+          "city": "수원시",
+          "address": "경기도 수원시 팔달구 정조로 825",
+          "address_language": "ko",
+          "address_status": "verified_representative",
+          "location_label": "경기도 · 수원시 · 수원 화성",
+          "address_basis": "수원 화성 범위 내 화성행궁 대표 안내 지점",
+          "address_source_url": "https://www.swcf.or.kr/?p=68"
+        },
+        "en": {
+          "place_name": "Suwon Hwaseong",
+          "region": "Gyeonggi Province",
+          "city": "Suwon",
+          "address": "825 Jeongjo-ro, Paldal-gu, Suwon-si, Gyeonggi-do, Republic of Korea",
+          "address_language": "en",
+          "address_status": "verified_representative",
+          "location_label": "Gyeonggi Province · Suwon · Suwon Hwaseong",
+          "address_basis": "수원 화성 범위 내 화성행궁 대표 안내 지점",
+          "address_source_url": "https://www.swcf.or.kr/?p=68"
+        },
+        "ja": {
+          "place_name": "水原華城",
+          "region": "京畿道",
+          "city": "水原市",
+          "address": "京畿道 水原市 八達区 正祖路 825",
+          "address_language": "ja",
+          "address_status": "verified_representative",
+          "location_label": "京畿道 · 水原市 · 水原華城",
+          "address_basis": "수원 화성 범위 내 화성행궁 대표 안내 지점",
+          "address_source_url": "https://www.swcf.or.kr/?p=68"
+        },
+        "zh": {
+          "place_name": "水原华城",
+          "region": "京畿道",
+          "city": "水原市",
+          "address": "京畿道水原市八达区正祖路825",
+          "address_language": "zh",
+          "address_status": "verified_representative",
+          "location_label": "京畿道 · 水原市 · 水原华城",
+          "address_basis": "수원 화성 범위 내 화성행궁 대표 안내 지점",
+          "address_source_url": "https://www.swcf.or.kr/?p=68"
+        }
+      }
+    },
+    {
+      "place_id": "P002",
+      "latitude": 37.528391,
+      "longitude": 126.934242,
+      "localized": {
+        "ko": {
+          "place_name": "여의도 한강",
+          "region": "서울특별시",
+          "city": "서울특별시",
+          "address": "서울특별시 영등포구 여의동로 330",
+          "address_language": "ko",
+          "address_status": "verified_representative",
+          "location_label": "서울특별시 · 여의도 한강",
+          "address_basis": "여의도한강공원 여의도안내센터 대표 지점",
+          "address_source_url": "https://hangang.seoul.go.kr/www/contents/671.do?mid=476"
+        },
+        "en": {
+          "place_name": "Yeouido Hangang",
+          "region": "Seoul",
+          "city": "Seoul",
+          "address": "330 Yeouidong-ro, Yeongdeungpo-gu, Seoul, Republic of Korea",
+          "address_language": "en",
+          "address_status": "verified_representative",
+          "location_label": "Seoul · Yeouido Hangang",
+          "address_basis": "여의도한강공원 여의도안내센터 대표 지점",
+          "address_source_url": "https://hangang.seoul.go.kr/www/contents/671.do?mid=476"
+        },
+        "ja": {
+          "place_name": "汝矣島漢江",
+          "region": "ソウル特別市",
+          "city": "ソウル特別市",
+          "address": "ソウル特別市 永登浦区 汝矣東路 330",
+          "address_language": "ja",
+          "address_status": "verified_representative",
+          "location_label": "ソウル特別市 · 汝矣島漢江",
+          "address_basis": "여의도한강공원 여의도안내센터 대표 지점",
+          "address_source_url": "https://hangang.seoul.go.kr/www/contents/671.do?mid=476"
+        },
+        "zh": {
+          "place_name": "汝矣岛汉江",
+          "region": "首尔特别市",
+          "city": "首尔特别市",
+          "address": "首尔特别市永登浦区汝矣东路330",
+          "address_language": "zh",
+          "address_status": "verified_representative",
+          "location_label": "首尔特别市 · 汝矣岛汉江",
+          "address_basis": "여의도한강공원 여의도안내센터 대표 지점",
+          "address_source_url": "https://hangang.seoul.go.kr/www/contents/671.do?mid=476"
+        }
+      }
+    },
+    {
+      "place_id": "P003",
+      "latitude": 37.2101,
+      "longitude": 126.9793,
+      "localized": {
+        "ko": {
+          "place_name": "수원대학교",
+          "region": "경기도",
+          "city": "화성시",
+          "address": "경기도 화성시 봉담읍 와우안길 17",
+          "address_language": "ko",
+          "address_status": "verified_representative",
+          "location_label": "경기도 · 화성시 · 수원대학교",
+          "address_basis": "수원대학교 공식 주소",
+          "address_source_url": "https://www.suwon.ac.kr/index.html?menuno=652"
+        },
+        "en": {
+          "place_name": "Suwon University",
+          "region": "Gyeonggi-do",
+          "city": "Hwaseong-si",
+          "address": "17 Wauan-gil, Bongdam-eup, Hwaseong-si, Gyeonggi-do, Republic of Korea",
+          "address_language": "en",
+          "address_status": "verified_representative",
+          "location_label": "Gyeonggi-do · Hwaseong-si · Suwon University",
+          "address_basis": "수원대학교 공식 주소",
+          "address_source_url": "https://www.suwon.ac.kr/index.html?menuno=652"
+        },
+        "ja": {
+          "place_name": "水原大学校",
+          "region": "京畿道",
+          "city": "華城市",
+          "address": "京畿道 華城市 峰潭邑 ワウアンキル 17",
+          "address_language": "ja",
+          "address_status": "verified_representative",
+          "location_label": "京畿道 · 華城市 · 水原大学校",
+          "address_basis": "수원대학교 공식 주소",
+          "address_source_url": "https://www.suwon.ac.kr/index.html?menuno=652"
+        },
+        "zh": {
+          "place_name": "水原大学",
+          "region": "京畿道",
+          "city": "华城市",
+          "address": "京畿道华城市峰潭邑卧牛安路17",
+          "address_language": "zh",
+          "address_status": "verified_representative",
+          "location_label": "京畿道 · 华城市 · 水原大学",
+          "address_basis": "수원대학교 공식 주소",
+          "address_source_url": "https://www.suwon.ac.kr/index.html?menuno=652"
+        }
+      }
+    },
+    {
+      "place_id": "P004",
+      "latitude": 35.52353,
+      "longitude": 126.53899,
+      "localized": {
+        "ko": {
+          "place_name": "고창 학원농장",
+          "region": "전북특별자치도",
+          "city": "고창군",
+          "address": "전북특별자치도 고창군 공음면 학원농장길 150",
+          "address_language": "ko",
+          "address_status": "verified_representative",
+          "location_label": "전북특별자치도 · 고창군 · 고창 학원농장",
+          "address_basis": "학원농장 공식 홈페이지의 현재 중앙부 주소",
+          "address_source_url": "https://borinara.co.kr/direction"
+        },
+        "en": {
+          "place_name": "Gochang Hakwon Farm",
+          "region": "Jeonbuk Special Self-Governing Province",
+          "city": "Gochang County",
+          "address": "150 Hagwonnongjang-gil, Gongeum-myeon, Gochang-gun, Jeonbuk State, Republic of Korea",
+          "address_language": "en",
+          "address_status": "verified_representative",
+          "location_label": "Jeonbuk Special Self-Governing Province · Gochang County · Gochang Hakwon Farm",
+          "address_basis": "학원농장 공식 홈페이지의 현재 중앙부 주소",
+          "address_source_url": "https://borinara.co.kr/direction"
+        },
+        "ja": {
+          "place_name": "高敞学園農場",
+          "region": "全北特別自治道",
+          "city": "高敞郡",
+          "address": "全北特別自治道 高敞郡 孔音面 学園農場キル 150",
+          "address_language": "ja",
+          "address_status": "verified_representative",
+          "location_label": "全北特別自治道 · 高敞郡 · 高敞学園農場",
+          "address_basis": "학원농장 공식 홈페이지의 현재 중앙부 주소",
+          "address_source_url": "https://borinara.co.kr/direction"
+        },
+        "zh": {
+          "place_name": "高敞学园农场",
+          "region": "全北特别自治道",
+          "city": "高敞郡",
+          "address": "全北特别自治道高敞郡孔音面学园农场路150",
+          "address_language": "zh",
+          "address_status": "verified_representative",
+          "location_label": "全北特别自治道 · 高敞郡 · 高敞学园农场",
+          "address_basis": "학원농장 공식 홈페이지의 현재 중앙부 주소",
+          "address_source_url": "https://borinara.co.kr/direction"
+        }
+      }
+    },
+    {
+      "place_id": "P005",
+      "latitude": 35.81558,
+      "longitude": 127.1498,
+      "localized": {
+        "ko": {
+          "place_name": "전주 한옥마을",
+          "region": "전북특별자치도",
+          "city": "전주시",
+          "address": "전북특별자치도 전주시 완산구 기린대로 99",
+          "address_language": "ko",
+          "address_status": "verified_representative",
+          "location_label": "전북특별자치도 · 전주시 · 전주 한옥마을",
+          "address_basis": "전주한옥마을 관광안내소 대표 지점",
+          "address_source_url": "https://tour.jeonju.go.kr/index.jeonju?menuCd=DOM_000000106004000000"
+        },
+        "en": {
+          "place_name": "Jeonju Hanok Village",
+          "region": "Jeonbuk Special Self-Governing Province",
+          "city": "Jeonju-si",
+          "address": "99 Girin-daero, Wansan-gu, Jeonju-si, Jeonbuk State, Republic of Korea",
+          "address_language": "en",
+          "address_status": "verified_representative",
+          "location_label": "Jeonbuk Special Self-Governing Province · Jeonju-si · Jeonju Hanok Village",
+          "address_basis": "전주한옥마을 관광안내소 대표 지점",
+          "address_source_url": "https://tour.jeonju.go.kr/index.jeonju?menuCd=DOM_000000106004000000"
+        },
+        "ja": {
+          "place_name": "全州韓屋村",
+          "region": "全北特別自治道",
+          "city": "全州市",
+          "address": "全北特別自治道 全州市 完山区 麒麟大路 99",
+          "address_language": "ja",
+          "address_status": "verified_representative",
+          "location_label": "全北特別自治道 · 全州市 · 全州韓屋村",
+          "address_basis": "전주한옥마을 관광안내소 대표 지점",
+          "address_source_url": "https://tour.jeonju.go.kr/index.jeonju?menuCd=DOM_000000106004000000"
+        },
+        "zh": {
+          "place_name": "全州韩屋村",
+          "region": "全北特别自治道",
+          "city": "全州市",
+          "address": "全北特别自治道全州市完山区麒麟大路99",
+          "address_language": "zh",
+          "address_status": "verified_representative",
+          "location_label": "全北特别自治道 · 全州市 · 全州韩屋村",
+          "address_basis": "전주한옥마을 관광안내소 대표 지점",
+          "address_source_url": "https://tour.jeonju.go.kr/index.jeonju?menuCd=DOM_000000106004000000"
+        }
+      }
+    },
+    {
+      "place_id": "P006",
+      "latitude": 36.2198,
+      "longitude": 127.2985,
+      "localized": {
+        "ko": {
+          "place_name": "온빛자연휴양림",
+          "region": "충청남도",
+          "city": "논산시",
+          "address": "충청남도 논산시 벌곡면 황룡재로 480-113",
+          "address_language": "ko",
+          "address_status": "verified_representative",
+          "location_label": "충청남도 · 논산시 · 온빛자연휴양림",
+          "address_basis": "논산시 문화관광 공식 소재지",
+          "address_source_url": "https://www.nonsan.go.kr/tour/html/sub02/0201.html?mng_no=284&mode=V"
+        },
+        "en": {
+          "place_name": "Onbit Natural Recreation Forest",
+          "region": "Chungcheongnam-do",
+          "city": "Nonsan",
+          "address": "480-113 Hwangnyongjae-ro, Beolgok-myeon, Nonsan-si, Chungcheongnam-do, Republic of Korea",
+          "address_language": "en",
+          "address_status": "verified_representative",
+          "location_label": "Chungcheongnam-do · Nonsan · Onbit Natural Recreation Forest",
+          "address_basis": "논산시 문화관광 공식 소재지",
+          "address_source_url": "https://www.nonsan.go.kr/tour/html/sub02/0201.html?mng_no=284&mode=V"
+        },
+        "ja": {
+          "place_name": "オンビッ自然休養林",
+          "region": "忠清南道",
+          "city": "論山市",
+          "address": "忠清南道 論山市 伐谷面 ファンニョンジェロ 480-113",
+          "address_language": "ja",
+          "address_status": "verified_representative",
+          "location_label": "忠清南道 · 論山市 · オンビッ自然休養林",
+          "address_basis": "논산시 문화관광 공식 소재지",
+          "address_source_url": "https://www.nonsan.go.kr/tour/html/sub02/0201.html?mng_no=284&mode=V"
+        },
+        "zh": {
+          "place_name": "Ondbit自然休养林",
+          "region": "忠清南道",
+          "city": "论山市",
+          "address": "忠清南道论山市伐谷面黄龙岭路480-113",
+          "address_language": "zh",
+          "address_status": "verified_representative",
+          "location_label": "忠清南道 · 论山市 · Ondbit自然休养林",
+          "address_basis": "논산시 문화관광 공식 소재지",
+          "address_source_url": "https://www.nonsan.go.kr/tour/html/sub02/0201.html?mng_no=284&mode=V"
+        }
+      }
+    },
+    {
+      "place_id": "P007",
+      "latitude": 35.81187,
+      "longitude": 127.16081,
+      "localized": {
+        "ko": {
+          "place_name": "한벽굴",
+          "region": "전북특별자치도",
+          "city": "전주시",
+          "address": "전북특별자치도 전주시 완산구 교동 산 7-3",
+          "address_language": "ko",
+          "address_status": "verified_representative",
+          "location_label": "전북특별자치도 · 전주시 · 한벽굴",
+          "address_basis": "전주시 문화관광 공식 기본주소",
+          "address_source_url": "https://tour.jeonju.go.kr/board/view.jeonju?boardId=BBS_0000003&dataSid=16670&menuCd=DOM_000000101006001000"
+        },
+        "en": {
+          "place_name": "Hanbyeokgul Tunnel",
+          "region": "Jeonbuk State",
+          "city": "Jeonju-si",
+          "address": "San 7-3, Gyo-dong, Wansan-gu, Jeonju-si, Jeonbuk State, Republic of Korea",
+          "address_language": "en",
+          "address_status": "verified_representative",
+          "location_label": "Jeonbuk State · Jeonju-si · Hanbyeokgul Tunnel",
+          "address_basis": "전주시 문화관광 공식 기본주소",
+          "address_source_url": "https://tour.jeonju.go.kr/board/view.jeonju?boardId=BBS_0000003&dataSid=16670&menuCd=DOM_000000101006001000"
+        },
+        "ja": {
+          "place_name": "ハンビョク窟",
+          "region": "全北特別自治道",
+          "city": "全州市",
+          "address": "全北特別自治道 全州市 完山区 校洞 山7-3",
+          "address_language": "ja",
+          "address_status": "verified_representative",
+          "location_label": "全北特別自治道 · 全州市 · ハンビョク窟",
+          "address_basis": "전주시 문화관광 공식 기본주소",
+          "address_source_url": "https://tour.jeonju.go.kr/board/view.jeonju?boardId=BBS_0000003&dataSid=16670&menuCd=DOM_000000101006001000"
+        },
+        "zh": {
+          "place_name": "韩碧窟隧道",
+          "region": "全北特别自治道",
+          "city": "全州市",
+          "address": "全北特别自治道全州市完山区校洞山7-3",
+          "address_language": "zh",
+          "address_status": "verified_representative",
+          "location_label": "全北特别自治道 · 全州市 · 韩碧窟隧道",
+          "address_basis": "전주시 문화관광 공식 기본주소",
+          "address_source_url": "https://tour.jeonju.go.kr/board/view.jeonju?boardId=BBS_0000003&dataSid=16670&menuCd=DOM_000000101006001000"
+        }
+      }
+    },
+    {
+      "place_id": "P008",
+      "latitude": 35.8083412217659,
+      "longitude": 127.151738441918,
+      "localized": {
+        "ko": {
+          "place_name": "명진 책 대여점",
+          "region": "전북특별자치도",
+          "city": "전주시",
+          "address": "전북특별자치도 전주시 완산구 서학3길 63",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "전북특별자치도 · 전주시 · 명진 책 대여점"
+        },
+        "en": {
+          "place_name": "Myeongjin Book Rental Shop",
+          "region": "Jeonbuk State",
+          "city": "Jeonju",
+          "address": "63, Seohak 3-gil, Wansan-gu, Jeonju-si, Jeonbuk State",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Jeonbuk State · Jeonju · Myeongjin Book Rental Shop"
+        },
+        "ja": {
+          "place_name": "ミョンジン書籍貸出店",
+          "region": "全北特別自治道",
+          "city": "全州市",
+          "address": "全羅北道全州市完山区ソハク3ギル63",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "全北特別自治道 · 全州市 · ミョンジン書籍貸出店"
+        },
+        "zh": {
+          "place_name": "明珍书籍出租店",
+          "region": "全北特别自治道",
+          "city": "全州市",
+          "address": "全罗北道全州市完山区西鹤3街63",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "全北特别自治道 · 全州市 · 明珍书籍出租店"
+        }
+      }
+    },
+    {
+      "place_id": "P009",
+      "latitude": 35.8143819050269,
+      "longitude": 127.154583362895,
+      "localized": {
+        "ko": {
+          "place_name": "전주 오목대",
+          "region": "전북특별자치도",
+          "city": "전주시",
+          "address": "전북특별자치도 전주시 완산구 기린대로 55",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "전북특별자치도 · 전주시 · 전주 오목대"
+        },
+        "en": {
+          "place_name": "Jeonju Omokdae",
+          "region": "Jeonbuk Special Self-Governing Province",
+          "city": "Jeonju",
+          "address": "55, Girin-daero, Wansan-gu, Jeonju-si, Jeonbuk State",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Jeonbuk Special Self-Governing Province · Jeonju · Jeonju Omokdae"
+        },
+        "ja": {
+          "place_name": "全州オモクデ",
+          "region": "全北特別自治道",
+          "city": "全州市",
+          "address": "全羅北道全州市完山区キリンデロ55",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "全北特別自治道 · 全州市 · 全州オモクデ"
+        },
+        "zh": {
+          "place_name": "全州梧木台",
+          "region": "全北特别自治道",
+          "city": "全州市",
+          "address": "全罗北道全州市完山区麒麟大路55",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "全北特别自治道 · 全州市 · 全州梧木台"
+        }
+      }
+    },
+    {
+      "place_id": "P010",
+      "latitude": 36.110470848669,
+      "longitude": 129.435298666205,
+      "localized": {
+        "ko": {
+          "place_name": "포항 영일만항",
+          "region": "경상북도",
+          "city": "포항시",
+          "address": "경북 포항시 북구 흥해읍 영일만항로 151",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "경상북도 · 포항시 · 포항 영일만항"
+        },
+        "en": {
+          "place_name": "Pohang Yeongilman Port",
+          "region": "North Gyeongsang Province",
+          "city": "Pohang",
+          "address": "151, Yeongilmanhang-ro, Heunghae-eup, Buk-gu, Pohang-si, Gyeongbuk",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "North Gyeongsang Province · Pohang · Pohang Yeongilman Port"
+        },
+        "ja": {
+          "place_name": "浦項・迎日湾港",
+          "region": "慶尚北道",
+          "city": "浦項市",
+          "address": "慶尚北道浦項市北区興海邑ヨンイルマンハンロ151",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "慶尚北道 · 浦項市 · 浦項・迎日湾港"
+        },
+        "zh": {
+          "place_name": "浦项迎日湾港",
+          "region": "庆尚北道",
+          "city": "浦项市",
+          "address": "庆尚北道浦项市北区兴海邑迎日湾港路151",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "庆尚北道 · 浦项市 · 浦项迎日湾港"
+        }
+      }
+    },
+    {
+      "place_id": "P011",
+      "latitude": 33.45199979768546,
+      "longitude": 126.91329816476421,
+      "localized": {
+        "ko": {
+          "place_name": "제주도 고성오일시장",
+          "region": "제주특별자치도",
+          "city": "서귀포시",
+          "address": "제주특별자치도 서귀포시 성산읍 고성오조로 93",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "제주특별자치도 · 서귀포시 · 제주도 고성오일시장"
+        },
+        "en": {
+          "place_name": "Jeju-do Goseong Five-day Market",
+          "region": "Jeju Special Self-Governing Province",
+          "city": "Seogwipo City",
+          "address": "93, Goseongojo-ro, Seongsan-eup, Seogwipo-si, Jeju State",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Jeju Special Self-Governing Province · Seogwipo City · Jeju-do Goseong Five-day Market"
+        },
+        "ja": {
+          "place_name": "済州島・古城五日市",
+          "region": "済州特別自治道",
+          "city": "西帰浦市",
+          "address": "済州特別自治道西帰浦市城山邑コソンオジョロ93",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "済州特別自治道 · 西帰浦市 · 済州島・古城五日市"
+        },
+        "zh": {
+          "place_name": "济州岛高城五日市场",
+          "region": "济州特别自治道",
+          "city": "西归浦市",
+          "address": "济州特别自治道西归浦市城山邑高城吾祚路93",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "济州特别自治道 · 西归浦市 · 济州岛高城五日市场"
+        }
+      }
+    },
+    {
+      "place_id": "P012",
+      "latitude": 37.107632452436036,
+      "longitude": 127.81772586221321,
+      "localized": {
+        "ko": {
+          "place_name": "비내섬",
+          "region": "충청북도",
+          "city": "충주시",
+          "address": "충북 충주시 소태면 복탄리 908",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "충청북도 · 충주시 · 비내섬"
+        },
+        "en": {
+          "place_name": "Binae Island",
+          "region": "Chungcheongbuk-do",
+          "city": "Chungju",
+          "address": "908, Boktan-ri, Sotae-myeon, Chungju-si, Chungbuk",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Chungcheongbuk-do · Chungju · Binae Island"
+        },
+        "ja": {
+          "place_name": "ビネソム",
+          "region": "忠清北道",
+          "city": "忠州市",
+          "address": "忠清北道忠州市蘇台面福灘里908",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "忠清北道 · 忠州市 · ビネソム"
+        },
+        "zh": {
+          "place_name": "比奈岛",
+          "region": "忠清北道",
+          "city": "忠州市",
+          "address": "忠清北道忠州市苏台面福滩里908",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "忠清北道 · 忠州市 · 比奈岛"
+        }
+      }
+    },
+    {
+      "place_id": "P013",
+      "latitude": 37.8798554564007,
+      "longitude": 128.834204251177,
+      "localized": {
+        "ko": {
+          "place_name": "강릉 주문진",
+          "region": "강원특별자치도",
+          "city": "강릉시",
+          "address": "강원특별자치도 강릉시 주문진읍 교항리",
+          "address_language": "ko",
+          "address_status": "verified_representative",
+          "location_label": "강원특별자치도 · 강릉시 · 강릉 주문진",
+          "address_basis": "동일 장소 P044 주문진 방파제의 검증 주소 승계",
+          "address_source_url": "http://place.map.kakao.com/1873746459"
+        },
+        "en": {
+          "place_name": "Jumunjin, Gangneung",
+          "region": "Gangwon Special Self-Governing Province",
+          "city": "Gangneung City",
+          "address": "Gyohang-ri, Jumunjin-eup, Gangneung-si, Gangwon Special Self-Governing Province, Republic of Korea",
+          "address_language": "en",
+          "address_status": "verified_representative",
+          "location_label": "Gangwon Special Self-Governing Province · Gangneung City · Jumunjin, Gangneung",
+          "address_basis": "동일 장소 P044 주문진 방파제의 검증 주소 승계",
+          "address_source_url": "http://place.map.kakao.com/1873746459"
+        },
+        "ja": {
+          "place_name": "江陵 注文津",
+          "region": "江原特別自治道",
+          "city": "江陵市",
+          "address": "江原特別自治道 江陵市 注文津邑 橋項里",
+          "address_language": "ja",
+          "address_status": "verified_representative",
+          "location_label": "江原特別自治道 · 江陵市 · 江陵 注文津",
+          "address_basis": "동일 장소 P044 주문진 방파제의 검증 주소 승계",
+          "address_source_url": "http://place.map.kakao.com/1873746459"
+        },
+        "zh": {
+          "place_name": "江陵注文津",
+          "region": "江原特别自治道",
+          "city": "江陵市",
+          "address": "江原特别自治道江陵市注文津邑桥项里",
+          "address_language": "zh",
+          "address_status": "verified_representative",
+          "location_label": "江原特别自治道 · 江陵市 · 江陵注文津",
+          "address_basis": "동일 장소 P044 주문진 방파제의 검증 주소 승계",
+          "address_source_url": "http://place.map.kakao.com/1873746459"
+        }
+      }
+    },
+    {
+      "place_id": "P014",
+      "latitude": 37.73175082498766,
+      "longitude": 128.59212296344094,
+      "localized": {
+        "ko": {
+          "place_name": "평창 월정사",
+          "region": "강원특별자치도",
+          "city": "평창군",
+          "address": "강원특별자치도 평창군 진부면 오대산로 374-8",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "강원특별자치도 · 평창군 · 평창 월정사"
+        },
+        "en": {
+          "place_name": "Pyeongchang Woljeongsa Temple",
+          "region": "Gangwon State",
+          "city": "Pyeongchang-gun",
+          "address": "374-8, Odaesan-ro, Jinbu-myeon, Pyeongchang-gun, Gangwon State",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gangwon State · Pyeongchang-gun · Pyeongchang Woljeongsa Temple"
+        },
+        "ja": {
+          "place_name": "平昌・月精寺",
+          "region": "江原特別自治道",
+          "city": "平昌郡",
+          "address": "江原特別自治道平昌郡珍富面オデサンロ374-8",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "江原特別自治道 · 平昌郡 · 平昌・月精寺"
+        },
+        "zh": {
+          "place_name": "平昌月精寺",
+          "region": "江原特别自治道",
+          "city": "平昌郡",
+          "address": "江原特别自治道平昌郡珍富面五台山路374-8",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "江原特别自治道 · 平昌郡 · 平昌月精寺"
+        }
+      }
+    },
+    {
+      "place_id": "P015",
+      "latitude": 37.5933739406532,
+      "longitude": 129.090473530107,
+      "localized": {
+        "ko": {
+          "place_name": "망상해변",
+          "region": "강원특별자치도",
+          "city": "동해시",
+          "address": "강원특별자치도 동해시 동해대로 6270-10",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "강원특별자치도 · 동해시 · 망상해변"
+        },
+        "en": {
+          "place_name": "Mangsang Beach",
+          "region": "Gangwon State",
+          "city": "Donghae",
+          "address": "6270-10, Donghae-daero, Donghae-si, Gangwon State",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gangwon State · Donghae · Mangsang Beach"
+        },
+        "ja": {
+          "place_name": "マンサンビーチ",
+          "region": "江原特別自治道",
+          "city": "東海市",
+          "address": "江原特別自治道東海市トンヘデロ6270-10",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "江原特別自治道 · 東海市 · マンサンビーチ"
+        },
+        "zh": {
+          "place_name": "望祥海滩",
+          "region": "江原特别自治道",
+          "city": "东海市",
+          "address": "江原特别自治道东海市东海大路6270-10",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "江原特别自治道 · 东海市 · 望祥海滩"
+        }
+      }
+    },
+    {
+      "place_id": "P016",
+      "latitude": 37.577613288258206,
+      "longitude": 126.97689786832184,
+      "localized": {
+        "ko": {
+          "place_name": "경복궁",
+          "region": "서울특별시",
+          "city": "서울특별시",
+          "address": "서울 종로구 사직로 161",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "서울특별시 · 경복궁"
+        },
+        "en": {
+          "place_name": "Gyeongbokgung Palace",
+          "region": "Seoul Special City",
+          "city": "Seoul Special City",
+          "address": "161, Sajik-ro, Jongno-gu, Seoul",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Seoul Special City · Gyeongbokgung Palace"
+        },
+        "ja": {
+          "place_name": "景福宮",
+          "region": "ソウル特別市",
+          "city": "ソウル特別市",
+          "address": "ソウル特別市鍾路区社稷路161",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "ソウル特別市 · 景福宮"
+        },
+        "zh": {
+          "place_name": "景福宫",
+          "region": "首尔特别市",
+          "city": "首尔特别市",
+          "address": "首尔特别市钟路区社稷路161",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "首尔特别市 · 景福宫"
+        }
+      }
+    },
+    {
+      "place_id": "P017",
+      "latitude": 37.57964694739535,
+      "longitude": 126.99099980677127,
+      "localized": {
+        "ko": {
+          "place_name": "창덕궁",
+          "region": "서울특별시",
+          "city": "서울특별시",
+          "address": "서울 종로구 율곡로 99",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "서울특별시 · 창덕궁"
+        },
+        "en": {
+          "place_name": "Changdeokgung Palace",
+          "region": "Seoul Special City",
+          "city": "Seoul Special City",
+          "address": "99, Yulgok-ro, Jongno-gu, Seoul",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Seoul Special City · Changdeokgung Palace"
+        },
+        "ja": {
+          "place_name": "昌徳宮",
+          "region": "ソウル特別市",
+          "city": "ソウル特別市",
+          "address": "ソウル特別市鍾路区栗谷路99",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "ソウル特別市 · 昌徳宮"
+        },
+        "zh": {
+          "place_name": "昌德宫",
+          "region": "首尔特别市",
+          "city": "首尔特别市",
+          "address": "首尔特别市钟路区栗谷路99",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "首尔特别市 · 昌德宫"
+        }
+      }
+    },
+    {
+      "place_id": "P018",
+      "latitude": 37.2945909669734,
+      "longitude": 128.325270948965,
+      "localized": {
+        "ko": {
+          "place_name": "영월 주천강",
+          "region": "강원특별자치도",
+          "city": "영월군",
+          "address": "강원특별자치도 영월군 주천면 판운리 488-5",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "강원특별자치도 · 영월군 · 영월 주천강"
+        },
+        "en": {
+          "place_name": "Yeongwol Jucheongang River",
+          "region": "Gangwon Special Self-Governing Province",
+          "city": "Yeongwol-gun",
+          "address": "488-5, Panun-ri, Jucheon-myeon, Yeongwol-gun, Gangwon State",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gangwon Special Self-Governing Province · Yeongwol-gun · Yeongwol Jucheongang River"
+        },
+        "ja": {
+          "place_name": "寧越・酒泉江",
+          "region": "江原特別自治道",
+          "city": "寧越郡",
+          "address": "江原特別自治道寧越郡酒泉面パンウン里488-5",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "江原特別自治道 · 寧越郡 · 寧越・酒泉江"
+        },
+        "zh": {
+          "place_name": "宁越酒泉江",
+          "region": "江原特别自治道",
+          "city": "宁越郡",
+          "address": "江原特别自治道宁越郡酒泉面板云里488-5",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "江原特别自治道 · 宁越郡 · 宁越酒泉江"
+        }
+      }
+    },
+    {
+      "place_id": "P019",
+      "latitude": 36.5696577984383,
+      "longitude": 128.174882340074,
+      "localized": {
+        "ko": {
+          "place_name": "상주 함창역",
+          "region": "경상북도",
+          "city": "상주시",
+          "address": "경북 상주시 함창읍 가야로 3",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "경상북도 · 상주시 · 상주 함창역"
+        },
+        "en": {
+          "place_name": "Sangju Hamchang Station",
+          "region": "Gyeongsangbuk-do",
+          "city": "Sangju-si",
+          "address": "3 Gaya-ro, Hamchang-eup, Sangju-si, Gyeongsangbuk-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gyeongsangbuk-do · Sangju-si · Sangju Hamchang Station"
+        },
+        "ja": {
+          "place_name": "尚州・咸昌駅",
+          "region": "慶尚北道",
+          "city": "尚州市",
+          "address": "慶尚北道尚州市咸昌邑伽倻路3",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "慶尚北道 · 尚州市 · 尚州・咸昌駅"
+        },
+        "zh": {
+          "place_name": "尚州咸昌站",
+          "region": "庆尚北道",
+          "city": "尚州市",
+          "address": "庆尚北道尚州市咸昌邑伽倻路3",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "庆尚北道 · 尚州市 · 尚州咸昌站"
+        }
+      }
+    },
+    {
+      "place_id": "P020",
+      "latitude": 36.0184418365009,
+      "longitude": 126.66518032365,
+      "localized": {
+        "ko": {
+          "place_name": "서천",
+          "region": "충청남도",
+          "city": "서천군",
+          "address": "충남 서천군 장항읍 송림리 산 58-48",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "충청남도 · 서천군 · 서천"
+        },
+        "en": {
+          "place_name": "Seocheon",
+          "region": "Chungcheongnam-do",
+          "city": "Seocheon-gun",
+          "address": "San 58-48, Songnim-ri, Janghang-eup, Seocheon-gun, Chungcheongnam-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Chungcheongnam-do · Seocheon-gun · Seocheon"
+        },
+        "ja": {
+          "place_name": "舒川",
+          "region": "忠清南道",
+          "city": "舒川郡",
+          "address": "忠清南道舒川郡長項邑松林里山58-48",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "忠清南道 · 舒川郡 · 舒川"
+        },
+        "zh": {
+          "place_name": "舒川",
+          "region": "忠清南道",
+          "city": "舒川郡",
+          "address": "忠清南道舒川郡长项邑松林里山58-48",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "忠清南道 · 舒川郡 · 舒川"
+        }
+      }
+    },
+    {
+      "place_id": "P021",
+      "latitude": 37.569074693516065,
+      "longitude": 126.97759212096156,
+      "localized": {
+        "ko": {
+          "place_name": "청계천",
+          "region": "서울특별시",
+          "city": "서울특별시",
+          "address": "서울 중구 태평로1가 1",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "서울특별시 · 청계천"
+        },
+        "en": {
+          "place_name": "Cheonggyecheon Stream",
+          "region": "Seoul Special City",
+          "city": "Seoul Special City",
+          "address": "1, Taepyeongno 1-ga, Jung-gu, Seoul",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Seoul Special City · Cheonggyecheon Stream"
+        },
+        "ja": {
+          "place_name": "清渓川",
+          "region": "ソウル特別市",
+          "city": "ソウル特別市",
+          "address": "ソウル特別市中区太平路1街1",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "ソウル特別市 · 清渓川"
+        },
+        "zh": {
+          "place_name": "清溪川",
+          "region": "首尔特别市",
+          "city": "首尔特别市",
+          "address": "首尔特别市中区太平路1街1",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "首尔特别市 · 清溪川"
+        }
+      }
+    },
+    {
+      "place_id": "P022",
+      "latitude": 37.437245732031954,
+      "longitude": 126.45578147120696,
+      "localized": {
+        "ko": {
+          "place_name": "파라다이스시티",
+          "region": "인천광역시",
+          "city": "인천광역시",
+          "address": "인천 영종구 영종해안남로321번길 186",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "인천광역시 · 파라다이스시티"
+        },
+        "en": {
+          "place_name": "Paradise City",
+          "region": "Incheon Metropolitan City",
+          "city": "Incheon Metropolitan City",
+          "address": "186 Yeongjonghaeanam-ro 321beon-gil, Yeongjong-gu, Incheon",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Incheon Metropolitan City · Paradise City"
+        },
+        "ja": {
+          "place_name": "パラダイスシティ",
+          "region": "仁川広域市",
+          "city": "仁川広域市",
+          "address": "仁川広域市永宗区永宗海岸南路321番キル186",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "仁川広域市 · パラダイスシティ"
+        },
+        "zh": {
+          "place_name": "天堂城",
+          "region": "仁川广域市",
+          "city": "仁川广域市",
+          "address": "仁川广域市永宗区永宗海岸南路321街186",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "仁川广域市 · 天堂城"
+        }
+      }
+    },
+    {
+      "place_id": "P023",
+      "latitude": 36.0124611572903,
+      "longitude": 129.576737767501,
+      "localized": {
+        "ko": {
+          "place_name": "포항 구룡포 석병리",
+          "region": "경상북도",
+          "city": "포항시",
+          "address": "경북 포항시 남구 구룡포읍 일출로 207",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "경상북도 · 포항시 · 포항 구룡포 석병리"
+        },
+        "en": {
+          "place_name": "Seokbyeong-ri, Guryongpo, Pohang",
+          "region": "North Gyeongsang Province",
+          "city": "Pohang",
+          "address": "207 Ilchul-ro, Guryongpo-eup, Nam-gu, Pohang-si, Gyeongsangbuk-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "North Gyeongsang Province · Pohang · Seokbyeong-ri, Guryongpo, Pohang"
+        },
+        "ja": {
+          "place_name": "浦項・九龍浦・石屏里",
+          "region": "慶尚北道",
+          "city": "浦項市",
+          "address": "慶尚北道浦項市南区九龍浦邑日の出路207",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "慶尚北道 · 浦項市 · 浦項・九龍浦・石屏里"
+        },
+        "zh": {
+          "place_name": "浦项九龙浦石屏里",
+          "region": "庆尚北道",
+          "city": "浦项市",
+          "address": "庆尚北道浦项市南区九龙浦邑日出路207",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "庆尚北道 · 浦项市 · 浦项九龙浦石屏里"
+        }
+      }
+    },
+    {
+      "place_id": "P024",
+      "latitude": 36.19705421304869,
+      "longitude": 129.33977153030838,
+      "localized": {
+        "ko": {
+          "place_name": "포항 청하 공진시장",
+          "region": "경상북도",
+          "city": "포항시",
+          "address": "경북 포항시 북구 청하면 미남리 382-3",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "경상북도 · 포항시 · 포항 청하 공진시장"
+        },
+        "en": {
+          "place_name": "Pohang Cheongha Gongjin Market",
+          "region": "North Gyeongsang Province",
+          "city": "Pohang",
+          "address": "382-3, Minam-ri, Cheongha-myeon, Buk-gu, Pohang-si, Gyeongsangbuk-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "North Gyeongsang Province · Pohang · Pohang Cheongha Gongjin Market"
+        },
+        "ja": {
+          "place_name": "浦項・清河・コンジン市場",
+          "region": "慶尚北道",
+          "city": "浦項市",
+          "address": "慶尚北道浦項市北区清河面美南里382-3",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "慶尚北道 · 浦項市 · 浦項・清河・コンジン市場"
+        },
+        "zh": {
+          "place_name": "浦项清河公津市场",
+          "region": "庆尚北道",
+          "city": "浦项市",
+          "address": "庆尚北道浦项市北区清河面美南里382-3",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "庆尚北道 · 浦项市 · 浦项清河公津市场"
+        }
+      }
+    },
+    {
+      "place_id": "P025",
+      "latitude": 33.5582918680451,
+      "longitude": 126.751157460293,
+      "localized": {
+        "ko": {
+          "place_name": "제주도 청굴물",
+          "region": "제주특별자치도",
+          "city": "제주시",
+          "address": "제주특별자치도 제주시 구좌읍 김녕리 1296",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "제주특별자치도 · 제주시 · 제주도 청굴물"
+        },
+        "en": {
+          "place_name": "Jeju-do Cheonggulmul",
+          "region": "Jeju Special Self-Governing Province",
+          "city": "Jeju City",
+          "address": "1296, Gimnyeong-ri, Gujwa-eup, Jeju-si, Jeju Special Self-Governing Province",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Jeju Special Self-Governing Province · Jeju City · Jeju-do Cheonggulmul"
+        },
+        "ja": {
+          "place_name": "済州島・チョングルムル",
+          "region": "済州特別自治道",
+          "city": "済州市",
+          "address": "済州特別自治道済州市旧左邑金寧里1296",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "済州特別自治道 · 済州市 · 済州島・チョングルムル"
+        },
+        "zh": {
+          "place_name": "济州岛清窟水",
+          "region": "济州特别自治道",
+          "city": "济州市",
+          "address": "济州特别自治道济州市旧左邑金宁里1296",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "济州特别自治道 · 济州市 · 济州岛清窟水"
+        }
+      }
+    },
+    {
+      "place_id": "P026",
+      "latitude": 33.16834841902524,
+      "longitude": 126.27570162962913,
+      "localized": {
+        "ko": {
+          "place_name": "제주도 태봉왓",
+          "region": "제주특별자치도",
+          "city": "서귀포시",
+          "address": "제주특별자치도 서귀포시 대정읍 가파로 101",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "제주특별자치도 · 서귀포시 · 제주도 태봉왓"
+        },
+        "en": {
+          "place_name": "Jeju Island Taebongwat",
+          "region": "Jeju Special Self-Governing Province",
+          "city": "Seogwipo City",
+          "address": "101 Gapa-ro, Daejeong-eup, Seogwipo-si, Jeju Special Self-Governing Province",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Jeju Special Self-Governing Province · Seogwipo City · Jeju Island Taebongwat"
+        },
+        "ja": {
+          "place_name": "済州島 テボンワッ",
+          "region": "済州特別自治道",
+          "city": "西帰浦市",
+          "address": "済州特別自治道西帰浦市大静邑加波路101",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "済州特別自治道 · 西帰浦市 · 済州島 テボンワッ"
+        },
+        "zh": {
+          "place_name": "济州岛 Taebongwat",
+          "region": "济州特别自治道",
+          "city": "西归浦市",
+          "address": "济州特别自治道西归浦市大静邑加波路101",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "济州特别自治道 · 西归浦市 · 济州岛 Taebongwat"
+        }
+      }
+    },
+    {
+      "place_id": "P027",
+      "latitude": 33.3880061610003,
+      "longitude": 126.226042968412,
+      "localized": {
+        "ko": {
+          "place_name": "금능리 대표 관광지",
+          "region": "제주특별자치도",
+          "city": "제주시",
+          "address": "제주특별자치도 제주시 한림읍 금능리 1701-1",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "제주특별자치도 · 제주시 · 금능리 대표 관광지"
+        },
+        "en": {
+          "place_name": "Geumnung-ri Representative Tourist Attraction",
+          "region": "Jeju Special Self-Governing Province",
+          "city": "Jeju City",
+          "address": "1701-1, Geumneung-ri, Hallim-eup, Jeju-si, Jeju Special Self-Governing Province",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Jeju Special Self-Governing Province · Jeju City · Geumnung-ri Representative Tourist Attraction"
+        },
+        "ja": {
+          "place_name": "金陵里の代表観光地",
+          "region": "済州特別自治道",
+          "city": "済州市",
+          "address": "済州特別自治道済州市翰林邑金陵里1701-1",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "済州特別自治道 · 済州市 · 金陵里の代表観光地"
+        },
+        "zh": {
+          "place_name": "金陵里代表性旅游景点",
+          "region": "济州特别自治道",
+          "city": "济州市",
+          "address": "济州特别自治道济州市翰林邑金陵里1701-1",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "济州特别自治道 · 济州市 · 金陵里代表性旅游景点"
+        }
+      }
+    },
+    {
+      "place_id": "P029",
+      "latitude": 36.4399243533953,
+      "longitude": 128.259711893989,
+      "localized": {
+        "ko": {
+          "place_name": "상주 경천섬 공원",
+          "region": "경상북도",
+          "city": "상주시",
+          "address": "경북 상주시 중동면 오상리",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "경상북도 · 상주시 · 상주 경천섬 공원"
+        },
+        "en": {
+          "place_name": "Sangju Gyeongcheonseom Park",
+          "region": "Gyeongsangbuk-do",
+          "city": "Sangju-si",
+          "address": "Osang-ri, Jungdong-myeon, Sangju-si, Gyeongsangbuk-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gyeongsangbuk-do · Sangju-si · Sangju Gyeongcheonseom Park"
+        },
+        "ja": {
+          "place_name": "尚州・慶川島公園",
+          "region": "慶尚北道",
+          "city": "尚州市",
+          "address": "慶尚北道尚州市中洞面五上里",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "慶尚北道 · 尚州市 · 尚州・慶川島公園"
+        },
+        "zh": {
+          "place_name": "尚州庆川岛公园",
+          "region": "庆尚北道",
+          "city": "尚州市",
+          "address": "庆尚北道尚州市中洞面五上里",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "庆尚北道 · 尚州市 · 尚州庆川岛公园"
+        }
+      }
+    },
+    {
+      "place_id": "P030",
+      "latitude": 36.179731413438354,
+      "longitude": 128.66451532386364,
+      "localized": {
+        "ko": {
+          "place_name": "혜원의 집",
+          "region": "대구광역시",
+          "city": "군위군",
+          "address": "대구 군위군 우보면 미성5길 58-1",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "대구광역시 · 군위군 · 혜원의 집"
+        },
+        "en": {
+          "place_name": "Hye-won's House",
+          "region": "Daegu Metropolitan City",
+          "city": "Gunwi County",
+          "address": "58-1 Miseong 5-gil, Ubo-myeon, Gunwi-gun, Daegu",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Daegu Metropolitan City · Gunwi County · Hye-won's House"
+        },
+        "ja": {
+          "place_name": "ヘウォンの家",
+          "region": "大邱広域市",
+          "city": "軍威郡",
+          "address": "大邱広域市軍威郡友保面ミソン5ギル58-1",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "大邱広域市 · 軍威郡 · ヘウォンの家"
+        },
+        "zh": {
+          "place_name": "惠媛的家",
+          "region": "大邱广域市",
+          "city": "军威郡",
+          "address": "大邱广域市军威郡友保面美城5街58-1",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "大邱广域市 · 军威郡 · 惠媛的家"
+        }
+      }
+    },
+    {
+      "place_id": "P031",
+      "latitude": 37.01711679176299,
+      "longitude": 127.86685914869933,
+      "localized": {
+        "ko": {
+          "place_name": "충주 중앙탑공원",
+          "region": "충청북도",
+          "city": "충주시",
+          "address": "충북 충주시 중앙탑면 탑정안길 6",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "충청북도 · 충주시 · 충주 중앙탑공원"
+        },
+        "en": {
+          "place_name": "Chungju Jungangtap Park",
+          "region": "Chungcheongbuk-do",
+          "city": "Chungju-si",
+          "address": "6 Tapjeongan-gil, Jungangtap-myeon, Chungju-si, Chungcheongbuk-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Chungcheongbuk-do · Chungju-si · Chungju Jungangtap Park"
+        },
+        "ja": {
+          "place_name": "忠州中央塔公園",
+          "region": "忠清北道",
+          "city": "忠州市",
+          "address": "忠清北道忠州市中央塔面タプチョンアンギル6",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "忠清北道 · 忠州市 · 忠州中央塔公園"
+        },
+        "zh": {
+          "place_name": "忠州中央塔公园",
+          "region": "忠清北道",
+          "city": "忠州市",
+          "address": "忠清北道忠州市中央塔面塔亭安街6",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "忠清北道 · 忠州市 · 忠州中央塔公园"
+        }
+      }
+    },
+    {
+      "place_id": "P032",
+      "latitude": 37.28754551327953,
+      "longitude": 127.01762609024438,
+      "localized": {
+        "ko": {
+          "place_name": "화홍문",
+          "region": "경기도",
+          "city": "수원시",
+          "address": "경기 수원시 팔달구 북수동 9000-1",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "경기도 · 수원시 · 화홍문"
+        },
+        "en": {
+          "place_name": "Hwahongmun Gate",
+          "region": "Gyeonggi-do",
+          "city": "Suwon-si",
+          "address": "9000-1, Buksu-dong, Paldal-gu, Suwon-si, Gyeonggi-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gyeonggi-do · Suwon-si · Hwahongmun Gate"
+        },
+        "ja": {
+          "place_name": "華虹門",
+          "region": "京畿道",
+          "city": "水原市",
+          "address": "京畿道水原市八達区北水洞9000-1",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "京畿道 · 水原市 · 華虹門"
+        },
+        "zh": {
+          "place_name": "华虹门",
+          "region": "京畿道",
+          "city": "水原市",
+          "address": "京畿道水原市八达区北水洞9000-1",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "京畿道 · 水原市 · 华虹门"
+        }
+      }
+    },
+    {
+      "place_id": "P033",
+      "latitude": 37.557109027019116,
+      "longitude": 126.97541367376364,
+      "localized": {
+        "ko": {
+          "place_name": "서울로7017",
+          "region": "서울특별시",
+          "city": "서울특별시",
+          "address": "서울 중구 남대문로5가 84-15",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "서울특별시 · 서울로7017"
+        },
+        "en": {
+          "place_name": "Seoullo 7017",
+          "region": "Seoul",
+          "city": "Seoul",
+          "address": "84-15, Namdaemunno 5-ga, Jung-gu, Seoul",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Seoul · Seoullo 7017"
+        },
+        "ja": {
+          "place_name": "ソウル路7017",
+          "region": "ソウル特別市",
+          "city": "ソウル特別市",
+          "address": "ソウル特別市中区南大門路5街84-15",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "ソウル特別市 · ソウル路7017"
+        },
+        "zh": {
+          "place_name": "首尔路7017",
+          "region": "首尔特别市",
+          "city": "首尔特别市",
+          "address": "首尔特别市中区南大门路5街84-15",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "首尔特别市 · 首尔路7017"
+        }
+      }
+    },
+    {
+      "place_id": "P034",
+      "latitude": 37.5349210695376,
+      "longitude": 126.987033888672,
+      "localized": {
+        "ko": {
+          "place_name": "이태원 녹사평 육교",
+          "region": "서울특별시",
+          "city": "서울특별시",
+          "address": "서울 용산구 녹사평대로 지하 195",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "서울특별시 · 이태원 녹사평 육교"
+        },
+        "en": {
+          "place_name": "Itaewon Noksapyeong Overpass",
+          "region": "Seoul",
+          "city": "Seoul",
+          "address": "195, Noksapyeong-daero, underground, Yongsan-gu, Seoul",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Seoul · Itaewon Noksapyeong Overpass"
+        },
+        "ja": {
+          "place_name": "梨泰院・緑莎坪歩道橋",
+          "region": "ソウル特別市",
+          "city": "ソウル特別市",
+          "address": "ソウル特別市龍山区緑莎坪大路地下195",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "ソウル特別市 · 梨泰院・緑莎坪歩道橋"
+        },
+        "zh": {
+          "place_name": "梨泰院绿莎坪人行天桥",
+          "region": "首尔特别市",
+          "city": "首尔特别市",
+          "address": "首尔特别市龙山区绿莎坪大路地下195",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "首尔特别市 · 梨泰院绿莎坪人行天桥"
+        }
+      }
+    },
+    {
+      "place_id": "P035",
+      "latitude": 34.74087611212171,
+      "longitude": 127.65074568267204,
+      "localized": {
+        "ko": {
+          "place_name": "여수 소호동동다리",
+          "region": "전라남도",
+          "city": "여수시",
+          "address": "전남광주통합특별시 여수시 소호동 498-1",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "전라남도 · 여수시 · 여수 소호동동다리"
+        },
+        "en": {
+          "place_name": "Yeosu Soho Dongdong Bridge",
+          "region": "Jeollanam-do",
+          "city": "Yeosu",
+          "address": "498-1, Soho-dong, Yeosu-si, Jeonnam Gwangju Integrated Special City",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Jeollanam-do · Yeosu · Yeosu Soho Dongdong Bridge"
+        },
+        "ja": {
+          "place_name": "麗水・蘇湖洞洞橋",
+          "region": "全羅南道",
+          "city": "麗水市",
+          "address": "全南光州統合特別市麗水市蘇湖洞498-1",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "全羅南道 · 麗水市 · 麗水・蘇湖洞洞橋"
+        },
+        "zh": {
+          "place_name": "丽水苏湖洞洞桥",
+          "region": "全罗南道",
+          "city": "丽水市",
+          "address": "全南光州统合特别市丽水市苏湖洞498-1",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "全罗南道 · 丽水市 · 丽水苏湖洞洞桥"
+        }
+      }
+    },
+    {
+      "place_id": "P036",
+      "latitude": 35.1565378,
+      "longitude": 129.1519899,
+      "localized": {
+        "ko": {
+          "place_name": "부산 더베이101·마린시티",
+          "region": "부산광역시",
+          "city": "부산광역시",
+          "address": "부산광역시 해운대구 동백로 52",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "부산광역시 · 부산 더베이101·마린시티"
+        },
+        "en": {
+          "place_name": "Busan The Bay 101·Marine City",
+          "region": "Busan Metropolitan City",
+          "city": "Busan Metropolitan City",
+          "address": "52 Dongbaek-ro, Haeundae-gu, Busan",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Busan Metropolitan City · Busan The Bay 101·Marine City"
+        },
+        "ja": {
+          "place_name": "釜山ザ・ベイ101・マリンシティ",
+          "region": "釜山広域市",
+          "city": "釜山広域市",
+          "address": "釜山広域市海雲台区冬柏路52",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "釜山広域市 · 釜山ザ・ベイ101・マリンシティ"
+        },
+        "zh": {
+          "place_name": "釜山The Bay 101·海云台海洋城",
+          "region": "釜山广域市",
+          "city": "釜山广域市",
+          "address": "釜山广域市海云台区冬柏路52",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "釜山广域市 · 釜山The Bay 101·海云台海洋城"
+        }
+      }
+    },
+    {
+      "place_id": "P037",
+      "latitude": 35.1045602,
+      "longitude": 129.0614894,
+      "localized": {
+        "ko": {
+          "place_name": "부산항대교·영도",
+          "region": "부산광역시",
+          "city": "부산광역시",
+          "address": "부산광역시 부산항대교",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "부산광역시 · 부산항대교·영도"
+        },
+        "en": {
+          "place_name": "Busan Harbor Bridge·Yeongdo",
+          "region": "Busan Metropolitan City",
+          "city": "Busan Metropolitan City",
+          "address": "Busan Harbor Bridge, Busan",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Busan Metropolitan City · Busan Harbor Bridge·Yeongdo"
+        },
+        "ja": {
+          "place_name": "釜山港大橋・影島",
+          "region": "釜山広域市",
+          "city": "釜山広域市",
+          "address": "釜山広域市釜山港大橋",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "釜山広域市 · 釜山港大橋・影島"
+        },
+        "zh": {
+          "place_name": "釜山港大桥·影岛",
+          "region": "釜山广域市",
+          "city": "釜山广域市",
+          "address": "釜山广域市釜山港大桥",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "釜山广域市 · 釜山港大桥·影岛"
+        }
+      }
+    },
+    {
+      "place_id": "P038",
+      "latitude": 35.1474701651617,
+      "longitude": 129.130066851959,
+      "localized": {
+        "ko": {
+          "place_name": "부산 광안대교",
+          "region": "부산광역시",
+          "city": "부산광역시",
+          "address": "부산 수영구 민락동 113-52",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "부산광역시 · 부산 광안대교"
+        },
+        "en": {
+          "place_name": "Busan Gwangan Bridge",
+          "region": "Busan Metropolitan City",
+          "city": "Busan Metropolitan City",
+          "address": "113-52, Millak-dong, Suyeong-gu, Busan",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Busan Metropolitan City · Busan Gwangan Bridge"
+        },
+        "ja": {
+          "place_name": "釜山広安大橋",
+          "region": "釜山広域市",
+          "city": "釜山広域市",
+          "address": "釜山広域市水営区民楽洞113-52",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "釜山広域市 · 釜山広安大橋"
+        },
+        "zh": {
+          "place_name": "釜山广安大桥",
+          "region": "釜山广域市",
+          "city": "釜山广域市",
+          "address": "釜山广域市水营区民乐洞113-52",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "釜山广域市 · 釜山广安大桥"
+        }
+      }
+    },
+    {
+      "place_id": "P039",
+      "latitude": 36.6457462982182,
+      "longitude": 127.495439275669,
+      "localized": {
+        "ko": {
+          "place_name": "청주 중앙공원·수암골 일대",
+          "region": "충청북도",
+          "city": "청주시",
+          "address": "충북 청주시 상당구 수동 81-245",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "충청북도 · 청주시 · 청주 중앙공원·수암골 일대"
+        },
+        "en": {
+          "place_name": "Cheongju Jungang Park and Suamgol Area",
+          "region": "North Chungcheong Province",
+          "city": "Cheongju",
+          "address": "81-245, Su-dong, Sangdang-gu, Cheongju-si, Chungcheongbuk-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "North Chungcheong Province · Cheongju · Cheongju Jungang Park and Suamgol Area"
+        },
+        "ja": {
+          "place_name": "清州中央公園・スアムゴル一帯",
+          "region": "忠清北道",
+          "city": "清州市",
+          "address": "忠清北道清州市上党区寿洞81-245",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "忠清北道 · 清州市 · 清州中央公園・スアムゴル一帯"
+        },
+        "zh": {
+          "place_name": "清州中央公园·寿岩谷一带",
+          "region": "忠清北道",
+          "city": "清州市",
+          "address": "忠清北道清州市上党区寿洞81-245",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "忠清北道 · 清州市 · 清州中央公园·寿岩谷一带"
+        }
+      }
+    },
+    {
+      "place_id": "P040",
+      "latitude": 36.065137652747694,
+      "longitude": 129.3903862441959,
+      "localized": {
+        "ko": {
+          "place_name": "포항 스페이스워크",
+          "region": "경상북도",
+          "city": "포항시",
+          "address": "경북 포항시 북구 두호동 산 8",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "경상북도 · 포항시 · 포항 스페이스워크"
+        },
+        "en": {
+          "place_name": "Pohang Space Walk",
+          "region": "North Gyeongsang Province",
+          "city": "Pohang",
+          "address": "San 8, Duho-dong, Buk-gu, Pohang-si, Gyeongsangbuk-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "North Gyeongsang Province · Pohang · Pohang Space Walk"
+        },
+        "ja": {
+          "place_name": "浦項スペースウォーク",
+          "region": "慶尚北道",
+          "city": "浦項市",
+          "address": "慶尚北道浦項市北区斗湖洞山8",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "慶尚北道 · 浦項市 · 浦項スペースウォーク"
+        },
+        "zh": {
+          "place_name": "浦项Space Walk",
+          "region": "庆尚北道",
+          "city": "浦项市",
+          "address": "庆尚北道浦项市北区斗湖洞山8",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "庆尚北道 · 浦项市 · 浦项Space Walk"
+        }
+      }
+    },
+    {
+      "place_id": "P041",
+      "latitude": 36.16482201943029,
+      "longitude": 129.3958587723502,
+      "localized": {
+        "ko": {
+          "place_name": "사방기념공원",
+          "region": "경상북도",
+          "city": "포항시",
+          "address": "경북 포항시 북구 흥해읍 해안로 1801",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "경상북도 · 포항시 · 사방기념공원"
+        },
+        "en": {
+          "place_name": "Sabang Memorial Park",
+          "region": "Gyeongsangbuk-do",
+          "city": "Pohang",
+          "address": "1801 Haean-ro, Heunghae-eup, Buk-gu, Pohang-si, Gyeongsangbuk-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gyeongsangbuk-do · Pohang · Sabang Memorial Park"
+        },
+        "ja": {
+          "place_name": "四方記念公園",
+          "region": "慶尚北道",
+          "city": "浦項市",
+          "address": "慶尚北道浦項市北区興海邑海岸路1801",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "慶尚北道 · 浦項市 · 四方記念公園"
+        },
+        "zh": {
+          "place_name": "四方纪念公园",
+          "region": "庆尚北道",
+          "city": "浦项市",
+          "address": "庆尚北道浦项市北区兴海邑海岸路1801",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "庆尚北道 · 浦项市 · 四方纪念公园"
+        }
+      }
+    },
+    {
+      "place_id": "P042",
+      "latitude": 33.1683333,
+      "longitude": 126.2713889,
+      "localized": {
+        "ko": {
+          "place_name": "쿠키 가파도",
+          "region": "제주특별자치도",
+          "city": "서귀포시",
+          "address": "제주특별자치도 서귀포시 대정읍 가파도",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "제주특별자치도 · 서귀포시 · 쿠키 가파도"
+        },
+        "en": {
+          "place_name": "Cookie Gapado",
+          "region": "Jeju Special Self-Governing Province",
+          "city": "Seogwipo City",
+          "address": "Gapado, Daejeong-eup, Seogwipo-si, Jeju Special Self-Governing Province",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Jeju Special Self-Governing Province · Seogwipo City · Cookie Gapado"
+        },
+        "ja": {
+          "place_name": "クッキー・ガパド",
+          "region": "済州特別自治道",
+          "city": "西帰浦市",
+          "address": "済州特別自治道西帰浦市大静邑加波島",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "済州特別自治道 · 西帰浦市 · クッキー・ガパド"
+        },
+        "zh": {
+          "place_name": "Cookie 加波岛",
+          "region": "济州特别自治道",
+          "city": "西归浦市",
+          "address": "济州特别自治道西归浦市大静邑加波岛",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "济州特别自治道 · 西归浦市 · Cookie 加波岛"
+        }
+      }
+    },
+    {
+      "place_id": "P043",
+      "latitude": 33.5333333,
+      "longitude": 126.6166667,
+      "localized": {
+        "ko": {
+          "place_name": "신촌 앞바다",
+          "region": "제주특별자치도",
+          "city": "제주시",
+          "address": "제주특별자치도 제주시 조천읍 신촌리 해안",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "제주특별자치도 · 제주시 · 신촌 앞바다"
+        },
+        "en": {
+          "place_name": "Sinchon Seashore",
+          "region": "Jeju Special Self-Governing Province",
+          "city": "Jeju City",
+          "address": "Coast, Sinchon-ri, Jocheon-eup, Jeju-si, Jeju Special Self-Governing Province",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Jeju Special Self-Governing Province · Jeju City · Sinchon Seashore"
+        },
+        "ja": {
+          "place_name": "新村の海辺",
+          "region": "済州特別自治道",
+          "city": "済州市",
+          "address": "済州特別自治道済州市朝天邑新村里海岸",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "済州特別自治道 · 済州市 · 新村の海辺"
+        },
+        "zh": {
+          "place_name": "新村前海",
+          "region": "济州特别自治道",
+          "city": "济州市",
+          "address": "济州特别自治道济州市朝天邑新村里海岸",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "济州特别自治道 · 济州市 · 新村前海"
+        }
+      }
+    },
+    {
+      "place_id": "P044",
+      "latitude": 37.8798554564007,
+      "longitude": 128.834204251177,
+      "localized": {
+        "ko": {
+          "place_name": "주문진 방파제",
+          "region": "강원특별자치도",
+          "city": "강릉시",
+          "address": "강원특별자치도 강릉시 주문진읍 교항리",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "강원특별자치도 · 강릉시 · 주문진 방파제"
+        },
+        "en": {
+          "place_name": "Jumunjin Breakwater",
+          "region": "Gangwon State",
+          "city": "Gangneung",
+          "address": "Gyohang-ri, Jumunjin-eup, Gangneung-si, Gangwon Special Self-Governing Province",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gangwon State · Gangneung · Jumunjin Breakwater"
+        },
+        "ja": {
+          "place_name": "チュムンジン防波堤",
+          "region": "江原特別自治道",
+          "city": "江陵市",
+          "address": "江原特別自治道江陵市注文津邑橋項里",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "江原特別自治道 · 江陵市 · チュムンジン防波堤"
+        },
+        "zh": {
+          "place_name": "注文津防波堤",
+          "region": "江原特别自治道",
+          "city": "江陵市",
+          "address": "江原特别自治道江陵市注文津邑桥项里",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "江原特别自治道 · 江陵市 · 注文津防波堤"
+        }
+      }
+    },
+    {
+      "place_id": "P045",
+      "latitude": 33.27078076230098,
+      "longitude": 126.66743988738492,
+      "localized": {
+        "ko": {
+          "place_name": "올레길 5코스",
+          "region": "제주특별자치도",
+          "city": "서귀포시",
+          "address": "제주특별자치도 서귀포시 남원읍 위미리 1727-1",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "제주특별자치도 · 서귀포시 · 올레길 5코스"
+        },
+        "en": {
+          "place_name": "Olle Trail Course 5",
+          "region": "Jeju State",
+          "city": "Seogwipo-si",
+          "address": "1727-1, Wimi-ri, Namwon-eup, Seogwipo-si, Jeju Special Self-Governing Province",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Jeju State · Seogwipo-si · Olle Trail Course 5"
+        },
+        "ja": {
+          "place_name": "オルレ道5コース",
+          "region": "済州特別自治道",
+          "city": "西帰浦市",
+          "address": "済州特別自治道西帰浦市南元邑為美里1727-1",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "済州特別自治道 · 西帰浦市 · オルレ道5コース"
+        },
+        "zh": {
+          "place_name": "偶来小路5号路线",
+          "region": "济州特别自治道",
+          "city": "西归浦市",
+          "address": "济州特别自治道西归浦市南元邑为美里1727-1",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "济州特别自治道 · 西归浦市 · 偶来小路5号路线"
+        }
+      }
+    },
+    {
+      "place_id": "P046",
+      "latitude": 36.4392677794874,
+      "longitude": 126.519632363757,
+      "localized": {
+        "ko": {
+          "place_name": "오천항",
+          "region": "충청남도",
+          "city": "보령시",
+          "address": "충남 보령시 오천면 소성리",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "충청남도 · 보령시 · 오천항"
+        },
+        "en": {
+          "place_name": "Ocheon Port",
+          "region": "South Chungcheong Province",
+          "city": "Boryeong-si",
+          "address": "Soseong-ri, Ocheon-myeon, Boryeong-si, Chungcheongnam-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "South Chungcheong Province · Boryeong-si · Ocheon Port"
+        },
+        "ja": {
+          "place_name": "五川港",
+          "region": "忠清南道",
+          "city": "保寧市",
+          "address": "忠清南道保寧市五川面素城里",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "忠清南道 · 保寧市 · 五川港"
+        },
+        "zh": {
+          "place_name": "五千港",
+          "region": "忠清南道",
+          "city": "保宁市",
+          "address": "忠清南道保宁市五泉面素城里",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "忠清南道 · 保宁市 · 五千港"
+        }
+      }
+    },
+    {
+      "place_id": "P047",
+      "latitude": 35.9905582196314,
+      "longitude": 129.560418852909,
+      "localized": {
+        "ko": {
+          "place_name": "구룡포 일본인가옥거리",
+          "region": "경상북도",
+          "city": "포항시",
+          "address": "경북 포항시 남구 구룡포읍 구룡포리 971-1",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "경상북도 · 포항시 · 구룡포 일본인가옥거리"
+        },
+        "en": {
+          "place_name": "Guryongpo Japanese House Street",
+          "region": "Gyeongsangbuk-do",
+          "city": "Pohang",
+          "address": "971-1, Guryongpo-ri, Guryongpo-eup, Nam-gu, Pohang-si, Gyeongsangbuk-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gyeongsangbuk-do · Pohang · Guryongpo Japanese House Street"
+        },
+        "ja": {
+          "place_name": "九龍浦日本人家屋通り",
+          "region": "慶尚北道",
+          "city": "浦項市",
+          "address": "慶尚北道浦項市南区九龍浦邑九龍浦里971-1",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "慶尚北道 · 浦項市 · 九龍浦日本人家屋通り"
+        },
+        "zh": {
+          "place_name": "九龙江日本人家屋街",
+          "region": "庆尚北道",
+          "city": "浦项市",
+          "address": "庆尚北道浦项市南区九龙浦邑九龙浦里971-1",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "庆尚北道 · 浦项市 · 九龙江日本人家屋街"
+        }
+      }
+    },
+    {
+      "place_id": "P048",
+      "latitude": 37.362162544846,
+      "longitude": 129.251128408746,
+      "localized": {
+        "ko": {
+          "place_name": "부남해변",
+          "region": "강원특별자치도",
+          "city": "삼척시",
+          "address": "강원특별자치도 삼척시 근덕면 부남리",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "강원특별자치도 · 삼척시 · 부남해변"
+        },
+        "en": {
+          "place_name": "Bunam Beach",
+          "region": "Gangwon Special Self-Governing Province",
+          "city": "Samcheok City",
+          "address": "Bunam-ri, Geundeok-myeon, Samcheok-si, Gangwon Special Self-Governing Province",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gangwon Special Self-Governing Province · Samcheok City · Bunam Beach"
+        },
+        "ja": {
+          "place_name": "ブナム海岸",
+          "region": "江原特別自治道",
+          "city": "三陟市",
+          "address": "江原特別自治道三陟市近徳面府南里",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "江原特別自治道 · 三陟市 · ブナム海岸"
+        },
+        "zh": {
+          "place_name": "布南海滩",
+          "region": "江原特别自治道",
+          "city": "三陟市",
+          "address": "江原特别自治道三陟市近德面府南里",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "江原特别自治道 · 三陟市 · 布南海滩"
+        }
+      }
+    },
+    {
+      "place_id": "P049",
+      "latitude": 35.11577835670782,
+      "longitude": 129.1271487816168,
+      "localized": {
+        "ko": {
+          "place_name": "이기대 해안산책로",
+          "region": "부산광역시",
+          "city": "부산광역시",
+          "address": "부산 남구 용호동",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "부산광역시 · 이기대 해안산책로"
+        },
+        "en": {
+          "place_name": "Igidae Coastal Walk",
+          "region": "Busan Metropolitan City",
+          "city": "Busan Metropolitan City",
+          "address": "Yongho-dong, Nam-gu, Busan",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Busan Metropolitan City · Igidae Coastal Walk"
+        },
+        "ja": {
+          "place_name": "二妓台海岸散策路",
+          "region": "釜山広域市",
+          "city": "釜山広域市",
+          "address": "釜山広域市南区龍湖洞",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "釜山広域市 · 二妓台海岸散策路"
+        },
+        "zh": {
+          "place_name": "二妓台海岸散步路",
+          "region": "釜山广域市",
+          "city": "釜山广域市",
+          "address": "釜山广域市南区龙湖洞",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "釜山广域市 · 二妓台海岸散步路"
+        }
+      }
+    },
+    {
+      "place_id": "P050",
+      "latitude": 38.4785382598549,
+      "longitude": 128.439373564159,
+      "localized": {
+        "ko": {
+          "place_name": "화진포 해수욕장",
+          "region": "강원특별자치도",
+          "city": "고성군",
+          "address": "강원특별자치도 고성군 현내면 초도리",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "강원특별자치도 · 고성군 · 화진포 해수욕장"
+        },
+        "en": {
+          "place_name": "Hwajinpo Beach",
+          "region": "Gangwon Special Self-Governing Province",
+          "city": "Goseong County",
+          "address": "Chodo-ri, Hyeonnae-myeon, Goseong-gun, Gangwon State",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gangwon Special Self-Governing Province · Goseong County · Hwajinpo Beach"
+        },
+        "ja": {
+          "place_name": "花津浦海水浴場",
+          "region": "江原特別自治道",
+          "city": "高城郡",
+          "address": "江原特別自治道 高城郡 県内面 草島里",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "江原特別自治道 · 高城郡 · 花津浦海水浴場"
+        },
+        "zh": {
+          "place_name": "花津浦海水浴场",
+          "region": "江原特别自治道",
+          "city": "高城郡",
+          "address": "江原特别自治道 高城郡 县内面 草岛里",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "江原特别自治道 · 高城郡 · 花津浦海水浴场"
+        }
+      }
+    },
+    {
+      "place_id": "P051",
+      "latitude": 38.202177212336174,
+      "longitude": 128.5942285663621,
+      "localized": {
+        "ko": {
+          "place_name": "아바이마을",
+          "region": "강원특별자치도",
+          "city": "속초시",
+          "address": "강원특별자치도 속초시 청호동 550-14",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "강원특별자치도 · 속초시 · 아바이마을"
+        },
+        "en": {
+          "place_name": "Abai Village",
+          "region": "Gangwon Special Self-Governing Province",
+          "city": "Sokcho",
+          "address": "550-14 Cheongho-dong, Sokcho-si, Gangwon State",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gangwon Special Self-Governing Province · Sokcho · Abai Village"
+        },
+        "ja": {
+          "place_name": "アバイ村",
+          "region": "江原特別自治道",
+          "city": "束草市",
+          "address": "江原特別自治道 束草市 青湖洞 550-14",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "江原特別自治道 · 束草市 · アバイ村"
+        },
+        "zh": {
+          "place_name": "阿拜村",
+          "region": "江原特别自治道",
+          "city": "束草市",
+          "address": "江原特别自治道 束草市 青湖洞 550-14",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "江原特别自治道 · 束草市 · 阿拜村"
+        }
+      }
+    },
+    {
+      "place_id": "P052",
+      "latitude": 37.59109381053928,
+      "longitude": 126.96529582862915,
+      "localized": {
+        "ko": {
+          "place_name": "자하문터널",
+          "region": "서울특별시",
+          "city": "서울특별시",
+          "address": "서울 종로구 청운동 산 4-34",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "서울특별시 · 자하문터널"
+        },
+        "en": {
+          "place_name": "Jahamun Tunnel",
+          "region": "Seoul Special City",
+          "city": "Seoul",
+          "address": "San 4-34, Cheongun-dong, Jongno-gu, Seoul",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Seoul Special City · Seoul · Jahamun Tunnel"
+        },
+        "ja": {
+          "place_name": "紫霞門トンネル",
+          "region": "ソウル特別市",
+          "city": "ソウル特別市",
+          "address": "ソウル特別市 鍾路区 清雲洞 山4-34",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "ソウル特別市 · 紫霞門トンネル"
+        },
+        "zh": {
+          "place_name": "紫霞门隧道",
+          "region": "首尔特别市",
+          "city": "首尔特别市",
+          "address": "首尔特别市 钟路区 清云洞 山4-34",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "首尔特别市 · 紫霞门隧道"
+        }
+      }
+    },
+    {
+      "place_id": "P053",
+      "latitude": 37.8429299799559,
+      "longitude": 128.873688474729,
+      "localized": {
+        "ko": {
+          "place_name": "사천진 해변",
+          "region": "강원특별자치도",
+          "city": "강릉시",
+          "address": "강원특별자치도 강릉시 사천면 진리해변길 131",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "강원특별자치도 · 강릉시 · 사천진 해변"
+        },
+        "en": {
+          "place_name": "Sacheonjin Beach",
+          "region": "Gangwon State",
+          "city": "Gangneung-si",
+          "address": "131, Jillihaebyeon-gil, Sacheon-myeon, Gangneung-si, Gangwon State",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gangwon State · Gangneung-si · Sacheonjin Beach"
+        },
+        "ja": {
+          "place_name": "沙川津海辺",
+          "region": "江原特別自治道",
+          "city": "江陵市",
+          "address": "カンウォン特別自治道カンヌン市サチョン面チンリヘビョンギル131",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "江原特別自治道 · 江陵市 · 沙川津海辺"
+        },
+        "zh": {
+          "place_name": "沙川津海滩",
+          "region": "江原特别自治道",
+          "city": "江陵市",
+          "address": "江原特别自治道江陵市沙川面津里海边街131",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "江原特别自治道 · 江陵市 · 沙川津海滩"
+        }
+      }
+    },
+    {
+      "place_id": "P054",
+      "latitude": 36.84104588935129,
+      "longitude": 126.95014385033994,
+      "localized": {
+        "ko": {
+          "place_name": "영인산 자연휴양림",
+          "region": "충청남도",
+          "city": "아산시",
+          "address": "충남 아산시 영인면 아산온천로 16-26",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "충청남도 · 아산시 · 영인산 자연휴양림"
+        },
+        "en": {
+          "place_name": "Yeonginsan Natural Recreation Forest",
+          "region": "South Chungcheong Province",
+          "city": "Asan-si",
+          "address": "16-26, Asanoncheon-ro, Yeongin-myeon, Asan-si, Chungcheongnam-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "South Chungcheong Province · Asan-si · Yeonginsan Natural Recreation Forest"
+        },
+        "ja": {
+          "place_name": "霊仁山自然休養林",
+          "region": "忠清南道",
+          "city": "牙山市",
+          "address": "忠清南道 牙山市 霊仁面 牙山温泉路 16-26",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "忠清南道 · 牙山市 · 霊仁山自然休養林"
+        },
+        "zh": {
+          "place_name": "灵仁山自然休养林",
+          "region": "忠清南道",
+          "city": "牙山市",
+          "address": "忠清南道 牙山市 迎仁面 牙山温泉路 16-26",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "忠清南道 · 牙山市 · 灵仁山自然休养林"
+        }
+      }
+    },
+    {
+      "place_id": "P055",
+      "latitude": 35.3491062321099,
+      "longitude": 128.72753813773,
+      "localized": {
+        "ko": {
+          "place_name": "동부마을 팽나무",
+          "region": "경상남도",
+          "city": "창원시",
+          "address": "경남 창원시 의창구 대산면 북부리 102-1",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "경상남도 · 창원시 · 동부마을 팽나무"
+        },
+        "en": {
+          "place_name": "Dongbu Village Hackberry Tree",
+          "region": "Gyeongsangnam-do",
+          "city": "Changwon",
+          "address": "102-1 Bukbu-ri, Daesan-myeon, Uichang-gu, Changwon-si, Gyeongsangnam-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gyeongsangnam-do · Changwon · Dongbu Village Hackberry Tree"
+        },
+        "ja": {
+          "place_name": "東部マウルのエノキ",
+          "region": "慶尚南道",
+          "city": "昌原市",
+          "address": "慶尚南道 昌原市 義昌区 大山面 北部里 102-1",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "慶尚南道 · 昌原市 · 東部マウルのエノキ"
+        },
+        "zh": {
+          "place_name": "东部村朴树",
+          "region": "庆尚南道",
+          "city": "昌原市",
+          "address": "庆尚南道 昌原市 义昌区 大山面 北部里 102-1",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "庆尚南道 · 昌原市 · 东部村朴树"
+        }
+      }
+    },
+    {
+      "place_id": "P056",
+      "latitude": 37.6321456856267,
+      "longitude": 126.484778944969,
+      "localized": {
+        "ko": {
+          "place_name": "강화 전등사",
+          "region": "인천광역시",
+          "city": "인천광역시",
+          "address": "인천 강화군 길상면 전등사로 37-41",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "인천광역시 · 강화 전등사"
+        },
+        "en": {
+          "place_name": "Ganghwa Jeondeungsa Temple",
+          "region": "Incheon",
+          "city": "Incheon",
+          "address": "37-41 Jeondeungsa-ro, Gilsang-myeon, Ganghwa-gun, Incheon",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Incheon · Ganghwa Jeondeungsa Temple"
+        },
+        "ja": {
+          "place_name": "江華伝灯寺",
+          "region": "仁川広域市",
+          "city": "仁川広域市",
+          "address": "仁川広域市 江華郡 吉祥面 伝灯寺路 37-41",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "仁川広域市 · 江華伝灯寺"
+        },
+        "zh": {
+          "place_name": "江华传灯寺",
+          "region": "仁川广域市",
+          "city": "仁川广域市",
+          "address": "仁川广域市 江华郡 吉祥面 传灯寺路 37-41",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "仁川广域市 · 江华传灯寺"
+        }
+      }
+    },
+    {
+      "place_id": "P057",
+      "latitude": 37.53249042934526,
+      "longitude": 126.63427992472252,
+      "localized": {
+        "ko": {
+          "place_name": "청라호수공원",
+          "region": "인천광역시",
+          "city": "인천광역시",
+          "address": "인천 서해구 청라동 106-2",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "인천광역시 · 청라호수공원"
+        },
+        "en": {
+          "place_name": "Cheongna Lake Park",
+          "region": "Incheon",
+          "city": "Incheon",
+          "address": "106-2 Cheongna-dong, Seohae-gu, Incheon",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Incheon · Cheongna Lake Park"
+        },
+        "ja": {
+          "place_name": "青羅湖公園",
+          "region": "仁川広域市",
+          "city": "仁川広域市",
+          "address": "仁川広域市 西海区 青羅洞 106-2",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "仁川広域市 · 青羅湖公園"
+        },
+        "zh": {
+          "place_name": "青罗湖公园",
+          "region": "仁川广域市",
+          "city": "仁川广역市",
+          "address": "仁川广域市 西海区 青罗洞 106-2",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "仁川广域市 · 仁川广역市 · 青罗湖公园"
+        }
+      }
+    },
+    {
+      "place_id": "P058",
+      "latitude": 37.4894490429055,
+      "longitude": 126.724331088618,
+      "localized": {
+        "ko": {
+          "place_name": "부평역",
+          "region": "인천광역시",
+          "city": "인천광역시",
+          "address": "인천 부평구 광장로 16",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "인천광역시 · 부평역"
+        },
+        "en": {
+          "place_name": "Bupyeong Station",
+          "region": "Incheon Metropolitan City",
+          "city": "Incheon Metropolitan City",
+          "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Incheon Metropolitan City · Bupyeong Station"
+        },
+        "ja": {
+          "place_name": "富平駅",
+          "region": "仁川広域市",
+          "city": "仁川広域市",
+          "address": "仁川広域市 富平区 広場路 16",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "仁川広域市 · 富平駅"
+        },
+        "zh": {
+          "place_name": "富平站",
+          "region": "仁川广域市",
+          "city": "仁川广域市",
+          "address": "仁川广域市 富平区 广场路 16",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "仁川广域市 · 富平站"
+        }
+      }
+    },
+    {
+      "place_id": "P059",
+      "latitude": 37.988190793167696,
+      "longitude": 128.19898760828082,
+      "localized": {
+        "ko": {
+          "place_name": "원대리 자작나무숲",
+          "region": "강원특별자치도",
+          "city": "인제군",
+          "address": "강원특별자치도 인제군 인제읍 원대리 산 75-22",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "강원특별자치도 · 인제군 · 원대리 자작나무숲"
+        },
+        "en": {
+          "place_name": "Wondaeri Birch Forest",
+          "region": "Gangwon State",
+          "city": "Inje County",
+          "address": "San 75-22, Wondae-ri, Inje-eup, Inje-gun, Gangwon State",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gangwon State · Inje County · Wondaeri Birch Forest"
+        },
+        "ja": {
+          "place_name": "元大里白樺の森",
+          "region": "江原特別自治道",
+          "city": "麟蹄郡",
+          "address": "江原特別自治道 麟蹄郡 麟蹄邑 院垈里 山75-22",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "江原特別自治道 · 麟蹄郡 · 元大里白樺の森"
+        },
+        "zh": {
+          "place_name": "元岱里白桦林",
+          "region": "江原特别自治道",
+          "city": "麟蹄郡",
+          "address": "江原特别自治道 麟蹄郡 麟蹄邑 院垈里 山75-22",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "江原特别自治道 · 麟蹄郡 · 元岱里白桦林"
+        }
+      }
+    },
+    {
+      "place_id": "P060",
+      "latitude": 38.07693251670516,
+      "longitude": 127.1433657083957,
+      "localized": {
+        "ko": {
+          "place_name": "재인폭포",
+          "region": "경기도",
+          "city": "연천군",
+          "address": "경기 연천군 연천읍 부곡리 산 235",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "경기도 · 연천군 · 재인폭포"
+        },
+        "en": {
+          "place_name": "Jaein Falls",
+          "region": "Gyeonggi Province",
+          "city": "Yeoncheon County",
+          "address": "San 235, Bugok-ri, Yeoncheon-eup, Yeoncheon-gun, Gyeonggi-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gyeonggi Province · Yeoncheon County · Jaein Falls"
+        },
+        "ja": {
+          "place_name": "ジェイン滝",
+          "region": "京畿道",
+          "city": "漣川郡",
+          "address": "京畿道漣川郡漣川邑富谷里山235",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "京畿道 · 漣川郡 · ジェイン滝"
+        },
+        "zh": {
+          "place_name": "才人瀑布",
+          "region": "京畿道",
+          "city": "涟川郡",
+          "address": "京畿道涟川郡涟川邑富谷里山235",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "京畿道 · 涟川郡 · 才人瀑布"
+        }
+      }
+    },
+    {
+      "place_id": "P061",
+      "latitude": 38.0390316062079,
+      "longitude": 127.739867906177,
+      "localized": {
+        "ko": {
+          "place_name": "용화산",
+          "region": "강원특별자치도",
+          "city": "화천군",
+          "address": "강원특별자치도 화천군 하남면 삼화리 102-7",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "강원특별자치도 · 화천군 · 용화산"
+        },
+        "en": {
+          "place_name": "Yonghwasan Mountain",
+          "region": "Gangwon State",
+          "city": "Hwacheon County",
+          "address": "102-7, Samhwa-ri, Hanam-myeon, Hwacheon-gun, Gangwon State",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gangwon State · Hwacheon County · Yonghwasan Mountain"
+        },
+        "ja": {
+          "place_name": "龍華山",
+          "region": "江原特別自治道",
+          "city": "華川郡",
+          "address": "江原特別自治道華川郡下南面三和里102-7",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "江原特別自治道 · 華川郡 · 龍華山"
+        },
+        "zh": {
+          "place_name": "龙华山",
+          "region": "江原特别自治道",
+          "city": "华川郡",
+          "address": "江原特别自治道华川郡下南面三和里102-7",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "江原特别自治道 · 华川郡 · 龙华山"
+        }
+      }
+    },
+    {
+      "place_id": "P062",
+      "latitude": 36.102744829484976,
+      "longitude": 127.10481905674301,
+      "localized": {
+        "ko": {
+          "place_name": "선샤인스튜디오",
+          "region": "충청남도",
+          "city": "논산시",
+          "address": "충남 논산시 연무읍 봉황로 90",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "충청남도 · 논산시 · 선샤인스튜디오"
+        },
+        "en": {
+          "place_name": "Sunshine Studio",
+          "region": "Chungcheongnam-do",
+          "city": "Nonsan-si",
+          "address": "90, Bonghwang-ro, Yeonmu-eup, Nonsan-si, Chungcheongnam-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Chungcheongnam-do · Nonsan-si · Sunshine Studio"
+        },
+        "ja": {
+          "place_name": "サンシャインスタジオ",
+          "region": "忠清南道",
+          "city": "論山市",
+          "address": "忠清南道論山市練武邑鳳凰路90",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "忠清南道 · 論山市 · サンシャインスタジオ"
+        },
+        "zh": {
+          "place_name": "阳光工作室",
+          "region": "忠清南道",
+          "city": "论山市",
+          "address": "忠清南道论山市练武邑凤凰路90",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "忠清南道 · 论山市 · 阳光工作室"
+        }
+      }
+    },
+    {
+      "place_id": "P065",
+      "latitude": 36.824683799127605,
+      "longitude": 126.57337176623733,
+      "localized": {
+        "ko": {
+          "place_name": "서산 유기방 가옥",
+          "region": "충청남도",
+          "city": "서산시",
+          "address": "충남 서산시 운산면 이문안길 72-10",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "충청남도 · 서산시 · 서산 유기방 가옥"
+        },
+        "en": {
+          "place_name": "Seosan Yugibang House",
+          "region": "Chungcheongnam-do",
+          "city": "Seosan-si",
+          "address": "72-10, Imunan-gil, Unsan-myeon, Seosan-si, Chungcheongnam-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Chungcheongnam-do · Seosan-si · Seosan Yugibang House"
+        },
+        "ja": {
+          "place_name": "瑞山ユギバン家屋",
+          "region": "忠清南道",
+          "city": "瑞山市",
+          "address": "忠清南道瑞山市雲山面二文安キル72-10",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "忠清南道 · 瑞山市 · 瑞山ユギバン家屋"
+        },
+        "zh": {
+          "place_name": "瑞山柳基邦宅邸",
+          "region": "忠清南道",
+          "city": "瑞山市",
+          "address": "忠清南道瑞山市云山面二文安街72-10",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "忠清南道 · 瑞山市 · 瑞山柳基邦宅邸"
+        }
+      }
+    },
+    {
+      "place_id": "P066",
+      "latitude": 36.41044601464208,
+      "longitude": 128.90985170979334,
+      "localized": {
+        "ko": {
+          "place_name": "안동 만휴정",
+          "region": "경상북도",
+          "city": "안동시",
+          "address": "경북 안동시 길안면 묵계하리길 42",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "경상북도 · 안동시 · 안동 만휴정"
+        },
+        "en": {
+          "place_name": "Andong Manhyujeong Pavilion",
+          "region": "Gyeongsangbuk-do",
+          "city": "Andong-si",
+          "address": "42, Mukgyehari-gil, Giran-myeon, Andong-si, Gyeongsangbuk-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gyeongsangbuk-do · Andong-si · Andong Manhyujeong Pavilion"
+        },
+        "ja": {
+          "place_name": "安東・晩休亭",
+          "region": "慶尚北道",
+          "city": "安東市",
+          "address": "慶尚北道安東市吉安面默溪下里キル42",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "慶尚北道 · 安東市 · 安東・晩休亭"
+        },
+        "zh": {
+          "place_name": "安东晚休亭",
+          "region": "庆尚北道",
+          "city": "安东市",
+          "address": "庆尚北道安东市吉安面默溪下里街42",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "庆尚北道 · 安东市 · 安东晚休亭"
+        }
+      }
+    },
+    {
+      "place_id": "P067",
+      "latitude": 35.85586772774384,
+      "longitude": 128.4845367856981,
+      "localized": {
+        "ko": {
+          "place_name": "계명대학교",
+          "region": "대구광역시",
+          "city": "대구광역시",
+          "address": "대구 달서구 달구벌대로 1095",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "대구광역시 · 계명대학교"
+        },
+        "en": {
+          "place_name": "Keimyung University",
+          "region": "Daegu Metropolitan City",
+          "city": "Daegu Metropolitan City",
+          "address": "1095, Dalgubeol-daero, Dalseo-gu, Daegu",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Daegu Metropolitan City · Keimyung University"
+        },
+        "ja": {
+          "place_name": "啓明大学校",
+          "region": "大邱広域市",
+          "city": "大邱広域市",
+          "address": "大邱広域市達西区達句伐大路1095",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "大邱広域市 · 啓明大学校"
+        },
+        "zh": {
+          "place_name": "启明大学",
+          "region": "大邱广域市",
+          "city": "大邱广域市",
+          "address": "大邱广域市达西区达句伐大路1095",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "大邱广域市 · 启明大学"
+        }
+      }
+    },
+    {
+      "place_id": "P068",
+      "latitude": 37.83274730890742,
+      "longitude": 127.54214100487543,
+      "localized": {
+        "ko": {
+          "place_name": "춘천 제이드가든",
+          "region": "강원특별자치도",
+          "city": "춘천시",
+          "address": "강원특별자치도 춘천시 남산면 햇골길 80",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "강원특별자치도 · 춘천시 · 춘천 제이드가든"
+        },
+        "en": {
+          "place_name": "Jade Garden, Chuncheon",
+          "region": "Gangwon Special Self-Governing Province",
+          "city": "Chuncheon",
+          "address": "80, Haetgol-gil, Namsan-myeon, Chuncheon-si, Gangwon State",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gangwon Special Self-Governing Province · Chuncheon · Jade Garden, Chuncheon"
+        },
+        "ja": {
+          "place_name": "春川 ジェイドガーデン",
+          "region": "江原特別自治道",
+          "city": "春川市",
+          "address": "江原特別自治道春川市南山面ヘッコルキル80",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "江原特別自治道 · 春川市 · 春川 ジェイドガーデン"
+        },
+        "zh": {
+          "place_name": "春川翡翠花园",
+          "region": "江原特别自治道",
+          "city": "春川市",
+          "address": "江原特别自治道春川市南山面海谷街80",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "江原特别自治道 · 春川市 · 春川翡翠花园"
+        }
+      }
+    },
+    {
+      "place_id": "P069",
+      "latitude": 37.79144074509299,
+      "longitude": 127.52521014329739,
+      "localized": {
+        "ko": {
+          "place_name": "남이섬",
+          "region": "강원특별자치도",
+          "city": "춘천시",
+          "address": "강원특별자치도 춘천시 남산면 남이섬길 1",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "강원특별자치도 · 춘천시 · 남이섬"
+        },
+        "en": {
+          "place_name": "Nami Island",
+          "region": "Gangwon Special Self-Governing Province",
+          "city": "Chuncheon",
+          "address": "1, Namiseom-gil, Namsan-myeon, Chuncheon-si, Gangwon State",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gangwon Special Self-Governing Province · Chuncheon · Nami Island"
+        },
+        "ja": {
+          "place_name": "南怡島",
+          "region": "江原特別自治道",
+          "city": "春川市",
+          "address": "江原特別自治道春川市南山面南怡島キル1",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "江原特別自治道 · 春川市 · 南怡島"
+        },
+        "zh": {
+          "place_name": "南怡岛",
+          "region": "江原特别自治道",
+          "city": "春川市",
+          "address": "江原特别自治道春川市南山面南怡岛街1",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "江原特别自治道 · 春川市 · 南怡岛"
+        }
+      }
+    },
+    {
+      "place_id": "P070",
+      "latitude": 37.79153,
+      "longitude": 127.52554,
+      "localized": {
+        "ko": {
+          "place_name": "남이섬 겹벚나무길",
+          "region": "강원특별자치도",
+          "city": "춘천시",
+          "address": "강원특별자치도 춘천시 남산면 남이섬길 1",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "강원특별자치도 · 춘천시 · 남이섬 겹벚나무길"
+        },
+        "en": {
+          "place_name": "Nami Island Double Cherry Tree Lane",
+          "region": "Gangwon State",
+          "city": "Chuncheon",
+          "address": "1, Namiseom-gil, Namsan-myeon, Chuncheon-si, Gangwon State",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gangwon State · Chuncheon · Nami Island Double Cherry Tree Lane"
+        },
+        "ja": {
+          "place_name": "南怡島の八重桜並木道",
+          "region": "江原特別自治道",
+          "city": "春川市",
+          "address": "江原特別自治道春川市南山面南怡島キル1",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "江原特別自治道 · 春川市 · 南怡島の八重桜並木道"
+        },
+        "zh": {
+          "place_name": "南怡岛重瓣樱花树路",
+          "region": "江原特别自治道",
+          "city": "春川市",
+          "address": "江原特别自治道春川市南山面南怡岛街1",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "江原特别自治道 · 春川市 · 南怡岛重瓣樱花树路"
+        }
+      }
+    },
+    {
+      "place_id": "P071",
+      "latitude": 37.7894276637595,
+      "longitude": 127.524480667386,
+      "localized": {
+        "ko": {
+          "place_name": "남이섬 메타세쿼이아길",
+          "region": "강원특별자치도",
+          "city": "춘천시",
+          "address": "강원특별자치도 춘천시 남산면 남이섬길 1",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "강원특별자치도 · 춘천시 · 남이섬 메타세쿼이아길"
+        },
+        "en": {
+          "place_name": "Nami Island Metasequoia Lane",
+          "region": "Gangwon State",
+          "city": "Chuncheon",
+          "address": "1, Namiseom-gil, Namsan-myeon, Chuncheon-si, Gangwon State",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gangwon State · Chuncheon · Nami Island Metasequoia Lane"
+        },
+        "ja": {
+          "place_name": "南怡島メタセコイア並木道",
+          "region": "江原特別自治道",
+          "city": "春川市",
+          "address": "江原特別自治道春川市南山面南怡島キル1",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "江原特別自治道 · 春川市 · 南怡島メタセコイア並木道"
+        },
+        "zh": {
+          "place_name": "南怡岛水杉路",
+          "region": "江原特别自治道",
+          "city": "春川市",
+          "address": "江原特别自治道春川市南山面南怡岛街1",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "江原特别自治道 · 春川市 · 南怡岛水杉路"
+        }
+      }
+    },
+    {
+      "place_id": "P072",
+      "latitude": 37.7395687372143,
+      "longitude": 127.351930894034,
+      "localized": {
+        "ko": {
+          "place_name": "아침고요수목원 서화연",
+          "region": "경기도",
+          "city": "가평군",
+          "address": "경기 가평군 상면 수목원로 432",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "경기도 · 가평군 · 아침고요수목원 서화연"
+        },
+        "en": {
+          "place_name": "Seohwayeon at the Garden of Morning Calm",
+          "region": "Gyeonggi Province",
+          "city": "Gapyeong County",
+          "address": "432, Sumogwon-ro, Sang-myeon, Gapyeong-gun, Gyeonggi-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gyeonggi Province · Gapyeong County · Seohwayeon at the Garden of Morning Calm"
+        },
+        "ja": {
+          "place_name": "朝の庭園・書花軒",
+          "region": "京畿道",
+          "city": "加平郡",
+          "address": "キョンギ道カピョン郡サン面スモグォンロ432",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "京畿道 · 加平郡 · 朝の庭園・書花軒"
+        },
+        "zh": {
+          "place_name": "晨静树木园书花渊",
+          "region": "京畿道",
+          "city": "加平郡",
+          "address": "京畿道加平郡上面树木园路432号",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "京畿道 · 加平郡 · 晨静树木园书花渊"
+        }
+      }
+    },
+    {
+      "place_id": "P073",
+      "latitude": 35.81275813126205,
+      "longitude": 127.15713397830652,
+      "localized": {
+        "ko": {
+          "place_name": "전주향교",
+          "region": "전북특별자치도",
+          "city": "전주시",
+          "address": "전북특별자치도 전주시 완산구 향교길 139",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "전북특별자치도 · 전주시 · 전주향교"
+        },
+        "en": {
+          "place_name": "Jeonju Hyanggyo",
+          "region": "Jeonbuk Special Self-Governing Province",
+          "city": "Jeonju-si",
+          "address": "139 Hyanggyo-gil, Wansan-gu, Jeonju-si, Jeonbuk Special Self-Governing Province",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Jeonbuk Special Self-Governing Province · Jeonju-si · Jeonju Hyanggyo"
+        },
+        "ja": {
+          "place_name": "全州郷校",
+          "region": "全北特別自治道",
+          "city": "全州市",
+          "address": "全北特別自治道全州市完山区郷校キル139",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "全北特別自治道 · 全州市 · 全州郷校"
+        },
+        "zh": {
+          "place_name": "全州乡校",
+          "region": "全北特别自治道",
+          "city": "全州市",
+          "address": "全北特别自治道全州市完山区乡校路139号",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "全北特别自治道 · 全州市 · 全州乡校"
+        }
+      }
+    },
+    {
+      "place_id": "P074",
+      "latitude": 37.2056640235218,
+      "longitude": 128.433061290293,
+      "localized": {
+        "ko": {
+          "place_name": "영월 선돌",
+          "region": "강원특별자치도",
+          "city": "영월군",
+          "address": "강원특별자치도 영월군 영월읍 방절리 769-4",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "강원특별자치도 · 영월군 · 영월 선돌"
+        },
+        "en": {
+          "place_name": "Yeongwol Seondol",
+          "region": "Gangwon Special Self-Governing Province",
+          "city": "Yeongwol-gun",
+          "address": "769-4 Bangjeol-ri, Yeongwol-eup, Yeongwol-gun, Gangwon Special Self-Governing Province",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gangwon Special Self-Governing Province · Yeongwol-gun · Yeongwol Seondol"
+        },
+        "ja": {
+          "place_name": "寧越ソンドル",
+          "region": "江原特別自治道",
+          "city": "寧越郡",
+          "address": "江原特別自治道寧越郡寧越邑芳切里769-4",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "江原特別自治道 · 寧越郡 · 寧越ソンドル"
+        },
+        "zh": {
+          "place_name": "宁越仙石",
+          "region": "江原特别自治道",
+          "city": "宁越郡",
+          "address": "江原特别自治道宁越郡宁越邑芳切里769-4号",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "江原特别自治道 · 宁越郡 · 宁越仙石"
+        }
+      }
+    },
+    {
+      "place_id": "P075",
+      "latitude": 36.5389828267328,
+      "longitude": 128.518141153901,
+      "localized": {
+        "ko": {
+          "place_name": "안동 하회마을",
+          "region": "경상북도",
+          "city": "안동시",
+          "address": "경북 안동시 풍천면 하회리 1176-1",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "경상북도 · 안동시 · 안동 하회마을"
+        },
+        "en": {
+          "place_name": "Andong Hahoe Village",
+          "region": "Gyeongsangbuk-do",
+          "city": "Andong",
+          "address": "1176-1 Hahoe-ri, Pungcheon-myeon, Andong-si, Gyeongsangbuk-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gyeongsangbuk-do · Andong · Andong Hahoe Village"
+        },
+        "ja": {
+          "place_name": "安東河回村",
+          "region": "慶尚北道",
+          "city": "安東市",
+          "address": "慶尚北道安東市豊川面河回里1176-1",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "慶尚北道 · 安東市 · 安東河回村"
+        },
+        "zh": {
+          "place_name": "安东河回村",
+          "region": "庆尚北道",
+          "city": "安东市",
+          "address": "庆尚北道安东市丰川面河回里1176-1号",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "庆尚北道 · 安东市 · 安东河回村"
+        }
+      }
+    },
+    {
+      "place_id": "P083",
+      "latitude": 37.7073429953365,
+      "longitude": 127.398350926483,
+      "localized": {
+        "ko": {
+          "place_name": "북한강길",
+          "region": "경기도",
+          "city": "가평군",
+          "address": "경기 가평군 청평면 삼회리",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "경기도 · 가평군 · 북한강길"
+        },
+        "en": {
+          "place_name": "Bukhangang Road",
+          "region": "Gyeonggi Province",
+          "city": "Gapyeong-gun",
+          "address": "Samhoe-ri, Cheongpyeong-myeon, Gapyeong-gun, Gyeonggi-do",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Gyeonggi Province · Gapyeong-gun · Bukhangang Road"
+        },
+        "ja": {
+          "place_name": "北漢江路",
+          "region": "京畿道",
+          "city": "加平郡",
+          "address": "京畿道加平郡清平面三回里",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "京畿道 · 加平郡 · 北漢江路"
+        },
+        "zh": {
+          "place_name": "北汉江路",
+          "region": "京畿道",
+          "city": "加平郡",
+          "address": "京畿道加平郡清平面三回里",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "京畿道 · 加平郡 · 北汉江路"
+        }
+      }
+    },
+    {
+      "place_id": "P087",
+      "latitude": 36.12690505722286,
+      "longitude": 128.69488263069803,
+      "localized": {
+        "ko": {
+          "place_name": "화본역",
+          "region": "대구광역시",
+          "city": "군위군",
+          "address": "대구 군위군 산성면 산성가음로 711-9",
+          "address_language": "ko",
+          "address_status": "source",
+          "location_label": "대구광역시 · 군위군 · 화본역"
+        },
+        "en": {
+          "place_name": "Hwabon Station",
+          "region": "Daegu Metropolitan City",
+          "city": "Gunwi County",
+          "address": "711-9 Sanseonggaeum-ro, Sanseong-myeon, Gunwi-gun, Daegu",
+          "address_language": "en",
+          "address_status": "translated",
+          "location_label": "Daegu Metropolitan City · Gunwi County · Hwabon Station"
+        },
+        "ja": {
+          "place_name": "花本駅",
+          "region": "大邱広域市",
+          "city": "軍威郡",
+          "address": "大邱広域市軍威郡山城面山城加音路711-9",
+          "address_language": "ja",
+          "address_status": "translated",
+          "location_label": "大邱広域市 · 軍威郡 · 花本駅"
+        },
+        "zh": {
+          "place_name": "花本站",
+          "region": "大邱广域市",
+          "city": "军威郡",
+          "address": "大邱广域市军威郡山城面山城加音路711-9号",
+          "address_language": "zh",
+          "address_status": "translated",
+          "location_label": "大邱广域市 · 军威郡 · 花本站"
+        }
+      }
+    }
+  ],
+  "address_translation": {
+    "model": "gpt-5.6-luna",
+    "source_language": "ko",
+    "target_languages": [
+      "en",
+      "ja",
+      "zh"
+    ],
+    "translated_place_count": 66,
+    "verified_representative_address_count": 8,
+    "remaining_missing_address_count": 0
+  }
+}

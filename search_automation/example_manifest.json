@@ -1,0 +1,15 @@
+{
+  "metadata": "../path/to/current_metadata.json",
+  "baseline_metadata": "../path/to/previous_metadata.json",
+  "translations": "../path/to/display_translations.json",
+  "existing_title_catalog": "../path/to/drama_title_catalog.json",
+  "existing_location_catalog": "../path/to/location_alias_catalog.json",
+  "theme_mapping": "../search-service/data/theme_mapping.confirmed_final_v7.json",
+  "theme_rules": "../path/to/theme_rules.json",
+  "evaluation": "../path/to/multilingual_evaluation.json",
+  "text_embeddings": "../path/to/segment_embeddings.json",
+  "image_embeddings": "../path/to/keyframe_embeddings.json",
+  "coordinates": "../search-service/data/places_coordinates_517.json",
+  "policy": "config/search_policy.json",
+  "output_dir": "output/latest"
+}
