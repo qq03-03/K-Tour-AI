@@ -1,0 +1,1079 @@
+﻿{
+  "schema_version": "1.0",
+  "result_unit": "segment",
+  "ground_truth_status": "human_reviewed_against_pr3_metadata",
+  "description": "PR #3의 45개 segment metadata와 대표 프레임을 기준으로 수동 검수한 segment 단위 검색 평가셋",
+  "queries": [
+    {
+      "query_id": "PROD_KO_001",
+      "language": "ko",
+      "query": "봄 낮의 평화로운 노란 유채꽃밭 길을 걷는 장면",
+      "relevant_video_ids": [
+        "WLGYT_01"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/WLGYT_01/WLGYT_01_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "season": [
+          "봄"
+        ],
+        "time_of_day": [
+          "낮"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "평화로운"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_002",
+      "language": "ko",
+      "query": "봄에 노란 꽃밭과 멀리 산이 보이는 장면",
+      "relevant_video_ids": [
+        "WLGYT_02"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/WLGYT_02/WLGYT_02_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "season": [
+          "봄"
+        ]
+      },
+      "expected_soft_hints": {},
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_003",
+      "language": "ko",
+      "query": "초록색과 노란색 들판이 내려다보이는 평화로운 농촌 풍경",
+      "relevant_video_ids": [
+        "WLGYT_03"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/WLGYT_03/WLGYT_03_SCENE_01.jpg",
+        "keyframes/WLGYT_03/WLGYT_03_SCENE_02.jpg"
+      ],
+      "expected_filters": {},
+      "expected_soft_hints": {
+        "mood": [
+          "평화로운"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_004",
+      "language": "ko",
+      "query": "흐린 낮 조용한 골목길에 자동차가 세워진 장면",
+      "relevant_video_ids": [
+        "OBS_01"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/OBS_01/OBS_01_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "time_of_day": [
+          "낮"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "고요한"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_005",
+      "language": "ko",
+      "query": "낮에 역사적인 돌담 근처를 사람들이 걷는 차분한 장면",
+      "relevant_video_ids": [
+        "OBS_02"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/OBS_02/OBS_02_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "time_of_day": [
+          "낮"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "고요한"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_006",
+      "language": "ko",
+      "query": "여름 낮 전주의 한옥과 녹지가 내려다보이는 평화로운 풍경",
+      "relevant_video_ids": [
+        "TFTO_07"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/TFTO_07/TFTO_07_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "전주"
+        ],
+        "season": [
+          "여름"
+        ],
+        "time_of_day": [
+          "낮"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "평화로운"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_007",
+      "language": "ko",
+      "query": "여름의 푸른 나무에 둘러싸인 조용한 전통 누각",
+      "relevant_video_ids": [
+        "TFTO_07"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/TFTO_07/TFTO_07_SCENE_02.jpg"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "고요한"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_008",
+      "language": "ko",
+      "query": "알록달록한 지붕과 벽화가 있는 활기찬 마을 전경",
+      "relevant_video_ids": [
+        "TFTO_07"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/TFTO_07/TFTO_07_SCENE_03.jpg"
+      ],
+      "expected_filters": {},
+      "expected_soft_hints": {
+        "mood": [
+          "활기찬"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_009",
+      "language": "ko",
+      "query": "여름 낮 바다 전망과 주차장이 있는 조용한 공원",
+      "relevant_video_ids": [
+        "HCCC_01"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/HCCC_01/HCCC_01_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ],
+        "time_of_day": [
+          "낮"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "고요한"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_010",
+      "language": "ko",
+      "query": "바다와 등대가 내려다보이는 평화로운 언덕길",
+      "relevant_video_ids": [
+        "HCCC_01"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/HCCC_01/HCCC_01_SCENE_02.jpg"
+      ],
+      "expected_filters": {},
+      "expected_soft_hints": {
+        "mood": [
+          "평화로운"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_011",
+      "language": "ko",
+      "query": "햇빛이 비치는 소나무 숲의 나무 산책로",
+      "relevant_video_ids": [
+        "HCCC_01"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/HCCC_01/HCCC_01_SCENE_03.jpg"
+      ],
+      "expected_filters": {},
+      "expected_soft_hints": {},
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_012",
+      "language": "ko",
+      "query": "여름의 항구와 등대가 보이는 평화로운 해안 마을",
+      "relevant_video_ids": [
+        "HCCC_02"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/HCCC_02/HCCC_02_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "평화로운"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_013",
+      "language": "ko",
+      "query": "빨간 등대와 방파제 옆에 배가 떠 있는 바다",
+      "relevant_video_ids": [
+        "HCCC_02"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/HCCC_02/HCCC_02_SCENE_02.jpg"
+      ],
+      "expected_filters": {},
+      "expected_soft_hints": {},
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_014",
+      "language": "ko",
+      "query": "파란 지붕과 사람들이 보이는 활기찬 해안 마을",
+      "relevant_video_ids": [
+        "HCCC_02"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/HCCC_02/HCCC_02_SCENE_03.jpg"
+      ],
+      "expected_filters": {},
+      "expected_soft_hints": {
+        "mood": [
+          "활기찬"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_015",
+      "language": "ko",
+      "query": "제주의 바위섬과 산이 함께 보이는 평화로운 해안",
+      "relevant_video_ids": [
+        "OURBLUES_04"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/OURBLUES_04/OURBLUES_04_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "제주"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "평화로운"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_016",
+      "language": "ko",
+      "query": "제주 여름 바다와 섬을 향해 이어지는 조용한 도로",
+      "relevant_video_ids": [
+        "OURBLUES_05"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/OURBLUES_05/OURBLUES_05_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "제주"
+        ],
+        "season": [
+          "여름"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "고요한"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_017",
+      "language": "ko",
+      "query": "제주에서 버스를 타고 초록 나무가 늘어선 길을 지나는 장면",
+      "relevant_video_ids": [
+        "OURBLUES_07"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/OURBLUES_07/OURBLUES_07_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "제주"
+        ]
+      },
+      "expected_soft_hints": {},
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_018",
+      "language": "ko",
+      "query": "제주 바다에서 커다란 노란 오리 튜브를 타는 여름 장면",
+      "relevant_video_ids": [
+        "OURBLUES_07"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/OURBLUES_07/OURBLUES_07_SCENE_02.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "제주"
+        ],
+        "season": [
+          "여름"
+        ]
+      },
+      "expected_soft_hints": {},
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_019",
+      "language": "ko",
+      "query": "제주의 빨간 지붕 집과 어선이 보이는 평화로운 해안 마을",
+      "relevant_video_ids": [
+        "OURBLUES_07"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/OURBLUES_07/OURBLUES_07_SCENE_03.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "제주"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "평화로운"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_020",
+      "language": "ko",
+      "query": "강릉의 파도치는 바위 방파제에서 남녀가 마주 보는 낭만적인 장면",
+      "relevant_video_ids": [
+        "GOBLIN_01"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/GOBLIN_01/GOBLIN_01_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "강릉"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "낭만적인"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_021",
+      "language": "ko",
+      "query": "강릉 바닷가의 바위길에 파도가 세게 부딪히는 장면",
+      "relevant_video_ids": [
+        "GOBLIN_02"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/GOBLIN_02/GOBLIN_02_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "강릉"
+        ]
+      },
+      "expected_soft_hints": {},
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_022",
+      "language": "ko",
+      "query": "강원의 겨울 낮 눈 덮인 숲과 다리를 걷는 평화로운 장면",
+      "relevant_video_ids": [
+        "GOBLIN_03"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/GOBLIN_03/GOBLIN_03_SCENE_01.jpg",
+        "keyframes/GOBLIN_03/GOBLIN_03_SCENE_02.jpg",
+        "keyframes/GOBLIN_03/GOBLIN_03_SCENE_03.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "강원"
+        ],
+        "season": [
+          "겨울"
+        ],
+        "time_of_day": [
+          "낮"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "평화로운"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_023",
+      "language": "ko",
+      "query": "흐린 겨울 숲의 눈 덮인 다리에서 두 사람이 걷는 장면",
+      "relevant_video_ids": [
+        "GOBLIN_03"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/GOBLIN_03/GOBLIN_03_SCENE_01.jpg",
+        "keyframes/GOBLIN_03/GOBLIN_03_SCENE_02.jpg",
+        "keyframes/GOBLIN_03/GOBLIN_03_SCENE_03.jpg"
+      ],
+      "expected_filters": {
+        "season": [
+          "겨울"
+        ]
+      },
+      "expected_soft_hints": {},
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_024",
+      "language": "ko",
+      "query": "눈 덮인 다리와 강 주변을 연인이 걷는 조용한 겨울 장면",
+      "relevant_video_ids": [
+        "GOBLIN_03"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/GOBLIN_03/GOBLIN_03_SCENE_01.jpg",
+        "keyframes/GOBLIN_03/GOBLIN_03_SCENE_02.jpg",
+        "keyframes/GOBLIN_03/GOBLIN_03_SCENE_03.jpg"
+      ],
+      "expected_filters": {
+        "season": [
+          "겨울"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "고요한"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_025",
+      "language": "ko",
+      "query": "눈 쌓인 전통 사찰과 한옥 건물이 보이는 고요한 겨울 풍경",
+      "relevant_video_ids": [
+        "GOBLIN_04"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/GOBLIN_04/GOBLIN_04_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "season": [
+          "겨울"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "고요한"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_026",
+      "language": "ko",
+      "query": "여름 낮 바닷가 나무 데크에 MANGSANG 글자가 있는 장면",
+      "relevant_video_ids": [
+        "hotel_deluna_mangsang_02"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/hotel_deluna_mangsang_02/hotel_deluna_mangsang_02_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ],
+        "time_of_day": [
+          "낮"
+        ]
+      },
+      "expected_soft_hints": {},
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_027",
+      "language": "ko",
+      "query": "맑은 여름 하늘 아래 공원 방향 표지판이 있는 장면",
+      "relevant_video_ids": [
+        "hotel_deluna_mangsang_02"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/hotel_deluna_mangsang_02/hotel_deluna_mangsang_02_SCENE_02.jpg"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ]
+      },
+      "expected_soft_hints": {},
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_028",
+      "language": "ko",
+      "query": "인천의 현대적인 호텔에서 노란 호박 조형물을 구경하는 장면",
+      "relevant_video_ids": [
+        "hotel_deluna_paradise_01"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/hotel_deluna_paradise_01/hotel_deluna_paradise_01_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "인천"
+        ]
+      },
+      "expected_soft_hints": {},
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_029",
+      "language": "ko",
+      "query": "인천의 밤 놀이공원에서 회전목마를 타는 신나는 장면",
+      "relevant_video_ids": [
+        "hotel_deluna_paradise_01"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/hotel_deluna_paradise_01/hotel_deluna_paradise_01_SCENE_02.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "인천"
+        ],
+        "time_of_day": [
+          "밤"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "활기찬"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_KO_030",
+      "language": "ko",
+      "query": "서울의 낮 경복궁 입구와 사람들이 내려다보이는 장면",
+      "relevant_video_ids": [
+        "kingdom_gyeongbok_01"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/kingdom_gyeongbok_01/kingdom_gyeongbok_01_SCENE_02.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "서울"
+        ],
+        "time_of_day": [
+          "낮"
+        ]
+      },
+      "expected_soft_hints": {},
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_EN_001",
+      "language": "en",
+      "query": "A calm palace courtyard in Seoul with visitors walking",
+      "relevant_video_ids": [
+        "kingdom_gyeongbok_01"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/kingdom_gyeongbok_01/kingdom_gyeongbok_01_SCENE_03.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "서울"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "고요한"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_EN_002",
+      "language": "en",
+      "query": "A peaceful autumn view of Huijeongdang Hall in Seoul",
+      "relevant_video_ids": [
+        "kingdom_changdeok_01"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/kingdom_changdeok_01/kingdom_changdeok_01_SCENE_02.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "서울"
+        ],
+        "season": [
+          "가을"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "평화로운"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_EN_003",
+      "language": "en",
+      "query": "A serene autumn daytime view of Changgyeonggung Palace in Seoul",
+      "relevant_video_ids": [
+        "kingdom_changdeok_01"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/kingdom_changdeok_01/kingdom_changdeok_01_SCENE_03.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "서울"
+        ],
+        "season": [
+          "가을"
+        ],
+        "time_of_day": [
+          "낮"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "고요한"
+        ]
+      },
+      "case_type": "place_region_season_time_mood",
+      "rationale": "P030 창경궁 대표 프레임과 PR #3 metadata의 가을·낮·고요한 궁궐 장면을 기준으로 검수한 질의"
+    },
+    {
+      "query_id": "PROD_EN_004",
+      "language": "en",
+      "query": "A close-up of a colorful traditional Korean roof with calligraphy",
+      "relevant_video_ids": [
+        "kingdom_changdeok_02"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/kingdom_changdeok_02/kingdom_changdeok_02_SCENE_01.jpg"
+      ],
+      "expected_filters": {},
+      "expected_soft_hints": {},
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_JA_001",
+      "language": "ja",
+      "query": "夏の緑豊かな木々に囲まれた静かな韓屋",
+      "relevant_video_ids": [
+        "kingdom_changdeok_02"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/kingdom_changdeok_02/kingdom_changdeok_02_SCENE_02.jpg"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "고요한"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_JA_002",
+      "language": "ja",
+      "query": "冬の雪原にある木造の構造物と遠くの山",
+      "relevant_video_ids": [
+        "WTWIF_02"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/WTWIF_02/WTWIF_02_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "season": [
+          "겨울"
+        ]
+      },
+      "expected_soft_hints": {},
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_JA_003",
+      "language": "ja",
+      "query": "冬の夕暮れ、雪に覆われた森の小道を歩く場面",
+      "relevant_video_ids": [
+        "WTWIF_03"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/WTWIF_03/WTWIF_03_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "season": [
+          "겨울"
+        ],
+        "time_of_day": [
+          "해질녘"
+        ]
+      },
+      "expected_soft_hints": {},
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_ZH_001",
+      "language": "zh",
+      "query": "春天宁静的湖畔和森林覆盖的山景",
+      "relevant_video_ids": [
+        "DIVA_02"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/DIVA_02/DIVA_02_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "season": [
+          "봄"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "고요한"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_ZH_002",
+      "language": "zh",
+      "query": "首尔夜晚热闹的清溪川喷泉和人群",
+      "relevant_video_ids": [
+        "LITC_01"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/LITC_01/LITC_01_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "서울"
+        ],
+        "time_of_day": [
+          "밤"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "활기찬"
+        ]
+      },
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_ZH_003",
+      "language": "zh",
+      "query": "首尔夜晚有河流、桥梁和灯光轨迹的现代城市天际线",
+      "relevant_video_ids": [
+        "LITC_01"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/LITC_01/LITC_01_SCENE_02.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "서울"
+        ],
+        "time_of_day": [
+          "밤"
+        ]
+      },
+      "expected_soft_hints": {},
+      "case_type": "production_scene_reviewed",
+      "rationale": "PR #3 metadata와 대표 프레임 설명을 기준으로 정답 segment를 수동 검수한 장면 질의"
+    },
+    {
+      "query_id": "PROD_REC_KO_001",
+      "language": "ko",
+      "query": "제주 서쪽에서 바다와 섬을 보며 드라이브하는 도로 장면을 보여줘",
+      "relevant_video_ids": [
+        "OURBLUES_05"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/OURBLUES_05/OURBLUES_05_SCENE_01.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "제주"
+        ]
+      },
+      "expected_soft_hints": {},
+      "case_type": "recommendation_activity",
+      "rationale": "금능리 일대의 바다와 섬으로 이어지는 도로가 명확한 장면만 사용한 제주 드라이브 테마 질의"
+    },
+    {
+      "query_id": "PROD_REC_KO_002",
+      "language": "ko",
+      "query": "전주에서 한옥마을 거리와 전통 건축을 둘러보기 좋은 곳",
+      "relevant_video_ids": [
+        "OBS_01",
+        "TFTO_07"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/OBS_01/OBS_01_SCENE_01.jpg",
+        "keyframes/TFTO_07/TFTO_07_SCENE_01.jpg"
+      ],
+      "expected_filters": {},
+      "expected_soft_hints": {},
+      "case_type": "recommendation_activity",
+      "rationale": "차 없는 거리 운영 가능성을 고려해 차량 추천을 제거하고 한옥 거리와 전경을 찾도록 수정한 질의"
+    },
+    {
+      "query_id": "PROD_REC_KO_003",
+      "language": "ko",
+      "query": "봄꽃을 보며 산책하기 좋은 평화로운 여행지를 추천해줘",
+      "relevant_video_ids": [
+        "WLGYT_01",
+        "WLGYT_02",
+        "WLGYT_03"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/WLGYT_01/WLGYT_01_SCENE_01.jpg",
+        "keyframes/WLGYT_02/WLGYT_02_SCENE_01.jpg",
+        "keyframes/WLGYT_03/WLGYT_03_SCENE_01.jpg",
+        "keyframes/WLGYT_03/WLGYT_03_SCENE_02.jpg"
+      ],
+      "expected_filters": {
+        "season": [
+          "봄"
+        ]
+      },
+      "expected_soft_hints": {},
+      "case_type": "recommendation_activity",
+      "rationale": "노란 꽃밭·들판·산책로가 확인되는 고창 학원농장 장면을 묶은 추천 질의"
+    },
+    {
+      "query_id": "PROD_REC_KO_004",
+      "language": "ko",
+      "query": "서울에서 화려한 야경을 보며 걷기 좋은 곳을 추천해줘",
+      "relevant_video_ids": [
+        "LITC_01"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/LITC_01/LITC_01_SCENE_01.jpg",
+        "keyframes/LITC_01/LITC_01_SCENE_02.jpg"
+      ],
+      "expected_filters": {
+        "region": [
+          "서울"
+        ],
+        "time_of_day": [
+          "밤"
+        ]
+      },
+      "expected_soft_hints": {},
+      "case_type": "recommendation_activity",
+      "rationale": "조명·분수·도시 하천·야간 보행 장면을 이용한 프론트 야경 테마 질의"
+    },
+    {
+      "query_id": "PROD_REC_KO_005",
+      "language": "ko",
+      "query": "가을 단풍과 전통 궁궐을 함께 볼 수 있는 곳",
+      "relevant_video_ids": [
+        "kingdom_changdeok_01"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/kingdom_changdeok_01/kingdom_changdeok_01_SCENE_02.jpg"
+      ],
+      "expected_filters": {
+        "season": [
+          "가을"
+        ]
+      },
+      "expected_soft_hints": {},
+      "case_type": "recommendation_activity",
+      "rationale": "가을 나무와 희정당 전통 건축이 함께 확인되는 장면을 이용한 단풍 질의"
+    },
+    {
+      "query_id": "PROD_REC_KO_006",
+      "language": "ko",
+      "query": "넓은 백사장과 바다가 있는 해변에서 사진 찍기 좋은 곳을 추천해줘",
+      "relevant_video_ids": [
+        "hotel_deluna_mangsang_02"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/hotel_deluna_mangsang_02/hotel_deluna_mangsang_02_SCENE_01.jpg"
+      ],
+      "expected_filters": {},
+      "expected_soft_hints": {},
+      "case_type": "recommendation_activity",
+      "rationale": "공식 관광자료에서 실제 백사장 해변으로 확인되고 프레임의 photography 활동과 일치하는 망상해변 질의"
+    },
+    {
+      "query_id": "PROD_REC_KO_007",
+      "language": "ko",
+      "query": "갯마을 차차차 촬영지 중 바다와 빨간 등대가 보이는 어촌마을을 추천해줘",
+      "relevant_video_ids": [
+        "HCCC_02"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/HCCC_02/HCCC_02_SCENE_01.jpg",
+        "keyframes/HCCC_02/HCCC_02_SCENE_02.jpg"
+      ],
+      "expected_filters": {},
+      "expected_soft_hints": {},
+      "case_type": "recommendation_activity",
+      "rationale": "공식 촬영지로 확인된 구룡포 석병리와 빨간 등대가 보이는 장면만 사용한 드라마·해변 테마 질의"
+    },
+    {
+      "query_id": "PROD_REC_KO_008",
+      "language": "ko",
+      "query": "한적한 제주 포구에서 바다와 작은 어선을 바라보며 쉬기 좋은 곳",
+      "relevant_video_ids": [
+        "OURBLUES_07"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/OURBLUES_07/OURBLUES_07_SCENE_03.jpg"
+      ],
+      "expected_filters": {},
+      "expected_soft_hints": {},
+      "case_type": "recommendation_activity",
+      "rationale": "금능포구는 해수욕장이 아닌 작은 포구이므로 물놀이 추천을 제거하고 실제 장소 성격에 맞춘 휴식 질의"
+    },
+    {
+      "query_id": "PROD_REC_KO_009",
+      "language": "ko",
+      "query": "도깨비 촬영지 중 파도가 치는 바닷가 방파제를 보여줘",
+      "relevant_video_ids": [
+        "GOBLIN_01",
+        "GOBLIN_02"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/GOBLIN_01/GOBLIN_01_SCENE_01.jpg",
+        "keyframes/GOBLIN_02/GOBLIN_02_SCENE_01.jpg"
+      ],
+      "expected_filters": {},
+      "expected_soft_hints": {},
+      "case_type": "recommendation_activity",
+      "rationale": "도깨비의 주문진 촬영지에서 파도·바위·방파제가 확인되는 장면을 이용한 드라마·해변 테마 질의"
+    },
+    {
+      "query_id": "PROD_REC_KO_010",
+      "language": "ko",
+      "query": "등대와 어선이 보이는 한적한 해안 마을을 보여줘",
+      "relevant_video_ids": [
+        "HCCC_02"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/HCCC_02/HCCC_02_SCENE_01.jpg",
+        "keyframes/HCCC_02/HCCC_02_SCENE_02.jpg"
+      ],
+      "expected_filters": {},
+      "expected_soft_hints": {},
+      "case_type": "recommendation_activity",
+      "rationale": "해안 마을·항구·등대·배가 확인되는 두 장면을 묶은 해변 풍경 질의"
+    }
+  ]
+}

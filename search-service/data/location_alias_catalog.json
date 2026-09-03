@@ -1,0 +1,573 @@
+{
+  "catalog_version": "2026-08-05",
+  "description": "QueryParser가 행정 지역과 P001~P030 관광지명을 구분하기 위한 다국어 검색 별칭 카탈로그",
+  "alias_policy": "공식 영문 표기를 우선하고, 공식 표기를 확인하기 어려운 장소는 검색용 로마자·현지어 변형을 함께 보존한다. 별칭은 UI 표시용 번역이 아니다.",
+  "region_aliases": [
+    {
+      "canonical": "서울",
+      "aliases": {
+        "ko": ["서울", "서울특별시"],
+        "en": ["Seoul", "Seoul Special City"],
+        "ja": ["ソウル", "ソウル特別市"],
+        "zh": ["首尔", "首爾", "首尔特别市", "首爾特別市"]
+      }
+    },
+    {
+      "canonical": "부산",
+      "aliases": {
+        "ko": ["부산", "부산광역시"],
+        "en": ["Busan"],
+        "ja": ["釜山"],
+        "zh": ["釜山"]
+      }
+    },
+    {
+      "canonical": "대구",
+      "aliases": {
+        "ko": ["대구", "대구광역시"],
+        "en": ["Daegu"],
+        "ja": ["大邱"],
+        "zh": ["大邱"]
+      }
+    },
+    {
+      "canonical": "울산",
+      "aliases": {
+        "ko": ["울산", "울산광역시"],
+        "en": ["Ulsan"],
+        "ja": ["蔚山"],
+        "zh": ["蔚山"]
+      }
+    },
+    {
+      "canonical": "제주",
+      "aliases": {
+        "ko": ["제주", "제주도", "제주특별자치도"],
+        "en": ["Jeju", "Jeju Island", "Jeju-do"],
+        "ja": ["済州", "済州島"],
+        "zh": ["济州", "濟州", "济州岛", "濟州島"]
+      }
+    },
+    {
+      "canonical": "강원",
+      "aliases": {
+        "ko": ["강원", "강원도", "강원특별자치도"],
+        "en": ["Gangwon", "Gangwon-do"],
+        "ja": ["江原", "江原道"],
+        "zh": ["江原", "江原道"]
+      }
+    },
+    {
+      "canonical": "경기",
+      "aliases": {
+        "ko": ["경기", "경기도"],
+        "en": ["Gyeonggi", "Gyeonggi-do"],
+        "ja": ["京畿", "京畿道"],
+        "zh": ["京畿", "京畿道"]
+      }
+    },
+    {
+      "canonical": "인천",
+      "aliases": {
+        "ko": ["인천", "인천광역시"],
+        "en": ["Incheon"],
+        "ja": ["仁川"],
+        "zh": ["仁川"]
+      }
+    },
+    {
+      "canonical": "광주",
+      "aliases": {
+        "ko": ["광주", "광주광역시"],
+        "en": ["Gwangju"],
+        "ja": ["光州"],
+        "zh": ["光州"]
+      }
+    },
+    {
+      "canonical": "대전",
+      "aliases": {
+        "ko": ["대전", "대전광역시"],
+        "en": ["Daejeon"],
+        "ja": ["大田"],
+        "zh": ["大田"]
+      }
+    },
+    {
+      "canonical": "세종",
+      "aliases": {
+        "ko": ["세종", "세종시", "세종특별자치시"],
+        "en": ["Sejong", "Sejong City"],
+        "ja": ["世宗", "世宗市"],
+        "zh": ["世宗", "世宗市"]
+      }
+    },
+    {
+      "canonical": "충북",
+      "aliases": {
+        "ko": ["충북", "충청북도"],
+        "en": ["Chungbuk", "Chungcheongbuk-do", "North Chungcheong"],
+        "ja": ["忠清北道"],
+        "zh": ["忠清北道"]
+      }
+    },
+    {
+      "canonical": "충남",
+      "aliases": {
+        "ko": ["충남", "충청남도"],
+        "en": ["Chungnam", "Chungcheongnam-do", "South Chungcheong"],
+        "ja": ["忠清南道"],
+        "zh": ["忠清南道"]
+      }
+    },
+    {
+      "canonical": "전북",
+      "aliases": {
+        "ko": ["전북", "전라북도", "전북특별자치도"],
+        "en": ["Jeonbuk", "Jeollabuk-do", "North Jeolla"],
+        "ja": ["全羅北道"],
+        "zh": ["全罗北道", "全羅北道"]
+      }
+    },
+    {
+      "canonical": "전남",
+      "aliases": {
+        "ko": ["전남", "전라남도"],
+        "en": ["Jeonnam", "Jeollanam-do", "South Jeolla"],
+        "ja": ["全羅南道"],
+        "zh": ["全罗南道", "全羅南道"]
+      }
+    },
+    {
+      "canonical": "경북",
+      "aliases": {
+        "ko": ["경북", "경상북도"],
+        "en": ["Gyeongbuk", "Gyeongsangbuk-do", "North Gyeongsang"],
+        "ja": ["慶尚北道"],
+        "zh": ["庆尚北道", "慶尚北道"]
+      }
+    },
+    {
+      "canonical": "경남",
+      "aliases": {
+        "ko": ["경남", "경상남도"],
+        "en": ["Gyeongnam", "Gyeongsangnam-do", "South Gyeongsang"],
+        "ja": ["慶尚南道"],
+        "zh": ["庆尚南道", "慶尚南道"]
+      }
+    },
+    {
+      "canonical": ["서울", "경기", "인천"],
+      "aliases": {
+        "ko": ["수도권"],
+        "en": ["Seoul Capital Area", "Korean Capital Region"],
+        "ja": ["首都圏"],
+        "zh": ["首都圈"]
+      }
+    },
+    {
+      "canonical": ["대전", "세종", "충북", "충남"],
+      "aliases": {
+        "ko": ["충청도", "충청권"],
+        "en": ["Chungcheong region"],
+        "ja": ["忠清道", "忠清圏"],
+        "zh": ["忠清道", "忠清地区"]
+      }
+    },
+    {
+      "canonical": ["광주", "전북", "전남"],
+      "aliases": {
+        "ko": ["전라도", "전라권", "호남", "호남권"],
+        "en": ["Jeolla region", "Honam region"],
+        "ja": ["全羅道", "湖南地方"],
+        "zh": ["全罗道", "全羅道", "湖南地区"]
+      }
+    },
+    {
+      "canonical": ["부산", "대구", "울산", "경북", "경남"],
+      "aliases": {
+        "ko": ["경상도", "경상권", "영남", "영남권"],
+        "en": ["Gyeongsang region", "Yeongnam region"],
+        "ja": ["慶尚道", "嶺南地方"],
+        "zh": ["庆尚道", "慶尚道", "岭南地区", "嶺南地區"]
+      }
+    },
+    {
+      "canonical": "전주",
+      "aliases": {
+        "ko": ["전주", "전주시"],
+        "en": ["Jeonju", "Jeonju City"],
+        "ja": ["全州", "全州市"],
+        "zh": ["全州", "全州市"]
+      }
+    },
+    {
+      "canonical": "평창",
+      "aliases": {
+        "ko": ["평창", "평창군"],
+        "en": ["Pyeongchang", "Pyeongchang County"],
+        "ja": ["平昌", "平昌郡"],
+        "zh": ["平昌", "平昌郡"]
+      }
+    },
+    {
+      "canonical": "고창",
+      "aliases": {
+        "ko": ["고창", "고창군"],
+        "en": ["Gochang", "Gochang County"],
+        "ja": ["高敞", "高敞郡"],
+        "zh": ["高敞", "高敞郡"]
+      }
+    },
+    {
+      "canonical": "포항",
+      "aliases": {
+        "ko": ["포항", "포항시"],
+        "en": ["Pohang", "Pohang City"],
+        "ja": ["浦項", "浦項市"],
+        "zh": ["浦项", "浦項", "浦项市", "浦項市"]
+      }
+    },
+    {
+      "canonical": "강릉",
+      "aliases": {
+        "ko": ["강릉", "강릉시"],
+        "en": ["Gangneung", "Gangneung City"],
+        "ja": ["江陵", "江陵市"],
+        "zh": ["江陵", "江陵市"]
+      }
+    }
+  ],
+  "place_aliases": [
+    {
+      "place_id": "P001",
+      "place_name": "화성행궁",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["화성행궁", "수원 화성행궁"],
+        "en": ["Temporary Palace at Hwaseong Fortress, Suwon", "Temporary Palace at Hwaseong Fortress", "Hwaseong Haenggung Palace"],
+        "ja": ["華城行宮", "水原華城行宮"],
+        "zh": ["华城行宫", "華城行宮", "水原华城行宫", "水原華城行宮"]
+      }
+    },
+    {
+      "place_id": "P002",
+      "place_name": "여의도공원 이벤트광장",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["여의도공원 이벤트광장", "여의도공원", "이벤트광장"],
+        "en": ["Yeouido Park Cultural Event Plaza", "Cultural Event Plaza", "Yeouido Park Event Plaza", "Yeouido Park", "Event Plaza"],
+        "ja": ["汝矣島公園イベント広場", "汝矣島公園"],
+        "zh": ["汝矣岛公园活动广场", "汝矣島公園活動廣場", "汝矣岛公园", "汝矣島公園"]
+      }
+    },
+    {
+      "place_id": "P003",
+      "place_name": "수원대학교",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["수원대학교", "수원대"],
+        "en": ["The University of Suwon", "University of Suwon", "Suwon University"],
+        "ja": ["水原大学校", "水原大学"],
+        "zh": ["水原大学", "水原大學"]
+      }
+    },
+    {
+      "place_id": "P004",
+      "place_name": "고창 학원농장",
+      "explicit_region_filter": "고창",
+      "aliases": {
+        "ko": ["고창 학원농장", "학원농장"],
+        "en": ["Hagwon Tourist Farm", "Gochang Hagwon Farm", "Hagwon Farm"],
+        "ja": ["高敞ハグォン農場", "ハグォン農場"],
+        "zh": ["高敞鹤苑农场", "高敞鶴苑農場", "鹤苑农场", "鶴苑農場"]
+      }
+    },
+    {
+      "place_id": "P005",
+      "place_name": "전주 한옥마을",
+      "explicit_region_filter": "전주",
+      "aliases": {
+        "ko": ["전주 한옥마을", "전주한옥마을"],
+        "en": ["Jeonju Hanok Village"],
+        "ja": ["全州韓屋村", "全州韓屋マウル"],
+        "zh": ["全州韩屋村", "全州韓屋村"]
+      }
+    },
+    {
+      "place_id": "P006",
+      "place_name": "온빛자연휴양림",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["온빛자연휴양림", "온빛 자연휴양림"],
+        "en": ["Onbit Natural Recreation Forest", "Onbit Recreation Forest"],
+        "ja": ["オンビッ自然休養林", "オンビッ休養林"],
+        "zh": ["Onbit自然休养林", "Onbit自然休養林"]
+      }
+    },
+    {
+      "place_id": "P007",
+      "place_name": "한벽굴(한벽터널)",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["한벽굴", "한벽터널", "한벽굴 한벽터널"],
+        "en": ["Hanbyeok Tunnel", "Hanbyeok Cave"],
+        "ja": ["寒碧窟", "寒碧トンネル", "ハンビョクトンネル"],
+        "zh": ["寒碧隧道", "韩碧隧道", "韓碧隧道"]
+      }
+    },
+    {
+      "place_id": "P008",
+      "place_name": "명진 책 대여점",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["명진 책 대여점", "명진책대여점", "명진 책방"],
+        "en": ["Myungjin Book Rental Shop", "Myeongjin Book Rental Shop"],
+        "ja": ["ミョンジン貸本屋", "ミョンジン図書貸出店"],
+        "zh": ["明津书籍出租店", "明津書籍出租店"]
+      }
+    },
+    {
+      "place_id": "P009",
+      "place_name": "오목대",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["오목대"],
+        "en": ["Omokdae", "Omokdae Observatory", "Omokdae Historic Site"],
+        "ja": ["梧木台", "オモクデ"],
+        "zh": ["梧木台"]
+      }
+    },
+    {
+      "place_id": "P010",
+      "place_name": "포항 영일만항",
+      "explicit_region_filter": "포항",
+      "aliases": {
+        "ko": ["포항 영일만항", "영일만항", "영일만항 국제여객터미널"],
+        "en": ["Pohang Yeongilman Port", "Yeongilman Port", "Yeongil Bay Port"],
+        "ja": ["浦項迎日湾港", "迎日湾港"],
+        "zh": ["浦项迎日湾港", "浦項迎日灣港", "迎日湾港", "迎日灣港"]
+      }
+    },
+    {
+      "place_id": "P011",
+      "place_name": "고성오일시장",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["고성오일시장", "고성 오일시장", "고성5일시장", "고성 오일장"],
+        "en": ["Goseong Fifth-day Market", "Goseong Five-day Market"],
+        "ja": ["高城五日市場", "コソン五日市場"],
+        "zh": ["高城五日市场", "高城五日市場"]
+      }
+    },
+    {
+      "place_id": "P012",
+      "place_name": "비내섬",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["비내섬"],
+        "en": ["Binaeseom Island", "Binaeseom"],
+        "ja": ["ビネ島", "ビネソム"],
+        "zh": ["比内岛", "比內島", "Binaeseom"]
+      }
+    },
+    {
+      "place_id": "P013",
+      "place_name": "강릉 주문진방파제",
+      "explicit_region_filter": "강릉",
+      "aliases": {
+        "ko": ["강릉 주문진방파제", "주문진방파제", "주문진 방파제"],
+        "en": ["Jumunjin Breakwater", "Gangneung Jumunjin Breakwater"],
+        "ja": ["注文津防波堤", "江陵注文津防波堤"],
+        "zh": ["注文津防波堤", "江陵注文津防波堤"]
+      }
+    },
+    {
+      "place_id": "P014",
+      "place_name": "월정사",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["월정사"],
+        "en": ["Woljeongsa", "Woljeongsa Temple"],
+        "ja": ["月精寺"],
+        "zh": ["月精寺"]
+      }
+    },
+    {
+      "place_id": "P015",
+      "place_name": "망상해변",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["망상해변", "망상 해변", "망상해수욕장"],
+        "en": ["Mangsang Beach", "Mangsang Beach Resort"],
+        "ja": ["望祥海水浴場", "マンサンビーチ"],
+        "zh": ["望祥海水浴场", "望祥海水浴場"]
+      }
+    },
+    {
+      "place_id": "P016",
+      "place_name": "경복궁",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["경복궁"],
+        "en": ["Gyeongbokgung Palace", "Gyeongbok Palace"],
+        "ja": ["景福宮"],
+        "zh": ["景福宫", "景福宮"]
+      }
+    },
+    {
+      "place_id": "P017",
+      "place_name": "창덕궁",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["창덕궁"],
+        "en": ["Changdeokgung Palace", "Changdeokgung Palace Complex"],
+        "ja": ["昌徳宮"],
+        "zh": ["昌德宫", "昌德宮"]
+      }
+    },
+    {
+      "place_id": "P018",
+      "place_name": "주천강 섶다리",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["주천강 섶다리", "주천강섶다리", "판운리 섶다리"],
+        "en": ["Panun-ri Seopdari Bridge", "Jucheon River Seopdari Bridge", "Jucheongang Seopdari Bridge"],
+        "ja": ["酒泉江ソプタリ", "パンウン里ソプタリ橋"],
+        "zh": ["酒泉江传统木桥", "酒泉江傳統木橋", "酒泉江木桥", "酒泉江木橋", "板云里木桥", "板雲里木橋"]
+      }
+    },
+    {
+      "place_id": "P019",
+      "place_name": "함창역",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["함창역"],
+        "en": ["Hamchang Station"],
+        "ja": ["咸昌駅"],
+        "zh": ["咸昌站"]
+      }
+    },
+    {
+      "place_id": "P020",
+      "place_name": "장항스카이워크",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["장항스카이워크", "장항 스카이워크"],
+        "en": ["Janghang Skywalk"],
+        "ja": ["長項スカイウォーク", "チャンハンスカイウォーク"],
+        "zh": ["长项天空步道", "長項天空步道"]
+      }
+    },
+    {
+      "place_id": "P021",
+      "place_name": "청계천(청계광장)",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["청계천", "청계광장", "청계천 청계광장"],
+        "en": ["Cheonggyecheon Stream", "Cheonggye Plaza", "Cheonggyecheon"],
+        "ja": ["清渓川", "清渓広場"],
+        "zh": ["清溪川", "清溪广场", "清溪廣場"]
+      }
+    },
+    {
+      "place_id": "P022",
+      "place_name": "파라다이스시티호텔",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["파라다이스시티호텔", "파라다이스시티 호텔", "파라다이스시티"],
+        "en": ["Hotel Paradise", "Paradise Hotel & Resort", "Paradise City Hotel", "Paradise City"],
+        "ja": ["パラダイスシティホテル", "パラダイスシティ"],
+        "zh": ["Paradise City酒店", "百乐达斯城酒店", "百樂達斯城酒店"]
+      }
+    },
+    {
+      "place_id": "P023",
+      "place_name": "포항 구룡포 석병리",
+      "explicit_region_filter": "포항",
+      "aliases": {
+        "ko": ["포항 구룡포 석병리", "구룡포 석병리", "석병리"],
+        "en": ["Seokbyeong-ri Guryongpo", "Guryongpo Seokbyeong-ri"],
+        "ja": ["浦項九龍浦石屛里", "九龍浦石屛里", "浦項九龍浦石屏里", "九龍浦石屏里"],
+        "zh": ["浦项九龙浦石屏里", "浦項九龍浦石屛里", "九龙浦石屏里", "九龍浦石屛里"]
+      }
+    },
+    {
+      "place_id": "P024",
+      "place_name": "청하공진시장",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["청하공진시장", "청하 공진시장", "공진시장"],
+        "en": ["Cheongha Market (Gongjin Market)", "Cheongha Market", "Cheongha Gongjin Market", "Gongjin Market"],
+        "ja": ["清河コンジン市場", "コンジン市場"],
+        "zh": ["清河市场（公辰市场）", "清河市場（公辰市場）", "清河公辰市场", "清河公辰市場", "公辰市场", "公辰市場"]
+      }
+    },
+    {
+      "place_id": "P025",
+      "place_name": "청굴물",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["청굴물", "청굴물 용천수"],
+        "en": ["Gimnyeong Cheonggulmul (Spring Water)", "Gimnyeong Cheonggulmul", "Cheonggulmul", "Cheonggulmul Spring"],
+        "ja": ["チョングルムル", "チョングルムル湧水"],
+        "zh": ["Cheonggulmul", "Cheonggulmul泉"]
+      }
+    },
+    {
+      "place_id": "P026",
+      "place_name": "태봉왓",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["태봉왓", "태봉왓 캠핑장"],
+        "en": ["Taebongwat", "Taebongwat Campground"],
+        "ja": ["テボンワッ", "テボンワッキャンプ場"],
+        "zh": ["Taebongwat", "Taebongwat露营地", "Taebongwat露營地"]
+      }
+    },
+    {
+      "place_id": "P027",
+      "place_name": "금능리 대표 촬영지",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["금능리 대표 촬영지", "금능리 촬영지", "금능리"],
+        "en": ["Geumneung-ri Filming Location", "Geumneung-ri"],
+        "ja": ["金陵里ロケ地", "金陵里"],
+        "zh": ["金陵里拍摄地", "金陵里拍攝地", "金陵里"]
+      }
+    },
+    {
+      "place_id": "P028",
+      "place_name": "금능포구",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["금능포구", "금능 포구"],
+        "en": ["Geumneung Port", "Geumneung Harbor"],
+        "ja": ["金陵浦口", "クムヌン浦口"],
+        "zh": ["金陵浦口"]
+      }
+    },
+    {
+      "place_id": "P029",
+      "place_name": "경천섬공원",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["경천섬공원", "경천섬 공원", "경천섬"],
+        "en": ["Gyeongcheonseom Island (Gyeongcheonseom Park)", "Gyeongcheonseom Island", "Gyeongcheonseom Park", "Gyeongcheonseom Island Park"],
+        "ja": ["擎天島（擎天島公園）", "擎天島公園", "擎天島", "キョンチョン島公園"],
+        "zh": ["擎天岛公园", "擎天島公園", "擎天岛", "擎天島"]
+      }
+    },
+    {
+      "place_id": "P030",
+      "place_name": "창경궁",
+      "explicit_region_filter": null,
+      "aliases": {
+        "ko": ["창경궁"],
+        "en": ["Changgyeonggung Palace", "Changgyeonggung"],
+        "ja": ["昌慶宮", "チャンギョングン"],
+        "zh": ["昌庆宫", "昌慶宮"]
+      }
+    }
+  ]
+}

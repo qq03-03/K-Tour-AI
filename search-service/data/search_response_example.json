@@ -1,0 +1,42 @@
+{
+  "query": "강원도의 평화로운 겨울 숲길을 걷는 장면",
+  "lang": "ko",
+  "query_status": "none",
+  "matched_drama_titles": [],
+  "possible_title": null,
+  "applied_filters": {
+    "region": ["강원"],
+    "season": ["겨울"],
+    "time_of_day": ["낮"]
+  },
+  "fallback_used": false,
+  "translation_fallback": false,
+  "results": [
+    {
+      "rank": 1,
+      "source_segment_id": "V008_P014_S001",
+      "segment_id": "V008_P014_S001_SCENE_001",
+      "video_id": "GOBLIN_03",
+      "place_id": "P014",
+      "drama_title": "도깨비",
+      "place_name": "평창 월정사",
+      "region": "강원특별자치도",
+      "city": "평창군",
+      "address": "강원특별자치도 평창군 진부면 오대산로 374-8",
+      "latitude": 37.73175082498766,
+      "longitude": 128.59212296344094,
+      "start_time": 10.0,
+      "end_time": 18.0,
+      "description": "눈 덮인 숲과 다리를 따라 사람들이 걷는 평화로운 겨울 장면",
+      "mood": ["평화로운", "고요한"],
+      "activity": ["걷기"],
+      "scene_elements": ["눈", "나무", "다리"],
+      "keyframe_id": "GOBLIN_03_SCENE_01",
+      "keyframe_path": "keyframes/GOBLIN_03/GOBLIN_03_SCENE_01.jpg",
+      "text_score": 0.86,
+      "image_score": 0.91,
+      "final_score": 0.89,
+      "content_language": "ko"
+    }
+  ]
+}

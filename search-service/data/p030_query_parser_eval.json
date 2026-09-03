@@ -1,0 +1,43 @@
+{
+  "description": "P030 창경궁의 한·영·일·중 OpenAI QueryParser 확인용 4문항",
+  "evaluation_scope": "query_parser_only_no_vector_search",
+  "dataset_version": "2026-08-05-p030",
+  "queries": [
+    {
+      "query_id": "PROJECT_ML_KO_011",
+      "language": "ko",
+      "query": "가을 낮에 서울 창경궁의 고요한 전통 궁궐 풍경",
+      "target_place_id": "P030",
+      "expected_filters": {"region": ["서울"], "season": ["가을"], "time_of_day": ["낮"]},
+      "expected_soft_hints": {"mood": ["고요한"]},
+      "case_type": "place_region_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_EN_011",
+      "language": "en",
+      "query": "A serene autumn daytime view of Changgyeonggung Palace in Seoul",
+      "target_place_id": "P030",
+      "expected_filters": {"region": ["서울"], "season": ["가을"], "time_of_day": ["낮"]},
+      "expected_soft_hints": {"mood": ["고요한"]},
+      "case_type": "place_region_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_JA_011",
+      "language": "ja",
+      "query": "ソウルの昌慶宮で見る静かな秋の昼の風景",
+      "target_place_id": "P030",
+      "expected_filters": {"region": ["서울"], "season": ["가을"], "time_of_day": ["낮"]},
+      "expected_soft_hints": {"mood": ["고요한"]},
+      "case_type": "place_region_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_ZH_011",
+      "language": "zh",
+      "query": "首尔昌庆宫宁静的秋日白天风景",
+      "target_place_id": "P030",
+      "expected_filters": {"region": ["서울"], "season": ["가을"], "time_of_day": ["낮"]},
+      "expected_soft_hints": {"mood": ["고요한"]},
+      "case_type": "place_region_season_time_mood"
+    }
+  ]
+}

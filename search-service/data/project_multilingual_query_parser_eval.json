@@ -1,0 +1,382 @@
+{
+  "description": "P001~P030 관광지와 등록 작품명을 사용한 4개 언어 OpenAI QueryParser 평가셋",
+  "evaluation_scope": "최종 VLM·임베딩과 독립적으로 region, season, time_of_day 하드 필터와 mood soft hint 및 응답시간을 평가",
+  "dataset_version": "2026-08-05",
+  "queries": [
+    {
+      "query_id": "PROJECT_ML_KO_001",
+      "language": "ko",
+      "query": "봄 낮에 평화로운 화성행궁 장면을 보여줘",
+      "target_place_id": "P001",
+      "expected_filters": {"season": ["봄"], "time_of_day": ["낮"]},
+      "expected_soft_hints": {"mood": ["평화로운"]},
+      "case_type": "place_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_KO_002",
+      "language": "ko",
+      "query": "여름 밤 여의도공원 이벤트광장 장면을 찾아줘",
+      "target_place_id": "P002",
+      "expected_filters": {"season": ["여름"], "time_of_day": ["밤"]},
+      "case_type": "place_season_time"
+    },
+    {
+      "query_id": "PROJECT_ML_KO_003",
+      "language": "ko",
+      "query": "가을 낮 수원대학교 촬영지를 보여줘",
+      "target_place_id": "P003",
+      "expected_filters": {"season": ["가을"], "time_of_day": ["낮"]},
+      "case_type": "place_season_time"
+    },
+    {
+      "query_id": "PROJECT_ML_KO_004",
+      "language": "ko",
+      "query": "봄 아침 활기찬 고창 학원농장 풍경",
+      "target_place_id": "P004",
+      "expected_filters": {"region": ["고창"], "season": ["봄"], "time_of_day": ["아침"]},
+      "expected_soft_hints": {"mood": ["활기찬"]},
+      "case_type": "place_region_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_KO_005",
+      "language": "ko",
+      "query": "봄 낮에 전주 한옥마을을 보여줘",
+      "target_place_id": "P005",
+      "expected_filters": {"region": ["전주"], "season": ["봄"], "time_of_day": ["낮"]},
+      "case_type": "place_region_season_time"
+    },
+    {
+      "query_id": "PROJECT_ML_KO_006",
+      "language": "ko",
+      "query": "여름 낮 온빛자연휴양림의 고요한 풍경",
+      "target_place_id": "P006",
+      "expected_filters": {"season": ["여름"], "time_of_day": ["낮"]},
+      "expected_soft_hints": {"mood": ["고요한"]},
+      "case_type": "place_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_KO_007",
+      "language": "ko",
+      "query": "밤의 신비로운 한벽터널 장면",
+      "target_place_id": "P007",
+      "expected_filters": {"time_of_day": ["밤"]},
+      "expected_soft_hints": {"mood": ["신비로운"]},
+      "case_type": "place_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_KO_008",
+      "language": "ko",
+      "query": "조용한 명진 책 대여점 촬영 장면",
+      "target_place_id": "P008",
+      "expected_filters": {},
+      "expected_soft_hints": {"mood": ["고요한"]},
+      "case_type": "place_mood_only"
+    },
+    {
+      "query_id": "PROJECT_ML_KO_009",
+      "language": "ko",
+      "query": "가을 해질녘 낭만적인 오목대 풍경",
+      "target_place_id": "P009",
+      "expected_filters": {"season": ["가을"], "time_of_day": ["해질녘"]},
+      "expected_soft_hints": {"mood": ["낭만적인"]},
+      "case_type": "place_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_KO_010",
+      "language": "ko",
+      "query": "겨울 낮 포항 영일만항 촬영 장면",
+      "target_place_id": "P010",
+      "expected_filters": {"region": ["포항"], "season": ["겨울"], "time_of_day": ["낮"]},
+      "case_type": "place_region_season_time"
+    },
+    {
+      "query_id": "PROJECT_ML_EN_001",
+      "language": "en",
+      "query": "A lively autumn daytime scene at Goseong Fifth-day Market in Jeju",
+      "target_place_id": "P011",
+      "expected_filters": {"region": ["제주"], "season": ["가을"], "time_of_day": ["낮"]},
+      "expected_soft_hints": {"mood": ["활기찬"]},
+      "case_type": "place_region_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_EN_002",
+      "language": "en",
+      "query": "A peaceful spring morning at Binaeseom Island",
+      "target_place_id": "P012",
+      "expected_filters": {"season": ["봄"], "time_of_day": ["아침"]},
+      "expected_soft_hints": {"mood": ["평화로운"]},
+      "case_type": "place_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_EN_003",
+      "language": "en",
+      "query": "Show me Jumunjin Breakwater during the day in summer",
+      "target_place_id": "P013",
+      "expected_filters": {"region": ["강릉"], "season": ["여름"], "time_of_day": ["낮"]},
+      "case_type": "place_region_season_time"
+    },
+    {
+      "query_id": "PROJECT_ML_EN_004",
+      "language": "en",
+      "query": "A winter filming location at Woljeongsa in Pyeongchang",
+      "target_place_id": "P014",
+      "expected_filters": {"region": ["평창"], "season": ["겨울"]},
+      "case_type": "place_region_season"
+    },
+    {
+      "query_id": "PROJECT_ML_EN_005",
+      "language": "en",
+      "query": "A romantic night scene at Mangsang Beach",
+      "target_place_id": "P015",
+      "expected_filters": {"time_of_day": ["밤"]},
+      "expected_soft_hints": {"mood": ["낭만적인"]},
+      "case_type": "place_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_EN_006",
+      "language": "en",
+      "query": "Gyeongbokgung Palace in Seoul during the day in spring",
+      "target_place_id": "P016",
+      "expected_filters": {"region": ["서울"], "season": ["봄"], "time_of_day": ["낮"]},
+      "case_type": "place_region_season_time"
+    },
+    {
+      "query_id": "PROJECT_ML_EN_007",
+      "language": "en",
+      "query": "A calm autumn morning at Changdeokgung Palace",
+      "target_place_id": "P017",
+      "expected_filters": {"season": ["가을"], "time_of_day": ["아침"]},
+      "expected_soft_hints": {"mood": ["고요한"]},
+      "case_type": "place_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_EN_008",
+      "language": "en",
+      "query": "Jucheon River Seopdari Bridge in Gangwon at winter sunset",
+      "target_place_id": "P018",
+      "expected_filters": {"region": ["강원"], "season": ["겨울"], "time_of_day": ["해질녘"]},
+      "case_type": "place_region_season_time"
+    },
+    {
+      "query_id": "PROJECT_ML_EN_009",
+      "language": "en",
+      "query": "A quiet dawn scene at Hamchang Station",
+      "target_place_id": "P019",
+      "expected_filters": {"time_of_day": ["새벽"]},
+      "expected_soft_hints": {"mood": ["고요한"]},
+      "case_type": "place_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_EN_010",
+      "language": "en",
+      "query": "Janghang Skywalk in South Chungcheong at sunset",
+      "target_place_id": "P020",
+      "expected_filters": {"region": ["충남"], "time_of_day": ["해질녘"]},
+      "case_type": "place_region_time"
+    },
+    {
+      "query_id": "PROJECT_ML_JA_001",
+      "language": "ja",
+      "query": "春の昼、ソウルの清渓川を見せて",
+      "target_place_id": "P021",
+      "expected_filters": {"region": ["서울"], "season": ["봄"], "time_of_day": ["낮"]},
+      "case_type": "place_region_season_time"
+    },
+    {
+      "query_id": "PROJECT_ML_JA_002",
+      "language": "ja",
+      "query": "仁川のパラダイスシティホテルの華やかな夜景",
+      "target_place_id": "P022",
+      "expected_filters": {"region": ["인천"], "time_of_day": ["밤"]},
+      "expected_soft_hints": {"mood": ["화려한"]},
+      "case_type": "place_region_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_JA_003",
+      "language": "ja",
+      "query": "夏の浦項九龍浦石屏里を見せて",
+      "target_place_id": "P023",
+      "expected_filters": {"region": ["포항"], "season": ["여름"]},
+      "case_type": "place_region_season"
+    },
+    {
+      "query_id": "PROJECT_ML_JA_004",
+      "language": "ja",
+      "query": "秋の朝、にぎやかな清河コンジン市場",
+      "target_place_id": "P024",
+      "expected_filters": {"season": ["가을"], "time_of_day": ["아침"]},
+      "expected_soft_hints": {"mood": ["활기찬"]},
+      "case_type": "place_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_JA_005",
+      "language": "ja",
+      "query": "済州のチョングルムルで神秘的な夏の昼の景色",
+      "target_place_id": "P025",
+      "expected_filters": {"region": ["제주"], "season": ["여름"], "time_of_day": ["낮"]},
+      "expected_soft_hints": {"mood": ["신비로운"]},
+      "case_type": "place_region_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_JA_006",
+      "language": "ja",
+      "query": "春の朝、心が安らぐテボンワッの風景",
+      "target_place_id": "P026",
+      "expected_filters": {"season": ["봄"], "time_of_day": ["아침"]},
+      "expected_soft_hints": {"mood": ["평화로운"]},
+      "case_type": "place_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_JA_007",
+      "language": "ja",
+      "query": "秋の夕暮れに金陵里ロケ地のロマンチックな景色",
+      "target_place_id": "P027",
+      "expected_filters": {"season": ["가을"], "time_of_day": ["해질녘"]},
+      "expected_soft_hints": {"mood": ["낭만적인"]},
+      "case_type": "place_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_JA_008",
+      "language": "ja",
+      "query": "夏の昼に金陵浦口を見せて",
+      "target_place_id": "P028",
+      "expected_filters": {"season": ["여름"], "time_of_day": ["낮"]},
+      "case_type": "place_season_time"
+    },
+    {
+      "query_id": "PROJECT_ML_JA_009",
+      "language": "ja",
+      "query": "冬の朝、静かな擎天島公園",
+      "target_place_id": "P029",
+      "expected_filters": {"season": ["겨울"], "time_of_day": ["아침"]},
+      "expected_soft_hints": {"mood": ["고요한"]},
+      "case_type": "place_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_JA_010",
+      "language": "ja",
+      "query": "夏の夜、ソウルにある「その年、私たちは」のロケ地",
+      "expected_filters": {"region": ["서울"], "season": ["여름"], "time_of_day": ["밤"]},
+      "case_type": "registered_title_with_external_filters"
+    },
+    {
+      "query_id": "PROJECT_ML_ZH_001",
+      "language": "zh",
+      "query": "首尔夜晚的《那年，我们的夏天》拍摄地",
+      "expected_filters": {"region": ["서울"], "time_of_day": ["밤"]},
+      "case_type": "registered_title_protected_season"
+    },
+    {
+      "query_id": "PROJECT_ML_ZH_002",
+      "language": "zh",
+      "query": "请展示春天白天的华城行宫",
+      "target_place_id": "P001",
+      "expected_filters": {"season": ["봄"], "time_of_day": ["낮"]},
+      "case_type": "place_season_time"
+    },
+    {
+      "query_id": "PROJECT_ML_ZH_003",
+      "language": "zh",
+      "query": "秋天早晨水原大学的拍摄地",
+      "target_place_id": "P003",
+      "expected_filters": {"season": ["가을"], "time_of_day": ["아침"]},
+      "case_type": "place_season_time"
+    },
+    {
+      "query_id": "PROJECT_ML_ZH_004",
+      "language": "zh",
+      "query": "冬天夜晚的济州高城五日市场",
+      "target_place_id": "P011",
+      "expected_filters": {"region": ["제주"], "season": ["겨울"], "time_of_day": ["밤"]},
+      "case_type": "place_region_season_time"
+    },
+    {
+      "query_id": "PROJECT_ML_ZH_005",
+      "language": "zh",
+      "query": "江原道日落时的酒泉江传统木桥",
+      "target_place_id": "P018",
+      "expected_filters": {"region": ["강원"], "time_of_day": ["해질녘"]},
+      "case_type": "place_region_time"
+    },
+    {
+      "query_id": "PROJECT_ML_ZH_006",
+      "language": "zh",
+      "query": "仁川白天的Paradise City酒店",
+      "target_place_id": "P022",
+      "expected_filters": {"region": ["인천"], "time_of_day": ["낮"]},
+      "case_type": "place_region_time"
+    },
+    {
+      "query_id": "PROJECT_ML_ZH_007",
+      "language": "zh",
+      "query": "夏天浦项九龙浦石屏里的宁静风景",
+      "target_place_id": "P023",
+      "expected_filters": {"region": ["포항"], "season": ["여름"]},
+      "expected_soft_hints": {"mood": ["고요한"]},
+      "case_type": "place_region_season_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_ZH_008",
+      "language": "zh",
+      "query": "秋天清河公辰市场的热闹场景",
+      "target_place_id": "P024",
+      "expected_filters": {"season": ["가을"]},
+      "expected_soft_hints": {"mood": ["활기찬"]},
+      "case_type": "place_season_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_ZH_009",
+      "language": "zh",
+      "query": "金陵浦口的浪漫日落",
+      "target_place_id": "P028",
+      "expected_filters": {"time_of_day": ["해질녘"]},
+      "expected_soft_hints": {"mood": ["낭만적인"]},
+      "case_type": "place_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_ZH_010",
+      "language": "zh",
+      "query": "冬天早晨庆天岛公园的平静风景",
+      "target_place_id": "P029",
+      "expected_filters": {"season": ["겨울"], "time_of_day": ["아침"]},
+      "expected_soft_hints": {"mood": ["평화로운"]},
+      "case_type": "place_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_KO_011",
+      "language": "ko",
+      "query": "가을 낮에 서울 창경궁의 고요한 전통 궁궐 풍경",
+      "target_place_id": "P030",
+      "expected_filters": {"region": ["서울"], "season": ["가을"], "time_of_day": ["낮"]},
+      "expected_soft_hints": {"mood": ["고요한"]},
+      "case_type": "place_region_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_EN_011",
+      "language": "en",
+      "query": "A serene autumn daytime view of Changgyeonggung Palace in Seoul",
+      "target_place_id": "P030",
+      "expected_filters": {"region": ["서울"], "season": ["가을"], "time_of_day": ["낮"]},
+      "expected_soft_hints": {"mood": ["고요한"]},
+      "case_type": "place_region_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_JA_011",
+      "language": "ja",
+      "query": "ソウルの昌慶宮で見る静かな秋の昼の風景",
+      "target_place_id": "P030",
+      "expected_filters": {"region": ["서울"], "season": ["가을"], "time_of_day": ["낮"]},
+      "expected_soft_hints": {"mood": ["고요한"]},
+      "case_type": "place_region_season_time_mood"
+    },
+    {
+      "query_id": "PROJECT_ML_ZH_011",
+      "language": "zh",
+      "query": "首尔昌庆宫宁静的秋日白天风景",
+      "target_place_id": "P030",
+      "expected_filters": {"region": ["서울"], "season": ["가을"], "time_of_day": ["낮"]},
+      "expected_soft_hints": {"mood": ["고요한"]},
+      "case_type": "place_region_season_time_mood"
+    }
+  ]
+}

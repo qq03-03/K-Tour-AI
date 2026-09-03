@@ -1,0 +1,1606 @@
+{
+  "schema_version": "2.0",
+  "result_unit": "source_segment_id",
+  "languages": [
+    "ko",
+    "en",
+    "ja",
+    "zh"
+  ],
+  "query_count": 40,
+  "ground_truth_status": "draft_needs_final_human_review",
+  "excluded_place_ids": [
+    "P063"
+  ],
+  "queries": [
+    {
+      "query_id": "EVAL_KO_01",
+      "language": "ko",
+      "theme": "야경",
+      "query": "밤에 색색의 조명이 물에 비치는 평화로운 다리 풍경",
+      "relevant_source_segment_ids": [
+        "V007_P031_S002"
+      ],
+      "relevant_segment_ids": [
+        "V007_P031_S002_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V007_P031_S002_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P031"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ],
+        "time_of_day": [
+          "night"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "peaceful"
+        ],
+        "scene_elements": [
+          "bridge",
+          "lights",
+          "water"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_EN_01",
+      "language": "en",
+      "theme": "야경",
+      "query": "A peaceful bridge at night with colorful lights reflected on the water",
+      "relevant_source_segment_ids": [
+        "V007_P031_S002"
+      ],
+      "relevant_segment_ids": [
+        "V007_P031_S002_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V007_P031_S002_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P031"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ],
+        "time_of_day": [
+          "night"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "peaceful"
+        ],
+        "scene_elements": [
+          "bridge",
+          "lights",
+          "water"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_JA_01",
+      "language": "ja",
+      "theme": "야경",
+      "query": "夜、色とりどりの照明が水面に映る静かな橋の風景",
+      "relevant_source_segment_ids": [
+        "V007_P031_S002"
+      ],
+      "relevant_segment_ids": [
+        "V007_P031_S002_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V007_P031_S002_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P031"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ],
+        "time_of_day": [
+          "night"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "peaceful"
+        ],
+        "scene_elements": [
+          "bridge",
+          "lights",
+          "water"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_ZH_01",
+      "language": "zh",
+      "theme": "야경",
+      "query": "夜晚彩色灯光倒映在水面上的宁静桥梁景色",
+      "relevant_source_segment_ids": [
+        "V007_P031_S002"
+      ],
+      "relevant_segment_ids": [
+        "V007_P031_S002_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V007_P031_S002_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V007_Z7u5SNDq0jw/V007_P031_S002_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P031"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ],
+        "time_of_day": [
+          "night"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "peaceful"
+        ],
+        "scene_elements": [
+          "bridge",
+          "lights",
+          "water"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_KO_02",
+      "language": "ko",
+      "theme": "꽃",
+      "query": "봄에 겹벚꽃이 가득한 길을 걷기 좋은 장소",
+      "relevant_source_segment_ids": [
+        "V045_P070_S001",
+        "V045_P069_S001"
+      ],
+      "relevant_segment_ids": [
+        "V045_P070_S001_SCENE_002",
+        "V045_P069_S001_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V045_P070_S001_SCENE_002",
+        "V045_P069_S001_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V045_KzYaRBjORWU/V045_P070_S001_SCENE_002.jpg",
+        "keyframes/V045_5YeMx8-mMwY/V045_P069_S001_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P070",
+        "P069"
+      ],
+      "expected_filters": {
+        "season": [
+          "봄"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "walking"
+        ],
+        "scene_elements": [
+          "cherry blossom",
+          "path"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_multi_answer_v2"
+    },
+    {
+      "query_id": "EVAL_EN_02",
+      "language": "en",
+      "theme": "꽃",
+      "query": "A spring path filled with double cherry blossoms that is good for walking",
+      "relevant_source_segment_ids": [
+        "V045_P070_S001",
+        "V045_P069_S001"
+      ],
+      "relevant_segment_ids": [
+        "V045_P070_S001_SCENE_002",
+        "V045_P069_S001_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V045_P070_S001_SCENE_002",
+        "V045_P069_S001_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V045_KzYaRBjORWU/V045_P070_S001_SCENE_002.jpg",
+        "keyframes/V045_5YeMx8-mMwY/V045_P069_S001_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P070",
+        "P069"
+      ],
+      "expected_filters": {
+        "season": [
+          "봄"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "walking"
+        ],
+        "scene_elements": [
+          "cherry blossom",
+          "path"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_multi_answer_v2"
+    },
+    {
+      "query_id": "EVAL_JA_02",
+      "language": "ja",
+      "theme": "꽃",
+      "query": "春に八重桜が咲き誇る散策に良い道",
+      "relevant_source_segment_ids": [
+        "V045_P070_S001",
+        "V045_P069_S001"
+      ],
+      "relevant_segment_ids": [
+        "V045_P070_S001_SCENE_002",
+        "V045_P069_S001_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V045_P070_S001_SCENE_002",
+        "V045_P069_S001_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V045_KzYaRBjORWU/V045_P070_S001_SCENE_002.jpg",
+        "keyframes/V045_5YeMx8-mMwY/V045_P069_S001_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P070",
+        "P069"
+      ],
+      "expected_filters": {
+        "season": [
+          "봄"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "walking"
+        ],
+        "scene_elements": [
+          "cherry blossom",
+          "path"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_multi_answer_v2"
+    },
+    {
+      "query_id": "EVAL_ZH_02",
+      "language": "zh",
+      "theme": "꽃",
+      "query": "春天开满重瓣樱花、适合散步的小路",
+      "relevant_source_segment_ids": [
+        "V045_P070_S001",
+        "V045_P069_S001"
+      ],
+      "relevant_segment_ids": [
+        "V045_P070_S001_SCENE_002",
+        "V045_P069_S001_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V045_P070_S001_SCENE_002",
+        "V045_P069_S001_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V045_KzYaRBjORWU/V045_P070_S001_SCENE_002.jpg",
+        "keyframes/V045_5YeMx8-mMwY/V045_P069_S001_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P070",
+        "P069"
+      ],
+      "expected_filters": {
+        "season": [
+          "봄"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "walking"
+        ],
+        "scene_elements": [
+          "cherry blossom",
+          "path"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_multi_answer_v2"
+    },
+    {
+      "query_id": "EVAL_KO_03",
+      "language": "ko",
+      "theme": "단풍",
+      "query": "가을 단풍이 가득한 숲길을 연인이 걷는 장면",
+      "relevant_source_segment_ids": [
+        "V003_P006_S002"
+      ],
+      "relevant_segment_ids": [
+        "V003_P006_S002_SCENE_003"
+      ],
+      "relevant_keyframe_ids": [
+        "V003_P006_S002_SCENE_003"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V003_cbINxfGIbKU/V003_P006_S002_SCENE_003.jpg"
+      ],
+      "relevant_place_ids": [
+        "P006"
+      ],
+      "expected_filters": {
+        "season": [
+          "가을"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "walking"
+        ],
+        "scene_elements": [
+          "autumn leaves",
+          "forest",
+          "path"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_EN_03",
+      "language": "en",
+      "theme": "단풍",
+      "query": "A couple walking on a forest path full of autumn foliage",
+      "relevant_source_segment_ids": [
+        "V003_P006_S002"
+      ],
+      "relevant_segment_ids": [
+        "V003_P006_S002_SCENE_003"
+      ],
+      "relevant_keyframe_ids": [
+        "V003_P006_S002_SCENE_003"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V003_cbINxfGIbKU/V003_P006_S002_SCENE_003.jpg"
+      ],
+      "relevant_place_ids": [
+        "P006"
+      ],
+      "expected_filters": {
+        "season": [
+          "가을"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "walking"
+        ],
+        "scene_elements": [
+          "autumn leaves",
+          "forest",
+          "path"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_JA_03",
+      "language": "ja",
+      "theme": "단풍",
+      "query": "秋の紅葉に包まれた森の小道をカップルが歩く場面",
+      "relevant_source_segment_ids": [
+        "V003_P006_S002"
+      ],
+      "relevant_segment_ids": [
+        "V003_P006_S002_SCENE_003"
+      ],
+      "relevant_keyframe_ids": [
+        "V003_P006_S002_SCENE_003"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V003_cbINxfGIbKU/V003_P006_S002_SCENE_003.jpg"
+      ],
+      "relevant_place_ids": [
+        "P006"
+      ],
+      "expected_filters": {
+        "season": [
+          "가을"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "walking"
+        ],
+        "scene_elements": [
+          "autumn leaves",
+          "forest",
+          "path"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_ZH_03",
+      "language": "zh",
+      "theme": "단풍",
+      "query": "一对情侣走在满是秋叶的森林小路上",
+      "relevant_source_segment_ids": [
+        "V003_P006_S002"
+      ],
+      "relevant_segment_ids": [
+        "V003_P006_S002_SCENE_003"
+      ],
+      "relevant_keyframe_ids": [
+        "V003_P006_S002_SCENE_003"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V003_cbINxfGIbKU/V003_P006_S002_SCENE_003.jpg"
+      ],
+      "relevant_place_ids": [
+        "P006"
+      ],
+      "expected_filters": {
+        "season": [
+          "가을"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "walking"
+        ],
+        "scene_elements": [
+          "autumn leaves",
+          "forest",
+          "path"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_KO_04",
+      "language": "ko",
+      "theme": "전통",
+      "query": "푸른 나무에 둘러싸인 전통 한옥마을 풍경",
+      "relevant_source_segment_ids": [
+        "V053_P075_S001"
+      ],
+      "relevant_segment_ids": [
+        "V053_P075_S001_SCENE_002"
+      ],
+      "relevant_keyframe_ids": [
+        "V053_P075_S001_SCENE_002"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_002.jpg"
+      ],
+      "relevant_place_ids": [
+        "P075"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "scene_elements": [
+          "hanok",
+          "traditional village",
+          "trees"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_EN_04",
+      "language": "en",
+      "theme": "전통",
+      "query": "A traditional hanok village surrounded by lush green trees",
+      "relevant_source_segment_ids": [
+        "V053_P075_S001"
+      ],
+      "relevant_segment_ids": [
+        "V053_P075_S001_SCENE_002"
+      ],
+      "relevant_keyframe_ids": [
+        "V053_P075_S001_SCENE_002"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_002.jpg"
+      ],
+      "relevant_place_ids": [
+        "P075"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "scene_elements": [
+          "hanok",
+          "traditional village",
+          "trees"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_JA_04",
+      "language": "ja",
+      "theme": "전통",
+      "query": "緑豊かな木々に囲まれた伝統的な韓屋村の風景",
+      "relevant_source_segment_ids": [
+        "V053_P075_S001"
+      ],
+      "relevant_segment_ids": [
+        "V053_P075_S001_SCENE_002"
+      ],
+      "relevant_keyframe_ids": [
+        "V053_P075_S001_SCENE_002"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_002.jpg"
+      ],
+      "relevant_place_ids": [
+        "P075"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "scene_elements": [
+          "hanok",
+          "traditional village",
+          "trees"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_ZH_04",
+      "language": "zh",
+      "theme": "전통",
+      "query": "被茂密绿树环绕的传统韩屋村景色",
+      "relevant_source_segment_ids": [
+        "V053_P075_S001"
+      ],
+      "relevant_segment_ids": [
+        "V053_P075_S001_SCENE_002"
+      ],
+      "relevant_keyframe_ids": [
+        "V053_P075_S001_SCENE_002"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V053_Dw1hu5ADanI/V053_P075_S001_SCENE_002.jpg"
+      ],
+      "relevant_place_ids": [
+        "P075"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "scene_elements": [
+          "hanok",
+          "traditional village",
+          "trees"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_KO_05",
+      "language": "ko",
+      "theme": "들판",
+      "query": "봄에 넓은 노란 꽃밭과 멀리 산이 보이는 평화로운 장면",
+      "relevant_source_segment_ids": [
+        "V002_P004_S002"
+      ],
+      "relevant_segment_ids": [
+        "V002_P004_S002_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V002_P004_S002_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V002_rFJT5hNx2AQ/V002_P004_S002_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P004"
+      ],
+      "expected_filters": {
+        "season": [
+          "봄"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "peaceful"
+        ],
+        "scene_elements": [
+          "flower field",
+          "mountains"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_EN_05",
+      "language": "en",
+      "theme": "들판",
+      "query": "A peaceful spring scene with a wide yellow flower field and distant mountains",
+      "relevant_source_segment_ids": [
+        "V002_P004_S002"
+      ],
+      "relevant_segment_ids": [
+        "V002_P004_S002_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V002_P004_S002_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V002_rFJT5hNx2AQ/V002_P004_S002_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P004"
+      ],
+      "expected_filters": {
+        "season": [
+          "봄"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "peaceful"
+        ],
+        "scene_elements": [
+          "flower field",
+          "mountains"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_JA_05",
+      "language": "ja",
+      "theme": "들판",
+      "query": "春、広い黄色い花畑と遠くの山が見える穏やかな風景",
+      "relevant_source_segment_ids": [
+        "V002_P004_S002"
+      ],
+      "relevant_segment_ids": [
+        "V002_P004_S002_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V002_P004_S002_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V002_rFJT5hNx2AQ/V002_P004_S002_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P004"
+      ],
+      "expected_filters": {
+        "season": [
+          "봄"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "peaceful"
+        ],
+        "scene_elements": [
+          "flower field",
+          "mountains"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_ZH_05",
+      "language": "zh",
+      "theme": "들판",
+      "query": "春天辽阔的黄色花田与远山构成的宁静景色",
+      "relevant_source_segment_ids": [
+        "V002_P004_S002"
+      ],
+      "relevant_segment_ids": [
+        "V002_P004_S002_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V002_P004_S002_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V002_rFJT5hNx2AQ/V002_P004_S002_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P004"
+      ],
+      "expected_filters": {
+        "season": [
+          "봄"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "mood": [
+          "peaceful"
+        ],
+        "scene_elements": [
+          "flower field",
+          "mountains"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_KO_06",
+      "language": "ko",
+      "theme": "등산",
+      "query": "가을에 바위 절벽과 겹겹이 이어진 산을 볼 수 있는 등산 풍경",
+      "relevant_source_segment_ids": [
+        "V040_P061_S001"
+      ],
+      "relevant_segment_ids": [
+        "V040_P061_S001_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V040_P061_S001_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V040_tJ43uFpNJwI/V040_P061_S001_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P061"
+      ],
+      "expected_filters": {
+        "season": [
+          "가을"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "scene_elements": [
+          "mountain",
+          "rocky cliff",
+          "tree"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_EN_06",
+      "language": "en",
+      "theme": "등산",
+      "query": "An autumn mountain view with a rocky cliff and layered peaks for hiking",
+      "relevant_source_segment_ids": [
+        "V040_P061_S001"
+      ],
+      "relevant_segment_ids": [
+        "V040_P061_S001_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V040_P061_S001_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V040_tJ43uFpNJwI/V040_P061_S001_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P061"
+      ],
+      "expected_filters": {
+        "season": [
+          "가을"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "scene_elements": [
+          "mountain",
+          "rocky cliff",
+          "tree"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_JA_06",
+      "language": "ja",
+      "theme": "등산",
+      "query": "秋、岩壁と幾重にも連なる山々を望む登山風景",
+      "relevant_source_segment_ids": [
+        "V040_P061_S001"
+      ],
+      "relevant_segment_ids": [
+        "V040_P061_S001_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V040_P061_S001_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V040_tJ43uFpNJwI/V040_P061_S001_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P061"
+      ],
+      "expected_filters": {
+        "season": [
+          "가을"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "scene_elements": [
+          "mountain",
+          "rocky cliff",
+          "tree"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_ZH_06",
+      "language": "zh",
+      "theme": "등산",
+      "query": "秋天可见岩石峭壁和层叠山峰的登山景色",
+      "relevant_source_segment_ids": [
+        "V040_P061_S001"
+      ],
+      "relevant_segment_ids": [
+        "V040_P061_S001_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V040_P061_S001_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V040_tJ43uFpNJwI/V040_P061_S001_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P061"
+      ],
+      "expected_filters": {
+        "season": [
+          "가을"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "scene_elements": [
+          "mountain",
+          "rocky cliff",
+          "tree"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_KO_07",
+      "language": "ko",
+      "theme": "숲",
+      "query": "겨울 눈 덮인 자작나무 숲길을 걷는 장면",
+      "relevant_source_segment_ids": [
+        "V036_P059_S001"
+      ],
+      "relevant_segment_ids": [
+        "V036_P059_S001_SCENE_008"
+      ],
+      "relevant_keyframe_ids": [
+        "V036_P059_S001_SCENE_008"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V036_kuk4mdMZtZc/V036_P059_S001_SCENE_008.jpg"
+      ],
+      "relevant_place_ids": [
+        "P059"
+      ],
+      "expected_filters": {
+        "season": [
+          "겨울"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "walking"
+        ],
+        "scene_elements": [
+          "birch trees",
+          "snow",
+          "forest path"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_EN_07",
+      "language": "en",
+      "theme": "숲",
+      "query": "People walking along a snowy birch forest path in winter",
+      "relevant_source_segment_ids": [
+        "V036_P059_S001"
+      ],
+      "relevant_segment_ids": [
+        "V036_P059_S001_SCENE_008"
+      ],
+      "relevant_keyframe_ids": [
+        "V036_P059_S001_SCENE_008"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V036_kuk4mdMZtZc/V036_P059_S001_SCENE_008.jpg"
+      ],
+      "relevant_place_ids": [
+        "P059"
+      ],
+      "expected_filters": {
+        "season": [
+          "겨울"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "walking"
+        ],
+        "scene_elements": [
+          "birch trees",
+          "snow",
+          "forest path"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_JA_07",
+      "language": "ja",
+      "theme": "숲",
+      "query": "冬、雪に覆われた白樺の森の小道を歩く場面",
+      "relevant_source_segment_ids": [
+        "V036_P059_S001"
+      ],
+      "relevant_segment_ids": [
+        "V036_P059_S001_SCENE_008"
+      ],
+      "relevant_keyframe_ids": [
+        "V036_P059_S001_SCENE_008"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V036_kuk4mdMZtZc/V036_P059_S001_SCENE_008.jpg"
+      ],
+      "relevant_place_ids": [
+        "P059"
+      ],
+      "expected_filters": {
+        "season": [
+          "겨울"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "walking"
+        ],
+        "scene_elements": [
+          "birch trees",
+          "snow",
+          "forest path"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_ZH_07",
+      "language": "zh",
+      "theme": "숲",
+      "query": "冬天人们走在积雪覆盖的白桦林小路上",
+      "relevant_source_segment_ids": [
+        "V036_P059_S001"
+      ],
+      "relevant_segment_ids": [
+        "V036_P059_S001_SCENE_008"
+      ],
+      "relevant_keyframe_ids": [
+        "V036_P059_S001_SCENE_008"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V036_kuk4mdMZtZc/V036_P059_S001_SCENE_008.jpg"
+      ],
+      "relevant_place_ids": [
+        "P059"
+      ],
+      "expected_filters": {
+        "season": [
+          "겨울"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "walking"
+        ],
+        "scene_elements": [
+          "birch trees",
+          "snow",
+          "forest path"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_KO_08",
+      "language": "ko",
+      "theme": "드라이브",
+      "query": "봄 벚꽃길을 자동차로 드라이브하는 장면",
+      "relevant_source_segment_ids": [
+        "V062_P083_S001"
+      ],
+      "relevant_segment_ids": [
+        "V062_P083_S001_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V062_P083_S001_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V062_Q8rcwJ2I5GM/V062_P083_S001_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P083"
+      ],
+      "expected_filters": {
+        "season": [
+          "봄"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "driving"
+        ],
+        "scene_elements": [
+          "car",
+          "road",
+          "cherry blossom"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_EN_08",
+      "language": "en",
+      "theme": "드라이브",
+      "query": "A car driving along a cherry blossom road in spring",
+      "relevant_source_segment_ids": [
+        "V062_P083_S001"
+      ],
+      "relevant_segment_ids": [
+        "V062_P083_S001_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V062_P083_S001_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V062_Q8rcwJ2I5GM/V062_P083_S001_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P083"
+      ],
+      "expected_filters": {
+        "season": [
+          "봄"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "driving"
+        ],
+        "scene_elements": [
+          "car",
+          "road",
+          "cherry blossom"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_JA_08",
+      "language": "ja",
+      "theme": "드라이브",
+      "query": "春、桜並木の道を車でドライブする場面",
+      "relevant_source_segment_ids": [
+        "V062_P083_S001"
+      ],
+      "relevant_segment_ids": [
+        "V062_P083_S001_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V062_P083_S001_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V062_Q8rcwJ2I5GM/V062_P083_S001_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P083"
+      ],
+      "expected_filters": {
+        "season": [
+          "봄"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "driving"
+        ],
+        "scene_elements": [
+          "car",
+          "road",
+          "cherry blossom"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_ZH_08",
+      "language": "zh",
+      "theme": "드라이브",
+      "query": "春天汽车行驶在樱花道路上的场景",
+      "relevant_source_segment_ids": [
+        "V062_P083_S001"
+      ],
+      "relevant_segment_ids": [
+        "V062_P083_S001_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V062_P083_S001_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V062_Q8rcwJ2I5GM/V062_P083_S001_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P083"
+      ],
+      "expected_filters": {
+        "season": [
+          "봄"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "driving"
+        ],
+        "scene_elements": [
+          "car",
+          "road",
+          "cherry blossom"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_KO_09",
+      "language": "ko",
+      "theme": "바다",
+      "query": "겨울 맑은 날 연인이 해변에서 바다 사진을 찍는 장면",
+      "relevant_source_segment_ids": [
+        "V021_P048_S001"
+      ],
+      "relevant_segment_ids": [
+        "V021_P048_S001_SCENE_004"
+      ],
+      "relevant_keyframe_ids": [
+        "V021_P048_S001_SCENE_004"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V021_6Fowfd9CIoM/V021_P048_S001_SCENE_004.jpg"
+      ],
+      "relevant_place_ids": [
+        "P048"
+      ],
+      "expected_filters": {
+        "season": [
+          "겨울"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "taking photos"
+        ],
+        "scene_elements": [
+          "beach",
+          "ocean"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_EN_09",
+      "language": "en",
+      "theme": "바다",
+      "query": "A couple taking photos of the ocean on a beach during a clear winter day",
+      "relevant_source_segment_ids": [
+        "V021_P048_S001"
+      ],
+      "relevant_segment_ids": [
+        "V021_P048_S001_SCENE_004"
+      ],
+      "relevant_keyframe_ids": [
+        "V021_P048_S001_SCENE_004"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V021_6Fowfd9CIoM/V021_P048_S001_SCENE_004.jpg"
+      ],
+      "relevant_place_ids": [
+        "P048"
+      ],
+      "expected_filters": {
+        "season": [
+          "겨울"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "taking photos"
+        ],
+        "scene_elements": [
+          "beach",
+          "ocean"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_JA_09",
+      "language": "ja",
+      "theme": "바다",
+      "query": "冬の晴れた日にカップルが海辺で海の写真を撮る場面",
+      "relevant_source_segment_ids": [
+        "V021_P048_S001"
+      ],
+      "relevant_segment_ids": [
+        "V021_P048_S001_SCENE_004"
+      ],
+      "relevant_keyframe_ids": [
+        "V021_P048_S001_SCENE_004"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V021_6Fowfd9CIoM/V021_P048_S001_SCENE_004.jpg"
+      ],
+      "relevant_place_ids": [
+        "P048"
+      ],
+      "expected_filters": {
+        "season": [
+          "겨울"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "taking photos"
+        ],
+        "scene_elements": [
+          "beach",
+          "ocean"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_ZH_09",
+      "language": "zh",
+      "theme": "바다",
+      "query": "冬日晴天里情侣在海滩拍摄大海的场景",
+      "relevant_source_segment_ids": [
+        "V021_P048_S001"
+      ],
+      "relevant_segment_ids": [
+        "V021_P048_S001_SCENE_004"
+      ],
+      "relevant_keyframe_ids": [
+        "V021_P048_S001_SCENE_004"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V021_6Fowfd9CIoM/V021_P048_S001_SCENE_004.jpg"
+      ],
+      "relevant_place_ids": [
+        "P048"
+      ],
+      "expected_filters": {
+        "season": [
+          "겨울"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "activity": [
+          "taking photos"
+        ],
+        "scene_elements": [
+          "beach",
+          "ocean"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_KO_10",
+      "language": "ko",
+      "theme": "폭포·자연",
+      "query": "여름 울창한 숲속의 맑은 폭포와 물웅덩이 풍경",
+      "relevant_source_segment_ids": [
+        "V037_P060_S001"
+      ],
+      "relevant_segment_ids": [
+        "V037_P060_S001_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V037_P060_S001_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V037_m92D4ZVzQeM/V037_P060_S001_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P060"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "scene_elements": [
+          "waterfall",
+          "forest",
+          "pool"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_EN_10",
+      "language": "en",
+      "theme": "폭포·자연",
+      "query": "A clear waterfall and pool in a lush summer forest",
+      "relevant_source_segment_ids": [
+        "V037_P060_S001"
+      ],
+      "relevant_segment_ids": [
+        "V037_P060_S001_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V037_P060_S001_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V037_m92D4ZVzQeM/V037_P060_S001_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P060"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "scene_elements": [
+          "waterfall",
+          "forest",
+          "pool"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_JA_10",
+      "language": "ja",
+      "theme": "폭포·자연",
+      "query": "夏、緑豊かな森の中にある澄んだ滝と滝つぼの風景",
+      "relevant_source_segment_ids": [
+        "V037_P060_S001"
+      ],
+      "relevant_segment_ids": [
+        "V037_P060_S001_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V037_P060_S001_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V037_m92D4ZVzQeM/V037_P060_S001_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P060"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "scene_elements": [
+          "waterfall",
+          "forest",
+          "pool"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    },
+    {
+      "query_id": "EVAL_ZH_10",
+      "language": "zh",
+      "theme": "폭포·자연",
+      "query": "夏日茂密森林中的清澈瀑布与水潭景色",
+      "relevant_source_segment_ids": [
+        "V037_P060_S001"
+      ],
+      "relevant_segment_ids": [
+        "V037_P060_S001_SCENE_001"
+      ],
+      "relevant_keyframe_ids": [
+        "V037_P060_S001_SCENE_001"
+      ],
+      "relevant_keyframe_paths": [
+        "keyframes/V037_m92D4ZVzQeM/V037_P060_S001_SCENE_001.jpg"
+      ],
+      "relevant_place_ids": [
+        "P060"
+      ],
+      "expected_filters": {
+        "season": [
+          "여름"
+        ],
+        "time_of_day": [
+          "day"
+        ]
+      },
+      "expected_soft_hints": {
+        "scene_elements": [
+          "waterfall",
+          "forest",
+          "pool"
+        ]
+      },
+      "review_status": "metadata_and_keyframe_ground_truth_draft"
+    }
+  ],
+  "revision": {
+    "version": "flower_multi_answer_v2",
+    "reason": "Treat the verified Nami Island cherry-blossom walking scene as an acceptable answer alongside the double-cherry-blossom scene.",
+    "changed_query_ids": [
+      "EVAL_EN_02",
+      "EVAL_JA_02",
+      "EVAL_KO_02",
+      "EVAL_ZH_02"
+    ],
+    "alternative_answer": {
+      "source_segment_id": "V045_P069_S001",
+      "segment_id": "V045_P069_S001_SCENE_001",
+      "keyframe_id": "V045_P069_S001_SCENE_001",
+      "keyframe_path": "keyframes/V045_5YeMx8-mMwY/V045_P069_S001_SCENE_001.jpg",
+      "place_id": "P069"
+    }
+  }
+}

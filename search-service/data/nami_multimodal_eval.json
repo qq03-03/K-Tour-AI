@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "description": "남이섬 10개 실제 구간의 4개 언어 멀티모달 검색 평가셋",
+  "ground_truth_status": "대표 프레임과 메타데이터를 기준으로 수작업 작성한 테스트 정답이며 최종 평가는 팀 검수 필요",
+  "queries": [
+    {
+      "query_id": "MM_KO_HYDRANGEA",
+      "language": "ko",
+      "query": "남이섬의 평화로운 여름 수국 숲길",
+      "relevant_segment_ids": ["SEG_NAMI_01_02", "SEG_NAMI_02_03"]
+    },
+    {
+      "query_id": "MM_EN_HYDRANGEA",
+      "language": "en",
+      "query": "A peaceful summer hydrangea path on Nami Island",
+      "relevant_segment_ids": ["SEG_NAMI_01_02", "SEG_NAMI_02_03"]
+    },
+    {
+      "query_id": "MM_JA_HYDRANGEA",
+      "language": "ja",
+      "query": "南怡島の穏やかな夏のアジサイの小道",
+      "relevant_segment_ids": ["SEG_NAMI_01_02", "SEG_NAMI_02_03"]
+    },
+    {
+      "query_id": "MM_ZH_HYDRANGEA",
+      "language": "zh",
+      "query": "南怡岛宁静的夏季绣球花小路",
+      "relevant_segment_ids": ["SEG_NAMI_01_02", "SEG_NAMI_02_03"]
+    },
+    {
+      "query_id": "MM_KO_RABBIT",
+      "language": "ko",
+      "query": "남이섬에서 나뭇잎을 먹는 귀여운 토끼",
+      "relevant_segment_ids": ["SEG_NAMI_01_03"]
+    },
+    {
+      "query_id": "MM_EN_RABBIT",
+      "language": "en",
+      "query": "A cute rabbit eating leaves on Nami Island",
+      "relevant_segment_ids": ["SEG_NAMI_01_03"]
+    },
+    {
+      "query_id": "MM_JA_RABBIT",
+      "language": "ja",
+      "query": "南怡島で葉を食べるかわいいウサギ",
+      "relevant_segment_ids": ["SEG_NAMI_01_03"]
+    },
+    {
+      "query_id": "MM_ZH_RABBIT",
+      "language": "zh",
+      "query": "南怡岛上吃树叶的可爱兔子",
+      "relevant_segment_ids": ["SEG_NAMI_01_03"]
+    },
+    {
+      "query_id": "MM_KO_LOTUS_DUCK",
+      "language": "ko",
+      "query": "남이섬 연꽃 연못에서 헤엄치는 오리",
+      "relevant_segment_ids": ["SEG_NAMI_03_02"]
+    },
+    {
+      "query_id": "MM_EN_LOTUS_DUCK",
+      "language": "en",
+      "query": "Ducks swimming in a lotus pond on Nami Island",
+      "relevant_segment_ids": ["SEG_NAMI_03_02"]
+    },
+    {
+      "query_id": "MM_JA_LOTUS_DUCK",
+      "language": "ja",
+      "query": "南怡島の蓮池で泳ぐアヒル",
+      "relevant_segment_ids": ["SEG_NAMI_03_02"]
+    },
+    {
+      "query_id": "MM_ZH_LOTUS_DUCK",
+      "language": "zh",
+      "query": "南怡岛荷花池里游泳的鸭子",
+      "relevant_segment_ids": ["SEG_NAMI_03_02"]
+    }
+  ]
+}

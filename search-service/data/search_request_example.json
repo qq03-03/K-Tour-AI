@@ -1,0 +1,10 @@
+{
+  "q": "강원도의 평화로운 겨울 숲길을 걷는 장면",
+  "lang": "ko",
+  "theme": ["forest"],
+  "region": ["강원특별자치도"],
+  "season": ["겨울"],
+  "time_of_day": ["day"],
+  "top_k": 5,
+  "candidate_k": 50
+}
