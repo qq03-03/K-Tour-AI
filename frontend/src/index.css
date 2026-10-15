@@ -1,0 +1,115 @@
+@import 'pretendard/dist/web/variable/pretendardvariable.css';
+
+:root {
+  --color-primary: #2563EB;
+  --color-accent: #14B8A6;
+  --color-bg: #F8FAFC;
+  --color-text: #1e293b;
+  --color-text-muted: #64748b;
+  --radius-card: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Pretendard', -apple-system, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Detail page: photo and map render as two matching cards (same radius,
+   shadow, and height) below the description, stacked on mobile and side
+   by side on wider screens so they're easy to compare at a glance. */
+.detail-media-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 0 24px 24px;
+}
+
+.detail-media-row__image {
+  aspect-ratio: 1 / 1;
+  /* .detail-media-row sets align-items: stretch for the two-column desktop
+     layout, which fights aspect-ratio for this item's height (stretch
+     wants to fill the row; aspect-ratio wants width/1). Opting this one
+     item out of stretch lets aspect-ratio win, so it always stays square
+     regardless of how tall the map card next to it happens to be. */
+  align-self: start;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, .05);
+}
+
+/* The map canvas itself (below the card's heading) squares off to match
+   the photo beside it -- KakaoMap's fillHeight prop makes it fill this
+   instead of using its own fixed pixel height. */
+.detail-media-row__map-canvas {
+  aspect-ratio: 1 / 1;
+}
+
+@media (min-width: 900px) {
+  .detail-media-row {
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+  }
+}
+
+/* The on-page "☰ 검색 조건" toggle button is mobile's way into the filter
+   panel. Desktop reaches the same panel through the header's hamburger
+   menu instead (see .desktop-only-menu-item below and Header.jsx), so the
+   on-page button would just be a redundant second entry point there. */
+.mobile-only-filter-toggle {
+  display: block;
+}
+
+@media (min-width: 900px) {
+  .mobile-only-filter-toggle {
+    display: none;
+  }
+}
+
+/* The header's "검색 조건" hamburger-menu link opens the search filter
+   panel -- desktop-only, since mobile already has the dedicated on-page
+   toggle button above (.mobile-only-filter-toggle in SearchResults.jsx). */
+.desktop-only-menu-item {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .desktop-only-menu-item {
+    display: block;
+  }
+}
+
+/* Drama browsing's trailer panel: on mobile there's no room for the
+   trailer info and the location list side by side, so they stack in a
+   single column (trailer first, matching DOM order, then the list) --
+   two columns only from 900px up. */
+.trailer-panel-row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.trailer-panel-row__info {
+  flex: 1;
+}
+
+@media (min-width: 900px) {
+  .trailer-panel-row {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .trailer-panel-row__info {
+    flex: 0 0 280px;
+  }
+}
